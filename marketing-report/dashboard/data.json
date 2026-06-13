@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T15:58:17.290Z",
+  "generatedAt": "2026-06-13T16:15:19.167Z",
   "period": {
     "days": 30,
     "fromDate": "2026-05-14",
@@ -379,16 +379,16 @@
     }
   },
   "sales": {
-    "totalRevenue": 4019885558,
-    "salesCount": 7955,
-    "aov": 505328,
+    "totalRevenue": 4020755558,
+    "salesCount": 7957,
+    "aov": 505310,
     "byType": {
-      "Cửa hàng": 2836810308,
+      "Cửa hàng": 2837680308,
       "Online": 1176100450,
       "Sỉ": 6974800
     },
     "byBrand": {
-      "Bemori": 3948632558,
+      "Bemori": 3949502558,
       "Teddy": 71253000
     },
     "byStore": [
@@ -402,7 +402,7 @@
       },
       {
         "name": "Bemori 228 Lê Văn Sỹ",
-        "rev": 432026750
+        "rev": 432571750
       },
       {
         "name": "Bemori 162B Nguyễn Gia Trí",
@@ -414,7 +414,7 @@
       },
       {
         "name": "Bemori 1028 Đường Láng",
-        "rev": 361269250
+        "rev": 361594250
       },
       {
         "name": "Bemori 275 Bạch Mai",
@@ -560,7 +560,7 @@
       },
       {
         "day": "2026-06-13",
-        "rev": 116983500
+        "rev": 117853500
       }
     ],
     "onlinePct": 29,
