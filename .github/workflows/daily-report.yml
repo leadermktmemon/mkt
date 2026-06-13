@@ -26,8 +26,8 @@ jobs:
           printf '%s' "$NHANH_CONFIG" > nhanh.config.json
           printf '%s' "$LARK_CONFIG" > marketing-report/config.json
 
-      - name: Tổng hợp dữ liệu nhanh.vn (30 ngày)
-        run: node marketing-report/dashboard/build-data.mjs 30
+      - name: Tổng hợp dữ liệu nhanh.vn (tới 365 ngày)
+        run: node marketing-report/dashboard/build-data.mjs 365
 
       - name: Gửi thẻ KPI vào Lark
         run: node marketing-report/send-lark.mjs

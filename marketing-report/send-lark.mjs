@@ -27,9 +27,11 @@ for (const c of M.channels) {
 }
 chTable += "```";
 
+const B = D.brands || {};
 const sales =
   `**🏬 TOÀN HỆ THỐNG**\n` +
   `• Tổng doanh thu: **${vnd(S.totalRevenue)}**  (Cửa hàng ${S.storePct}% · Online ${S.onlinePct}%)\n` +
+  `• Bemori (online+cửa hàng): **${vnd(B.Bemori||0)}**  •  Memon (B2B/sỉ): **${vnd(B.Memon||0)}**\n` +
   `• Số hóa đơn: ${S.salesCount.toLocaleString("vi-VN")}`;
 
 const pending = `⏳ _ROAS/CPA theo kênh sẽ có khi nối Meta/Google/TikTok Ads._`;
