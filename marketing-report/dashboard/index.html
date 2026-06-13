@@ -20,6 +20,12 @@
   .seg button.on{background:var(--blue);color:#fff;font-weight:600;}
   .seg.brand button.on{background:#111827;}
   .seg .lbl{padding:8px 10px;font-size:12px;color:var(--muted);border-right:1px solid var(--line);align-self:center;}
+  .logoimg{height:42px;width:auto;display:block;}
+  .logotext{font-size:26px;font-weight:700;color:#1CA9D8;letter-spacing:-0.5px;}
+  .ctl{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:4px 10px;}
+  .ctl .lbl{font-size:12px;color:var(--muted);}
+  select,input[type=date]{font-family:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer;}
+  select{border:0;padding:6px 4px;font-weight:600;}
   .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:14px;margin-bottom:18px;}
   .kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;}
   .kpi.accent{border-color:var(--blue);border-width:2px;}
@@ -46,9 +52,11 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="brand"><div class="logo">B</div>
-      <div><h1>Bemori &amp; Memon · Dashboard</h1><div class="sub" id="sub">Đang tải…</div></div>
+    <div class="brand">
+      <img src="logo.png" alt="Memon" class="logoimg" onerror="this.outerHTML='<span class=\'logotext\'>Memon</span>'">
+      <h1 style="margin-left:4px;">Dashboard</h1>
     </div>
+    <div class="sub" id="sub"></div>
   </header>
 
   <div class="controls">
@@ -58,14 +66,20 @@
       <button data-b="Bemori">Bemori</button>
       <button data-b="Memon">Memon (B2B)</button>
     </div>
-    <div class="seg" id="segPeriod">
+    <div class="ctl">
       <span class="lbl">Kỳ</span>
-      <button data-p="today">Hôm nay</button>
-      <button data-p="7">7 ngày</button>
-      <button data-p="30" class="on">30 ngày</button>
-      <button data-p="month">Tháng này</button>
-      <button data-p="90">90 ngày</button>
-      <button data-p="365">1 năm</button>
+      <select id="periodSel">
+        <option value="today">Hôm nay</option>
+        <option value="7">7 ngày qua</option>
+        <option value="30" selected>30 ngày qua</option>
+        <option value="month">Tháng này</option>
+        <option value="90">90 ngày qua</option>
+        <option value="365">1 năm qua</option>
+        <option value="custom">Chọn ngày…</option>
+      </select>
+      <span id="customRange" style="display:none;align-items:center;gap:6px;">
+        <input type="date" id="dFrom"> <span style="color:var(--muted);">→</span> <input type="date" id="dTo">
+      </span>
     </div>
     <div class="seg" id="segGran">
       <span class="lbl">Gộp</span>
@@ -118,12 +132,13 @@
   Chart.defaults.color='#6b7280'; Chart.defaults.font.family='inherit'; var grid='rgba(0,0,0,0.06)';
   var BRAND_TYPES={all:['Online','Cửa hàng','Sỉ'],Bemori:['Online','Cửa hàng'],Memon:['Sỉ']};
 
-  var brand='all', period='30', gran='day', charts={};
+  var brand='all', period='30', gran='day', cFrom=null, cTo=null, charts={};
 
   function sliceFor(p){ var d=D.daily; if(!d.length)return [];
     if(p==='today')return d.slice(-1); if(p==='7')return d.slice(-7); if(p==='30')return d.slice(-30);
     if(p==='90')return d.slice(-90); if(p==='365')return d.slice(-365);
     if(p==='month'){var m=d[d.length-1].day.slice(0,7);return d.filter(function(x){return x.day.slice(0,7)===m;});}
+    if(p==='custom'){return d.filter(function(x){return (!cFrom||x.day>=cFrom)&&(!cTo||x.day<=cTo);});}
     return d; }
 
   function agg(slice){
@@ -236,11 +251,24 @@
   function bindSeg(id,attr,setter){ document.getElementById(id).addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;
     this.querySelectorAll('button').forEach(function(x){x.classList.remove('on');});b.classList.add('on');setter(b.getAttribute(attr));render();});}
   bindSeg('segBrand','data-b',function(v){brand=v;});
-  bindSeg('segPeriod','data-p',function(v){period=v;});
   bindSeg('segGran','data-g',function(v){gran=v;});
 
-  document.getElementById('sub').textContent='Nguồn: nhanh.vn · '+D.daily.length+' ngày dữ liệu';
-  document.getElementById('foot').textContent='Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN')+' · '+D.period.fromDate+' → '+D.period.toDate;
+  // Kỳ: dropdown + lịch chọn ngày
+  var fromI=document.getElementById('dFrom'), toI=document.getElementById('dTo'), cr=document.getElementById('customRange');
+  var minD=D.daily[0]?D.daily[0].day:'', maxD=D.daily.length?D.daily[D.daily.length-1].day:'';
+  [fromI,toI].forEach(function(i){ i.min=minD; i.max=maxD; });
+  fromI.value=D.daily.length>30?D.daily[D.daily.length-30].day:minD; toI.value=maxD; cFrom=fromI.value; cTo=toI.value;
+  document.getElementById('periodSel').addEventListener('change',function(){ period=this.value;
+    cr.style.display = period==='custom' ? 'inline-flex' : 'none'; render(); });
+  fromI.addEventListener('change',function(){cFrom=this.value;if(period==='custom')render();});
+  toI.addEventListener('change',function(){cTo=this.value;if(period==='custom')render();});
+
+  function rangeLabel(){ var s=sliceFor(period); if(!s.length)return ''; var a=s[0].day, b=s[s.length-1].day;
+    return a===b ? a.split('-').reverse().join('/') : a.split('-').reverse().join('/')+' → '+b.split('-').reverse().join('/'); }
+  var origRender=render;
+  render=function(){ origRender(); document.getElementById('sub').textContent=rangeLabel(); };
+
+  document.getElementById('foot').textContent='Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN');
   render();
 })();
 </script>
