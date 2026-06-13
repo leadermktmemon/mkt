@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T16:59:28.612Z",
+  "generatedAt": "2026-06-13T17:20:24.039Z",
   "period": {
     "days": 90,
     "fromDate": "2026-03-15",
@@ -31,7 +31,8 @@
       "day": "2026-03-25",
       "salesRev": 0,
       "salesCount": 0,
-      "type": {},
+      "bemori": {},
+      "memonRev": 0,
       "storeRetail": {},
       "mktRev": 1249000,
       "mktOrders": 4,
@@ -46,7 +47,8 @@
       "day": "2026-03-26",
       "salesRev": 0,
       "salesCount": 0,
-      "type": {},
+      "bemori": {},
+      "memonRev": 0,
       "storeRetail": {},
       "mktRev": 574000,
       "mktOrders": 2,
@@ -61,7 +63,8 @@
       "day": "2026-03-27",
       "salesRev": 0,
       "salesCount": 0,
-      "type": {},
+      "bemori": {},
+      "memonRev": 0,
       "storeRetail": {},
       "mktRev": 2002000,
       "mktOrders": 4,
@@ -76,7 +79,8 @@
       "day": "2026-03-28",
       "salesRev": 0,
       "salesCount": 0,
-      "type": {},
+      "bemori": {},
+      "memonRev": 0,
       "storeRetail": {},
       "mktRev": 864000,
       "mktOrders": 3,
@@ -91,7 +95,8 @@
       "day": "2026-03-29",
       "salesRev": 0,
       "salesCount": 0,
-      "type": {},
+      "bemori": {},
+      "memonRev": 0,
       "storeRetail": {},
       "mktRev": 4217000,
       "mktOrders": 13,
@@ -106,7 +111,8 @@
       "day": "2026-03-30",
       "salesRev": 0,
       "salesCount": 0,
-      "type": {},
+      "bemori": {},
+      "memonRev": 0,
       "storeRetail": {},
       "mktRev": 4411000,
       "mktOrders": 19,
@@ -121,7 +127,8 @@
       "day": "2026-03-31",
       "salesRev": 0,
       "salesCount": 0,
-      "type": {},
+      "bemori": {},
+      "memonRev": 0,
       "storeRetail": {},
       "mktRev": 6804000,
       "mktOrders": 15,
@@ -136,11 +143,11 @@
       "day": "2026-04-01",
       "salesRev": 108355210,
       "salesCount": 149,
-      "type": {
+      "bemori": {
         "Cửa hàng": 71243500,
-        "Online": 1695000,
-        "Sỉ": 35416710
+        "Online": 1695000
       },
+      "memonRev": 35416710,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 8850000,
         "Bemori 368 Nguyễn Trãi": 14555000,
@@ -182,11 +189,11 @@
       "day": "2026-04-02",
       "salesRev": 75765350,
       "salesCount": 161,
-      "type": {
+      "bemori": {
         "Online": 2994000,
-        "Cửa hàng": 62948750,
-        "Sỉ": 9822600
+        "Cửa hàng": 62948750
       },
+      "memonRev": 9822600,
       "storeRetail": {
         "Bemori 228 Lê Văn Sỹ": 9708750,
         "Bemori 161 Xuân Thủy": 8326000,
@@ -228,11 +235,11 @@
       "day": "2026-04-03",
       "salesRev": 112995735,
       "salesCount": 184,
-      "type": {
+      "bemori": {
         "Online": 9330250,
-        "Cửa hàng": 68850605,
-        "Sỉ": 34814880
+        "Cửa hàng": 68850605
       },
+      "memonRev": 34814880,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 7296750,
         "Bemori 368 Nguyễn Trãi": 10303355,
@@ -278,11 +285,12 @@
       "day": "2026-04-04",
       "salesRev": 159025750,
       "salesCount": 274,
-      "type": {
+      "bemori": {
         "Online": 11299000,
         "Cửa hàng": 105363750,
-        "Sỉ": 42363000
+        "Sỉ": 7279200
       },
+      "memonRev": 35083800,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 16192000,
         "Bemori 228 Lê Văn Sỹ": 9965000,
@@ -324,10 +332,11 @@
       "day": "2026-04-05",
       "salesRev": 107931000,
       "salesCount": 250,
-      "type": {
+      "bemori": {
         "Online": 12200000,
         "Cửa hàng": 95731000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 275 Bạch Mai": 11940000,
         "Bemori 1028 Đường Láng": 10025000,
@@ -369,11 +378,11 @@
       "day": "2026-04-06",
       "salesRev": 94617850,
       "salesCount": 171,
-      "type": {
+      "bemori": {
         "Cửa hàng": 53832250,
-        "Online": 20379000,
-        "Sỉ": 20406600
+        "Online": 20379000
       },
+      "memonRev": 20406600,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 6047000,
         "Bemori 1028 Đường Láng": 4090750,
@@ -415,11 +424,12 @@
       "day": "2026-04-07",
       "salesRev": 106132010,
       "salesCount": 161,
-      "type": {
+      "bemori": {
         "Cửa hàng": 64342250,
         "Online": 10878000,
-        "Sỉ": 30911760
+        "Sỉ": 23760
       },
+      "memonRev": 30888000,
       "storeRetail": {
         "Bemori 388 Xã Đàn": 5610000,
         "Bemori 275 Bạch Mai": 9277500,
@@ -465,11 +475,11 @@
       "day": "2026-04-08",
       "salesRev": 127399050,
       "salesCount": 200,
-      "type": {
+      "bemori": {
         "Cửa hàng": 64214750,
-        "Online": 30179500,
-        "Sỉ": 33004800
+        "Online": 30179500
       },
+      "memonRev": 33004800,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 5065000,
         "Bemori 228 Lê Văn Sỹ": 4540750,
@@ -511,10 +521,11 @@
       "day": "2026-04-09",
       "salesRev": 115149250,
       "salesCount": 234,
-      "type": {
+      "bemori": {
         "Online": 57416750,
         "Cửa hàng": 57732500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 6599500,
         "Bemori 104-106 Cầu Giấy": 7458000,
@@ -556,11 +567,11 @@
       "day": "2026-04-10",
       "salesRev": 135739110,
       "salesCount": 232,
-      "type": {
+      "bemori": {
         "Cửa hàng": 79757250,
-        "Online": 21187500,
-        "Sỉ": 34794360
+        "Online": 21187500
       },
+      "memonRev": 34794360,
       "storeRetail": {
         "Bemori 388 Xã Đàn": 8520000,
         "Bemori 104-106 Cầu Giấy": 8490000,
@@ -602,10 +613,11 @@
       "day": "2026-04-11",
       "salesRev": 115443250,
       "salesCount": 261,
-      "type": {
+      "bemori": {
         "Cửa hàng": 92709250,
         "Online": 22734000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 9479000,
         "Bemori 161 Xuân Thủy": 12974750,
@@ -647,10 +659,11 @@
       "day": "2026-04-12",
       "salesRev": 98789000,
       "salesCount": 238,
-      "type": {
+      "bemori": {
         "Cửa hàng": 88256000,
         "Online": 10533000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 8830000,
         "Bemori 162B Nguyễn Gia Trí": 11644000,
@@ -696,10 +709,11 @@
       "day": "2026-04-13",
       "salesRev": 155970000,
       "salesCount": 258,
-      "type": {
+      "bemori": {
         "Cửa hàng": 89586000,
         "Online": 66384000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 5845500,
         "Bemori 104-106 Cầu Giấy": 7057000,
@@ -741,11 +755,11 @@
       "day": "2026-04-14",
       "salesRev": 129525650,
       "salesCount": 202,
-      "type": {
+      "bemori": {
         "Online": 32338000,
-        "Cửa hàng": 63195250,
-        "Sỉ": 33992400
+        "Cửa hàng": 63195250
       },
+      "memonRev": 33992400,
       "storeRetail": {
         "Bemori 411 NVC": 6532000,
         "Bemori 162B Nguyễn Gia Trí": 7572750,
@@ -791,11 +805,12 @@
       "day": "2026-04-15",
       "salesRev": 140878050,
       "salesCount": 189,
-      "type": {
+      "bemori": {
         "Online": 27981500,
         "Cửa hàng": 49840750,
-        "Sỉ": 63055800
+        "Sỉ": 11388600
       },
+      "memonRev": 51667200,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 5505000,
         "Bemori 104-106 Cầu Giấy": 4465250,
@@ -841,11 +856,11 @@
       "day": "2026-04-16",
       "salesRev": 90650000,
       "salesCount": 194,
-      "type": {
+      "bemori": {
         "Online": 21621000,
-        "Cửa hàng": 67760000,
-        "Sỉ": 1269000
+        "Cửa hàng": 67760000
       },
+      "memonRev": 1269000,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 9192000,
         "Bemori 161 Xuân Thủy": 12610000,
@@ -887,11 +902,12 @@
       "day": "2026-04-17",
       "salesRev": 148696560,
       "salesCount": 247,
-      "type": {
+      "bemori": {
         "Online": 40301500,
         "Cửa hàng": 87813500,
-        "Sỉ": 20581560
+        "Sỉ": 5302800
       },
+      "memonRev": 15278760,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 9401500,
         "Bemori 161 Xuân Thủy": 25159000,
@@ -933,11 +949,12 @@
       "day": "2026-04-18",
       "salesRev": 134753340,
       "salesCount": 242,
-      "type": {
+      "bemori": {
         "Cửa hàng": 95300000,
         "Online": 16748500,
-        "Sỉ": 22704840
+        "Sỉ": 9798840
       },
+      "memonRev": 12906000,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 12770000,
         "Bemori 228 Lê Văn Sỹ": 9118000,
@@ -979,10 +996,11 @@
       "day": "2026-04-19",
       "salesRev": 129148000,
       "salesCount": 273,
-      "type": {
+      "bemori": {
         "Cửa hàng": 92618250,
         "Online": 36529750
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 17086500,
         "Bemori 161 Xuân Thủy": 10369750,
@@ -1024,11 +1042,11 @@
       "day": "2026-04-20",
       "salesRev": 128902040,
       "salesCount": 201,
-      "type": {
+      "bemori": {
         "Online": 28294000,
-        "Cửa hàng": 62517250,
-        "Sỉ": 38090790
+        "Cửa hàng": 62517250
       },
+      "memonRev": 38090790,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 5088000,
         "Bemori 368 Nguyễn Trãi": 11204500,
@@ -1070,11 +1088,12 @@
       "day": "2026-04-21",
       "salesRev": 124063780,
       "salesCount": 181,
-      "type": {
+      "bemori": {
         "Online": 32649750,
         "Cửa hàng": 56674750,
-        "Sỉ": 34739280
+        "Sỉ": 2057400
       },
+      "memonRev": 32681880,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 7079750,
         "Bemori 1028 Đường Láng": 3959000,
@@ -1116,11 +1135,12 @@
       "day": "2026-04-22",
       "salesRev": 128112560,
       "salesCount": 194,
-      "type": {
+      "bemori": {
         "Cửa hàng": 67024000,
         "Online": 14560000,
-        "Sỉ": 46528560
+        "Sỉ": 10308600
       },
+      "memonRev": 36219960,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 10100000,
         "Bemori 104-106 Cầu Giấy": 6823000,
@@ -1162,11 +1182,11 @@
       "day": "2026-04-23",
       "salesRev": 149702100,
       "salesCount": 249,
-      "type": {
+      "bemori": {
         "Cửa hàng": 77470000,
-        "Online": 45966500,
-        "Sỉ": 26265600
+        "Online": 45966500
       },
+      "memonRev": 26265600,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 9497000,
         "Bemori 161 Xuân Thủy": 5476500,
@@ -1212,11 +1232,11 @@
       "day": "2026-04-24",
       "salesRev": 144655570,
       "salesCount": 247,
-      "type": {
+      "bemori": {
         "Online": 33664000,
-        "Cửa hàng": 80949750,
-        "Sỉ": 30041820
+        "Cửa hàng": 80949750
       },
+      "memonRev": 30041820,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 11312500,
         "Bemori 161 Xuân Thủy": 15019000,
@@ -1258,10 +1278,11 @@
       "day": "2026-04-25",
       "salesRev": 98613500,
       "salesCount": 209,
-      "type": {
+      "bemori": {
         "Cửa hàng": 79958500,
         "Online": 18655000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 9401250,
         "Bemori 1028 Đường Láng": 8582750,
@@ -1303,10 +1324,11 @@
       "day": "2026-04-26",
       "salesRev": 100162250,
       "salesCount": 190,
-      "type": {
+      "bemori": {
         "Online": 10909500,
         "Cửa hàng": 89252750
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 228 Lê Văn Sỹ": 8939500,
         "Bemori 1028 Đường Láng": 9305000,
@@ -1348,11 +1370,11 @@
       "day": "2026-04-27",
       "salesRev": 84200200,
       "salesCount": 164,
-      "type": {
+      "bemori": {
         "Cửa hàng": 51760250,
-        "Online": 23513750,
-        "Sỉ": 8926200
+        "Online": 23513750
       },
+      "memonRev": 8926200,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 5424500,
         "Bemori 1028 Đường Láng": 4246500,
@@ -1394,11 +1416,12 @@
       "day": "2026-04-28",
       "salesRev": 81987500,
       "salesCount": 183,
-      "type": {
+      "bemori": {
         "Online": 22153000,
         "Cửa hàng": 59564500,
         "Sỉ": 270000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 5300500,
         "Bemori 411 NVC": 3890000,
@@ -1436,11 +1459,11 @@
       "day": "2026-04-29",
       "salesRev": 157390430,
       "salesCount": 206,
-      "type": {
+      "bemori": {
         "Cửa hàng": 67065000,
-        "Online": 38327750,
-        "Sỉ": 51997680
+        "Online": 38327750
       },
+      "memonRev": 51997680,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 10279500,
         "Bemori 104-106 Cầu Giấy": 7397000,
@@ -1482,10 +1505,11 @@
       "day": "2026-04-30",
       "salesRev": 58401000,
       "salesCount": 126,
-      "type": {
+      "bemori": {
         "Cửa hàng": 47676000,
         "Online": 10725000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 3934000,
         "Bemori 104-106 Cầu Giấy": 4790000,
@@ -1527,10 +1551,11 @@
       "day": "2026-05-01",
       "salesRev": 68205000,
       "salesCount": 145,
-      "type": {
+      "bemori": {
         "Cửa hàng": 51524000,
         "Online": 16681000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 388 Xã Đàn": 4950000,
         "Bemori 228 Lê Văn Sỹ": 7415000,
@@ -1572,10 +1597,11 @@
       "day": "2026-05-02",
       "salesRev": 71875250,
       "salesCount": 158,
-      "type": {
+      "bemori": {
         "Online": 19209500,
         "Cửa hàng": 52665750
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 8098500,
         "Bemori 1028 Đường Láng": 5375000,
@@ -1617,10 +1643,11 @@
       "day": "2026-05-03",
       "salesRev": 67867750,
       "salesCount": 147,
-      "type": {
+      "bemori": {
         "Cửa hàng": 54702250,
         "Online": 13165500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 9151250,
         "Bemori 104-106 Cầu Giấy": 4639000,
@@ -1662,10 +1689,11 @@
       "day": "2026-05-04",
       "salesRev": 111421750,
       "salesCount": 208,
-      "type": {
+      "bemori": {
         "Online": 31579000,
         "Cửa hàng": 79842750
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 8206750,
         "Bemori 388 Xã Đàn": 3935000,
@@ -1708,11 +1736,12 @@
       "day": "2026-05-05",
       "salesRev": 107371749,
       "salesCount": 205,
-      "type": {
+      "bemori": {
         "Online": 35618500,
         "Cửa hàng": 65158089,
         "Sỉ": 6595160
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 9824500,
         "Bemori 162B Nguyễn Gia Trí": 7398500,
@@ -1754,11 +1783,12 @@
       "day": "2026-05-06",
       "salesRev": 109319250,
       "salesCount": 192,
-      "type": {
+      "bemori": {
         "Online": 32199000,
         "Cửa hàng": 58370250,
         "Sỉ": 18750000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 6889000,
         "Bemori 228 Lê Văn Sỹ": 4908250,
@@ -1800,11 +1830,12 @@
       "day": "2026-05-07",
       "salesRev": 109569300,
       "salesCount": 201,
-      "type": {
+      "bemori": {
         "Cửa hàng": 71349000,
         "Online": 24130500,
         "Sỉ": 14089800
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 6390750,
         "Bemori 104-106 Cầu Giấy": 7735000,
@@ -1846,10 +1877,11 @@
       "day": "2026-05-08",
       "salesRev": 99532500,
       "salesCount": 229,
-      "type": {
+      "bemori": {
         "Online": 29194500,
         "Cửa hàng": 70338000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 8551000,
         "Bemori 104-106 Cầu Giấy": 10821500,
@@ -1892,10 +1924,11 @@
       "day": "2026-05-09",
       "salesRev": 137700500,
       "salesCount": 283,
-      "type": {
+      "bemori": {
         "Online": 33668750,
         "Cửa hàng": 104031750
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 8327500,
         "Bemori 275 Bạch Mai": 7707250,
@@ -1941,10 +1974,11 @@
       "day": "2026-05-10",
       "salesRev": 147274750,
       "salesCount": 283,
-      "type": {
+      "bemori": {
         "Cửa hàng": 121929250,
         "Online": 25345500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 11291000,
         "Bemori 368 Nguyễn Trãi": 16364000,
@@ -1990,10 +2024,11 @@
       "day": "2026-05-11",
       "salesRev": 116961250,
       "salesCount": 229,
-      "type": {
+      "bemori": {
         "Online": 53632500,
         "Cửa hàng": 63328750
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 5578000,
         "Bemori 161 Xuân Thủy": 9315750,
@@ -2035,10 +2070,11 @@
       "day": "2026-05-12",
       "salesRev": 99811750,
       "salesCount": 211,
-      "type": {
+      "bemori": {
         "Online": 37990500,
         "Cửa hàng": 61821250
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 6345250,
         "Bemori 161 Xuân Thủy": 8430000,
@@ -2080,10 +2116,11 @@
       "day": "2026-05-13",
       "salesRev": 72836500,
       "salesCount": 158,
-      "type": {
+      "bemori": {
         "Online": 22510000,
         "Cửa hàng": 50326500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 6060000,
         "Bemori 388 Xã Đàn": 3044000,
@@ -2125,10 +2162,11 @@
       "day": "2026-05-14",
       "salesRev": 90345000,
       "salesCount": 181,
-      "type": {
+      "bemori": {
         "Cửa hàng": 60242000,
         "Online": 30103000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 11570000,
         "Bemori 161 Xuân Thủy": 5414000,
@@ -2170,10 +2208,11 @@
       "day": "2026-05-15",
       "salesRev": 115227500,
       "salesCount": 226,
-      "type": {
+      "bemori": {
         "Online": 40404500,
         "Cửa hàng": 74823000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 10465500,
         "Bemori 388 Xã Đàn": 6740000,
@@ -2215,11 +2254,12 @@
       "day": "2026-05-16",
       "salesRev": 134673050,
       "salesCount": 280,
-      "type": {
+      "bemori": {
         "Online": 31848000,
         "Cửa hàng": 100222250,
         "Sỉ": 2602800
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 9040000,
         "Bemori 1028 Đường Láng": 15754000,
@@ -2265,10 +2305,11 @@
       "day": "2026-05-17",
       "salesRev": 115796750,
       "salesCount": 234,
-      "type": {
+      "bemori": {
         "Cửa hàng": 84301250,
         "Online": 31495500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 11633750,
         "Bemori 104-106 Cầu Giấy": 8947750,
@@ -2310,11 +2351,12 @@
       "day": "2026-05-18",
       "salesRev": 98284250,
       "salesCount": 183,
-      "type": {
+      "bemori": {
         "Online": 41115500,
         "Cửa hàng": 56412750,
         "Sỉ": 756000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 9300000,
         "Bemori 368 Nguyễn Trãi": 7978750,
@@ -2356,11 +2398,12 @@
       "day": "2026-05-19",
       "salesRev": 84571000,
       "salesCount": 172,
-      "type": {
+      "bemori": {
         "Cửa hàng": 60950750,
         "Online": 20164250,
         "Sỉ": 3456000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 6642500,
         "Bemori 388 Xã Đàn": 4649000,
@@ -2402,10 +2445,11 @@
       "day": "2026-05-20",
       "salesRev": 91916500,
       "salesCount": 189,
-      "type": {
+      "bemori": {
         "Cửa hàng": 57363000,
         "Online": 34553500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 9475500,
         "Bemori 162B Nguyễn Gia Trí": 6910000,
@@ -2447,10 +2491,11 @@
       "day": "2026-05-21",
       "salesRev": 103431750,
       "salesCount": 211,
-      "type": {
+      "bemori": {
         "Online": 26287000,
         "Cửa hàng": 77144750
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 8983750,
         "Bemori 228 Lê Văn Sỹ": 7185500,
@@ -2496,10 +2541,11 @@
       "day": "2026-05-22",
       "salesRev": 117114000,
       "salesCount": 260,
-      "type": {
+      "bemori": {
         "Online": 41199500,
         "Cửa hàng": 75914500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 388 Xã Đàn": 8436500,
         "Bemori 104-106 Cầu Giấy": 7524500,
@@ -2541,10 +2587,11 @@
       "day": "2026-05-23",
       "salesRev": 127077500,
       "salesCount": 302,
-      "type": {
+      "bemori": {
         "Cửa hàng": 93374250,
         "Online": 33703250
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 15518750,
         "Bemori 162B Nguyễn Gia Trí": 7639500,
@@ -2590,11 +2637,12 @@
       "day": "2026-05-24",
       "salesRev": 105026750,
       "salesCount": 242,
-      "type": {
+      "bemori": {
         "Online": 23848500,
         "Cửa hàng": 81018250,
         "Sỉ": 160000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 12565000,
         "Bemori 275 Bạch Mai": 7074000,
@@ -2636,10 +2684,11 @@
       "day": "2026-05-25",
       "salesRev": 98615750,
       "salesCount": 197,
-      "type": {
+      "bemori": {
         "Cửa hàng": 58061750,
         "Online": 40554000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 5376500,
         "Bemori 162B Nguyễn Gia Trí": 6865000,
@@ -2681,10 +2730,11 @@
       "day": "2026-05-26",
       "salesRev": 124792500,
       "salesCount": 194,
-      "type": {
+      "bemori": {
         "Cửa hàng": 82477750,
         "Online": 42314750
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 7982000,
         "Bemori 228 Lê Văn Sỹ": 12532000,
@@ -2726,10 +2776,11 @@
       "day": "2026-05-27",
       "salesRev": 88151000,
       "salesCount": 184,
-      "type": {
+      "bemori": {
         "Online": 25570750,
         "Cửa hàng": 62580250
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 275 Bạch Mai": 5568000,
         "Bemori 1028 Đường Láng": 8027000,
@@ -2771,10 +2822,11 @@
       "day": "2026-05-28",
       "salesRev": 107065750,
       "salesCount": 200,
-      "type": {
+      "bemori": {
         "Online": 41756500,
         "Cửa hàng": 65309250
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 11653500,
         "Bemori 368 Nguyễn Trãi": 8906000,
@@ -2816,10 +2868,11 @@
       "day": "2026-05-29",
       "salesRev": 140199250,
       "salesCount": 289,
-      "type": {
+      "bemori": {
         "Cửa hàng": 96539000,
         "Online": 43660250
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 9492000,
         "Bemori 162B Nguyễn Gia Trí": 13602000,
@@ -2865,10 +2918,11 @@
       "day": "2026-05-30",
       "salesRev": 192104250,
       "salesCount": 351,
-      "type": {
+      "bemori": {
         "Online": 74567250,
         "Cửa hàng": 117537000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 22033500,
         "Bemori 388 Xã Đàn": 9071500,
@@ -2915,10 +2969,11 @@
       "day": "2026-05-31",
       "salesRev": 270899200,
       "salesCount": 479,
-      "type": {
+      "bemori": {
         "Cửa hàng": 183896750,
         "Online": 87002450
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 18372500,
         "Bemori 275 Bạch Mai": 27246000,
@@ -2964,10 +3019,11 @@
       "day": "2026-06-01",
       "salesRev": 525802227,
       "salesCount": 1036,
-      "type": {
+      "bemori": {
         "Cửa hàng": 420415727,
         "Online": 105386500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 51822250,
         "Bemori 1028 Đường Láng": 46718500,
@@ -3014,10 +3070,11 @@
       "day": "2026-06-02",
       "salesRev": 153094250,
       "salesCount": 292,
-      "type": {
+      "bemori": {
         "Cửa hàng": 118328250,
         "Online": 34766000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 411 NVC": 11768250,
         "Bemori 228 Lê Văn Sỹ": 6349000,
@@ -3059,10 +3116,11 @@
       "day": "2026-06-03",
       "salesRev": 124162031,
       "salesCount": 242,
-      "type": {
+      "bemori": {
         "Cửa hàng": 86436031,
         "Online": 37726000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 368 Nguyễn Trãi": 9578750,
         "Bemori 388 Xã Đàn": 6834500,
@@ -3105,10 +3163,11 @@
       "day": "2026-06-04",
       "salesRev": 107060550,
       "salesCount": 213,
-      "type": {
+      "bemori": {
         "Cửa hàng": 64005550,
         "Online": 43055000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 411 NVC": 5298500,
         "Bemori 162B Nguyễn Gia Trí": 7830000,
@@ -3151,10 +3210,11 @@
       "day": "2026-06-05",
       "salesRev": 117443000,
       "salesCount": 243,
-      "type": {
+      "bemori": {
         "Cửa hàng": 85218000,
         "Online": 32225000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 13982000,
         "Bemori 275 Bạch Mai": 9430000,
@@ -3196,10 +3256,11 @@
       "day": "2026-06-06",
       "salesRev": 118647500,
       "salesCount": 241,
-      "type": {
+      "bemori": {
         "Online": 25978500,
         "Cửa hàng": 92669000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 10537000,
         "Bemori 368 Nguyễn Trãi": 14869000,
@@ -3241,10 +3302,11 @@
       "day": "2026-06-07",
       "salesRev": 111877750,
       "salesCount": 221,
-      "type": {
+      "bemori": {
         "Cửa hàng": 94881750,
         "Online": 16996000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 161 Xuân Thủy": 9932500,
         "Bemori 368 Nguyễn Trãi": 11418000,
@@ -3286,10 +3348,11 @@
       "day": "2026-06-08",
       "salesRev": 56311500,
       "salesCount": 127,
-      "type": {
+      "bemori": {
         "Cửa hàng": 29100000,
         "Online": 27211500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 4755000,
         "Bemori 228 Lê Văn Sỹ": 5860000,
@@ -3334,10 +3397,11 @@
       "day": "2026-06-09",
       "salesRev": 95208750,
       "salesCount": 174,
-      "type": {
+      "bemori": {
         "Cửa hàng": 72233250,
         "Online": 22975500
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 104-106 Cầu Giấy": 8454250,
         "Bemori 1028 Đường Láng": 7801750,
@@ -3379,10 +3443,11 @@
       "day": "2026-06-10",
       "salesRev": 101207000,
       "salesCount": 186,
-      "type": {
+      "bemori": {
         "Cửa hàng": 58942000,
         "Online": 42265000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 162B Nguyễn Gia Trí": 12075000,
         "Bemori 411 NVC": 3940000,
@@ -3424,10 +3489,11 @@
       "day": "2026-06-11",
       "salesRev": 98673250,
       "salesCount": 185,
-      "type": {
+      "bemori": {
         "Online": 30037500,
         "Cửa hàng": 68635750
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 8789750,
         "Bemori 104-106 Cầu Giấy": 6490750,
@@ -3473,10 +3539,11 @@
       "day": "2026-06-12",
       "salesRev": 88122500,
       "salesCount": 181,
-      "type": {
+      "bemori": {
         "Online": 22581500,
         "Cửa hàng": 65541000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 411 NVC": 2260000,
         "Bemori 368 Nguyễn Trãi": 10463750,
@@ -3518,10 +3585,11 @@
       "day": "2026-06-13",
       "salesRev": 117853500,
       "salesCount": 242,
-      "type": {
+      "bemori": {
         "Cửa hàng": 93105500,
         "Online": 24748000
       },
+      "memonRev": 0,
       "storeRetail": {
         "Bemori 1028 Đường Láng": 11183250,
         "Bemori 228 Lê Văn Sỹ": 6487500,
@@ -3614,11 +3682,6 @@
     },
     {
       "day": "2026-04-07",
-      "customer": "Phạm Hà",
-      "amount": 23760
-    },
-    {
-      "day": "2026-04-07",
       "customer": "Đan Thanh Hóa",
       "amount": 1101600
     },
@@ -3641,11 +3704,6 @@
       "day": "2026-04-06",
       "customer": "HỘ KINH DOANH MƯỚP",
       "amount": 9390600
-    },
-    {
-      "day": "2026-04-04",
-      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
-      "amount": 7279200
     },
     {
       "day": "2026-04-04",
@@ -3718,36 +3776,6 @@
       "amount": 16171920
     },
     {
-      "day": "2026-05-07",
-      "customer": "Chị Điểm HCM",
-      "amount": 13890000
-    },
-    {
-      "day": "2026-05-07",
-      "customer": "HỘ KINH DOANH ĐINH YẾN CHI 02",
-      "amount": 199800
-    },
-    {
-      "day": "2026-05-06",
-      "customer": "Chị Hằng HWS",
-      "amount": 120000
-    },
-    {
-      "day": "2026-05-06",
-      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
-      "amount": 18630000
-    },
-    {
-      "day": "2026-05-05",
-      "customer": "Chị Thuý HN",
-      "amount": 6485160
-    },
-    {
-      "day": "2026-05-05",
-      "customer": "Trị HCM",
-      "amount": 110000
-    },
-    {
       "day": "2026-04-29",
       "customer": "Dung Quân Hải Dương",
       "amount": 21708000
@@ -3771,11 +3799,6 @@
       "day": "2026-04-29",
       "customer": "HỘ KINH DOANH MEKO HOUSE",
       "amount": 8047080
-    },
-    {
-      "day": "2026-04-28",
-      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
-      "amount": 270000
     },
     {
       "day": "2026-04-27",
@@ -3834,18 +3857,8 @@
     },
     {
       "day": "2026-04-22",
-      "customer": "CÔNG TY TNHH GIGO VIỆT NAM",
-      "amount": 10308600
-    },
-    {
-      "day": "2026-04-22",
       "customer": "Tường Vy Tây Ninh",
       "amount": 2451600
-    },
-    {
-      "day": "2026-04-21",
-      "customer": "Thúy Anh Vĩnh Long",
-      "amount": 2057400
     },
     {
       "day": "2026-04-21",
@@ -3885,22 +3898,7 @@
     {
       "day": "2026-04-18",
       "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
-      "amount": 5165640
-    },
-    {
-      "day": "2026-04-18",
-      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
-      "amount": 2462400
-    },
-    {
-      "day": "2026-04-18",
-      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
       "amount": 3877200
-    },
-    {
-      "day": "2026-04-18",
-      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
-      "amount": 2170800
     },
     {
       "day": "2026-04-18",
@@ -3910,17 +3908,7 @@
     {
       "day": "2026-04-17",
       "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
-      "amount": 2343600
-    },
-    {
-      "day": "2026-04-17",
-      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
       "amount": 5524200
-    },
-    {
-      "day": "2026-04-17",
-      "customer": "CÔNG TY CỔ PHẦN VĂN HÓA GIÁO DỤC GIA LAI",
-      "amount": 2959200
     },
     {
       "day": "2026-04-17",
@@ -3941,11 +3929,6 @@
       "day": "2026-04-16",
       "customer": "Tường Vy Quảng Ngãi",
       "amount": 734400
-    },
-    {
-      "day": "2026-04-15",
-      "customer": "CÔNG TY CỔ PHẦN OEM",
-      "amount": 9639000
     },
     {
       "day": "2026-04-15",
@@ -3979,11 +3962,6 @@
     },
     {
       "day": "2026-04-15",
-      "customer": "Lài Hà Tĩnh",
-      "amount": 1749600
-    },
-    {
-      "day": "2026-04-15",
       "customer": "Hộ Kinh Doanh Moon",
       "amount": 3510000
     },
@@ -4011,26 +3989,6 @@
       "day": "2026-04-14",
       "customer": "HỘ KINH DOANH ĐINH YẾN CHI 02",
       "amount": 18154800
-    },
-    {
-      "day": "2026-05-24",
-      "customer": "Chị Linh",
-      "amount": 160000
-    },
-    {
-      "day": "2026-05-19",
-      "customer": "CÔNG TY TNHH ĐẦU TƯ CÔNG NGHỆ VÀ PHÁT TRIỂN GIÁO DỤC KIDSTECH ACADEMY",
-      "amount": 3456000
-    },
-    {
-      "day": "2026-05-18",
-      "customer": "Hiền",
-      "amount": 756000
-    },
-    {
-      "day": "2026-05-16",
-      "customer": "Tường Vy Tây Ninh",
-      "amount": 2602800
     }
   ],
   "marketing": {
@@ -4094,7 +4052,7 @@
     "storePct": 71
   },
   "brands": {
-    "Bemori": 3923435758,
-    "Memon": 6974800
+    "Bemori": 3930410558,
+    "Memon": 0
   }
 }

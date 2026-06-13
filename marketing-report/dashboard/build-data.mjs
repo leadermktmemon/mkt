@@ -19,9 +19,10 @@ const CACHE = join(__dirname, ".cache-raw.json");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const SALE_CHANNEL = {1:"Admin",2:"Website",10:"API",20:"Facebook",21:"Instagram",41:"Lazada",42:"Shopee",43:"Sendo",45:"Tiki",48:"Tiktok Shop",49:"Zalo OA",50:"Shopee chat",51:"Lazada chat",52:"Zalo cá nhân"};
-// mode ban hang -> loai + nhanh
+// mode ban hang (ban cho khach) -> loai
 const TYPE_OF = { 1: "Online", 2: "Cửa hàng", 6: "Sỉ" };
-const BRAND_OF = { 1: "Bemori", 2: "Bemori", 6: "Memon" };
+// Phap nhan tach theo KHO: Xưởng Memon = kho 230213 / 230786; con lai = Bemori
+const MEMON_DEPOTS = new Set([230213, 230786]);
 const BAD_STATUS = [58,61,63,64,68,71,72];
 
 const recompute = process.argv.includes("--recompute");
@@ -109,22 +110,24 @@ function billDay(b){ const d=b.date; if(typeof d==="number") return dayOf(d); if
 const round = (n) => Math.round(n);
 
 const dayMap = {};
-function ensureDay(day){ return dayMap[day] ??= { type:{}, storeRetail:{}, salesRev:0, salesCount:0, channel:{}, mktRev:0, mktOrders:0 }; }
-const memonBills = []; // {day, customer, amount}
+function ensureDay(day){ return dayMap[day] ??= { bemori:{}, memonRev:0, storeRetail:{}, salesRev:0, salesCount:0, channel:{}, mktRev:0, mktOrders:0 }; }
+const memonBills = []; // {day, customer, amount} - ban ra ngoai cua Xuong Memon
 
 for (const b of bills) {
-  const type = TYPE_OF[b.mode]; if (!type) continue;
+  const type = TYPE_OF[b.mode]; if (!type) continue;  // chi tinh ban cho khach (mode 1,2,6); bo nhap NCC/chuyen kho/dieu chinh ton
   const day = billDay(b); if (!day) continue;
   const amt = billAmount(b);
   const D = ensureDay(day);
-  D.type[type] = (D.type[type]||0) + amt;
   D.salesRev += amt; D.salesCount++;
-  if (b.mode === 2) { // doanh thu cua hang theo shop
-    const store = depotName[b.depotId] || `Kho ${b.depotId}`;
-    D.storeRetail[store] = (D.storeRetail[store]||0) + amt;
-  }
-  if (b.mode === 6) { // B2B/si -> luu khach hang
+  if (MEMON_DEPOTS.has(b.depotId)) { // Xuong Memon ban ra ngoai
+    D.memonRev += amt;
     memonBills.push({ day, customer: (b.customer?.name || b.customer?.mobile || "(không tên)").replace(/&amp;/g,"&"), amount: round(amt) });
+  } else { // Bemori (online + cua hang)
+    D.bemori[type] = (D.bemori[type]||0) + amt;
+    if (b.mode === 2) {
+      const store = depotName[b.depotId] || `Kho ${b.depotId}`;
+      D.storeRetail[store] = (D.storeRetail[store]||0) + amt;
+    }
   }
 }
 for (const o of orders) {
@@ -140,6 +143,7 @@ for (const o of orders) {
 
 const days = Object.keys(dayMap).sort();
 const channelTotals = {}, storeTotals = {};
+const roundObj = (o) => Object.fromEntries(Object.entries(o).map(([k,v])=>[k,round(v)]));
 const daily = days.map((day) => {
   const D = dayMap[day];
   for (const k in D.channel) channelTotals[k] = (channelTotals[k]||0) + D.channel[k].rev;
@@ -147,8 +151,9 @@ const daily = days.map((day) => {
   return {
     day,
     salesRev: round(D.salesRev), salesCount: D.salesCount,
-    type: Object.fromEntries(Object.entries(D.type).map(([k,v])=>[k,round(v)])),
-    storeRetail: Object.fromEntries(Object.entries(D.storeRetail).map(([k,v])=>[k,round(v)])),
+    bemori: roundObj(D.bemori),          // {Online, Cửa hàng, Sỉ} tai cac kho Bemori
+    memonRev: round(D.memonRev),         // Xuong Memon ban ra ngoai
+    storeRetail: roundObj(D.storeRetail),
     mktRev: round(D.mktRev), mktOrders: D.mktOrders,
     channel: Object.fromEntries(Object.entries(D.channel).map(([k,v])=>[k,{rev:round(v.rev),orders:v.orders}])),
   };
@@ -158,20 +163,20 @@ const stores = Object.entries(storeTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
 
 // ----- Tong hop 30 ngay (cho the Lark) -----
 function summarize(slice) {
-  const ch = {}, type = {}; let onlineRev=0, onlineOrders=0, totalRev=0, salesCount=0;
+  const ch = {}, type = {}; let onlineRev=0, onlineOrders=0, totalRev=0, salesCount=0, memon=0;
   for (const d of slice) {
     for (const k in d.channel) { ch[k]??={revenue:0,orders:0}; ch[k].revenue+=d.channel[k].rev; ch[k].orders+=d.channel[k].orders; }
-    for (const k in d.type) type[k]=(type[k]||0)+d.type[k];
+    for (const k in d.bemori) type[k]=(type[k]||0)+d.bemori[k];
+    memon += d.memonRev;
     onlineRev+=d.mktRev; onlineOrders+=d.mktOrders; totalRev+=d.salesRev; salesCount+=d.salesCount;
   }
   const chList = Object.entries(ch).sort((a,b)=>b[1].revenue-a[1].revenue)
     .map(([name,v])=>({name,orders:v.orders,revenue:round(v.revenue),aov:v.orders?round(v.revenue/v.orders):0,share:onlineRev?round(v.revenue/onlineRev*100):0}));
-  const bemori = (type["Online"]||0)+(type["Cửa hàng"]||0);
-  const memon = (type["Sỉ"]||0);
+  const bemori = (type["Online"]||0)+(type["Cửa hàng"]||0)+(type["Sỉ"]||0);
   return {
     marketing: { onlineRevenue:round(onlineRev), onlineOrders, onlineAov:onlineOrders?round(onlineRev/onlineOrders):0, channels:chList },
     sales: { totalRevenue:round(totalRev), salesCount, byType:Object.fromEntries(Object.entries(type).map(([k,v])=>[k,round(v)])),
-      onlinePct: totalRev?round((type["Online"]||0)/totalRev*100):0, storePct: totalRev?round((type["Cửa hàng"]||0)/totalRev*100):0 },
+      onlinePct: bemori?round((type["Online"]||0)/bemori*100):0, storePct: bemori?round((type["Cửa hàng"]||0)/bemori*100):0 },
     brands: { Bemori: round(bemori), Memon: round(memon) },
   };
 }

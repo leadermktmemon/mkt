@@ -141,19 +141,17 @@
     if(p==='custom'){return d.filter(function(x){return (!cFrom||x.day>=cFrom)&&(!cTo||x.day<=cTo);});}
     return d; }
 
+  function sumObj(o){var s=0;for(var k in o)s+=o[k];return s;}
   function agg(slice){
-    var types=BRAND_TYPES[brand];
-    var ch={}, type={}, store={}, mktRev=0, mktOrders=0, brandRev=0, salesCount=0;
+    var bemori={}, store={}, ch={}, mktRev=0, mktOrders=0, memonRev=0, salesCount=0, bemoriTotal=0;
     slice.forEach(function(d){
-      types.forEach(function(t){ if(d.type[t]){ type[t]=(type[t]||0)+d.type[t]; brandRev+=d.type[t]; } });
-      if(brand!=='Memon'){ // kenh marketing + cua hang chi cho Bemori/Tat ca
-        for(var k in d.channel){ch[k]=ch[k]||{rev:0,orders:0};ch[k].rev+=d.channel[k].rev;ch[k].orders+=d.channel[k].orders;}
-        for(var s in d.storeRetail) store[s]=(store[s]||0)+d.storeRetail[s];
-        mktRev+=d.mktRev; mktOrders+=d.mktOrders;
-      }
-      salesCount+=d.salesCount;
+      for(var t in d.bemori){ bemori[t]=(bemori[t]||0)+d.bemori[t]; bemoriTotal+=d.bemori[t]; }
+      memonRev+=d.memonRev||0;
+      for(var s in d.storeRetail) store[s]=(store[s]||0)+d.storeRetail[s];
+      for(var k in d.channel){ch[k]=ch[k]||{rev:0,orders:0};ch[k].rev+=d.channel[k].rev;ch[k].orders+=d.channel[k].orders;}
+      mktRev+=d.mktRev; mktOrders+=d.mktOrders; salesCount+=d.salesCount;
     });
-    return {type:type,brandRev:brandRev,ch:ch,store:store,mktRev:mktRev,mktOrders:mktOrders,salesCount:salesCount};
+    return {bemori:bemori,bemoriTotal:bemoriTotal,memonRev:memonRev,store:store,ch:ch,mktRev:mktRev,mktOrders:mktOrders,salesCount:salesCount};
   }
   function memonAgg(slice){
     var dset={}; slice.forEach(function(d){dset[d.day]=1;});
@@ -172,31 +170,36 @@
     // KPIs
     var k=[];
     if(brand==='all'){
-      k=[{label:'Tổng doanh thu',val:vnd(A.brandRev),accent:true},
-         {label:'Bemori (online+cửa hàng)',val:vnd((A.type['Online']||0)+(A.type['Cửa hàng']||0))},
-         {label:'Memon (B2B/sỉ)',val:vnd(A.type['Sỉ']||0)},
+      k=[{label:'Tổng doanh thu',val:vnd(A.bemoriTotal+A.memonRev),accent:true},
+         {label:'Bemori (online+cửa hàng)',val:vnd(A.bemoriTotal)},
+         {label:'Memon (B2B/sỉ)',val:vnd(A.memonRev)},
          {label:'Số hóa đơn',val:A.salesCount.toLocaleString('vi-VN')}];
     } else if(brand==='Bemori'){
-      k=[{label:'Doanh thu Bemori',val:vnd(A.brandRev),accent:true},
-         {label:'Online',val:vnd(A.type['Online']||0)},
-         {label:'Cửa hàng',val:vnd(A.type['Cửa hàng']||0)},
+      k=[{label:'Doanh thu Bemori',val:vnd(A.bemoriTotal),accent:true},
+         {label:'Online',val:vnd(A.bemori['Online']||0)},
+         {label:'Cửa hàng',val:vnd(A.bemori['Cửa hàng']||0)},
          {label:'Đơn online',val:A.mktOrders.toLocaleString('vi-VN')}];
     } else {
       var M=memonAgg(slice);
-      k=[{label:'Doanh thu B2B/Sỉ',val:vnd(A.type['Sỉ']||0),accent:true},
-         {label:'Số hóa đơn sỉ',val:M.bills.toLocaleString('vi-VN')},
-         {label:'AOV sỉ',val:vnd(M.bills?M.totalRev/M.bills:0)},
+      k=[{label:'Doanh thu B2B/Sỉ',val:vnd(A.memonRev),accent:true},
+         {label:'Số hóa đơn',val:M.bills.toLocaleString('vi-VN')},
+         {label:'AOV',val:vnd(M.bills?M.totalRev/M.bills:0)},
          {label:'Khách B2B',val:M.customers}];
     }
     document.getElementById('kpis').innerHTML=k.map(function(x){return '<div class="kpi'+(x.accent?' accent':'')+'"><div class="label">'+x.label+'</div><div class="val">'+x.val+'</div></div>';}).join('');
 
-    // Trend: stacked theo loai (filtered brand)
+    // Trend stacked: all=theo nhánh, Bemori=theo loại, Memon=sỉ
+    var COL={'Bemori':'#378ADD','Memon':'#BA7517','Online':'#378ADD','Cửa hàng':'#1D9E75','Sỉ':'#BA7517'};
+    var keys = brand==='all'?['Bemori','Memon'] : brand==='Bemori'?['Online','Cửa hàng','Sỉ'] : ['Memon'];
     var idx={},buckets=[];
     slice.forEach(function(d){var key=bucketKey(d.day,gran); if(idx[key]===undefined){idx[key]=buckets.length;buckets.push({key:key,t:{}});}
-      var b=buckets[idx[key]]; types.forEach(function(t){ if(d.type[t]) b.t[t]=(b.t[t]||0)+d.type[t]; });});
-    var tSeries=types.filter(function(t){return buckets.some(function(b){return b.t[t];});})
-      .map(function(t){return {label:t,data:buckets.map(function(b){return Math.round(b.t[t]||0);}),backgroundColor:TYPECOL[t],stack:'x',borderRadius:2};});
-    document.getElementById('trendTitle').textContent = brand==='Memon'?'Xu hướng doanh thu B2B/Sỉ':'Xu hướng doanh thu theo loại';
+      var b=buckets[idx[key]];
+      if(brand==='all'){ b.t['Bemori']=(b.t['Bemori']||0)+sumObj(d.bemori); b.t['Memon']=(b.t['Memon']||0)+(d.memonRev||0); }
+      else if(brand==='Bemori'){ for(var t in d.bemori) b.t[t]=(b.t[t]||0)+d.bemori[t]; }
+      else { b.t['Memon']=(b.t['Memon']||0)+(d.memonRev||0); }});
+    var tSeries=keys.filter(function(t){return buckets.some(function(b){return b.t[t];});})
+      .map(function(t){return {label:t,data:buckets.map(function(b){return Math.round(b.t[t]||0);}),backgroundColor:COL[t]||'#888',stack:'x',borderRadius:2};});
+    document.getElementById('trendTitle').textContent = brand==='all'?'Xu hướng theo nhánh':brand==='Memon'?'Xu hướng B2B/Sỉ':'Xu hướng theo loại';
     document.getElementById('granLabel').textContent='(theo '+(gran==='day'?'ngày':gran==='week'?'tuần':'tháng')+')';
     document.getElementById('legTrend').innerHTML=tSeries.map(function(s){return '<span><span class="dot" style="background:'+s.backgroundColor+'"></span>'+s.label+'</span>';}).join('');
     drawStacked('cTrend',buckets.map(function(b){return gran==='month'?b.key:b.key.slice(5);}),tSeries);
