@@ -1,48 +1,3689 @@
 {
-  "generatedAt": "2026-06-13T16:15:19.167Z",
+  "generatedAt": "2026-06-13T16:43:21.247Z",
   "period": {
-    "days": 30,
-    "fromDate": "2026-05-14",
+    "days": 90,
+    "fromDate": "2026-03-15",
     "toDate": "2026-06-13"
   },
+  "channels": [
+    "Facebook",
+    "Zalo cá nhân",
+    "Admin",
+    "Shopee",
+    "Instagram",
+    "Zalo OA"
+  ],
+  "stores": [
+    "Kho Online Nguyễn Khuyến",
+    "Bemori 228 Lê Văn Sỹ",
+    "Bemori 368 Nguyễn Trãi",
+    "Bemori 162B Nguyễn Gia Trí",
+    "Bemori 161 Xuân Thủy",
+    "Bemori 1028 Đường Láng",
+    "Bemori 104-106 Cầu Giấy",
+    "Bemori 275 Bạch Mai",
+    "Bemori 411 NVC",
+    "Kho 230213",
+    "Bemori 388 Xã Đàn",
+    "Teddy Outlet 970 Láng"
+  ],
+  "daily": [
+    {
+      "day": "2026-03-25",
+      "salesRev": 0,
+      "salesCount": 0,
+      "type": {},
+      "store": {},
+      "mktRev": 1249000,
+      "mktOrders": 4,
+      "channel": {
+        "Shopee": {
+          "rev": 1249000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-03-26",
+      "salesRev": 0,
+      "salesCount": 0,
+      "type": {},
+      "store": {},
+      "mktRev": 574000,
+      "mktOrders": 2,
+      "channel": {
+        "Shopee": {
+          "rev": 574000,
+          "orders": 2
+        }
+      }
+    },
+    {
+      "day": "2026-03-27",
+      "salesRev": 0,
+      "salesCount": 0,
+      "type": {},
+      "store": {},
+      "mktRev": 2002000,
+      "mktOrders": 4,
+      "channel": {
+        "Shopee": {
+          "rev": 2002000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-03-28",
+      "salesRev": 0,
+      "salesCount": 0,
+      "type": {},
+      "store": {},
+      "mktRev": 864000,
+      "mktOrders": 3,
+      "channel": {
+        "Shopee": {
+          "rev": 864000,
+          "orders": 3
+        }
+      }
+    },
+    {
+      "day": "2026-03-29",
+      "salesRev": 0,
+      "salesCount": 0,
+      "type": {},
+      "store": {},
+      "mktRev": 4217000,
+      "mktOrders": 13,
+      "channel": {
+        "Shopee": {
+          "rev": 4217000,
+          "orders": 13
+        }
+      }
+    },
+    {
+      "day": "2026-03-30",
+      "salesRev": 0,
+      "salesCount": 0,
+      "type": {},
+      "store": {},
+      "mktRev": 4411000,
+      "mktOrders": 19,
+      "channel": {
+        "Shopee": {
+          "rev": 4411000,
+          "orders": 19
+        }
+      }
+    },
+    {
+      "day": "2026-03-31",
+      "salesRev": 0,
+      "salesCount": 0,
+      "type": {},
+      "store": {},
+      "mktRev": 6804000,
+      "mktOrders": 15,
+      "channel": {
+        "Shopee": {
+          "rev": 6804000,
+          "orders": 15
+        }
+      }
+    },
+    {
+      "day": "2026-04-01",
+      "salesRev": 108355210,
+      "salesCount": 149,
+      "type": {
+        "Cửa hàng": 71243500,
+        "Online": 1695000,
+        "Sỉ": 35416710
+      },
+      "store": {
+        "Bemori 1028 Đường Láng": 8850000,
+        "Bemori 368 Nguyễn Trãi": 14555000,
+        "Bemori 228 Lê Văn Sỹ": 10716750,
+        "Bemori 161 Xuân Thủy": 9342000,
+        "Bemori 162B Nguyễn Gia Trí": 5530000,
+        "Bemori 275 Bạch Mai": 7953000,
+        "Bemori 388 Xã Đàn": 3745000,
+        "Bemori 104-106 Cầu Giấy": 4372750,
+        "Kho Online Nguyễn Khuyến": 1695000,
+        "Teddy Outlet 970 Láng": 1104000,
+        "Bemori 411 NVC": 5075000,
+        "Kho 230213": 35416710
+      },
+      "mktRev": 25942750,
+      "mktOrders": 53,
+      "channel": {
+        "Shopee": {
+          "rev": 4635000,
+          "orders": 14
+        },
+        "Facebook": {
+          "rev": 8734000,
+          "orders": 13
+        },
+        "Admin": {
+          "rev": 9633750,
+          "orders": 21
+        },
+        "Zalo OA": {
+          "rev": 735000,
+          "orders": 2
+        },
+        "Instagram": {
+          "rev": 2205000,
+          "orders": 3
+        }
+      }
+    },
+    {
+      "day": "2026-04-02",
+      "salesRev": 75765350,
+      "salesCount": 161,
+      "type": {
+        "Online": 2994000,
+        "Cửa hàng": 62948750,
+        "Sỉ": 9822600
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 1599000,
+        "Bemori 162B Nguyễn Gia Trí": 13100250,
+        "Bemori 411 NVC": 5225000,
+        "Bemori 104-106 Cầu Giấy": 6080000,
+        "Bemori 228 Lê Văn Sỹ": 9708750,
+        "Bemori 161 Xuân Thủy": 8326000,
+        "Bemori 1028 Đường Láng": 6577750,
+        "Bemori 368 Nguyễn Trãi": 6317000,
+        "Bemori 275 Bạch Mai": 2635000,
+        "Bemori 388 Xã Đàn": 4795000,
+        "Teddy Outlet 970 Láng": 1579000,
+        "Kho 230213": 9822600
+      },
+      "mktRev": 25510500,
+      "mktOrders": 45,
+      "channel": {
+        "Shopee": {
+          "rev": 4592000,
+          "orders": 11
+        },
+        "Instagram": {
+          "rev": 5900000,
+          "orders": 5
+        },
+        "Admin": {
+          "rev": 4277500,
+          "orders": 12
+        },
+        "Facebook": {
+          "rev": 10411000,
+          "orders": 16
+        },
+        "Zalo OA": {
+          "rev": 330000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-04-03",
+      "salesRev": 112995735,
+      "salesCount": 184,
+      "type": {
+        "Online": 9330250,
+        "Cửa hàng": 68850605,
+        "Sỉ": 34814880
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 7923250,
+        "Bemori 228 Lê Văn Sỹ": 8715000,
+        "Bemori 161 Xuân Thủy": 7296750,
+        "Bemori 368 Nguyễn Trãi": 11583355,
+        "Bemori 104-106 Cầu Giấy": 8393750,
+        "Bemori 411 NVC": 4015000,
+        "Bemori 1028 Đường Láng": 6761250,
+        "Bemori 275 Bạch Mai": 11698250,
+        "Teddy Outlet 970 Láng": 1647000,
+        "Bemori 388 Xã Đàn": 7384250,
+        "Kho Online Nguyễn Khuyến": 2763000,
+        "Kho 230213": 34814880
+      },
+      "mktRev": 35170603,
+      "mktOrders": 66,
+      "channel": {
+        "Shopee": {
+          "rev": 12653000,
+          "orders": 30
+        },
+        "Facebook": {
+          "rev": 9730103,
+          "orders": 12
+        },
+        "Zalo cá nhân": {
+          "rev": 4977500,
+          "orders": 10
+        },
+        "Zalo OA": {
+          "rev": 260000,
+          "orders": 1
+        },
+        "Admin": {
+          "rev": 3950000,
+          "orders": 5
+        },
+        "Instagram": {
+          "rev": 3600000,
+          "orders": 8
+        }
+      }
+    },
+    {
+      "day": "2026-04-04",
+      "salesRev": 159025750,
+      "salesCount": 274,
+      "type": {
+        "Online": 11299000,
+        "Cửa hàng": 105363750,
+        "Sỉ": 42363000
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 12638200,
+        "Bemori 104-106 Cầu Giấy": 17062000,
+        "Bemori 228 Lê Văn Sỹ": 12285000,
+        "Bemori 162B Nguyễn Gia Trí": 12825000,
+        "Bemori 388 Xã Đàn": 11431500,
+        "Bemori 411 NVC": 11977750,
+        "Bemori 368 Nguyễn Trãi": 10144500,
+        "Teddy Outlet 970 Láng": 4203000,
+        "Bemori 161 Xuân Thủy": 9805750,
+        "Bemori 275 Bạch Mai": 9360000,
+        "Bemori 1028 Đường Láng": 12209250,
+        "Kho 230213": 35083800
+      },
+      "mktRev": 23779000,
+      "mktOrders": 45,
+      "channel": {
+        "Shopee": {
+          "rev": 7179000,
+          "orders": 19
+        },
+        "Admin": {
+          "rev": 4230000,
+          "orders": 8
+        },
+        "Instagram": {
+          "rev": 895000,
+          "orders": 2
+        },
+        "Facebook": {
+          "rev": 8670000,
+          "orders": 12
+        },
+        "Zalo cá nhân": {
+          "rev": 2805000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-04-05",
+      "salesRev": 107931000,
+      "salesCount": 250,
+      "type": {
+        "Online": 12200000,
+        "Cửa hàng": 95731000
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 8621000,
+        "Bemori 275 Bạch Mai": 11940000,
+        "Bemori 1028 Đường Láng": 10025000,
+        "Bemori 162B Nguyễn Gia Trí": 12805500,
+        "Bemori 368 Nguyễn Trãi": 15159000,
+        "Bemori 411 NVC": 8531500,
+        "Bemori 161 Xuân Thủy": 13120000,
+        "Bemori 104-106 Cầu Giấy": 8865000,
+        "Teddy Outlet 970 Láng": 1799000,
+        "Bemori 228 Lê Văn Sỹ": 6305000,
+        "Bemori 388 Xã Đàn": 10760000
+      },
+      "mktRev": 21163000,
+      "mktOrders": 41,
+      "channel": {
+        "Shopee": {
+          "rev": 2846000,
+          "orders": 10
+        },
+        "Instagram": {
+          "rev": 2025000,
+          "orders": 3
+        },
+        "Zalo cá nhân": {
+          "rev": 7195000,
+          "orders": 10
+        },
+        "Admin": {
+          "rev": 1665000,
+          "orders": 6
+        },
+        "Facebook": {
+          "rev": 7432000,
+          "orders": 12
+        }
+      }
+    },
+    {
+      "day": "2026-04-06",
+      "salesRev": 94617850,
+      "salesCount": 171,
+      "type": {
+        "Cửa hàng": 53832250,
+        "Online": 20379000,
+        "Sỉ": 20406600
+      },
+      "store": {
+        "Bemori 368 Nguyễn Trãi": 6862000,
+        "Bemori 1028 Đường Láng": 4560750,
+        "Bemori 104-106 Cầu Giấy": 5040000,
+        "Bemori 275 Bạch Mai": 9995000,
+        "Bemori 228 Lê Văn Sỹ": 10500000,
+        "Bemori 161 Xuân Thủy": 6210250,
+        "Kho Online Nguyễn Khuyến": 10839000,
+        "Bemori 388 Xã Đàn": 4635000,
+        "Teddy Outlet 970 Láng": 2315000,
+        "Bemori 162B Nguyễn Gia Trí": 6552250,
+        "Bemori 411 NVC": 6702000,
+        "Kho 230213": 20406600
+      },
+      "mktRev": 27779251,
+      "mktOrders": 53,
+      "channel": {
+        "Shopee": {
+          "rev": 4464000,
+          "orders": 14
+        },
+        "Facebook": {
+          "rev": 10710500,
+          "orders": 17
+        },
+        "Zalo cá nhân": {
+          "rev": 9657750,
+          "orders": 14
+        },
+        "Admin": {
+          "rev": 1427001,
+          "orders": 5
+        },
+        "Instagram": {
+          "rev": 1520000,
+          "orders": 3
+        }
+      }
+    },
+    {
+      "day": "2026-04-07",
+      "salesRev": 106132010,
+      "salesCount": 161,
+      "type": {
+        "Cửa hàng": 64342250,
+        "Online": 10878000,
+        "Sỉ": 30911760
+      },
+      "store": {
+        "Bemori 388 Xã Đàn": 6122000,
+        "Bemori 275 Bạch Mai": 9277500,
+        "Kho Online Nguyễn Khuyến": 8189760,
+        "Bemori 161 Xuân Thủy": 12341250,
+        "Bemori 228 Lê Văn Sỹ": 10411000,
+        "Bemori 368 Nguyễn Trãi": 5370250,
+        "Bemori 104-106 Cầu Giấy": 4534000,
+        "Bemori 1028 Đường Láng": 3825000,
+        "Bemori 162B Nguyễn Gia Trí": 7620000,
+        "Teddy Outlet 970 Láng": 3324000,
+        "Bemori 411 NVC": 4229250,
+        "Kho 230213": 30888000
+      },
+      "mktRev": 31605500,
+      "mktOrders": 68,
+      "channel": {
+        "Shopee": {
+          "rev": 3868000,
+          "orders": 15
+        },
+        "Zalo cá nhân": {
+          "rev": 5897500,
+          "orders": 15
+        },
+        "Facebook": {
+          "rev": 11415000,
+          "orders": 21
+        },
+        "Admin": {
+          "rev": 3320000,
+          "orders": 6
+        },
+        "Zalo OA": {
+          "rev": 925000,
+          "orders": 2
+        },
+        "Instagram": {
+          "rev": 6180000,
+          "orders": 9
+        }
+      }
+    },
+    {
+      "day": "2026-04-08",
+      "salesRev": 127399050,
+      "salesCount": 200,
+      "type": {
+        "Cửa hàng": 64214750,
+        "Online": 30179500,
+        "Sỉ": 33004800
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 7505000,
+        "Bemori 228 Lê Văn Sỹ": 9020750,
+        "Bemori 411 NVC": 8557500,
+        "Bemori 1028 Đường Láng": 7837250,
+        "Bemori 161 Xuân Thủy": 7849750,
+        "Bemori 104-106 Cầu Giấy": 10909000,
+        "Bemori 368 Nguyễn Trãi": 11896500,
+        "Bemori 388 Xã Đàn": 3713000,
+        "Bemori 275 Bạch Mai": 9459000,
+        "Teddy Outlet 970 Láng": 917000,
+        "Kho Online Nguyễn Khuyến": 16729500,
+        "Kho 230213": 33004800
+      },
+      "mktRev": 24071000,
+      "mktOrders": 39,
+      "channel": {
+        "Shopee": {
+          "rev": 4404000,
+          "orders": 11
+        },
+        "Facebook": {
+          "rev": 11200000,
+          "orders": 12
+        },
+        "Zalo cá nhân": {
+          "rev": 4682000,
+          "orders": 10
+        },
+        "Admin": {
+          "rev": 2080000,
+          "orders": 3
+        },
+        "Instagram": {
+          "rev": 1705000,
+          "orders": 3
+        }
+      }
+    },
+    {
+      "day": "2026-04-09",
+      "salesRev": 115149250,
+      "salesCount": 234,
+      "type": {
+        "Online": 57416750,
+        "Cửa hàng": 57732500
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 16254250,
+        "Bemori 1028 Đường Láng": 9481750,
+        "Bemori 228 Lê Văn Sỹ": 21780750,
+        "Bemori 368 Nguyễn Trãi": 12869500,
+        "Bemori 104-106 Cầu Giấy": 11028000,
+        "Bemori 162B Nguyễn Gia Trí": 15078000,
+        "Bemori 161 Xuân Thủy": 11431000,
+        "Bemori 411 NVC": 2835000,
+        "Teddy Outlet 970 Láng": 2690000,
+        "Bemori 275 Bạch Mai": 4810000,
+        "Bemori 388 Xã Đàn": 6891000
+      },
+      "mktRev": 34457000,
+      "mktOrders": 56,
+      "channel": {
+        "Shopee": {
+          "rev": 5833000,
+          "orders": 16
+        },
+        "Facebook": {
+          "rev": 12786500,
+          "orders": 20
+        },
+        "Zalo cá nhân": {
+          "rev": 12120000,
+          "orders": 12
+        },
+        "Admin": {
+          "rev": 2802500,
+          "orders": 6
+        },
+        "Instagram": {
+          "rev": 915000,
+          "orders": 2
+        }
+      }
+    },
+    {
+      "day": "2026-04-10",
+      "salesRev": 135739110,
+      "salesCount": 232,
+      "type": {
+        "Cửa hàng": 79757250,
+        "Online": 21187500,
+        "Sỉ": 34794360
+      },
+      "store": {
+        "Bemori 388 Xã Đàn": 10010000,
+        "Bemori 104-106 Cầu Giấy": 10700000,
+        "Bemori 368 Nguyễn Trãi": 9662500,
+        "Bemori 162B Nguyễn Gia Trí": 13982250,
+        "Bemori 411 NVC": 6164500,
+        "Bemori 275 Bạch Mai": 7980000,
+        "Bemori 228 Lê Văn Sỹ": 9839250,
+        "Bemori 1028 Đường Láng": 10362750,
+        "Teddy Outlet 970 Láng": 1917000,
+        "Bemori 161 Xuân Thủy": 9625000,
+        "Kho Online Nguyễn Khuyến": 10701500,
+        "Kho 230213": 34794360
+      },
+      "mktRev": 29011000,
+      "mktOrders": 60,
+      "channel": {
+        "Shopee": {
+          "rev": 5371000,
+          "orders": 18
+        },
+        "Facebook": {
+          "rev": 7372500,
+          "orders": 12
+        },
+        "Zalo cá nhân": {
+          "rev": 5212500,
+          "orders": 12
+        },
+        "Instagram": {
+          "rev": 1790000,
+          "orders": 3
+        },
+        "Admin": {
+          "rev": 9265000,
+          "orders": 15
+        }
+      }
+    },
+    {
+      "day": "2026-04-11",
+      "salesRev": 115443250,
+      "salesCount": 261,
+      "type": {
+        "Cửa hàng": 92709250,
+        "Online": 22734000
+      },
+      "store": {
+        "Bemori 104-106 Cầu Giấy": 9854000,
+        "Bemori 161 Xuân Thủy": 12974750,
+        "Bemori 368 Nguyễn Trãi": 15113000,
+        "Bemori 275 Bạch Mai": 13306500,
+        "Bemori 1028 Đường Láng": 5730000,
+        "Bemori 162B Nguyễn Gia Trí": 13984000,
+        "Bemori 388 Xã Đàn": 8886250,
+        "Bemori 411 NVC": 7890000,
+        "Bemori 228 Lê Văn Sỹ": 12530750,
+        "Teddy Outlet 970 Láng": 2510000,
+        "Kho Online Nguyễn Khuyến": 12664000
+      },
+      "mktRev": 24559001,
+      "mktOrders": 48,
+      "channel": {
+        "Shopee": {
+          "rev": 2001000,
+          "orders": 9
+        },
+        "Facebook": {
+          "rev": 9209000,
+          "orders": 15
+        },
+        "Zalo cá nhân": {
+          "rev": 8455000,
+          "orders": 12
+        },
+        "Admin": {
+          "rev": 4409001,
+          "orders": 11
+        },
+        "Instagram": {
+          "rev": 485000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-04-12",
+      "salesRev": 98789000,
+      "salesCount": 238,
+      "type": {
+        "Cửa hàng": 88256000,
+        "Online": 10533000
+      },
+      "store": {
+        "Bemori 104-106 Cầu Giấy": 9120000,
+        "Bemori 162B Nguyễn Gia Trí": 12254000,
+        "Kho Online Nguyễn Khuyến": 6838000,
+        "Bemori 228 Lê Văn Sỹ": 9362250,
+        "Bemori 368 Nguyễn Trãi": 17940500,
+        "Bemori 411 NVC": 5539000,
+        "Bemori 388 Xã Đàn": 7975000,
+        "Bemori 161 Xuân Thủy": 8260250,
+        "Bemori 1028 Đường Láng": 11483500,
+        "Teddy Outlet 970 Láng": 3341500,
+        "Bemori 275 Bạch Mai": 6675000
+      },
+      "mktRev": 20737000,
+      "mktOrders": 43,
+      "channel": {
+        "Shopee": {
+          "rev": 3692000,
+          "orders": 14
+        },
+        "Zalo cá nhân": {
+          "rev": 6025000,
+          "orders": 9
+        },
+        "Zalo OA": {
+          "rev": 845000,
+          "orders": 2
+        },
+        "Facebook": {
+          "rev": 4815000,
+          "orders": 9
+        },
+        "Admin": {
+          "rev": 1300000,
+          "orders": 4
+        },
+        "Instagram": {
+          "rev": 4060000,
+          "orders": 5
+        }
+      }
+    },
+    {
+      "day": "2026-04-13",
+      "salesRev": 155970000,
+      "salesCount": 258,
+      "type": {
+        "Cửa hàng": 89586000,
+        "Online": 66384000
+      },
+      "store": {
+        "Bemori 368 Nguyễn Trãi": 10728000,
+        "Bemori 228 Lê Văn Sỹ": 14371500,
+        "Bemori 162B Nguyễn Gia Trí": 17057500,
+        "Bemori 104-106 Cầu Giấy": 8512000,
+        "Bemori 161 Xuân Thủy": 13569250,
+        "Bemori 1028 Đường Láng": 37248000,
+        "Bemori 388 Xã Đàn": 6364000,
+        "Bemori 275 Bạch Mai": 5245000,
+        "Teddy Outlet 970 Láng": 896500,
+        "Kho Online Nguyễn Khuyến": 30229000,
+        "Bemori 411 NVC": 11749250
+      },
+      "mktRev": 26791000,
+      "mktOrders": 49,
+      "channel": {
+        "Shopee": {
+          "rev": 4811000,
+          "orders": 13
+        },
+        "Zalo cá nhân": {
+          "rev": 5480000,
+          "orders": 7
+        },
+        "Facebook": {
+          "rev": 10850000,
+          "orders": 16
+        },
+        "Admin": {
+          "rev": 3875000,
+          "orders": 9
+        },
+        "Instagram": {
+          "rev": 1775000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-04-14",
+      "salesRev": 129525650,
+      "salesCount": 202,
+      "type": {
+        "Online": 32338000,
+        "Cửa hàng": 63195250,
+        "Sỉ": 33992400
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 9592750,
+        "Bemori 411 NVC": 8262000,
+        "Bemori 275 Bạch Mai": 8450000,
+        "Bemori 161 Xuân Thủy": 5705000,
+        "Bemori 368 Nguyễn Trãi": 14907500,
+        "Bemori 104-106 Cầu Giấy": 6504500,
+        "Bemori 388 Xã Đàn": 7655000,
+        "Bemori 228 Lê Văn Sỹ": 11959000,
+        "Teddy Outlet 970 Láng": 2591000,
+        "Bemori 1028 Đường Láng": 10738500,
+        "Kho Online Nguyễn Khuyến": 9168000,
+        "Kho 230213": 33992400
+      },
+      "mktRev": 57989000,
+      "mktOrders": 97,
+      "channel": {
+        "Shopee": {
+          "rev": 13610000,
+          "orders": 33
+        },
+        "Zalo cá nhân": {
+          "rev": 11650000,
+          "orders": 22
+        },
+        "Facebook": {
+          "rev": 21100000,
+          "orders": 28
+        },
+        "Admin": {
+          "rev": 3639000,
+          "orders": 8
+        },
+        "Instagram": {
+          "rev": 1810000,
+          "orders": 2
+        },
+        "Zalo OA": {
+          "rev": 6180000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-04-15",
+      "salesRev": 140878050,
+      "salesCount": 189,
+      "type": {
+        "Online": 27981500,
+        "Cửa hàng": 49840750,
+        "Sỉ": 63055800
+      },
+      "store": {
+        "Bemori 411 NVC": 7290000,
+        "Kho Online Nguyễn Khuyến": 25640100,
+        "Bemori 104-106 Cầu Giấy": 4885250,
+        "Bemori 1028 Đường Láng": 6182500,
+        "Bemori 388 Xã Đàn": 2200000,
+        "Bemori 228 Lê Văn Sỹ": 12879000,
+        "Bemori 368 Nguyễn Trãi": 11077500,
+        "Bemori 275 Bạch Mai": 5040000,
+        "Teddy Outlet 970 Láng": 1469500,
+        "Bemori 162B Nguyễn Gia Trí": 7227500,
+        "Bemori 161 Xuân Thủy": 5319500,
+        "Kho 230213": 51667200
+      },
+      "mktRev": 39895000,
+      "mktOrders": 59,
+      "channel": {
+        "Shopee": {
+          "rev": 6415000,
+          "orders": 18
+        },
+        "Zalo cá nhân": {
+          "rev": 19434000,
+          "orders": 16
+        },
+        "Admin": {
+          "rev": 2420000,
+          "orders": 3
+        },
+        "Facebook": {
+          "rev": 9051000,
+          "orders": 18
+        },
+        "Instagram": {
+          "rev": 2290000,
+          "orders": 3
+        },
+        "Zalo OA": {
+          "rev": 285000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-04-16",
+      "salesRev": 90650000,
+      "salesCount": 194,
+      "type": {
+        "Online": 21621000,
+        "Cửa hàng": 67760000,
+        "Sỉ": 1269000
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 13081000,
+        "Bemori 104-106 Cầu Giấy": 9407000,
+        "Bemori 161 Xuân Thủy": 13085000,
+        "Bemori 1028 Đường Láng": 6810000,
+        "Bemori 411 NVC": 5500000,
+        "Bemori 368 Nguyễn Trãi": 12198500,
+        "Bemori 162B Nguyễn Gia Trí": 8954000,
+        "Bemori 228 Lê Văn Sỹ": 9796000,
+        "Bemori 388 Xã Đàn": 3575000,
+        "Teddy Outlet 970 Láng": 2110500,
+        "Bemori 275 Bạch Mai": 4864000,
+        "Kho 230213": 1269000
+      },
+      "mktRev": 25749500,
+      "mktOrders": 49,
+      "channel": {
+        "Shopee": {
+          "rev": 4324000,
+          "orders": 13
+        },
+        "Admin": {
+          "rev": 5731500,
+          "orders": 7
+        },
+        "Instagram": {
+          "rev": 3016000,
+          "orders": 5
+        },
+        "Zalo cá nhân": {
+          "rev": 8043000,
+          "orders": 14
+        },
+        "Facebook": {
+          "rev": 4635000,
+          "orders": 10
+        }
+      }
+    },
+    {
+      "day": "2026-04-17",
+      "salesRev": 148696560,
+      "salesCount": 247,
+      "type": {
+        "Online": 40301500,
+        "Cửa hàng": 87813500,
+        "Sỉ": 20581560
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 26938800,
+        "Bemori 162B Nguyễn Gia Trí": 11016500,
+        "Bemori 104-106 Cầu Giấy": 6719500,
+        "Bemori 161 Xuân Thủy": 28474000,
+        "Bemori 275 Bạch Mai": 8480000,
+        "Bemori 228 Lê Văn Sỹ": 14223500,
+        "Bemori 388 Xã Đàn": 6235000,
+        "Bemori 411 NVC": 8689000,
+        "Bemori 1028 Đường Láng": 9915000,
+        "Teddy Outlet 970 Láng": 2792500,
+        "Bemori 368 Nguyễn Trãi": 9934000,
+        "Kho 230213": 15278760
+      },
+      "mktRev": 35339000,
+      "mktOrders": 64,
+      "channel": {
+        "Shopee": {
+          "rev": 7317000,
+          "orders": 16
+        },
+        "Facebook": {
+          "rev": 9857500,
+          "orders": 17
+        },
+        "Zalo cá nhân": {
+          "rev": 11222000,
+          "orders": 17
+        },
+        "Instagram": {
+          "rev": 1552500,
+          "orders": 3
+        },
+        "Admin": {
+          "rev": 5390000,
+          "orders": 11
+        }
+      }
+    },
+    {
+      "day": "2026-04-18",
+      "salesRev": 134753340,
+      "salesCount": 242,
+      "type": {
+        "Cửa hàng": 95300000,
+        "Online": 16748500,
+        "Sỉ": 22704840
+      },
+      "store": {
+        "Bemori 161 Xuân Thủy": 14050000,
+        "Bemori 228 Lê Văn Sỹ": 10268000,
+        "Bemori 411 NVC": 14947000,
+        "Kho Online Nguyễn Khuyến": 20126340,
+        "Bemori 162B Nguyễn Gia Trí": 13831000,
+        "Bemori 368 Nguyễn Trãi": 14730000,
+        "Bemori 275 Bạch Mai": 8611000,
+        "Bemori 1028 Đường Láng": 5455000,
+        "Bemori 388 Xã Đàn": 6416500,
+        "Bemori 104-106 Cầu Giấy": 7378000,
+        "Teddy Outlet 970 Láng": 6034500,
+        "Kho 230213": 12906000
+      },
+      "mktRev": 35181250,
+      "mktOrders": 49,
+      "channel": {
+        "Shopee": {
+          "rev": 3114000,
+          "orders": 9
+        },
+        "Zalo cá nhân": {
+          "rev": 10454500,
+          "orders": 11
+        },
+        "Facebook": {
+          "rev": 15447750,
+          "orders": 17
+        },
+        "Instagram": {
+          "rev": 2515000,
+          "orders": 3
+        },
+        "Admin": {
+          "rev": 3650000,
+          "orders": 9
+        }
+      }
+    },
+    {
+      "day": "2026-04-19",
+      "salesRev": 129148000,
+      "salesCount": 273,
+      "type": {
+        "Cửa hàng": 92618250,
+        "Online": 36529750
+      },
+      "store": {
+        "Bemori 368 Nguyễn Trãi": 17086500,
+        "Bemori 161 Xuân Thủy": 10664750,
+        "Bemori 275 Bạch Mai": 11590000,
+        "Bemori 104-106 Cầu Giấy": 10117750,
+        "Bemori 162B Nguyễn Gia Trí": 11341750,
+        "Bemori 411 NVC": 11969000,
+        "Bemori 1028 Đường Láng": 6784000,
+        "Bemori 388 Xã Đàn": 7071750,
+        "Bemori 228 Lê Văn Sỹ": 16804500,
+        "Teddy Outlet 970 Láng": 2741000,
+        "Kho Online Nguyễn Khuyến": 22977000
+      },
+      "mktRev": 23783751,
+      "mktOrders": 48,
+      "channel": {
+        "Shopee": {
+          "rev": 5109000,
+          "orders": 16
+        },
+        "Facebook": {
+          "rev": 7345250,
+          "orders": 14
+        },
+        "Zalo cá nhân": {
+          "rev": 8685000,
+          "orders": 12
+        },
+        "Admin": {
+          "rev": 2029501,
+          "orders": 4
+        },
+        "Instagram": {
+          "rev": 615000,
+          "orders": 2
+        }
+      }
+    },
+    {
+      "day": "2026-04-20",
+      "salesRev": 128902040,
+      "salesCount": 201,
+      "type": {
+        "Online": 28294000,
+        "Cửa hàng": 62517250,
+        "Sỉ": 38090790
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 18382000,
+        "Bemori 1028 Đường Láng": 5883000,
+        "Bemori 368 Nguyễn Trãi": 13977000,
+        "Bemori 161 Xuân Thủy": 10528500,
+        "Bemori 162B Nguyễn Gia Trí": 10290000,
+        "Bemori 104-106 Cầu Giấy": 8328750,
+        "Bemori 228 Lê Văn Sỹ": 7721500,
+        "Bemori 388 Xã Đàn": 2449500,
+        "Bemori 275 Bạch Mai": 5630000,
+        "Bemori 411 NVC": 6024000,
+        "Teddy Outlet 970 Láng": 1597000,
+        "Kho 230213": 38090790
+      },
+      "mktRev": 18384000,
+      "mktOrders": 36,
+      "channel": {
+        "Shopee": {
+          "rev": 4150000,
+          "orders": 14
+        },
+        "Admin": {
+          "rev": 3009000,
+          "orders": 6
+        },
+        "Instagram": {
+          "rev": 2455000,
+          "orders": 3
+        },
+        "Facebook": {
+          "rev": 3375000,
+          "orders": 6
+        },
+        "Zalo cá nhân": {
+          "rev": 5395000,
+          "orders": 7
+        }
+      }
+    },
+    {
+      "day": "2026-04-21",
+      "salesRev": 124063780,
+      "salesCount": 181,
+      "type": {
+        "Online": 32649750,
+        "Cửa hàng": 56674750,
+        "Sỉ": 34739280
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 14632500,
+        "Bemori 161 Xuân Thủy": 7079750,
+        "Bemori 411 NVC": 8930000,
+        "Bemori 228 Lê Văn Sỹ": 11279000,
+        "Kho Online Nguyễn Khuyến": 15156150,
+        "Bemori 104-106 Cầu Giấy": 6036000,
+        "Bemori 368 Nguyễn Trãi": 10647500,
+        "Bemori 1028 Đường Láng": 5184000,
+        "Bemori 388 Xã Đàn": 3815000,
+        "Teddy Outlet 970 Láng": 1102000,
+        "Bemori 275 Bạch Mai": 7520000,
+        "Kho 230213": 32681880
+      },
+      "mktRev": 34997250,
+      "mktOrders": 62,
+      "channel": {
+        "Shopee": {
+          "rev": 3547000,
+          "orders": 12
+        },
+        "Facebook": {
+          "rev": 13940250,
+          "orders": 22
+        },
+        "Admin": {
+          "rev": 2625000,
+          "orders": 5
+        },
+        "Zalo cá nhân": {
+          "rev": 12955000,
+          "orders": 19
+        },
+        "Instagram": {
+          "rev": 1930000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-04-22",
+      "salesRev": 128112560,
+      "salesCount": 194,
+      "type": {
+        "Cửa hàng": 67024000,
+        "Online": 14560000,
+        "Sỉ": 46528560
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 10100000,
+        "Bemori 104-106 Cầu Giấy": 6823000,
+        "Kho Online Nguyễn Khuyến": 21891100,
+        "Bemori 228 Lê Văn Sỹ": 9787250,
+        "Bemori 161 Xuân Thủy": 7975250,
+        "Bemori 275 Bạch Mai": 6772500,
+        "Bemori 368 Nguyễn Trãi": 7892500,
+        "Bemori 1028 Đường Láng": 4787750,
+        "Bemori 388 Xã Đàn": 9858750,
+        "Teddy Outlet 970 Láng": 2626000,
+        "Bemori 411 NVC": 3378500,
+        "Kho 230213": 36219960
+      },
+      "mktRev": 32008645,
+      "mktOrders": 58,
+      "channel": {
+        "Shopee": {
+          "rev": 4079000,
+          "orders": 11
+        },
+        "Facebook": {
+          "rev": 12172500,
+          "orders": 19
+        },
+        "Zalo cá nhân": {
+          "rev": 10961000,
+          "orders": 16
+        },
+        "Admin": {
+          "rev": 3891000,
+          "orders": 10
+        },
+        "Instagram": {
+          "rev": 905145,
+          "orders": 2
+        }
+      }
+    },
+    {
+      "day": "2026-04-23",
+      "salesRev": 149702100,
+      "salesCount": 249,
+      "type": {
+        "Cửa hàng": 77470000,
+        "Online": 45966500,
+        "Sỉ": 26265600
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 14957000,
+        "Kho Online Nguyễn Khuyến": 16347000,
+        "Bemori 228 Lê Văn Sỹ": 16353000,
+        "Bemori 161 Xuân Thủy": 5476500,
+        "Bemori 275 Bạch Mai": 12164000,
+        "Bemori 104-106 Cầu Giấy": 7051000,
+        "Bemori 388 Xã Đàn": 12297250,
+        "Bemori 1028 Đường Láng": 7230000,
+        "Teddy Outlet 970 Láng": 3077000,
+        "Bemori 368 Nguyễn Trãi": 9146750,
+        "Bemori 411 NVC": 19337000,
+        "Kho 230213": 26265600
+      },
+      "mktRev": 27932500,
+      "mktOrders": 56,
+      "channel": {
+        "Shopee": {
+          "rev": 3623000,
+          "orders": 11
+        },
+        "Instagram": {
+          "rev": 3665000,
+          "orders": 5
+        },
+        "Facebook": {
+          "rev": 8370000,
+          "orders": 15
+        },
+        "Admin": {
+          "rev": 6147500,
+          "orders": 11
+        },
+        "Zalo cá nhân": {
+          "rev": 5932000,
+          "orders": 13
+        },
+        "Zalo OA": {
+          "rev": 195000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-04-24",
+      "salesRev": 144655570,
+      "salesCount": 247,
+      "type": {
+        "Online": 33664000,
+        "Cửa hàng": 80949750,
+        "Sỉ": 30041820
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 17438500,
+        "Bemori 228 Lê Văn Sỹ": 10903750,
+        "Bemori 275 Bạch Mai": 5620000,
+        "Bemori 104-106 Cầu Giấy": 11945000,
+        "Bemori 1028 Đường Láng": 6750000,
+        "Bemori 161 Xuân Thủy": 16569000,
+        "Bemori 411 NVC": 6885000,
+        "Bemori 368 Nguyễn Trãi": 14992500,
+        "Bemori 162B Nguyễn Gia Trí": 14240000,
+        "Bemori 388 Xã Đàn": 7755000,
+        "Teddy Outlet 970 Láng": 1515000,
+        "Kho 230213": 30041820
+      },
+      "mktRev": 30740000,
+      "mktOrders": 67,
+      "channel": {
+        "Shopee": {
+          "rev": 5311000,
+          "orders": 18
+        },
+        "Facebook": {
+          "rev": 10650000,
+          "orders": 22
+        },
+        "Zalo cá nhân": {
+          "rev": 10144000,
+          "orders": 17
+        },
+        "Admin": {
+          "rev": 1895000,
+          "orders": 4
+        },
+        "Instagram": {
+          "rev": 2740000,
+          "orders": 6
+        }
+      }
+    },
+    {
+      "day": "2026-04-25",
+      "salesRev": 98613500,
+      "salesCount": 209,
+      "type": {
+        "Cửa hàng": 79958500,
+        "Online": 18655000
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 9401250,
+        "Bemori 1028 Đường Láng": 9252750,
+        "Bemori 104-106 Cầu Giấy": 10628000,
+        "Bemori 275 Bạch Mai": 9839000,
+        "Bemori 368 Nguyễn Trãi": 12898250,
+        "Bemori 411 NVC": 8316750,
+        "Bemori 228 Lê Văn Sỹ": 11656000,
+        "Bemori 388 Xã Đàn": 5463000,
+        "Bemori 161 Xuân Thủy": 9299000,
+        "Kho Online Nguyễn Khuyến": 9395500,
+        "Teddy Outlet 970 Láng": 2464000
+      },
+      "mktRev": 19075500,
+      "mktOrders": 43,
+      "channel": {
+        "Shopee": {
+          "rev": 3298000,
+          "orders": 9
+        },
+        "Facebook": {
+          "rev": 7890000,
+          "orders": 17
+        },
+        "Zalo cá nhân": {
+          "rev": 5734500,
+          "orders": 9
+        },
+        "Admin": {
+          "rev": 1488000,
+          "orders": 7
+        },
+        "Instagram": {
+          "rev": 665000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-04-26",
+      "salesRev": 100162250,
+      "salesCount": 190,
+      "type": {
+        "Online": 10909500,
+        "Cửa hàng": 89252750
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 8524500,
+        "Bemori 368 Nguyễn Trãi": 10755500,
+        "Bemori 228 Lê Văn Sỹ": 9714500,
+        "Bemori 1028 Đường Láng": 9305000,
+        "Bemori 161 Xuân Thủy": 13326000,
+        "Bemori 104-106 Cầu Giấy": 10586000,
+        "Bemori 162B Nguyễn Gia Trí": 6159000,
+        "Bemori 411 NVC": 12009000,
+        "Bemori 275 Bạch Mai": 10341750,
+        "Bemori 388 Xã Đàn": 5090000,
+        "Teddy Outlet 970 Láng": 4351000
+      },
+      "mktRev": 15911500,
+      "mktOrders": 27,
+      "channel": {
+        "Shopee": {
+          "rev": 1985000,
+          "orders": 7
+        },
+        "Facebook": {
+          "rev": 5655000,
+          "orders": 7
+        },
+        "Zalo cá nhân": {
+          "rev": 2860000,
+          "orders": 5
+        },
+        "Admin": {
+          "rev": 3826500,
+          "orders": 6
+        },
+        "Instagram": {
+          "rev": 1585000,
+          "orders": 2
+        }
+      }
+    },
+    {
+      "day": "2026-04-27",
+      "salesRev": 84200200,
+      "salesCount": 164,
+      "type": {
+        "Cửa hàng": 51760250,
+        "Online": 23513750,
+        "Sỉ": 8926200
+      },
+      "store": {
+        "Bemori 161 Xuân Thủy": 6734500,
+        "Bemori 1028 Đường Láng": 4974000,
+        "Bemori 228 Lê Văn Sỹ": 9322250,
+        "Bemori 388 Xã Đàn": 6651500,
+        "Bemori 104-106 Cầu Giấy": 8928000,
+        "Bemori 368 Nguyễn Trãi": 5115000,
+        "Bemori 275 Bạch Mai": 8210000,
+        "Kho Online Nguyễn Khuyến": 12306250,
+        "Bemori 162B Nguyễn Gia Trí": 4330000,
+        "Teddy Outlet 970 Láng": 1237500,
+        "Bemori 411 NVC": 7465000,
+        "Kho 230213": 8926200
+      },
+      "mktRev": 27894830,
+      "mktOrders": 44,
+      "channel": {
+        "Shopee": {
+          "rev": 4987000,
+          "orders": 10
+        },
+        "Zalo cá nhân": {
+          "rev": 13741830,
+          "orders": 15
+        },
+        "Instagram": {
+          "rev": 2370000,
+          "orders": 5
+        },
+        "Facebook": {
+          "rev": 2823000,
+          "orders": 7
+        },
+        "Admin": {
+          "rev": 3973000,
+          "orders": 7
+        }
+      }
+    },
+    {
+      "day": "2026-04-28",
+      "salesRev": 81987500,
+      "salesCount": 183,
+      "type": {
+        "Online": 22153000,
+        "Cửa hàng": 59564500,
+        "Sỉ": 270000
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 15135000,
+        "Bemori 1028 Đường Láng": 6225500,
+        "Bemori 228 Lê Văn Sỹ": 4388000,
+        "Bemori 411 NVC": 5710000,
+        "Bemori 275 Bạch Mai": 13116000,
+        "Bemori 368 Nguyễn Trãi": 7958500,
+        "Bemori 162B Nguyễn Gia Trí": 6298000,
+        "Bemori 104-106 Cầu Giấy": 7124000,
+        "Bemori 388 Xã Đàn": 8270500,
+        "Bemori 161 Xuân Thủy": 6535000,
+        "Teddy Outlet 970 Láng": 1227000
+      },
+      "mktRev": 19828500,
+      "mktOrders": 37,
+      "channel": {
+        "Shopee": {
+          "rev": 3365000,
+          "orders": 10
+        },
+        "Zalo cá nhân": {
+          "rev": 6691000,
+          "orders": 9
+        },
+        "Facebook": {
+          "rev": 9290000,
+          "orders": 14
+        },
+        "Admin": {
+          "rev": 482500,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-04-29",
+      "salesRev": 157390430,
+      "salesCount": 206,
+      "type": {
+        "Cửa hàng": 67065000,
+        "Online": 38327750,
+        "Sỉ": 51997680
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 15679000,
+        "Bemori 104-106 Cầu Giấy": 8517000,
+        "Bemori 275 Bạch Mai": 6964000,
+        "Bemori 368 Nguyễn Trãi": 11849000,
+        "Bemori 228 Lê Văn Sỹ": 10359000,
+        "Bemori 388 Xã Đàn": 8059500,
+        "Teddy Outlet 970 Láng": 1890500,
+        "Bemori 1028 Đường Láng": 7326500,
+        "Bemori 411 NVC": 9535000,
+        "Bemori 161 Xuân Thủy": 4840000,
+        "Kho Online Nguyễn Khuyến": 20373250,
+        "Kho 230213": 51997680
+      },
+      "mktRev": 21654250,
+      "mktOrders": 40,
+      "channel": {
+        "Shopee": {
+          "rev": 5737000,
+          "orders": 11
+        },
+        "Admin": {
+          "rev": 3387250,
+          "orders": 10
+        },
+        "Zalo cá nhân": {
+          "rev": 5197500,
+          "orders": 7
+        },
+        "Facebook": {
+          "rev": 6892500,
+          "orders": 11
+        },
+        "Instagram": {
+          "rev": 440000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-04-30",
+      "salesRev": 58401000,
+      "salesCount": 126,
+      "type": {
+        "Cửa hàng": 47676000,
+        "Online": 10725000
+      },
+      "store": {
+        "Bemori 1028 Đường Láng": 3934000,
+        "Bemori 104-106 Cầu Giấy": 4790000,
+        "Bemori 275 Bạch Mai": 5544000,
+        "Bemori 228 Lê Văn Sỹ": 8451750,
+        "Bemori 368 Nguyễn Trãi": 7006500,
+        "Bemori 161 Xuân Thủy": 4919000,
+        "Bemori 411 NVC": 5980000,
+        "Bemori 388 Xã Đàn": 4880000,
+        "Bemori 162B Nguyễn Gia Trí": 5201250,
+        "Teddy Outlet 970 Láng": 1909500,
+        "Kho Online Nguyễn Khuyến": 5785000
+      },
+      "mktRev": 21143000,
+      "mktOrders": 45,
+      "channel": {
+        "Shopee": {
+          "rev": 3863000,
+          "orders": 16
+        },
+        "Instagram": {
+          "rev": 1610000,
+          "orders": 5
+        },
+        "Zalo cá nhân": {
+          "rev": 9955000,
+          "orders": 13
+        },
+        "Admin": {
+          "rev": 92500,
+          "orders": 2
+        },
+        "Facebook": {
+          "rev": 5622500,
+          "orders": 9
+        }
+      }
+    },
+    {
+      "day": "2026-05-01",
+      "salesRev": 68205000,
+      "salesCount": 145,
+      "type": {
+        "Cửa hàng": 51524000,
+        "Online": 16681000
+      },
+      "store": {
+        "Bemori 388 Xã Đàn": 4950000,
+        "Bemori 228 Lê Văn Sỹ": 10595000,
+        "Bemori 104-106 Cầu Giấy": 6459000,
+        "Bemori 162B Nguyễn Gia Trí": 4022750,
+        "Bemori 411 NVC": 7137750,
+        "Bemori 1028 Đường Láng": 4900000,
+        "Bemori 161 Xuân Thủy": 5545000,
+        "Kho Online Nguyễn Khuyến": 10703500,
+        "Bemori 275 Bạch Mai": 4969000,
+        "Bemori 368 Nguyễn Trãi": 8182000,
+        "Teddy Outlet 970 Láng": 741000
+      },
+      "mktRev": 17349000,
+      "mktOrders": 34,
+      "channel": {
+        "Shopee": {
+          "rev": 3109000,
+          "orders": 10
+        },
+        "Instagram": {
+          "rev": 335000,
+          "orders": 1
+        },
+        "Admin": {
+          "rev": 1035000,
+          "orders": 3
+        },
+        "Zalo cá nhân": {
+          "rev": 10050000,
+          "orders": 13
+        },
+        "Facebook": {
+          "rev": 2820000,
+          "orders": 7
+        }
+      }
+    },
+    {
+      "day": "2026-05-02",
+      "salesRev": 71875250,
+      "salesCount": 158,
+      "type": {
+        "Online": 19209500,
+        "Cửa hàng": 52665750
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 8032000,
+        "Bemori 162B Nguyễn Gia Trí": 8498500,
+        "Bemori 1028 Đường Láng": 5540000,
+        "Bemori 161 Xuân Thủy": 6469000,
+        "Bemori 368 Nguyễn Trãi": 8318500,
+        "Bemori 104-106 Cầu Giấy": 5696500,
+        "Bemori 275 Bạch Mai": 7030000,
+        "Bemori 228 Lê Văn Sỹ": 13857500,
+        "Bemori 411 NVC": 6750250,
+        "Bemori 388 Xã Đàn": 1401000,
+        "Teddy Outlet 970 Láng": 282000
+      },
+      "mktRev": 21972500,
+      "mktOrders": 40,
+      "channel": {
+        "Shopee": {
+          "rev": 2365000,
+          "orders": 9
+        },
+        "Instagram": {
+          "rev": 3070000,
+          "orders": 5
+        },
+        "Facebook": {
+          "rev": 9555000,
+          "orders": 13
+        },
+        "Zalo cá nhân": {
+          "rev": 5510000,
+          "orders": 8
+        },
+        "Admin": {
+          "rev": 1472500,
+          "orders": 5
+        }
+      }
+    },
+    {
+      "day": "2026-05-03",
+      "salesRev": 67867750,
+      "salesCount": 147,
+      "type": {
+        "Cửa hàng": 54702250,
+        "Online": 13165500
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 9151250,
+        "Bemori 368 Nguyễn Trãi": 7086000,
+        "Bemori 275 Bạch Mai": 5635000,
+        "Bemori 411 NVC": 3965000,
+        "Bemori 104-106 Cầu Giấy": 5819000,
+        "Bemori 1028 Đường Láng": 5202500,
+        "Bemori 228 Lê Văn Sỹ": 12172500,
+        "Bemori 161 Xuân Thủy": 9804000,
+        "Bemori 388 Xã Đàn": 2620000,
+        "Kho Online Nguyễn Khuyến": 5680500,
+        "Teddy Outlet 970 Láng": 732000
+      },
+      "mktRev": 16194622,
+      "mktOrders": 35,
+      "channel": {
+        "Shopee": {
+          "rev": 1855000,
+          "orders": 8
+        },
+        "Facebook": {
+          "rev": 5684622,
+          "orders": 11
+        },
+        "Zalo cá nhân": {
+          "rev": 5305000,
+          "orders": 8
+        },
+        "Admin": {
+          "rev": 2880000,
+          "orders": 7
+        },
+        "Instagram": {
+          "rev": 470000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-05-04",
+      "salesRev": 111421750,
+      "salesCount": 208,
+      "type": {
+        "Online": 31579000,
+        "Cửa hàng": 79842750
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 19784000,
+        "Bemori 104-106 Cầu Giấy": 23016500,
+        "Bemori 228 Lê Văn Sỹ": 13000000,
+        "Bemori 162B Nguyễn Gia Trí": 10957750,
+        "Bemori 388 Xã Đàn": 5125000,
+        "Bemori 275 Bạch Mai": 9543000,
+        "Bemori 368 Nguyễn Trãi": 11953000,
+        "Bemori 1028 Đường Láng": 5472500,
+        "Bemori 411 NVC": 8240000,
+        "Bemori 161 Xuân Thủy": 3800000,
+        "Teddy Outlet 970 Láng": 530000
+      },
+      "mktRev": 24850000,
+      "mktOrders": 55,
+      "channel": {
+        "Shopee": {
+          "rev": 5457000,
+          "orders": 20
+        },
+        "Zalo cá nhân": {
+          "rev": 4333000,
+          "orders": 12
+        },
+        "Facebook": {
+          "rev": 11425000,
+          "orders": 17
+        },
+        "Admin": {
+          "rev": 825000,
+          "orders": 2
+        },
+        "Instagram": {
+          "rev": 2810000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-05-05",
+      "salesRev": 107371749,
+      "salesCount": 205,
+      "type": {
+        "Online": 35618500,
+        "Cửa hàng": 65158089,
+        "Sỉ": 6595160
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 25963660,
+        "Bemori 104-106 Cầu Giấy": 11054500,
+        "Bemori 162B Nguyễn Gia Trí": 11448500,
+        "Bemori 368 Nguyễn Trãi": 5611250,
+        "Bemori 228 Lê Văn Sỹ": 10445000,
+        "Bemori 388 Xã Đàn": 8003839,
+        "Bemori 275 Bạch Mai": 8411000,
+        "Bemori 1028 Đường Láng": 11200000,
+        "Bemori 161 Xuân Thủy": 9809000,
+        "Teddy Outlet 970 Láng": 1160000,
+        "Bemori 411 NVC": 4265000
+      },
+      "mktRev": 43083000,
+      "mktOrders": 72,
+      "channel": {
+        "Shopee": {
+          "rev": 8744000,
+          "orders": 24
+        },
+        "Facebook": {
+          "rev": 11747500,
+          "orders": 13
+        },
+        "Instagram": {
+          "rev": 4815000,
+          "orders": 7
+        },
+        "Zalo cá nhân": {
+          "rev": 6379000,
+          "orders": 13
+        },
+        "Admin": {
+          "rev": 11397500,
+          "orders": 15
+        }
+      }
+    },
+    {
+      "day": "2026-05-06",
+      "salesRev": 109319250,
+      "salesCount": 192,
+      "type": {
+        "Online": 32199000,
+        "Cửa hàng": 58370250,
+        "Sỉ": 18750000
+      },
+      "store": {
+        "Bemori 161 Xuân Thủy": 7385000,
+        "Bemori 228 Lê Văn Sỹ": 14308250,
+        "Bemori 368 Nguyễn Trãi": 7469000,
+        "Bemori 275 Bạch Mai": 4690500,
+        "Bemori 162B Nguyễn Gia Trí": 11966500,
+        "Bemori 104-106 Cầu Giấy": 6534000,
+        "Bemori 1028 Đường Láng": 8440750,
+        "Bemori 388 Xã Đàn": 7847250,
+        "Kho Online Nguyễn Khuyến": 29519000,
+        "Bemori 411 NVC": 8819000,
+        "Teddy Outlet 970 Láng": 2340000
+      },
+      "mktRev": 31046500,
+      "mktOrders": 57,
+      "channel": {
+        "Shopee": {
+          "rev": 2914000,
+          "orders": 9
+        },
+        "Facebook": {
+          "rev": 14035000,
+          "orders": 22
+        },
+        "Admin": {
+          "rev": 760000,
+          "orders": 4
+        },
+        "Zalo cá nhân": {
+          "rev": 9712500,
+          "orders": 16
+        },
+        "Instagram": {
+          "rev": 3625000,
+          "orders": 6
+        }
+      }
+    },
+    {
+      "day": "2026-05-07",
+      "salesRev": 109569300,
+      "salesCount": 201,
+      "type": {
+        "Cửa hàng": 71349000,
+        "Online": 24130500,
+        "Sỉ": 14089800
+      },
+      "store": {
+        "Bemori 161 Xuân Thủy": 6390750,
+        "Bemori 162B Nguyễn Gia Trí": 8446000,
+        "Bemori 368 Nguyễn Trãi": 13605000,
+        "Bemori 104-106 Cầu Giấy": 8320000,
+        "Bemori 1028 Đường Láng": 7349750,
+        "Bemori 275 Bạch Mai": 6692500,
+        "Bemori 411 NVC": 7281500,
+        "Kho Online Nguyễn Khuyến": 31148800,
+        "Bemori 388 Xã Đàn": 6077500,
+        "Teddy Outlet 970 Láng": 2597000,
+        "Bemori 228 Lê Văn Sỹ": 11660500
+      },
+      "mktRev": 43149000,
+      "mktOrders": 59,
+      "channel": {
+        "Shopee": {
+          "rev": 5014000,
+          "orders": 15
+        },
+        "Admin": {
+          "rev": 3495000,
+          "orders": 4
+        },
+        "Instagram": {
+          "rev": 9370000,
+          "orders": 9
+        },
+        "Facebook": {
+          "rev": 14525000,
+          "orders": 19
+        },
+        "Zalo cá nhân": {
+          "rev": 10745000,
+          "orders": 12
+        }
+      }
+    },
+    {
+      "day": "2026-05-08",
+      "salesRev": 99532500,
+      "salesCount": 229,
+      "type": {
+        "Online": 29194500,
+        "Cửa hàng": 70338000
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 19486500,
+        "Bemori 1028 Đường Láng": 8706000,
+        "Bemori 104-106 Cầu Giấy": 11126500,
+        "Bemori 162B Nguyễn Gia Trí": 9888000,
+        "Bemori 388 Xã Đàn": 5630000,
+        "Bemori 161 Xuân Thủy": 9161250,
+        "Bemori 228 Lê Văn Sỹ": 8836000,
+        "Bemori 368 Nguyễn Trãi": 8414000,
+        "Bemori 275 Bạch Mai": 7344250,
+        "Teddy Outlet 970 Láng": 1439500,
+        "Bemori 411 NVC": 9500500
+      },
+      "mktRev": 32440001,
+      "mktOrders": 55,
+      "channel": {
+        "Shopee": {
+          "rev": 3717000,
+          "orders": 10
+        },
+        "Zalo cá nhân": {
+          "rev": 13615000,
+          "orders": 18
+        },
+        "Instagram": {
+          "rev": 2030000,
+          "orders": 4
+        },
+        "Facebook": {
+          "rev": 11422000,
+          "orders": 16
+        },
+        "Admin": {
+          "rev": 1656001,
+          "orders": 7
+        }
+      }
+    },
+    {
+      "day": "2026-05-09",
+      "salesRev": 137700500,
+      "salesCount": 283,
+      "type": {
+        "Online": 33668750,
+        "Cửa hàng": 104031750
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 25486250,
+        "Bemori 1028 Đường Láng": 8857500,
+        "Bemori 275 Bạch Mai": 7707250,
+        "Bemori 162B Nguyễn Gia Trí": 16031500,
+        "Bemori 388 Xã Đàn": 8910000,
+        "Bemori 104-106 Cầu Giấy": 13008000,
+        "Bemori 228 Lê Văn Sỹ": 14649000,
+        "Bemori 161 Xuân Thủy": 14090000,
+        "Bemori 411 NVC": 12633000,
+        "Teddy Outlet 970 Láng": 2919000,
+        "Bemori 368 Nguyễn Trãi": 13409000
+      },
+      "mktRev": 28815750,
+      "mktOrders": 58,
+      "channel": {
+        "Shopee": {
+          "rev": 6245000,
+          "orders": 17
+        },
+        "Zalo cá nhân": {
+          "rev": 9789500,
+          "orders": 16
+        },
+        "Admin": {
+          "rev": 4265000,
+          "orders": 9
+        },
+        "Instagram": {
+          "rev": 2462500,
+          "orders": 4
+        },
+        "Facebook": {
+          "rev": 4978750,
+          "orders": 11
+        },
+        "Zalo OA": {
+          "rev": 1075000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-05-10",
+      "salesRev": 147274750,
+      "salesCount": 283,
+      "type": {
+        "Cửa hàng": 121929250,
+        "Online": 25345500
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 12461000,
+        "Bemori 368 Nguyễn Trãi": 17614000,
+        "Kho Online Nguyễn Khuyến": 16240500,
+        "Bemori 275 Bạch Mai": 15940000,
+        "Bemori 228 Lê Văn Sỹ": 13715000,
+        "Bemori 1028 Đường Láng": 15703500,
+        "Bemori 104-106 Cầu Giấy": 9768750,
+        "Bemori 161 Xuân Thủy": 12462250,
+        "Bemori 411 NVC": 18882250,
+        "Bemori 388 Xã Đàn": 13647500,
+        "Teddy Outlet 970 Láng": 840000
+      },
+      "mktRev": 24299000,
+      "mktOrders": 58,
+      "channel": {
+        "Shopee": {
+          "rev": 4052000,
+          "orders": 16
+        },
+        "Zalo cá nhân": {
+          "rev": 9237000,
+          "orders": 17
+        },
+        "Admin": {
+          "rev": 2000000,
+          "orders": 7
+        },
+        "Facebook": {
+          "rev": 7830000,
+          "orders": 14
+        },
+        "Zalo OA": {
+          "rev": 780000,
+          "orders": 3
+        },
+        "Instagram": {
+          "rev": 400000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-05-11",
+      "salesRev": 116961250,
+      "salesCount": 229,
+      "type": {
+        "Online": 53632500,
+        "Cửa hàng": 63328750
+      },
+      "store": {
+        "Bemori 1028 Đường Láng": 8638000,
+        "Bemori 161 Xuân Thủy": 9875750,
+        "Bemori 368 Nguyễn Trãi": 10061500,
+        "Bemori 228 Lê Văn Sỹ": 19697750,
+        "Bemori 275 Bạch Mai": 12591750,
+        "Bemori 104-106 Cầu Giấy": 6965000,
+        "Kho Online Nguyễn Khuyến": 22795000,
+        "Bemori 162B Nguyễn Gia Trí": 12231500,
+        "Bemori 388 Xã Đàn": 6158500,
+        "Bemori 411 NVC": 6394500,
+        "Teddy Outlet 970 Láng": 1552000
+      },
+      "mktRev": 27739250,
+      "mktOrders": 46,
+      "channel": {
+        "Shopee": {
+          "rev": 5035000,
+          "orders": 12
+        },
+        "Facebook": {
+          "rev": 6878250,
+          "orders": 13
+        },
+        "Zalo cá nhân": {
+          "rev": 8186000,
+          "orders": 14
+        },
+        "Admin": {
+          "rev": 5140000,
+          "orders": 5
+        },
+        "Instagram": {
+          "rev": 2500000,
+          "orders": 2
+        }
+      }
+    },
+    {
+      "day": "2026-05-12",
+      "salesRev": 99811750,
+      "salesCount": 211,
+      "type": {
+        "Online": 37990500,
+        "Cửa hàng": 61821250
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 16644500,
+        "Bemori 162B Nguyễn Gia Trí": 9690250,
+        "Bemori 161 Xuân Thủy": 10325000,
+        "Bemori 104-106 Cầu Giấy": 7640000,
+        "Bemori 368 Nguyễn Trãi": 10396000,
+        "Bemori 411 NVC": 9232500,
+        "Bemori 228 Lê Văn Sỹ": 14845500,
+        "Bemori 1028 Đường Láng": 8037000,
+        "Bemori 388 Xã Đàn": 4620000,
+        "Bemori 275 Bạch Mai": 7117500,
+        "Teddy Outlet 970 Láng": 1263500
+      },
+      "mktRev": 41143503,
+      "mktOrders": 59,
+      "channel": {
+        "Shopee": {
+          "rev": 4697000,
+          "orders": 9
+        },
+        "Facebook": {
+          "rev": 20358000,
+          "orders": 21
+        },
+        "Admin": {
+          "rev": 4844503,
+          "orders": 9
+        },
+        "Instagram": {
+          "rev": 2835000,
+          "orders": 5
+        },
+        "Zalo cá nhân": {
+          "rev": 8409000,
+          "orders": 15
+        }
+      }
+    },
+    {
+      "day": "2026-05-13",
+      "salesRev": 72836500,
+      "salesCount": 158,
+      "type": {
+        "Online": 22510000,
+        "Cửa hàng": 50326500
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 11648000,
+        "Bemori 104-106 Cầu Giấy": 6520000,
+        "Bemori 388 Xã Đàn": 3599000,
+        "Bemori 161 Xuân Thủy": 6295250,
+        "Bemori 1028 Đường Láng": 8310250,
+        "Bemori 162B Nguyễn Gia Trí": 8934000,
+        "Bemori 368 Nguyễn Trãi": 7562500,
+        "Bemori 275 Bạch Mai": 3696000,
+        "Bemori 228 Lê Văn Sỹ": 8574000,
+        "Bemori 411 NVC": 5707500,
+        "Teddy Outlet 970 Láng": 1990000
+      },
+      "mktRev": 39168500,
+      "mktOrders": 46,
+      "channel": {
+        "Shopee": {
+          "rev": 5677000,
+          "orders": 16
+        },
+        "Admin": {
+          "rev": 3211000,
+          "orders": 5
+        },
+        "Facebook": {
+          "rev": 4415000,
+          "orders": 7
+        },
+        "Zalo cá nhân": {
+          "rev": 25205500,
+          "orders": 16
+        },
+        "Instagram": {
+          "rev": 660000,
+          "orders": 2
+        }
+      }
+    },
+    {
+      "day": "2026-05-14",
+      "salesRev": 90345000,
+      "salesCount": 181,
+      "type": {
+        "Cửa hàng": 60242000,
+        "Online": 30103000
+      },
+      "store": {
+        "Bemori 368 Nguyễn Trãi": 12574000,
+        "Bemori 161 Xuân Thủy": 5414000,
+        "Bemori 228 Lê Văn Sỹ": 12690000,
+        "Bemori 1028 Đường Láng": 7814000,
+        "Bemori 275 Bạch Mai": 5795000,
+        "Kho Online Nguyễn Khuyến": 12487500,
+        "Bemori 104-106 Cầu Giấy": 8783000,
+        "Bemori 388 Xã Đàn": 8425000,
+        "Bemori 411 NVC": 6020000,
+        "Bemori 162B Nguyễn Gia Trí": 9645500,
+        "Teddy Outlet 970 Láng": 697000
+      },
+      "mktRev": 70893000,
+      "mktOrders": 98,
+      "channel": {
+        "Shopee": {
+          "rev": 13397000,
+          "orders": 24
+        },
+        "Facebook": {
+          "rev": 20535000,
+          "orders": 28
+        },
+        "Admin": {
+          "rev": 14665000,
+          "orders": 14
+        },
+        "Zalo cá nhân": {
+          "rev": 17096000,
+          "orders": 26
+        },
+        "Instagram": {
+          "rev": 5200000,
+          "orders": 6
+        }
+      }
+    },
+    {
+      "day": "2026-05-15",
+      "salesRev": 115227500,
+      "salesCount": 226,
+      "type": {
+        "Online": 40404500,
+        "Cửa hàng": 74823000
+      },
+      "store": {
+        "Bemori 228 Lê Văn Sỹ": 17975500,
+        "Bemori 161 Xuân Thủy": 11815500,
+        "Bemori 388 Xã Đàn": 10715000,
+        "Bemori 1028 Đường Láng": 11915000,
+        "Bemori 162B Nguyễn Gia Trí": 13570000,
+        "Bemori 368 Nguyễn Trãi": 10034000,
+        "Kho Online Nguyễn Khuyến": 16869000,
+        "Bemori 275 Bạch Mai": 6938500,
+        "Bemori 104-106 Cầu Giấy": 5510000,
+        "Bemori 411 NVC": 8805000,
+        "Teddy Outlet 970 Láng": 1080000
+      },
+      "mktRev": 38458000,
+      "mktOrders": 66,
+      "channel": {
+        "Shopee": {
+          "rev": 6066000,
+          "orders": 16
+        },
+        "Instagram": {
+          "rev": 5290000,
+          "orders": 7
+        },
+        "Admin": {
+          "rev": 7050000,
+          "orders": 13
+        },
+        "Zalo cá nhân": {
+          "rev": 10377000,
+          "orders": 14
+        },
+        "Facebook": {
+          "rev": 9675000,
+          "orders": 16
+        }
+      }
+    },
+    {
+      "day": "2026-05-16",
+      "salesRev": 134673050,
+      "salesCount": 280,
+      "type": {
+        "Online": 31848000,
+        "Cửa hàng": 100222250,
+        "Sỉ": 2602800
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 17445800,
+        "Bemori 368 Nguyễn Trãi": 16897500,
+        "Bemori 161 Xuân Thủy": 9040000,
+        "Bemori 1028 Đường Láng": 17966500,
+        "Bemori 162B Nguyễn Gia Trí": 18845000,
+        "Bemori 228 Lê Văn Sỹ": 15461250,
+        "Bemori 388 Xã Đàn": 10870000,
+        "Bemori 275 Bạch Mai": 13070000,
+        "Bemori 411 NVC": 6850000,
+        "Bemori 104-106 Cầu Giấy": 5542000,
+        "Teddy Outlet 970 Láng": 2685000
+      },
+      "mktRev": 31712500,
+      "mktOrders": 61,
+      "channel": {
+        "Shopee": {
+          "rev": 3988000,
+          "orders": 14
+        },
+        "Facebook": {
+          "rev": 17984000,
+          "orders": 19
+        },
+        "Zalo cá nhân": {
+          "rev": 4115000,
+          "orders": 10
+        },
+        "Admin": {
+          "rev": 3610500,
+          "orders": 13
+        },
+        "Instagram": {
+          "rev": 1515000,
+          "orders": 4
+        },
+        "Zalo OA": {
+          "rev": 500000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-05-17",
+      "salesRev": 115796750,
+      "salesCount": 234,
+      "type": {
+        "Cửa hàng": 84301250,
+        "Online": 31495500
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 16288750,
+        "Bemori 104-106 Cầu Giấy": 9402750,
+        "Bemori 228 Lê Văn Sỹ": 12204750,
+        "Bemori 388 Xã Đàn": 4837500,
+        "Bemori 275 Bạch Mai": 5225000,
+        "Bemori 161 Xuân Thủy": 16943500,
+        "Bemori 368 Nguyễn Trãi": 17717500,
+        "Bemori 1028 Đường Láng": 11204000,
+        "Bemori 411 NVC": 4950000,
+        "Kho Online Nguyễn Khuyến": 16368500,
+        "Teddy Outlet 970 Láng": 654500
+      },
+      "mktRev": 26953250,
+      "mktOrders": 51,
+      "channel": {
+        "Zalo cá nhân": {
+          "rev": 11332250,
+          "orders": 20
+        },
+        "Shopee": {
+          "rev": 4568000,
+          "orders": 9
+        },
+        "Facebook": {
+          "rev": 6687500,
+          "orders": 13
+        },
+        "Admin": {
+          "rev": 1750500,
+          "orders": 7
+        },
+        "Instagram": {
+          "rev": 2615000,
+          "orders": 2
+        }
+      }
+    },
+    {
+      "day": "2026-05-18",
+      "salesRev": 98284250,
+      "salesCount": 183,
+      "type": {
+        "Online": 41115500,
+        "Cửa hàng": 56412750,
+        "Sỉ": 756000
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 29456750,
+        "Bemori 161 Xuân Thủy": 9300000,
+        "Bemori 368 Nguyễn Trãi": 10950750,
+        "Bemori 388 Xã Đàn": 6927500,
+        "Bemori 162B Nguyễn Gia Trí": 6757000,
+        "Bemori 275 Bạch Mai": 5366500,
+        "Bemori 411 NVC": 7300500,
+        "Bemori 1028 Đường Láng": 7985000,
+        "Bemori 104-106 Cầu Giấy": 6415000,
+        "Bemori 228 Lê Văn Sỹ": 5298250,
+        "Teddy Outlet 970 Láng": 2527000
+      },
+      "mktRev": 25977500,
+      "mktOrders": 47,
+      "channel": {
+        "Shopee": {
+          "rev": 6707000,
+          "orders": 17
+        },
+        "Instagram": {
+          "rev": 1210000,
+          "orders": 3
+        },
+        "Facebook": {
+          "rev": 3320000,
+          "orders": 5
+        },
+        "Admin": {
+          "rev": 2369500,
+          "orders": 8
+        },
+        "Zalo cá nhân": {
+          "rev": 12371000,
+          "orders": 14
+        }
+      }
+    },
+    {
+      "day": "2026-05-19",
+      "salesRev": 84571000,
+      "salesCount": 172,
+      "type": {
+        "Cửa hàng": 60950750,
+        "Online": 20164250,
+        "Sỉ": 3456000
+      },
+      "store": {
+        "Bemori 161 Xuân Thủy": 7074750,
+        "Bemori 388 Xã Đàn": 6149000,
+        "Bemori 228 Lê Văn Sỹ": 8316500,
+        "Bemori 368 Nguyễn Trãi": 9678750,
+        "Bemori 104-106 Cầu Giấy": 7962500,
+        "Bemori 162B Nguyễn Gia Trí": 13397500,
+        "Kho Online Nguyễn Khuyến": 13102500,
+        "Bemori 411 NVC": 6530000,
+        "Bemori 1028 Đường Láng": 6670000,
+        "Bemori 275 Bạch Mai": 4370000,
+        "Teddy Outlet 970 Láng": 1319500
+      },
+      "mktRev": 35277250,
+      "mktOrders": 59,
+      "channel": {
+        "Shopee": {
+          "rev": 8726000,
+          "orders": 22
+        },
+        "Facebook": {
+          "rev": 6845000,
+          "orders": 15
+        },
+        "Instagram": {
+          "rev": 3930000,
+          "orders": 5
+        },
+        "Zalo cá nhân": {
+          "rev": 10192000,
+          "orders": 14
+        },
+        "Admin": {
+          "rev": 5584250,
+          "orders": 3
+        }
+      }
+    },
+    {
+      "day": "2026-05-20",
+      "salesRev": 91916500,
+      "salesCount": 189,
+      "type": {
+        "Cửa hàng": 57363000,
+        "Online": 34553500
+      },
+      "store": {
+        "Bemori 161 Xuân Thủy": 9475500,
+        "Bemori 228 Lê Văn Sỹ": 16440000,
+        "Bemori 162B Nguyễn Gia Trí": 12135000,
+        "Bemori 1028 Đường Láng": 8807500,
+        "Bemori 388 Xã Đàn": 2245000,
+        "Bemori 368 Nguyễn Trãi": 9975500,
+        "Kho Online Nguyễn Khuyến": 17613000,
+        "Bemori 104-106 Cầu Giấy": 2919000,
+        "Bemori 275 Bạch Mai": 5304000,
+        "Bemori 411 NVC": 5225000,
+        "Teddy Outlet 970 Láng": 1777000
+      },
+      "mktRev": 29711500,
+      "mktOrders": 59,
+      "channel": {
+        "Shopee": {
+          "rev": 6367000,
+          "orders": 16
+        },
+        "Admin": {
+          "rev": 2574500,
+          "orders": 8
+        },
+        "Facebook": {
+          "rev": 10835000,
+          "orders": 21
+        },
+        "Zalo cá nhân": {
+          "rev": 8010000,
+          "orders": 11
+        },
+        "Instagram": {
+          "rev": 1925000,
+          "orders": 3
+        }
+      }
+    },
+    {
+      "day": "2026-05-21",
+      "salesRev": 103431750,
+      "salesCount": 211,
+      "type": {
+        "Online": 26287000,
+        "Cửa hàng": 77144750
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 17078500,
+        "Bemori 162B Nguyễn Gia Trí": 10413750,
+        "Bemori 228 Lê Văn Sỹ": 10413500,
+        "Bemori 1028 Đường Láng": 8007000,
+        "Bemori 104-106 Cầu Giấy": 8230000,
+        "Bemori 275 Bạch Mai": 7902500,
+        "Bemori 368 Nguyễn Trãi": 20534000,
+        "Bemori 161 Xuân Thủy": 7720000,
+        "Bemori 411 NVC": 7572500,
+        "Bemori 388 Xã Đàn": 4495000,
+        "Teddy Outlet 970 Láng": 1065000
+      },
+      "mktRev": 34418502,
+      "mktOrders": 59,
+      "channel": {
+        "Zalo cá nhân": {
+          "rev": 16439000,
+          "orders": 19
+        },
+        "Admin": {
+          "rev": 4778002,
+          "orders": 11
+        },
+        "Shopee": {
+          "rev": 3505000,
+          "orders": 10
+        },
+        "Facebook": {
+          "rev": 6856500,
+          "orders": 14
+        },
+        "Instagram": {
+          "rev": 2425000,
+          "orders": 4
+        },
+        "Zalo OA": {
+          "rev": 415000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-05-22",
+      "salesRev": 117114000,
+      "salesCount": 260,
+      "type": {
+        "Online": 41199500,
+        "Cửa hàng": 75914500
+      },
+      "store": {
+        "Bemori 411 NVC": 6602000,
+        "Kho Online Nguyễn Khuyến": 22029500,
+        "Bemori 388 Xã Đàn": 8946500,
+        "Bemori 104-106 Cầu Giấy": 8244500,
+        "Bemori 161 Xuân Thủy": 16035500,
+        "Bemori 368 Nguyễn Trãi": 9377500,
+        "Bemori 162B Nguyễn Gia Trí": 11913000,
+        "Bemori 1028 Đường Láng": 9236000,
+        "Bemori 228 Lê Văn Sỹ": 13514000,
+        "Bemori 275 Bạch Mai": 9063000,
+        "Teddy Outlet 970 Láng": 2152500
+      },
+      "mktRev": 63533500,
+      "mktOrders": 76,
+      "channel": {
+        "Shopee": {
+          "rev": 5901000,
+          "orders": 18
+        },
+        "Admin": {
+          "rev": 36603000,
+          "orders": 21
+        },
+        "Facebook": {
+          "rev": 11250000,
+          "orders": 19
+        },
+        "Instagram": {
+          "rev": 2590000,
+          "orders": 3
+        },
+        "Zalo cá nhân": {
+          "rev": 7189500,
+          "orders": 15
+        }
+      }
+    },
+    {
+      "day": "2026-05-23",
+      "salesRev": 127077500,
+      "salesCount": 302,
+      "type": {
+        "Cửa hàng": 93374250,
+        "Online": 33703250
+      },
+      "store": {
+        "Bemori 161 Xuân Thủy": 15518750,
+        "Bemori 162B Nguyễn Gia Trí": 9614500,
+        "Bemori 104-106 Cầu Giấy": 7076000,
+        "Bemori 368 Nguyễn Trãi": 20283000,
+        "Bemori 228 Lê Văn Sỹ": 9010000,
+        "Kho Online Nguyễn Khuyến": 25298250,
+        "Bemori 1028 Đường Láng": 11344000,
+        "Bemori 411 NVC": 9244000,
+        "Bemori 275 Bạch Mai": 9856000,
+        "Teddy Outlet 970 Láng": 2372000,
+        "Bemori 388 Xã Đàn": 7461000
+      },
+      "mktRev": 56288750,
+      "mktOrders": 68,
+      "channel": {
+        "Shopee": {
+          "rev": 3830000,
+          "orders": 9
+        },
+        "Zalo cá nhân": {
+          "rev": 18656250,
+          "orders": 22
+        },
+        "Admin": {
+          "rev": 24675500,
+          "orders": 19
+        },
+        "Facebook": {
+          "rev": 7392000,
+          "orders": 14
+        },
+        "Instagram": {
+          "rev": 1515000,
+          "orders": 3
+        },
+        "Zalo OA": {
+          "rev": 220000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-05-24",
+      "salesRev": 105026750,
+      "salesCount": 242,
+      "type": {
+        "Online": 23848500,
+        "Cửa hàng": 81018250,
+        "Sỉ": 160000
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 15168500,
+        "Bemori 368 Nguyễn Trãi": 13035000,
+        "Bemori 275 Bạch Mai": 7074000,
+        "Bemori 388 Xã Đàn": 5843000,
+        "Bemori 228 Lê Văn Sỹ": 17527000,
+        "Bemori 161 Xuân Thủy": 7361000,
+        "Bemori 411 NVC": 9062000,
+        "Bemori 1028 Đường Láng": 9997000,
+        "Teddy Outlet 970 Láng": 1760000,
+        "Bemori 162B Nguyễn Gia Trí": 9525250,
+        "Bemori 104-106 Cầu Giấy": 8674000
+      },
+      "mktRev": 28370500,
+      "mktOrders": 49,
+      "channel": {
+        "Shopee": {
+          "rev": 3375000,
+          "orders": 12
+        },
+        "Admin": {
+          "rev": 5888000,
+          "orders": 8
+        },
+        "Facebook": {
+          "rev": 7745000,
+          "orders": 12
+        },
+        "Instagram": {
+          "rev": 3180000,
+          "orders": 6
+        },
+        "Zalo cá nhân": {
+          "rev": 8182500,
+          "orders": 11
+        }
+      }
+    },
+    {
+      "day": "2026-05-25",
+      "salesRev": 98615750,
+      "salesCount": 197,
+      "type": {
+        "Cửa hàng": 58061750,
+        "Online": 40554000
+      },
+      "store": {
+        "Bemori 368 Nguyễn Trãi": 6596500,
+        "Bemori 162B Nguyễn Gia Trí": 10685500,
+        "Bemori 275 Bạch Mai": 11332000,
+        "Bemori 161 Xuân Thủy": 13917250,
+        "Bemori 1028 Đường Láng": 8380500,
+        "Bemori 104-106 Cầu Giấy": 2980000,
+        "Bemori 411 NVC": 3129000,
+        "Kho Online Nguyễn Khuyến": 26108500,
+        "Bemori 228 Lê Văn Sỹ": 12661500,
+        "Bemori 388 Xã Đàn": 1750000,
+        "Teddy Outlet 970 Láng": 1075000
+      },
+      "mktRev": 41465500,
+      "mktOrders": 71,
+      "channel": {
+        "Shopee": {
+          "rev": 12474000,
+          "orders": 23
+        },
+        "Instagram": {
+          "rev": 4895000,
+          "orders": 7
+        },
+        "Zalo cá nhân": {
+          "rev": 11604500,
+          "orders": 21
+        },
+        "Admin": {
+          "rev": 4130000,
+          "orders": 6
+        },
+        "Facebook": {
+          "rev": 8362000,
+          "orders": 14
+        }
+      }
+    },
+    {
+      "day": "2026-05-26",
+      "salesRev": 124792500,
+      "salesCount": 194,
+      "type": {
+        "Cửa hàng": 82477750,
+        "Online": 42314750
+      },
+      "store": {
+        "Bemori 368 Nguyễn Trãi": 9177000,
+        "Bemori 228 Lê Văn Sỹ": 14756500,
+        "Kho Online Nguyễn Khuyến": 25851000,
+        "Bemori 161 Xuân Thủy": 4506750,
+        "Bemori 275 Bạch Mai": 8141000,
+        "Bemori 1028 Đường Láng": 20844000,
+        "Bemori 162B Nguyễn Gia Trí": 18682500,
+        "Bemori 411 NVC": 6921750,
+        "Bemori 388 Xã Đàn": 3934000,
+        "Bemori 104-106 Cầu Giấy": 10422000,
+        "Teddy Outlet 970 Láng": 1556000
+      },
+      "mktRev": 37299838,
+      "mktOrders": 60,
+      "channel": {
+        "Shopee": {
+          "rev": 4087000,
+          "orders": 14
+        },
+        "Zalo cá nhân": {
+          "rev": 13341500,
+          "orders": 20
+        },
+        "Facebook": {
+          "rev": 15166250,
+          "orders": 19
+        },
+        "Instagram": {
+          "rev": 2465088,
+          "orders": 4
+        },
+        "Admin": {
+          "rev": 2240000,
+          "orders": 3
+        }
+      }
+    },
+    {
+      "day": "2026-05-27",
+      "salesRev": 88151000,
+      "salesCount": 184,
+      "type": {
+        "Online": 25570750,
+        "Cửa hàng": 62580250
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 10679000,
+        "Bemori 275 Bạch Mai": 7035500,
+        "Bemori 1028 Đường Láng": 11703500,
+        "Bemori 104-106 Cầu Giấy": 6373000,
+        "Bemori 368 Nguyễn Trãi": 12278750,
+        "Bemori 161 Xuân Thủy": 6753000,
+        "Bemori 162B Nguyễn Gia Trí": 11182250,
+        "Bemori 411 NVC": 3533000,
+        "Teddy Outlet 970 Láng": 587000,
+        "Bemori 228 Lê Văn Sỹ": 12697000,
+        "Bemori 388 Xã Đàn": 5329000
+      },
+      "mktRev": 78738700,
+      "mktOrders": 76,
+      "channel": {
+        "Shopee": {
+          "rev": 5622000,
+          "orders": 14
+        },
+        "Facebook": {
+          "rev": 18666250,
+          "orders": 27
+        },
+        "Admin": {
+          "rev": 24467700,
+          "orders": 13
+        },
+        "Zalo cá nhân": {
+          "rev": 27667750,
+          "orders": 18
+        },
+        "Instagram": {
+          "rev": 2315000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-05-28",
+      "salesRev": 107065750,
+      "salesCount": 200,
+      "type": {
+        "Online": 41756500,
+        "Cửa hàng": 65309250
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 26164000,
+        "Bemori 104-106 Cầu Giấy": 11653500,
+        "Bemori 368 Nguyễn Trãi": 10986000,
+        "Bemori 411 NVC": 11422000,
+        "Bemori 1028 Đường Láng": 9751000,
+        "Bemori 161 Xuân Thủy": 3725000,
+        "Bemori 162B Nguyễn Gia Trí": 8431500,
+        "Bemori 275 Bạch Mai": 6579000,
+        "Teddy Outlet 970 Láng": 892000,
+        "Bemori 228 Lê Văn Sỹ": 12322000,
+        "Bemori 388 Xã Đàn": 5139750
+      },
+      "mktRev": 41764501,
+      "mktOrders": 65,
+      "channel": {
+        "Shopee": {
+          "rev": 3993000,
+          "orders": 14
+        },
+        "Facebook": {
+          "rev": 15570000,
+          "orders": 16
+        },
+        "Zalo cá nhân": {
+          "rev": 17132500,
+          "orders": 24
+        },
+        "Admin": {
+          "rev": 3744001,
+          "orders": 8
+        },
+        "Instagram": {
+          "rev": 1325000,
+          "orders": 3
+        }
+      }
+    },
+    {
+      "day": "2026-05-29",
+      "salesRev": 140199250,
+      "salesCount": 289,
+      "type": {
+        "Cửa hàng": 96539000,
+        "Online": 43660250
+      },
+      "store": {
+        "Bemori 161 Xuân Thủy": 10545000,
+        "Bemori 162B Nguyễn Gia Trí": 20612000,
+        "Bemori 368 Nguyễn Trãi": 18830500,
+        "Bemori 275 Bạch Mai": 12267500,
+        "Bemori 104-106 Cầu Giấy": 14003000,
+        "Bemori 1028 Đường Láng": 8485750,
+        "Bemori 411 NVC": 9310000,
+        "Bemori 228 Lê Văn Sỹ": 13248500,
+        "Kho Online Nguyễn Khuyến": 20484000,
+        "Teddy Outlet 970 Láng": 3726500,
+        "Bemori 388 Xã Đàn": 8686500
+      },
+      "mktRev": 52642501,
+      "mktOrders": 80,
+      "channel": {
+        "Shopee": {
+          "rev": 6759000,
+          "orders": 17
+        },
+        "Instagram": {
+          "rev": 2680000,
+          "orders": 4
+        },
+        "Facebook": {
+          "rev": 25522000,
+          "orders": 27
+        },
+        "Zalo cá nhân": {
+          "rev": 11724250,
+          "orders": 19
+        },
+        "Admin": {
+          "rev": 5267251,
+          "orders": 12
+        },
+        "Zalo OA": {
+          "rev": 690000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-05-30",
+      "salesRev": 192104250,
+      "salesCount": 351,
+      "type": {
+        "Online": 74567250,
+        "Cửa hàng": 117537000
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 57348250,
+        "Bemori 161 Xuân Thủy": 22553500,
+        "Bemori 1028 Đường Láng": 12609000,
+        "Bemori 388 Xã Đàn": 10211500,
+        "Bemori 162B Nguyễn Gia Trí": 15666000,
+        "Bemori 368 Nguyễn Trãi": 15692500,
+        "Bemori 275 Bạch Mai": 8944000,
+        "Bemori 411 NVC": 16926500,
+        "Bemori 104-106 Cầu Giấy": 12463500,
+        "Bemori 228 Lê Văn Sỹ": 17540000,
+        "Teddy Outlet 970 Láng": 2149500
+      },
+      "mktRev": 36276000,
+      "mktOrders": 65,
+      "channel": {
+        "Shopee": {
+          "rev": 9393000,
+          "orders": 16
+        },
+        "Facebook": {
+          "rev": 7015000,
+          "orders": 13
+        },
+        "Zalo cá nhân": {
+          "rev": 10045000,
+          "orders": 17
+        },
+        "Admin": {
+          "rev": 7818000,
+          "orders": 14
+        },
+        "Instagram": {
+          "rev": 1790000,
+          "orders": 4
+        },
+        "Zalo OA": {
+          "rev": 215000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-05-31",
+      "salesRev": 270899200,
+      "salesCount": 479,
+      "type": {
+        "Cửa hàng": 183896750,
+        "Online": 87002450
+      },
+      "store": {
+        "Bemori 1028 Đường Láng": 20611250,
+        "Bemori 388 Xã Đàn": 16610000,
+        "Bemori 275 Bạch Mai": 28646000,
+        "Kho Online Nguyễn Khuyến": 59768200,
+        "Bemori 161 Xuân Thủy": 24725250,
+        "Bemori 162B Nguyễn Gia Trí": 23263000,
+        "Bemori 368 Nguyễn Trãi": 28011500,
+        "Bemori 411 NVC": 20281250,
+        "Bemori 104-106 Cầu Giấy": 17080000,
+        "Bemori 228 Lê Văn Sỹ": 29045750,
+        "Teddy Outlet 970 Láng": 2857000
+      },
+      "mktRev": 50805000,
+      "mktOrders": 90,
+      "channel": {
+        "Shopee": {
+          "rev": 8824000,
+          "orders": 22
+        },
+        "Facebook": {
+          "rev": 22070000,
+          "orders": 34
+        },
+        "Zalo cá nhân": {
+          "rev": 11435500,
+          "orders": 18
+        },
+        "Admin": {
+          "rev": 5765500,
+          "orders": 11
+        },
+        "Instagram": {
+          "rev": 1620000,
+          "orders": 3
+        },
+        "Zalo OA": {
+          "rev": 1090000,
+          "orders": 2
+        }
+      }
+    },
+    {
+      "day": "2026-06-01",
+      "salesRev": 525802227,
+      "salesCount": 1036,
+      "type": {
+        "Cửa hàng": 420415727,
+        "Online": 105386500
+      },
+      "store": {
+        "Bemori 104-106 Cầu Giấy": 55947250,
+        "Bemori 1028 Đường Láng": 53664500,
+        "Bemori 368 Nguyễn Trãi": 65168500,
+        "Bemori 411 NVC": 45048000,
+        "Bemori 275 Bạch Mai": 50525500,
+        "Kho Online Nguyễn Khuyến": 55799227,
+        "Bemori 162B Nguyễn Gia Trí": 46379500,
+        "Bemori 228 Lê Văn Sỹ": 39725000,
+        "Bemori 161 Xuân Thủy": 68122000,
+        "Bemori 388 Xã Đàn": 32231750,
+        "Teddy Outlet 970 Láng": 13191000
+      },
+      "mktRev": 122251500,
+      "mktOrders": 214,
+      "channel": {
+        "Shopee": {
+          "rev": 12745000,
+          "orders": 27
+        },
+        "Zalo cá nhân": {
+          "rev": 41551000,
+          "orders": 67
+        },
+        "Facebook": {
+          "rev": 37171000,
+          "orders": 58
+        },
+        "Zalo OA": {
+          "rev": 1220000,
+          "orders": 3
+        },
+        "Admin": {
+          "rev": 19988500,
+          "orders": 43
+        },
+        "Instagram": {
+          "rev": 9576000,
+          "orders": 16
+        }
+      }
+    },
+    {
+      "day": "2026-06-02",
+      "salesRev": 153094250,
+      "salesCount": 292,
+      "type": {
+        "Cửa hàng": 118328250,
+        "Online": 34766000
+      },
+      "store": {
+        "Bemori 411 NVC": 13668250,
+        "Bemori 228 Lê Văn Sỹ": 12751000,
+        "Kho Online Nguyễn Khuyến": 15963000,
+        "Bemori 162B Nguyễn Gia Trí": 12006000,
+        "Bemori 275 Bạch Mai": 17416250,
+        "Bemori 368 Nguyễn Trãi": 15855500,
+        "Bemori 161 Xuân Thủy": 22343500,
+        "Bemori 1028 Đường Láng": 11085000,
+        "Bemori 388 Xã Đàn": 16795500,
+        "Bemori 104-106 Cầu Giấy": 11979250,
+        "Teddy Outlet 970 Láng": 3231000
+      },
+      "mktRev": 35823002,
+      "mktOrders": 68,
+      "channel": {
+        "Shopee": {
+          "rev": 3382000,
+          "orders": 13
+        },
+        "Instagram": {
+          "rev": 5175000,
+          "orders": 7
+        },
+        "Admin": {
+          "rev": 5519002,
+          "orders": 15
+        },
+        "Facebook": {
+          "rev": 12430000,
+          "orders": 20
+        },
+        "Zalo cá nhân": {
+          "rev": 9317000,
+          "orders": 13
+        }
+      }
+    },
+    {
+      "day": "2026-06-03",
+      "salesRev": 124162031,
+      "salesCount": 242,
+      "type": {
+        "Cửa hàng": 86436031,
+        "Online": 37726000
+      },
+      "store": {
+        "Bemori 368 Nguyễn Trãi": 11778750,
+        "Bemori 388 Xã Đàn": 7709500,
+        "Bemori 162B Nguyễn Gia Trí": 19361000,
+        "Bemori 104-106 Cầu Giấy": 9375500,
+        "Bemori 275 Bạch Mai": 8743750,
+        "Bemori 1028 Đường Láng": 10259500,
+        "Bemori 411 NVC": 6040000,
+        "Bemori 161 Xuân Thủy": 13101500,
+        "Bemori 228 Lê Văn Sỹ": 13590000,
+        "Teddy Outlet 970 Láng": 1393500,
+        "Kho Online Nguyễn Khuyến": 22809031
+      },
+      "mktRev": 31331500,
+      "mktOrders": 58,
+      "channel": {
+        "Shopee": {
+          "rev": 6930000,
+          "orders": 17
+        },
+        "Zalo cá nhân": {
+          "rev": 3360000,
+          "orders": 8
+        },
+        "Instagram": {
+          "rev": 6160000,
+          "orders": 7
+        },
+        "Facebook": {
+          "rev": 8806500,
+          "orders": 14
+        },
+        "Admin": {
+          "rev": 6075000,
+          "orders": 12
+        }
+      }
+    },
+    {
+      "day": "2026-06-04",
+      "salesRev": 107060550,
+      "salesCount": 213,
+      "type": {
+        "Cửa hàng": 64005550,
+        "Online": 43055000
+      },
+      "store": {
+        "Bemori 411 NVC": 9093500,
+        "Bemori 162B Nguyễn Gia Trí": 14275000,
+        "Kho Online Nguyễn Khuyến": 25430300,
+        "Bemori 368 Nguyễn Trãi": 14312500,
+        "Bemori 275 Bạch Mai": 5065000,
+        "Bemori 228 Lê Văn Sỹ": 13545500,
+        "Bemori 104-106 Cầu Giấy": 6755000,
+        "Bemori 161 Xuân Thủy": 10052250,
+        "Bemori 388 Xã Đàn": 2120500,
+        "Teddy Outlet 970 Láng": 3561000,
+        "Bemori 1028 Đường Láng": 2850000
+      },
+      "mktRev": 71591500,
+      "mktOrders": 56,
+      "channel": {
+        "Shopee": {
+          "rev": 7918000,
+          "orders": 15
+        },
+        "Facebook": {
+          "rev": 9995000,
+          "orders": 18
+        },
+        "Zalo cá nhân": {
+          "rev": 8698000,
+          "orders": 13
+        },
+        "Admin": {
+          "rev": 44760500,
+          "orders": 9
+        },
+        "Instagram": {
+          "rev": 220000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-06-05",
+      "salesRev": 117443000,
+      "salesCount": 243,
+      "type": {
+        "Cửa hàng": 85218000,
+        "Online": 32225000
+      },
+      "store": {
+        "Bemori 1028 Đường Láng": 15472000,
+        "Bemori 275 Bạch Mai": 11960000,
+        "Bemori 162B Nguyễn Gia Trí": 11506250,
+        "Bemori 161 Xuân Thủy": 10404000,
+        "Bemori 368 Nguyễn Trãi": 11480000,
+        "Bemori 228 Lê Văn Sỹ": 10843250,
+        "Bemori 104-106 Cầu Giấy": 9430000,
+        "Bemori 388 Xã Đàn": 6775000,
+        "Kho Online Nguyễn Khuyến": 19365000,
+        "Bemori 411 NVC": 8612500,
+        "Teddy Outlet 970 Láng": 1595000
+      },
+      "mktRev": 27250001,
+      "mktOrders": 57,
+      "channel": {
+        "Shopee": {
+          "rev": 4857000,
+          "orders": 15
+        },
+        "Admin": {
+          "rev": 3024001,
+          "orders": 10
+        },
+        "Zalo cá nhân": {
+          "rev": 10175000,
+          "orders": 12
+        },
+        "Facebook": {
+          "rev": 7169000,
+          "orders": 16
+        },
+        "Instagram": {
+          "rev": 2025000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-06-06",
+      "salesRev": 118647500,
+      "salesCount": 241,
+      "type": {
+        "Online": 25978500,
+        "Cửa hàng": 92669000
+      },
+      "store": {
+        "Bemori 228 Lê Văn Sỹ": 18350000,
+        "Kho Online Nguyễn Khuyến": 14357000,
+        "Bemori 104-106 Cầu Giấy": 10537000,
+        "Bemori 368 Nguyễn Trãi": 16024000,
+        "Bemori 161 Xuân Thủy": 9893500,
+        "Bemori 162B Nguyễn Gia Trí": 8691750,
+        "Bemori 1028 Đường Láng": 10031500,
+        "Bemori 388 Xã Đàn": 12840000,
+        "Bemori 411 NVC": 6809250,
+        "Bemori 275 Bạch Mai": 9274000,
+        "Teddy Outlet 970 Láng": 1839500
+      },
+      "mktRev": 23989500,
+      "mktOrders": 51,
+      "channel": {
+        "Shopee": {
+          "rev": 6940000,
+          "orders": 15
+        },
+        "Zalo cá nhân": {
+          "rev": 4580500,
+          "orders": 9
+        },
+        "Admin": {
+          "rev": 4847500,
+          "orders": 9
+        },
+        "Facebook": {
+          "rev": 5816500,
+          "orders": 14
+        },
+        "Instagram": {
+          "rev": 1805000,
+          "orders": 4
+        }
+      }
+    },
+    {
+      "day": "2026-06-07",
+      "salesRev": 111877750,
+      "salesCount": 221,
+      "type": {
+        "Cửa hàng": 94881750,
+        "Online": 16996000
+      },
+      "store": {
+        "Bemori 161 Xuân Thủy": 9932500,
+        "Bemori 368 Nguyễn Trãi": 12418000,
+        "Bemori 162B Nguyễn Gia Trí": 10358750,
+        "Bemori 1028 Đường Láng": 10368000,
+        "Bemori 104-106 Cầu Giấy": 17282750,
+        "Bemori 388 Xã Đàn": 6820000,
+        "Bemori 275 Bạch Mai": 6465000,
+        "Teddy Outlet 970 Láng": 1324000,
+        "Kho Online Nguyễn Khuyến": 9740500,
+        "Bemori 411 NVC": 12243250,
+        "Bemori 228 Lê Văn Sỹ": 14925000
+      },
+      "mktRev": 28922500,
+      "mktOrders": 39,
+      "channel": {
+        "Shopee": {
+          "rev": 3025000,
+          "orders": 10
+        },
+        "Admin": {
+          "rev": 2802500,
+          "orders": 6
+        },
+        "Facebook": {
+          "rev": 10045000,
+          "orders": 15
+        },
+        "Instagram": {
+          "rev": 360000,
+          "orders": 1
+        },
+        "Zalo cá nhân": {
+          "rev": 12690000,
+          "orders": 7
+        }
+      }
+    },
+    {
+      "day": "2026-06-08",
+      "salesRev": 56311500,
+      "salesCount": 127,
+      "type": {
+        "Cửa hàng": 29100000,
+        "Online": 27211500
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 4834000,
+        "Bemori 228 Lê Văn Sỹ": 8930000,
+        "Bemori 368 Nguyễn Trãi": 3948500,
+        "Kho Online Nguyễn Khuyến": 19392500,
+        "Bemori 275 Bạch Mai": 2970000,
+        "Bemori 1028 Đường Láng": 2717500,
+        "Teddy Outlet 970 Láng": 667000,
+        "Bemori 104-106 Cầu Giấy": 2400000,
+        "Bemori 161 Xuân Thủy": 8347000,
+        "Bemori 388 Xã Đàn": 1930000,
+        "Bemori 411 NVC": 175000
+      },
+      "mktRev": 27524000,
+      "mktOrders": 50,
+      "channel": {
+        "Shopee": {
+          "rev": 3555000,
+          "orders": 13
+        },
+        "Facebook": {
+          "rev": 6411000,
+          "orders": 13
+        },
+        "Instagram": {
+          "rev": 3045000,
+          "orders": 6
+        },
+        "Admin": {
+          "rev": 6958000,
+          "orders": 10
+        },
+        "Zalo cá nhân": {
+          "rev": 7140000,
+          "orders": 7
+        },
+        "Zalo OA": {
+          "rev": 415000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-06-09",
+      "salesRev": 95208750,
+      "salesCount": 174,
+      "type": {
+        "Cửa hàng": 72233250,
+        "Online": 22975500
+      },
+      "store": {
+        "Bemori 104-106 Cầu Giấy": 8454250,
+        "Bemori 1028 Đường Láng": 9813250,
+        "Bemori 162B Nguyễn Gia Trí": 10765250,
+        "Bemori 161 Xuân Thủy": 8155000,
+        "Bemori 368 Nguyễn Trãi": 12294000,
+        "Bemori 388 Xã Đàn": 4615000,
+        "Bemori 228 Lê Văn Sỹ": 9115000,
+        "Bemori 275 Bạch Mai": 8620000,
+        "Bemori 411 NVC": 7338000,
+        "Teddy Outlet 970 Láng": 3015000,
+        "Kho Online Nguyễn Khuyến": 13024000
+      },
+      "mktRev": 28686000,
+      "mktOrders": 50,
+      "channel": {
+        "Shopee": {
+          "rev": 3995000,
+          "orders": 13
+        },
+        "Zalo cá nhân": {
+          "rev": 9120000,
+          "orders": 14
+        },
+        "Admin": {
+          "rev": 1965000,
+          "orders": 5
+        },
+        "Facebook": {
+          "rev": 12451000,
+          "orders": 15
+        },
+        "Instagram": {
+          "rev": 1155000,
+          "orders": 3
+        }
+      }
+    },
+    {
+      "day": "2026-06-10",
+      "salesRev": 101207000,
+      "salesCount": 186,
+      "type": {
+        "Cửa hàng": 58942000,
+        "Online": 42265000
+      },
+      "store": {
+        "Bemori 162B Nguyễn Gia Trí": 15490000,
+        "Bemori 411 NVC": 4265000,
+        "Bemori 161 Xuân Thủy": 5450000,
+        "Bemori 228 Lê Văn Sỹ": 10523250,
+        "Bemori 275 Bạch Mai": 11883000,
+        "Bemori 388 Xã Đàn": 7742000,
+        "Teddy Outlet 970 Láng": 2621000,
+        "Bemori 1028 Đường Láng": 3994000,
+        "Bemori 368 Nguyễn Trãi": 9404750,
+        "Kho Online Nguyễn Khuyến": 23869500,
+        "Bemori 104-106 Cầu Giấy": 5964500
+      },
+      "mktRev": 60391001,
+      "mktOrders": 60,
+      "channel": {
+        "Shopee": {
+          "rev": 6367000,
+          "orders": 19
+        },
+        "Admin": {
+          "rev": 37765001,
+          "orders": 16
+        },
+        "Facebook": {
+          "rev": 6910000,
+          "orders": 13
+        },
+        "Zalo cá nhân": {
+          "rev": 8914000,
+          "orders": 11
+        },
+        "Instagram": {
+          "rev": 435000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-06-11",
+      "salesRev": 98673250,
+      "salesCount": 185,
+      "type": {
+        "Online": 30037500,
+        "Cửa hàng": 68635750
+      },
+      "store": {
+        "Bemori 368 Nguyễn Trãi": 6551500,
+        "Bemori 1028 Đường Láng": 9319750,
+        "Bemori 104-106 Cầu Giấy": 7275750,
+        "Bemori 411 NVC": 10165750,
+        "Kho Online Nguyễn Khuyến": 16225000,
+        "Bemori 228 Lê Văn Sỹ": 10624250,
+        "Bemori 161 Xuân Thủy": 10669000,
+        "Bemori 275 Bạch Mai": 8419000,
+        "Bemori 388 Xã Đàn": 7717250,
+        "Bemori 162B Nguyễn Gia Trí": 10652500,
+        "Teddy Outlet 970 Láng": 1053500
+      },
+      "mktRev": 26261001,
+      "mktOrders": 54,
+      "channel": {
+        "Shopee": {
+          "rev": 3176000,
+          "orders": 7
+        },
+        "Zalo cá nhân": {
+          "rev": 7735000,
+          "orders": 14
+        },
+        "Facebook": {
+          "rev": 8400000,
+          "orders": 14
+        },
+        "Admin": {
+          "rev": 4955001,
+          "orders": 16
+        },
+        "Instagram": {
+          "rev": 810000,
+          "orders": 2
+        },
+        "Zalo OA": {
+          "rev": 1185000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-06-12",
+      "salesRev": 88122500,
+      "salesCount": 181,
+      "type": {
+        "Online": 22581500,
+        "Cửa hàng": 65541000
+      },
+      "store": {
+        "Kho Online Nguyễn Khuyến": 16367000,
+        "Bemori 411 NVC": 2575000,
+        "Bemori 368 Nguyễn Trãi": 10978750,
+        "Bemori 162B Nguyễn Gia Trí": 12646750,
+        "Bemori 1028 Đường Láng": 6705000,
+        "Bemori 104-106 Cầu Giấy": 8200000,
+        "Bemori 275 Bạch Mai": 8200500,
+        "Bemori 388 Xã Đàn": 4629500,
+        "Bemori 228 Lê Văn Sỹ": 9900000,
+        "Teddy Outlet 970 Láng": 3155000,
+        "Bemori 161 Xuân Thủy": 4765000
+      },
+      "mktRev": 19713000,
+      "mktOrders": 40,
+      "channel": {
+        "Zalo cá nhân": {
+          "rev": 5020000,
+          "orders": 8
+        },
+        "Facebook": {
+          "rev": 5315000,
+          "orders": 11
+        },
+        "Admin": {
+          "rev": 4104000,
+          "orders": 10
+        },
+        "Shopee": {
+          "rev": 4849000,
+          "orders": 10
+        },
+        "Instagram": {
+          "rev": 425000,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "day": "2026-06-13",
+      "salesRev": 117853500,
+      "salesCount": 242,
+      "type": {
+        "Cửa hàng": 93105500,
+        "Online": 24748000
+      },
+      "store": {
+        "Bemori 1028 Đường Láng": 11983250,
+        "Bemori 228 Lê Văn Sỹ": 8627500,
+        "Bemori 368 Nguyễn Trãi": 14265000,
+        "Bemori 275 Bạch Mai": 13937000,
+        "Bemori 162B Nguyễn Gia Trí": 10209500,
+        "Bemori 104-106 Cầu Giấy": 9127250,
+        "Bemori 161 Xuân Thủy": 10417500,
+        "Bemori 411 NVC": 8830000,
+        "Teddy Outlet 970 Láng": 3674000,
+        "Bemori 388 Xã Đàn": 12144500,
+        "Kho Online Nguyễn Khuyến": 14638000
+      },
+      "mktRev": 20790501,
+      "mktOrders": 40,
+      "channel": {
+        "Shopee": {
+          "rev": 3413000,
+          "orders": 10
+        },
+        "Admin": {
+          "rev": 6575001,
+          "orders": 13
+        },
+        "Facebook": {
+          "rev": 7105000,
+          "orders": 9
+        },
+        "Zalo cá nhân": {
+          "rev": 3697500,
+          "orders": 8
+        }
+      }
+    }
+  ],
   "marketing": {
-    "onlineRevenue": 1270841298,
-    "onlineOrders": 1992,
-    "onlineAov": 637973,
+    "onlineRevenue": 1234218298,
+    "onlineOrders": 1939,
+    "onlineAov": 636523,
     "channels": [
       {
         "name": "Zalo cá nhân",
-        "orders": 491,
-        "revenue": 350361500,
-        "aov": 713567,
+        "orders": 478,
+        "revenue": 341813500,
+        "aov": 715091,
         "share": 28
       },
       {
         "name": "Facebook",
-        "orders": 542,
-        "revenue": 349254000,
-        "aov": 644380,
+        "orders": 528,
+        "revenue": 338986500,
+        "aov": 642020,
         "share": 27
       },
       {
         "name": "Admin",
-        "orders": 359,
-        "revenue": 304987710,
-        "aov": 849548,
+        "orders": 352,
+        "revenue": 297655210,
+        "aov": 845611,
         "share": 24
       },
       {
         "name": "Shopee",
-        "orders": 463,
-        "revenue": 183212000,
-        "aov": 395706,
+        "orders": 447,
+        "revenue": 175337000,
+        "aov": 392253,
         "share": 14
       },
       {
         "name": "Instagram",
-        "orders": 125,
-        "revenue": 77076088,
-        "aov": 616609,
+        "orders": 122,
+        "revenue": 74476088,
+        "aov": 610460,
         "share": 6
       },
       {
@@ -52,517 +3693,16 @@
         "aov": 495833,
         "share": 0
       }
-    ],
-    "traffic": [
-      {
-        "name": "Zalo Bemori",
-        "orders": 506,
-        "revenue": 466794202,
-        "aov": 922518,
-        "share": 37
-      },
-      {
-        "name": "FB Bemori",
-        "orders": 582,
-        "revenue": 370346000,
-        "aov": 636333,
-        "share": 29
-      },
-      {
-        "name": "(không gắn nguồn)",
-        "orders": 463,
-        "revenue": 183212000,
-        "aov": 395706,
-        "share": 14
-      },
-      {
-        "name": "Khách lẻ",
-        "orders": 200,
-        "revenue": 109081508,
-        "aov": 545408,
-        "share": 9
-      },
-      {
-        "name": "Insta Bemori",
-        "orders": 136,
-        "revenue": 82721588,
-        "aov": 608247,
-        "share": 7
-      },
-      {
-        "name": "Web Bemori",
-        "orders": 95,
-        "revenue": 52726000,
-        "aov": 555011,
-        "share": 4
-      },
-      {
-        "name": "Website",
-        "orders": 9,
-        "revenue": 5535000,
-        "aov": 615000,
-        "share": 0
-      },
-      {
-        "name": "FB Memon",
-        "orders": 1,
-        "revenue": 425000,
-        "aov": 425000,
-        "share": 0
-      }
-    ],
-    "trend": {
-      "days": [
-        "2026-05-13",
-        "2026-05-14",
-        "2026-05-15",
-        "2026-05-16",
-        "2026-05-17",
-        "2026-05-18",
-        "2026-05-19",
-        "2026-05-20",
-        "2026-05-21",
-        "2026-05-22",
-        "2026-05-23",
-        "2026-05-24",
-        "2026-05-25",
-        "2026-05-26",
-        "2026-05-27",
-        "2026-05-28",
-        "2026-05-29",
-        "2026-05-30",
-        "2026-05-31",
-        "2026-06-01",
-        "2026-06-02",
-        "2026-06-03",
-        "2026-06-04",
-        "2026-06-05",
-        "2026-06-06",
-        "2026-06-07",
-        "2026-06-08",
-        "2026-06-09",
-        "2026-06-10",
-        "2026-06-11",
-        "2026-06-12",
-        "2026-06-13"
-      ],
-      "series": [
-        {
-          "name": "Zalo cá nhân",
-          "data": [
-            0,
-            8548000,
-            10377000,
-            4115000,
-            11332250,
-            12371000,
-            10192000,
-            8010000,
-            16439000,
-            7189500,
-            18656250,
-            8182500,
-            11604500,
-            13341500,
-            27667750,
-            17132500,
-            11724250,
-            10045000,
-            11435500,
-            41551000,
-            9317000,
-            3360000,
-            8698000,
-            10175000,
-            4580500,
-            12690000,
-            7140000,
-            9120000,
-            8914000,
-            7735000,
-            5020000,
-            3697500
-          ]
-        },
-        {
-          "name": "Facebook",
-          "data": [
-            0,
-            10267500,
-            9675000,
-            17984000,
-            6687500,
-            3320000,
-            6845000,
-            10835000,
-            6856500,
-            11250000,
-            7392000,
-            7745000,
-            8362000,
-            15166250,
-            18666250,
-            15570000,
-            25522000,
-            7015000,
-            22070000,
-            37171000,
-            12430000,
-            8806500,
-            9995000,
-            7169000,
-            5816500,
-            10045000,
-            6411000,
-            12451000,
-            6910000,
-            8400000,
-            5315000,
-            7105000
-          ]
-        },
-        {
-          "name": "Admin",
-          "data": [
-            0,
-            7332500,
-            7050000,
-            3610500,
-            1750500,
-            2369500,
-            5584250,
-            2574500,
-            4778002,
-            36603000,
-            24675500,
-            5888000,
-            4130000,
-            2240000,
-            24467700,
-            3744001,
-            5267251,
-            7818000,
-            5765500,
-            19988500,
-            5519002,
-            6075000,
-            44760500,
-            3024001,
-            4847500,
-            2802500,
-            6958000,
-            1965000,
-            37765001,
-            4955001,
-            4104000,
-            6575001
-          ]
-        },
-        {
-          "name": "Shopee",
-          "data": [
-            446000,
-            7429000,
-            6066000,
-            3988000,
-            4568000,
-            6707000,
-            8726000,
-            6367000,
-            3505000,
-            5901000,
-            3830000,
-            3375000,
-            12474000,
-            4087000,
-            5622000,
-            3993000,
-            6759000,
-            9393000,
-            8824000,
-            12745000,
-            3382000,
-            6930000,
-            7918000,
-            4857000,
-            6940000,
-            3025000,
-            3555000,
-            3995000,
-            6367000,
-            3176000,
-            4849000,
-            3413000
-          ]
-        },
-        {
-          "name": "Instagram",
-          "data": [
-            0,
-            2600000,
-            5290000,
-            1515000,
-            2615000,
-            1210000,
-            3930000,
-            1925000,
-            2425000,
-            2590000,
-            1515000,
-            3180000,
-            4895000,
-            2465088,
-            2315000,
-            1325000,
-            2680000,
-            1790000,
-            1620000,
-            9576000,
-            5175000,
-            6160000,
-            220000,
-            2025000,
-            1805000,
-            360000,
-            3045000,
-            1155000,
-            435000,
-            810000,
-            425000,
-            0
-          ]
-        },
-        {
-          "name": "Khác",
-          "data": [
-            0,
-            0,
-            0,
-            500000,
-            0,
-            0,
-            0,
-            0,
-            415000,
-            0,
-            220000,
-            0,
-            0,
-            0,
-            0,
-            0,
-            690000,
-            215000,
-            1090000,
-            1220000,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            415000,
-            0,
-            0,
-            1185000,
-            0,
-            0
-          ]
-        }
-      ]
-    },
-    "fbAds": {
-      "orders": 0,
-      "revenue": 0,
-      "ads": 0,
-      "orderShare": 0
-    }
+    ]
   },
   "sales": {
-    "totalRevenue": 4020755558,
-    "salesCount": 7957,
-    "aov": 505310,
+    "totalRevenue": 3930410558,
+    "salesCount": 7776,
     "byType": {
-      "Cửa hàng": 2837680308,
-      "Online": 1176100450,
+      "Online": 1145997450,
+      "Cửa hàng": 2777438308,
       "Sỉ": 6974800
     },
-    "byBrand": {
-      "Bemori": 3949502558,
-      "Teddy": 71253000
-    },
-    "byStore": [
-      {
-        "name": "Kho Online Nguyễn Khuyến",
-        "rev": 696300808
-      },
-      {
-        "name": "Bemori 368 Nguyễn Trãi",
-        "rev": 457110000
-      },
-      {
-        "name": "Bemori 228 Lê Văn Sỹ",
-        "rev": 432571750
-      },
-      {
-        "name": "Bemori 162B Nguyễn Gia Trí",
-        "rev": 427804250
-      },
-      {
-        "name": "Bemori 161 Xuân Thủy",
-        "rev": 394077000
-      },
-      {
-        "name": "Bemori 1028 Đường Láng",
-        "rev": 361594250
-      },
-      {
-        "name": "Bemori 275 Bạch Mai",
-        "rev": 326388500
-      },
-      {
-        "name": "Bemori 104-106 Cầu Giấy",
-        "rev": 316462250
-      },
-      {
-        "name": "Bemori 411 NVC",
-        "rev": 284548000
-      },
-      {
-        "name": "Bemori 388 Xã Đàn",
-        "rev": 252645750
-      },
-      {
-        "name": "Teddy Outlet 970 Láng",
-        "rev": 71253000
-      }
-    ],
-    "byDay": [
-      {
-        "day": "2026-05-14",
-        "rev": 90345000
-      },
-      {
-        "day": "2026-05-15",
-        "rev": 115227500
-      },
-      {
-        "day": "2026-05-16",
-        "rev": 134673050
-      },
-      {
-        "day": "2026-05-17",
-        "rev": 115796750
-      },
-      {
-        "day": "2026-05-18",
-        "rev": 98284250
-      },
-      {
-        "day": "2026-05-19",
-        "rev": 84571000
-      },
-      {
-        "day": "2026-05-20",
-        "rev": 91916500
-      },
-      {
-        "day": "2026-05-21",
-        "rev": 103431750
-      },
-      {
-        "day": "2026-05-22",
-        "rev": 117114000
-      },
-      {
-        "day": "2026-05-23",
-        "rev": 127077500
-      },
-      {
-        "day": "2026-05-24",
-        "rev": 105026750
-      },
-      {
-        "day": "2026-05-25",
-        "rev": 98615750
-      },
-      {
-        "day": "2026-05-26",
-        "rev": 124792500
-      },
-      {
-        "day": "2026-05-27",
-        "rev": 88151000
-      },
-      {
-        "day": "2026-05-28",
-        "rev": 107065750
-      },
-      {
-        "day": "2026-05-29",
-        "rev": 140199250
-      },
-      {
-        "day": "2026-05-30",
-        "rev": 192104250
-      },
-      {
-        "day": "2026-05-31",
-        "rev": 270899200
-      },
-      {
-        "day": "2026-06-01",
-        "rev": 525802227
-      },
-      {
-        "day": "2026-06-02",
-        "rev": 153094250
-      },
-      {
-        "day": "2026-06-03",
-        "rev": 124162031
-      },
-      {
-        "day": "2026-06-04",
-        "rev": 107060550
-      },
-      {
-        "day": "2026-06-05",
-        "rev": 117443000
-      },
-      {
-        "day": "2026-06-06",
-        "rev": 118647500
-      },
-      {
-        "day": "2026-06-07",
-        "rev": 111877750
-      },
-      {
-        "day": "2026-06-08",
-        "rev": 56311500
-      },
-      {
-        "day": "2026-06-09",
-        "rev": 95208750
-      },
-      {
-        "day": "2026-06-10",
-        "rev": 101207000
-      },
-      {
-        "day": "2026-06-11",
-        "rev": 98673250
-      },
-      {
-        "day": "2026-06-12",
-        "rev": 88122500
-      },
-      {
-        "day": "2026-06-13",
-        "rev": 117853500
-      }
-    ],
     "onlinePct": 29,
     "storePct": 71
   }
