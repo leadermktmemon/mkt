@@ -1,0 +1,15 @@
+# Bí mật / token — KHÔNG đẩy lên GitHub
+nhanh.config.json
+meta.config.json
+lark.config.json
+marketing-report/config.json
+.claude/settings.local.json
+marketing-report/dashboard/.cache-raw.json
+
+# Dữ liệu kéo về
+nhanh-data/
+base-data.json
+base-data.csv
+
+# Node
+node_modules/

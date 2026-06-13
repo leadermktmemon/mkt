@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bemori · Dashboard Marketing</title>
+<style>
+  :root{ --bg:#f4f5f7; --card:#fff; --ink:#1a1c1f; --muted:#6b7280; --line:#e6e8eb;
+    --blue:#378ADD; --teal:#1D9E75; --amber:#BA7517; --coral:#D85A30; --pink:#D4537E; --purple:#7F77DD; --gray:#888780; }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:1100px;margin:0 auto;padding:24px 20px 48px;}
+  header{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:22px;}
+  .brand{display:flex;align-items:center;gap:12px;}
+  .logo{width:42px;height:42px;border-radius:10px;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;}
+  h1{font-size:20px;margin:0;font-weight:600;}
+  .sub{font-size:13px;color:var(--muted);margin-top:2px;}
+  .period{font-size:12px;color:var(--muted);background:var(--card);border:1px solid var(--line);padding:6px 12px;border-radius:8px;}
+  .secTitle{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin:30px 0 12px;}
+  .secTitle::after{content:"";flex:1;height:1px;background:var(--line);}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:14px;margin-bottom:18px;}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;}
+  .kpi.accent{border-color:var(--blue);border-width:2px;}
+  .kpi .label{font-size:13px;color:var(--muted);margin-bottom:6px;}
+  .kpi .val{font-size:25px;font-weight:700;letter-spacing:-0.5px;}
+  .kpi .delta{font-size:12px;color:var(--muted);margin-top:4px;}
+  .pending{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:12px;padding:12px 16px;font-size:13px;margin-bottom:18px;display:flex;gap:10px;align-items:center;}
+  .grid2{display:grid;grid-template-columns:1.15fr 0.85fr;gap:16px;margin-bottom:16px;}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;}
+  .panel h2{font-size:15px;font-weight:600;margin:0 0 14px;}
+  .legend{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:10px;font-size:12px;color:var(--muted);}
+  .legend span{display:flex;align-items:center;gap:6px;}
+  .dot{width:10px;height:10px;border-radius:3px;display:inline-block;}
+  .cw{position:relative;width:100%;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th,td{text-align:right;padding:8px 6px;border-bottom:1px solid var(--line);}
+  th:first-child,td:first-child{text-align:left;}
+  th{color:var(--muted);font-weight:500;}
+  td.name{display:flex;align-items:center;gap:8px;}
+  footer{margin-top:24px;font-size:12px;color:var(--muted);text-align:center;}
+  @media(max-width:760px){.grid2{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">B</div>
+      <div><h1>Bemori · Dashboard Marketing</h1><div class="sub" id="sub">Đang tải…</div></div>
+    </div>
+    <div class="period" id="period"></div>
+  </header>
+
+  <div class="kpis" id="mkpis"></div>
+
+  <div class="pending">
+    <span style="font-size:18px;">⏳</span>
+    <span><b>Chi phí &amp; ROAS / CPA theo kênh</b> — sẽ hiển thị khi kết nối Meta Ads, Google Ads, TikTok. Hiện đo đóng góp theo doanh thu &amp; đơn mỗi kênh.</span>
+  </div>
+
+  <div class="grid2">
+    <div class="panel">
+      <h2>Hiệu quả theo kênh marketing</h2>
+      <table id="chTable"><thead><tr><th>Kênh</th><th>Đơn</th><th>Doanh thu</th><th>AOV</th><th>Tỷ trọng</th></tr></thead><tbody></tbody></table>
+    </div>
+    <div class="panel">
+      <h2>Cơ cấu doanh thu theo kênh</h2>
+      <div class="legend" id="legCh"></div>
+      <div class="cw" style="height:240px;"><canvas id="cMix"></canvas></div>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-bottom:16px;">
+    <h2>Xu hướng doanh thu theo kênh (theo ngày)</h2>
+    <div class="legend" id="legTrend"></div>
+    <div class="cw" style="height:280px;"><canvas id="cTrend"></canvas></div>
+  </div>
+
+  <div class="secTitle">Bối cảnh doanh số toàn hệ thống</div>
+  <div class="kpis" id="skpis"></div>
+  <div class="grid2">
+    <div class="panel">
+      <h2>Doanh thu theo ngày (toàn bộ)</h2>
+      <div class="cw" style="height:240px;"><canvas id="cDay"></canvas></div>
+    </div>
+    <div class="panel">
+      <h2>Online vs Cửa hàng vs Sỉ</h2>
+      <div class="legend" id="legType"></div>
+      <div class="cw" style="height:200px;"><canvas id="cType"></canvas></div>
+    </div>
+  </div>
+  <div class="panel">
+    <h2>Doanh thu theo cửa hàng</h2>
+    <div class="cw" id="storeWrap" style="height:460px;"><canvas id="cStore"></canvas></div>
+  </div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="data.js"></script>
+<script>
+(function(){
+  var D=window.DASHBOARD_DATA; if(!D){document.getElementById('sub').textContent='Không tìm thấy data.js';return;}
+  var M=D.marketing, S=D.sales;
+  function vnd(n){ if(n>=1e9)return (n/1e9).toFixed(2).replace(/\.?0+$/,'')+' tỷ'; if(n>=1e6)return (n/1e6).toFixed(1).replace(/\.0$/,'')+' tr'; if(n>=1e3)return Math.round(n/1e3)+'K'; return String(Math.round(n)); }
+  var full=function(n){return Math.round(n).toLocaleString('vi-VN')+'đ';};
+  var PALETTE={'Facebook':'#378ADD','Zalo cá nhân':'#1D9E75','Admin':'#888780','Shopee':'#D85A30','Instagram':'#D4537E','Zalo OA':'#BA7517','Website':'#7F77DD','Tiktok Shop':'#26215C','Khác':'#7F77DD'};
+  var fallback=['#378ADD','#1D9E75','#D85A30','#D4537E','#BA7517','#7F77DD','#888780'];
+  var colorOf=function(name,i){return PALETTE[name]||fallback[i%fallback.length];};
+
+  document.getElementById('sub').textContent='Nguồn: nhanh.vn · '+D.period.days+' ngày';
+  document.getElementById('period').textContent=D.period.fromDate+'  →  '+D.period.toDate;
+  document.getElementById('foot').textContent='Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN')+' · dữ liệu thật nhanh.vn';
+
+  document.getElementById('mkpis').innerHTML=[
+    {label:'Doanh thu online (marketing)',val:vnd(M.onlineRevenue),accent:true},
+    {label:'Đơn online',val:M.onlineOrders.toLocaleString('vi-VN')},
+    {label:'AOV online',val:vnd(M.onlineAov)},
+    {label:'Số kênh đang chạy',val:M.channels.length},
+  ].map(function(k){return '<div class="kpi'+(k.accent?' accent':'')+'"><div class="label">'+k.label+'</div><div class="val">'+k.val+'</div></div>';}).join('');
+
+  var tb=document.querySelector('#chTable tbody');
+  tb.innerHTML=M.channels.map(function(c,i){
+    return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td>'+
+      '<td>'+c.orders.toLocaleString('vi-VN')+'</td><td>'+vnd(c.revenue)+'</td><td>'+vnd(c.aov)+'</td><td>'+c.share+'%</td></tr>';
+  }).join('');
+
+  Chart.defaults.color='#6b7280'; Chart.defaults.font.family='inherit'; var grid='rgba(0,0,0,0.06)';
+
+  document.getElementById('legCh').innerHTML=M.channels.map(function(c,i){return '<span><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+' '+c.share+'%</span>';}).join('');
+  new Chart(document.getElementById('cMix'),{type:'doughnut',
+    data:{labels:M.channels.map(function(c){return c.name;}),datasets:[{data:M.channels.map(function(c){return c.revenue;}),backgroundColor:M.channels.map(function(c,i){return colorOf(c.name,i);}),borderWidth:0}]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});
+
+  var dash=[[],[6,3],[2,2],[8,3,2,3],[10,4],[1,3]];
+  document.getElementById('legTrend').innerHTML=M.trend.series.map(function(s,i){return '<span><span class="dot" style="background:'+colorOf(s.name,i)+'"></span>'+s.name+'</span>';}).join('');
+  new Chart(document.getElementById('cTrend'),{type:'line',
+    data:{labels:M.trend.days.map(function(d){return d.slice(5);}),
+      datasets:M.trend.series.map(function(s,i){return {label:s.name,data:s.data,borderColor:colorOf(s.name,i),backgroundColor:'transparent',borderDash:dash[i%dash.length],tension:0.3,pointRadius:0,borderWidth:2};})},
+    options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.dataset.label+': '+full(c.parsed.y);}}}},
+      scales:{x:{grid:{display:false}},y:{grid:{color:grid},ticks:{callback:function(v){return vnd(v);}}}}}});
+
+  document.getElementById('skpis').innerHTML=[
+    {label:'Tổng doanh thu',val:vnd(S.totalRevenue)},
+    {label:'Cửa hàng',val:S.storePct+'%',delta:vnd(S.byType['Cửa hàng']||0)},
+    {label:'Online',val:S.onlinePct+'%',delta:vnd(S.byType['Online']||0)},
+    {label:'Số hóa đơn',val:S.salesCount.toLocaleString('vi-VN')},
+  ].map(function(k){return '<div class="kpi"><div class="label">'+k.label+'</div><div class="val">'+k.val+'</div>'+(k.delta?'<div class="delta">'+k.delta+'</div>':'')+'</div>';}).join('');
+
+  new Chart(document.getElementById('cDay'),{type:'line',
+    data:{labels:S.byDay.map(function(d){return d.day.slice(5);}),datasets:[{data:S.byDay.map(function(d){return d.rev;}),borderColor:'#1D9E75',backgroundColor:'rgba(29,158,117,0.12)',fill:true,tension:0.3,pointRadius:0,borderWidth:2}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return full(c.parsed.y);}}}},scales:{x:{grid:{display:false}},y:{grid:{color:grid},ticks:{callback:function(v){return vnd(v);}}}}}});
+
+  var tl=Object.keys(S.byType),tcol={'Cửa hàng':'#1D9E75','Online':'#378ADD','Sỉ':'#BA7517'};
+  document.getElementById('legType').innerHTML=tl.map(function(k){return '<span><span class="dot" style="background:'+(tcol[k]||'#888')+'"></span>'+k+' '+vnd(S.byType[k])+'</span>';}).join('');
+  new Chart(document.getElementById('cType'),{type:'doughnut',data:{labels:tl,datasets:[{data:tl.map(function(k){return S.byType[k];}),backgroundColor:tl.map(function(k){return tcol[k]||'#888';}),borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});
+
+  var st=S.byStore; document.getElementById('storeWrap').style.height=(st.length*38+70)+'px';
+  new Chart(document.getElementById('cStore'),{type:'bar',data:{labels:st.map(function(s){return s.name;}),datasets:[{data:st.map(function(s){return s.rev;}),backgroundColor:'#1D9E75',borderRadius:4,barThickness:22}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return full(c.parsed.x);}}}},scales:{x:{grid:{color:grid},ticks:{callback:function(v){return vnd(v);}}},y:{grid:{display:false}}}}});
+})();
+</script>
+</body>
+</html>

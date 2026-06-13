@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dashboard",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["marketing-report/dashboard/static-server.mjs"],
+      "port": 4321
+    }
+  ]
+}

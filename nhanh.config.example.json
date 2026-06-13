@@ -1,0 +1,10 @@
+{
+  "version": "3.0",
+  "appId": "DIEN_APP_ID",
+  "secretKey": "DIEN_SECRET_KEY",
+  "returnLink": "https://example.com/callback",
+
+  "_huong_dan": "Sau buoc xac thuc, accessToken va businessId se duoc tu dong dien vao day boi nhanh-auth.mjs",
+  "accessToken": "",
+  "businessId": ""
+}

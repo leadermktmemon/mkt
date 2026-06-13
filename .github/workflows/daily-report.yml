@@ -1,0 +1,41 @@
+name: Daily Marketing Report
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 03:00 UTC = 10:00 giờ VN
+  workflow_dispatch:        # cho phép bấm chạy tay
+
+permissions:
+  contents: write           # để commit dashboard/data.js
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Tạo file cấu hình từ Secrets
+        env:
+          NHANH_CONFIG: ${{ secrets.NHANH_CONFIG }}
+          LARK_CONFIG: ${{ secrets.LARK_CONFIG }}
+        run: |
+          printf '%s' "$NHANH_CONFIG" > nhanh.config.json
+          printf '%s' "$LARK_CONFIG" > marketing-report/config.json
+
+      - name: Tổng hợp dữ liệu nhanh.vn (30 ngày)
+        run: node marketing-report/dashboard/build-data.mjs 30
+
+      - name: Gửi thẻ KPI vào Lark
+        run: node marketing-report/send-lark.mjs
+
+      - name: Commit dữ liệu dashboard (để Cloudflare deploy)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add marketing-report/dashboard/data.js marketing-report/dashboard/data.json
+          git commit -m "chore: cập nhật dữ liệu dashboard [skip ci]" || echo "Không có thay đổi"
+          git push

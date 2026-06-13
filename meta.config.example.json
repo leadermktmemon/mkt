@@ -1,0 +1,10 @@
+{
+  "apiVersion": "v21.0",
+  "appId": "DIEN_APP_ID",
+  "appSecret": "DIEN_APP_SECRET",
+  "token": "DIEN_TOKEN_TU_GRAPH_API_EXPLORER",
+
+  "_ghi_chu": "Sau khi chay meta-check.mjs, longLivedToken (60 ngay) se duoc dien vao day; accounts se duoc tu dong phat hien.",
+  "longLivedToken": "",
+  "accounts": []
+}
