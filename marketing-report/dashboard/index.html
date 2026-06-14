@@ -133,11 +133,14 @@
   var scope='all', period='30', gran='day', cFrom=null, cTo=null, charts={};
 
   function sliceFor(p){ var d=D.daily; if(!d.length)return [];
-    if(p==='today')return d.slice(-1); if(p==='7')return d.slice(-7); if(p==='30')return d.slice(-30);
+    if(p==='7')return d.slice(-7); if(p==='30')return d.slice(-30);
     if(p==='90')return d.slice(-90); if(p==='365')return d.slice(-365);
+    if(p==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return d.filter(function(x){return x.day===t;});}
     if(p==='month'){var m=d[d.length-1].day.slice(0,7);return d.filter(function(x){return x.day.slice(0,7)===m;});}
     if(p==='custom')return d.filter(function(x){return (!cFrom||x.day>=cFrom)&&(!cTo||x.day<=cTo);});
     return d; }
+  var MKT_NON=['Khách lẻ','(trống)','(không rõ)']; // nguồn KHÔNG tính là marketing (khách tại quầy)
+  function isMkt(name){return MKT_NON.indexOf(name)<0;}
 
   // gom kenh theo nhom Online/Cửa hàng (don)
   function channelAgg(slice,cats){
@@ -186,10 +189,12 @@
          {label:'Số nguồn',val:co.list.length}];
     } else if(scope==='Cửa hàng'){
       var cs=channelAgg(slice,['Cửa hàng']);
+      var mkt=0; cs.list.forEach(function(c){ if(isMkt(c.name)) mkt+=c.revenue; });
+      var pct=b.store?Math.round(mkt/b.store*100):0;
       k=[{label:'Doanh thu Cửa hàng',val:vnd(b.store),accent:true},
-         {label:'Đơn theo kênh',val:cs.orders.toLocaleString('vi-VN')},
-         {label:'AOV (đơn kênh)',val:vnd(cs.orders?cs.total/cs.orders:0)},
-         {label:'Số nguồn',val:cs.list.length}];
+         {label:'Marketing mang về',val:vnd(mkt)},
+         {label:'% Marketing → Cửa hàng',val:pct+'%'},
+         {label:'Khách tại quầy (còn lại)',val:vnd(Math.max(b.store-mkt,0))}];
     } else { // Memon
       var m=memonAgg(slice);
       k=[{label:'Doanh thu B2B/Sỉ',val:vnd(m.total),accent:true},
@@ -262,7 +267,10 @@
   fromI.addEventListener('change',function(){cFrom=this.value;if(period==='custom')render();});
   toI.addEventListener('change',function(){cTo=this.value;if(period==='custom')render();});
 
-  function rangeLabel(){var s=sliceFor(period);if(!s.length)return '';var a=s[0].day,b=s[s.length-1].day;return a===b?a.split('-').reverse().join('/'):a.split('-').reverse().join('/')+' → '+b.split('-').reverse().join('/');}
+  function fmtD(d){return d.split('-').reverse().join('/');}
+  function rangeLabel(){var s=sliceFor(period);
+    if(!s.length){ if(period==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return fmtD(t)+' · chưa có dữ liệu (cập nhật trong ngày)';} return '(không có dữ liệu)'; }
+    var a=s[0].day,b=s[s.length-1].day; return a===b?fmtD(a):fmtD(a)+' → '+fmtD(b); }
   var _r=render; render=function(){_r();document.getElementById('sub').textContent=rangeLabel();};
   document.getElementById('foot').textContent='Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN');
   render();

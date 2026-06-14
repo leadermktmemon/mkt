@@ -2,7 +2,7 @@ name: Daily Marketing Report
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # 03:00 UTC = 10:00 giờ VN
+    - cron: "0 1,4,7,10,13 * * *"   # ~3 tiếng/lần trong giờ làm VN (08,11,14,17,20h)
   workflow_dispatch:        # cho phép bấm chạy tay
 
 permissions:
@@ -29,8 +29,13 @@ jobs:
       - name: Tổng hợp dữ liệu nhanh.vn (tới 365 ngày)
         run: node marketing-report/dashboard/build-data.mjs 365
 
-      - name: Gửi thẻ KPI vào Lark
-        run: node marketing-report/send-lark.mjs
+      - name: Gửi thẻ KPI vào Lark (chỉ buổi sáng ~08h VN)
+        run: |
+          if [ "$(date -u +%H)" = "01" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            node marketing-report/send-lark.mjs
+          else
+            echo "Bỏ qua gửi Lark (không phải khung 08h)"
+          fi
 
       - name: Commit dữ liệu dashboard (để Cloudflare deploy)
         run: |
