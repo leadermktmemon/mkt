@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Bemori · Dashboard Marketing</title>
+<title>Memon · Dashboard</title>
 <style>
   :root{ --bg:#f4f5f7; --card:#fff; --ink:#1a1c1f; --muted:#6b7280; --line:#e6e8eb; --blue:#378ADD; --teal:#1D9E75; --amber:#BA7517; }
   *{box-sizing:border-box;}
@@ -11,17 +11,15 @@
   .wrap{max-width:1100px;margin:0 auto;padding:24px 20px 48px;}
   header{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:16px;}
   .brand{display:flex;align-items:center;gap:12px;}
-  .logo{width:42px;height:42px;border-radius:10px;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;}
-  h1{font-size:20px;margin:0;font-weight:600;}
-  .sub{font-size:13px;color:var(--muted);margin-top:2px;}
-  .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:18px;}
-  .seg{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;}
-  .seg button{border:0;background:transparent;padding:8px 13px;font-size:13px;color:var(--muted);cursor:pointer;}
-  .seg button.on{background:var(--blue);color:#fff;font-weight:600;}
-  .seg.brand button.on{background:#111827;}
-  .seg .lbl{padding:8px 10px;font-size:12px;color:var(--muted);border-right:1px solid var(--line);align-self:center;}
   .logoimg{height:42px;width:auto;display:block;}
   .logotext{font-size:26px;font-weight:700;color:#1CA9D8;letter-spacing:-0.5px;}
+  h1{font-size:20px;margin:0 0 0 4px;font-weight:600;display:inline;}
+  .sub{font-size:13px;color:var(--muted);}
+  .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:18px;}
+  .seg{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;flex-wrap:wrap;}
+  .seg button{border:0;background:transparent;padding:8px 13px;font-size:13px;color:var(--muted);cursor:pointer;}
+  .seg button.on{background:var(--blue);color:#fff;font-weight:600;}
+  .seg .lbl{padding:8px 10px;font-size:12px;color:var(--muted);border-right:1px solid var(--line);align-self:center;}
   .ctl{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:4px 10px;}
   .ctl .lbl{font-size:12px;color:var(--muted);}
   select,input[type=date]{font-family:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer;}
@@ -33,7 +31,6 @@
   .kpi .val{font-size:25px;font-weight:700;letter-spacing:-0.5px;}
   .grid2{display:grid;grid-template-columns:1.15fr 0.85fr;gap:16px;margin-bottom:16px;}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;}
-  .panel.hide{display:none;}
   .panel h2{font-size:15px;font-weight:600;margin:0 0 14px;display:flex;justify-content:space-between;align-items:center;gap:8px;}
   .legend{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:10px;font-size:12px;color:var(--muted);}
   .legend span{display:flex;align-items:center;gap:6px;}
@@ -54,17 +51,19 @@
   <header>
     <div class="brand">
       <img src="logo.png" alt="Memon" class="logoimg" onerror="this.outerHTML='<span class=\'logotext\'>Memon</span>'">
-      <h1 style="margin-left:4px;">Dashboard</h1>
+      <h1>Dashboard</h1>
     </div>
     <div class="sub" id="sub"></div>
   </header>
 
   <div class="controls">
-    <div class="seg brand" id="segBrand">
-      <span class="lbl">Nhánh</span>
-      <button data-b="all" class="on">Tất cả</button>
-      <button data-b="Bemori">Bemori</button>
-      <button data-b="Memon">Memon (B2B)</button>
+    <div class="seg brand" id="segScope">
+      <span class="lbl">Xem</span>
+      <button data-s="all" class="on">Tất cả</button>
+      <button data-s="Bemori">Bemori</button>
+      <button data-s="Online">› Online</button>
+      <button data-s="Cửa hàng">› Cửa hàng</button>
+      <button data-s="Memon">Memon (B2B)</button>
     </div>
     <div class="ctl">
       <span class="lbl">Kỳ</span>
@@ -99,7 +98,7 @@
 
   <div class="grid2">
     <div class="panel">
-      <h2 id="bdTitle">Hiệu quả theo kênh</h2>
+      <h2 id="bdTitle">Theo nguồn / kênh</h2>
       <table id="bdTable"><thead></thead><tbody></tbody></table>
     </div>
     <div class="panel">
@@ -110,9 +109,9 @@
   </div>
 
   <div class="panel" id="storePanel">
-    <h2>Doanh thu cửa hàng theo shop <span style="font-size:12px;color:var(--muted);font-weight:400;">(bán lẻ tại quầy)</span></h2>
+    <h2>Doanh thu theo cửa hàng <span style="font-size:12px;color:var(--muted);font-weight:400;">(bán lẻ tại quầy)</span></h2>
     <div class="cw" id="storeWrap" style="height:420px;"><canvas id="cStore"></canvas></div>
-    <div class="note hide" id="storeNote">Nhánh Memon (B2B/sỉ) bán theo khách công ty, không phân theo cửa hàng.</div>
+    <div class="note" id="storeNote" style="display:none;"></div>
   </div>
 
   <footer id="foot"></footer>
@@ -123,154 +122,148 @@
 <script>
 (function(){
   var D=window.DASHBOARD_DATA; if(!D||!D.daily){document.getElementById('sub').textContent='Không tìm thấy data.js';return;}
-  var PALETTE={'Facebook':'#378ADD','Zalo cá nhân':'#1D9E75','Admin':'#888780','Shopee':'#D85A30','Instagram':'#D4537E','Zalo OA':'#BA7517','Website':'#7F77DD','Tiktok Shop':'#26215C'};
-  var TYPECOL={'Online':'#378ADD','Cửa hàng':'#1D9E75','Sỉ':'#BA7517'};
+  var PALETTE={'Facebook':'#378ADD','FB Bemori':'#378ADD','Zalo Bemori':'#1D9E75','Zalo cá nhân':'#1D9E75','Admin':'#888780','Khách lẻ':'#888780','Shopee':'#D85A30','Instagram':'#D4537E','Insta Bemori':'#D4537E','Zalo OA':'#BA7517','Website':'#7F77DD','Web Bemori':'#7F77DD'};
   var FB=['#378ADD','#1D9E75','#D85A30','#D4537E','#BA7517','#7F77DD','#888780','#26215C','#0F6E56','#993C1D'];
   var colorOf=function(n,i){return PALETTE[n]||FB[i%FB.length];};
   function vnd(n){n=Math.round(n); if(n>=1e9)return (n/1e9).toFixed(2).replace(/\.?0+$/,'')+' tỷ'; if(n>=1e6)return (n/1e6).toFixed(1).replace(/\.0$/,'')+' tr'; if(n>=1e3)return Math.round(n/1e3)+'K'; return String(n);}
   var full=function(n){return Math.round(n).toLocaleString('vi-VN')+'đ';};
   Chart.defaults.color='#6b7280'; Chart.defaults.font.family='inherit'; var grid='rgba(0,0,0,0.06)';
-  var BRAND_TYPES={all:['Online','Cửa hàng','Sỉ'],Bemori:['Online','Cửa hàng'],Memon:['Sỉ']};
+  var COL={'Bemori':'#378ADD','Memon':'#BA7517','Online':'#378ADD','Cửa hàng':'#1D9E75'};
 
-  var brand='all', period='30', gran='day', cFrom=null, cTo=null, charts={};
+  var scope='all', period='30', gran='day', cFrom=null, cTo=null, charts={};
 
   function sliceFor(p){ var d=D.daily; if(!d.length)return [];
     if(p==='today')return d.slice(-1); if(p==='7')return d.slice(-7); if(p==='30')return d.slice(-30);
     if(p==='90')return d.slice(-90); if(p==='365')return d.slice(-365);
     if(p==='month'){var m=d[d.length-1].day.slice(0,7);return d.filter(function(x){return x.day.slice(0,7)===m;});}
-    if(p==='custom'){return d.filter(function(x){return (!cFrom||x.day>=cFrom)&&(!cTo||x.day<=cTo);});}
+    if(p==='custom')return d.filter(function(x){return (!cFrom||x.day>=cFrom)&&(!cTo||x.day<=cTo);});
     return d; }
 
-  function sumObj(o){var s=0;for(var k in o)s+=o[k];return s;}
-  function agg(slice){
-    var bemori={}, store={}, ch={}, mktRev=0, mktOrders=0, memonRev=0, salesCount=0, bemoriTotal=0;
-    slice.forEach(function(d){
-      for(var t in d.bemori){ bemori[t]=(bemori[t]||0)+d.bemori[t]; bemoriTotal+=d.bemori[t]; }
-      memonRev+=d.memonRev||0;
-      for(var s in d.storeRetail) store[s]=(store[s]||0)+d.storeRetail[s];
-      for(var k in d.channel){ch[k]=ch[k]||{rev:0,orders:0};ch[k].rev+=d.channel[k].rev;ch[k].orders+=d.channel[k].orders;}
-      mktRev+=d.mktRev; mktOrders+=d.mktOrders; salesCount+=d.salesCount;
-    });
-    return {bemori:bemori,bemoriTotal:bemoriTotal,memonRev:memonRev,store:store,ch:ch,mktRev:mktRev,mktOrders:mktOrders,salesCount:salesCount};
+  // gom kenh theo nhom Online/Cửa hàng (don)
+  function channelAgg(slice,cats){
+    var ch={},total=0,orders=0;
+    slice.forEach(function(d){ cats.forEach(function(cat){ var m=d.chan&&d.chan[cat]; if(!m)return;
+      for(var k in m){ ch[k]=ch[k]||{rev:0,orders:0}; ch[k].rev+=m[k].rev; ch[k].orders+=m[k].orders; total+=m[k].rev; orders+=m[k].orders; } }); });
+    var list=Object.keys(ch).sort(function(a,b){return ch[b].rev-ch[a].rev;}).map(function(n){return {name:n,orders:ch[n].orders,revenue:ch[n].rev,aov:ch[n].orders?Math.round(ch[n].rev/ch[n].orders):0,share:total?Math.round(ch[n].rev/total*100):0};});
+    return {list:list,total:total,orders:orders};
   }
+  function bemoriRev(slice){var o=0,s=0;slice.forEach(function(d){o+=d.bemori['Online']||0;s+=d.bemori['Cửa hàng']||0;});return {online:o,store:s};}
   function memonAgg(slice){
-    var dset={}; slice.forEach(function(d){dset[d.day]=1;});
-    var cust={}; var totalRev=0, bills=0;
-    (D.memonBills||[]).forEach(function(b){ if(dset[b.day]){ cust[b.customer]=cust[b.customer]||{rev:0,n:0}; cust[b.customer].rev+=b.amount; cust[b.customer].n++; totalRev+=b.amount; bills++; }});
-    var list=Object.keys(cust).sort(function(a,b){return cust[b].rev-cust[a].rev;}).map(function(n){return {name:n,orders:cust[n].n,revenue:cust[n].rev,share:totalRev?Math.round(cust[n].rev/totalRev*100):0};});
-    return {list:list,totalRev:totalRev,bills:bills,customers:list.length};
+    var dset={};slice.forEach(function(d){dset[d.day]=1;});
+    var cust={},total=0,bills=0;
+    (D.memonBills||[]).forEach(function(b){if(dset[b.day]){cust[b.customer]=cust[b.customer]||{rev:0,n:0};cust[b.customer].rev+=b.amount;cust[b.customer].n++;total+=b.amount;bills++;}});
+    var list=Object.keys(cust).sort(function(a,b){return cust[b].rev-cust[a].rev;}).map(function(n){return {name:n,orders:cust[n].n,revenue:cust[n].rev,share:total?Math.round(cust[n].rev/total*100):0};});
+    return {list:list,total:total,bills:bills,customers:list.length};
   }
-  function bucketKey(day,g){ if(g==='month')return day.slice(0,7);
-    if(g==='week'){var d=new Date(day+'T00:00:00Z');var dow=(d.getUTCDay()+6)%7;d.setUTCDate(d.getUTCDate()-dow);return d.toISOString().slice(0,10);} return day; }
+  function storeAgg(slice){var s={};slice.forEach(function(d){for(var k in d.storeRetail)s[k]=(s[k]||0)+d.storeRetail[k];});return Object.keys(s).sort(function(a,b){return s[b]-s[a];}).map(function(n){return {name:n,rev:s[n]};});}
+  function bucketKey(day,g){ if(g==='month')return day.slice(0,7); if(g==='week'){var d=new Date(day+'T00:00:00Z');var dow=(d.getUTCDay()+6)%7;d.setUTCDate(d.getUTCDate()-dow);return d.toISOString().slice(0,10);} return day; }
 
   function render(){
-    var slice=sliceFor(period), A=agg(slice);
-    var types=BRAND_TYPES[brand];
+    var slice=sliceFor(period);
+    var b=bemoriRev(slice);
+    var isMemon=scope==='Memon';
+    var showStore = (scope==='all'||scope==='Bemori'||scope==='Cửa hàng');
 
-    // KPIs
+    // ----- KPIs -----
     var k=[];
-    if(brand==='all'){
-      k=[{label:'Tổng doanh thu',val:vnd(A.bemoriTotal+A.memonRev),accent:true},
-         {label:'Bemori (online+cửa hàng)',val:vnd(A.bemoriTotal)},
-         {label:'Memon (B2B/sỉ)',val:vnd(A.memonRev)},
-         {label:'Số hóa đơn',val:A.salesCount.toLocaleString('vi-VN')}];
-    } else if(brand==='Bemori'){
-      k=[{label:'Doanh thu Bemori',val:vnd(A.bemoriTotal),accent:true},
-         {label:'Online',val:vnd(A.bemori['Online']||0)},
-         {label:'Cửa hàng',val:vnd(A.bemori['Cửa hàng']||0)},
-         {label:'Đơn online',val:A.mktOrders.toLocaleString('vi-VN')}];
-    } else {
-      var M=memonAgg(slice);
-      k=[{label:'Doanh thu B2B/Sỉ',val:vnd(A.memonRev),accent:true},
-         {label:'Số hóa đơn',val:M.bills.toLocaleString('vi-VN')},
-         {label:'AOV',val:vnd(M.bills?M.totalRev/M.bills:0)},
-         {label:'Khách B2B',val:M.customers}];
+    if(scope==='all'){
+      var mem=memonAgg(slice);
+      k=[{label:'Tổng doanh thu',val:vnd(b.online+b.store+mem.total),accent:true},
+         {label:'Bemori',val:vnd(b.online+b.store)},
+         {label:'Memon (B2B/sỉ)',val:vnd(mem.total)},
+         {label:'Online / Cửa hàng',val:vnd(b.online)+' · '+vnd(b.store)}];
+    } else if(scope==='Bemori'){
+      var c=channelAgg(slice,['Online','Cửa hàng']);
+      k=[{label:'Doanh thu Bemori',val:vnd(b.online+b.store),accent:true},
+         {label:'Online (kho NK)',val:vnd(b.online)},
+         {label:'Cửa hàng',val:vnd(b.store)},
+         {label:'Đơn theo kênh',val:c.orders.toLocaleString('vi-VN')}];
+    } else if(scope==='Online'){
+      var co=channelAgg(slice,['Online']);
+      k=[{label:'Doanh thu Online',val:vnd(b.online),accent:true},
+         {label:'Đơn online (theo kênh)',val:co.orders.toLocaleString('vi-VN')},
+         {label:'AOV',val:vnd(co.orders?co.total/co.orders:0)},
+         {label:'Số nguồn',val:co.list.length}];
+    } else if(scope==='Cửa hàng'){
+      var cs=channelAgg(slice,['Cửa hàng']);
+      k=[{label:'Doanh thu Cửa hàng',val:vnd(b.store),accent:true},
+         {label:'Đơn theo kênh',val:cs.orders.toLocaleString('vi-VN')},
+         {label:'AOV (đơn kênh)',val:vnd(cs.orders?cs.total/cs.orders:0)},
+         {label:'Số nguồn',val:cs.list.length}];
+    } else { // Memon
+      var m=memonAgg(slice);
+      k=[{label:'Doanh thu B2B/Sỉ',val:vnd(m.total),accent:true},
+         {label:'Số hóa đơn',val:m.bills.toLocaleString('vi-VN')},
+         {label:'AOV',val:vnd(m.bills?m.total/m.bills:0)},
+         {label:'Khách B2B',val:m.customers}];
     }
     document.getElementById('kpis').innerHTML=k.map(function(x){return '<div class="kpi'+(x.accent?' accent':'')+'"><div class="label">'+x.label+'</div><div class="val">'+x.val+'</div></div>';}).join('');
 
-    // Trend stacked: all=theo nhánh, Bemori=theo loại, Memon=sỉ
-    var COL={'Bemori':'#378ADD','Memon':'#BA7517','Online':'#378ADD','Cửa hàng':'#1D9E75','Sỉ':'#BA7517'};
-    var keys = brand==='all'?['Bemori','Memon'] : brand==='Bemori'?['Online','Cửa hàng','Sỉ'] : ['Memon'];
+    // ----- Trend -----
+    var keys, valFn;
+    if(scope==='all'){ keys=['Bemori','Memon']; valFn=function(d){return {Bemori:(d.bemori['Online']||0)+(d.bemori['Cửa hàng']||0),Memon:d.memonRev||0};}; }
+    else if(scope==='Bemori'){ keys=['Online','Cửa hàng']; valFn=function(d){return {Online:d.bemori['Online']||0,'Cửa hàng':d.bemori['Cửa hàng']||0};}; }
+    else if(scope==='Online'){ keys=['Online']; valFn=function(d){return {Online:d.bemori['Online']||0};}; }
+    else if(scope==='Cửa hàng'){ keys=['Cửa hàng']; valFn=function(d){return {'Cửa hàng':d.bemori['Cửa hàng']||0};}; }
+    else { keys=['Memon']; valFn=function(d){return {Memon:d.memonRev||0};}; }
     var idx={},buckets=[];
-    slice.forEach(function(d){var key=bucketKey(d.day,gran); if(idx[key]===undefined){idx[key]=buckets.length;buckets.push({key:key,t:{}});}
-      var b=buckets[idx[key]];
-      if(brand==='all'){ b.t['Bemori']=(b.t['Bemori']||0)+sumObj(d.bemori); b.t['Memon']=(b.t['Memon']||0)+(d.memonRev||0); }
-      else if(brand==='Bemori'){ for(var t in d.bemori) b.t[t]=(b.t[t]||0)+d.bemori[t]; }
-      else { b.t['Memon']=(b.t['Memon']||0)+(d.memonRev||0); }});
-    var tSeries=keys.filter(function(t){return buckets.some(function(b){return b.t[t];});})
-      .map(function(t){return {label:t,data:buckets.map(function(b){return Math.round(b.t[t]||0);}),backgroundColor:COL[t]||'#888',stack:'x',borderRadius:2};});
-    document.getElementById('trendTitle').textContent = brand==='all'?'Xu hướng theo nhánh':brand==='Memon'?'Xu hướng B2B/Sỉ':'Xu hướng theo loại';
+    slice.forEach(function(d){var key=bucketKey(d.day,gran);if(idx[key]===undefined){idx[key]=buckets.length;buckets.push({key:key,t:{}});}var bk=buckets[idx[key]];var v=valFn(d);keys.forEach(function(t){bk.t[t]=(bk.t[t]||0)+(v[t]||0);});});
+    var tSeries=keys.filter(function(t){return buckets.some(function(x){return x.t[t];});}).map(function(t){return {label:t,data:buckets.map(function(x){return Math.round(x.t[t]||0);}),backgroundColor:COL[t]||'#888',stack:'x',borderRadius:2};});
+    document.getElementById('trendTitle').textContent='Xu hướng doanh thu'+(scope==='all'?' theo nhánh':scope==='Bemori'?' Online/Cửa hàng':' '+scope);
     document.getElementById('granLabel').textContent='(theo '+(gran==='day'?'ngày':gran==='week'?'tuần':'tháng')+')';
     document.getElementById('legTrend').innerHTML=tSeries.map(function(s){return '<span><span class="dot" style="background:'+s.backgroundColor+'"></span>'+s.label+'</span>';}).join('');
-    drawStacked('cTrend',buckets.map(function(b){return gran==='month'?b.key:b.key.slice(5);}),tSeries);
+    drawStacked('cTrend',buckets.map(function(x){return gran==='month'?x.key:x.key.slice(5);}),tSeries);
 
-    // Breakdown panel: kenh (Bemori/all) hoac khach B2B (Memon)
-    var bdHead, rows, mixLabels, mixVals, mixColors, legMix, mixTitle, bdTitle;
-    if(brand==='Memon'){
-      var M2=memonAgg(slice); var top=M2.list.slice(0,10);
-      bdTitle='Top khách hàng B2B'; mixTitle='Cơ cấu khách B2B';
-      bdHead='<tr><th>Khách hàng</th><th>HĐ</th><th>Doanh thu</th><th>%</th></tr>';
+    // ----- Breakdown + mix -----
+    var rows,head,mixL,mixV,mixC,leg,bdT,mixT;
+    if(isMemon){
+      var M=memonAgg(slice);var top=M.list.slice(0,10);
+      bdT='Top khách hàng B2B';mixT='Cơ cấu khách B2B';
+      head='<tr><th>Khách hàng</th><th>HĐ</th><th>Doanh thu</th><th>%</th></tr>';
       rows=top.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td><td>'+c.orders+'</td><td>'+vnd(c.revenue)+'</td><td>'+c.share+'%</td></tr>';}).join('')||'<tr><td colspan="4" class="note">Không có đơn sỉ trong kỳ</td></tr>';
-      mixLabels=top.map(function(c){return c.name;}); mixVals=top.map(function(c){return c.revenue;}); mixColors=top.map(function(c,i){return colorOf(c.name,i);});
-      legMix=top.slice(0,6).map(function(c,i){return '<span><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.share+'%</span>';}).join('');
+      mixL=top.map(function(c){return c.name;});mixV=top.map(function(c){return c.revenue;});mixC=top.map(function(c,i){return colorOf(c.name,i);});
+      leg=top.slice(0,6).map(function(c,i){return '<span><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.share+'%</span>';}).join('');
     } else {
-      var chList=Object.keys(A.ch).sort(function(a,b){return A.ch[b].rev-A.ch[a].rev;}).map(function(n){var o=A.ch[n];return {name:n,orders:o.orders,revenue:o.rev,aov:o.orders?Math.round(o.rev/o.orders):0,share:A.mktRev?Math.round(o.rev/A.mktRev*100):0};});
-      bdTitle='Hiệu quả theo kênh marketing'; mixTitle='Cơ cấu theo kênh';
-      bdHead='<tr><th>Kênh</th><th>Đơn</th><th>Doanh thu</th><th>AOV</th><th>%</th></tr>';
-      rows=chList.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td><td>'+c.orders+'</td><td>'+vnd(c.revenue)+'</td><td>'+vnd(c.aov)+'</td><td>'+c.share+'%</td></tr>';}).join('')||'<tr><td colspan="5" class="note">Không có đơn online trong kỳ</td></tr>';
-      mixLabels=chList.map(function(c){return c.name;}); mixVals=chList.map(function(c){return c.revenue;}); mixColors=chList.map(function(c,i){return colorOf(c.name,i);});
-      legMix=chList.map(function(c,i){return '<span><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+' '+c.share+'%</span>';}).join('');
+      var cats = scope==='Online'?['Online']:scope==='Cửa hàng'?['Cửa hàng']:['Online','Cửa hàng'];
+      var C=channelAgg(slice,cats);
+      bdT='Theo nguồn / kênh'+(scope==='Online'?' (Online)':scope==='Cửa hàng'?' (Cửa hàng)':'');
+      mixT='Cơ cấu theo nguồn';
+      head='<tr><th>Nguồn</th><th>Đơn</th><th>Doanh thu</th><th>AOV</th><th>%</th></tr>';
+      rows=C.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td><td>'+c.orders+'</td><td>'+vnd(c.revenue)+'</td><td>'+vnd(c.aov)+'</td><td>'+c.share+'%</td></tr>';}).join('')||'<tr><td colspan="5" class="note">Không có đơn theo kênh trong kỳ</td></tr>';
+      mixL=C.list.map(function(c){return c.name;});mixV=C.list.map(function(c){return c.revenue;});mixC=C.list.map(function(c,i){return colorOf(c.name,i);});
+      leg=C.list.map(function(c,i){return '<span><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+' '+c.share+'%</span>';}).join('');
     }
-    document.getElementById('bdTitle').textContent=bdTitle;
-    document.getElementById('mixTitle').textContent=mixTitle;
-    document.querySelector('#bdTable thead').innerHTML=bdHead;
+    document.getElementById('bdTitle').textContent=bdT;
+    document.getElementById('mixTitle').textContent=mixT;
+    document.querySelector('#bdTable thead').innerHTML=head;
     document.querySelector('#bdTable tbody').innerHTML=rows;
-    document.getElementById('legMix').innerHTML=legMix;
-    drawDonut('cMix',mixLabels,mixVals,mixColors);
+    document.getElementById('legMix').innerHTML=leg;
+    drawDonut('cMix',mixL,mixV,mixC);
 
-    // Store panel: chi Bemori/Tat ca
-    var sp=document.getElementById('storePanel'), sn=document.getElementById('storeNote');
-    if(brand==='Memon'){ sn.classList.remove('hide'); document.getElementById('storeWrap').style.display='none'; }
-    else {
-      sn.classList.add('hide'); document.getElementById('storeWrap').style.display='block';
-      var st=Object.keys(A.store).sort(function(a,b){return A.store[b]-A.store[a];}).map(function(n){return {name:n,rev:A.store[n]};});
-      document.getElementById('storeWrap').style.height=(Math.max(st.length,1)*34+70)+'px';
-      drawBar('cStore',st.map(function(s){return s.name;}),st.map(function(s){return s.rev;}),'#1D9E75');
-    }
+    // ----- Store panel -----
+    var sp=document.getElementById('storePanel'),wrap=document.getElementById('storeWrap'),note=document.getElementById('storeNote');
+    if(!showStore){ sp.style.display='none'; }
+    else { sp.style.display='block'; var st=storeAgg(slice); wrap.style.height=(Math.max(st.length,1)*34+70)+'px'; note.style.display='none'; wrap.style.display='block';
+      drawBar('cStore',st.map(function(s){return s.name;}),st.map(function(s){return s.rev;}),'#1D9E75'); }
   }
 
-  function drawDonut(id,labels,vals,colors){ if(charts[id])charts[id].destroy();
-    charts[id]=new Chart(document.getElementById(id),{type:'doughnut',data:{labels:labels,datasets:[{data:vals,backgroundColor:colors,borderWidth:0}]},
-      options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}}); }
-  function drawBar(id,labels,vals,color){ if(charts[id])charts[id].destroy();
-    charts[id]=new Chart(document.getElementById(id),{type:'bar',data:{labels:labels,datasets:[{data:vals,backgroundColor:color,borderRadius:4,barThickness:20}]},
-      options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return full(c.parsed.x);}}}},scales:{x:{grid:{color:grid},ticks:{callback:function(v){return vnd(v);}}},y:{grid:{display:false}}}}}); }
-  function drawStacked(id,labels,series){ if(charts[id])charts[id].destroy();
-    charts[id]=new Chart(document.getElementById(id),{type:'bar',data:{labels:labels,datasets:series},
-      options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
-        plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.dataset.label+': '+full(c.parsed.y);}}}},
-        scales:{x:{stacked:true,grid:{display:false}},y:{stacked:true,grid:{color:grid},ticks:{callback:function(v){return vnd(v);}}}}}}); }
+  function drawDonut(id,labels,vals,colors){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'doughnut',data:{labels:labels,datasets:[{data:vals,backgroundColor:colors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});}
+  function drawBar(id,labels,vals,color){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'bar',data:{labels:labels,datasets:[{data:vals,backgroundColor:color,borderRadius:4,barThickness:20}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return full(c.parsed.x);}}}},scales:{x:{grid:{color:grid},ticks:{callback:function(v){return vnd(v);}}},y:{grid:{display:false}}}}});}
+  function drawStacked(id,labels,series){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'bar',data:{labels:labels,datasets:series},options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.dataset.label+': '+full(c.parsed.y);}}}},scales:{x:{stacked:true,grid:{display:false}},y:{stacked:true,grid:{color:grid},ticks:{callback:function(v){return vnd(v);}}}}}});}
 
-  function bindSeg(id,attr,setter){ document.getElementById(id).addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;
-    this.querySelectorAll('button').forEach(function(x){x.classList.remove('on');});b.classList.add('on');setter(b.getAttribute(attr));render();});}
-  bindSeg('segBrand','data-b',function(v){brand=v;});
+  function bindSeg(id,attr,setter){document.getElementById(id).addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;this.querySelectorAll('button').forEach(function(x){x.classList.remove('on');});b.classList.add('on');setter(b.getAttribute(attr));render();});}
+  bindSeg('segScope','data-s',function(v){scope=v;});
   bindSeg('segGran','data-g',function(v){gran=v;});
-
-  // Kỳ: dropdown + lịch chọn ngày
-  var fromI=document.getElementById('dFrom'), toI=document.getElementById('dTo'), cr=document.getElementById('customRange');
-  var minD=D.daily[0]?D.daily[0].day:'', maxD=D.daily.length?D.daily[D.daily.length-1].day:'';
-  [fromI,toI].forEach(function(i){ i.min=minD; i.max=maxD; });
-  fromI.value=D.daily.length>30?D.daily[D.daily.length-30].day:minD; toI.value=maxD; cFrom=fromI.value; cTo=toI.value;
-  document.getElementById('periodSel').addEventListener('change',function(){ period=this.value;
-    cr.style.display = period==='custom' ? 'inline-flex' : 'none'; render(); });
+  var fromI=document.getElementById('dFrom'),toI=document.getElementById('dTo'),cr=document.getElementById('customRange');
+  var minD=D.daily[0]?D.daily[0].day:'',maxD=D.daily.length?D.daily[D.daily.length-1].day:'';
+  [fromI,toI].forEach(function(i){i.min=minD;i.max=maxD;});
+  fromI.value=D.daily.length>30?D.daily[D.daily.length-30].day:minD;toI.value=maxD;cFrom=fromI.value;cTo=toI.value;
+  document.getElementById('periodSel').addEventListener('change',function(){period=this.value;cr.style.display=period==='custom'?'inline-flex':'none';render();});
   fromI.addEventListener('change',function(){cFrom=this.value;if(period==='custom')render();});
   toI.addEventListener('change',function(){cTo=this.value;if(period==='custom')render();});
 
-  function rangeLabel(){ var s=sliceFor(period); if(!s.length)return ''; var a=s[0].day, b=s[s.length-1].day;
-    return a===b ? a.split('-').reverse().join('/') : a.split('-').reverse().join('/')+' → '+b.split('-').reverse().join('/'); }
-  var origRender=render;
-  render=function(){ origRender(); document.getElementById('sub').textContent=rangeLabel(); };
-
+  function rangeLabel(){var s=sliceFor(period);if(!s.length)return '';var a=s[0].day,b=s[s.length-1].day;return a===b?a.split('-').reverse().join('/'):a.split('-').reverse().join('/')+' → '+b.split('-').reverse().join('/');}
+  var _r=render; render=function(){_r();document.getElementById('sub').textContent=rangeLabel();};
   document.getElementById('foot').textContent='Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN');
   render();
 })();

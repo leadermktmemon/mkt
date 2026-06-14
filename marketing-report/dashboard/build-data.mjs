@@ -112,7 +112,7 @@ function billDay(b){ const d=b.date; if(typeof d==="number") return dayOf(d); if
 const round = (n) => Math.round(n);
 
 const dayMap = {};
-function ensureDay(day){ return dayMap[day] ??= { bemori:{}, memonRev:0, storeRetail:{}, salesRev:0, salesCount:0, channel:{}, mktRev:0, mktOrders:0 }; }
+function ensureDay(day){ return dayMap[day] ??= { bemori:{}, memonRev:0, storeRetail:{}, salesRev:0, salesCount:0, chan:{Online:{},"Cửa hàng":{}} }; }
 const memonBills = []; // {day, customer, amount} - ban ra ngoai cua Xuong Memon
 
 for (const b of bills) {
@@ -139,26 +139,26 @@ for (const o of orders) {
   const r = orderRev(o);
   const D = ensureDay(day);
   const cname = o.channel?.trafficSource || SALE_CHANNEL[o.channel?.saleChannel] || `#${o.channel?.saleChannel}`;
-  D.channel[cname] ??= { rev:0, orders:0 };
-  D.channel[cname].rev += r; D.channel[cname].orders++;
-  D.mktRev += r; D.mktOrders++;
+  const cat = (o.info?.depotId === ONLINE_DEPOT) ? "Online" : "Cửa hàng"; // don online (kho NK) vs don tai cua hang
+  D.chan[cat][cname] ??= { rev:0, orders:0 };
+  D.chan[cat][cname].rev += r; D.chan[cat][cname].orders++;
 }
 
 const days = Object.keys(dayMap).sort();
 const channelTotals = {}, storeTotals = {};
 const roundObj = (o) => Object.fromEntries(Object.entries(o).map(([k,v])=>[k,round(v)]));
+const roundChan = (o) => Object.fromEntries(Object.entries(o).map(([k,v])=>[k,{rev:round(v.rev),orders:v.orders}]));
 const daily = days.map((day) => {
   const D = dayMap[day];
-  for (const k in D.channel) channelTotals[k] = (channelTotals[k]||0) + D.channel[k].rev;
+  for (const cat of ["Online","Cửa hàng"]) for (const k in D.chan[cat]) channelTotals[k] = (channelTotals[k]||0) + D.chan[cat][k].rev;
   for (const k in D.storeRetail) storeTotals[k] = (storeTotals[k]||0) + D.storeRetail[k];
   return {
     day,
     salesRev: round(D.salesRev), salesCount: D.salesCount,
-    bemori: roundObj(D.bemori),          // {Online, Cửa hàng, Sỉ} tai cac kho Bemori
+    bemori: roundObj(D.bemori),          // {Online, Cửa hàng} doanh thu (hoa don) theo kho
     memonRev: round(D.memonRev),         // Xuong Memon ban ra ngoai
     storeRetail: roundObj(D.storeRetail),
-    mktRev: round(D.mktRev), mktOrders: D.mktOrders,
-    channel: Object.fromEntries(Object.entries(D.channel).map(([k,v])=>[k,{rev:round(v.rev),orders:v.orders}])),
+    chan: { Online: roundChan(D.chan.Online), "Cửa hàng": roundChan(D.chan["Cửa hàng"]) }, // kenh (don) theo nhom
   };
 });
 const channels = Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
@@ -168,10 +168,10 @@ const stores = Object.entries(storeTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
 function summarize(slice) {
   const ch = {}, type = {}; let onlineRev=0, onlineOrders=0, totalRev=0, salesCount=0, memon=0;
   for (const d of slice) {
-    for (const k in d.channel) { ch[k]??={revenue:0,orders:0}; ch[k].revenue+=d.channel[k].rev; ch[k].orders+=d.channel[k].orders; }
+    for (const cat of ["Online","Cửa hàng"]) for (const k in d.chan[cat]) { ch[k]??={revenue:0,orders:0}; ch[k].revenue+=d.chan[cat][k].rev; ch[k].orders+=d.chan[cat][k].orders; onlineRev+=d.chan[cat][k].rev; onlineOrders+=d.chan[cat][k].orders; }
     for (const k in d.bemori) type[k]=(type[k]||0)+d.bemori[k];
     memon += d.memonRev;
-    onlineRev+=d.mktRev; onlineOrders+=d.mktOrders; totalRev+=d.salesRev; salesCount+=d.salesCount;
+    totalRev+=d.salesRev; salesCount+=d.salesCount;
   }
   const chList = Object.entries(ch).sort((a,b)=>b[1].revenue-a[1].revenue)
     .map(([name,v])=>({name,orders:v.orders,revenue:round(v.revenue),aov:v.orders?round(v.revenue/v.orders):0,share:onlineRev?round(v.revenue/onlineRev*100):0}));

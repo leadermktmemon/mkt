@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T12:02:18.947Z",
+  "generatedAt": "2026-06-14T12:13:59.947Z",
   "period": {
     "days": 90,
     "fromDate": "2026-03-15",
@@ -38,13 +38,14 @@
       "bemori": {},
       "memonRev": 0,
       "storeRetail": {},
-      "mktRev": 1249000,
-      "mktOrders": 4,
-      "channel": {
-        "Shopee": {
-          "rev": 1249000,
-          "orders": 4
-        }
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 1249000,
+            "orders": 4
+          }
+        },
+        "Cửa hàng": {}
       }
     },
     {
@@ -54,13 +55,14 @@
       "bemori": {},
       "memonRev": 0,
       "storeRetail": {},
-      "mktRev": 574000,
-      "mktOrders": 2,
-      "channel": {
-        "Shopee": {
-          "rev": 574000,
-          "orders": 2
-        }
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 574000,
+            "orders": 2
+          }
+        },
+        "Cửa hàng": {}
       }
     },
     {
@@ -70,13 +72,14 @@
       "bemori": {},
       "memonRev": 0,
       "storeRetail": {},
-      "mktRev": 2002000,
-      "mktOrders": 4,
-      "channel": {
-        "Shopee": {
-          "rev": 2002000,
-          "orders": 4
-        }
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 2002000,
+            "orders": 4
+          }
+        },
+        "Cửa hàng": {}
       }
     },
     {
@@ -86,13 +89,14 @@
       "bemori": {},
       "memonRev": 0,
       "storeRetail": {},
-      "mktRev": 864000,
-      "mktOrders": 3,
-      "channel": {
-        "Shopee": {
-          "rev": 864000,
-          "orders": 3
-        }
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 864000,
+            "orders": 3
+          }
+        },
+        "Cửa hàng": {}
       }
     },
     {
@@ -102,13 +106,14 @@
       "bemori": {},
       "memonRev": 0,
       "storeRetail": {},
-      "mktRev": 4217000,
-      "mktOrders": 13,
-      "channel": {
-        "Shopee": {
-          "rev": 4217000,
-          "orders": 13
-        }
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4217000,
+            "orders": 13
+          }
+        },
+        "Cửa hàng": {}
       }
     },
     {
@@ -118,13 +123,14 @@
       "bemori": {},
       "memonRev": 0,
       "storeRetail": {},
-      "mktRev": 4411000,
-      "mktOrders": 19,
-      "channel": {
-        "Shopee": {
-          "rev": 4411000,
-          "orders": 19
-        }
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4411000,
+            "orders": 19
+          }
+        },
+        "Cửa hàng": {}
       }
     },
     {
@@ -134,13 +140,14 @@
       "bemori": {},
       "memonRev": 0,
       "storeRetail": {},
-      "mktRev": 6804000,
-      "mktOrders": 15,
-      "channel": {
-        "Shopee": {
-          "rev": 6804000,
-          "orders": 15
-        }
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6804000,
+            "orders": 15
+          }
+        },
+        "Cửa hàng": {}
       }
     },
     {
@@ -164,44 +171,58 @@
         "Teddy Outlet 970 Láng": 1104000,
         "Bemori 411 NVC": 5075000
       },
-      "mktRev": 25942750,
-      "mktOrders": 53,
-      "channel": {
-        "Shopee": {
-          "rev": 4635000,
-          "orders": 14
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4635000,
+            "orders": 14
+          },
+          "Zalo Bemori": {
+            "rev": 1046500,
+            "orders": 2
+          },
+          "FB Bemori": {
+            "rev": 2570000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 1665000,
+            "orders": 6
+          },
+          "Instagram": {
+            "rev": 1045000,
+            "orders": 1
+          },
+          "Admin": {
+            "rev": 335000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 9469000,
-          "orders": 14
-        },
-        "Zalo Bemori": {
-          "rev": 5028750,
-          "orders": 9
-        },
-        "Khách lẻ": {
-          "rev": 1665000,
-          "orders": 6
-        },
-        "Insta Bemori": {
-          "rev": 1160000,
-          "orders": 2
-        },
-        "Web Bemori": {
-          "rev": 560000,
-          "orders": 2
-        },
-        "Admin": {
-          "rev": 1850000,
-          "orders": 4
-        },
-        "Instagram": {
-          "rev": 1045000,
-          "orders": 1
-        },
-        "Facebook": {
-          "rev": 530000,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 6899000,
+            "orders": 11
+          },
+          "Zalo Bemori": {
+            "rev": 3982250,
+            "orders": 7
+          },
+          "Insta Bemori": {
+            "rev": 1160000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 560000,
+            "orders": 2
+          },
+          "Admin": {
+            "rev": 1515000,
+            "orders": 3
+          },
+          "Facebook": {
+            "rev": 530000,
+            "orders": 1
+          }
         }
       }
     },
@@ -226,32 +247,50 @@
         "Bemori 388 Xã Đàn": 4795000,
         "Teddy Outlet 970 Láng": 1579000
       },
-      "mktRev": 25510500,
-      "mktOrders": 45,
-      "channel": {
-        "Shopee": {
-          "rev": 4592000,
-          "orders": 11
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4592000,
+            "orders": 11
+          },
+          "Khách lẻ": {
+            "rev": 1192500,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 2675000,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 1975000,
+            "orders": 3
+          },
+          "Insta Bemori": {
+            "rev": 1210000,
+            "orders": 1
+          }
         },
-        "Insta Bemori": {
-          "rev": 5900000,
-          "orders": 5
-        },
-        "Khách lẻ": {
-          "rev": 1517500,
-          "orders": 5
-        },
-        "FB Bemori": {
-          "rev": 9441000,
-          "orders": 15
-        },
-        "Zalo Bemori": {
-          "rev": 3805000,
-          "orders": 8
-        },
-        "Web Bemori": {
-          "rev": 255000,
-          "orders": 1
+        "Cửa hàng": {
+          "Insta Bemori": {
+            "rev": 4690000,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 1830000,
+            "orders": 5
+          },
+          "Khách lẻ": {
+            "rev": 325000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 6766000,
+            "orders": 11
+          },
+          "Web Bemori": {
+            "rev": 255000,
+            "orders": 1
+          }
         }
       }
     },
@@ -276,28 +315,38 @@
         "Teddy Outlet 970 Láng": 1647000,
         "Bemori 388 Xã Đàn": 7384250
       },
-      "mktRev": 35170603,
-      "mktOrders": 66,
-      "channel": {
-        "Shopee": {
-          "rev": 12653000,
-          "orders": 30
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 12653000,
+            "orders": 30
+          },
+          "Zalo Bemori": {
+            "rev": 1622500,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 2930000,
+            "orders": 3
+          },
+          "Insta Bemori": {
+            "rev": 2220000,
+            "orders": 5
+          }
         },
-        "FB Bemori": {
-          "rev": 9730103,
-          "orders": 12
-        },
-        "Zalo Bemori": {
-          "rev": 5822500,
-          "orders": 12
-        },
-        "Khách lẻ": {
-          "rev": 2930000,
-          "orders": 3
-        },
-        "Insta Bemori": {
-          "rev": 4035000,
-          "orders": 9
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 9730103,
+            "orders": 12
+          },
+          "Zalo Bemori": {
+            "rev": 4200000,
+            "orders": 8
+          },
+          "Insta Bemori": {
+            "rev": 1815000,
+            "orders": 4
+          }
         }
       }
     },
@@ -322,28 +371,42 @@
         "Bemori 275 Bạch Mai": 9360000,
         "Bemori 1028 Đường Láng": 12209250
       },
-      "mktRev": 23779000,
-      "mktOrders": 45,
-      "channel": {
-        "Shopee": {
-          "rev": 7179000,
-          "orders": 19
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 7179000,
+            "orders": 19
+          },
+          "Khách lẻ": {
+            "rev": 2470000,
+            "orders": 6
+          },
+          "Insta Bemori": {
+            "rev": 310000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 1805000,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 495000,
+            "orders": 1
+          }
         },
-        "Khách lẻ": {
-          "rev": 2470000,
-          "orders": 6
-        },
-        "Insta Bemori": {
-          "rev": 895000,
-          "orders": 2
-        },
-        "FB Bemori": {
-          "rev": 9065000,
-          "orders": 12
-        },
-        "Zalo Bemori": {
-          "rev": 4170000,
-          "orders": 6
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 7260000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 3675000,
+            "orders": 5
+          },
+          "Insta Bemori": {
+            "rev": 585000,
+            "orders": 1
+          }
         }
       }
     },
@@ -368,32 +431,46 @@
         "Bemori 228 Lê Văn Sỹ": 6305000,
         "Bemori 388 Xã Đàn": 10760000
       },
-      "mktRev": 21163000,
-      "mktOrders": 41,
-      "channel": {
-        "Shopee": {
-          "rev": 2846000,
-          "orders": 10
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 2846000,
+            "orders": 10
+          },
+          "Khách lẻ": {
+            "rev": 1665000,
+            "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 3447000,
+            "orders": 5
+          },
+          "Zalo Bemori": {
+            "rev": 3320000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 1100000,
+            "orders": 1
+          }
         },
-        "Insta Bemori": {
-          "rev": 2025000,
-          "orders": 3
-        },
-        "Zalo Bemori": {
-          "rev": 7585000,
-          "orders": 10
-        },
-        "Khách lẻ": {
-          "rev": 1665000,
-          "orders": 6
-        },
-        "FB Bemori": {
-          "rev": 6587000,
-          "orders": 11
-        },
-        "Web Bemori": {
-          "rev": 455000,
-          "orders": 1
+        "Cửa hàng": {
+          "Insta Bemori": {
+            "rev": 925000,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 4265000,
+            "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 3140000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 455000,
+            "orders": 1
+          }
         }
       }
     },
@@ -418,32 +495,50 @@
         "Bemori 162B Nguyễn Gia Trí": 6552250,
         "Bemori 411 NVC": 6702000
       },
-      "mktRev": 27779251,
-      "mktOrders": 53,
-      "channel": {
-        "Shopee": {
-          "rev": 4464000,
-          "orders": 14
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4464000,
+            "orders": 14
+          },
+          "FB Bemori": {
+            "rev": 4180000,
+            "orders": 6
+          },
+          "Zalo Bemori": {
+            "rev": 2367750,
+            "orders": 3
+          },
+          "Insta Bemori": {
+            "rev": 820000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 90000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 10680500,
-          "orders": 17
-        },
-        "Zalo Bemori": {
-          "rev": 9737750,
-          "orders": 14
-        },
-        "Khách lẻ": {
-          "rev": 792001,
-          "orders": 3
-        },
-        "Insta Bemori": {
-          "rev": 1520000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 585000,
-          "orders": 2
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 6500500,
+            "orders": 11
+          },
+          "Zalo Bemori": {
+            "rev": 7370000,
+            "orders": 11
+          },
+          "Khách lẻ": {
+            "rev": 702001,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 700000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 585000,
+            "orders": 2
+          }
         }
       }
     },
@@ -468,32 +563,50 @@
         "Teddy Outlet 970 Láng": 3324000,
         "Bemori 411 NVC": 4229250
       },
-      "mktRev": 31605500,
-      "mktOrders": 68,
-      "channel": {
-        "Shopee": {
-          "rev": 3868000,
-          "orders": 15
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3868000,
+            "orders": 15
+          },
+          "Khách lẻ": {
+            "rev": 2170000,
+            "orders": 5
+          },
+          "Zalo Bemori": {
+            "rev": 1815000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 3265000,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 3154000,
+            "orders": 7
+          }
         },
-        "Zalo Bemori": {
-          "rev": 7007500,
-          "orders": 17
-        },
-        "FB Bemori": {
-          "rev": 10365000,
-          "orders": 19
-        },
-        "Khách lẻ": {
-          "rev": 3320000,
-          "orders": 6
-        },
-        "Web Bemori": {
-          "rev": 865000,
-          "orders": 2
-        },
-        "Insta Bemori": {
-          "rev": 6180000,
-          "orders": 9
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 5192500,
+            "orders": 13
+          },
+          "FB Bemori": {
+            "rev": 7211000,
+            "orders": 12
+          },
+          "Web Bemori": {
+            "rev": 865000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 2915000,
+            "orders": 5
+          },
+          "Khách lẻ": {
+            "rev": 1150000,
+            "orders": 1
+          }
         }
       }
     },
@@ -518,32 +631,46 @@
         "Bemori 275 Bạch Mai": 9459000,
         "Teddy Outlet 970 Láng": 917000
       },
-      "mktRev": 24071000,
-      "mktOrders": 39,
-      "channel": {
-        "Shopee": {
-          "rev": 4404000,
-          "orders": 11
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4404000,
+            "orders": 11
+          },
+          "Khách lẻ": {
+            "rev": 2080000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 2055000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 515000,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 675000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 9540000,
-          "orders": 10
-        },
-        "Zalo Bemori": {
-          "rev": 6059500,
-          "orders": 11
-        },
-        "Khách lẻ": {
-          "rev": 2080000,
-          "orders": 3
-        },
-        "Insta Bemori": {
-          "rev": 1705000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 282500,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 7485000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 5384500,
+            "orders": 10
+          },
+          "Insta Bemori": {
+            "rev": 1190000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 282500,
+            "orders": 1
+          }
         }
       }
     },
@@ -568,32 +695,50 @@
         "Bemori 275 Bạch Mai": 4810000,
         "Bemori 388 Xã Đàn": 6891000
       },
-      "mktRev": 34457000,
-      "mktOrders": 56,
-      "channel": {
-        "Shopee": {
-          "rev": 5833000,
-          "orders": 16
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5833000,
+            "orders": 16
+          },
+          "FB Bemori": {
+            "rev": 4756500,
+            "orders": 7
+          },
+          "Zalo Bemori": {
+            "rev": 9250000,
+            "orders": 5
+          },
+          "Khách lẻ": {
+            "rev": 412500,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 165000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 485000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 13206500,
-          "orders": 21
-        },
-        "Zalo Bemori": {
-          "rev": 13105000,
-          "orders": 12
-        },
-        "Insta Bemori": {
-          "rev": 1530000,
-          "orders": 3
-        },
-        "Khách lẻ": {
-          "rev": 412500,
-          "orders": 2
-        },
-        "Web Bemori": {
-          "rev": 370000,
-          "orders": 2
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 8450000,
+            "orders": 14
+          },
+          "Insta Bemori": {
+            "rev": 1045000,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 3855000,
+            "orders": 7
+          },
+          "Web Bemori": {
+            "rev": 205000,
+            "orders": 1
+          }
         }
       }
     },
@@ -618,36 +763,46 @@
         "Teddy Outlet 970 Láng": 1917000,
         "Bemori 161 Xuân Thủy": 9625000
       },
-      "mktRev": 29011000,
-      "mktOrders": 60,
-      "channel": {
-        "Shopee": {
-          "rev": 5371000,
-          "orders": 18
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5371000,
+            "orders": 18
+          },
+          "Zalo Bemori": {
+            "rev": 1060000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 875000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 980000,
+            "orders": 3
+          }
         },
-        "FB Bemori": {
-          "rev": 11477500,
-          "orders": 17
-        },
-        "Zalo Bemori": {
-          "rev": 7347500,
-          "orders": 15
-        },
-        "Insta Bemori": {
-          "rev": 1790000,
-          "orders": 3
-        },
-        "Khách lẻ": {
-          "rev": 980000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 1310000,
-          "orders": 3
-        },
-        "Website": {
-          "rev": 735000,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 10602500,
+            "orders": 14
+          },
+          "Zalo Bemori": {
+            "rev": 6287500,
+            "orders": 12
+          },
+          "Insta Bemori": {
+            "rev": 1790000,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 1310000,
+            "orders": 3
+          },
+          "Website": {
+            "rev": 735000,
+            "orders": 1
+          }
         }
       }
     },
@@ -672,32 +827,46 @@
         "Bemori 228 Lê Văn Sỹ": 12530750,
         "Teddy Outlet 970 Láng": 2510000
       },
-      "mktRev": 24559001,
-      "mktOrders": 48,
-      "channel": {
-        "Shopee": {
-          "rev": 2001000,
-          "orders": 9
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 2001000,
+            "orders": 9
+          },
+          "Zalo Bemori": {
+            "rev": 3205000,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 3100000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 869000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 485000,
+            "orders": 1
+          }
         },
-        "Web Bemori": {
-          "rev": 430000,
-          "orders": 1
-        },
-        "Zalo Bemori": {
-          "rev": 8455000,
-          "orders": 12
-        },
-        "FB Bemori": {
-          "rev": 10059000,
-          "orders": 15
-        },
-        "Khách lẻ": {
-          "rev": 3129001,
-          "orders": 10
-        },
-        "Insta Bemori": {
-          "rev": 485000,
-          "orders": 1
+        "Cửa hàng": {
+          "Web Bemori": {
+            "rev": 430000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 9190000,
+            "orders": 13
+          },
+          "Zalo Bemori": {
+            "rev": 5250000,
+            "orders": 8
+          },
+          "Khách lẻ": {
+            "rev": 29001,
+            "orders": 1
+          }
         }
       }
     },
@@ -722,28 +891,42 @@
         "Teddy Outlet 970 Láng": 3341500,
         "Bemori 275 Bạch Mai": 6675000
       },
-      "mktRev": 20737000,
-      "mktOrders": 43,
-      "channel": {
-        "Shopee": {
-          "rev": 3692000,
-          "orders": 14
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3692000,
+            "orders": 14
+          },
+          "Khách lẻ": {
+            "rev": 1300000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 2425000,
+            "orders": 3
+          },
+          "Zalo Bemori": {
+            "rev": 3000000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 1065000,
+            "orders": 3
+          }
         },
-        "Zalo Bemori": {
-          "rev": 7285000,
-          "orders": 12
-        },
-        "FB Bemori": {
-          "rev": 4400000,
-          "orders": 8
-        },
-        "Khách lẻ": {
-          "rev": 1300000,
-          "orders": 4
-        },
-        "Insta Bemori": {
-          "rev": 4060000,
-          "orders": 5
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 4285000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 3335000,
+            "orders": 5
+          },
+          "Insta Bemori": {
+            "rev": 1635000,
+            "orders": 2
+          }
         }
       }
     },
@@ -768,32 +951,50 @@
         "Teddy Outlet 970 Láng": 896500,
         "Bemori 411 NVC": 11749250
       },
-      "mktRev": 26791000,
-      "mktOrders": 49,
-      "channel": {
-        "Shopee": {
-          "rev": 4811000,
-          "orders": 13
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4811000,
+            "orders": 13
+          },
+          "Khách lẻ": {
+            "rev": 3715000,
+            "orders": 7
+          },
+          "Zalo Bemori": {
+            "rev": 550000,
+            "orders": 3
+          },
+          "Insta Bemori": {
+            "rev": 510000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 2565000,
+            "orders": 4
+          },
+          "Web Bemori": {
+            "rev": 1135000,
+            "orders": 1
+          }
         },
-        "Zalo Bemori": {
-          "rev": 5480000,
-          "orders": 8
-        },
-        "FB Bemori": {
-          "rev": 9715000,
-          "orders": 15
-        },
-        "Khách lẻ": {
-          "rev": 3875000,
-          "orders": 8
-        },
-        "Insta Bemori": {
-          "rev": 1775000,
-          "orders": 4
-        },
-        "Web Bemori": {
-          "rev": 1135000,
-          "orders": 1
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 4930000,
+            "orders": 5
+          },
+          "FB Bemori": {
+            "rev": 7150000,
+            "orders": 11
+          },
+          "Insta Bemori": {
+            "rev": 1265000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 160000,
+            "orders": 1
+          }
         }
       }
     },
@@ -818,32 +1019,46 @@
         "Teddy Outlet 970 Láng": 2591000,
         "Bemori 1028 Đường Láng": 10738500
       },
-      "mktRev": 57989000,
-      "mktOrders": 97,
-      "channel": {
-        "Shopee": {
-          "rev": 13610000,
-          "orders": 33
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 13610000,
+            "orders": 33
+          },
+          "FB Bemori": {
+            "rev": 10090000,
+            "orders": 10
+          },
+          "Khách lẻ": {
+            "rev": 3639000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 7180000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 2780000,
+            "orders": 4
+          }
         },
-        "Zalo Bemori": {
-          "rev": 14290000,
-          "orders": 20
-        },
-        "FB Bemori": {
-          "rev": 20750000,
-          "orders": 26
-        },
-        "Khách lẻ": {
-          "rev": 3639000,
-          "orders": 8
-        },
-        "Web Bemori": {
-          "rev": 3890000,
-          "orders": 8
-        },
-        "Insta Bemori": {
-          "rev": 1810000,
-          "orders": 2
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 7110000,
+            "orders": 14
+          },
+          "FB Bemori": {
+            "rev": 10660000,
+            "orders": 16
+          },
+          "Insta Bemori": {
+            "rev": 1810000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 1110000,
+            "orders": 4
+          }
         }
       }
     },
@@ -868,32 +1083,50 @@
         "Bemori 162B Nguyễn Gia Trí": 7227500,
         "Bemori 161 Xuân Thủy": 5319500
       },
-      "mktRev": 39895000,
-      "mktOrders": 59,
-      "channel": {
-        "Shopee": {
-          "rev": 6415000,
-          "orders": 18
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6415000,
+            "orders": 18
+          },
+          "Khách lẻ": {
+            "rev": 2420000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 3775000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 8879000,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 395000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 1855000,
+            "orders": 2
+          }
         },
-        "Zalo Bemori": {
-          "rev": 17364000,
-          "orders": 14
-        },
-        "Khách lẻ": {
-          "rev": 2420000,
-          "orders": 3
-        },
-        "FB Bemori": {
-          "rev": 9051000,
-          "orders": 18
-        },
-        "Insta Bemori": {
-          "rev": 2290000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 2355000,
-          "orders": 3
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 8485000,
+            "orders": 11
+          },
+          "FB Bemori": {
+            "rev": 5276000,
+            "orders": 10
+          },
+          "Insta Bemori": {
+            "rev": 435000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 1960000,
+            "orders": 2
+          }
         }
       }
     },
@@ -918,32 +1151,54 @@
         "Teddy Outlet 970 Láng": 2110500,
         "Bemori 275 Bạch Mai": 4864000
       },
-      "mktRev": 25749500,
-      "mktOrders": 49,
-      "channel": {
-        "Shopee": {
-          "rev": 4324000,
-          "orders": 13
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4324000,
+            "orders": 13
+          },
+          "Khách lẻ": {
+            "rev": 1040000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 520000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 5816500,
+            "orders": 6
+          },
+          "Zalo Bemori": {
+            "rev": 3440000,
+            "orders": 5
+          },
+          "Web Bemori": {
+            "rev": 670000,
+            "orders": 2
+          }
         },
-        "Khách lẻ": {
-          "rev": 1605000,
-          "orders": 5
-        },
-        "Insta Bemori": {
-          "rev": 3016000,
-          "orders": 5
-        },
-        "FB Bemori": {
-          "rev": 8006500,
-          "orders": 10
-        },
-        "Zalo Bemori": {
-          "rev": 7158000,
-          "orders": 11
-        },
-        "Web Bemori": {
-          "rev": 1640000,
-          "orders": 5
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 3718000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 970000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 2190000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 2496000,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 565000,
+            "orders": 1
+          }
         }
       }
     },
@@ -968,32 +1223,54 @@
         "Teddy Outlet 970 Láng": 2792500,
         "Bemori 368 Nguyễn Trãi": 9934000
       },
-      "mktRev": 35339000,
-      "mktOrders": 64,
-      "channel": {
-        "Shopee": {
-          "rev": 7317000,
-          "orders": 16
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 7317000,
+            "orders": 16
+          },
+          "Zalo Bemori": {
+            "rev": 6037000,
+            "orders": 8
+          },
+          "FB Bemori": {
+            "rev": 2747500,
+            "orders": 6
+          },
+          "Insta Bemori": {
+            "rev": 302500,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 2505000,
+            "orders": 8
+          },
+          "Web Bemori": {
+            "rev": 1365000,
+            "orders": 3
+          }
         },
-        "FB Bemori": {
-          "rev": 8947500,
-          "orders": 15
-        },
-        "Zalo Bemori": {
-          "rev": 10642000,
-          "orders": 15
-        },
-        "Insta Bemori": {
-          "rev": 3722500,
-          "orders": 4
-        },
-        "Khách lẻ": {
-          "rev": 2505000,
-          "orders": 9
-        },
-        "Web Bemori": {
-          "rev": 2205000,
-          "orders": 5
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 6200000,
+            "orders": 9
+          },
+          "Zalo Bemori": {
+            "rev": 4605000,
+            "orders": 7
+          },
+          "Insta Bemori": {
+            "rev": 3420000,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 840000,
+            "orders": 2
+          },
+          "Khách lẻ": {
+            "rev": 0,
+            "orders": 1
+          }
         }
       }
     },
@@ -1018,28 +1295,38 @@
         "Bemori 104-106 Cầu Giấy": 7378000,
         "Teddy Outlet 970 Láng": 6034500
       },
-      "mktRev": 35181250,
-      "mktOrders": 49,
-      "channel": {
-        "Shopee": {
-          "rev": 3114000,
-          "orders": 9
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3114000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 9947750,
+            "orders": 9
+          },
+          "Khách lẻ": {
+            "rev": 2295000,
+            "orders": 6
+          },
+          "Zalo Bemori": {
+            "rev": 7359500,
+            "orders": 6
+          }
         },
-        "Zalo Bemori": {
-          "rev": 12499500,
-          "orders": 14
-        },
-        "FB Bemori": {
-          "rev": 14757750,
-          "orders": 17
-        },
-        "Insta Bemori": {
-          "rev": 2515000,
-          "orders": 3
-        },
-        "Khách lẻ": {
-          "rev": 2295000,
-          "orders": 6
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 5140000,
+            "orders": 8
+          },
+          "FB Bemori": {
+            "rev": 4810000,
+            "orders": 8
+          },
+          "Insta Bemori": {
+            "rev": 2515000,
+            "orders": 3
+          }
         }
       }
     },
@@ -1064,32 +1351,46 @@
         "Bemori 228 Lê Văn Sỹ": 16804500,
         "Teddy Outlet 970 Láng": 2741000
       },
-      "mktRev": 23783751,
-      "mktOrders": 48,
-      "channel": {
-        "Shopee": {
-          "rev": 5109000,
-          "orders": 16
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5109000,
+            "orders": 16
+          },
+          "Web Bemori": {
+            "rev": 470000,
+            "orders": 2
+          },
+          "Khách lẻ": {
+            "rev": 1095000,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 3745000,
+            "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 1490000,
+            "orders": 2
+          }
         },
-        "FB Bemori": {
-          "rev": 4985250,
-          "orders": 10
-        },
-        "Web Bemori": {
-          "rev": 470000,
-          "orders": 2
-        },
-        "Khách lẻ": {
-          "rev": 1620001,
-          "orders": 3
-        },
-        "Zalo Bemori": {
-          "rev": 10984500,
-          "orders": 15
-        },
-        "Insta Bemori": {
-          "rev": 615000,
-          "orders": 2
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 3495250,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 7239500,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 615000,
+            "orders": 2
+          },
+          "Khách lẻ": {
+            "rev": 525001,
+            "orders": 1
+          }
         }
       }
     },
@@ -1114,32 +1415,42 @@
         "Bemori 411 NVC": 6024000,
         "Teddy Outlet 970 Láng": 1597000
       },
-      "mktRev": 18384000,
-      "mktOrders": 36,
-      "channel": {
-        "Shopee": {
-          "rev": 4150000,
-          "orders": 14
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4150000,
+            "orders": 14
+          },
+          "Khách lẻ": {
+            "rev": 2084000,
+            "orders": 5
+          },
+          "Zalo Bemori": {
+            "rev": 1040000,
+            "orders": 2
+          },
+          "FB Bemori": {
+            "rev": 1700000,
+            "orders": 3
+          }
         },
-        "Khách lẻ": {
-          "rev": 2084000,
-          "orders": 5
-        },
-        "Insta Bemori": {
-          "rev": 2455000,
-          "orders": 3
-        },
-        "FB Bemori": {
-          "rev": 3375000,
-          "orders": 6
-        },
-        "Zalo Bemori": {
-          "rev": 4980000,
-          "orders": 6
-        },
-        "Web Bemori": {
-          "rev": 1340000,
-          "orders": 2
+        "Cửa hàng": {
+          "Insta Bemori": {
+            "rev": 2455000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 1675000,
+            "orders": 3
+          },
+          "Zalo Bemori": {
+            "rev": 3940000,
+            "orders": 4
+          },
+          "Web Bemori": {
+            "rev": 1340000,
+            "orders": 2
+          }
         }
       }
     },
@@ -1164,32 +1475,50 @@
         "Teddy Outlet 970 Láng": 1102000,
         "Bemori 275 Bạch Mai": 7520000
       },
-      "mktRev": 34997250,
-      "mktOrders": 62,
-      "channel": {
-        "Shopee": {
-          "rev": 3547000,
-          "orders": 12
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3547000,
+            "orders": 12
+          },
+          "Zalo Bemori": {
+            "rev": 3110000,
+            "orders": 5
+          },
+          "FB Bemori": {
+            "rev": 3482750,
+            "orders": 6
+          },
+          "Khách lẻ": {
+            "rev": 1385000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 615000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 225000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 12715250,
-          "orders": 20
-        },
-        "Zalo Bemori": {
-          "rev": 12420000,
-          "orders": 19
-        },
-        "Khách lẻ": {
-          "rev": 1385000,
-          "orders": 4
-        },
-        "Insta Bemori": {
-          "rev": 1930000,
-          "orders": 4
-        },
-        "Web Bemori": {
-          "rev": 3000000,
-          "orders": 3
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 9232500,
+            "orders": 14
+          },
+          "Zalo Bemori": {
+            "rev": 9310000,
+            "orders": 14
+          },
+          "Insta Bemori": {
+            "rev": 1315000,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 2775000,
+            "orders": 2
+          }
         }
       }
     },
@@ -1214,32 +1543,42 @@
         "Teddy Outlet 970 Láng": 2626000,
         "Bemori 411 NVC": 3378500
       },
-      "mktRev": 32008645,
-      "mktOrders": 58,
-      "channel": {
-        "Shopee": {
-          "rev": 4079000,
-          "orders": 11
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4079000,
+            "orders": 11
+          },
+          "FB Bemori": {
+            "rev": 4067500,
+            "orders": 10
+          },
+          "Khách lẻ": {
+            "rev": 3676000,
+            "orders": 9
+          },
+          "Zalo Bemori": {
+            "rev": 5981000,
+            "orders": 7
+          }
         },
-        "FB Bemori": {
-          "rev": 12172500,
-          "orders": 19
-        },
-        "Zalo Bemori": {
-          "rev": 10776000,
-          "orders": 16
-        },
-        "Khách lẻ": {
-          "rev": 3676000,
-          "orders": 9
-        },
-        "Insta Bemori": {
-          "rev": 905145,
-          "orders": 2
-        },
-        "Web Bemori": {
-          "rev": 400000,
-          "orders": 1
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 4795000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 8105000,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 905145,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 400000,
+            "orders": 1
+          }
         }
       }
     },
@@ -1264,32 +1603,50 @@
         "Bemori 368 Nguyễn Trãi": 9146750,
         "Bemori 411 NVC": 19337000
       },
-      "mktRev": 27932500,
-      "mktOrders": 56,
-      "channel": {
-        "Shopee": {
-          "rev": 3623000,
-          "orders": 11
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3623000,
+            "orders": 11
+          },
+          "Insta Bemori": {
+            "rev": 2650000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 4315000,
+            "orders": 6
+          },
+          "Khách lẻ": {
+            "rev": 3152500,
+            "orders": 5
+          },
+          "Web Bemori": {
+            "rev": 445000,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 1042500,
+            "orders": 2
+          }
         },
-        "Insta Bemori": {
-          "rev": 3665000,
-          "orders": 5
-        },
-        "FB Bemori": {
-          "rev": 8370000,
-          "orders": 15
-        },
-        "Khách lẻ": {
-          "rev": 3152500,
-          "orders": 5
-        },
-        "Zalo Bemori": {
-          "rev": 8382000,
-          "orders": 18
-        },
-        "Web Bemori": {
-          "rev": 740000,
-          "orders": 2
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 4055000,
+            "orders": 9
+          },
+          "Zalo Bemori": {
+            "rev": 7339500,
+            "orders": 16
+          },
+          "Insta Bemori": {
+            "rev": 1015000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 295000,
+            "orders": 1
+          }
         }
       }
     },
@@ -1314,32 +1671,46 @@
         "Bemori 388 Xã Đàn": 7755000,
         "Teddy Outlet 970 Láng": 1515000
       },
-      "mktRev": 30740000,
-      "mktOrders": 67,
-      "channel": {
-        "Shopee": {
-          "rev": 5311000,
-          "orders": 18
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5311000,
+            "orders": 18
+          },
+          "FB Bemori": {
+            "rev": 3962500,
+            "orders": 7
+          },
+          "Zalo Bemori": {
+            "rev": 7060000,
+            "orders": 9
+          },
+          "Khách lẻ": {
+            "rev": 1895000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 1280000,
+            "orders": 3
+          }
         },
-        "FB Bemori": {
-          "rev": 9495000,
-          "orders": 19
-        },
-        "Zalo Bemori": {
-          "rev": 10449000,
-          "orders": 18
-        },
-        "Khách lẻ": {
-          "rev": 1895000,
-          "orders": 4
-        },
-        "Insta Bemori": {
-          "rev": 2740000,
-          "orders": 6
-        },
-        "Web Bemori": {
-          "rev": 850000,
-          "orders": 2
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 5532500,
+            "orders": 12
+          },
+          "Zalo Bemori": {
+            "rev": 3389000,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 1460000,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 850000,
+            "orders": 2
+          }
         }
       }
     },
@@ -1364,32 +1735,50 @@
         "Bemori 161 Xuân Thủy": 9299000,
         "Teddy Outlet 970 Láng": 2464000
       },
-      "mktRev": 19075500,
-      "mktOrders": 43,
-      "channel": {
-        "Shopee": {
-          "rev": 3298000,
-          "orders": 9
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3298000,
+            "orders": 9
+          },
+          "Web Bemori": {
+            "rev": 750000,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 1090000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 2000000,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 455000,
+            "orders": 2
+          }
         },
-        "Web Bemori": {
-          "rev": 1580000,
-          "orders": 4
-        },
-        "FB Bemori": {
-          "rev": 6393000,
-          "orders": 16
-        },
-        "Zalo Bemori": {
-          "rev": 5759500,
-          "orders": 9
-        },
-        "Khách lẻ": {
-          "rev": 1380000,
-          "orders": 4
-        },
-        "Insta Bemori": {
-          "rev": 665000,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 4393000,
+            "orders": 12
+          },
+          "Khách lẻ": {
+            "rev": 925000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 665000,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 4669500,
+            "orders": 8
+          },
+          "Web Bemori": {
+            "rev": 830000,
+            "orders": 2
+          }
         }
       }
     },
@@ -1414,32 +1803,34 @@
         "Bemori 388 Xã Đàn": 5090000,
         "Teddy Outlet 970 Láng": 4351000
       },
-      "mktRev": 15911500,
-      "mktOrders": 27,
-      "channel": {
-        "Shopee": {
-          "rev": 1985000,
-          "orders": 7
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 1985000,
+            "orders": 7
+          },
+          "Khách lẻ": {
+            "rev": 3081500,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 1585000,
+            "orders": 2
+          }
         },
-        "FB Bemori": {
-          "rev": 6400000,
-          "orders": 8
-        },
-        "Zalo Bemori": {
-          "rev": 1915000,
-          "orders": 5
-        },
-        "Khách lẻ": {
-          "rev": 3081500,
-          "orders": 4
-        },
-        "Insta Bemori": {
-          "rev": 1585000,
-          "orders": 2
-        },
-        "Web Bemori": {
-          "rev": 945000,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 6400000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 1915000,
+            "orders": 5
+          },
+          "Web Bemori": {
+            "rev": 945000,
+            "orders": 1
+          }
         }
       }
     },
@@ -1464,36 +1855,58 @@
         "Teddy Outlet 970 Láng": 1237500,
         "Bemori 411 NVC": 7465000
       },
-      "mktRev": 27894830,
-      "mktOrders": 44,
-      "channel": {
-        "Shopee": {
-          "rev": 4987000,
-          "orders": 10
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4987000,
+            "orders": 10
+          },
+          "Zalo Bemori": {
+            "rev": 8041830,
+            "orders": 9
+          },
+          "Web Bemori": {
+            "rev": 2750000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 1230000,
+            "orders": 2
+          },
+          "Khách lẻ": {
+            "rev": 1055000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 555000,
+            "orders": 1
+          }
         },
-        "Zalo Bemori": {
-          "rev": 10656830,
-          "orders": 12
-        },
-        "Insta Bemori": {
-          "rev": 2370000,
-          "orders": 5
-        },
-        "Web Bemori": {
-          "rev": 5375000,
-          "orders": 5
-        },
-        "FB Bemori": {
-          "rev": 2823000,
-          "orders": 7
-        },
-        "Khách lẻ": {
-          "rev": 1073000,
-          "orders": 4
-        },
-        "Website": {
-          "rev": 610000,
-          "orders": 1
+        "Cửa hàng": {
+          "Insta Bemori": {
+            "rev": 1140000,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 2625000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 2268000,
+            "orders": 6
+          },
+          "Zalo Bemori": {
+            "rev": 2615000,
+            "orders": 3
+          },
+          "Website": {
+            "rev": 610000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 18000,
+            "orders": 1
+          }
         }
       }
     },
@@ -1518,28 +1931,38 @@
         "Bemori 161 Xuân Thủy": 6535000,
         "Teddy Outlet 970 Láng": 1227000
       },
-      "mktRev": 19828500,
-      "mktOrders": 37,
-      "channel": {
-        "Shopee": {
-          "rev": 3365000,
-          "orders": 10
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3365000,
+            "orders": 10
+          },
+          "Zalo Bemori": {
+            "rev": 2822500,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 4435000,
+            "orders": 9
+          },
+          "Khách lẻ": {
+            "rev": 290000,
+            "orders": 3
+          }
         },
-        "Zalo Bemori": {
-          "rev": 6678500,
-          "orders": 9
-        },
-        "FB Bemori": {
-          "rev": 9290000,
-          "orders": 14
-        },
-        "Khách lẻ": {
-          "rev": 290000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 205000,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 4855000,
+            "orders": 5
+          },
+          "Zalo Bemori": {
+            "rev": 3856000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 205000,
+            "orders": 1
+          }
         }
       }
     },
@@ -1564,32 +1987,46 @@
         "Bemori 411 NVC": 9535000,
         "Bemori 161 Xuân Thủy": 4840000
       },
-      "mktRev": 21654250,
-      "mktOrders": 40,
-      "channel": {
-        "Shopee": {
-          "rev": 5737000,
-          "orders": 11
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5737000,
+            "orders": 11
+          },
+          "Khách lẻ": {
+            "rev": 2817250,
+            "orders": 8
+          },
+          "FB Bemori": {
+            "rev": 2535000,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 715000,
+            "orders": 1
+          },
+          "Website": {
+            "rev": 570000,
+            "orders": 1
+          }
         },
-        "Khách lẻ": {
-          "rev": 2817250,
-          "orders": 9
-        },
-        "Zalo Bemori": {
-          "rev": 5197500,
-          "orders": 7
-        },
-        "FB Bemori": {
-          "rev": 6892500,
-          "orders": 11
-        },
-        "Insta Bemori": {
-          "rev": 440000,
-          "orders": 1
-        },
-        "Website": {
-          "rev": 570000,
-          "orders": 1
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 4482500,
+            "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 4357500,
+            "orders": 7
+          },
+          "Insta Bemori": {
+            "rev": 440000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 0,
+            "orders": 1
+          }
         }
       }
     },
@@ -1614,32 +2051,50 @@
         "Bemori 162B Nguyễn Gia Trí": 5201250,
         "Teddy Outlet 970 Láng": 1909500
       },
-      "mktRev": 21143000,
-      "mktOrders": 45,
-      "channel": {
-        "Shopee": {
-          "rev": 3863000,
-          "orders": 16
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3863000,
+            "orders": 16
+          },
+          "Khách lẻ": {
+            "rev": 92500,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 3940000,
+            "orders": 5
+          },
+          "FB Bemori": {
+            "rev": 2810000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 870000,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 1750000,
+            "orders": 1
+          }
         },
-        "Zalo Bemori": {
-          "rev": 7840000,
-          "orders": 13
-        },
-        "Khách lẻ": {
-          "rev": 92500,
-          "orders": 2
-        },
-        "FB Bemori": {
-          "rev": 5622500,
-          "orders": 9
-        },
-        "Insta Bemori": {
-          "rev": 870000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 2855000,
-          "orders": 2
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 3900000,
+            "orders": 8
+          },
+          "FB Bemori": {
+            "rev": 2812500,
+            "orders": 5
+          },
+          "Khách lẻ": {
+            "rev": 0,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 1105000,
+            "orders": 1
+          }
         }
       }
     },
@@ -1664,32 +2119,46 @@
         "Bemori 368 Nguyễn Trãi": 8182000,
         "Teddy Outlet 970 Láng": 741000
       },
-      "mktRev": 17349000,
-      "mktOrders": 34,
-      "channel": {
-        "Shopee": {
-          "rev": 3109000,
-          "orders": 10
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3109000,
+            "orders": 10
+          },
+          "Insta Bemori": {
+            "rev": 335000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 1035000,
+            "orders": 3
+          },
+          "Zalo Bemori": {
+            "rev": 1995000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 405000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 830000,
+            "orders": 1
+          }
         },
-        "Insta Bemori": {
-          "rev": 335000,
-          "orders": 1
-        },
-        "Khách lẻ": {
-          "rev": 1035000,
-          "orders": 3
-        },
-        "Zalo Bemori": {
-          "rev": 7705000,
-          "orders": 10
-        },
-        "Web Bemori": {
-          "rev": 2345000,
-          "orders": 3
-        },
-        "FB Bemori": {
-          "rev": 2820000,
-          "orders": 7
+        "Cửa hàng": {
+          "Web Bemori": {
+            "rev": 1515000,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 5710000,
+            "orders": 7
+          },
+          "FB Bemori": {
+            "rev": 2415000,
+            "orders": 6
+          }
         }
       }
     },
@@ -1714,32 +2183,46 @@
         "Bemori 388 Xã Đàn": 1401000,
         "Teddy Outlet 970 Láng": 282000
       },
-      "mktRev": 21972500,
-      "mktOrders": 40,
-      "channel": {
-        "Shopee": {
-          "rev": 2365000,
-          "orders": 9
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 2365000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 4105000,
+            "orders": 7
+          },
+          "Khách lẻ": {
+            "rev": 305000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 255000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 407500,
+            "orders": 1
+          }
         },
-        "Insta Bemori": {
-          "rev": 3070000,
-          "orders": 5
-        },
-        "FB Bemori": {
-          "rev": 10035000,
-          "orders": 14
-        },
-        "Zalo Bemori": {
-          "rev": 4360000,
-          "orders": 6
-        },
-        "Khách lẻ": {
-          "rev": 305000,
-          "orders": 2
-        },
-        "Web Bemori": {
-          "rev": 1837500,
-          "orders": 4
+        "Cửa hàng": {
+          "Insta Bemori": {
+            "rev": 2815000,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 4360000,
+            "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 5930000,
+            "orders": 7
+          },
+          "Web Bemori": {
+            "rev": 1430000,
+            "orders": 3
+          }
         }
       }
     },
@@ -1764,32 +2247,46 @@
         "Bemori 388 Xã Đàn": 2620000,
         "Teddy Outlet 970 Láng": 732000
       },
-      "mktRev": 16194622,
-      "mktOrders": 35,
-      "channel": {
-        "Shopee": {
-          "rev": 1855000,
-          "orders": 8
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 1855000,
+            "orders": 8
+          },
+          "FB Bemori": {
+            "rev": 4774500,
+            "orders": 9
+          },
+          "Khách lẻ": {
+            "rev": 1930000,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 535000,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 620000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 6629622,
-          "orders": 12
-        },
-        "Zalo Bemori": {
-          "rev": 4370000,
-          "orders": 7
-        },
-        "Khách lẻ": {
-          "rev": 1930000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 940000,
-          "orders": 4
-        },
-        "Insta Bemori": {
-          "rev": 470000,
-          "orders": 1
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 3750000,
+            "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 1855122,
+            "orders": 3
+          },
+          "Insta Bemori": {
+            "rev": 470000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 405000,
+            "orders": 2
+          }
         }
       }
     },
@@ -1814,28 +2311,42 @@
         "Bemori 161 Xuân Thủy": 3800000,
         "Teddy Outlet 970 Láng": 530000
       },
-      "mktRev": 24850000,
-      "mktOrders": 55,
-      "channel": {
-        "Shopee": {
-          "rev": 5457000,
-          "orders": 20
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5457000,
+            "orders": 20
+          },
+          "Zalo Bemori": {
+            "rev": 1910000,
+            "orders": 5
+          },
+          "FB Bemori": {
+            "rev": 5980000,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 915000,
+            "orders": 2
+          }
         },
-        "Zalo Bemori": {
-          "rev": 4333000,
-          "orders": 12
-        },
-        "FB Bemori": {
-          "rev": 12250000,
-          "orders": 18
-        },
-        "Khách lẻ": {
-          "rev": 0,
-          "orders": 1
-        },
-        "Insta Bemori": {
-          "rev": 2810000,
-          "orders": 4
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 2423000,
+            "orders": 7
+          },
+          "FB Bemori": {
+            "rev": 6270000,
+            "orders": 9
+          },
+          "Khách lẻ": {
+            "rev": 0,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 1895000,
+            "orders": 2
+          }
         }
       }
     },
@@ -1860,32 +2371,46 @@
         "Teddy Outlet 970 Láng": 1160000,
         "Bemori 411 NVC": 4265000
       },
-      "mktRev": 43083000,
-      "mktOrders": 72,
-      "channel": {
-        "Shopee": {
-          "rev": 8744000,
-          "orders": 24
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 8744000,
+            "orders": 24
+          },
+          "Zalo Bemori": {
+            "rev": 3094000,
+            "orders": 6
+          },
+          "Khách lẻ": {
+            "rev": 1072500,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 7615000,
+            "orders": 7
+          },
+          "Web Bemori": {
+            "rev": 3510000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 2010000,
+            "orders": 2
+          }
         },
-        "FB Bemori": {
-          "rev": 15602500,
-          "orders": 18
-        },
-        "Insta Bemori": {
-          "rev": 4815000,
-          "orders": 7
-        },
-        "Zalo Bemori": {
-          "rev": 9339000,
-          "orders": 15
-        },
-        "Khách lẻ": {
-          "rev": 1072500,
-          "orders": 4
-        },
-        "Web Bemori": {
-          "rev": 3510000,
-          "orders": 4
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 7987500,
+            "orders": 11
+          },
+          "Insta Bemori": {
+            "rev": 2805000,
+            "orders": 5
+          },
+          "Zalo Bemori": {
+            "rev": 6245000,
+            "orders": 9
+          }
         }
       }
     },
@@ -1910,32 +2435,50 @@
         "Bemori 411 NVC": 8819000,
         "Teddy Outlet 970 Láng": 2340000
       },
-      "mktRev": 31046500,
-      "mktOrders": 57,
-      "channel": {
-        "Shopee": {
-          "rev": 2914000,
-          "orders": 9
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 2914000,
+            "orders": 9
+          },
+          "Khách lẻ": {
+            "rev": 335000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 1400000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 5890000,
+            "orders": 9
+          },
+          "Zalo Bemori": {
+            "rev": 1027500,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 1810000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 13880000,
-          "orders": 23
-        },
-        "Web Bemori": {
-          "rev": 3460000,
-          "orders": 5
-        },
-        "Khách lẻ": {
-          "rev": 335000,
-          "orders": 1
-        },
-        "Zalo Bemori": {
-          "rev": 8052500,
-          "orders": 14
-        },
-        "Insta Bemori": {
-          "rev": 2405000,
-          "orders": 5
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 7990000,
+            "orders": 14
+          },
+          "Web Bemori": {
+            "rev": 1650000,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 7025000,
+            "orders": 11
+          },
+          "Insta Bemori": {
+            "rev": 1005000,
+            "orders": 2
+          }
         }
       }
     },
@@ -1960,32 +2503,50 @@
         "Teddy Outlet 970 Láng": 2597000,
         "Bemori 228 Lê Văn Sỹ": 11660500
       },
-      "mktRev": 43149000,
-      "mktOrders": 59,
-      "channel": {
-        "Shopee": {
-          "rev": 5014000,
-          "orders": 15
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5014000,
+            "orders": 15
+          },
+          "Khách lẻ": {
+            "rev": 1310000,
+            "orders": 3
+          },
+          "Insta Bemori": {
+            "rev": 3520000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 7645000,
+            "orders": 8
+          },
+          "Web Bemori": {
+            "rev": 690000,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 4945000,
+            "orders": 5
+          }
         },
-        "Khách lẻ": {
-          "rev": 1310000,
-          "orders": 3
-        },
-        "Insta Bemori": {
-          "rev": 9370000,
-          "orders": 9
-        },
-        "FB Bemori": {
-          "rev": 14525000,
-          "orders": 19
-        },
-        "Web Bemori": {
-          "rev": 3505000,
-          "orders": 4
-        },
-        "Zalo Bemori": {
-          "rev": 9425000,
-          "orders": 9
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 6880000,
+            "orders": 11
+          },
+          "Insta Bemori": {
+            "rev": 5850000,
+            "orders": 6
+          },
+          "Zalo Bemori": {
+            "rev": 4480000,
+            "orders": 4
+          },
+          "Web Bemori": {
+            "rev": 2815000,
+            "orders": 3
+          }
         }
       }
     },
@@ -2010,32 +2571,50 @@
         "Teddy Outlet 970 Láng": 1439500,
         "Bemori 411 NVC": 9500500
       },
-      "mktRev": 32440001,
-      "mktOrders": 55,
-      "channel": {
-        "Shopee": {
-          "rev": 3717000,
-          "orders": 10
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3717000,
+            "orders": 10
+          },
+          "Web Bemori": {
+            "rev": 1155000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 7365000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 6015000,
+            "orders": 5
+          },
+          "Insta Bemori": {
+            "rev": 255000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 1626000,
+            "orders": 6
+          }
         },
-        "Web Bemori": {
-          "rev": 1580000,
-          "orders": 4
-        },
-        "Insta Bemori": {
-          "rev": 2030000,
-          "orders": 4
-        },
-        "FB Bemori": {
-          "rev": 10346000,
-          "orders": 14
-        },
-        "Zalo Bemori": {
-          "rev": 13141001,
-          "orders": 17
-        },
-        "Khách lẻ": {
-          "rev": 1626000,
-          "orders": 6
+        "Cửa hàng": {
+          "Insta Bemori": {
+            "rev": 1775000,
+            "orders": 3
+          },
+          "Zalo Bemori": {
+            "rev": 7126001,
+            "orders": 12
+          },
+          "FB Bemori": {
+            "rev": 2981000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 425000,
+            "orders": 1
+          }
         }
       }
     },
@@ -2060,32 +2639,46 @@
         "Teddy Outlet 970 Láng": 2919000,
         "Bemori 368 Nguyễn Trãi": 13409000
       },
-      "mktRev": 28815750,
-      "mktOrders": 58,
-      "channel": {
-        "Shopee": {
-          "rev": 6245000,
-          "orders": 17
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6245000,
+            "orders": 17
+          },
+          "Zalo Bemori": {
+            "rev": 4040000,
+            "orders": 6
+          },
+          "Khách lẻ": {
+            "rev": 1205000,
+            "orders": 6
+          },
+          "Insta Bemori": {
+            "rev": 2945000,
+            "orders": 2
+          },
+          "FB Bemori": {
+            "rev": 592250,
+            "orders": 2
+          }
         },
-        "Zalo Bemori": {
-          "rev": 10174500,
-          "orders": 15
-        },
-        "Web Bemori": {
-          "rev": 1040000,
-          "orders": 3
-        },
-        "FB Bemori": {
-          "rev": 4978750,
-          "orders": 12
-        },
-        "Khách lẻ": {
-          "rev": 1205000,
-          "orders": 6
-        },
-        "Insta Bemori": {
-          "rev": 5172500,
-          "orders": 5
+        "Cửa hàng": {
+          "Web Bemori": {
+            "rev": 1040000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 4386500,
+            "orders": 10
+          },
+          "Zalo Bemori": {
+            "rev": 6134500,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 2227500,
+            "orders": 3
+          }
         }
       }
     },
@@ -2110,36 +2703,54 @@
         "Bemori 388 Xã Đàn": 13647500,
         "Teddy Outlet 970 Láng": 840000
       },
-      "mktRev": 24299000,
-      "mktOrders": 58,
-      "channel": {
-        "Shopee": {
-          "rev": 4052000,
-          "orders": 16
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4052000,
+            "orders": 16
+          },
+          "Zalo Bemori": {
+            "rev": 3723500,
+            "orders": 6
+          },
+          "Khách lẻ": {
+            "rev": 745000,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 3025000,
+            "orders": 5
+          },
+          "Web Bemori": {
+            "rev": 470000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 400000,
+            "orders": 1
+          }
         },
-        "Zalo Bemori": {
-          "rev": 9408500,
-          "orders": 18
-        },
-        "Khách lẻ": {
-          "rev": 745000,
-          "orders": 4
-        },
-        "FB Bemori": {
-          "rev": 7710000,
-          "orders": 14
-        },
-        "Web Bemori": {
-          "rev": 1163500,
-          "orders": 3
-        },
-        "Website": {
-          "rev": 350000,
-          "orders": 1
-        },
-        "Insta Bemori": {
-          "rev": 870000,
-          "orders": 2
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 5685000,
+            "orders": 12
+          },
+          "FB Bemori": {
+            "rev": 4685000,
+            "orders": 9
+          },
+          "Web Bemori": {
+            "rev": 693500,
+            "orders": 2
+          },
+          "Website": {
+            "rev": 350000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 470000,
+            "orders": 1
+          }
         }
       }
     },
@@ -2164,32 +2775,46 @@
         "Bemori 411 NVC": 6394500,
         "Teddy Outlet 970 Láng": 1552000
       },
-      "mktRev": 27739250,
-      "mktOrders": 46,
-      "channel": {
-        "Shopee": {
-          "rev": 5035000,
-          "orders": 12
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5035000,
+            "orders": 12
+          },
+          "Zalo Bemori": {
+            "rev": 2965000,
+            "orders": 5
+          },
+          "FB Bemori": {
+            "rev": 3650000,
+            "orders": 6
+          },
+          "Khách lẻ": {
+            "rev": 1320000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 2500000,
+            "orders": 2
+          }
         },
-        "FB Bemori": {
-          "rev": 6878250,
-          "orders": 13
-        },
-        "Zalo Bemori": {
-          "rev": 10736000,
-          "orders": 14
-        },
-        "Insta Bemori": {
-          "rev": 3155000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 615000,
-          "orders": 2
-        },
-        "Khách lẻ": {
-          "rev": 1320000,
-          "orders": 2
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 3228250,
+            "orders": 7
+          },
+          "Zalo Bemori": {
+            "rev": 7771000,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 655000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 615000,
+            "orders": 2
+          }
         }
       }
     },
@@ -2214,28 +2839,46 @@
         "Bemori 275 Bạch Mai": 7117500,
         "Teddy Outlet 970 Láng": 1263500
       },
-      "mktRev": 41143503,
-      "mktOrders": 59,
-      "channel": {
-        "Shopee": {
-          "rev": 4697000,
-          "orders": 9
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4697000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 8250000,
+            "orders": 10
+          },
+          "Khách lẻ": {
+            "rev": 1787000,
+            "orders": 3
+          },
+          "Insta Bemori": {
+            "rev": 1490000,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 5855000,
+            "orders": 9
+          }
         },
-        "FB Bemori": {
-          "rev": 21328000,
-          "orders": 23
-        },
-        "Zalo Bemori": {
-          "rev": 10411500,
-          "orders": 18
-        },
-        "Insta Bemori": {
-          "rev": 2835000,
-          "orders": 5
-        },
-        "Khách lẻ": {
-          "rev": 1872003,
-          "orders": 4
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 13078000,
+            "orders": 13
+          },
+          "Zalo Bemori": {
+            "rev": 4556500,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 1345000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 85003,
+            "orders": 1
+          }
         }
       }
     },
@@ -2260,32 +2903,42 @@
         "Bemori 411 NVC": 5707500,
         "Teddy Outlet 970 Láng": 1990000
       },
-      "mktRev": 39168500,
-      "mktOrders": 46,
-      "channel": {
-        "Shopee": {
-          "rev": 5677000,
-          "orders": 16
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5677000,
+            "orders": 16
+          },
+          "FB Bemori": {
+            "rev": 1025000,
+            "orders": 3
+          },
+          "Zalo Bemori": {
+            "rev": 20065000,
+            "orders": 7
+          },
+          "Web Bemori": {
+            "rev": 500000,
+            "orders": 1
+          }
         },
-        "Zalo Bemori": {
-          "rev": 25490500,
-          "orders": 17
-        },
-        "FB Bemori": {
-          "rev": 5731000,
-          "orders": 9
-        },
-        "Insta Bemori": {
-          "rev": 660000,
-          "orders": 2
-        },
-        "Website": {
-          "rev": 1110000,
-          "orders": 1
-        },
-        "Web Bemori": {
-          "rev": 500000,
-          "orders": 1
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 5425500,
+            "orders": 10
+          },
+          "FB Bemori": {
+            "rev": 4706000,
+            "orders": 6
+          },
+          "Insta Bemori": {
+            "rev": 660000,
+            "orders": 2
+          },
+          "Website": {
+            "rev": 1110000,
+            "orders": 1
+          }
         }
       }
     },
@@ -2310,32 +2963,46 @@
         "Bemori 162B Nguyễn Gia Trí": 9645500,
         "Teddy Outlet 970 Láng": 697000
       },
-      "mktRev": 70893000,
-      "mktOrders": 98,
-      "channel": {
-        "Shopee": {
-          "rev": 13397000,
-          "orders": 24
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 13397000,
+            "orders": 24
+          },
+          "FB Bemori": {
+            "rev": 7410000,
+            "orders": 8
+          },
+          "Khách lẻ": {
+            "rev": 2830000,
+            "orders": 6
+          },
+          "Zalo Bemori": {
+            "rev": 10815000,
+            "orders": 16
+          },
+          "Insta Bemori": {
+            "rev": 4050000,
+            "orders": 4
+          }
         },
-        "FB Bemori": {
-          "rev": 14650000,
-          "orders": 18
-        },
-        "Khách lẻ": {
-          "rev": 2830000,
-          "orders": 6
-        },
-        "Zalo Bemori": {
-          "rev": 32641000,
-          "orders": 38
-        },
-        "Insta Bemori": {
-          "rev": 5802000,
-          "orders": 8
-        },
-        "Web Bemori": {
-          "rev": 1573000,
-          "orders": 4
+        "Cửa hàng": {
+          "Insta Bemori": {
+            "rev": 1752000,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 21826000,
+            "orders": 22
+          },
+          "FB Bemori": {
+            "rev": 7240000,
+            "orders": 10
+          },
+          "Web Bemori": {
+            "rev": 1573000,
+            "orders": 4
+          }
         }
       }
     },
@@ -2360,40 +3027,58 @@
         "Bemori 411 NVC": 8805000,
         "Teddy Outlet 970 Láng": 1080000
       },
-      "mktRev": 38458000,
-      "mktOrders": 66,
-      "channel": {
-        "Shopee": {
-          "rev": 6066000,
-          "orders": 16
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6066000,
+            "orders": 16
+          },
+          "Web Bemori": {
+            "rev": 2125000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 1145000,
+            "orders": 2
+          },
+          "FB Bemori": {
+            "rev": 3210000,
+            "orders": 5
+          },
+          "Zalo Bemori": {
+            "rev": 5305000,
+            "orders": 7
+          },
+          "Insta Bemori": {
+            "rev": 570000,
+            "orders": 1
+          },
+          "Website": {
+            "rev": 580000,
+            "orders": 2
+          }
         },
-        "Insta Bemori": {
-          "rev": 5290000,
-          "orders": 8
-        },
-        "Web Bemori": {
-          "rev": 2440000,
-          "orders": 4
-        },
-        "Khách lẻ": {
-          "rev": 1145000,
-          "orders": 2
-        },
-        "Zalo Bemori": {
-          "rev": 12942000,
-          "orders": 16
-        },
-        "FB Bemori": {
-          "rev": 9570000,
-          "orders": 17
-        },
-        "Website": {
-          "rev": 580000,
-          "orders": 2
-        },
-        "FB Memon": {
-          "rev": 425000,
-          "orders": 1
+        "Cửa hàng": {
+          "Insta Bemori": {
+            "rev": 4720000,
+            "orders": 7
+          },
+          "Zalo Bemori": {
+            "rev": 7637000,
+            "orders": 9
+          },
+          "Web Bemori": {
+            "rev": 315000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 6360000,
+            "orders": 12
+          },
+          "FB Memon": {
+            "rev": 425000,
+            "orders": 1
+          }
         }
       }
     },
@@ -2418,32 +3103,50 @@
         "Bemori 104-106 Cầu Giấy": 5542000,
         "Teddy Outlet 970 Láng": 2685000
       },
-      "mktRev": 31712500,
-      "mktOrders": 61,
-      "channel": {
-        "Shopee": {
-          "rev": 3988000,
-          "orders": 14
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3988000,
+            "orders": 14
+          },
+          "FB Bemori": {
+            "rev": 6845000,
+            "orders": 9
+          },
+          "Khách lẻ": {
+            "rev": 2014000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 345000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 440000,
+            "orders": 2
+          }
         },
-        "FB Bemori": {
-          "rev": 17889000,
-          "orders": 20
-        },
-        "Zalo Bemori": {
-          "rev": 4215000,
-          "orders": 10
-        },
-        "Web Bemori": {
-          "rev": 1125000,
-          "orders": 3
-        },
-        "Khách lẻ": {
-          "rev": 2980500,
-          "orders": 10
-        },
-        "Insta Bemori": {
-          "rev": 1515000,
-          "orders": 4
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 11044000,
+            "orders": 11
+          },
+          "Zalo Bemori": {
+            "rev": 3870000,
+            "orders": 9
+          },
+          "Web Bemori": {
+            "rev": 1125000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 966500,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 1075000,
+            "orders": 2
+          }
         }
       }
     },
@@ -2468,32 +3171,46 @@
         "Bemori 411 NVC": 4950000,
         "Teddy Outlet 970 Láng": 654500
       },
-      "mktRev": 26953250,
-      "mktOrders": 51,
-      "channel": {
-        "Zalo Bemori": {
-          "rev": 9677250,
-          "orders": 17
+      "chan": {
+        "Online": {
+          "Zalo Bemori": {
+            "rev": 3912750,
+            "orders": 8
+          },
+          "Shopee": {
+            "rev": 4568000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 2170000,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 1750500,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 690000,
+            "orders": 2
+          }
         },
-        "Shopee": {
-          "rev": 4568000,
-          "orders": 9
-        },
-        "FB Bemori": {
-          "rev": 6687500,
-          "orders": 13
-        },
-        "Khách lẻ": {
-          "rev": 1750500,
-          "orders": 6
-        },
-        "Web Bemori": {
-          "rev": 1655000,
-          "orders": 4
-        },
-        "Insta Bemori": {
-          "rev": 2615000,
-          "orders": 2
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 5764500,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 4517500,
+            "orders": 9
+          },
+          "Web Bemori": {
+            "rev": 965000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 2615000,
+            "orders": 2
+          }
         }
       }
     },
@@ -2518,32 +3235,50 @@
         "Bemori 228 Lê Văn Sỹ": 5298250,
         "Teddy Outlet 970 Láng": 2527000
       },
-      "mktRev": 25977500,
-      "mktOrders": 47,
-      "channel": {
-        "Shopee": {
-          "rev": 6707000,
-          "orders": 17
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6707000,
+            "orders": 17
+          },
+          "Insta Bemori": {
+            "rev": 815000,
+            "orders": 2
+          },
+          "Khách lẻ": {
+            "rev": 752500,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 1780000,
+            "orders": 4
+          },
+          "Web Bemori": {
+            "rev": 305000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 560000,
+            "orders": 1
+          }
         },
-        "Insta Bemori": {
-          "rev": 1210000,
-          "orders": 3
-        },
-        "FB Bemori": {
-          "rev": 3673000,
-          "orders": 7
-        },
-        "Khách lẻ": {
-          "rev": 752500,
-          "orders": 2
-        },
-        "Zalo Bemori": {
-          "rev": 12290000,
-          "orders": 15
-        },
-        "Web Bemori": {
-          "rev": 1345000,
-          "orders": 3
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 3113000,
+            "orders": 6
+          },
+          "Insta Bemori": {
+            "rev": 395000,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 10510000,
+            "orders": 11
+          },
+          "Web Bemori": {
+            "rev": 1040000,
+            "orders": 2
+          }
         }
       }
     },
@@ -2568,28 +3303,42 @@
         "Bemori 275 Bạch Mai": 4370000,
         "Teddy Outlet 970 Láng": 1319500
       },
-      "mktRev": 35277250,
-      "mktOrders": 59,
-      "channel": {
-        "Shopee": {
-          "rev": 8726000,
-          "orders": 22
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 8726000,
+            "orders": 22
+          },
+          "FB Bemori": {
+            "rev": 2355000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 510000,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 5862000,
+            "orders": 6
+          }
         },
-        "FB Bemori": {
-          "rev": 10157000,
-          "orders": 16
-        },
-        "Insta Bemori": {
-          "rev": 5770000,
-          "orders": 6
-        },
-        "Web Bemori": {
-          "rev": 2000000,
-          "orders": 3
-        },
-        "Zalo Bemori": {
-          "rev": 8624250,
-          "orders": 12
+        "Cửa hàng": {
+          "Insta Bemori": {
+            "rev": 5770000,
+            "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 7802000,
+            "orders": 10
+          },
+          "Zalo Bemori": {
+            "rev": 2762250,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 1490000,
+            "orders": 2
+          }
         }
       }
     },
@@ -2614,32 +3363,50 @@
         "Bemori 411 NVC": 5225000,
         "Teddy Outlet 970 Láng": 1777000
       },
-      "mktRev": 29711500,
-      "mktOrders": 59,
-      "channel": {
-        "Shopee": {
-          "rev": 6367000,
-          "orders": 16
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6367000,
+            "orders": 16
+          },
+          "Zalo Bemori": {
+            "rev": 2717000,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 4365000,
+            "orders": 8
+          },
+          "Khách lẻ": {
+            "rev": 1183000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 820000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 1000000,
+            "orders": 2
+          }
         },
-        "Zalo Bemori": {
-          "rev": 4231000,
-          "orders": 8
-        },
-        "FB Bemori": {
-          "rev": 10625000,
-          "orders": 20
-        },
-        "Khách lẻ": {
-          "rev": 1183000,
-          "orders": 4
-        },
-        "Web Bemori": {
-          "rev": 4610000,
-          "orders": 6
-        },
-        "Insta Bemori": {
-          "rev": 2695500,
-          "orders": 5
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 1514000,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 6260000,
+            "orders": 12
+          },
+          "Web Bemori": {
+            "rev": 3610000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 1875500,
+            "orders": 3
+          }
         }
       }
     },
@@ -2664,32 +3431,50 @@
         "Bemori 388 Xã Đàn": 4495000,
         "Teddy Outlet 970 Láng": 1065000
       },
-      "mktRev": 34418502,
-      "mktOrders": 59,
-      "channel": {
-        "Zalo Bemori": {
-          "rev": 18234000,
-          "orders": 22
+      "chan": {
+        "Online": {
+          "Zalo Bemori": {
+            "rev": 12904000,
+            "orders": 11
+          },
+          "Shopee": {
+            "rev": 3505000,
+            "orders": 10
+          },
+          "Khách lẻ": {
+            "rev": 1010000,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 5351500,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 2425000,
+            "orders": 4
+          },
+          "Web Bemori": {
+            "rev": 780000,
+            "orders": 1
+          }
         },
-        "Shopee": {
-          "rev": 3505000,
-          "orders": 10
-        },
-        "Khách lẻ": {
-          "rev": 1108002,
-          "orders": 6
-        },
-        "FB Bemori": {
-          "rev": 7771500,
-          "orders": 15
-        },
-        "Insta Bemori": {
-          "rev": 2425000,
-          "orders": 4
-        },
-        "Web Bemori": {
-          "rev": 1375000,
-          "orders": 2
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 5330000,
+            "orders": 11
+          },
+          "FB Bemori": {
+            "rev": 2420000,
+            "orders": 6
+          },
+          "Khách lẻ": {
+            "rev": 98002,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 595000,
+            "orders": 1
+          }
         }
       }
     },
@@ -2714,36 +3499,58 @@
         "Bemori 275 Bạch Mai": 9063000,
         "Teddy Outlet 970 Láng": 2152500
       },
-      "mktRev": 63533500,
-      "mktOrders": 76,
-      "channel": {
-        "Shopee": {
-          "rev": 5901000,
-          "orders": 18
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5901000,
+            "orders": 18
+          },
+          "Zalo Bemori": {
+            "rev": 27949500,
+            "orders": 8
+          },
+          "Khách lẻ": {
+            "rev": 8088000,
+            "orders": 12
+          },
+          "Insta Bemori": {
+            "rev": 1955000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 1765000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 5575000,
+            "orders": 8
+          },
+          "Website": {
+            "rev": 635000,
+            "orders": 1
+          }
         },
-        "Zalo Bemori": {
-          "rev": 30909500,
-          "orders": 14
-        },
-        "FB Bemori": {
-          "rev": 12795000,
-          "orders": 22
-        },
-        "Khách lẻ": {
-          "rev": 8423000,
-          "orders": 14
-        },
-        "Insta Bemori": {
-          "rev": 2590000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 2280000,
-          "orders": 4
-        },
-        "Website": {
-          "rev": 635000,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 7220000,
+            "orders": 14
+          },
+          "Khách lẻ": {
+            "rev": 335000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 635000,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 2960000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 515000,
+            "orders": 1
+          }
         }
       }
     },
@@ -2768,36 +3575,58 @@
         "Teddy Outlet 970 Láng": 2372000,
         "Bemori 388 Xã Đàn": 7461000
       },
-      "mktRev": 56288750,
-      "mktOrders": 68,
-      "channel": {
-        "Shopee": {
-          "rev": 3830000,
-          "orders": 9
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3830000,
+            "orders": 9
+          },
+          "Zalo Bemori": {
+            "rev": 29787250,
+            "orders": 10
+          },
+          "Khách lẻ": {
+            "rev": 3505000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 5030000,
+            "orders": 10
+          },
+          "Web Bemori": {
+            "rev": 1435000,
+            "orders": 3
+          },
+          "Insta Bemori": {
+            "rev": 530000,
+            "orders": 1
+          }
         },
-        "Web Bemori": {
-          "rev": 3540000,
-          "orders": 7
-        },
-        "Zalo Bemori": {
-          "rev": 33956250,
-          "orders": 19
-        },
-        "Khách lẻ": {
-          "rev": 3805000,
-          "orders": 10
-        },
-        "FB Bemori": {
-          "rev": 9332500,
-          "orders": 19
-        },
-        "Insta Bemori": {
-          "rev": 1515000,
-          "orders": 3
-        },
-        "Website": {
-          "rev": 310000,
-          "orders": 1
+        "Cửa hàng": {
+          "Web Bemori": {
+            "rev": 2105000,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 300000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 4302500,
+            "orders": 9
+          },
+          "Zalo Bemori": {
+            "rev": 4169000,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 985000,
+            "orders": 2
+          },
+          "Website": {
+            "rev": 310000,
+            "orders": 1
+          }
         }
       }
     },
@@ -2822,36 +3651,54 @@
         "Bemori 162B Nguyễn Gia Trí": 9525250,
         "Bemori 104-106 Cầu Giấy": 8674000
       },
-      "mktRev": 28370500,
-      "mktOrders": 49,
-      "channel": {
-        "Shopee": {
-          "rev": 3375000,
-          "orders": 12
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3375000,
+            "orders": 12
+          },
+          "FB Bemori": {
+            "rev": 3780000,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 690500,
+            "orders": 3
+          },
+          "Web Bemori": {
+            "rev": 917500,
+            "orders": 2
+          },
+          "Website": {
+            "rev": 300000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 1845000,
+            "orders": 3
+          },
+          "Zalo Bemori": {
+            "rev": 2647500,
+            "orders": 2
+          }
         },
-        "Khách lẻ": {
-          "rev": 1830500,
-          "orders": 4
-        },
-        "FB Bemori": {
-          "rev": 8815000,
-          "orders": 13
-        },
-        "Insta Bemori": {
-          "rev": 3180000,
-          "orders": 6
-        },
-        "Zalo Bemori": {
-          "rev": 9952500,
-          "orders": 11
-        },
-        "Web Bemori": {
-          "rev": 917500,
-          "orders": 2
-        },
-        "Website": {
-          "rev": 300000,
-          "orders": 1
+        "Cửa hàng": {
+          "Khách lẻ": {
+            "rev": 1140000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 5035000,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 1335000,
+            "orders": 3
+          },
+          "Zalo Bemori": {
+            "rev": 7305000,
+            "orders": 9
+          }
         }
       }
     },
@@ -2876,36 +3723,58 @@
         "Bemori 388 Xã Đàn": 1750000,
         "Teddy Outlet 970 Láng": 1075000
       },
-      "mktRev": 41465500,
-      "mktOrders": 71,
-      "channel": {
-        "Shopee": {
-          "rev": 12474000,
-          "orders": 23
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 12474000,
+            "orders": 23
+          },
+          "Insta Bemori": {
+            "rev": 3460000,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 5359500,
+            "orders": 8
+          },
+          "Khách lẻ": {
+            "rev": 705000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 355000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 2890000,
+            "orders": 6
+          },
+          "Website": {
+            "rev": 1910000,
+            "orders": 1
+          }
         },
-        "Insta Bemori": {
-          "rev": 5485000,
-          "orders": 8
-        },
-        "Zalo Bemori": {
-          "rev": 11759500,
-          "orders": 20
-        },
-        "Khách lẻ": {
-          "rev": 705000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 770000,
-          "orders": 2
-        },
-        "FB Bemori": {
-          "rev": 8362000,
-          "orders": 14
-        },
-        "Website": {
-          "rev": 1910000,
-          "orders": 1
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 6400000,
+            "orders": 12
+          },
+          "Insta Bemori": {
+            "rev": 2025000,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 5472000,
+            "orders": 8
+          },
+          "Khách lẻ": {
+            "rev": 0,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 415000,
+            "orders": 1
+          }
         }
       }
     },
@@ -2930,28 +3799,46 @@
         "Bemori 104-106 Cầu Giấy": 10422000,
         "Teddy Outlet 970 Láng": 1556000
       },
-      "mktRev": 37299838,
-      "mktOrders": 60,
-      "channel": {
-        "Shopee": {
-          "rev": 4087000,
-          "orders": 14
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4087000,
+            "orders": 14
+          },
+          "FB Bemori": {
+            "rev": 8500000,
+            "orders": 9
+          },
+          "Zalo Bemori": {
+            "rev": 10122000,
+            "orders": 10
+          },
+          "Insta Bemori": {
+            "rev": 1735000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 210000,
+            "orders": 1
+          }
         },
-        "Zalo Bemori": {
-          "rev": 14106500,
-          "orders": 18
-        },
-        "Web Bemori": {
-          "rev": 1130000,
-          "orders": 4
-        },
-        "FB Bemori": {
-          "rev": 15511250,
-          "orders": 20
-        },
-        "Insta Bemori": {
-          "rev": 2465088,
-          "orders": 4
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 3984500,
+            "orders": 8
+          },
+          "Web Bemori": {
+            "rev": 920000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 7011250,
+            "orders": 11
+          },
+          "Insta Bemori": {
+            "rev": 730088,
+            "orders": 2
+          }
         }
       }
     },
@@ -2976,32 +3863,46 @@
         "Bemori 228 Lê Văn Sỹ": 12697000,
         "Bemori 388 Xã Đàn": 5329000
       },
-      "mktRev": 78738700,
-      "mktOrders": 76,
-      "channel": {
-        "Shopee": {
-          "rev": 5622000,
-          "orders": 14
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 5622000,
+            "orders": 14
+          },
+          "FB Bemori": {
+            "rev": 6130000,
+            "orders": 7
+          },
+          "Zalo Bemori": {
+            "rev": 36477200,
+            "orders": 7
+          },
+          "Khách lẻ": {
+            "rev": 1134000,
+            "orders": 5
+          },
+          "Web Bemori": {
+            "rev": 3495000,
+            "orders": 3
+          }
         },
-        "FB Bemori": {
-          "rev": 16621250,
-          "orders": 25
-        },
-        "Khách lẻ": {
-          "rev": 1980500,
-          "orders": 7
-        },
-        "Zalo Bemori": {
-          "rev": 48704950,
-          "orders": 23
-        },
-        "Insta Bemori": {
-          "rev": 2315000,
-          "orders": 4
-        },
-        "Web Bemori": {
-          "rev": 3495000,
-          "orders": 3
+        "Cửa hàng": {
+          "Khách lẻ": {
+            "rev": 846500,
+            "orders": 2
+          },
+          "FB Bemori": {
+            "rev": 10491250,
+            "orders": 18
+          },
+          "Zalo Bemori": {
+            "rev": 12227750,
+            "orders": 16
+          },
+          "Insta Bemori": {
+            "rev": 2315000,
+            "orders": 4
+          }
         }
       }
     },
@@ -3026,32 +3927,50 @@
         "Bemori 228 Lê Văn Sỹ": 12322000,
         "Bemori 388 Xã Đàn": 5139750
       },
-      "mktRev": 41764501,
-      "mktOrders": 65,
-      "channel": {
-        "Shopee": {
-          "rev": 3993000,
-          "orders": 14
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3993000,
+            "orders": 14
+          },
+          "Zalo Bemori": {
+            "rev": 6970000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 9435000,
+            "orders": 5
+          },
+          "Web Bemori": {
+            "rev": 455000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 115000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 16570000,
-          "orders": 17
-        },
-        "Zalo Bemori": {
-          "rev": 18266501,
-          "orders": 27
-        },
-        "Insta Bemori": {
-          "rev": 1325000,
-          "orders": 3
-        },
-        "Khách lẻ": {
-          "rev": 650000,
-          "orders": 2
-        },
-        "Web Bemori": {
-          "rev": 960000,
-          "orders": 2
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 7135000,
+            "orders": 12
+          },
+          "Zalo Bemori": {
+            "rev": 11296501,
+            "orders": 18
+          },
+          "Insta Bemori": {
+            "rev": 1325000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 535000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 505000,
+            "orders": 1
+          }
         }
       }
     },
@@ -3076,32 +3995,54 @@
         "Teddy Outlet 970 Láng": 3726500,
         "Bemori 388 Xã Đàn": 8686500
       },
-      "mktRev": 52642501,
-      "mktOrders": 80,
-      "channel": {
-        "Shopee": {
-          "rev": 6759000,
-          "orders": 17
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6759000,
+            "orders": 17
+          },
+          "Insta Bemori": {
+            "rev": 2195000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 2385000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 750000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 10345000,
+            "orders": 13
+          },
+          "Zalo Bemori": {
+            "rev": 3646750,
+            "orders": 5
+          }
         },
-        "Insta Bemori": {
-          "rev": 2680000,
-          "orders": 4
-        },
-        "FB Bemori": {
-          "rev": 23426000,
-          "orders": 26
-        },
-        "Zalo Bemori": {
-          "rev": 14501500,
-          "orders": 23
-        },
-        "Khách lẻ": {
-          "rev": 3930001,
-          "orders": 8
-        },
-        "Web Bemori": {
-          "rev": 1346000,
-          "orders": 2
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 13081000,
+            "orders": 13
+          },
+          "Zalo Bemori": {
+            "rev": 10854750,
+            "orders": 18
+          },
+          "Web Bemori": {
+            "rev": 596000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 1545001,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 485000,
+            "orders": 1
+          }
         }
       }
     },
@@ -3126,36 +4067,54 @@
         "Bemori 228 Lê Văn Sỹ": 17540000,
         "Teddy Outlet 970 Láng": 2149500
       },
-      "mktRev": 36276000,
-      "mktOrders": 65,
-      "channel": {
-        "Shopee": {
-          "rev": 9393000,
-          "orders": 16
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 9393000,
+            "orders": 16
+          },
+          "Web Bemori": {
+            "rev": 485000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 2130000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 4283000,
+            "orders": 7
+          },
+          "Zalo Bemori": {
+            "rev": 5455000,
+            "orders": 8
+          },
+          "Website": {
+            "rev": 560000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 8085000,
-          "orders": 15
-        },
-        "Web Bemori": {
-          "rev": 2025000,
-          "orders": 5
-        },
-        "Khách lẻ": {
-          "rev": 4713000,
-          "orders": 8
-        },
-        "Zalo Bemori": {
-          "rev": 9710000,
-          "orders": 16
-        },
-        "Insta Bemori": {
-          "rev": 1790000,
-          "orders": 4
-        },
-        "Website": {
-          "rev": 560000,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 5955000,
+            "orders": 12
+          },
+          "Khách lẻ": {
+            "rev": 430000,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 4255000,
+            "orders": 8
+          },
+          "Insta Bemori": {
+            "rev": 1790000,
+            "orders": 4
+          },
+          "Web Bemori": {
+            "rev": 1540000,
+            "orders": 4
+          }
         }
       }
     },
@@ -3180,36 +4139,58 @@
         "Bemori 228 Lê Văn Sỹ": 29045750,
         "Teddy Outlet 970 Láng": 2857000
       },
-      "mktRev": 50805000,
-      "mktOrders": 90,
-      "channel": {
-        "Shopee": {
-          "rev": 8824000,
-          "orders": 22
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 8824000,
+            "orders": 22
+          },
+          "FB Bemori": {
+            "rev": 5025000,
+            "orders": 7
+          },
+          "Khách lẻ": {
+            "rev": 5005500,
+            "orders": 9
+          },
+          "Zalo Bemori": {
+            "rev": 2689500,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 205000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 755000,
+            "orders": 1
+          }
         },
-        "FB Bemori": {
-          "rev": 22070000,
-          "orders": 34
-        },
-        "Zalo Bemori": {
-          "rev": 9800500,
-          "orders": 15
-        },
-        "Khách lẻ": {
-          "rev": 5005500,
-          "orders": 10
-        },
-        "Web Bemori": {
-          "rev": 2725000,
-          "orders": 5
-        },
-        "Insta Bemori": {
-          "rev": 1620000,
-          "orders": 3
-        },
-        "Website": {
-          "rev": 760000,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 17045000,
+            "orders": 27
+          },
+          "Zalo Bemori": {
+            "rev": 7111000,
+            "orders": 9
+          },
+          "Web Bemori": {
+            "rev": 2520000,
+            "orders": 4
+          },
+          "Insta Bemori": {
+            "rev": 865000,
+            "orders": 2
+          },
+          "Website": {
+            "rev": 760000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 0,
+            "orders": 1
+          }
         }
       }
     },
@@ -3234,32 +4215,50 @@
         "Bemori 388 Xã Đàn": 32231750,
         "Teddy Outlet 970 Láng": 13191000
       },
-      "mktRev": 122251500,
-      "mktOrders": 214,
-      "channel": {
-        "Shopee": {
-          "rev": 12745000,
-          "orders": 27
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 12745000,
+            "orders": 27
+          },
+          "FB Bemori": {
+            "rev": 14025000,
+            "orders": 22
+          },
+          "Zalo Bemori": {
+            "rev": 17271000,
+            "orders": 26
+          },
+          "Khách lẻ": {
+            "rev": 11063500,
+            "orders": 27
+          },
+          "Insta Bemori": {
+            "rev": 2870000,
+            "orders": 5
+          }
         },
-        "Zalo Bemori": {
-          "rev": 41831000,
-          "orders": 68
-        },
-        "FB Bemori": {
-          "rev": 40121000,
-          "orders": 62
-        },
-        "Khách lẻ": {
-          "rev": 14108500,
-          "orders": 33
-        },
-        "Insta Bemori": {
-          "rev": 10220000,
-          "orders": 17
-        },
-        "Web Bemori": {
-          "rev": 3226000,
-          "orders": 7
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 24560000,
+            "orders": 42
+          },
+          "Khách lẻ": {
+            "rev": 3045000,
+            "orders": 6
+          },
+          "Insta Bemori": {
+            "rev": 7350000,
+            "orders": 12
+          },
+          "FB Bemori": {
+            "rev": 26096000,
+            "orders": 40
+          },
+          "Web Bemori": {
+            "rev": 3226000,
+            "orders": 7
+          }
         }
       }
     },
@@ -3284,32 +4283,54 @@
         "Bemori 104-106 Cầu Giấy": 11979250,
         "Teddy Outlet 970 Láng": 3231000
       },
-      "mktRev": 35823002,
-      "mktOrders": 68,
-      "channel": {
-        "Shopee": {
-          "rev": 3382000,
-          "orders": 13
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3382000,
+            "orders": 13
+          },
+          "Insta Bemori": {
+            "rev": 2710000,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 3875000,
+            "orders": 10
+          },
+          "FB Bemori": {
+            "rev": 4000000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 4750000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 450000,
+            "orders": 1
+          }
         },
-        "Insta Bemori": {
-          "rev": 5175000,
-          "orders": 7
-        },
-        "Khách lẻ": {
-          "rev": 5039002,
-          "orders": 13
-        },
-        "FB Bemori": {
-          "rev": 12910000,
-          "orders": 22
-        },
-        "Zalo Bemori": {
-          "rev": 7712000,
-          "orders": 11
-        },
-        "Web Bemori": {
-          "rev": 1605000,
-          "orders": 2
+        "Cửa hàng": {
+          "Khách lẻ": {
+            "rev": 1164002,
+            "orders": 3
+          },
+          "Insta Bemori": {
+            "rev": 2465000,
+            "orders": 3
+          },
+          "Zalo Bemori": {
+            "rev": 2962000,
+            "orders": 5
+          },
+          "FB Bemori": {
+            "rev": 8910000,
+            "orders": 14
+          },
+          "Web Bemori": {
+            "rev": 1155000,
+            "orders": 1
+          }
         }
       }
     },
@@ -3334,32 +4355,46 @@
         "Bemori 228 Lê Văn Sỹ": 13590000,
         "Teddy Outlet 970 Láng": 1393500
       },
-      "mktRev": 31331500,
-      "mktOrders": 58,
-      "channel": {
-        "Shopee": {
-          "rev": 6930000,
-          "orders": 17
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6930000,
+            "orders": 17
+          },
+          "Insta Bemori": {
+            "rev": 2875000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 6011500,
+            "orders": 12
+          },
+          "Zalo Bemori": {
+            "rev": 3995000,
+            "orders": 5
+          }
         },
-        "Zalo Bemori": {
-          "rev": 5595000,
-          "orders": 10
-        },
-        "Insta Bemori": {
-          "rev": 6485000,
-          "orders": 8
-        },
-        "FB Bemori": {
-          "rev": 11321500,
-          "orders": 20
-        },
-        "Khách lẻ": {
-          "rev": 465000,
-          "orders": 2
-        },
-        "Web Bemori": {
-          "rev": 535000,
-          "orders": 1
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 1600000,
+            "orders": 5
+          },
+          "Khách lẻ": {
+            "rev": 465000,
+            "orders": 2
+          },
+          "FB Bemori": {
+            "rev": 5310000,
+            "orders": 8
+          },
+          "Insta Bemori": {
+            "rev": 3610000,
+            "orders": 5
+          },
+          "Web Bemori": {
+            "rev": 535000,
+            "orders": 1
+          }
         }
       }
     },
@@ -3384,32 +4419,42 @@
         "Teddy Outlet 970 Láng": 3561000,
         "Bemori 1028 Đường Láng": 2850000
       },
-      "mktRev": 71591500,
-      "mktOrders": 56,
-      "channel": {
-        "Shopee": {
-          "rev": 7918000,
-          "orders": 15
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 7918000,
+            "orders": 15
+          },
+          "FB Bemori": {
+            "rev": 5465000,
+            "orders": 11
+          },
+          "Khách lẻ": {
+            "rev": 1232500,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 44293000,
+            "orders": 8
+          },
+          "Web Bemori": {
+            "rev": 1655000,
+            "orders": 2
+          }
         },
-        "FB Bemori": {
-          "rev": 12045000,
-          "orders": 19
-        },
-        "Zalo Bemori": {
-          "rev": 48521000,
-          "orders": 15
-        },
-        "Khách lẻ": {
-          "rev": 1232500,
-          "orders": 4
-        },
-        "Web Bemori": {
-          "rev": 1655000,
-          "orders": 2
-        },
-        "Insta Bemori": {
-          "rev": 220000,
-          "orders": 1
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 6580000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 4228000,
+            "orders": 7
+          },
+          "Insta Bemori": {
+            "rev": 220000,
+            "orders": 1
+          }
         }
       }
     },
@@ -3434,32 +4479,54 @@
         "Bemori 411 NVC": 8612500,
         "Teddy Outlet 970 Láng": 1595000
       },
-      "mktRev": 27250001,
-      "mktOrders": 57,
-      "channel": {
-        "Shopee": {
-          "rev": 4857000,
-          "orders": 15
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 4857000,
+            "orders": 15
+          },
+          "Web Bemori": {
+            "rev": 415000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 887500,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 3095000,
+            "orders": 6
+          },
+          "Insta Bemori": {
+            "rev": 0,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 5210000,
+            "orders": 4
+          }
         },
-        "Web Bemori": {
-          "rev": 2145000,
-          "orders": 5
-        },
-        "Zalo Bemori": {
-          "rev": 8445000,
-          "orders": 8
-        },
-        "Khách lẻ": {
-          "rev": 1554001,
-          "orders": 6
-        },
-        "FB Bemori": {
-          "rev": 8224000,
-          "orders": 18
-        },
-        "Insta Bemori": {
-          "rev": 2025000,
-          "orders": 5
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 3235000,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 5129000,
+            "orders": 12
+          },
+          "Insta Bemori": {
+            "rev": 2025000,
+            "orders": 4
+          },
+          "Web Bemori": {
+            "rev": 1730000,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 666501,
+            "orders": 3
+          }
         }
       }
     },
@@ -3484,28 +4551,46 @@
         "Bemori 275 Bạch Mai": 9274000,
         "Teddy Outlet 970 Láng": 1839500
       },
-      "mktRev": 23989500,
-      "mktOrders": 51,
-      "channel": {
-        "Shopee": {
-          "rev": 6940000,
-          "orders": 15
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6940000,
+            "orders": 15
+          },
+          "Zalo Bemori": {
+            "rev": 3745000,
+            "orders": 5
+          },
+          "Khách lẻ": {
+            "rev": 1707500,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 2895000,
+            "orders": 8
+          },
+          "Insta Bemori": {
+            "rev": 780000,
+            "orders": 2
+          }
         },
-        "Zalo Bemori": {
-          "rev": 6960500,
-          "orders": 11
-        },
-        "Khách lẻ": {
-          "rev": 2102500,
-          "orders": 5
-        },
-        "FB Bemori": {
-          "rev": 6181500,
-          "orders": 16
-        },
-        "Insta Bemori": {
-          "rev": 1805000,
-          "orders": 4
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 3215500,
+            "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 3286500,
+            "orders": 8
+          },
+          "Khách lẻ": {
+            "rev": 395000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 1025000,
+            "orders": 2
+          }
         }
       }
     },
@@ -3530,28 +4615,42 @@
         "Bemori 411 NVC": 12243250,
         "Bemori 228 Lê Văn Sỹ": 14925000
       },
-      "mktRev": 28922500,
-      "mktOrders": 39,
-      "channel": {
-        "Shopee": {
-          "rev": 3025000,
-          "orders": 10
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3025000,
+            "orders": 10
+          },
+          "Khách lẻ": {
+            "rev": 477500,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 10260000,
+            "orders": 4
+          },
+          "FB Bemori": {
+            "rev": 3735000,
+            "orders": 7
+          }
         },
-        "Khách lẻ": {
-          "rev": 972500,
-          "orders": 3
-        },
-        "FB Bemori": {
-          "rev": 10645000,
-          "orders": 16
-        },
-        "Insta Bemori": {
-          "rev": 360000,
-          "orders": 1
-        },
-        "Zalo Bemori": {
-          "rev": 13920000,
-          "orders": 9
+        "Cửa hàng": {
+          "Khách lẻ": {
+            "rev": 495000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 6910000,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 360000,
+            "orders": 1
+          },
+          "Zalo Bemori": {
+            "rev": 3660000,
+            "orders": 5
+          }
         }
       }
     },
@@ -3576,32 +4675,50 @@
         "Bemori 388 Xã Đàn": 1930000,
         "Bemori 411 NVC": 175000
       },
-      "mktRev": 27524000,
-      "mktOrders": 50,
-      "channel": {
-        "Shopee": {
-          "rev": 3555000,
-          "orders": 13
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3555000,
+            "orders": 13
+          },
+          "Insta Bemori": {
+            "rev": 885000,
+            "orders": 2
+          },
+          "Khách lẻ": {
+            "rev": 271500,
+            "orders": 2
+          },
+          "FB Bemori": {
+            "rev": 2260000,
+            "orders": 5
+          },
+          "Zalo Bemori": {
+            "rev": 3889000,
+            "orders": 2
+          },
+          "Web Bemori": {
+            "rev": 735000,
+            "orders": 2
+          }
         },
-        "FB Bemori": {
-          "rev": 6906000,
-          "orders": 14
-        },
-        "Insta Bemori": {
-          "rev": 3610000,
-          "orders": 7
-        },
-        "Khách lẻ": {
-          "rev": 1311500,
-          "orders": 4
-        },
-        "Zalo Bemori": {
-          "rev": 11406500,
-          "orders": 10
-        },
-        "Web Bemori": {
-          "rev": 735000,
-          "orders": 2
+        "Cửa hàng": {
+          "FB Bemori": {
+            "rev": 4646000,
+            "orders": 9
+          },
+          "Insta Bemori": {
+            "rev": 2725000,
+            "orders": 5
+          },
+          "Zalo Bemori": {
+            "rev": 7517500,
+            "orders": 8
+          },
+          "Khách lẻ": {
+            "rev": 1040000,
+            "orders": 2
+          }
         }
       }
     },
@@ -3626,36 +4743,58 @@
         "Bemori 411 NVC": 7338000,
         "Teddy Outlet 970 Láng": 3015000
       },
-      "mktRev": 28686000,
-      "mktOrders": 50,
-      "channel": {
-        "Shopee": {
-          "rev": 3995000,
-          "orders": 13
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3995000,
+            "orders": 13
+          },
+          "Khách lẻ": {
+            "rev": 1060000,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 1505000,
+            "orders": 3
+          },
+          "FB Bemori": {
+            "rev": 6040000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 715000,
+            "orders": 2
+          },
+          "Insta Bemori": {
+            "rev": 685000,
+            "orders": 2
+          }
         },
-        "Zalo Bemori": {
-          "rev": 8300000,
-          "orders": 12
-        },
-        "Khách lẻ": {
-          "rev": 1060000,
-          "orders": 3
-        },
-        "FB Bemori": {
-          "rev": 11511000,
-          "orders": 14
-        },
-        "Website": {
-          "rev": 480000,
-          "orders": 1
-        },
-        "Insta Bemori": {
-          "rev": 1155000,
-          "orders": 3
-        },
-        "Web Bemori": {
-          "rev": 2185000,
-          "orders": 4
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 6795000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 5471000,
+            "orders": 8
+          },
+          "Website": {
+            "rev": 480000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 470000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 1470000,
+            "orders": 2
+          },
+          "Khách lẻ": {
+            "rev": 0,
+            "orders": 1
+          }
         }
       }
     },
@@ -3680,32 +4819,50 @@
         "Bemori 368 Nguyễn Trãi": 9404750,
         "Bemori 104-106 Cầu Giấy": 5964500
       },
-      "mktRev": 60391001,
-      "mktOrders": 60,
-      "channel": {
-        "Shopee": {
-          "rev": 6367000,
-          "orders": 19
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 6367000,
+            "orders": 19
+          },
+          "FB Bemori": {
+            "rev": 3770000,
+            "orders": 6
+          },
+          "Zalo Bemori": {
+            "rev": 4275000,
+            "orders": 4
+          },
+          "Khách lẻ": {
+            "rev": 2050000,
+            "orders": 7
+          },
+          "Insta Bemori": {
+            "rev": 710000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 1965000,
+            "orders": 3
+          }
         },
-        "Khách lẻ": {
-          "rev": 32050000,
-          "orders": 8
-        },
-        "FB Bemori": {
-          "rev": 8660000,
-          "orders": 14
-        },
-        "Zalo Bemori": {
-          "rev": 10204001,
-          "orders": 14
-        },
-        "Insta Bemori": {
-          "rev": 1145000,
-          "orders": 2
-        },
-        "Web Bemori": {
-          "rev": 1965000,
-          "orders": 3
+        "Cửa hàng": {
+          "Khách lẻ": {
+            "rev": 30000000,
+            "orders": 1
+          },
+          "FB Bemori": {
+            "rev": 4890000,
+            "orders": 8
+          },
+          "Zalo Bemori": {
+            "rev": 5929001,
+            "orders": 10
+          },
+          "Insta Bemori": {
+            "rev": 435000,
+            "orders": 1
+          }
         }
       }
     },
@@ -3730,32 +4887,54 @@
         "Bemori 162B Nguyễn Gia Trí": 10652500,
         "Teddy Outlet 970 Láng": 1053500
       },
-      "mktRev": 26261001,
-      "mktOrders": 54,
-      "channel": {
-        "Shopee": {
-          "rev": 3176000,
-          "orders": 7
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3176000,
+            "orders": 7
+          },
+          "Khách lẻ": {
+            "rev": 1895000,
+            "orders": 5
+          },
+          "FB Bemori": {
+            "rev": 5525000,
+            "orders": 10
+          },
+          "Insta Bemori": {
+            "rev": 780000,
+            "orders": 2
+          },
+          "Zalo Bemori": {
+            "rev": 1795000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 395000,
+            "orders": 1
+          }
         },
-        "Zalo Bemori": {
-          "rev": 6425000,
-          "orders": 15
-        },
-        "FB Bemori": {
-          "rev": 12595000,
-          "orders": 21
-        },
-        "Web Bemori": {
-          "rev": 1005000,
-          "orders": 2
-        },
-        "Khách lẻ": {
-          "rev": 1925001,
-          "orders": 6
-        },
-        "Insta Bemori": {
-          "rev": 1135000,
-          "orders": 3
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 4630000,
+            "orders": 9
+          },
+          "FB Bemori": {
+            "rev": 7070000,
+            "orders": 11
+          },
+          "Web Bemori": {
+            "rev": 610000,
+            "orders": 1
+          },
+          "Insta Bemori": {
+            "rev": 355000,
+            "orders": 1
+          },
+          "Khách lẻ": {
+            "rev": 30001,
+            "orders": 1
+          }
         }
       }
     },
@@ -3780,28 +4959,42 @@
         "Teddy Outlet 970 Láng": 3155000,
         "Bemori 161 Xuân Thủy": 4765000
       },
-      "mktRev": 19713000,
-      "mktOrders": 40,
-      "channel": {
-        "Zalo Bemori": {
-          "rev": 5500000,
-          "orders": 9
+      "chan": {
+        "Online": {
+          "FB Bemori": {
+            "rev": 2015000,
+            "orders": 5
+          },
+          "Khách lẻ": {
+            "rev": 2145000,
+            "orders": 5
+          },
+          "Shopee": {
+            "rev": 4849000,
+            "orders": 10
+          },
+          "Zalo Bemori": {
+            "rev": 1400000,
+            "orders": 2
+          }
         },
-        "FB Bemori": {
-          "rev": 6585000,
-          "orders": 14
-        },
-        "Khách lẻ": {
-          "rev": 2169000,
-          "orders": 6
-        },
-        "Shopee": {
-          "rev": 4849000,
-          "orders": 10
-        },
-        "Web Bemori": {
-          "rev": 610000,
-          "orders": 1
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 4100000,
+            "orders": 7
+          },
+          "FB Bemori": {
+            "rev": 4570000,
+            "orders": 9
+          },
+          "Khách lẻ": {
+            "rev": 24000,
+            "orders": 1
+          },
+          "Web Bemori": {
+            "rev": 610000,
+            "orders": 1
+          }
         }
       }
     },
@@ -3826,28 +5019,46 @@
         "Teddy Outlet 970 Láng": 3674000,
         "Bemori 388 Xã Đàn": 12144500
       },
-      "mktRev": 20790501,
-      "mktOrders": 40,
-      "channel": {
-        "Shopee": {
-          "rev": 3413000,
-          "orders": 10
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 3413000,
+            "orders": 10
+          },
+          "FB Bemori": {
+            "rev": 2615000,
+            "orders": 4
+          },
+          "Zalo Bemori": {
+            "rev": 1745000,
+            "orders": 3
+          },
+          "Khách lẻ": {
+            "rev": 2070000,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 1610000,
+            "orders": 2
+          }
         },
-        "Khách lẻ": {
-          "rev": 3715001,
-          "orders": 8
-        },
-        "FB Bemori": {
-          "rev": 7355000,
-          "orders": 10
-        },
-        "Zalo Bemori": {
-          "rev": 3772500,
-          "orders": 9
-        },
-        "Web Bemori": {
-          "rev": 2535000,
-          "orders": 3
+        "Cửa hàng": {
+          "Khách lẻ": {
+            "rev": 1645001,
+            "orders": 2
+          },
+          "FB Bemori": {
+            "rev": 4740000,
+            "orders": 6
+          },
+          "Zalo Bemori": {
+            "rev": 2027500,
+            "orders": 6
+          },
+          "Web Bemori": {
+            "rev": 925000,
+            "orders": 1
+          }
         }
       }
     }
