@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-13T17:20:24.039Z",
+  "generatedAt": "2026-06-14T11:09:19.887Z",
   "period": {
-    "days": 90,
-    "fromDate": "2026-03-15",
-    "toDate": "2026-06-13"
+    "days": 365,
+    "fromDate": "2025-06-14",
+    "toDate": "2026-06-14"
   },
   "channels": [
     "Facebook",
@@ -538,12 +538,12 @@
         "Bemori 275 Bạch Mai": 3045000,
         "Bemori 388 Xã Đàn": 4453500
       },
-      "mktRev": 34457000,
-      "mktOrders": 56,
+      "mktRev": 35867000,
+      "mktOrders": 59,
       "channel": {
         "Shopee": {
-          "rev": 5833000,
-          "orders": 16
+          "rev": 7243000,
+          "orders": 19
         },
         "Facebook": {
           "rev": 12786500,
@@ -584,28 +584,28 @@
         "Teddy Outlet 970 Láng": 1917000,
         "Bemori 161 Xuân Thủy": 9625000
       },
-      "mktRev": 29011000,
-      "mktOrders": 60,
+      "mktRev": 58022000,
+      "mktOrders": 120,
       "channel": {
         "Shopee": {
-          "rev": 5371000,
-          "orders": 18
+          "rev": 10742000,
+          "orders": 36
         },
         "Facebook": {
-          "rev": 7372500,
-          "orders": 12
+          "rev": 14745000,
+          "orders": 24
         },
         "Zalo cá nhân": {
-          "rev": 5212500,
-          "orders": 12
+          "rev": 10425000,
+          "orders": 24
         },
         "Instagram": {
-          "rev": 1790000,
-          "orders": 3
+          "rev": 3580000,
+          "orders": 6
         },
         "Admin": {
-          "rev": 9265000,
-          "orders": 15
+          "rev": 18530000,
+          "orders": 30
         }
       }
     },
@@ -726,12 +726,12 @@
         "Bemori 228 Lê Văn Sỹ": 6951500,
         "Bemori 411 NVC": 3619250
       },
-      "mktRev": 26791000,
-      "mktOrders": 49,
+      "mktRev": 26273000,
+      "mktOrders": 47,
       "channel": {
         "Shopee": {
-          "rev": 4811000,
-          "orders": 13
+          "rev": 4293000,
+          "orders": 11
         },
         "Zalo cá nhân": {
           "rev": 5480000,
@@ -772,32 +772,32 @@
         "Teddy Outlet 970 Láng": 2591000,
         "Bemori 1028 Đường Láng": 6858500
       },
-      "mktRev": 57989000,
-      "mktOrders": 97,
+      "mktRev": 31035500,
+      "mktOrders": 52,
       "channel": {
         "Shopee": {
-          "rev": 13610000,
-          "orders": 33
+          "rev": 8846000,
+          "orders": 20
         },
         "Zalo cá nhân": {
-          "rev": 11650000,
-          "orders": 22
+          "rev": 5825000,
+          "orders": 11
         },
         "Facebook": {
-          "rev": 21100000,
-          "orders": 28
+          "rev": 10550000,
+          "orders": 14
         },
         "Admin": {
-          "rev": 3639000,
-          "orders": 8
+          "rev": 1819500,
+          "orders": 4
         },
         "Instagram": {
-          "rev": 1810000,
-          "orders": 2
+          "rev": 905000,
+          "orders": 1
         },
         "Zalo OA": {
-          "rev": 6180000,
-          "orders": 4
+          "rev": 3090000,
+          "orders": 2
         }
       }
     },
@@ -1941,12 +1941,12 @@
         "Teddy Outlet 970 Láng": 2919000,
         "Bemori 368 Nguyễn Trãi": 12744000
       },
-      "mktRev": 28815750,
-      "mktOrders": 58,
+      "mktRev": 29915750,
+      "mktOrders": 61,
       "channel": {
         "Shopee": {
-          "rev": 6245000,
-          "orders": 17
+          "rev": 7345000,
+          "orders": 20
         },
         "Zalo cá nhân": {
           "rev": 9789500,
@@ -1991,32 +1991,32 @@
         "Bemori 388 Xã Đàn": 12952500,
         "Teddy Outlet 970 Láng": 840000
       },
-      "mktRev": 24299000,
-      "mktOrders": 58,
+      "mktRev": 48113000,
+      "mktOrders": 114,
       "channel": {
         "Shopee": {
-          "rev": 4052000,
-          "orders": 16
+          "rev": 7619000,
+          "orders": 30
         },
         "Zalo cá nhân": {
-          "rev": 9237000,
-          "orders": 17
+          "rev": 18474000,
+          "orders": 34
         },
         "Admin": {
-          "rev": 2000000,
-          "orders": 7
-        },
-        "Facebook": {
-          "rev": 7830000,
+          "rev": 4000000,
           "orders": 14
         },
+        "Facebook": {
+          "rev": 15660000,
+          "orders": 28
+        },
         "Zalo OA": {
-          "rev": 780000,
-          "orders": 3
+          "rev": 1560000,
+          "orders": 6
         },
         "Instagram": {
-          "rev": 400000,
-          "orders": 1
+          "rev": 800000,
+          "orders": 2
         }
       }
     },
@@ -2133,12 +2133,12 @@
         "Bemori 411 NVC": 2460000,
         "Teddy Outlet 970 Láng": 1990000
       },
-      "mktRev": 39168500,
-      "mktOrders": 46,
+      "mktRev": 38722500,
+      "mktOrders": 45,
       "channel": {
         "Shopee": {
-          "rev": 5677000,
-          "orders": 16
+          "rev": 5231000,
+          "orders": 15
         },
         "Admin": {
           "rev": 3211000,
@@ -2179,28 +2179,28 @@
         "Bemori 162B Nguyễn Gia Trí": 7744000,
         "Teddy Outlet 970 Láng": 697000
       },
-      "mktRev": 70893000,
-      "mktOrders": 98,
+      "mktRev": 36177000,
+      "mktOrders": 52,
       "channel": {
         "Shopee": {
-          "rev": 13397000,
-          "orders": 24
+          "rev": 7429000,
+          "orders": 15
         },
         "Facebook": {
-          "rev": 20535000,
-          "orders": 28
-        },
-        "Admin": {
-          "rev": 14665000,
+          "rev": 10267500,
           "orders": 14
         },
+        "Admin": {
+          "rev": 7332500,
+          "orders": 7
+        },
         "Zalo cá nhân": {
-          "rev": 17096000,
-          "orders": 26
+          "rev": 8548000,
+          "orders": 13
         },
         "Instagram": {
-          "rev": 5200000,
-          "orders": 6
+          "rev": 2600000,
+          "orders": 3
         }
       }
     },
@@ -3364,12 +3364,12 @@
         "Bemori 161 Xuân Thủy": 5782000,
         "Bemori 388 Xã Đàn": 1930000
       },
-      "mktRev": 27524000,
-      "mktOrders": 50,
+      "mktRev": 28126000,
+      "mktOrders": 53,
       "channel": {
         "Shopee": {
-          "rev": 3555000,
-          "orders": 13
+          "rev": 4157000,
+          "orders": 16
         },
         "Facebook": {
           "rev": 6411000,
@@ -3414,28 +3414,28 @@
         "Bemori 411 NVC": 7338000,
         "Teddy Outlet 970 Láng": 3015000
       },
-      "mktRev": 28686000,
-      "mktOrders": 50,
+      "mktRev": 56954000,
+      "mktOrders": 98,
       "channel": {
         "Shopee": {
-          "rev": 3995000,
-          "orders": 13
+          "rev": 7572000,
+          "orders": 24
         },
         "Zalo cá nhân": {
-          "rev": 9120000,
-          "orders": 14
+          "rev": 18240000,
+          "orders": 28
         },
         "Admin": {
-          "rev": 1965000,
-          "orders": 5
+          "rev": 3930000,
+          "orders": 10
         },
         "Facebook": {
-          "rev": 12451000,
-          "orders": 15
+          "rev": 24902000,
+          "orders": 30
         },
         "Instagram": {
-          "rev": 1155000,
-          "orders": 3
+          "rev": 2310000,
+          "orders": 6
         }
       }
     },
@@ -3556,20 +3556,20 @@
         "Bemori 161 Xuân Thủy": 4765000,
         "Bemori 228 Lê Văn Sỹ": 7210000
       },
-      "mktRev": 19713000,
-      "mktOrders": 40,
+      "mktRev": 18868000,
+      "mktOrders": 38,
       "channel": {
         "Zalo cá nhân": {
           "rev": 5020000,
           "orders": 8
         },
-        "Facebook": {
-          "rev": 5315000,
-          "orders": 11
-        },
         "Admin": {
           "rev": 4104000,
           "orders": 10
+        },
+        "Facebook": {
+          "rev": 4470000,
+          "orders": 9
         },
         "Shopee": {
           "rev": 4849000,
@@ -3602,59 +3602,72 @@
         "Teddy Outlet 970 Láng": 3674000,
         "Bemori 388 Xã Đàn": 10444500
       },
-      "mktRev": 20790501,
-      "mktOrders": 40,
+      "mktRev": 20260501,
+      "mktOrders": 41,
       "channel": {
         "Shopee": {
-          "rev": 3413000,
-          "orders": 10
+          "rev": 4273000,
+          "orders": 12
         },
         "Admin": {
           "rev": 6575001,
           "orders": 13
         },
         "Facebook": {
-          "rev": 7105000,
-          "orders": 9
+          "rev": 5715000,
+          "orders": 8
         },
         "Zalo cá nhân": {
           "rev": 3697500,
           "orders": 8
         }
       }
+    },
+    {
+      "day": "2026-06-14",
+      "salesRev": 124713500,
+      "salesCount": 159,
+      "bemori": {
+        "Cửa hàng": 48178500,
+        "Online": 75293000,
+        "Sỉ": 1242000
+      },
+      "memonRev": 0,
+      "storeRetail": {
+        "Bemori 228 Lê Văn Sỹ": 4786750,
+        "Bemori 162B Nguyễn Gia Trí": 5772500,
+        "Bemori 1028 Đường Láng": 3448250,
+        "Bemori 368 Nguyễn Trãi": 8450000,
+        "Bemori 411 NVC": 4585000,
+        "Bemori 104-106 Cầu Giấy": 8093500,
+        "Bemori 161 Xuân Thủy": 5230000,
+        "Teddy Outlet 970 Láng": 1280000,
+        "Bemori 275 Bạch Mai": 4200000,
+        "Bemori 388 Xã Đàn": 2332500
+      },
+      "mktRev": 15629000,
+      "mktOrders": 27,
+      "channel": {
+        "Admin": {
+          "rev": 2470000,
+          "orders": 5
+        },
+        "Shopee": {
+          "rev": 2189000,
+          "orders": 6
+        },
+        "Facebook": {
+          "rev": 5860000,
+          "orders": 8
+        },
+        "Zalo cá nhân": {
+          "rev": 5110000,
+          "orders": 8
+        }
+      }
     }
   ],
   "memonBills": [
-    {
-      "day": "2026-04-10",
-      "customer": "Công ty Cổ phần IIG Việt Nam",
-      "amount": 2808000
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "Phúc Thiện An",
-      "amount": 3909600
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "HỘ KINH DOANH NHÀ SÁCH 2KID",
-      "amount": 8794440
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "Linh in ảnh HCM",
-      "amount": 7020000
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
-      "amount": 8899200
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "Tường Vy Quảng Ngãi",
-      "amount": 3363120
-    },
     {
       "day": "2026-04-08",
       "customer": "CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ DỊCH VỤ THƯƠNG MẠI NGỌC HÙNG",
@@ -3989,46 +4002,76 @@
       "day": "2026-04-14",
       "customer": "HỘ KINH DOANH ĐINH YẾN CHI 02",
       "amount": 18154800
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Công ty Cổ phần IIG Việt Nam",
+      "amount": 2808000
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Phúc Thiện An",
+      "amount": 3909600
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "HỘ KINH DOANH NHÀ SÁCH 2KID",
+      "amount": 8794440
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Linh in ảnh HCM",
+      "amount": 7020000
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
+      "amount": 8899200
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Tường Vy Quảng Ngãi",
+      "amount": 3363120
     }
   ],
   "marketing": {
-    "onlineRevenue": 1234218298,
-    "onlineOrders": 1939,
-    "onlineAov": 636523,
+    "onlineRevenue": 1238884298,
+    "onlineOrders": 1950,
+    "onlineAov": 635325,
     "channels": [
       {
         "name": "Zalo cá nhân",
-        "orders": 478,
-        "revenue": 341813500,
-        "aov": 715091,
+        "orders": 486,
+        "revenue": 345666500,
+        "aov": 711248,
         "share": 28
       },
       {
         "name": "Facebook",
-        "orders": 528,
-        "revenue": 338986500,
-        "aov": 642020,
-        "share": 27
+        "orders": 532,
+        "revenue": 345387500,
+        "aov": 649225,
+        "share": 28
       },
       {
         "name": "Admin",
-        "orders": 352,
-        "revenue": 297655210,
-        "aov": 845611,
+        "orders": 349,
+        "revenue": 295040210,
+        "aov": 845387,
         "share": 24
       },
       {
         "name": "Shopee",
-        "orders": 447,
-        "revenue": 175337000,
-        "aov": 392253,
+        "orders": 453,
+        "revenue": 176499000,
+        "aov": 389623,
         "share": 14
       },
       {
         "name": "Instagram",
-        "orders": 122,
-        "revenue": 74476088,
-        "aov": 610460,
+        "orders": 118,
+        "revenue": 70341088,
+        "aov": 596111,
         "share": 6
       },
       {
@@ -4041,18 +4084,18 @@
     ]
   },
   "sales": {
-    "totalRevenue": 3930410558,
-    "salesCount": 7776,
+    "totalRevenue": 3939896558,
+    "salesCount": 7709,
     "byType": {
-      "Online": 1145997450,
-      "Cửa hàng": 2777438308,
-      "Sỉ": 6974800
+      "Online": 1180885950,
+      "Cửa hàng": 2750793808,
+      "Sỉ": 8216800
     },
-    "onlinePct": 29,
-    "storePct": 71
+    "onlinePct": 30,
+    "storePct": 70
   },
   "brands": {
-    "Bemori": 3930410558,
+    "Bemori": 3939896558,
     "Memon": 0
   }
 }
