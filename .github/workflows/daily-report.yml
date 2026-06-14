@@ -37,5 +37,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add marketing-report/dashboard/data.js marketing-report/dashboard/data.json
-          git commit -m "chore: cập nhật dữ liệu dashboard [skip ci]" || echo "Không có thay đổi"
+          git commit -m "chore: cap nhat du lieu dashboard" || echo "Không có thay đổi"
           git push
