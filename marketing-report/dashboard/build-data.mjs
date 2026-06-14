@@ -23,6 +23,8 @@ const SALE_CHANNEL = {1:"Admin",2:"Website",10:"API",20:"Facebook",21:"Instagram
 const TYPE_OF = { 1: "Online", 2: "Cửa hàng", 6: "Sỉ" };
 // Phap nhan tach theo KHO: Xưởng Memon = kho 230213 / 230786; con lai = Bemori
 const MEMON_DEPOTS = new Set([230213, 230786]);
+// Bemori: Online = kho Nguyen Khuyen (230791); con lai = Cua hang
+const ONLINE_DEPOT = 230791;
 const BAD_STATUS = [58,61,63,64,68,71,72];
 
 const recompute = process.argv.includes("--recompute");
@@ -122,9 +124,10 @@ for (const b of bills) {
   if (MEMON_DEPOTS.has(b.depotId)) { // Xuong Memon ban ra ngoai
     D.memonRev += amt;
     memonBills.push({ day, customer: (b.customer?.name || b.customer?.mobile || "(không tên)").replace(/&amp;/g,"&"), amount: round(amt) });
-  } else { // Bemori (online + cua hang)
-    D.bemori[type] = (D.bemori[type]||0) + amt;
-    if (b.mode === 2) {
+  } else { // Bemori: Online (kho Nguyen Khuyen) vs Cua hang (cac kho shop)
+    const cat = (b.depotId === ONLINE_DEPOT) ? "Online" : "Cửa hàng";
+    D.bemori[cat] = (D.bemori[cat]||0) + amt;
+    if (cat === "Cửa hàng") {
       const store = depotName[b.depotId] || `Kho ${b.depotId}`;
       D.storeRetail[store] = (D.storeRetail[store]||0) + amt;
     }
@@ -135,7 +138,7 @@ for (const o of orders) {
   const day = o.info?.createdAt ? dayOf(o.info.createdAt) : null; if (!day) continue;
   const r = orderRev(o);
   const D = ensureDay(day);
-  const cname = SALE_CHANNEL[o.channel?.saleChannel] || `#${o.channel?.saleChannel}`;
+  const cname = o.channel?.trafficSource || SALE_CHANNEL[o.channel?.saleChannel] || `#${o.channel?.saleChannel}`;
   D.channel[cname] ??= { rev:0, orders:0 };
   D.channel[cname].rev += r; D.channel[cname].orders++;
   D.mktRev += r; D.mktOrders++;
