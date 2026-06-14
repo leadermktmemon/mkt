@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:09:19.887Z",
+  "generatedAt": "2026-06-14T11:42:59.442Z",
   "period": {
     "days": 365,
     "fromDate": "2025-06-14",
@@ -3625,32 +3625,32 @@
     },
     {
       "day": "2026-06-14",
-      "salesRev": 124713500,
-      "salesCount": 159,
+      "salesRev": 128208500,
+      "salesCount": 166,
       "bemori": {
-        "Cửa hàng": 48178500,
+        "Cửa hàng": 51673500,
         "Online": 75293000,
         "Sỉ": 1242000
       },
       "memonRev": 0,
       "storeRetail": {
+        "Bemori 275 Bạch Mai": 6005000,
+        "Bemori 104-106 Cầu Giấy": 8448500,
+        "Bemori 1028 Đường Láng": 4268250,
+        "Bemori 161 Xuân Thủy": 5745000,
         "Bemori 228 Lê Văn Sỹ": 4786750,
         "Bemori 162B Nguyễn Gia Trí": 5772500,
-        "Bemori 1028 Đường Láng": 3448250,
         "Bemori 368 Nguyễn Trãi": 8450000,
         "Bemori 411 NVC": 4585000,
-        "Bemori 104-106 Cầu Giấy": 8093500,
-        "Bemori 161 Xuân Thủy": 5230000,
         "Teddy Outlet 970 Láng": 1280000,
-        "Bemori 275 Bạch Mai": 4200000,
         "Bemori 388 Xã Đàn": 2332500
       },
-      "mktRev": 15629000,
-      "mktOrders": 27,
+      "mktRev": 15669000,
+      "mktOrders": 28,
       "channel": {
         "Admin": {
-          "rev": 2470000,
-          "orders": 5
+          "rev": 2510000,
+          "orders": 6
         },
         "Shopee": {
           "rev": 2189000,
@@ -4035,9 +4035,9 @@
     }
   ],
   "marketing": {
-    "onlineRevenue": 1238884298,
-    "onlineOrders": 1950,
-    "onlineAov": 635325,
+    "onlineRevenue": 1238924298,
+    "onlineOrders": 1951,
+    "onlineAov": 635020,
     "channels": [
       {
         "name": "Zalo cá nhân",
@@ -4055,9 +4055,9 @@
       },
       {
         "name": "Admin",
-        "orders": 349,
-        "revenue": 295040210,
-        "aov": 845387,
+        "orders": 350,
+        "revenue": 295080210,
+        "aov": 843086,
         "share": 24
       },
       {
@@ -4084,18 +4084,18 @@
     ]
   },
   "sales": {
-    "totalRevenue": 3939896558,
-    "salesCount": 7709,
+    "totalRevenue": 3943391558,
+    "salesCount": 7716,
     "byType": {
       "Online": 1180885950,
-      "Cửa hàng": 2750793808,
+      "Cửa hàng": 2754288808,
       "Sỉ": 8216800
     },
     "onlinePct": 30,
     "storePct": 70
   },
   "brands": {
-    "Bemori": 3939896558,
+    "Bemori": 3943391558,
     "Memon": 0
   }
 }
