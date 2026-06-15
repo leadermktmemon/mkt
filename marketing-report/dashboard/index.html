@@ -142,6 +142,7 @@
   function sumOnline(s){var r=0;s.forEach(function(d){r+=d.onlineRev||0;});return r;}
   function sumStore(s){var r=0;s.forEach(function(d){r+=d.storeRev||0;});return r;}
   function sumStoreOnline(s){var r=0;s.forEach(function(d){r+=d.storeOnline||0;});return r;}
+  function sumF(s,k){var r=0;s.forEach(function(d){r+=d[k]||0;});return r;}
   function sumMemon(s){var r=0;s.forEach(function(d){r+=d.memonRev||0;});return r;}
   function onlineAgg(s){var ch={},total=0,orders=0;s.forEach(function(d){for(var k in d.online){ch[k]=ch[k]||{rev:0,orders:0};ch[k].rev+=d.online[k].rev;ch[k].orders+=d.online[k].orders;total+=d.online[k].rev;orders+=d.online[k].orders;}});
     var list=Object.keys(ch).sort(function(a,b){return ch[b].rev-ch[a].rev;}).map(function(n){return {name:n,orders:ch[n].orders,revenue:ch[n].rev,aov:ch[n].orders?Math.round(ch[n].rev/ch[n].orders):0,share:total?Math.round(ch[n].rev/total*100):0};});
@@ -165,25 +166,28 @@
          {label:'Cửa hàng (bán lẻ)',val:vnd(st)},
          {label:'Memon (B2B/sỉ)',val:vnd(mem)}];
     } else if(scope==='Bemori'){
-      var tot=on+st;
+      var tot=on+st;var tgt=sumF(slice,'onlineTarget')+sumF(slice,'storeTarget');
       k=[{label:'Doanh thu Bemori',val:vnd(tot),accent:true},
          {label:'Online (marketing)',val:vnd(on)},
          {label:'Cửa hàng (bán lẻ)',val:vnd(st)},
-         {label:'% Online / Cửa hàng',val:(tot?Math.round(on/tot*100):0)+'% · '+(tot?Math.round(st/tot*100):0)+'%'}];
+         {label:'% Online / Cửa hàng',val:(tot?Math.round(on/tot*100):0)+'% · '+(tot?Math.round(st/tot*100):0)+'%'},
+         {label:'% Hoàn thành KPI',val:(tgt?Math.round(tot/tgt*100):0)+'%'}];
     } else if(scope==='Online'){
-      var o=onlineAgg(slice);
+      var o=onlineAgg(slice);var tgt=sumF(slice,'onlineTarget');
       k=[{label:'Doanh thu Online',val:vnd(on),accent:true},
          {label:'Số đơn',val:o.orders.toLocaleString('vi-VN')},
          {label:'AOV',val:vnd(o.orders?on/o.orders:0)},
-         {label:'Số nguồn',val:o.list.length}];
+         {label:'% Hoàn thành KPI',val:(tgt?Math.round(on/tgt*100):0)+'%'}];
     } else if(scope==='Cửa hàng'){
       var sa=storeAgg(slice);
       var mktCH=sumStoreOnline(slice);
-      var pct=(st+mktCH)?Math.round(mktCH/(st+mktCH)*100):0;
+      var pctM=(st+mktCH)?Math.round(mktCH/(st+mktCH)*100):0;
+      var tgt=sumF(slice,'storeTarget'),vin=sumF(slice,'custIn'),vbuy=sumF(slice,'custBuy');
       k=[{label:'Doanh thu tại quầy',val:vnd(st),accent:true},
-         {label:'Marketing giao tại CH',val:vnd(mktCH)},
-         {label:'% Marketing → Cửa hàng',val:pct+'%'},
-         {label:'Số cửa hàng',val:sa.list.length}];
+         {label:'% Hoàn thành KPI',val:(tgt?Math.round(st/tgt*100):0)+'%'},
+         {label:'Tỷ lệ chốt (vào→mua)',val:(vin?Math.round(vbuy/vin*100):0)+'%'},
+         {label:'% Marketing → CH',val:pctM+'%'},
+         {label:'Khách vào',val:vin.toLocaleString('vi-VN')}];
     } else {
       var m=memonAgg(slice);
       k=[{label:'Doanh thu B2B/Sỉ',val:vnd(mem),accent:true},

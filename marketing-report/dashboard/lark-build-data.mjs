@@ -34,21 +34,22 @@ const store=await allRecords(tk,STORE);
 console.log(`Sales Online: ${sales.length} dòng | Cửa hàng: ${store.length} dòng`);
 
 const dayMap={};
-function ensure(day){return dayMap[day]??={online:{},onlineRev:0,onlineOrders:0,onlineMsg:0,store:{},storeRev:0,storeOnline:0,memonRev:0};}
+function ensure(day){return dayMap[day]??={online:{},onlineRev:0,onlineOrders:0,onlineTarget:0,store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0};}
 
 // SALES ONLINE -> Online (theo TK sale)
 for(const r of sales){const f=r.fields;const day=dayOf(f);if(!day)continue;const D=ensure(day);
   const rev=num(f["Doanh thu 100%"]);const ord=num(f["Số đơn hàng chốt được"]);
   const acc=(f["TK cửa hàng"]&&f["TK cửa hàng"][0]&&f["TK cửa hàng"][0].name)||"Sale Online";
   D.online[acc]??={rev:0,orders:0};D.online[acc].rev+=rev;D.online[acc].orders+=ord;
-  D.onlineRev+=rev;D.onlineOrders+=ord;D.onlineMsg+=num(f["Tổng số khách nhắn tin"]);
+  D.onlineRev+=rev;D.onlineOrders+=ord;D.onlineTarget+=num(f["Target ngày"]);
 }
-// CUA HANG -> store (Doanh thu CH theo cua hang)
+// CUA HANG (theo thang) -> store + pheu cua hang
 for(const r of store){const f=r.fields;const day=dayOf(f);if(!day)continue;const D=ensure(day);
   const ch=num(f["Doanh thu CH"]);const onl=num(f["Doanh thu đơn Online chuyển đơn"]);
   const raw=(f["Tên cửa hàng"]&&f["Tên cửa hàng"][0]&&(f["Tên cửa hàng"][0].name||f["Tên cửa hàng"][0].en_name))||"(?)";
   const name=cleanStore(raw);
   D.store[name]=(D.store[name]||0)+ch;D.storeRev+=ch;D.storeOnline+=onl;
+  D.storeTarget+=num(f["Target Tháng"]);D.custIn+=num(f["SL Khách vào"]);D.custBuy+=num(f["SL khách mua"]);
 }
 
 const days=Object.keys(dayMap).filter(d=>d>="2025-01-01").sort();
@@ -58,7 +59,7 @@ const roundObj=(o)=>Object.fromEntries(Object.entries(o).map(([k,v])=>[k,round(v
 const daily=days.map(day=>{const D=dayMap[day];
   for(const k in D.online)channelTotals[k]=(channelTotals[k]||0)+D.online[k].rev;
   for(const k in D.store)storeTotals[k]=(storeTotals[k]||0)+D.store[k];
-  return {day,online:roundChan(D.online),onlineRev:round(D.onlineRev),onlineOrders:D.onlineOrders,onlineMsg:round(D.onlineMsg),store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),memonRev:0};
+  return {day,online:roundChan(D.online),onlineRev:round(D.onlineRev),onlineOrders:D.onlineOrders,onlineTarget:round(D.onlineTarget),store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0};
 });
 const channels=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
 const stores=Object.entries(storeTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);

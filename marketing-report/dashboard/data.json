@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T06:35:47.755Z",
+  "generatedAt": "2026-06-15T07:25:55.805Z",
   "source": "lark",
   "period": {
     "days": 411,
@@ -34,7 +34,7 @@
       },
       "onlineRev": 19270500,
       "onlineOrders": 40,
-      "onlineMsg": 203,
+      "onlineTarget": 13000000,
       "store": {
         "Nguyễn Trãi": 313095250,
         "Cầu Giấy": 288273250,
@@ -49,6 +49,9 @@
       },
       "storeRev": 2063166652,
       "storeOnline": 418044125,
+      "storeTarget": 2900000000,
+      "custIn": 5970,
+      "custBuy": 5686,
       "memonRev": 0
     },
     {
@@ -61,10 +64,13 @@
       },
       "onlineRev": 15815174,
       "onlineOrders": 43,
-      "onlineMsg": 310,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -77,10 +83,13 @@
       },
       "onlineRev": 22350000,
       "onlineOrders": 46,
-      "onlineMsg": 303,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -93,10 +102,13 @@
       },
       "onlineRev": 21880000,
       "onlineOrders": 46,
-      "onlineMsg": 220,
+      "onlineTarget": 26000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -109,10 +121,13 @@
       },
       "onlineRev": 19498500,
       "onlineOrders": 43,
-      "onlineMsg": 256,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -125,10 +140,13 @@
       },
       "onlineRev": 18993000,
       "onlineOrders": 43,
-      "onlineMsg": 320,
+      "onlineTarget": 23000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -141,10 +159,13 @@
       },
       "onlineRev": 19263963,
       "onlineOrders": 41,
-      "onlineMsg": 301,
+      "onlineTarget": 26000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -157,10 +178,13 @@
       },
       "onlineRev": 17147750,
       "onlineOrders": 31,
-      "onlineMsg": 253,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -173,10 +197,13 @@
       },
       "onlineRev": 27455000,
       "onlineOrders": 51,
-      "onlineMsg": 360,
+      "onlineTarget": 28000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -189,10 +216,13 @@
       },
       "onlineRev": 21940000,
       "onlineOrders": 45,
-      "onlineMsg": 254,
+      "onlineTarget": 28000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -205,10 +235,13 @@
       },
       "onlineRev": 22938500,
       "onlineOrders": 42,
-      "onlineMsg": 288,
+      "onlineTarget": 29000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -221,10 +254,13 @@
       },
       "onlineRev": 17525500,
       "onlineOrders": 41,
-      "onlineMsg": 342,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -237,10 +273,13 @@
       },
       "onlineRev": 29767000,
       "onlineOrders": 37,
-      "onlineMsg": 319,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -253,10 +292,13 @@
       },
       "onlineRev": 12845000,
       "onlineOrders": 34,
-      "onlineMsg": 224,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -269,10 +311,13 @@
       },
       "onlineRev": 22013000,
       "onlineOrders": 44,
-      "onlineMsg": 223,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -285,10 +330,13 @@
       },
       "onlineRev": 20844500,
       "onlineOrders": 43,
-      "onlineMsg": 251,
+      "onlineTarget": 26000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -301,10 +349,13 @@
       },
       "onlineRev": 29650000,
       "onlineOrders": 48,
-      "onlineMsg": 312,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -317,10 +368,13 @@
       },
       "onlineRev": 18029000,
       "onlineOrders": 40,
-      "onlineMsg": 184,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -333,10 +387,13 @@
       },
       "onlineRev": 34048970,
       "onlineOrders": 47,
-      "onlineMsg": 322,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -349,10 +406,13 @@
       },
       "onlineRev": 28983000,
       "onlineOrders": 41,
-      "onlineMsg": 295,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -365,10 +425,13 @@
       },
       "onlineRev": 26013000,
       "onlineOrders": 55,
-      "onlineMsg": 335,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -381,10 +444,13 @@
       },
       "onlineRev": 27767500,
       "onlineOrders": 53,
-      "onlineMsg": 329,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -397,10 +463,13 @@
       },
       "onlineRev": 26325500,
       "onlineOrders": 53,
-      "onlineMsg": 350,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -413,10 +482,13 @@
       },
       "onlineRev": 83545000,
       "onlineOrders": 60,
-      "onlineMsg": 365,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -429,10 +501,13 @@
       },
       "onlineRev": 35548500,
       "onlineOrders": 62,
-      "onlineMsg": 340,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -445,10 +520,13 @@
       },
       "onlineRev": 37525300,
       "onlineOrders": 62,
-      "onlineMsg": 395,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -461,10 +539,13 @@
       },
       "onlineRev": 39211150,
       "onlineOrders": 65,
-      "onlineMsg": 434,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -477,10 +558,13 @@
       },
       "onlineRev": 49394600,
       "onlineOrders": 66,
-      "onlineMsg": 364,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -493,10 +577,13 @@
       },
       "onlineRev": 49791250,
       "onlineOrders": 82,
-      "onlineMsg": 437,
+      "onlineTarget": 53000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -509,10 +596,13 @@
       },
       "onlineRev": 43012500,
       "onlineOrders": 85,
-      "onlineMsg": 386,
+      "onlineTarget": 68000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -525,10 +615,13 @@
       },
       "onlineRev": 51490500,
       "onlineOrders": 105,
-      "onlineMsg": 559,
+      "onlineTarget": 70000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -541,7 +634,7 @@
       },
       "onlineRev": 82066500,
       "onlineOrders": 197,
-      "onlineMsg": 538,
+      "onlineTarget": 86000000,
       "store": {
         "Nguyễn Trãi": 420383500,
         "Xuân Thuỷ": 348165250,
@@ -556,6 +649,9 @@
       },
       "storeRev": 2530401748,
       "storeOnline": 470111640,
+      "storeTarget": 2675000000,
+      "custIn": 7187,
+      "custBuy": 6907,
       "memonRev": 0
     },
     {
@@ -568,10 +664,13 @@
       },
       "onlineRev": 23161500,
       "onlineOrders": 57,
-      "onlineMsg": 389,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -584,10 +683,13 @@
       },
       "onlineRev": 28797000,
       "onlineOrders": 58,
-      "onlineMsg": 191,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -600,10 +702,13 @@
       },
       "onlineRev": 22530600,
       "onlineOrders": 60,
-      "onlineMsg": 215,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -616,10 +721,13 @@
       },
       "onlineRev": 20919000,
       "onlineOrders": 45,
-      "onlineMsg": 222,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -632,10 +740,13 @@
       },
       "onlineRev": 17653000,
       "onlineOrders": 35,
-      "onlineMsg": 197,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -648,10 +759,13 @@
       },
       "onlineRev": 16120220,
       "onlineOrders": 37,
-      "onlineMsg": 181,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -664,10 +778,13 @@
       },
       "onlineRev": 23371500,
       "onlineOrders": 42,
-      "onlineMsg": 214,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -680,10 +797,13 @@
       },
       "onlineRev": 24790400,
       "onlineOrders": 46,
-      "onlineMsg": 214,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -696,10 +816,13 @@
       },
       "onlineRev": 18866000,
       "onlineOrders": 40,
-      "onlineMsg": 226,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -712,10 +835,13 @@
       },
       "onlineRev": 18585000,
       "onlineOrders": 36,
-      "onlineMsg": 229,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -728,10 +854,13 @@
       },
       "onlineRev": 15317000,
       "onlineOrders": 38,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -744,10 +873,13 @@
       },
       "onlineRev": 22573000,
       "onlineOrders": 43,
-      "onlineMsg": 347,
+      "onlineTarget": 25000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -760,10 +892,13 @@
       },
       "onlineRev": 43746200,
       "onlineOrders": 88,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -776,10 +911,13 @@
       },
       "onlineRev": 38434000,
       "onlineOrders": 76,
-      "onlineMsg": 0,
+      "onlineTarget": 22000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -792,10 +930,13 @@
       },
       "onlineRev": 41808000,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -808,10 +949,13 @@
       },
       "onlineRev": 30110000,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -824,10 +968,13 @@
       },
       "onlineRev": 33571200,
       "onlineOrders": 64,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -840,10 +987,13 @@
       },
       "onlineRev": 27868500,
       "onlineOrders": 56,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -856,10 +1006,13 @@
       },
       "onlineRev": 37253000,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -872,10 +1025,13 @@
       },
       "onlineRev": 26942500,
       "onlineOrders": 39,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -888,10 +1044,13 @@
       },
       "onlineRev": 40034000,
       "onlineOrders": 69,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -904,10 +1063,13 @@
       },
       "onlineRev": 20127500,
       "onlineOrders": 51,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -920,10 +1082,13 @@
       },
       "onlineRev": 27749140,
       "onlineOrders": 61,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -936,10 +1101,13 @@
       },
       "onlineRev": 35766200,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -952,10 +1120,13 @@
       },
       "onlineRev": 48145300,
       "onlineOrders": 79,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -968,10 +1139,13 @@
       },
       "onlineRev": 25043100,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -984,10 +1158,13 @@
       },
       "onlineRev": 41294000,
       "onlineOrders": 90,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1000,10 +1177,13 @@
       },
       "onlineRev": 45403000,
       "onlineOrders": 104,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1016,10 +1196,13 @@
       },
       "onlineRev": 44750500,
       "onlineOrders": 102,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1032,7 +1215,7 @@
       },
       "onlineRev": 39889500,
       "onlineOrders": 80,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {
         "Lê Văn Sỹ": 438702750,
         "Nguyễn Trãi": 373044750,
@@ -1047,6 +1230,9 @@
       },
       "storeRev": 2657972200,
       "storeOnline": 592830415,
+      "storeTarget": 2800000000,
+      "custIn": 7319,
+      "custBuy": 7142,
       "memonRev": 0
     },
     {
@@ -1059,10 +1245,13 @@
       },
       "onlineRev": 69747870,
       "onlineOrders": 83,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1075,10 +1264,13 @@
       },
       "onlineRev": 35716960,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1091,10 +1283,13 @@
       },
       "onlineRev": 46272000,
       "onlineOrders": 99,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1107,10 +1302,13 @@
       },
       "onlineRev": 38063500,
       "onlineOrders": 86,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1123,10 +1321,13 @@
       },
       "onlineRev": 41198500,
       "onlineOrders": 102,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1139,10 +1340,13 @@
       },
       "onlineRev": 49439600,
       "onlineOrders": 79,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1155,10 +1359,13 @@
       },
       "onlineRev": 28500000,
       "onlineOrders": 61,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1171,10 +1378,13 @@
       },
       "onlineRev": 50566500,
       "onlineOrders": 110,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1187,10 +1397,13 @@
       },
       "onlineRev": 53546660,
       "onlineOrders": 124,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1203,10 +1416,13 @@
       },
       "onlineRev": 42262500,
       "onlineOrders": 89,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1219,10 +1435,13 @@
       },
       "onlineRev": 44424500,
       "onlineOrders": 95,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1235,10 +1454,13 @@
       },
       "onlineRev": 61406500,
       "onlineOrders": 67,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1251,10 +1473,13 @@
       },
       "onlineRev": 62876500,
       "onlineOrders": 98,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1267,10 +1492,13 @@
       },
       "onlineRev": 41034000,
       "onlineOrders": 92,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1283,10 +1511,13 @@
       },
       "onlineRev": 34650000,
       "onlineOrders": 82,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1299,10 +1530,13 @@
       },
       "onlineRev": 62310000,
       "onlineOrders": 106,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1315,10 +1549,13 @@
       },
       "onlineRev": 32159000,
       "onlineOrders": 81,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1331,10 +1568,13 @@
       },
       "onlineRev": 40267500,
       "onlineOrders": 90,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1347,10 +1587,13 @@
       },
       "onlineRev": 29950500,
       "onlineOrders": 66,
-      "onlineMsg": 0,
+      "onlineTarget": 26000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1363,10 +1606,13 @@
       },
       "onlineRev": 43057700,
       "onlineOrders": 83,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1379,10 +1625,13 @@
       },
       "onlineRev": 48592500,
       "onlineOrders": 89,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1395,10 +1644,13 @@
       },
       "onlineRev": 47349500,
       "onlineOrders": 83,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1411,10 +1663,13 @@
       },
       "onlineRev": 43242000,
       "onlineOrders": 100,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1427,10 +1682,13 @@
       },
       "onlineRev": 41133600,
       "onlineOrders": 102,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1443,10 +1701,13 @@
       },
       "onlineRev": 38218500,
       "onlineOrders": 78,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1459,10 +1720,13 @@
       },
       "onlineRev": 40962500,
       "onlineOrders": 72,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1475,10 +1739,13 @@
       },
       "onlineRev": 34516000,
       "onlineOrders": 87,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1491,10 +1758,13 @@
       },
       "onlineRev": 39640500,
       "onlineOrders": 78,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1507,10 +1777,13 @@
       },
       "onlineRev": 34006500,
       "onlineOrders": 78,
-      "onlineMsg": 0,
+      "onlineTarget": 29000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1523,10 +1796,13 @@
       },
       "onlineRev": 35550789,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 29000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1539,7 +1815,7 @@
       },
       "onlineRev": 46325500,
       "onlineOrders": 101,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {
         "Lê Văn Sỹ": 415199251,
         "Nguyễn Trãi": 398076000,
@@ -1554,6 +1830,9 @@
       },
       "storeRev": 2901327761,
       "storeOnline": 586026020,
+      "storeTarget": 2960000000,
+      "custIn": 7996,
+      "custBuy": 7663,
       "memonRev": 0
     },
     {
@@ -1566,10 +1845,13 @@
       },
       "onlineRev": 41347000,
       "onlineOrders": 75,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1582,10 +1864,13 @@
       },
       "onlineRev": 32570000,
       "onlineOrders": 68,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1598,10 +1883,13 @@
       },
       "onlineRev": 39833200,
       "onlineOrders": 79,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1614,10 +1902,13 @@
       },
       "onlineRev": 41474500,
       "onlineOrders": 98,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1630,10 +1921,13 @@
       },
       "onlineRev": 33640000,
       "onlineOrders": 29,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1646,10 +1940,13 @@
       },
       "onlineRev": 31570500,
       "onlineOrders": 86,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1662,10 +1959,13 @@
       },
       "onlineRev": 37702750,
       "onlineOrders": 94,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1678,10 +1978,13 @@
       },
       "onlineRev": 51889200,
       "onlineOrders": 82,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1694,10 +1997,13 @@
       },
       "onlineRev": 42952500,
       "onlineOrders": 102,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1710,10 +2016,13 @@
       },
       "onlineRev": 46314000,
       "onlineOrders": 106,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1726,10 +2035,13 @@
       },
       "onlineRev": 36848550,
       "onlineOrders": 77,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1742,10 +2054,13 @@
       },
       "onlineRev": 41012500,
       "onlineOrders": 81,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1758,10 +2073,13 @@
       },
       "onlineRev": 50407965,
       "onlineOrders": 93,
-      "onlineMsg": 0,
+      "onlineTarget": 28000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1774,10 +2092,13 @@
       },
       "onlineRev": 46382500,
       "onlineOrders": 90,
-      "onlineMsg": 0,
+      "onlineTarget": 28000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1790,10 +2111,13 @@
       },
       "onlineRev": 37688500,
       "onlineOrders": 93,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1806,10 +2130,13 @@
       },
       "onlineRev": 38101000,
       "onlineOrders": 80,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1822,10 +2149,13 @@
       },
       "onlineRev": 35632000,
       "onlineOrders": 61,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1838,10 +2168,13 @@
       },
       "onlineRev": 34816535,
       "onlineOrders": 73,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1854,10 +2187,13 @@
       },
       "onlineRev": 37559000,
       "onlineOrders": 90,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1870,10 +2206,13 @@
       },
       "onlineRev": 40988050,
       "onlineOrders": 84,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1886,10 +2225,13 @@
       },
       "onlineRev": 40756500,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1902,10 +2244,13 @@
       },
       "onlineRev": 32367500,
       "onlineOrders": 73,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1918,10 +2263,13 @@
       },
       "onlineRev": 30364500,
       "onlineOrders": 73,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1934,10 +2282,13 @@
       },
       "onlineRev": 28839000,
       "onlineOrders": 68,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1950,10 +2301,13 @@
       },
       "onlineRev": 19350000,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 23000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1966,10 +2320,13 @@
       },
       "onlineRev": 28516500,
       "onlineOrders": 66,
-      "onlineMsg": 0,
+      "onlineTarget": 28000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1982,10 +2339,13 @@
       },
       "onlineRev": 35211400,
       "onlineOrders": 77,
-      "onlineMsg": 0,
+      "onlineTarget": 28000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -1998,10 +2358,13 @@
       },
       "onlineRev": 24698500,
       "onlineOrders": 64,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2014,10 +2377,13 @@
       },
       "onlineRev": 26421750,
       "onlineOrders": 51,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2030,10 +2396,13 @@
       },
       "onlineRev": 20092150,
       "onlineOrders": 60,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2046,7 +2415,7 @@
       },
       "onlineRev": 19403000,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 23000000,
       "store": {
         "Nguyễn Trãi": 379345251,
         "Cầu Giấy": 375540750,
@@ -2062,6 +2431,9 @@
       },
       "storeRev": 2836117500,
       "storeOnline": 462755200,
+      "storeTarget": 3370000000,
+      "custIn": 7625,
+      "custBuy": 7250,
       "memonRev": 0
     },
     {
@@ -2074,10 +2446,13 @@
       },
       "onlineRev": 21920500,
       "onlineOrders": 39,
-      "onlineMsg": 0,
+      "onlineTarget": 20000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2090,10 +2465,13 @@
       },
       "onlineRev": 28090000,
       "onlineOrders": 60,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2106,10 +2484,13 @@
       },
       "onlineRev": 42246000,
       "onlineOrders": 63,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2122,10 +2503,13 @@
       },
       "onlineRev": 26119500,
       "onlineOrders": 58,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2138,10 +2522,13 @@
       },
       "onlineRev": 36359500,
       "onlineOrders": 69,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2154,10 +2541,13 @@
       },
       "onlineRev": 34568000,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2170,10 +2560,13 @@
       },
       "onlineRev": 23850000,
       "onlineOrders": 55,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2186,10 +2579,13 @@
       },
       "onlineRev": 25999000,
       "onlineOrders": 49,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2202,10 +2598,13 @@
       },
       "onlineRev": 30626000,
       "onlineOrders": 63,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2218,10 +2617,13 @@
       },
       "onlineRev": 27570000,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2234,10 +2636,13 @@
       },
       "onlineRev": 27656100,
       "onlineOrders": 51,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2250,10 +2655,13 @@
       },
       "onlineRev": 25500500,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 23000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2266,10 +2674,13 @@
       },
       "onlineRev": 32010000,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2282,10 +2693,13 @@
       },
       "onlineRev": 27794500,
       "onlineOrders": 47,
-      "onlineMsg": 0,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2298,10 +2712,13 @@
       },
       "onlineRev": 25405000,
       "onlineOrders": 22,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2314,10 +2731,13 @@
       },
       "onlineRev": 27162500,
       "onlineOrders": 53,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2330,10 +2750,13 @@
       },
       "onlineRev": 26391000,
       "onlineOrders": 51,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2346,10 +2769,13 @@
       },
       "onlineRev": 45423500,
       "onlineOrders": 91,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2362,10 +2788,13 @@
       },
       "onlineRev": 46368300,
       "onlineOrders": 100,
-      "onlineMsg": 0,
+      "onlineTarget": 26000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2378,10 +2807,13 @@
       },
       "onlineRev": 35873000,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2394,10 +2826,13 @@
       },
       "onlineRev": 37839350,
       "onlineOrders": 68,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2410,10 +2845,13 @@
       },
       "onlineRev": 49166500,
       "onlineOrders": 109,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2426,10 +2864,13 @@
       },
       "onlineRev": 129771300,
       "onlineOrders": 274,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2442,10 +2883,13 @@
       },
       "onlineRev": 166747000,
       "onlineOrders": 360,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2458,10 +2902,13 @@
       },
       "onlineRev": 173259000,
       "onlineOrders": 312,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2474,10 +2921,13 @@
       },
       "onlineRev": 101105000,
       "onlineOrders": 220,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2490,10 +2940,13 @@
       },
       "onlineRev": 100315800,
       "onlineOrders": 154,
-      "onlineMsg": 0,
+      "onlineTarget": 29000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2506,10 +2959,13 @@
       },
       "onlineRev": 79016500,
       "onlineOrders": 184,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2522,10 +2978,13 @@
       },
       "onlineRev": 51452750,
       "onlineOrders": 111,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2538,7 +2997,7 @@
       },
       "onlineRev": 71292640,
       "onlineOrders": 128,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {
         "Nguyễn Trãi": 744396000,
         "Nguyễn Gia Trí": 675261385,
@@ -2554,6 +3013,9 @@
       },
       "storeRev": 5580003247,
       "storeOnline": 767390050,
+      "storeTarget": 5410000000,
+      "custIn": 13840,
+      "custBuy": 13325,
       "memonRev": 0
     },
     {
@@ -2566,10 +3028,13 @@
       },
       "onlineRev": 61944500,
       "onlineOrders": 111,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2582,10 +3047,13 @@
       },
       "onlineRev": 60320250,
       "onlineOrders": 127,
-      "onlineMsg": 0,
+      "onlineTarget": 50000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2598,10 +3066,13 @@
       },
       "onlineRev": 49015280,
       "onlineOrders": 97,
-      "onlineMsg": 0,
+      "onlineTarget": 47000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2614,10 +3085,13 @@
       },
       "onlineRev": 89143500,
       "onlineOrders": 184,
-      "onlineMsg": 0,
+      "onlineTarget": 87000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2630,10 +3104,13 @@
       },
       "onlineRev": 86353000,
       "onlineOrders": 185,
-      "onlineMsg": 0,
+      "onlineTarget": 105000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2646,10 +3123,13 @@
       },
       "onlineRev": 40295000,
       "onlineOrders": 89,
-      "onlineMsg": 0,
+      "onlineTarget": 46000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2662,10 +3142,13 @@
       },
       "onlineRev": 49465000,
       "onlineOrders": 116,
-      "onlineMsg": 0,
+      "onlineTarget": 52000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2678,10 +3161,13 @@
       },
       "onlineRev": 56790910,
       "onlineOrders": 108,
-      "onlineMsg": 0,
+      "onlineTarget": 57000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2694,10 +3180,13 @@
       },
       "onlineRev": 90272100,
       "onlineOrders": 122,
-      "onlineMsg": 0,
+      "onlineTarget": 54000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2710,10 +3199,13 @@
       },
       "onlineRev": 59820000,
       "onlineOrders": 128,
-      "onlineMsg": 0,
+      "onlineTarget": 54000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2726,10 +3218,13 @@
       },
       "onlineRev": 75477500,
       "onlineOrders": 142,
-      "onlineMsg": 0,
+      "onlineTarget": 55000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2742,10 +3237,13 @@
       },
       "onlineRev": 63896500,
       "onlineOrders": 145,
-      "onlineMsg": 0,
+      "onlineTarget": 55000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2758,10 +3256,13 @@
       },
       "onlineRev": 65087520,
       "onlineOrders": 135,
-      "onlineMsg": 0,
+      "onlineTarget": 55000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2774,10 +3275,13 @@
       },
       "onlineRev": 67746000,
       "onlineOrders": 145,
-      "onlineMsg": 0,
+      "onlineTarget": 55000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2790,10 +3294,13 @@
       },
       "onlineRev": 90028000,
       "onlineOrders": 176,
-      "onlineMsg": 0,
+      "onlineTarget": 55000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2806,10 +3313,13 @@
       },
       "onlineRev": 73529200,
       "onlineOrders": 153,
-      "onlineMsg": 0,
+      "onlineTarget": 55000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2822,10 +3332,13 @@
       },
       "onlineRev": 100289000,
       "onlineOrders": 201,
-      "onlineMsg": 0,
+      "onlineTarget": 120000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2838,10 +3351,13 @@
       },
       "onlineRev": 120722500,
       "onlineOrders": 239,
-      "onlineMsg": 0,
+      "onlineTarget": 135000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2854,10 +3370,13 @@
       },
       "onlineRev": 163883000,
       "onlineOrders": 166,
-      "onlineMsg": 0,
+      "onlineTarget": 150000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2870,10 +3389,13 @@
       },
       "onlineRev": 70009000,
       "onlineOrders": 148,
-      "onlineMsg": 0,
+      "onlineTarget": 83000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2886,10 +3408,13 @@
       },
       "onlineRev": 46130000,
       "onlineOrders": 69,
-      "onlineMsg": 0,
+      "onlineTarget": 53000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2902,10 +3427,13 @@
       },
       "onlineRev": 64513500,
       "onlineOrders": 108,
-      "onlineMsg": 0,
+      "onlineTarget": 53000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2918,10 +3446,13 @@
       },
       "onlineRev": 44726000,
       "onlineOrders": 81,
-      "onlineMsg": 0,
+      "onlineTarget": 53000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2934,10 +3465,13 @@
       },
       "onlineRev": 39399000,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2950,10 +3484,13 @@
       },
       "onlineRev": 35965000,
       "onlineOrders": 72,
-      "onlineMsg": 0,
+      "onlineTarget": 26000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2966,10 +3503,13 @@
       },
       "onlineRev": 64284480,
       "onlineOrders": 92,
-      "onlineMsg": 0,
+      "onlineTarget": 66000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2982,10 +3522,13 @@
       },
       "onlineRev": 35618500,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 46000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -2998,10 +3541,13 @@
       },
       "onlineRev": 30203000,
       "onlineOrders": 59,
-      "onlineMsg": 0,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3014,10 +3560,13 @@
       },
       "onlineRev": 48902500,
       "onlineOrders": 78,
-      "onlineMsg": 0,
+      "onlineTarget": 46000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3030,10 +3579,13 @@
       },
       "onlineRev": 45053500,
       "onlineOrders": 85,
-      "onlineMsg": 0,
+      "onlineTarget": 53000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3046,7 +3598,7 @@
       },
       "onlineRev": 25322500,
       "onlineOrders": 55,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {
         "Nguyễn Gia Trí": 393760250,
         "Nguyễn Trãi": 403109252,
@@ -3062,6 +3614,9 @@
       },
       "storeRev": 3068688931,
       "storeOnline": 597446974,
+      "storeTarget": 3960000000,
+      "custIn": 8322,
+      "custBuy": 7891,
       "memonRev": 0
     },
     {
@@ -3074,10 +3629,13 @@
       },
       "onlineRev": 43827000,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3090,10 +3648,13 @@
       },
       "onlineRev": 55261000,
       "onlineOrders": 90,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3106,10 +3667,13 @@
       },
       "onlineRev": 52462500,
       "onlineOrders": 99,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3122,10 +3686,13 @@
       },
       "onlineRev": 32639522,
       "onlineOrders": 52,
-      "onlineMsg": 0,
+      "onlineTarget": 35000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3138,10 +3705,13 @@
       },
       "onlineRev": 39280000,
       "onlineOrders": 66,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3154,10 +3724,13 @@
       },
       "onlineRev": 43053600,
       "onlineOrders": 73,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3170,10 +3743,13 @@
       },
       "onlineRev": 50986000,
       "onlineOrders": 73,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3186,10 +3762,13 @@
       },
       "onlineRev": 56370000,
       "onlineOrders": 98,
-      "onlineMsg": 0,
+      "onlineTarget": 45000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3202,10 +3781,13 @@
       },
       "onlineRev": 56262500,
       "onlineOrders": 89,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3218,10 +3800,13 @@
       },
       "onlineRev": 30787500,
       "onlineOrders": 64,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3234,10 +3819,13 @@
       },
       "onlineRev": 50687500,
       "onlineOrders": 77,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3250,10 +3838,13 @@
       },
       "onlineRev": 40357500,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3266,10 +3857,13 @@
       },
       "onlineRev": 47440800,
       "onlineOrders": 78,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3282,10 +3876,13 @@
       },
       "onlineRev": 44568500,
       "onlineOrders": 77,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3298,10 +3895,13 @@
       },
       "onlineRev": 31873500,
       "onlineOrders": 64,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3314,10 +3914,13 @@
       },
       "onlineRev": 36609000,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3330,10 +3933,13 @@
       },
       "onlineRev": 41503550,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3346,10 +3952,13 @@
       },
       "onlineRev": 43052000,
       "onlineOrders": 100,
-      "onlineMsg": 0,
+      "onlineTarget": 48000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3362,10 +3971,13 @@
       },
       "onlineRev": 69393000,
       "onlineOrders": 99,
-      "onlineMsg": 0,
+      "onlineTarget": 66000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3378,10 +3990,13 @@
       },
       "onlineRev": 44884500,
       "onlineOrders": 76,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3394,10 +4009,13 @@
       },
       "onlineRev": 29526000,
       "onlineOrders": 67,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3410,10 +4028,13 @@
       },
       "onlineRev": 34749500,
       "onlineOrders": 67,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3426,10 +4047,13 @@
       },
       "onlineRev": 27548300,
       "onlineOrders": 61,
-      "onlineMsg": 0,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3442,10 +4066,13 @@
       },
       "onlineRev": 29024250,
       "onlineOrders": 64,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3458,10 +4085,13 @@
       },
       "onlineRev": 49332000,
       "onlineOrders": 73,
-      "onlineMsg": 0,
+      "onlineTarget": 50000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3474,10 +4104,13 @@
       },
       "onlineRev": 45131500,
       "onlineOrders": 73,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3490,10 +4123,13 @@
       },
       "onlineRev": 32811000,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3506,10 +4142,13 @@
       },
       "onlineRev": 69721000,
       "onlineOrders": 97,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3522,10 +4161,13 @@
       },
       "onlineRev": 32707600,
       "onlineOrders": 66,
-      "onlineMsg": 0,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3538,7 +4180,7 @@
       },
       "onlineRev": 46292350,
       "onlineOrders": 72,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {
         "Nguyễn Trãi": 518578223,
         "Xuân Thuỷ": 487536543,
@@ -3554,6 +4196,9 @@
       },
       "storeRev": 4183999304,
       "storeOnline": 978300741,
+      "storeTarget": 4770000000,
+      "custIn": 10176,
+      "custBuy": 9904,
       "memonRev": 0
     },
     {
@@ -3566,10 +4211,13 @@
       },
       "onlineRev": 47389950,
       "onlineOrders": 69,
-      "onlineMsg": 0,
+      "onlineTarget": 52000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3582,10 +4230,13 @@
       },
       "onlineRev": 52053500,
       "onlineOrders": 83,
-      "onlineMsg": 0,
+      "onlineTarget": 52000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3598,10 +4249,13 @@
       },
       "onlineRev": 64797000,
       "onlineOrders": 98,
-      "onlineMsg": 0,
+      "onlineTarget": 52000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3614,10 +4268,13 @@
       },
       "onlineRev": 61347000,
       "onlineOrders": 91,
-      "onlineMsg": 0,
+      "onlineTarget": 52000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3630,10 +4287,13 @@
       },
       "onlineRev": 37857500,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3646,10 +4306,13 @@
       },
       "onlineRev": 45000250,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3662,10 +4325,13 @@
       },
       "onlineRev": 42024900,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3678,10 +4344,13 @@
       },
       "onlineRev": 38867000,
       "onlineOrders": 61,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3694,10 +4363,13 @@
       },
       "onlineRev": 63387800,
       "onlineOrders": 83,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3710,10 +4382,13 @@
       },
       "onlineRev": 46393500,
       "onlineOrders": 80,
-      "onlineMsg": 0,
+      "onlineTarget": 49000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3726,10 +4401,13 @@
       },
       "onlineRev": 64291860,
       "onlineOrders": 76,
-      "onlineMsg": 0,
+      "onlineTarget": 51000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3742,10 +4420,13 @@
       },
       "onlineRev": 46980900,
       "onlineOrders": 79,
-      "onlineMsg": 0,
+      "onlineTarget": 51000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3758,10 +4439,13 @@
       },
       "onlineRev": 54579340,
       "onlineOrders": 74,
-      "onlineMsg": 0,
+      "onlineTarget": 46000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3774,10 +4458,13 @@
       },
       "onlineRev": 43407250,
       "onlineOrders": 79,
-      "onlineMsg": 0,
+      "onlineTarget": 51000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3790,10 +4477,13 @@
       },
       "onlineRev": 53846300,
       "onlineOrders": 102,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3806,10 +4496,13 @@
       },
       "onlineRev": 58002400,
       "onlineOrders": 89,
-      "onlineMsg": 0,
+      "onlineTarget": 51000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3822,10 +4515,13 @@
       },
       "onlineRev": 54269000,
       "onlineOrders": 100,
-      "onlineMsg": 0,
+      "onlineTarget": 46000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3838,10 +4534,13 @@
       },
       "onlineRev": 55942000,
       "onlineOrders": 88,
-      "onlineMsg": 0,
+      "onlineTarget": 45000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3854,10 +4553,13 @@
       },
       "onlineRev": 82210200,
       "onlineOrders": 105,
-      "onlineMsg": 0,
+      "onlineTarget": 50000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3870,10 +4572,13 @@
       },
       "onlineRev": 57385000,
       "onlineOrders": 106,
-      "onlineMsg": 0,
+      "onlineTarget": 50000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3886,10 +4591,13 @@
       },
       "onlineRev": 97975000,
       "onlineOrders": 178,
-      "onlineMsg": 0,
+      "onlineTarget": 65000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3902,10 +4610,13 @@
       },
       "onlineRev": 111803700,
       "onlineOrders": 214,
-      "onlineMsg": 0,
+      "onlineTarget": 97000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3918,10 +4629,13 @@
       },
       "onlineRev": 168152852,
       "onlineOrders": 305,
-      "onlineMsg": 0,
+      "onlineTarget": 126000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3934,10 +4648,13 @@
       },
       "onlineRev": 93640800,
       "onlineOrders": 147,
-      "onlineMsg": 0,
+      "onlineTarget": 70000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3950,10 +4667,13 @@
       },
       "onlineRev": 32027000,
       "onlineOrders": 59,
-      "onlineMsg": 0,
+      "onlineTarget": 52000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3966,10 +4686,13 @@
       },
       "onlineRev": 40343000,
       "onlineOrders": 63,
-      "onlineMsg": 0,
+      "onlineTarget": 51000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3982,10 +4705,13 @@
       },
       "onlineRev": 21568500,
       "onlineOrders": 40,
-      "onlineMsg": 0,
+      "onlineTarget": 41000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -3998,10 +4724,13 @@
       },
       "onlineRev": 32291500,
       "onlineOrders": 51,
-      "onlineMsg": 0,
+      "onlineTarget": 41000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4014,10 +4743,13 @@
       },
       "onlineRev": 33840800,
       "onlineOrders": 48,
-      "onlineMsg": 0,
+      "onlineTarget": 55000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4030,10 +4762,13 @@
       },
       "onlineRev": 43624200,
       "onlineOrders": 76,
-      "onlineMsg": 0,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4046,7 +4781,7 @@
       },
       "onlineRev": 23822500,
       "onlineOrders": 39,
-      "onlineMsg": 0,
+      "onlineTarget": 25000000,
       "store": {
         "Nguyễn Gia Trí": 299050600,
         "Nguyễn Trãi": 288679500,
@@ -4062,6 +4797,9 @@
       },
       "storeRev": 2320875350,
       "storeOnline": 585268801,
+      "storeTarget": 3230000000,
+      "custIn": 5776,
+      "custBuy": 5469,
       "memonRev": 0
     },
     {
@@ -4074,10 +4812,13 @@
       },
       "onlineRev": 27119200,
       "onlineOrders": 49,
-      "onlineMsg": 0,
+      "onlineTarget": 31500000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4090,10 +4831,13 @@
       },
       "onlineRev": 23001500,
       "onlineOrders": 40,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4106,10 +4850,13 @@
       },
       "onlineRev": 23707250,
       "onlineOrders": 37,
-      "onlineMsg": 0,
+      "onlineTarget": 38000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4122,10 +4869,13 @@
       },
       "onlineRev": 29330250,
       "onlineOrders": 43,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4138,10 +4888,13 @@
       },
       "onlineRev": 32950000,
       "onlineOrders": 56,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4154,10 +4907,13 @@
       },
       "onlineRev": 44425250,
       "onlineOrders": 64,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4170,10 +4926,13 @@
       },
       "onlineRev": 30816100,
       "onlineOrders": 56,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4186,10 +4945,13 @@
       },
       "onlineRev": 34889500,
       "onlineOrders": 52,
-      "onlineMsg": 0,
+      "onlineTarget": 35500000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4202,10 +4964,13 @@
       },
       "onlineRev": 29817500,
       "onlineOrders": 51,
-      "onlineMsg": 0,
+      "onlineTarget": 25000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4218,10 +4983,13 @@
       },
       "onlineRev": 23573750,
       "onlineOrders": 49,
-      "onlineMsg": 0,
+      "onlineTarget": 35500000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4234,10 +5002,13 @@
       },
       "onlineRev": 49569600,
       "onlineOrders": 72,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4250,10 +5021,13 @@
       },
       "onlineRev": 29907000,
       "onlineOrders": 53,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4266,10 +5040,13 @@
       },
       "onlineRev": 27823500,
       "onlineOrders": 40,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4282,10 +5059,13 @@
       },
       "onlineRev": 54721750,
       "onlineOrders": 69,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4298,10 +5078,13 @@
       },
       "onlineRev": 76592500,
       "onlineOrders": 69,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4314,10 +5097,13 @@
       },
       "onlineRev": 44365000,
       "onlineOrders": 92,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4330,10 +5116,13 @@
       },
       "onlineRev": 60334500,
       "onlineOrders": 132,
-      "onlineMsg": 0,
+      "onlineTarget": 25000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4346,10 +5135,13 @@
       },
       "onlineRev": 52718000,
       "onlineOrders": 110,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4362,10 +5154,13 @@
       },
       "onlineRev": 50060500,
       "onlineOrders": 100,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4378,10 +5173,13 @@
       },
       "onlineRev": 39445500,
       "onlineOrders": 72,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4394,10 +5192,13 @@
       },
       "onlineRev": 53993250,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4410,10 +5211,13 @@
       },
       "onlineRev": 37845500,
       "onlineOrders": 76,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4426,10 +5230,13 @@
       },
       "onlineRev": 29911750,
       "onlineOrders": 65,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4442,10 +5249,13 @@
       },
       "onlineRev": 37699000,
       "onlineOrders": 60,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4458,10 +5268,13 @@
       },
       "onlineRev": 37938500,
       "onlineOrders": 65,
-      "onlineMsg": 0,
+      "onlineTarget": 35500000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4474,10 +5287,13 @@
       },
       "onlineRev": 37797750,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4490,10 +5306,13 @@
       },
       "onlineRev": 20793000,
       "onlineOrders": 32,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4506,10 +5325,13 @@
       },
       "onlineRev": 54714800,
       "onlineOrders": 78,
-      "onlineMsg": 0,
+      "onlineTarget": 31500000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4522,10 +5344,13 @@
       },
       "onlineRev": 36635500,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4538,10 +5363,13 @@
       },
       "onlineRev": 58292000,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4554,7 +5382,7 @@
       },
       "onlineRev": 29273500,
       "onlineOrders": 54,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {
         "Nguyễn Trãi": 330504500,
         "Xuân Thuỷ": 327659750,
@@ -4570,6 +5398,9 @@
       },
       "storeRev": 2494582207,
       "storeOnline": 551202201,
+      "storeTarget": 4000000000,
+      "custIn": 6072,
+      "custBuy": 5735,
       "memonRev": 0
     },
     {
@@ -4582,10 +5413,13 @@
       },
       "onlineRev": 60622000,
       "onlineOrders": 67,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4598,10 +5432,13 @@
       },
       "onlineRev": 34808000,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4614,10 +5451,13 @@
       },
       "onlineRev": 42606500,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4630,10 +5470,13 @@
       },
       "onlineRev": 47446500,
       "onlineOrders": 77,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4646,10 +5489,13 @@
       },
       "onlineRev": 47573500,
       "onlineOrders": 79,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4662,10 +5508,13 @@
       },
       "onlineRev": 47701250,
       "onlineOrders": 90,
-      "onlineMsg": 0,
+      "onlineTarget": 55000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4678,10 +5527,13 @@
       },
       "onlineRev": 45856500,
       "onlineOrders": 84,
-      "onlineMsg": 0,
+      "onlineTarget": 48000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4694,10 +5546,13 @@
       },
       "onlineRev": 40461010,
       "onlineOrders": 83,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4710,10 +5565,13 @@
       },
       "onlineRev": 41946250,
       "onlineOrders": 78,
-      "onlineMsg": 0,
+      "onlineTarget": 48000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4726,10 +5584,13 @@
       },
       "onlineRev": 51954009,
       "onlineOrders": 92,
-      "onlineMsg": 0,
+      "onlineTarget": 48000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4742,10 +5603,13 @@
       },
       "onlineRev": 39559250,
       "onlineOrders": 77,
-      "onlineMsg": 0,
+      "onlineTarget": 68000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4758,10 +5622,13 @@
       },
       "onlineRev": 61019500,
       "onlineOrders": 104,
-      "onlineMsg": 0,
+      "onlineTarget": 68000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4774,10 +5641,13 @@
       },
       "onlineRev": 49544500,
       "onlineOrders": 77,
-      "onlineMsg": 0,
+      "onlineTarget": 78000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4790,10 +5660,13 @@
       },
       "onlineRev": 1065000,
       "onlineOrders": 3,
-      "onlineMsg": 0,
+      "onlineTarget": 8000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4806,10 +5679,13 @@
       },
       "onlineRev": 0,
       "onlineOrders": 0,
-      "onlineMsg": 0,
+      "onlineTarget": 0,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4822,10 +5698,13 @@
       },
       "onlineRev": 0,
       "onlineOrders": 0,
-      "onlineMsg": 0,
+      "onlineTarget": 0,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4838,10 +5717,13 @@
       },
       "onlineRev": 0,
       "onlineOrders": 0,
-      "onlineMsg": 0,
+      "onlineTarget": 0,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4854,10 +5736,13 @@
       },
       "onlineRev": 0,
       "onlineOrders": 0,
-      "onlineMsg": 0,
+      "onlineTarget": 0,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4870,10 +5755,13 @@
       },
       "onlineRev": 4366000,
       "onlineOrders": 7,
-      "onlineMsg": 0,
+      "onlineTarget": 17000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4886,10 +5774,13 @@
       },
       "onlineRev": 18276500,
       "onlineOrders": 32,
-      "onlineMsg": 0,
+      "onlineTarget": 17000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4902,10 +5793,13 @@
       },
       "onlineRev": 35368000,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 20000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4918,10 +5812,13 @@
       },
       "onlineRev": 22169500,
       "onlineOrders": 39,
-      "onlineMsg": 0,
+      "onlineTarget": 28000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4934,10 +5831,13 @@
       },
       "onlineRev": 49953000,
       "onlineOrders": 81,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4950,10 +5850,13 @@
       },
       "onlineRev": 53638500,
       "onlineOrders": 85,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4966,10 +5869,13 @@
       },
       "onlineRev": 52461000,
       "onlineOrders": 88,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4982,10 +5888,13 @@
       },
       "onlineRev": 46693500,
       "onlineOrders": 94,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -4998,10 +5907,13 @@
       },
       "onlineRev": 61466000,
       "onlineOrders": 108,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5014,7 +5926,7 @@
       },
       "onlineRev": 65436500,
       "onlineOrders": 127,
-      "onlineMsg": 0,
+      "onlineTarget": 45000000,
       "store": {
         "Nguyễn Trãi": 548820250,
         "Xuân Thuỷ": 539038800,
@@ -5030,6 +5942,9 @@
       },
       "storeRev": 4413268870,
       "storeOnline": 950724918,
+      "storeTarget": 5070000000,
+      "custIn": 10632,
+      "custBuy": 9953,
       "memonRev": 0
     },
     {
@@ -5042,10 +5957,13 @@
       },
       "onlineRev": 66957486,
       "onlineOrders": 104,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5058,10 +5976,13 @@
       },
       "onlineRev": 83113993,
       "onlineOrders": 128,
-      "onlineMsg": 0,
+      "onlineTarget": 49000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5074,10 +5995,13 @@
       },
       "onlineRev": 87852489,
       "onlineOrders": 150,
-      "onlineMsg": 0,
+      "onlineTarget": 42000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5090,10 +6014,13 @@
       },
       "onlineRev": 112778991,
       "onlineOrders": 160,
-      "onlineMsg": 0,
+      "onlineTarget": 125000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5106,10 +6033,13 @@
       },
       "onlineRev": 126720994,
       "onlineOrders": 209,
-      "onlineMsg": 0,
+      "onlineTarget": 140000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5122,10 +6052,13 @@
       },
       "onlineRev": 161356249,
       "onlineOrders": 281,
-      "onlineMsg": 0,
+      "onlineTarget": 165000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5138,10 +6071,13 @@
       },
       "onlineRev": 238162000,
       "onlineOrders": 377,
-      "onlineMsg": 0,
+      "onlineTarget": 165000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5154,10 +6090,13 @@
       },
       "onlineRev": 71404413,
       "onlineOrders": 121,
-      "onlineMsg": 0,
+      "onlineTarget": 69000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5170,10 +6109,13 @@
       },
       "onlineRev": 42552998,
       "onlineOrders": 98,
-      "onlineMsg": 0,
+      "onlineTarget": 48000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5186,10 +6128,13 @@
       },
       "onlineRev": 31892750,
       "onlineOrders": 62,
-      "onlineMsg": 0,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5202,10 +6147,13 @@
       },
       "onlineRev": 44030999,
       "onlineOrders": 66,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5218,10 +6166,13 @@
       },
       "onlineRev": 42990000,
       "onlineOrders": 72,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5234,10 +6185,13 @@
       },
       "onlineRev": 41439500,
       "onlineOrders": 80,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5250,10 +6204,13 @@
       },
       "onlineRev": 30184000,
       "onlineOrders": 45,
-      "onlineMsg": 0,
+      "onlineTarget": 37000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5266,10 +6223,13 @@
       },
       "onlineRev": 26044499,
       "onlineOrders": 54,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5282,10 +6242,13 @@
       },
       "onlineRev": 37409996,
       "onlineOrders": 58,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5298,10 +6261,13 @@
       },
       "onlineRev": 39523000,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5314,10 +6280,13 @@
       },
       "onlineRev": 17968998,
       "onlineOrders": 41,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5330,10 +6299,13 @@
       },
       "onlineRev": 28027248,
       "onlineOrders": 52,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5346,10 +6318,13 @@
       },
       "onlineRev": 27024997,
       "onlineOrders": 60,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5362,10 +6337,13 @@
       },
       "onlineRev": 26880998,
       "onlineOrders": 45,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5378,10 +6356,13 @@
       },
       "onlineRev": 17438999,
       "onlineOrders": 33,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5394,10 +6375,13 @@
       },
       "onlineRev": 19912496,
       "onlineOrders": 37,
-      "onlineMsg": 0,
+      "onlineTarget": 23000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5410,10 +6394,13 @@
       },
       "onlineRev": 20504997,
       "onlineOrders": 34,
-      "onlineMsg": 0,
+      "onlineTarget": 43000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5426,10 +6413,13 @@
       },
       "onlineRev": 20213980,
       "onlineOrders": 39,
-      "onlineMsg": 0,
+      "onlineTarget": 43000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5442,10 +6432,13 @@
       },
       "onlineRev": 27441499,
       "onlineOrders": 54,
-      "onlineMsg": 0,
+      "onlineTarget": 43000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5458,10 +6451,13 @@
       },
       "onlineRev": 21506900,
       "onlineOrders": 35,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5474,10 +6470,13 @@
       },
       "onlineRev": 21290000,
       "onlineOrders": 37,
-      "onlineMsg": 0,
+      "onlineTarget": 29000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5490,10 +6489,13 @@
       },
       "onlineRev": 30178000,
       "onlineOrders": 43,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5506,10 +6508,13 @@
       },
       "onlineRev": 15975500,
       "onlineOrders": 29,
-      "onlineMsg": 0,
+      "onlineTarget": 33000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5522,7 +6527,7 @@
       },
       "onlineRev": 21766000,
       "onlineOrders": 41,
-      "onlineMsg": 0,
+      "onlineTarget": 26000000,
       "store": {
         "Nguyễn Trãi": 293178000,
         "Xuân Thuỷ": 280129000,
@@ -5538,6 +6543,9 @@
       },
       "storeRev": 2157878501,
       "storeOnline": 397815750,
+      "storeTarget": 3570000000,
+      "custIn": 5108,
+      "custBuy": 4664,
       "memonRev": 0
     },
     {
@@ -5550,10 +6558,13 @@
       },
       "onlineRev": 21877500,
       "onlineOrders": 31,
-      "onlineMsg": 0,
+      "onlineTarget": 23000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5566,10 +6577,13 @@
       },
       "onlineRev": 24262000,
       "onlineOrders": 46,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5582,10 +6596,13 @@
       },
       "onlineRev": 15002002,
       "onlineOrders": 29,
-      "onlineMsg": 0,
+      "onlineTarget": 21000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5598,10 +6615,13 @@
       },
       "onlineRev": 20143003,
       "onlineOrders": 34,
-      "onlineMsg": 0,
+      "onlineTarget": 22000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5614,10 +6634,13 @@
       },
       "onlineRev": 27628750,
       "onlineOrders": 37,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5630,10 +6653,13 @@
       },
       "onlineRev": 25083500,
       "onlineOrders": 51,
-      "onlineMsg": 0,
+      "onlineTarget": 28000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5646,10 +6672,13 @@
       },
       "onlineRev": 20222000,
       "onlineOrders": 31,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5662,10 +6691,13 @@
       },
       "onlineRev": 29967261,
       "onlineOrders": 43,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5678,10 +6710,13 @@
       },
       "onlineRev": 26725000,
       "onlineOrders": 47,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5694,10 +6729,13 @@
       },
       "onlineRev": 23037499,
       "onlineOrders": 40,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5710,10 +6748,13 @@
       },
       "onlineRev": 16647998,
       "onlineOrders": 29,
-      "onlineMsg": 0,
+      "onlineTarget": 25000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5726,10 +6767,13 @@
       },
       "onlineRev": 22070423,
       "onlineOrders": 38,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5742,10 +6786,13 @@
       },
       "onlineRev": 20895000,
       "onlineOrders": 34,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5758,10 +6805,13 @@
       },
       "onlineRev": 31981360,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 36000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5774,10 +6824,13 @@
       },
       "onlineRev": 26276500,
       "onlineOrders": 38,
-      "onlineMsg": 0,
+      "onlineTarget": 23000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5790,10 +6843,13 @@
       },
       "onlineRev": 30495499,
       "onlineOrders": 50,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5806,10 +6862,13 @@
       },
       "onlineRev": 34721256,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5822,10 +6881,13 @@
       },
       "onlineRev": 19340749,
       "onlineOrders": 34,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5838,10 +6900,13 @@
       },
       "onlineRev": 13097800,
       "onlineOrders": 23,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5854,10 +6919,13 @@
       },
       "onlineRev": 30197252,
       "onlineOrders": 48,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5870,10 +6938,13 @@
       },
       "onlineRev": 28949555,
       "onlineOrders": 48,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5886,10 +6957,13 @@
       },
       "onlineRev": 20663955,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5902,10 +6976,13 @@
       },
       "onlineRev": 26078500,
       "onlineOrders": 50,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5918,10 +6995,13 @@
       },
       "onlineRev": 15317999,
       "onlineOrders": 27,
-      "onlineMsg": 0,
+      "onlineTarget": 22000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5934,10 +7014,13 @@
       },
       "onlineRev": 14250000,
       "onlineOrders": 23,
-      "onlineMsg": 0,
+      "onlineTarget": 18000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5950,10 +7033,13 @@
       },
       "onlineRev": 20148000,
       "onlineOrders": 33,
-      "onlineMsg": 0,
+      "onlineTarget": 20000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5966,10 +7052,13 @@
       },
       "onlineRev": 15777298,
       "onlineOrders": 29,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5982,10 +7071,13 @@
       },
       "onlineRev": 16228748,
       "onlineOrders": 27,
-      "onlineMsg": 0,
+      "onlineTarget": 24000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -5998,10 +7090,13 @@
       },
       "onlineRev": 16691500,
       "onlineOrders": 28,
-      "onlineMsg": 0,
+      "onlineTarget": 15000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6014,7 +7109,7 @@
       },
       "onlineRev": 14340000,
       "onlineOrders": 25,
-      "onlineMsg": 0,
+      "onlineTarget": 24000000,
       "store": {
         "Nguyễn Trãi": 333520661,
         "Lê Văn Sỹ": 264404250,
@@ -6031,6 +7126,9 @@
       },
       "storeRev": 2346820161,
       "storeOnline": 487577500,
+      "storeTarget": 3430000000,
+      "custIn": 5370,
+      "custBuy": 5013,
       "memonRev": 0
     },
     {
@@ -6043,10 +7141,13 @@
       },
       "onlineRev": 19422500,
       "onlineOrders": 32,
-      "onlineMsg": 0,
+      "onlineTarget": 29000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6059,10 +7160,13 @@
       },
       "onlineRev": 18079500,
       "onlineOrders": 30,
-      "onlineMsg": 0,
+      "onlineTarget": 27000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6075,10 +7179,13 @@
       },
       "onlineRev": 20493500,
       "onlineOrders": 38,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6091,10 +7198,13 @@
       },
       "onlineRev": 34199500,
       "onlineOrders": 54,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6107,10 +7217,13 @@
       },
       "onlineRev": 27355000,
       "onlineOrders": 48,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6123,10 +7236,13 @@
       },
       "onlineRev": 37270000,
       "onlineOrders": 44,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6139,10 +7255,13 @@
       },
       "onlineRev": 29259500,
       "onlineOrders": 47,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6155,10 +7274,13 @@
       },
       "onlineRev": 24471750,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 26000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6171,10 +7293,13 @@
       },
       "onlineRev": 23672000,
       "onlineOrders": 45,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6187,10 +7312,13 @@
       },
       "onlineRev": 24794250,
       "onlineOrders": 37,
-      "onlineMsg": 0,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6203,10 +7331,13 @@
       },
       "onlineRev": 36048000,
       "onlineOrders": 45,
-      "onlineMsg": 0,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6219,10 +7350,13 @@
       },
       "onlineRev": 36150000,
       "onlineOrders": 38,
-      "onlineMsg": 0,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6235,10 +7369,13 @@
       },
       "onlineRev": 29524000,
       "onlineOrders": 37,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6251,10 +7388,13 @@
       },
       "onlineRev": 32595000,
       "onlineOrders": 45,
-      "onlineMsg": 0,
+      "onlineTarget": 40000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6267,10 +7407,13 @@
       },
       "onlineRev": 28925500,
       "onlineOrders": 53,
-      "onlineMsg": 0,
+      "onlineTarget": 43000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6283,10 +7426,13 @@
       },
       "onlineRev": 23889250,
       "onlineOrders": 49,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6299,10 +7445,13 @@
       },
       "onlineRev": 27053694,
       "onlineOrders": 35,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6315,10 +7464,13 @@
       },
       "onlineRev": 23214042,
       "onlineOrders": 36,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6331,10 +7483,13 @@
       },
       "onlineRev": 24794000,
       "onlineOrders": 47,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6347,10 +7502,13 @@
       },
       "onlineRev": 31518500,
       "onlineOrders": 49,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6363,10 +7521,13 @@
       },
       "onlineRev": 58151720,
       "onlineOrders": 58,
-      "onlineMsg": 0,
+      "onlineTarget": 39000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6379,10 +7540,13 @@
       },
       "onlineRev": 53393750,
       "onlineOrders": 60,
-      "onlineMsg": 0,
+      "onlineTarget": 45000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6395,10 +7559,13 @@
       },
       "onlineRev": 25145500,
       "onlineOrders": 38,
-      "onlineMsg": 0,
+      "onlineTarget": 30000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6411,10 +7578,13 @@
       },
       "onlineRev": 27558500,
       "onlineOrders": 50,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6427,10 +7597,13 @@
       },
       "onlineRev": 32579128,
       "onlineOrders": 48,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6443,10 +7616,13 @@
       },
       "onlineRev": 73784000,
       "onlineOrders": 65,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6459,10 +7635,13 @@
       },
       "onlineRev": 36891500,
       "onlineOrders": 52,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6475,10 +7654,13 @@
       },
       "onlineRev": 45512750,
       "onlineOrders": 64,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6491,10 +7673,13 @@
       },
       "onlineRev": 29433000,
       "onlineOrders": 54,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6507,10 +7692,13 @@
       },
       "onlineRev": 41605000,
       "onlineOrders": 70,
-      "onlineMsg": 0,
+      "onlineTarget": 44000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6523,12 +7711,12 @@
       },
       "onlineRev": 102994500,
       "onlineOrders": 187,
-      "onlineMsg": 0,
+      "onlineTarget": 100000000,
       "store": {
         "Nguyễn Trãi": 194769748,
         "Xuân Thuỷ": 183000000,
         "Láng": 178032500,
-        "Nguyễn Gia Trí": 163586000,
+        "Nguyễn Gia Trí": 164076000,
         "Lê Văn Sỹ": 149532500,
         "Cầu Giấy": 161915250,
         "Bạch Mai": 155910252,
@@ -6538,8 +7726,11 @@
         "(?)": 0,
         "Tây Sơn": 0
       },
-      "storeRev": 1463750500,
-      "storeOnline": 218515502,
+      "storeRev": 1464240500,
+      "storeOnline": 220145502,
+      "storeTarget": 3310000000,
+      "custIn": 3079,
+      "custBuy": 2838,
       "memonRev": 0
     },
     {
@@ -6552,10 +7743,13 @@
       },
       "onlineRev": 34152500,
       "onlineOrders": 56,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6568,10 +7762,13 @@
       },
       "onlineRev": 27775000,
       "onlineOrders": 40,
-      "onlineMsg": 0,
+      "onlineTarget": 41000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6584,10 +7781,13 @@
       },
       "onlineRev": 64850000,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6600,10 +7800,13 @@
       },
       "onlineRev": 22017725,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 41000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6616,10 +7819,13 @@
       },
       "onlineRev": 15434500,
       "onlineOrders": 33,
-      "onlineMsg": 0,
+      "onlineTarget": 34000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6632,10 +7838,13 @@
       },
       "onlineRev": 27002500,
       "onlineOrders": 32,
-      "onlineMsg": 0,
+      "onlineTarget": 41000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6648,10 +7857,13 @@
       },
       "onlineRev": 23442500,
       "onlineOrders": 37,
-      "onlineMsg": 0,
+      "onlineTarget": 31000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6664,10 +7876,13 @@
       },
       "onlineRev": 26141000,
       "onlineOrders": 38,
-      "onlineMsg": 0,
+      "onlineTarget": 41000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6680,10 +7895,13 @@
       },
       "onlineRev": 25969000,
       "onlineOrders": 42,
-      "onlineMsg": 0,
+      "onlineTarget": 41000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6696,10 +7914,13 @@
       },
       "onlineRev": 22945000,
       "onlineOrders": 52,
-      "onlineMsg": 0,
+      "onlineTarget": 41000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6712,10 +7933,13 @@
       },
       "onlineRev": 19415000,
       "onlineOrders": 25,
-      "onlineMsg": 0,
+      "onlineTarget": 32000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6728,10 +7952,13 @@
       },
       "onlineRev": 19707500,
       "onlineOrders": 36,
-      "onlineMsg": 0,
+      "onlineTarget": 51000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6744,10 +7971,13 @@
       },
       "onlineRev": 30356000,
       "onlineOrders": 44,
-      "onlineMsg": 0,
+      "onlineTarget": 41000000,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     },
     {
@@ -6760,10 +7990,13 @@
       },
       "onlineRev": 0,
       "onlineOrders": 0,
-      "onlineMsg": 0,
+      "onlineTarget": 0,
       "store": {},
       "storeRev": 0,
       "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     }
   ],
@@ -6783,17 +8016,17 @@
     ]
   },
   "sales": {
-    "totalRevenue": 2480477559,
+    "totalRevenue": 2480967559,
     "salesCount": 1481,
     "byType": {
       "Online": 1016727059,
-      "Cửa hàng": 1463750500
+      "Cửa hàng": 1464240500
     },
     "onlinePct": 41,
     "storePct": 59
   },
   "brands": {
-    "Bemori": 2480477559,
+    "Bemori": 2480967559,
     "Memon": 0
   }
 }
