@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-14T12:13:59.947Z",
+  "generatedAt": "2026-06-14T13:15:14.035Z",
   "period": {
-    "days": 90,
-    "fromDate": "2026-03-15",
-    "toDate": "2026-06-13"
+    "days": 365,
+    "fromDate": "2025-06-14",
+    "toDate": "2026-06-14"
   },
   "channels": [
     "Zalo Bemori",
@@ -698,8 +698,8 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 5833000,
-            "orders": 16
+            "rev": 7243000,
+            "orders": 19
           },
           "FB Bemori": {
             "rev": 4756500,
@@ -766,42 +766,42 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 5371000,
-            "orders": 18
+            "rev": 10742000,
+            "orders": 36
           },
           "Zalo Bemori": {
-            "rev": 1060000,
-            "orders": 3
+            "rev": 2120000,
+            "orders": 6
           },
           "FB Bemori": {
-            "rev": 875000,
-            "orders": 3
+            "rev": 1750000,
+            "orders": 6
           },
           "Khách lẻ": {
-            "rev": 980000,
-            "orders": 3
+            "rev": 1960000,
+            "orders": 6
           }
         },
         "Cửa hàng": {
           "FB Bemori": {
-            "rev": 10602500,
-            "orders": 14
+            "rev": 21205000,
+            "orders": 28
           },
           "Zalo Bemori": {
-            "rev": 6287500,
-            "orders": 12
+            "rev": 12575000,
+            "orders": 24
           },
           "Insta Bemori": {
-            "rev": 1790000,
-            "orders": 3
+            "rev": 3580000,
+            "orders": 6
           },
           "Web Bemori": {
-            "rev": 1310000,
-            "orders": 3
+            "rev": 2620000,
+            "orders": 6
           },
           "Website": {
-            "rev": 735000,
-            "orders": 1
+            "rev": 1470000,
+            "orders": 2
           }
         }
       }
@@ -954,8 +954,8 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 4811000,
-            "orders": 13
+            "rev": 4293000,
+            "orders": 11
           },
           "Khách lẻ": {
             "rev": 3715000,
@@ -1022,42 +1022,42 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 13610000,
-            "orders": 33
+            "rev": 8846000,
+            "orders": 20
           },
           "FB Bemori": {
-            "rev": 10090000,
-            "orders": 10
+            "rev": 5045000,
+            "orders": 5
           },
           "Khách lẻ": {
-            "rev": 3639000,
-            "orders": 8
+            "rev": 1819500,
+            "orders": 4
           },
           "Zalo Bemori": {
-            "rev": 7180000,
-            "orders": 6
+            "rev": 3590000,
+            "orders": 3
           },
           "Web Bemori": {
-            "rev": 2780000,
-            "orders": 4
+            "rev": 1390000,
+            "orders": 2
           }
         },
         "Cửa hàng": {
           "Zalo Bemori": {
-            "rev": 7110000,
-            "orders": 14
+            "rev": 3555000,
+            "orders": 7
           },
           "FB Bemori": {
-            "rev": 10660000,
-            "orders": 16
+            "rev": 5330000,
+            "orders": 8
           },
           "Insta Bemori": {
-            "rev": 1810000,
-            "orders": 2
+            "rev": 905000,
+            "orders": 1
           },
           "Web Bemori": {
-            "rev": 1110000,
-            "orders": 4
+            "rev": 555000,
+            "orders": 2
           }
         }
       }
@@ -2642,8 +2642,8 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 6245000,
-            "orders": 17
+            "rev": 7345000,
+            "orders": 20
           },
           "Zalo Bemori": {
             "rev": 4040000,
@@ -2706,50 +2706,50 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 4052000,
-            "orders": 16
+            "rev": 7619000,
+            "orders": 30
           },
           "Zalo Bemori": {
-            "rev": 3723500,
-            "orders": 6
+            "rev": 7447000,
+            "orders": 12
           },
           "Khách lẻ": {
-            "rev": 745000,
-            "orders": 4
+            "rev": 1490000,
+            "orders": 8
           },
           "FB Bemori": {
-            "rev": 3025000,
-            "orders": 5
+            "rev": 6050000,
+            "orders": 10
           },
           "Web Bemori": {
-            "rev": 470000,
-            "orders": 1
+            "rev": 940000,
+            "orders": 2
           },
           "Insta Bemori": {
-            "rev": 400000,
-            "orders": 1
+            "rev": 800000,
+            "orders": 2
           }
         },
         "Cửa hàng": {
           "Zalo Bemori": {
-            "rev": 5685000,
-            "orders": 12
+            "rev": 11370000,
+            "orders": 24
           },
           "FB Bemori": {
-            "rev": 4685000,
-            "orders": 9
+            "rev": 9370000,
+            "orders": 18
           },
           "Web Bemori": {
-            "rev": 693500,
-            "orders": 2
+            "rev": 1387000,
+            "orders": 4
           },
           "Website": {
-            "rev": 350000,
-            "orders": 1
+            "rev": 700000,
+            "orders": 2
           },
           "Insta Bemori": {
-            "rev": 470000,
-            "orders": 1
+            "rev": 940000,
+            "orders": 2
           }
         }
       }
@@ -2906,8 +2906,8 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 5677000,
-            "orders": 16
+            "rev": 5231000,
+            "orders": 15
           },
           "FB Bemori": {
             "rev": 1025000,
@@ -2966,42 +2966,42 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 13397000,
-            "orders": 24
+            "rev": 7429000,
+            "orders": 15
           },
           "FB Bemori": {
-            "rev": 7410000,
-            "orders": 8
+            "rev": 3705000,
+            "orders": 4
           },
           "Khách lẻ": {
-            "rev": 2830000,
-            "orders": 6
+            "rev": 1415000,
+            "orders": 3
           },
           "Zalo Bemori": {
-            "rev": 10815000,
-            "orders": 16
+            "rev": 5407500,
+            "orders": 8
           },
           "Insta Bemori": {
-            "rev": 4050000,
-            "orders": 4
+            "rev": 2025000,
+            "orders": 2
           }
         },
         "Cửa hàng": {
           "Insta Bemori": {
-            "rev": 1752000,
-            "orders": 4
+            "rev": 876000,
+            "orders": 2
           },
           "Zalo Bemori": {
-            "rev": 21826000,
-            "orders": 22
+            "rev": 10913000,
+            "orders": 11
           },
           "FB Bemori": {
-            "rev": 7240000,
-            "orders": 10
+            "rev": 3620000,
+            "orders": 5
           },
           "Web Bemori": {
-            "rev": 1573000,
-            "orders": 4
+            "rev": 786500,
+            "orders": 2
           }
         }
       }
@@ -4678,8 +4678,8 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 3555000,
-            "orders": 13
+            "rev": 4157000,
+            "orders": 16
           },
           "Insta Bemori": {
             "rev": 885000,
@@ -4746,54 +4746,54 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 3995000,
-            "orders": 13
+            "rev": 7572000,
+            "orders": 24
           },
           "Khách lẻ": {
-            "rev": 1060000,
-            "orders": 2
+            "rev": 2120000,
+            "orders": 4
           },
           "Zalo Bemori": {
-            "rev": 1505000,
-            "orders": 3
-          },
-          "FB Bemori": {
-            "rev": 6040000,
+            "rev": 3010000,
             "orders": 6
           },
+          "FB Bemori": {
+            "rev": 12080000,
+            "orders": 12
+          },
           "Web Bemori": {
-            "rev": 715000,
-            "orders": 2
+            "rev": 1430000,
+            "orders": 4
           },
           "Insta Bemori": {
-            "rev": 685000,
-            "orders": 2
+            "rev": 1370000,
+            "orders": 4
           }
         },
         "Cửa hàng": {
           "Zalo Bemori": {
-            "rev": 6795000,
-            "orders": 9
+            "rev": 13590000,
+            "orders": 18
           },
           "FB Bemori": {
-            "rev": 5471000,
-            "orders": 8
+            "rev": 10942000,
+            "orders": 16
           },
           "Website": {
-            "rev": 480000,
-            "orders": 1
+            "rev": 960000,
+            "orders": 2
           },
           "Insta Bemori": {
-            "rev": 470000,
-            "orders": 1
+            "rev": 940000,
+            "orders": 2
           },
           "Web Bemori": {
-            "rev": 1470000,
-            "orders": 2
+            "rev": 2940000,
+            "orders": 4
           },
           "Khách lẻ": {
             "rev": 0,
-            "orders": 1
+            "orders": 2
           }
         }
       }
@@ -4898,8 +4898,8 @@
             "orders": 5
           },
           "FB Bemori": {
-            "rev": 5525000,
-            "orders": 10
+            "rev": 5110000,
+            "orders": 9
           },
           "Insta Bemori": {
             "rev": 780000,
@@ -4961,10 +4961,6 @@
       },
       "chan": {
         "Online": {
-          "FB Bemori": {
-            "rev": 2015000,
-            "orders": 5
-          },
           "Khách lẻ": {
             "rev": 2145000,
             "orders": 5
@@ -4972,6 +4968,10 @@
           "Shopee": {
             "rev": 4849000,
             "orders": 10
+          },
+          "FB Bemori": {
+            "rev": 1170000,
+            "orders": 3
           },
           "Zalo Bemori": {
             "rev": 1400000,
@@ -5022,12 +5022,8 @@
       "chan": {
         "Online": {
           "Shopee": {
-            "rev": 3413000,
-            "orders": 10
-          },
-          "FB Bemori": {
-            "rev": 2615000,
-            "orders": 4
+            "rev": 4273000,
+            "orders": 12
           },
           "Zalo Bemori": {
             "rev": 1745000,
@@ -5036,6 +5032,10 @@
           "Khách lẻ": {
             "rev": 2070000,
             "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 1225000,
+            "orders": 3
           },
           "Web Bemori": {
             "rev": 1610000,
@@ -5061,39 +5061,65 @@
           }
         }
       }
+    },
+    {
+      "day": "2026-06-14",
+      "salesRev": 151553250,
+      "salesCount": 194,
+      "bemori": {
+        "Cửa hàng": 125098250,
+        "Online": 26455000
+      },
+      "memonRev": 0,
+      "storeRetail": {
+        "Bemori 162B Nguyễn Gia Trí": 10887500,
+        "Bemori 104-106 Cầu Giấy": 10448500,
+        "Bemori 275 Bạch Mai": 8110000,
+        "Bemori 368 Nguyễn Trãi": 11527000,
+        "Bemori 411 NVC": 9645000,
+        "Teddy Outlet 970 Láng": 1915000,
+        "Bemori 161 Xuân Thủy": 6872750,
+        "Bemori 228 Lê Văn Sỹ": 24521750,
+        "Bemori 1028 Đường Láng": 35783250,
+        "Bemori 388 Xã Đàn": 5387500
+      },
+      "chan": {
+        "Online": {
+          "Shopee": {
+            "rev": 2524000,
+            "orders": 7
+          },
+          "Khách lẻ": {
+            "rev": 1630000,
+            "orders": 5
+          },
+          "Zalo Bemori": {
+            "rev": 4000000,
+            "orders": 7
+          },
+          "FB Bemori": {
+            "rev": 2440000,
+            "orders": 4
+          }
+        },
+        "Cửa hàng": {
+          "Zalo Bemori": {
+            "rev": 5312000,
+            "orders": 6
+          },
+          "FB Bemori": {
+            "rev": 4450000,
+            "orders": 5
+          },
+          "Web Bemori": {
+            "rev": 465000,
+            "orders": 1
+          }
+        }
+      }
     }
   ],
   "memonBills": [
-    {
-      "day": "2026-04-10",
-      "customer": "Công ty Cổ phần IIG Việt Nam",
-      "amount": 2808000
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "Phúc Thiện An",
-      "amount": 3909600
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "HỘ KINH DOANH NHÀ SÁCH 2KID",
-      "amount": 8794440
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "Linh in ảnh HCM",
-      "amount": 7020000
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
-      "amount": 8899200
-    },
-    {
-      "day": "2026-04-10",
-      "customer": "Tường Vy Quảng Ngãi",
-      "amount": 3363120
-    },
     {
       "day": "2026-04-08",
       "customer": "CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẦU TƯ DỊCH VỤ THƯƠNG MẠI NGỌC HÙNG",
@@ -5428,83 +5454,106 @@
       "day": "2026-04-14",
       "customer": "HỘ KINH DOANH ĐINH YẾN CHI 02",
       "amount": 18154800
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Công ty Cổ phần IIG Việt Nam",
+      "amount": 2808000
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Phúc Thiện An",
+      "amount": 3909600
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "HỘ KINH DOANH NHÀ SÁCH 2KID",
+      "amount": 8794440
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Linh in ảnh HCM",
+      "amount": 7020000
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Công ty Cổ phần Quảng cáo và Dịch vụ Hàng không Hải Trần",
+      "amount": 8899200
+    },
+    {
+      "day": "2026-04-10",
+      "customer": "Tường Vy Quảng Ngãi",
+      "amount": 3363120
     }
   ],
   "marketing": {
-    "onlineRevenue": 1234218298,
-    "onlineOrders": 1939,
-    "onlineAov": 636523,
+    "onlineRevenue": 1243661298,
+    "onlineOrders": 1957,
+    "onlineAov": 635494,
     "channels": [
       {
         "name": "Zalo Bemori",
-        "orders": 487,
-        "revenue": 450473702,
-        "aov": 924997,
-        "share": 36
+        "orders": 496,
+        "revenue": 455143702,
+        "aov": 917628,
+        "share": 37
       },
       {
         "name": "FB Bemori",
-        "orders": 573,
-        "revenue": 363021000,
-        "aov": 633545,
-        "share": 29
+        "orders": 575,
+        "revenue": 369202000,
+        "aov": 642090,
+        "share": 30
       },
       {
         "name": "Shopee",
-        "orders": 447,
-        "revenue": 175337000,
-        "aov": 392253,
+        "orders": 454,
+        "revenue": 176834000,
+        "aov": 389502,
         "share": 14
       },
       {
         "name": "Khách lẻ",
-        "orders": 197,
-        "revenue": 107666508,
-        "aov": 546530,
+        "orders": 203,
+        "revenue": 109211508,
+        "aov": 537988,
         "share": 9
       },
       {
         "name": "Insta Bemori",
-        "orders": 132,
-        "revenue": 79820588,
-        "aov": 604701,
+        "orders": 127,
+        "revenue": 75685588,
+        "aov": 595950,
         "share": 6
       },
       {
         "name": "Web Bemori",
-        "orders": 93,
-        "revenue": 51939500,
-        "aov": 558489,
+        "orders": 94,
+        "revenue": 52149500,
+        "aov": 554782,
         "share": 4
       },
       {
         "name": "Website",
-        "orders": 9,
-        "revenue": 5535000,
-        "aov": 615000,
-        "share": 0
-      },
-      {
-        "name": "FB Memon",
-        "orders": 1,
-        "revenue": 425000,
-        "aov": 425000,
+        "orders": 8,
+        "revenue": 5435000,
+        "aov": 679375,
         "share": 0
       }
     ]
   },
   "sales": {
-    "totalRevenue": 3930410558,
-    "salesCount": 7776,
+    "totalRevenue": 3966736308,
+    "salesCount": 7744,
     "byType": {
-      "Cửa hàng": 3246597250,
-      "Online": 683813308
+      "Online": 693399308,
+      "Cửa hàng": 3273337000
     },
     "onlinePct": 17,
     "storePct": 83
   },
   "brands": {
-    "Bemori": 3930410558,
+    "Bemori": 3966736308,
     "Memon": 0
   }
 }
