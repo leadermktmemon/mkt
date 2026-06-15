@@ -173,10 +173,10 @@
          {label:'% Online / Cửa hàng',val:(tot?Math.round(on/tot*100):0)+'% · '+(tot?Math.round(st/tot*100):0)+'%'},
          {label:'% Hoàn thành KPI',val:(tgt?Math.round(tot/tgt*100):0)+'%'}];
     } else if(scope==='Online'){
-      var o=onlineAgg(slice);var tgt=sumF(slice,'onlineTarget');
+      var tgt=sumF(slice,'onlineTarget');var ord=sumF(slice,'onlineOrders');
       k=[{label:'Doanh thu Online',val:vnd(on),accent:true},
-         {label:'Số đơn',val:o.orders.toLocaleString('vi-VN')},
-         {label:'AOV',val:vnd(o.orders?on/o.orders:0)},
+         {label:'Số đơn',val:ord.toLocaleString('vi-VN')},
+         {label:'AOV',val:vnd(ord?on/ord:0)},
          {label:'% Hoàn thành KPI',val:(tgt?Math.round(on/tgt*100):0)+'%'}];
     } else if(scope==='Cửa hàng'){
       var sa=storeAgg(slice);
