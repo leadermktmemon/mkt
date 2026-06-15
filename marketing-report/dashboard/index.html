@@ -141,6 +141,7 @@
 
   function sumOnline(s){var r=0;s.forEach(function(d){r+=d.onlineRev||0;});return r;}
   function sumStore(s){var r=0;s.forEach(function(d){r+=d.storeRev||0;});return r;}
+  function sumStoreOnline(s){var r=0;s.forEach(function(d){r+=d.storeOnline||0;});return r;}
   function sumMemon(s){var r=0;s.forEach(function(d){r+=d.memonRev||0;});return r;}
   function onlineAgg(s){var ch={},total=0,orders=0;s.forEach(function(d){for(var k in d.online){ch[k]=ch[k]||{rev:0,orders:0};ch[k].rev+=d.online[k].rev;ch[k].orders+=d.online[k].orders;total+=d.online[k].rev;orders+=d.online[k].orders;}});
     var list=Object.keys(ch).sort(function(a,b){return ch[b].rev-ch[a].rev;}).map(function(n){return {name:n,orders:ch[n].orders,revenue:ch[n].rev,aov:ch[n].orders?Math.round(ch[n].rev/ch[n].orders):0,share:total?Math.round(ch[n].rev/total*100):0};});
@@ -177,10 +178,12 @@
          {label:'Số nguồn',val:o.list.length}];
     } else if(scope==='Cửa hàng'){
       var sa=storeAgg(slice);
-      k=[{label:'Doanh thu Cửa hàng',val:vnd(st),accent:true},
-         {label:'Số cửa hàng',val:sa.list.length},
-         {label:'TB / cửa hàng',val:vnd(sa.list.length?st/sa.list.length:0)},
-         {label:'Top cửa hàng',val:sa.list[0]?sa.list[0].name.replace('Bemori ','').slice(0,14):'-'}];
+      var mktCH=sumStoreOnline(slice);
+      var pct=(st+mktCH)?Math.round(mktCH/(st+mktCH)*100):0;
+      k=[{label:'Doanh thu tại quầy',val:vnd(st),accent:true},
+         {label:'Marketing giao tại CH',val:vnd(mktCH)},
+         {label:'% Marketing → Cửa hàng',val:pct+'%'},
+         {label:'Số cửa hàng',val:sa.list.length}];
     } else {
       var m=memonAgg(slice);
       k=[{label:'Doanh thu B2B/Sỉ',val:vnd(mem),accent:true},

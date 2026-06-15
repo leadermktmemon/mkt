@@ -22,12 +22,14 @@ jobs:
         env:
           NHANH_CONFIG: ${{ secrets.NHANH_CONFIG }}
           LARK_CONFIG: ${{ secrets.LARK_CONFIG }}
+          LARK_BASE_CONFIG: ${{ secrets.LARK_BASE_CONFIG }}
         run: |
-          printf '%s' "$NHANH_CONFIG" > nhanh.config.json
+          printf '%s' "$LARK_BASE_CONFIG" > lark.config.json
           printf '%s' "$LARK_CONFIG" > marketing-report/config.json
+          printf '%s' "$NHANH_CONFIG" > nhanh.config.json
 
-      - name: Tổng hợp dữ liệu nhanh.vn (tới 365 ngày)
-        run: node marketing-report/dashboard/build-data.mjs 365
+      - name: Tổng hợp dữ liệu từ Base Lark (Sales Online + Cửa hàng)
+        run: node marketing-report/dashboard/lark-build-data.mjs
 
       - name: Gửi thẻ KPI vào Lark (chỉ buổi sáng ~08h VN)
         run: |
