@@ -18,6 +18,7 @@ const SO_SOURCE = "tbl6xpLNnyuXLydn";   // 3.1 DT theo nguon hang ngay
 const SO_TOTAL = "tblLf6OWq6Z9nFQD";    // 2.2 Tong hop SO theo ngay (co Target ngay)
 const STORE_APP = "Sfb9bDqKgakJMSs9xOglyyE5gdg";
 const STORE_TBL = "tblH6XAodJy1WQwy";   // 2.2 Tong hop cua hang theo NGAY (4488 dong, du lieu hang ngay)
+const STORE_LOOK = "tbl8zrOpqU22yN4z";  // 5.1 Lookup thong tin cua hang: map TK cua hang -> ten sach
 
 const sleep=(ms)=>new Promise(r=>setTimeout(r,ms));
 async function fetchJson(url,opts){ // tu thu lai khi mang timeout
@@ -32,7 +33,7 @@ const num=(v)=>typeof v==="number"?v:(v&&v.value!=null?Number(v.value):(typeof v
 const pad=(n)=>String(n).padStart(2,"0");
 function dayOf(f){const y=num(f["Năm tương ứng"]),m=num(f["Tháng tương ứng"]),d=num(f["Ngày tương ứng"]);if(y&&m&&d)return `${y}-${pad(m)}-${pad(d)}`;if(f["Ngày"]){return new Date(f["Ngày"]+7*3600*1000).toISOString().slice(0,10);}return null;}
 const round=(n)=>Math.round(n);
-function cleanStore(n){if(!n)return "(?)";if(/outlet/i.test(n))return "Outlet";if(/tây sơn/i.test(n))return "Tây Sơn";return n.replace(/^(Bemori|Ngôi Nhà Gấu Bông|Teddy)\s+/i,"").replace(/^\S+\s+/,"").trim()||n;}
+function cleanStore(n){if(!n)return "(?)";const cht=n.match(/CHT\s+(.+)$/i);if(cht)n=cht[1];if(/outlet/i.test(n))return "Outlet";if(/tây sơn/i.test(n))return "Tây Sơn";return n.replace(/^(Bemori|Ngôi Nhà Gấu Bông|Teddy Outlet|Teddy|GBO)\s+/i,"").replace(/^[0-9][0-9A-Za-z\-]*\s+/,"").trim()||n;}
 
 // Kenh online: ten hien thi -> {cot doanh thu, cac cot so don}
 const CH = {
@@ -47,10 +48,13 @@ const tk=await token();
 const src=await allRecords(tk,SO_APP,SO_SOURCE);
 const tot=await allRecords(tk,SO_APP,SO_TOTAL);
 const store=await allRecords(tk,STORE_APP,STORE_TBL);
-console.log(`3.1 nguồn: ${src.length} | 2.2 tổng (target): ${tot.length} | Cửa hàng: ${store.length}`);
+const look=await allRecords(tk,STORE_APP,STORE_LOOK);
+// Map account (TK cua hang id) -> ten cua hang sach tu bang 5.1
+const STORE_MAP={};for(const r of look){const tf=r.fields["TK cửa hàng"]&&r.fields["TK cửa hàng"][0];const nm=r.fields["Cửa hàng"];if(tf&&nm)STORE_MAP[tf.id]=nm;}
+console.log(`3.1 nguồn: ${src.length} | 2.2 tổng (target): ${tot.length} | Cửa hàng: ${store.length} | map CH: ${Object.keys(STORE_MAP).length}`);
 
 const dayMap={};
-function ensure(day){return dayMap[day]??={online:{},onlineRev:0,onlineOrders:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0};}
+function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0};}
 
 // 3.1 -> Online theo kenh
 for(const r of src){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
@@ -59,13 +63,17 @@ for(const r of src){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01
   D.onlineRev+=num(f["Tổng doanh thu"]);
   D.fbAds+=num(f["Doanh thu FB ADS"]);D.ggAds+=num(f["Doanh thu GG ADS"]);D.social+=num(f["Doanh thu Social tự nhiên"]);
 }
-// 2.2 -> Target ngay + tong so don (cot "So don hang chot duoc" - day du hon per-source o 3.1)
-for(const r of tot){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);D.onlineTarget+=num(f["Target ngày"]);D.onlineOrders+=num(f["Số đơn hàng chốt được"]);}
+// 2.2 -> Target ngay + tong so don + DOANH THU 100% (bang "Ko dc sua", tu tong hop -> chinh xac & ko tre nhu form 3.1)
+//   AOV online = Doanh thu 100% / So don chot (dung dinh nghia "Gia tri TB don" cua Base).
+for(const r of tot){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
+  D.onlineTarget+=num(f["Target ngày"]);D.onlineOrders+=num(f["Số đơn hàng chốt được"]);
+  D.online100+=num(f["Doanh thu 100%"]);D.onlineProducts+=num(f["Số sản phẩm bán"]);}
 // 2.4 -> Cua hang (theo thang)
 for(const r of store){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
   const ch=num(f["Doanh thu CH"]);const onl=num(f["Doanh thu đơn Online chuyển đơn"]);
-  const name=cleanStore((f["Tên cửa hàng"]&&f["Tên cửa hàng"][0]&&(f["Tên cửa hàng"][0].name||f["Tên cửa hàng"][0].en_name))||"(?)");
-  D.store[name]=(D.store[name]||0)+ch;D.storeRev+=ch;D.storeOnline+=onl;
+  const tf=f["TK cửa hàng"]&&f["TK cửa hàng"][0];
+  const name=(tf&&STORE_MAP[tf.id])||cleanStore(tf&&tf.name)||"(?)";
+  if(ch)D.store[name]=(D.store[name]||0)+ch;D.storeRev+=ch;D.storeOnline+=onl;
   D.storeTarget+=num(f["Target ngày"]);D.custIn+=num(f["SL Khách vào"]);D.custBuy+=num(f["SL khách mua"]);
 }
 
@@ -76,19 +84,28 @@ const roundObj=(o)=>Object.fromEntries(Object.entries(o).map(([k,v])=>[k,round(v
 const daily=days.map(day=>{const D=dayMap[day];
   for(const k in D.online)channelTotals[k]=(channelTotals[k]||0)+D.online[k].rev;
   for(const k in D.store)storeTotals[k]=(storeTotals[k]||0)+D.store[k];
-  return {day,online:roundChan(D.online),onlineRev:round(D.onlineRev),onlineOrders:D.onlineOrders,onlineTarget:round(D.onlineTarget),
+  // onlineRev = doanh thu Online CHINH (uu tien 2.2 "Doanh thu 100%"; fallback 3.1 cho ngay 2.2 chua co, vd dau 2025).
+  // online[kenh].rev giu nguyen tu 3.1 (chi de tinh TY TRONG kenh); so don theo kenh KHONG co trong Base -> uoc luong khi hien thi.
+  return {day,online:roundChan(D.online),onlineRev:round(D.online100||D.onlineRev),onlineRev31:round(D.onlineRev),onlineOrders:D.onlineOrders,onlineProducts:D.onlineProducts,onlineTarget:round(D.onlineTarget),
     fbAds:round(D.fbAds),ggAds:round(D.ggAds),social:round(D.social),
     store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0};
 });
 const channels=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
-const stores=Object.entries(storeTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
+const stores=Object.entries(storeTotals).filter(([,v])=>v>0).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
 
-function summarize(slice){let on=0,oo=0,st=0;const ch={};for(const d of slice){for(const k in d.online){ch[k]??={revenue:0,orders:0};ch[k].revenue+=d.online[k].rev;ch[k].orders+=d.online[k].orders;}on+=d.onlineRev;oo+=d.onlineOrders;st+=d.storeRev;}
-  const chList=Object.entries(ch).sort((a,b)=>b[1].revenue-a[1].revenue).map(([name,v])=>({name,orders:v.orders,revenue:round(v.revenue),aov:v.orders?round(v.revenue/v.orders):0,share:on?round(v.revenue/on*100):0}));
-  const total=on+st;return {marketing:{onlineRevenue:round(on),onlineOrders:oo,onlineAov:oo?round(on/oo):0,channels:chList},sales:{totalRevenue:round(total),salesCount:oo,byType:{Online:round(on),"Cửa hàng":round(st)},onlinePct:total?round(on/total*100):0,storePct:total?round(st/total*100):0},brands:{Bemori:round(total),Memon:0}};}
+function summarize(slice){let on=0,oo=0,st=0,stOnline=0,vin=0,vbuy=0;const chRaw={};for(const d of slice){for(const k in d.online){chRaw[k]=(chRaw[k]||0)+d.online[k].rev;}on+=d.onlineRev;oo+=d.onlineOrders;st+=d.storeRev;stOnline+=d.storeOnline;vin+=d.custIn;vbuy+=d.custBuy;}
+  const sumCh=Object.values(chRaw).reduce((a,b)=>a+b,0)||1;
+  // So don/AOV theo kenh = UOC LUONG theo ty trong doanh thu (Base khong nhap so don theo kenh).
+  const chList=Object.entries(chRaw).sort((a,b)=>b[1]-a[1]).map(([name,raw])=>{const share=raw/sumCh;const revenue=on*share;const orders=Math.round(oo*share);return {name,orders,revenue:round(revenue),aov:orders?round(revenue/orders):0,share:round(share*100),est:true};});
+  const aov=oo?round(on/oo):0;
+  const mktOrders=aov?Math.round(stOnline/aov):0; // so don Marketing chuyen ve CH = uoc luong (DT chuyen don / AOV online)
+  const total=on+st;
+  return {marketing:{onlineRevenue:round(on),onlineOrders:oo,onlineAov:aov,channels:chList},
+    store:{walkinRevenue:round(st),walkinOrders:vbuy,marketingRevenue:round(stOnline),marketingOrdersEst:mktOrders,custIn:vin,closeRate:vin?round(vbuy/vin*100):0,marketingPct:(st+stOnline)?round(stOnline/(st+stOnline)*100):0},
+    sales:{totalRevenue:round(total),salesCount:oo,byType:{Online:round(on),"Cửa hàng":round(st)},onlinePct:total?round(on/total*100):0,storePct:total?round(st/total*100):0},brands:{Bemori:round(total),Memon:0}};}
 const sum30=summarize(daily.slice(-30));
 
-const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,memonBills:[],marketing:sum30.marketing,sales:sum30.sales,brands:sum30.brands};
+const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands};
 writeFileSync(join(__dirname,"data.json"),JSON.stringify(data,null,2),"utf8");
 writeFileSync(join(__dirname,"data.js"),`window.DASHBOARD_DATA=${JSON.stringify(data)};`,"utf8");
 

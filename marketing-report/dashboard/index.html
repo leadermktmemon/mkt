@@ -100,6 +100,7 @@
     <div class="panel">
       <h2 id="bdTitle">Theo nguồn / kênh</h2>
       <table id="bdTable"><thead></thead><tbody></tbody></table>
+      <div class="note" id="bdNote" style="display:none;"></div>
     </div>
     <div class="panel">
       <h2 id="mixTitle">Cơ cấu</h2>
@@ -144,9 +145,12 @@
   function sumStoreOnline(s){var r=0;s.forEach(function(d){r+=d.storeOnline||0;});return r;}
   function sumF(s,k){var r=0;s.forEach(function(d){r+=d[k]||0;});return r;}
   function sumMemon(s){var r=0;s.forEach(function(d){r+=d.memonRev||0;});return r;}
-  function onlineAgg(s){var ch={},total=0,orders=0;s.forEach(function(d){for(var k in d.online){ch[k]=ch[k]||{rev:0,orders:0};ch[k].rev+=d.online[k].rev;ch[k].orders+=d.online[k].orders;total+=d.online[k].rev;orders+=d.online[k].orders;}});
-    var list=Object.keys(ch).sort(function(a,b){return ch[b].rev-ch[a].rev;}).map(function(n){return {name:n,orders:ch[n].orders,revenue:ch[n].rev,aov:ch[n].orders?Math.round(ch[n].rev/ch[n].orders):0,share:total?Math.round(ch[n].rev/total*100):0};});
-    return {list:list,total:total,orders:orders};}
+  // Online: doanh thu tong + so don lay tu bang 2.2 (chinh xac, ko tre). Ty trong kenh lay tu 3.1.
+  // So don/AOV theo kenh = UOC LUONG theo ty trong doanh thu (Base khong nhap so don theo kenh).
+  function onlineAgg(s){var chRaw={},total=0,orders=0;s.forEach(function(d){total+=d.onlineRev||0;orders+=d.onlineOrders||0;for(var k in d.online){chRaw[k]=(chRaw[k]||0)+d.online[k].rev;}});
+    var sumCh=0;for(var k in chRaw)sumCh+=chRaw[k];if(!sumCh)sumCh=1;
+    var list=Object.keys(chRaw).sort(function(a,b){return chRaw[b]-chRaw[a];}).map(function(n){var share=chRaw[n]/sumCh;var rev=total*share;var ord=Math.round(orders*share);return {name:n,orders:ord,revenue:rev,aov:ord?Math.round(rev/ord):0,share:Math.round(share*100)};});
+    return {list:list,total:total,orders:orders,aov:orders?Math.round(total/orders):0};}
   function storeAgg(s){var st={},total=0;s.forEach(function(d){for(var k in d.store){st[k]=(st[k]||0)+d.store[k];total+=d.store[k];}});
     return {list:Object.keys(st).sort(function(a,b){return st[b]-st[a];}).map(function(n){return {name:n,revenue:st[n],share:total?Math.round(st[n]/total*100):0};}),total:total};}
   function memonAgg(s){var dset={};s.forEach(function(d){dset[d.day]=1;});var cust={},total=0,bills=0;(D.memonBills||[]).forEach(function(b){if(dset[b.day]){cust[b.customer]=cust[b.customer]||{rev:0,n:0};cust[b.customer].rev+=b.amount;cust[b.customer].n++;total+=b.amount;bills++;}});
@@ -179,14 +183,18 @@
          {label:'AOV',val:vnd(ord?on/ord:0)},
          {label:'% Hoàn thành KPI',val:(tgt?Math.round(on/tgt*100):0)+'%'}];
     } else if(scope==='Cửa hàng'){
-      var sa=storeAgg(slice);
       var mktCH=sumStoreOnline(slice);
       var pctM=(st+mktCH)?Math.round(mktCH/(st+mktCH)*100):0;
       var tgt=sumF(slice,'storeTarget'),vin=sumF(slice,'custIn'),vbuy=sumF(slice,'custBuy');
-      k=[{label:'Doanh thu tại quầy',val:vnd(st),accent:true},
-         {label:'% Hoàn thành KPI',val:(tgt?Math.round(st/tgt*100):0)+'%'},
-         {label:'Tỷ lệ chốt (vào→mua)',val:(vin?Math.round(vbuy/vin*100):0)+'%'},
+      var aovOn=onlineAgg(slice).aov;                       // AOV online de uoc luong don marketing
+      var mktOrd=aovOn?Math.round(mktCH/aovOn):0;           // so don Marketing chuyen ve CH (uoc tinh)
+      k=[{label:'DT tại quầy (Walk-in)',val:vnd(st),accent:true},
+         {label:'DT Marketing → CH',val:vnd(mktCH)},
+         {label:'Tổng doanh thu CH',val:vnd(st+mktCH)},
+         {label:'Số đơn tại quầy',val:vbuy.toLocaleString('vi-VN')},
+         {label:'Số đơn Marketing (ước tính)',val:mktOrd.toLocaleString('vi-VN')},
          {label:'% Marketing → CH',val:pctM+'%'},
+         {label:'Tỷ lệ chốt (vào→mua)',val:(vin?Math.round(vbuy/vin*100):0)+'%'},
          {label:'Khách vào',val:vin.toLocaleString('vi-VN')}];
     } else {
       var m=memonAgg(slice);
@@ -213,7 +221,7 @@
     drawStacked('cTrend',buckets.map(function(x){return gran==='month'?x.key:x.key.slice(5);}),tSeries);
 
     // Breakdown + mix
-    var rows,head,mixL,mixV,mixC,leg,bdT,mixT;
+    var rows,head,mixL,mixV,mixC,leg,bdT,mixT,bdNote='';
     if(scope==='Memon'){
       var M=memonAgg(slice);var top=M.list.slice(0,10);
       bdT='Top khách hàng B2B';mixT='Cơ cấu khách B2B';
@@ -224,6 +232,7 @@
     } else if(scope==='Cửa hàng'){
       var SA=storeAgg(slice);
       bdT='Doanh thu theo cửa hàng';mixT='Cơ cấu cửa hàng';
+      bdNote='⚠ Số đơn Marketing → CH là ước tính (= DT đơn Online chuyển đơn ÷ AOV online). Base chưa có cột số đơn marketing tại cửa hàng. Bảng dưới là doanh thu Walk-in theo cửa hàng.';
       head='<tr><th>Cửa hàng</th><th>Doanh thu</th><th>%</th></tr>';
       rows=SA.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td><td>'+vnd(c.revenue)+'</td><td>'+c.share+'%</td></tr>';}).join('')||'<tr><td colspan="3" class="note">Không có dữ liệu</td></tr>';
       mixL=SA.list.map(function(c){return c.name;});mixV=SA.list.map(function(c){return c.revenue;});mixC=SA.list.map(function(c,i){return colorOf(c.name,i);});
@@ -231,7 +240,8 @@
     } else {
       var C=onlineAgg(slice);
       bdT='Đơn Online theo nguồn / kênh';mixT='Cơ cấu nguồn Online';
-      head='<tr><th>Nguồn</th><th>Đơn</th><th>Doanh thu</th><th>AOV</th><th>%</th></tr>';
+      bdNote='⚠ Số đơn & AOV theo kênh là ước tính theo tỷ trọng doanh thu (Base chưa nhập số đơn theo từng kênh). Doanh thu theo kênh và tổng số đơn là số thật.';
+      head='<tr><th>Nguồn</th><th>Đơn (ƯT)</th><th>Doanh thu</th><th>AOV (ƯT)</th><th>%</th></tr>';
       rows=C.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td><td>'+c.orders+'</td><td>'+vnd(c.revenue)+'</td><td>'+vnd(c.aov)+'</td><td>'+c.share+'%</td></tr>';}).join('')||'<tr><td colspan="5" class="note">Không có đơn online trong kỳ</td></tr>';
       mixL=C.list.map(function(c){return c.name;});mixV=C.list.map(function(c){return c.revenue;});mixC=C.list.map(function(c,i){return colorOf(c.name,i);});
       leg=C.list.map(function(c,i){return '<span><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+' '+c.share+'%</span>';}).join('');
@@ -240,6 +250,7 @@
     document.getElementById('mixTitle').textContent=mixT;
     document.querySelector('#bdTable thead').innerHTML=head;
     document.querySelector('#bdTable tbody').innerHTML=rows;
+    var bn=document.getElementById('bdNote');bn.textContent=bdNote;bn.style.display=bdNote?'block':'none';
     document.getElementById('legMix').innerHTML=leg;
     drawDonut('cMix',mixL,mixV,mixC);
 

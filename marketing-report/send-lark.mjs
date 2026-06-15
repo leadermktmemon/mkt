@@ -18,10 +18,10 @@ const vnd = (n) => { n=Math.round(n);
   return String(n); };
 
 const overview =
-  `**🎯 MARKETING** _(${D.period.days} ngày · nhanh.vn)_\n` +
+  `**🎯 MARKETING** _(30 ngày · Lark)_\n` +
   `• Doanh thu online: **${vnd(M.onlineRevenue)}**  •  Đơn: **${M.onlineOrders}**  •  AOV: **${vnd(M.onlineAov)}**`;
 
-let chTable = "**Hiệu quả theo kênh**\n```\nKênh           Đơn   Doanh thu   %\n";
+let chTable = "**Hiệu quả theo kênh** _(đơn theo kênh: ước tính)_\n```\nKênh           Đơn   Doanh thu   %\n";
 for (const c of M.channels) {
   chTable += `${c.name.slice(0,13).padEnd(13)} ${String(c.orders).padStart(4)}  ${vnd(c.revenue).padStart(8)}  ${String(c.share).padStart(2)}%\n`;
 }
