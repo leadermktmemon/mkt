@@ -112,36 +112,36 @@ function billDay(b){ const d=b.date; if(typeof d==="number") return dayOf(d); if
 const round = (n) => Math.round(n);
 
 const dayMap = {};
-function ensureDay(day){ return dayMap[day] ??= { bemori:{}, memonRev:0, storeRetail:{}, salesRev:0, salesCount:0, chan:{Online:{},"Cửa hàng":{}} }; }
+function ensureDay(day){ return dayMap[day] ??= { online:{}, onlineRev:0, onlineOrders:0, store:{}, storeRev:0, memonRev:0 }; }
 const memonBills = []; // {day, customer, amount} - ban ra ngoai cua Xuong Memon
 
+// BILLS: Cua hang = ban le mode 2 (bao cao "Ban Le - Theo Cua Hang"); Memon = ban tai kho Xuong
 for (const b of bills) {
-  const type = TYPE_OF[b.mode]; if (!type) continue;  // chi tinh ban cho khach (mode 1,2,6); bo nhap NCC/chuyen kho/dieu chinh ton
+  if (![1,2,6].includes(b.mode)) continue;  // chi ban cho khach
   const day = billDay(b); if (!day) continue;
   const amt = billAmount(b);
   const D = ensureDay(day);
-  D.salesRev += amt; D.salesCount++;
-  if (MEMON_DEPOTS.has(b.depotId)) { // Xuong Memon ban ra ngoai
+  if (MEMON_DEPOTS.has(b.depotId)) { // Xuong Memon (B2B/si)
     D.memonRev += amt;
     memonBills.push({ day, customer: (b.customer?.name || b.customer?.mobile || "(không tên)").replace(/&amp;/g,"&"), amount: round(amt) });
-  } else { // Bemori: Online (kho Nguyen Khuyen) vs Cua hang (cac kho shop)
-    const cat = (b.depotId === ONLINE_DEPOT) ? "Online" : "Cửa hàng";
-    D.bemori[cat] = (D.bemori[cat]||0) + amt;
-    if (cat === "Cửa hàng") {
-      const store = depotName[b.depotId] || `Kho ${b.depotId}`;
-      D.storeRetail[store] = (D.storeRetail[store]||0) + amt;
-    }
+  } else if (b.mode === 2) { // ban le tai cua hang theo shop
+    const store = depotName[b.depotId] || `Kho ${b.depotId}`;
+    D.store[store] = (D.store[store]||0) + amt;
+    D.storeRev += amt;
   }
+  // mode 1 (Online giao hang) bo qua: Online tinh tu ORDER (gom moi kho, khop "bao cao theo kenh")
 }
+// ORDERS: Online = toan bo don online theo nguon (moi kho), khop "Bao cao theo kenh ban"
 for (const o of orders) {
   if (BAD_STATUS.includes(o.info?.status)) continue;
+  if (MEMON_DEPOTS.has(o.info?.depotId)) continue;
   const day = o.info?.createdAt ? dayOf(o.info.createdAt) : null; if (!day) continue;
   const r = orderRev(o);
   const D = ensureDay(day);
   const cname = o.channel?.trafficSource || SALE_CHANNEL[o.channel?.saleChannel] || `#${o.channel?.saleChannel}`;
-  const cat = (o.info?.depotId === ONLINE_DEPOT) ? "Online" : "Cửa hàng"; // don online (kho NK) vs don tai cua hang
-  D.chan[cat][cname] ??= { rev:0, orders:0 };
-  D.chan[cat][cname].rev += r; D.chan[cat][cname].orders++;
+  D.online[cname] ??= { rev:0, orders:0 };
+  D.online[cname].rev += r; D.online[cname].orders++;
+  D.onlineRev += r; D.onlineOrders++;
 }
 
 const days = Object.keys(dayMap).sort();
@@ -150,15 +150,13 @@ const roundObj = (o) => Object.fromEntries(Object.entries(o).map(([k,v])=>[k,rou
 const roundChan = (o) => Object.fromEntries(Object.entries(o).map(([k,v])=>[k,{rev:round(v.rev),orders:v.orders}]));
 const daily = days.map((day) => {
   const D = dayMap[day];
-  for (const cat of ["Online","Cửa hàng"]) for (const k in D.chan[cat]) channelTotals[k] = (channelTotals[k]||0) + D.chan[cat][k].rev;
-  for (const k in D.storeRetail) storeTotals[k] = (storeTotals[k]||0) + D.storeRetail[k];
+  for (const k in D.online) channelTotals[k] = (channelTotals[k]||0) + D.online[k].rev;
+  for (const k in D.store) storeTotals[k] = (storeTotals[k]||0) + D.store[k];
   return {
     day,
-    salesRev: round(D.salesRev), salesCount: D.salesCount,
-    bemori: roundObj(D.bemori),          // {Online, Cửa hàng} doanh thu (hoa don) theo kho
-    memonRev: round(D.memonRev),         // Xuong Memon ban ra ngoai
-    storeRetail: roundObj(D.storeRetail),
-    chan: { Online: roundChan(D.chan.Online), "Cửa hàng": roundChan(D.chan["Cửa hàng"]) }, // kenh (don) theo nhom
+    online: roundChan(D.online), onlineRev: round(D.onlineRev), onlineOrders: D.onlineOrders, // Online theo nguon (don)
+    store: roundObj(D.store), storeRev: round(D.storeRev),   // Cua hang ban le theo shop
+    memonRev: round(D.memonRev),
   };
 });
 const channels = Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
@@ -166,21 +164,19 @@ const stores = Object.entries(storeTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
 
 // ----- Tong hop 30 ngay (cho the Lark) -----
 function summarize(slice) {
-  const ch = {}, type = {}; let onlineRev=0, onlineOrders=0, totalRev=0, salesCount=0, memon=0;
+  const ch = {}; let onlineRev=0, onlineOrders=0, storeRev=0, memon=0;
   for (const d of slice) {
-    for (const cat of ["Online","Cửa hàng"]) for (const k in d.chan[cat]) { ch[k]??={revenue:0,orders:0}; ch[k].revenue+=d.chan[cat][k].rev; ch[k].orders+=d.chan[cat][k].orders; onlineRev+=d.chan[cat][k].rev; onlineOrders+=d.chan[cat][k].orders; }
-    for (const k in d.bemori) type[k]=(type[k]||0)+d.bemori[k];
-    memon += d.memonRev;
-    totalRev+=d.salesRev; salesCount+=d.salesCount;
+    for (const k in d.online) { ch[k]??={revenue:0,orders:0}; ch[k].revenue+=d.online[k].rev; ch[k].orders+=d.online[k].orders; }
+    onlineRev+=d.onlineRev; onlineOrders+=d.onlineOrders; storeRev+=d.storeRev; memon+=d.memonRev;
   }
   const chList = Object.entries(ch).sort((a,b)=>b[1].revenue-a[1].revenue)
     .map(([name,v])=>({name,orders:v.orders,revenue:round(v.revenue),aov:v.orders?round(v.revenue/v.orders):0,share:onlineRev?round(v.revenue/onlineRev*100):0}));
-  const bemori = (type["Online"]||0)+(type["Cửa hàng"]||0)+(type["Sỉ"]||0);
+  const total = onlineRev + storeRev;
   return {
     marketing: { onlineRevenue:round(onlineRev), onlineOrders, onlineAov:onlineOrders?round(onlineRev/onlineOrders):0, channels:chList },
-    sales: { totalRevenue:round(totalRev), salesCount, byType:Object.fromEntries(Object.entries(type).map(([k,v])=>[k,round(v)])),
-      onlinePct: bemori?round((type["Online"]||0)/bemori*100):0, storePct: bemori?round((type["Cửa hàng"]||0)/bemori*100):0 },
-    brands: { Bemori: round(bemori), Memon: round(memon) },
+    sales: { totalRevenue:round(total), salesCount:onlineOrders, byType:{Online:round(onlineRev),"Cửa hàng":round(storeRev)},
+      onlinePct: total?round(onlineRev/total*100):0, storePct: total?round(storeRev/total*100):0 },
+    brands: { Bemori: round(total), Memon: round(memon) },
   };
 }
 const sum30 = summarize(daily.slice(-30));

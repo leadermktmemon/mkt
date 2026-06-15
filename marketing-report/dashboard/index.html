@@ -111,7 +111,6 @@
   <div class="panel" id="storePanel">
     <h2>Doanh thu theo cửa hàng <span style="font-size:12px;color:var(--muted);font-weight:400;">(bán lẻ tại quầy)</span></h2>
     <div class="cw" id="storeWrap" style="height:420px;"><canvas id="cStore"></canvas></div>
-    <div class="note" id="storeNote" style="display:none;"></div>
   </div>
 
   <footer id="foot"></footer>
@@ -122,7 +121,7 @@
 <script>
 (function(){
   var D=window.DASHBOARD_DATA; if(!D||!D.daily){document.getElementById('sub').textContent='Không tìm thấy data.js';return;}
-  var PALETTE={'Facebook':'#378ADD','FB Bemori':'#378ADD','Zalo Bemori':'#1D9E75','Zalo cá nhân':'#1D9E75','Admin':'#888780','Khách lẻ':'#888780','Shopee':'#D85A30','Instagram':'#D4537E','Insta Bemori':'#D4537E','Zalo OA':'#BA7517','Website':'#7F77DD','Web Bemori':'#7F77DD'};
+  var PALETTE={'FB Bemori':'#378ADD','Facebook':'#378ADD','Zalo Bemori':'#1D9E75','Zalo cá nhân':'#1D9E75','Admin':'#888780','Khách lẻ':'#888780','Shopee':'#D85A30','Instagram':'#D4537E','Insta Bemori':'#D4537E','Zalo OA':'#BA7517','Website':'#7F77DD','Web Bemori':'#7F77DD'};
   var FB=['#378ADD','#1D9E75','#D85A30','#D4537E','#BA7517','#7F77DD','#888780','#26215C','#0F6E56','#993C1D'];
   var colorOf=function(n,i){return PALETTE[n]||FB[i%FB.length];};
   function vnd(n){n=Math.round(n); if(n>=1e9)return (n/1e9).toFixed(2).replace(/\.?0+$/,'')+' tỷ'; if(n>=1e6)return (n/1e6).toFixed(1).replace(/\.0$/,'')+' tr'; if(n>=1e3)return Math.round(n/1e3)+'K'; return String(n);}
@@ -139,78 +138,65 @@
     if(p==='month'){var m=d[d.length-1].day.slice(0,7);return d.filter(function(x){return x.day.slice(0,7)===m;});}
     if(p==='custom')return d.filter(function(x){return (!cFrom||x.day>=cFrom)&&(!cTo||x.day<=cTo);});
     return d; }
-  var MKT_NON=['Khách lẻ','(trống)','(không rõ)']; // nguồn KHÔNG tính là marketing (khách tại quầy)
-  function isMkt(name){return MKT_NON.indexOf(name)<0;}
 
-  // gom kenh theo nhom Online/Cửa hàng (don)
-  function channelAgg(slice,cats){
-    var ch={},total=0,orders=0;
-    slice.forEach(function(d){ cats.forEach(function(cat){ var m=d.chan&&d.chan[cat]; if(!m)return;
-      for(var k in m){ ch[k]=ch[k]||{rev:0,orders:0}; ch[k].rev+=m[k].rev; ch[k].orders+=m[k].orders; total+=m[k].rev; orders+=m[k].orders; } }); });
+  function sumOnline(s){var r=0;s.forEach(function(d){r+=d.onlineRev||0;});return r;}
+  function sumStore(s){var r=0;s.forEach(function(d){r+=d.storeRev||0;});return r;}
+  function sumMemon(s){var r=0;s.forEach(function(d){r+=d.memonRev||0;});return r;}
+  function onlineAgg(s){var ch={},total=0,orders=0;s.forEach(function(d){for(var k in d.online){ch[k]=ch[k]||{rev:0,orders:0};ch[k].rev+=d.online[k].rev;ch[k].orders+=d.online[k].orders;total+=d.online[k].rev;orders+=d.online[k].orders;}});
     var list=Object.keys(ch).sort(function(a,b){return ch[b].rev-ch[a].rev;}).map(function(n){return {name:n,orders:ch[n].orders,revenue:ch[n].rev,aov:ch[n].orders?Math.round(ch[n].rev/ch[n].orders):0,share:total?Math.round(ch[n].rev/total*100):0};});
-    return {list:list,total:total,orders:orders};
-  }
-  function bemoriRev(slice){var o=0,s=0;slice.forEach(function(d){o+=d.bemori['Online']||0;s+=d.bemori['Cửa hàng']||0;});return {online:o,store:s};}
-  function memonAgg(slice){
-    var dset={};slice.forEach(function(d){dset[d.day]=1;});
-    var cust={},total=0,bills=0;
-    (D.memonBills||[]).forEach(function(b){if(dset[b.day]){cust[b.customer]=cust[b.customer]||{rev:0,n:0};cust[b.customer].rev+=b.amount;cust[b.customer].n++;total+=b.amount;bills++;}});
-    var list=Object.keys(cust).sort(function(a,b){return cust[b].rev-cust[a].rev;}).map(function(n){return {name:n,orders:cust[n].n,revenue:cust[n].rev,share:total?Math.round(cust[n].rev/total*100):0};});
-    return {list:list,total:total,bills:bills,customers:list.length};
-  }
-  function storeAgg(slice){var s={};slice.forEach(function(d){for(var k in d.storeRetail)s[k]=(s[k]||0)+d.storeRetail[k];});return Object.keys(s).sort(function(a,b){return s[b]-s[a];}).map(function(n){return {name:n,rev:s[n]};});}
-  function bucketKey(day,g){ if(g==='month')return day.slice(0,7); if(g==='week'){var d=new Date(day+'T00:00:00Z');var dow=(d.getUTCDay()+6)%7;d.setUTCDate(d.getUTCDate()-dow);return d.toISOString().slice(0,10);} return day; }
+    return {list:list,total:total,orders:orders};}
+  function storeAgg(s){var st={},total=0;s.forEach(function(d){for(var k in d.store){st[k]=(st[k]||0)+d.store[k];total+=d.store[k];}});
+    return {list:Object.keys(st).sort(function(a,b){return st[b]-st[a];}).map(function(n){return {name:n,revenue:st[n],share:total?Math.round(st[n]/total*100):0};}),total:total};}
+  function memonAgg(s){var dset={};s.forEach(function(d){dset[d.day]=1;});var cust={},total=0,bills=0;(D.memonBills||[]).forEach(function(b){if(dset[b.day]){cust[b.customer]=cust[b.customer]||{rev:0,n:0};cust[b.customer].rev+=b.amount;cust[b.customer].n++;total+=b.amount;bills++;}});
+    return {list:Object.keys(cust).sort(function(a,b){return cust[b].rev-cust[a].rev;}).map(function(n){return {name:n,orders:cust[n].n,revenue:cust[n].rev,share:total?Math.round(cust[n].rev/total*100):0};}),total:total,bills:bills,customers:Object.keys(cust).length};}
+  function bucketKey(day,g){if(g==='month')return day.slice(0,7);if(g==='week'){var d=new Date(day+'T00:00:00Z');var dow=(d.getUTCDay()+6)%7;d.setUTCDate(d.getUTCDate()-dow);return d.toISOString().slice(0,10);}return day;}
 
   function render(){
     var slice=sliceFor(period);
-    var b=bemoriRev(slice);
-    var isMemon=scope==='Memon';
-    var showStore = (scope==='all'||scope==='Bemori'||scope==='Cửa hàng');
+    var on=sumOnline(slice),st=sumStore(slice),mem=sumMemon(slice);
+    var showStore=(scope==='all'||scope==='Bemori');
 
-    // ----- KPIs -----
+    // KPIs
     var k=[];
     if(scope==='all'){
-      var mem=memonAgg(slice);
-      k=[{label:'Tổng doanh thu',val:vnd(b.online+b.store+mem.total),accent:true},
-         {label:'Bemori',val:vnd(b.online+b.store)},
-         {label:'Memon (B2B/sỉ)',val:vnd(mem.total)},
-         {label:'Online / Cửa hàng',val:vnd(b.online)+' · '+vnd(b.store)}];
+      k=[{label:'Tổng doanh thu',val:vnd(on+st+mem),accent:true},
+         {label:'Online (marketing)',val:vnd(on)},
+         {label:'Cửa hàng (bán lẻ)',val:vnd(st)},
+         {label:'Memon (B2B/sỉ)',val:vnd(mem)}];
     } else if(scope==='Bemori'){
-      var c=channelAgg(slice,['Online','Cửa hàng']);
-      k=[{label:'Doanh thu Bemori',val:vnd(b.online+b.store),accent:true},
-         {label:'Online (kho NK)',val:vnd(b.online)},
-         {label:'Cửa hàng',val:vnd(b.store)},
-         {label:'Đơn theo kênh',val:c.orders.toLocaleString('vi-VN')}];
+      var tot=on+st;
+      k=[{label:'Doanh thu Bemori',val:vnd(tot),accent:true},
+         {label:'Online (marketing)',val:vnd(on)},
+         {label:'Cửa hàng (bán lẻ)',val:vnd(st)},
+         {label:'% Online / Cửa hàng',val:(tot?Math.round(on/tot*100):0)+'% · '+(tot?Math.round(st/tot*100):0)+'%'}];
     } else if(scope==='Online'){
-      var co=channelAgg(slice,['Online']);
-      k=[{label:'Doanh thu Online',val:vnd(b.online),accent:true},
-         {label:'Đơn online (theo kênh)',val:co.orders.toLocaleString('vi-VN')},
-         {label:'AOV',val:vnd(co.orders?co.total/co.orders:0)},
-         {label:'Số nguồn',val:co.list.length}];
+      var o=onlineAgg(slice);
+      k=[{label:'Doanh thu Online',val:vnd(on),accent:true},
+         {label:'Số đơn',val:o.orders.toLocaleString('vi-VN')},
+         {label:'AOV',val:vnd(o.orders?on/o.orders:0)},
+         {label:'Số nguồn',val:o.list.length}];
     } else if(scope==='Cửa hàng'){
-      var cs=channelAgg(slice,['Cửa hàng']);
-      var mkt=0; cs.list.forEach(function(c){ if(isMkt(c.name)) mkt+=c.revenue; });
-      var pct=b.store?Math.round(mkt/b.store*100):0;
-      k=[{label:'Doanh thu Cửa hàng',val:vnd(b.store),accent:true},
-         {label:'Marketing mang về',val:vnd(mkt)},
-         {label:'% Marketing → Cửa hàng',val:pct+'%'},
-         {label:'Khách tại quầy (còn lại)',val:vnd(Math.max(b.store-mkt,0))}];
-    } else { // Memon
+      var sa=storeAgg(slice);
+      k=[{label:'Doanh thu Cửa hàng',val:vnd(st),accent:true},
+         {label:'Số cửa hàng',val:sa.list.length},
+         {label:'TB / cửa hàng',val:vnd(sa.list.length?st/sa.list.length:0)},
+         {label:'Top cửa hàng',val:sa.list[0]?sa.list[0].name.replace('Bemori ','').slice(0,14):'-'}];
+    } else {
       var m=memonAgg(slice);
-      k=[{label:'Doanh thu B2B/Sỉ',val:vnd(m.total),accent:true},
+      k=[{label:'Doanh thu B2B/Sỉ',val:vnd(mem),accent:true},
          {label:'Số hóa đơn',val:m.bills.toLocaleString('vi-VN')},
-         {label:'AOV',val:vnd(m.bills?m.total/m.bills:0)},
+         {label:'AOV',val:vnd(m.bills?mem/m.bills:0)},
          {label:'Khách B2B',val:m.customers}];
     }
     document.getElementById('kpis').innerHTML=k.map(function(x){return '<div class="kpi'+(x.accent?' accent':'')+'"><div class="label">'+x.label+'</div><div class="val">'+x.val+'</div></div>';}).join('');
 
-    // ----- Trend -----
-    var keys, valFn;
-    if(scope==='all'){ keys=['Bemori','Memon']; valFn=function(d){return {Bemori:(d.bemori['Online']||0)+(d.bemori['Cửa hàng']||0),Memon:d.memonRev||0};}; }
-    else if(scope==='Bemori'){ keys=['Online','Cửa hàng']; valFn=function(d){return {Online:d.bemori['Online']||0,'Cửa hàng':d.bemori['Cửa hàng']||0};}; }
-    else if(scope==='Online'){ keys=['Online']; valFn=function(d){return {Online:d.bemori['Online']||0};}; }
-    else if(scope==='Cửa hàng'){ keys=['Cửa hàng']; valFn=function(d){return {'Cửa hàng':d.bemori['Cửa hàng']||0};}; }
-    else { keys=['Memon']; valFn=function(d){return {Memon:d.memonRev||0};}; }
+    // Trend
+    var keys,valFn;
+    if(scope==='all'){keys=['Bemori','Memon'];valFn=function(d){return {Bemori:(d.onlineRev||0)+(d.storeRev||0),Memon:d.memonRev||0};};}
+    else if(scope==='Bemori'){keys=['Online','Cửa hàng'];valFn=function(d){return {Online:d.onlineRev||0,'Cửa hàng':d.storeRev||0};};}
+    else if(scope==='Online'){keys=['Online'];valFn=function(d){return {Online:d.onlineRev||0};};}
+    else if(scope==='Cửa hàng'){keys=['Cửa hàng'];valFn=function(d){return {'Cửa hàng':d.storeRev||0};};}
+    else {keys=['Memon'];valFn=function(d){return {Memon:d.memonRev||0};};}
     var idx={},buckets=[];
     slice.forEach(function(d){var key=bucketKey(d.day,gran);if(idx[key]===undefined){idx[key]=buckets.length;buckets.push({key:key,t:{}});}var bk=buckets[idx[key]];var v=valFn(d);keys.forEach(function(t){bk.t[t]=(bk.t[t]||0)+(v[t]||0);});});
     var tSeries=keys.filter(function(t){return buckets.some(function(x){return x.t[t];});}).map(function(t){return {label:t,data:buckets.map(function(x){return Math.round(x.t[t]||0);}),backgroundColor:COL[t]||'#888',stack:'x',borderRadius:2};});
@@ -219,22 +205,27 @@
     document.getElementById('legTrend').innerHTML=tSeries.map(function(s){return '<span><span class="dot" style="background:'+s.backgroundColor+'"></span>'+s.label+'</span>';}).join('');
     drawStacked('cTrend',buckets.map(function(x){return gran==='month'?x.key:x.key.slice(5);}),tSeries);
 
-    // ----- Breakdown + mix -----
+    // Breakdown + mix
     var rows,head,mixL,mixV,mixC,leg,bdT,mixT;
-    if(isMemon){
+    if(scope==='Memon'){
       var M=memonAgg(slice);var top=M.list.slice(0,10);
       bdT='Top khách hàng B2B';mixT='Cơ cấu khách B2B';
       head='<tr><th>Khách hàng</th><th>HĐ</th><th>Doanh thu</th><th>%</th></tr>';
       rows=top.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td><td>'+c.orders+'</td><td>'+vnd(c.revenue)+'</td><td>'+c.share+'%</td></tr>';}).join('')||'<tr><td colspan="4" class="note">Không có đơn sỉ trong kỳ</td></tr>';
       mixL=top.map(function(c){return c.name;});mixV=top.map(function(c){return c.revenue;});mixC=top.map(function(c,i){return colorOf(c.name,i);});
       leg=top.slice(0,6).map(function(c,i){return '<span><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.share+'%</span>';}).join('');
+    } else if(scope==='Cửa hàng'){
+      var SA=storeAgg(slice);
+      bdT='Doanh thu theo cửa hàng';mixT='Cơ cấu cửa hàng';
+      head='<tr><th>Cửa hàng</th><th>Doanh thu</th><th>%</th></tr>';
+      rows=SA.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td><td>'+vnd(c.revenue)+'</td><td>'+c.share+'%</td></tr>';}).join('')||'<tr><td colspan="3" class="note">Không có dữ liệu</td></tr>';
+      mixL=SA.list.map(function(c){return c.name;});mixV=SA.list.map(function(c){return c.revenue;});mixC=SA.list.map(function(c,i){return colorOf(c.name,i);});
+      leg='';
     } else {
-      var cats = scope==='Online'?['Online']:scope==='Cửa hàng'?['Cửa hàng']:['Online','Cửa hàng'];
-      var C=channelAgg(slice,cats);
-      bdT='Theo nguồn / kênh'+(scope==='Online'?' (Online)':scope==='Cửa hàng'?' (Cửa hàng)':'');
-      mixT='Cơ cấu theo nguồn';
+      var C=onlineAgg(slice);
+      bdT='Đơn Online theo nguồn / kênh';mixT='Cơ cấu nguồn Online';
       head='<tr><th>Nguồn</th><th>Đơn</th><th>Doanh thu</th><th>AOV</th><th>%</th></tr>';
-      rows=C.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td><td>'+c.orders+'</td><td>'+vnd(c.revenue)+'</td><td>'+vnd(c.aov)+'</td><td>'+c.share+'%</td></tr>';}).join('')||'<tr><td colspan="5" class="note">Không có đơn theo kênh trong kỳ</td></tr>';
+      rows=C.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+'</td><td>'+c.orders+'</td><td>'+vnd(c.revenue)+'</td><td>'+vnd(c.aov)+'</td><td>'+c.share+'%</td></tr>';}).join('')||'<tr><td colspan="5" class="note">Không có đơn online trong kỳ</td></tr>';
       mixL=C.list.map(function(c){return c.name;});mixV=C.list.map(function(c){return c.revenue;});mixC=C.list.map(function(c,i){return colorOf(c.name,i);});
       leg=C.list.map(function(c,i){return '<span><span class="dot" style="background:'+colorOf(c.name,i)+'"></span>'+c.name+' '+c.share+'%</span>';}).join('');
     }
@@ -245,11 +236,11 @@
     document.getElementById('legMix').innerHTML=leg;
     drawDonut('cMix',mixL,mixV,mixC);
 
-    // ----- Store panel -----
-    var sp=document.getElementById('storePanel'),wrap=document.getElementById('storeWrap'),note=document.getElementById('storeNote');
-    if(!showStore){ sp.style.display='none'; }
-    else { sp.style.display='block'; var st=storeAgg(slice); wrap.style.height=(Math.max(st.length,1)*34+70)+'px'; note.style.display='none'; wrap.style.display='block';
-      drawBar('cStore',st.map(function(s){return s.name;}),st.map(function(s){return s.rev;}),'#1D9E75'); }
+    // Store panel (chi all/Bemori)
+    var sp=document.getElementById('storePanel');
+    if(!showStore){sp.style.display='none';}
+    else {sp.style.display='block';var sb=storeAgg(slice).list;document.getElementById('storeWrap').style.height=(Math.max(sb.length,1)*34+70)+'px';
+      drawBar('cStore',sb.map(function(s){return s.name;}),sb.map(function(s){return s.revenue;}),'#1D9E75');}
   }
 
   function drawDonut(id,labels,vals,colors){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'doughnut',data:{labels:labels,datasets:[{data:vals,backgroundColor:colors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});}
@@ -269,9 +260,9 @@
 
   function fmtD(d){return d.split('-').reverse().join('/');}
   function rangeLabel(){var s=sliceFor(period);
-    if(!s.length){ if(period==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return fmtD(t)+' · chưa có dữ liệu (cập nhật trong ngày)';} return '(không có dữ liệu)'; }
-    var a=s[0].day,b=s[s.length-1].day; return a===b?fmtD(a):fmtD(a)+' → '+fmtD(b); }
-  var _r=render; render=function(){_r();document.getElementById('sub').textContent=rangeLabel();};
+    if(!s.length){if(period==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return fmtD(t)+' · chưa có dữ liệu (cập nhật trong ngày)';}return '(không có dữ liệu)';}
+    var a=s[0].day,b=s[s.length-1].day;return a===b?fmtD(a):fmtD(a)+' → '+fmtD(b);}
+  var _r=render;render=function(){_r();document.getElementById('sub').textContent=rangeLabel();};
   document.getElementById('foot').textContent='Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN');
   render();
 })();
