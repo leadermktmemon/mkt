@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-15T14:31:03.510Z",
+  "generatedAt": "2026-06-15T18:19:52.824Z",
   "source": "lark",
   "period": {
-    "days": 415,
+    "days": 416,
     "fromDate": "2025-01-01",
-    "toDate": "2026-06-15"
+    "toDate": "2026-06-16"
   },
   "channels": [
     "Facebook",
@@ -28017,102 +28017,126 @@
     {
       "day": "2026-06-15",
       "online": {},
-      "onlineRev": 6625000,
+      "onlineRev": 18495000,
       "onlineRev31": 0,
-      "onlineOrders": 13,
-      "onlineProducts": 16,
-      "onlineTarget": 19000000,
+      "onlineOrders": 27,
+      "onlineProducts": 434,
+      "onlineTarget": 31000000,
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
       "brands": {},
       "bc": {},
       "store": {
-        "Láng": 1550000,
-        "Nguyễn Trãi": 2180000,
-        "Xã Đàn": 465000,
-        "Outlet": 707000,
-        "Nguyễn Văn Cừ": 385000,
-        "Bạch Mai": 1705000,
-        "Nguyễn Gia Trí": 490000
+        "Láng": 4102500,
+        "Nguyễn Trãi": 8117500,
+        "Xã Đàn": 4295000,
+        "Outlet": 1173000,
+        "Xuân Thủy": 7005000,
+        "Nguyễn Văn Cừ": 2800000,
+        "Cầu Giấy": 10522000,
+        "Lê Văn Sỹ": 3610000,
+        "Bạch Mai": 6105000,
+        "Nguyễn Gia Trí": 4640000
       },
-      "storeRev": 7482000,
-      "storeOnline": 4035000,
-      "storeTarget": 21375360,
-      "custIn": 24,
-      "custBuy": 18,
+      "storeRev": 52370000,
+      "storeOnline": 13595000,
+      "storeTarget": 97027200,
+      "custIn": 117,
+      "custBuy": 98,
+      "memonRev": 0
+    },
+    {
+      "day": "2026-06-16",
+      "online": {},
+      "onlineRev": 0,
+      "onlineRev31": 0,
+      "onlineOrders": 0,
+      "onlineProducts": 0,
+      "onlineTarget": 0,
+      "fbAds": 0,
+      "ggAds": 0,
+      "social": 0,
+      "brands": {},
+      "bc": {},
+      "store": {},
+      "storeRev": 0,
+      "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
       "memonRev": 0
     }
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 1023352059,
-    "onlineOrders": 1494,
-    "onlineAov": 684975,
+    "onlineRevenue": 1011332809,
+    "onlineOrders": 1459,
+    "onlineAov": 693168,
     "channels": [
       {
         "name": "Zalo",
-        "orders": 643,
-        "revenue": 440697349,
-        "aov": 685377,
+        "orders": 628,
+        "revenue": 435054056,
+        "aov": 692761,
         "share": 43,
         "est": true
       },
       {
         "name": "Facebook",
-        "orders": 552,
-        "revenue": 377850474,
-        "aov": 684512,
+        "orders": 541,
+        "revenue": 375238277,
+        "aov": 693601,
         "share": 37,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 117,
-        "revenue": 80220804,
-        "aov": 685648,
+        "orders": 115,
+        "revenue": 79385181,
+        "aov": 690306,
         "share": 8,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 104,
-        "revenue": 71081240,
-        "aov": 683473,
+        "orders": 100,
+        "revenue": 69222840,
+        "aov": 692228,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 78,
-        "revenue": 53502192,
-        "aov": 685926,
+        "orders": 76,
+        "revenue": 52432455,
+        "aov": 689901,
         "share": 5,
         "est": true
       }
     ]
   },
   "store": {
-    "walkinRevenue": 2700248911,
-    "walkinOrders": 5483,
-    "marketingRevenue": 473571752,
-    "marketingOrdersEst": 691,
-    "custIn": 5911,
+    "walkinRevenue": 2661343661,
+    "walkinOrders": 5390,
+    "marketingRevenue": 468065752,
+    "marketingOrdersEst": 675,
+    "custIn": 5819,
     "closeRate": 93,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3723600970,
-    "salesCount": 1494,
+    "totalRevenue": 3672676470,
+    "salesCount": 1459,
     "byType": {
-      "Online": 1023352059,
-      "Cửa hàng": 2700248911
+      "Online": 1011332809,
+      "Cửa hàng": 2661343661
     },
-    "onlinePct": 27,
-    "storePct": 73
+    "onlinePct": 28,
+    "storePct": 72
   },
   "brands": {
-    "Bemori": 3723600970,
+    "Bemori": 3672676470,
     "Memon": 0
   }
 }
