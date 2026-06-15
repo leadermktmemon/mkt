@@ -44,6 +44,16 @@ const CH = {
   "Bán lẻ NK": {rev:"Bán lẻ NK",           ords:["Số đơn hàng Bán lẻ NK"]},
 };
 
+// Nhom 2: doanh thu theo THUONG HIEU (cot tong hop chuyen dung trong 3.1 -> tong chinh xac)
+const BRANDS = { "Bemori":["Doanh thu Bemori"], "Teddy":["Doanh thu Teddy"], "Khác":["Doanh thu thương hiệu khác"] };
+// Nhom 3: ma tran THUONG HIEU x KENH (cot con trong 3.1)
+const BC = {
+  "Bemori":   {Facebook:["Facebook Bemori","Facebook Bemori Bear"], Instagram:["IG Bemori"], Zalo:["Zalo Bemori"], Website:["Web Bemori"]},
+  "Teddy":    {Facebook:["Facebook Kid"], Instagram:["IG Teddy"], Zalo:["Zalo Teddy"], Website:["Web Teddy"]},
+  "GBO/NNGB": {Facebook:["Facebook Ngôi nhà Gấu Bông","Facebook GBO"], Instagram:["IG Ngôi nhà gấu bông"], Zalo:[], Website:["Web GBO","Web NNGB"]},
+  "Memon":    {Facebook:["Facebook Memon"], Instagram:[], Zalo:[], Website:[]},
+};
+
 const tk=await token();
 const src=await allRecords(tk,SO_APP,SO_SOURCE);
 const tot=await allRecords(tk,SO_APP,SO_TOTAL);
@@ -54,7 +64,7 @@ const STORE_MAP={};for(const r of look){const tf=r.fields["TK cửa hàng"]&&r.f
 console.log(`3.1 nguồn: ${src.length} | 2.2 tổng (target): ${tot.length} | Cửa hàng: ${store.length} | map CH: ${Object.keys(STORE_MAP).length}`);
 
 const dayMap={};
-function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0};}
+function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0};}
 
 // 3.1 -> Online theo kenh
 for(const r of src){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
@@ -62,6 +72,8 @@ for(const r of src){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01
     if(rev||ord){D.online[name]??={rev:0,orders:0};D.online[name].rev+=rev;D.online[name].orders+=ord;}}
   D.onlineRev+=num(f["Tổng doanh thu"]);
   D.fbAds+=num(f["Doanh thu FB ADS"]);D.ggAds+=num(f["Doanh thu GG ADS"]);D.social+=num(f["Doanh thu Social tự nhiên"]);
+  for(const b in BRANDS){let v=0;for(const c of BRANDS[b])v+=num(f[c]);if(v)D.brands[b]=(D.brands[b]||0)+v;}
+  for(const b in BC){for(const ch in BC[b]){let v=0;for(const c of BC[b][ch])v+=num(f[c]);if(v){(D.bc[b]??={})[ch]=(D.bc[b][ch]||0)+v;}}}
 }
 // 2.2 -> Target ngay + tong so don + DOANH THU 100% (bang "Ko dc sua", tu tong hop -> chinh xac & ko tre nhu form 3.1)
 //   AOV online = Doanh thu 100% / So don chot (dung dinh nghia "Gia tri TB don" cua Base).
@@ -88,6 +100,7 @@ const daily=days.map(day=>{const D=dayMap[day];
   // online[kenh].rev giu nguyen tu 3.1 (chi de tinh TY TRONG kenh); so don theo kenh KHONG co trong Base -> uoc luong khi hien thi.
   return {day,online:roundChan(D.online),onlineRev:round(D.online100||D.onlineRev),onlineRev31:round(D.onlineRev),onlineOrders:D.onlineOrders,onlineProducts:D.onlineProducts,onlineTarget:round(D.onlineTarget),
     fbAds:round(D.fbAds),ggAds:round(D.ggAds),social:round(D.social),
+    brands:roundObj(D.brands),bc:Object.fromEntries(Object.entries(D.bc).map(([b,o])=>[b,roundObj(o)])),
     store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0};
 });
 const channels=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);

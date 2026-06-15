@@ -57,13 +57,12 @@ DEPLOY.md, KE-HOACH-BAO-CAO-MARKETING.md  # tài liệu
 ```
 
 ## 5. DASHBOARD (index.html) — đã có
-- Bộ lọc **"Xem"**: Tất cả · Bemori · › Online · › Cửa hàng · Memon(B2B).
-- Bộ chọn **"Kỳ"**: dropdown Hôm nay/7/30 ngày/Tháng này/90 ngày/1 năm + **lịch chọn ngày tùy chọn**.
-- Bộ **"Gộp"**: Ngày/Tuần/Tháng (cho biểu đồ xu hướng).
-- KPI theo từng scope:
-  - Online: Doanh thu, Số đơn, AOV, % Hoàn thành KPI; bảng theo kênh (FB/Zalo/IG/Web).
-  - Cửa hàng: Doanh thu tại quầy, % KPI, **Tỷ lệ chốt (vào→mua)**, % Marketing→CH, Khách vào; bảng theo cửa hàng.
-  - Bemori/Tất cả: tổng + tỷ trọng Online/Cửa hàng + %KPI.
+- Điều hướng theo **4 TẦNG (tab "Nhóm")** thay cho bộ "Xem" cũ. Bộ **"Kỳ"** (Hôm nay/7/30 ngày/Tháng này/90/1 năm + lịch tùy chọn) và **"Gộp"** (Ngày/Tuần/Tháng) giữ nguyên.
+  - **Nhóm 1 · Sales Online / Cửa hàng**: KPI Tổng, Online, Cửa hàng (walk-in), Marketing→CH, Memon, *Chi phí (placeholder)*; trend Online vs CH; bảng Online vs CH (đơn/DT/%); biểu đồ theo cửa hàng (walk-in).
+  - **Nhóm 2 · Thương hiệu**: doanh thu Bemori/Teddy/Khác (cột tổng hợp 3.1, chưa gồm Bán lẻ NK) + *chi phí/ROAS placeholder*; trend + donut theo TH.
+  - **Nhóm 3 · Theo kênh**: KPI Online/đơn/AOV/số kênh + bảng kênh (đơn&AOV **ước tính**) + **ma trận Thương hiệu × Kênh** (panel riêng `#matrixPanel`).
+  - **Nhóm 4 · Nội dung & Ads**: KPI DT Ads (FB+GG) vs Tự nhiên/Viral (Social) — từ `fbAds/ggAds/social`; trend Ads vs Tự nhiên; **khung 9 kênh** (`#n4Panel`, mảng `N4` trong JS) tuyến Cố định (Web/FB/IG có DT) + Viral (TikTok×3/YouTube×2 — placeholder); cột Ads/Traffic/Chi phí = "chờ DL".
+- Chi phí, ROAS, Traffic, TikTok/YouTube: **Base chưa có** → để placeholder, cắm sau khi nối ads/truyền thông.
 - Logo: dùng `marketing-report/dashboard/logo.png` (nếu chưa upload thì hiện chữ "Memon").
 
 ## 6. DEPLOY (đã chạy)
@@ -74,9 +73,10 @@ DEPLOY.md, KE-HOACH-BAO-CAO-MARKETING.md  # tài liệu
 ## 7. VIỆC CÒN TREO (NEXT)
 1. ⚠️ **Bật Cloudflare Access** (Zero Trust → Access → Self-hosted → hostname `mkt.leader-mkt-memon.workers.dev` → Allow theo email) — vì dashboard đang công khai lộ doanh thu.
 2. **Điền `dashboardUrl`** = `https://mkt.leader-mkt-memon.workers.dev/` vào Secret `LARK_CONFIG` (để nút "Mở dashboard" trong thẻ Lark hoạt động).
-3. **Ads vs Tự nhiên** (FB ADS/GG ADS/Social tự nhiên) — dữ liệu đã có trong data.js (`fbAds/ggAds/social`), chỉ cần thêm view.
+3. ✅ **Ads vs Tự nhiên** — đã có ở Nhóm 4 (DT Ads FB+GG vs Tự nhiên/Viral). Còn thiếu: **chi phí ads thật + traffic + TikTok/YouTube** → cắm khi nối Meta/Google/TikTok Ads + GA.
 4. **Tách Memon (B2B/sỉ)** — chưa làm; nguồn từ nhanh.vn (kho 230213) hoặc Base Lark riêng nếu có.
 5. **Lead/CVR**: team chỉ nhập T5-T6/2025 rồi dừng → chưa đưa vào; bật lại khi nhập đều.
+6. **Số đơn THẬT theo kênh** (bảng 3.1) + **số đơn marketing tại CH** (bảng cửa hàng 2.2): Base đang trống → hiện ước tính. Đề nghị team nhập để có số thật.
 
 ## 8. CÁCH TIẾP TỤC (cho chat mới / người mới)
 - Cập nhật dữ liệu tay: `node marketing-report/dashboard/lark-build-data.mjs` (kéo Lark → data.js).
