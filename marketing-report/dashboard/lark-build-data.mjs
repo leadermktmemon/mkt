@@ -17,10 +17,17 @@ const SO_APP = "NimAbYHV3aWjPmsp7I9lugmbgcv";
 const SO_SOURCE = "tbl6xpLNnyuXLydn";   // 3.1 DT theo nguon hang ngay
 const SO_TOTAL = "tblLf6OWq6Z9nFQD";    // 2.2 Tong hop SO theo ngay (co Target ngay)
 const STORE_APP = "Sfb9bDqKgakJMSs9xOglyyE5gdg";
-const STORE_TBL = "tblqPCxm7QbDv6Zh";   // 2.4 Tong hop cua hang theo thang
+const STORE_TBL = "tblH6XAodJy1WQwy";   // 2.2 Tong hop cua hang theo NGAY (4488 dong, du lieu hang ngay)
 
-async function token(){const r=await fetch(`${BASE}/open-apis/auth/v3/tenant_access_token/internal`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({app_id:cfg.appId,app_secret:cfg.appSecret})});const d=await r.json();if(d.code!==0)throw new Error("Token: "+d.msg);return d.tenant_access_token;}
-async function allRecords(tk,app,tbl){const out=[];let pt=null;do{const u=new URL(`${BASE}/open-apis/bitable/v1/apps/${app}/tables/${tbl}/records`);u.searchParams.set("page_size","500");if(pt)u.searchParams.set("page_token",pt);const d=await(await fetch(u,{headers:{Authorization:`Bearer ${tk}`}})).json();if(d.code!==0)throw new Error(tbl+": "+d.msg);out.push(...(d.data?.items||[]));pt=d.data?.has_more?d.data.page_token:null;}while(pt);return out;}
+const sleep=(ms)=>new Promise(r=>setTimeout(r,ms));
+async function fetchJson(url,opts){ // tu thu lai khi mang timeout
+  for(let i=0;i<5;i++){
+    try{ const r=await fetch(url,opts); return await r.json(); }
+    catch(e){ if(i===4) throw e; console.log("  (mạng lỗi, thử lại "+(i+1)+"...)"); await sleep(2000*(i+1)); }
+  }
+}
+async function token(){const d=await fetchJson(`${BASE}/open-apis/auth/v3/tenant_access_token/internal`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({app_id:cfg.appId,app_secret:cfg.appSecret})});if(d.code!==0)throw new Error("Token: "+d.msg);return d.tenant_access_token;}
+async function allRecords(tk,app,tbl){const out=[];let pt=null;do{const u=new URL(`${BASE}/open-apis/bitable/v1/apps/${app}/tables/${tbl}/records`);u.searchParams.set("page_size","500");if(pt)u.searchParams.set("page_token",pt);const d=await fetchJson(u,{headers:{Authorization:`Bearer ${tk}`}});if(d.code!==0)throw new Error(tbl+": "+d.msg);out.push(...(d.data?.items||[]));pt=d.data?.has_more?d.data.page_token:null;}while(pt);return out;}
 const num=(v)=>typeof v==="number"?v:(v&&v.value!=null?Number(v.value):(typeof v==="string"?Number(v)||0:0));
 const pad=(n)=>String(n).padStart(2,"0");
 function dayOf(f){const y=num(f["Năm tương ứng"]),m=num(f["Tháng tương ứng"]),d=num(f["Ngày tương ứng"]);if(y&&m&&d)return `${y}-${pad(m)}-${pad(d)}`;if(f["Ngày"]){return new Date(f["Ngày"]+7*3600*1000).toISOString().slice(0,10);}return null;}
@@ -59,7 +66,7 @@ for(const r of store){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-
   const ch=num(f["Doanh thu CH"]);const onl=num(f["Doanh thu đơn Online chuyển đơn"]);
   const name=cleanStore((f["Tên cửa hàng"]&&f["Tên cửa hàng"][0]&&(f["Tên cửa hàng"][0].name||f["Tên cửa hàng"][0].en_name))||"(?)");
   D.store[name]=(D.store[name]||0)+ch;D.storeRev+=ch;D.storeOnline+=onl;
-  D.storeTarget+=num(f["Target Tháng"]);D.custIn+=num(f["SL Khách vào"]);D.custBuy+=num(f["SL khách mua"]);
+  D.storeTarget+=num(f["Target ngày"]);D.custIn+=num(f["SL Khách vào"]);D.custBuy+=num(f["SL khách mua"]);
 }
 
 const days=Object.keys(dayMap).filter(d=>d>="2025-01-01").sort();

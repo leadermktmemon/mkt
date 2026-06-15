@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T07:56:35.454Z",
+  "generatedAt": "2026-06-15T12:36:05.883Z",
   "source": "lark",
   "period": {
     "days": 415,
@@ -14,17 +14,6 @@
     "Bán lẻ NK"
   ],
   "stores": [
-    "Nguyễn Trãi",
-    "Cầu Giấy",
-    "Xuân Thuỷ",
-    "Lê Văn Sỹ",
-    "Bạch Mai",
-    "Láng",
-    "Nguyễn Văn Cừ",
-    "Nguyễn Gia Trí",
-    "Xã Đàn",
-    "Tây Sơn",
-    "Outlet",
     "(?)"
   ],
   "daily": [
@@ -211,22 +200,13 @@
       "ggAds": 8920500,
       "social": 2370000,
       "store": {
-        "Nguyễn Trãi": 313095250,
-        "Cầu Giấy": 288273250,
-        "Lê Văn Sỹ": 239049254,
-        "Xuân Thuỷ": 264477249,
-        "Láng": 260056150,
-        "Bạch Mai": 227539500,
-        "Nguyễn Văn Cừ": 190683500,
-        "Xã Đàn": 143443500,
-        "Tây Sơn": 91878999,
-        "Outlet": 44670000
+        "(?)": 58242500
       },
-      "storeRev": 2063166652,
-      "storeOnline": 418044125,
-      "storeTarget": 2900000000,
-      "custIn": 5970,
-      "custBuy": 5686,
+      "storeRev": 58242500,
+      "storeOnline": 9322500,
+      "storeTarget": 44454000,
+      "custIn": 152,
+      "custBuy": 139,
       "memonRev": 0
     },
     {
@@ -259,12 +239,14 @@
       "fbAds": 6775000,
       "ggAds": 7152674,
       "social": 1887500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 44923000
+      },
+      "storeRev": 44923000,
+      "storeOnline": 6592674,
+      "storeTarget": 61282500,
+      "custIn": 129,
+      "custBuy": 121,
       "memonRev": 0
     },
     {
@@ -297,12 +279,14 @@
       "fbAds": 9005000,
       "ggAds": 11588500,
       "social": 1756500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 48139250
+      },
+      "storeRev": 48139250,
+      "storeOnline": 11893500,
+      "storeTarget": 63043000,
+      "custIn": 154,
+      "custBuy": 147,
       "memonRev": 0
     },
     {
@@ -335,12 +319,14 @@
       "fbAds": 7895000,
       "ggAds": 10505000,
       "social": 3035000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 65638000
+      },
+      "storeRev": 65638000,
+      "storeOnline": 8887500,
+      "storeTarget": 60382500,
+      "custIn": 176,
+      "custBuy": 169,
       "memonRev": 0
     },
     {
@@ -373,12 +359,14 @@
       "fbAds": 10297000,
       "ggAds": 7390000,
       "social": 1811500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 49301500
+      },
+      "storeRev": 49301500,
+      "storeOnline": 7745500,
+      "storeTarget": 50892800,
+      "custIn": 147,
+      "custBuy": 136,
       "memonRev": 0
     },
     {
@@ -411,12 +399,14 @@
       "fbAds": 8830000,
       "ggAds": 8617000,
       "social": 1546000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 47357750
+      },
+      "storeRev": 47357750,
+      "storeOnline": 8383000,
+      "storeTarget": 52348400,
+      "custIn": 149,
+      "custBuy": 145,
       "memonRev": 0
     },
     {
@@ -449,12 +439,14 @@
       "fbAds": 4637500,
       "ggAds": 14151463,
       "social": 475000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 41718000
+      },
+      "storeRev": 41718000,
+      "storeOnline": 8288000,
+      "storeTarget": 52413200,
+      "custIn": 120,
+      "custBuy": 114,
       "memonRev": 0
     },
     {
@@ -487,12 +479,14 @@
       "fbAds": 7652000,
       "ggAds": 9195000,
       "social": 300000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 51820500
+      },
+      "storeRev": 51820500,
+      "storeOnline": 9578500,
+      "storeTarget": 54173200,
+      "custIn": 154,
+      "custBuy": 146,
       "memonRev": 0
     },
     {
@@ -525,12 +519,14 @@
       "fbAds": 10056000,
       "ggAds": 11810500,
       "social": 5589000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 52477000
+      },
+      "storeRev": 52477000,
+      "storeOnline": 10845500,
+      "storeTarget": 69852300,
+      "custIn": 146,
+      "custBuy": 140,
       "memonRev": 0
     },
     {
@@ -563,12 +559,14 @@
       "fbAds": 8500000,
       "ggAds": 6703500,
       "social": 6736500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 75608500
+      },
+      "storeRev": 75608500,
+      "storeOnline": 8722500,
+      "storeTarget": 109711450,
+      "custIn": 226,
+      "custBuy": 213,
       "memonRev": 0
     },
     {
@@ -601,12 +599,14 @@
       "fbAds": 10154000,
       "ggAds": 11378000,
       "social": 1406500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 90317500
+      },
+      "storeRev": 90317500,
+      "storeOnline": 13267000,
+      "storeTarget": 102848450,
+      "custIn": 262,
+      "custBuy": 250,
       "memonRev": 0
     },
     {
@@ -639,12 +639,14 @@
       "fbAds": 7470000,
       "ggAds": 8816000,
       "social": 1239500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 57614750
+      },
+      "storeRev": 57614750,
+      "storeOnline": 7908000,
+      "storeTarget": 57973200,
+      "custIn": 168,
+      "custBuy": 157,
       "memonRev": 0
     },
     {
@@ -677,12 +679,14 @@
       "fbAds": 8620000,
       "ggAds": 20233000,
       "social": 914000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 60916250
+      },
+      "storeRev": 60916250,
+      "storeOnline": 10186500,
+      "storeTarget": 46325200,
+      "custIn": 171,
+      "custBuy": 166,
       "memonRev": 0
     },
     {
@@ -711,12 +715,14 @@
       "fbAds": 7020000,
       "ggAds": 5825500,
       "social": 0,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 46400000
+      },
+      "storeRev": 46400000,
+      "storeOnline": 8778000,
+      "storeTarget": 42298000,
+      "custIn": 154,
+      "custBuy": 150,
       "memonRev": 0
     },
     {
@@ -749,12 +755,14 @@
       "fbAds": 11222000,
       "ggAds": 9716500,
       "social": 1075000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 47820500
+      },
+      "storeRev": 47820500,
+      "storeOnline": 9120500,
+      "storeTarget": 42319800,
+      "custIn": 144,
+      "custBuy": 135,
       "memonRev": 0
     },
     {
@@ -787,12 +795,14 @@
       "fbAds": 6941500,
       "ggAds": 10513000,
       "social": 3390000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 56868750
+      },
+      "storeRev": 56868750,
+      "storeOnline": 11084000,
+      "storeTarget": 68509800,
+      "custIn": 173,
+      "custBuy": 165,
       "memonRev": 0
     },
     {
@@ -825,12 +835,14 @@
       "fbAds": 10292500,
       "ggAds": 16227500,
       "social": 3130000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 63098500
+      },
+      "storeRev": 63098500,
+      "storeOnline": 10259000,
+      "storeTarget": 99621900,
+      "custIn": 184,
+      "custBuy": 175,
       "memonRev": 0
     },
     {
@@ -863,12 +875,14 @@
       "fbAds": 9796500,
       "ggAds": 6752500,
       "social": 1480000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 80146750
+      },
+      "storeRev": 80146750,
+      "storeOnline": 10184000,
+      "storeTarget": 101620400,
+      "custIn": 232,
+      "custBuy": 221,
       "memonRev": 0
     },
     {
@@ -901,12 +915,14 @@
       "fbAds": 13935000,
       "ggAds": 18333970,
       "social": 1780000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 35360250
+      },
+      "storeRev": 35360250,
+      "storeOnline": 10033000,
+      "storeTarget": 68479300,
+      "custIn": 104,
+      "custBuy": 101,
       "memonRev": 0
     },
     {
@@ -939,12 +955,14 @@
       "fbAds": 11131500,
       "ggAds": 16386500,
       "social": 1465000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 50206649
+      },
+      "storeRev": 50206649,
+      "storeOnline": 10968601,
+      "storeTarget": 82378300,
+      "custIn": 163,
+      "custBuy": 154,
       "memonRev": 0
     },
     {
@@ -977,12 +995,14 @@
       "fbAds": 8396000,
       "ggAds": 16917000,
       "social": 700000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 45445250
+      },
+      "storeRev": 45445250,
+      "storeOnline": 12668000,
+      "storeTarget": 67195700,
+      "custIn": 142,
+      "custBuy": 129,
       "memonRev": 0
     },
     {
@@ -1015,12 +1035,14 @@
       "fbAds": 8455000,
       "ggAds": 18887500,
       "social": 425000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 71594000
+      },
+      "storeRev": 71594000,
+      "storeOnline": 12430000,
+      "storeTarget": 79279300,
+      "custIn": 219,
+      "custBuy": 209,
       "memonRev": 0
     },
     {
@@ -1053,12 +1075,14 @@
       "fbAds": 13899500,
       "ggAds": 10858000,
       "social": 1567500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64933500
+      },
+      "storeRev": 64933500,
+      "storeOnline": 12498000,
+      "storeTarget": 102730150,
+      "custIn": 179,
+      "custBuy": 173,
       "memonRev": 0
     },
     {
@@ -1091,12 +1115,14 @@
       "fbAds": 14963000,
       "ggAds": 67162000,
       "social": 1420000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 69277000
+      },
+      "storeRev": 69277000,
+      "storeOnline": 13810000,
+      "storeTarget": 129523675,
+      "custIn": 206,
+      "custBuy": 201,
       "memonRev": 0
     },
     {
@@ -1129,12 +1155,14 @@
       "fbAds": 21439500,
       "ggAds": 12271000,
       "social": 1838000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 100216000
+      },
+      "storeRev": 100216000,
+      "storeOnline": 23708500,
+      "storeTarget": 140421425,
+      "custIn": 295,
+      "custBuy": 272,
       "memonRev": 0
     },
     {
@@ -1167,12 +1195,14 @@
       "fbAds": 15942000,
       "ggAds": 20558500,
       "social": 1025000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 74247750
+      },
+      "storeRev": 74247750,
+      "storeOnline": 21540500,
+      "storeTarget": 74582100,
+      "custIn": 192,
+      "custBuy": 180,
       "memonRev": 0
     },
     {
@@ -1205,12 +1235,14 @@
       "fbAds": 15576000,
       "ggAds": 23080000,
       "social": 555000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 66147750
+      },
+      "storeRev": 66147750,
+      "storeOnline": 21480500,
+      "storeTarget": 78776100,
+      "custIn": 190,
+      "custBuy": 181,
       "memonRev": 0
     },
     {
@@ -1243,12 +1275,14 @@
       "fbAds": 28395000,
       "ggAds": 18651000,
       "social": 2285000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 84026000
+      },
+      "storeRev": 84026000,
+      "storeOnline": 15848600,
+      "storeTarget": 64692100,
+      "custIn": 206,
+      "custBuy": 202,
       "memonRev": 0
     },
     {
@@ -1281,12 +1315,14 @@
       "fbAds": 24777000,
       "ggAds": 24049000,
       "social": 965000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 89347999
+      },
+      "storeRev": 89347999,
+      "storeOnline": 20664250,
+      "storeTarget": 136788600,
+      "custIn": 241,
+      "custBuy": 230,
       "memonRev": 0
     },
     {
@@ -1319,12 +1355,14 @@
       "fbAds": 15830000,
       "ggAds": 24347500,
       "social": 2835000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 94785000
+      },
+      "storeRev": 94785000,
+      "storeOnline": 40084000,
+      "storeTarget": 167585750,
+      "custIn": 294,
+      "custBuy": 273,
       "memonRev": 0
     },
     {
@@ -1357,12 +1395,14 @@
       "fbAds": 22287500,
       "ggAds": 22415500,
       "social": 6787500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 179170504
+      },
+      "storeRev": 179170504,
+      "storeOnline": 31264000,
+      "storeTarget": 163117750,
+      "custIn": 498,
+      "custBuy": 492,
       "memonRev": 0
     },
     {
@@ -1396,22 +1436,13 @@
       "ggAds": 35704000,
       "social": 8517500,
       "store": {
-        "Nguyễn Trãi": 420383500,
-        "Xuân Thuỷ": 348165250,
-        "Cầu Giấy": 344895497,
-        "Lê Văn Sỹ": 305338000,
-        "Láng": 299829500,
-        "Bạch Mai": 235547750,
-        "Nguyễn Văn Cừ": 229481750,
-        "Xã Đàn": 178448001,
-        "Tây Sơn": 116999500,
-        "Outlet": 51313000
+        "(?)": 355728000
       },
-      "storeRev": 2530401748,
-      "storeOnline": 470111640,
-      "storeTarget": 2675000000,
-      "custIn": 7187,
-      "custBuy": 6907,
+      "storeRev": 355728000,
+      "storeOnline": 52749500,
+      "storeTarget": 391000000,
+      "custIn": 955,
+      "custBuy": 949,
       "memonRev": 0
     },
     {
@@ -1444,12 +1475,14 @@
       "fbAds": 9131000,
       "ggAds": 14536060,
       "social": 3676500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 109690000
+      },
+      "storeRev": 109690000,
+      "storeOnline": 10944500,
+      "storeTarget": 77216000,
+      "custIn": 278,
+      "custBuy": 272,
       "memonRev": 0
     },
     {
@@ -1482,12 +1515,14 @@
       "fbAds": 15020500,
       "ggAds": 11656500,
       "social": 2120000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 65756250
+      },
+      "storeRev": 65756250,
+      "storeOnline": 17208000,
+      "storeTarget": 68896000,
+      "custIn": 187,
+      "custBuy": 175,
       "memonRev": 0
     },
     {
@@ -1520,12 +1555,14 @@
       "fbAds": 7936000,
       "ggAds": 12859000,
       "social": 1735000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 75910000
+      },
+      "storeRev": 75910000,
+      "storeOnline": 13430600,
+      "storeTarget": 72148000,
+      "custIn": 216,
+      "custBuy": 212,
       "memonRev": 0
     },
     {
@@ -1558,12 +1595,14 @@
       "fbAds": 8321000,
       "ggAds": 8848000,
       "social": 3750000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 71613750
+      },
+      "storeRev": 71613750,
+      "storeOnline": 7871000,
+      "storeTarget": 70292000,
+      "custIn": 219,
+      "custBuy": 212,
       "memonRev": 0
     },
     {
@@ -1596,12 +1635,14 @@
       "fbAds": 6787500,
       "ggAds": 10059500,
       "social": 806000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 68639250
+      },
+      "storeRev": 68639250,
+      "storeOnline": 10799200,
+      "storeTarget": 109572000,
+      "custIn": 212,
+      "custBuy": 204,
       "memonRev": 0
     },
     {
@@ -1634,12 +1675,14 @@
       "fbAds": 7935200,
       "ggAds": 6121000,
       "social": 1340000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 62053500
+      },
+      "storeRev": 62053500,
+      "storeOnline": 10584000,
+      "storeTarget": 77700000,
+      "custIn": 174,
+      "custBuy": 166,
       "memonRev": 0
     },
     {
@@ -1672,12 +1715,14 @@
       "fbAds": 8796500,
       "ggAds": 11640000,
       "social": 1935000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 84867000
+      },
+      "storeRev": 84867000,
+      "storeOnline": 13874000,
+      "storeTarget": 99900000,
+      "custIn": 227,
+      "custBuy": 222,
       "memonRev": 0
     },
     {
@@ -1710,12 +1755,14 @@
       "fbAds": 9545000,
       "ggAds": 12956900,
       "social": 1905000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 51072750
+      },
+      "storeRev": 51072750,
+      "storeOnline": 10058000,
+      "storeTarget": 50552000,
+      "custIn": 163,
+      "custBuy": 156,
       "memonRev": 0
     },
     {
@@ -1748,12 +1795,14 @@
       "fbAds": 7530000,
       "ggAds": 10986000,
       "social": 350000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 47981000
+      },
+      "storeRev": 47981000,
+      "storeOnline": 12713000,
+      "storeTarget": 50590000,
+      "custIn": 156,
+      "custBuy": 148,
       "memonRev": 0
     },
     {
@@ -1786,12 +1835,14 @@
       "fbAds": 6540000,
       "ggAds": 9305000,
       "social": 1740000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67560500
+      },
+      "storeRev": 67560500,
+      "storeOnline": 9620000,
+      "storeTarget": 50977000,
+      "custIn": 178,
+      "custBuy": 170,
       "memonRev": 0
     },
     {
@@ -1824,12 +1875,14 @@
       "fbAds": 6808000,
       "ggAds": 7300000,
       "social": 1209000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 59838000
+      },
+      "storeRev": 59838000,
+      "storeOnline": 8100000,
+      "storeTarget": 66550000,
+      "custIn": 157,
+      "custBuy": 152,
       "memonRev": 0
     },
     {
@@ -1862,12 +1915,14 @@
       "fbAds": 11655000,
       "ggAds": 8758000,
       "social": 2160000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 77742000
+      },
+      "storeRev": 77742000,
+      "storeOnline": 14195000,
+      "storeTarget": 68599500,
+      "custIn": 198,
+      "custBuy": 190,
       "memonRev": 0
     },
     {
@@ -1900,12 +1955,14 @@
       "fbAds": 20363200,
       "ggAds": 20788000,
       "social": 3115000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 99891500
+      },
+      "storeRev": 99891500,
+      "storeOnline": 17240500,
+      "storeTarget": 81092000,
+      "custIn": 274,
+      "custBuy": 261,
       "memonRev": 0
     },
     {
@@ -1938,12 +1995,14 @@
       "fbAds": 23254000,
       "ggAds": 13792000,
       "social": 1388000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 66234250
+      },
+      "storeRev": 66234250,
+      "storeOnline": 26141000,
+      "storeTarget": 87576000,
+      "custIn": 187,
+      "custBuy": 181,
       "memonRev": 0
     },
     {
@@ -1976,12 +2035,14 @@
       "fbAds": 15650000,
       "ggAds": 24708000,
       "social": 1450000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 89888247
+      },
+      "storeRev": 89888247,
+      "storeOnline": 17805500,
+      "storeTarget": 53635000,
+      "custIn": 163,
+      "custBuy": 151,
       "memonRev": 0
     },
     {
@@ -2014,12 +2075,14 @@
       "fbAds": 15508500,
       "ggAds": 13696500,
       "social": 905000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 78182000
+      },
+      "storeRev": 78182000,
+      "storeOnline": 18465000,
+      "storeTarget": 51562000,
+      "custIn": 221,
+      "custBuy": 211,
       "memonRev": 0
     },
     {
@@ -2052,12 +2115,14 @@
       "fbAds": 16114000,
       "ggAds": 16582200,
       "social": 875000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67502500
+      },
+      "storeRev": 67502500,
+      "storeOnline": 20632000,
+      "storeTarget": 40912000,
+      "custIn": 195,
+      "custBuy": 187,
       "memonRev": 0
     },
     {
@@ -2090,12 +2155,14 @@
       "fbAds": 18028000,
       "ggAds": 7170500,
       "social": 2670000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67795750
+      },
+      "storeRev": 67795750,
+      "storeOnline": 17698500,
+      "storeTarget": 64837000,
+      "custIn": 207,
+      "custBuy": 192,
       "memonRev": 0
     },
     {
@@ -2128,12 +2195,14 @@
       "fbAds": 17145000,
       "ggAds": 19089000,
       "social": 965000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 104777750
+      },
+      "storeRev": 104777750,
+      "storeOnline": 23170000,
+      "storeTarget": 51447000,
+      "custIn": 296,
+      "custBuy": 285,
       "memonRev": 0
     },
     {
@@ -2166,12 +2235,14 @@
       "fbAds": 9130500,
       "ggAds": 15393000,
       "social": 2419000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67921000
+      },
+      "storeRev": 67921000,
+      "storeOnline": 12947500,
+      "storeTarget": 72376000,
+      "custIn": 203,
+      "custBuy": 196,
       "memonRev": 0
     },
     {
@@ -2204,12 +2275,14 @@
       "fbAds": 20982000,
       "ggAds": 16070000,
       "social": 2982000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 98233250
+      },
+      "storeRev": 98233250,
+      "storeOnline": 13534000,
+      "storeTarget": 90540000,
+      "custIn": 332,
+      "custBuy": 274,
       "memonRev": 0
     },
     {
@@ -2242,12 +2315,14 @@
       "fbAds": 9302500,
       "ggAds": 9965000,
       "social": 860000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 45578750
+      },
+      "storeRev": 45578750,
+      "storeOnline": 8561000,
+      "storeTarget": 47620000,
+      "custIn": 144,
+      "custBuy": 138,
       "memonRev": 0
     },
     {
@@ -2280,12 +2355,14 @@
       "fbAds": 13945000,
       "ggAds": 12059500,
       "social": 1745000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 57499000
+      },
+      "storeRev": 57499000,
+      "storeOnline": 11904340,
+      "storeTarget": 46644000,
+      "custIn": 178,
+      "custBuy": 171,
       "memonRev": 0
     },
     {
@@ -2318,12 +2395,14 @@
       "fbAds": 15990000,
       "ggAds": 17636000,
       "social": 2140000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 63809500
+      },
+      "storeRev": 63809500,
+      "storeOnline": 14703000,
+      "storeTarget": 54244000,
+      "custIn": 180,
+      "custBuy": 175,
       "memonRev": 0
     },
     {
@@ -2356,12 +2435,14 @@
       "fbAds": 14037500,
       "ggAds": 31277800,
       "social": 2830000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 56626500
+      },
+      "storeRev": 56626500,
+      "storeOnline": 13097500,
+      "storeTarget": 50858000,
+      "custIn": 187,
+      "custBuy": 181,
       "memonRev": 0
     },
     {
@@ -2394,12 +2475,14 @@
       "fbAds": 13112000,
       "ggAds": 11706000,
       "social": 225000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 66918500
+      },
+      "storeRev": 66918500,
+      "storeOnline": 12587500,
+      "storeTarget": 70581000,
+      "custIn": 189,
+      "custBuy": 188,
       "memonRev": 0
     },
     {
@@ -2432,12 +2515,14 @@
       "fbAds": 19180000,
       "ggAds": 19854000,
       "social": 2260000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 115832250
+      },
+      "storeRev": 115832250,
+      "storeOnline": 16005000,
+      "storeTarget": 86228000,
+      "custIn": 338,
+      "custBuy": 330,
       "memonRev": 0
     },
     {
@@ -2470,12 +2555,14 @@
       "fbAds": 27072000,
       "ggAds": 15336000,
       "social": 2995000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 121841001
+      },
+      "storeRev": 121841001,
+      "storeOnline": 16986500,
+      "storeTarget": 69624000,
+      "custIn": 391,
+      "custBuy": 379,
       "memonRev": 0
     },
     {
@@ -2508,12 +2595,14 @@
       "fbAds": 22982000,
       "ggAds": 20693500,
       "social": 1075000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 63418000
+      },
+      "storeRev": 63418000,
+      "storeOnline": 16486000,
+      "storeTarget": 44611000,
+      "custIn": 182,
+      "custBuy": 179,
       "memonRev": 0
     },
     {
@@ -2547,22 +2636,13 @@
       "ggAds": 13539000,
       "social": 1337500,
       "store": {
-        "Lê Văn Sỹ": 438702750,
-        "Nguyễn Trãi": 373044750,
-        "Cầu Giấy": 381736250,
-        "Xuân Thuỷ": 354904100,
-        "Láng": 291180100,
-        "Bạch Mai": 252404250,
-        "Nguyễn Văn Cừ": 251097000,
-        "Xã Đàn": 171265000,
-        "Tây Sơn": 86770000,
-        "Outlet": 56868000
+        "(?)": 79007000
       },
-      "storeRev": 2657972200,
-      "storeOnline": 592830415,
-      "storeTarget": 2800000000,
-      "custIn": 7319,
-      "custBuy": 7142,
+      "storeRev": 79007000,
+      "storeOnline": 9264000,
+      "storeTarget": 70550000,
+      "custIn": 233,
+      "custBuy": 228,
       "memonRev": 0
     },
     {
@@ -2595,12 +2675,14 @@
       "fbAds": 33147560,
       "ggAds": 34257310,
       "social": 2343000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 79885000
+      },
+      "storeRev": 79885000,
+      "storeOnline": 10455000,
+      "storeTarget": 99050000,
+      "custIn": 196,
+      "custBuy": 193,
       "memonRev": 0
     },
     {
@@ -2633,12 +2715,14 @@
       "fbAds": 15935000,
       "ggAds": 16589960,
       "social": 3192000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64433000
+      },
+      "storeRev": 64433000,
+      "storeOnline": 10976000,
+      "storeTarget": 96362500,
+      "custIn": 186,
+      "custBuy": 182,
       "memonRev": 0
     },
     {
@@ -2671,12 +2755,14 @@
       "fbAds": 21235000,
       "ggAds": 21737000,
       "social": 3300000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 78354750
+      },
+      "storeRev": 78354750,
+      "storeOnline": 20771000,
+      "storeTarget": 129550000,
+      "custIn": 224,
+      "custBuy": 220,
       "memonRev": 0
     },
     {
@@ -2709,12 +2795,14 @@
       "fbAds": 22432500,
       "ggAds": 13091000,
       "social": 2540000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 107407000
+      },
+      "storeRev": 107407000,
+      "storeOnline": 19193500,
+      "storeTarget": 131300000,
+      "custIn": 307,
+      "custBuy": 303,
       "memonRev": 0
     },
     {
@@ -2747,12 +2835,14 @@
       "fbAds": 23578500,
       "ggAds": 16900000,
       "social": 720000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 102311250
+      },
+      "storeRev": 102311250,
+      "storeOnline": 14234000,
+      "storeTarget": 128200000,
+      "custIn": 260,
+      "custBuy": 256,
       "memonRev": 0
     },
     {
@@ -2785,12 +2875,14 @@
       "fbAds": 24462800,
       "ggAds": 23161800,
       "social": 1815000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67919250
+      },
+      "storeRev": 67919250,
+      "storeOnline": 19121000,
+      "storeTarget": 46425000,
+      "custIn": 202,
+      "custBuy": 197,
       "memonRev": 0
     },
     {
@@ -2823,12 +2915,14 @@
       "fbAds": 15370000,
       "ggAds": 11470000,
       "social": 1660000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 74302850
+      },
+      "storeRev": 74302850,
+      "storeOnline": 11340000,
+      "storeTarget": 43720000,
+      "custIn": 211,
+      "custBuy": 203,
       "memonRev": 0
     },
     {
@@ -2861,12 +2955,14 @@
       "fbAds": 30380000,
       "ggAds": 18286500,
       "social": 1900000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 86908000
+      },
+      "storeRev": 86908000,
+      "storeOnline": 16390000,
+      "storeTarget": 48725000,
+      "custIn": 253,
+      "custBuy": 248,
       "memonRev": 0
     },
     {
@@ -2899,12 +2995,14 @@
       "fbAds": 33914660,
       "ggAds": 17047000,
       "social": 2585000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 98419750
+      },
+      "storeRev": 98419750,
+      "storeOnline": 26034000,
+      "storeTarget": 51695000,
+      "custIn": 280,
+      "custBuy": 275,
       "memonRev": 0
     },
     {
@@ -2937,12 +3035,14 @@
       "fbAds": 26753500,
       "ggAds": 14459000,
       "social": 1050000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 100596250
+      },
+      "storeRev": 100596250,
+      "storeOnline": 17574000,
+      "storeTarget": 59360000,
+      "custIn": 283,
+      "custBuy": 285,
       "memonRev": 0
     },
     {
@@ -2975,12 +3075,14 @@
       "fbAds": 23565000,
       "ggAds": 16545500,
       "social": 4314000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 100552500
+      },
+      "storeRev": 100552500,
+      "storeOnline": 19365000,
+      "storeTarget": 72690000,
+      "custIn": 273,
+      "custBuy": 269,
       "memonRev": 0
     },
     {
@@ -3013,12 +3115,14 @@
       "fbAds": 37555000,
       "ggAds": 21166500,
       "social": 2685000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 123378000
+      },
+      "storeRev": 123378000,
+      "storeOnline": 15216500,
+      "storeTarget": 74050000,
+      "custIn": 330,
+      "custBuy": 325,
       "memonRev": 0
     },
     {
@@ -3051,12 +3155,14 @@
       "fbAds": 33021000,
       "ggAds": 27255500,
       "social": 2600000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 75131000
+      },
+      "storeRev": 75131000,
+      "storeOnline": 23361000,
+      "storeTarget": 42425000,
+      "custIn": 209,
+      "custBuy": 204,
       "memonRev": 0
     },
     {
@@ -3089,12 +3195,14 @@
       "fbAds": 18885000,
       "ggAds": 16810000,
       "social": 5339000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 83089600
+      },
+      "storeRev": 83089600,
+      "storeOnline": 22486500,
+      "storeTarget": 44590000,
+      "custIn": 232,
+      "custBuy": 223,
       "memonRev": 0
     },
     {
@@ -3127,12 +3235,14 @@
       "fbAds": 21200000,
       "ggAds": 12470000,
       "social": 980000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 85556500
+      },
+      "storeRev": 85556500,
+      "storeOnline": 23010000,
+      "storeTarget": 39810000,
+      "custIn": 238,
+      "custBuy": 233,
       "memonRev": 0
     },
     {
@@ -3165,12 +3275,14 @@
       "fbAds": 37481500,
       "ggAds": 24348500,
       "social": 480000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 99718250
+      },
+      "storeRev": 99718250,
+      "storeOnline": 25444500,
+      "storeTarget": 49170000,
+      "custIn": 263,
+      "custBuy": 258,
       "memonRev": 0
     },
     {
@@ -3203,12 +3315,14 @@
       "fbAds": 17900000,
       "ggAds": 12570000,
       "social": 1689000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 96145500
+      },
+      "storeRev": 96145500,
+      "storeOnline": 16350000,
+      "storeTarget": 54747500,
+      "custIn": 254,
+      "custBuy": 249,
       "memonRev": 0
     },
     {
@@ -3241,12 +3355,14 @@
       "fbAds": 18727000,
       "ggAds": 20265500,
       "social": 1275000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 76808500
+      },
+      "storeRev": 76808500,
+      "storeOnline": 23039500,
+      "storeTarget": 79640000,
+      "custIn": 190,
+      "custBuy": 187,
       "memonRev": 0
     },
     {
@@ -3279,12 +3395,14 @@
       "fbAds": 16500500,
       "ggAds": 10195000,
       "social": 3255000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 89270500
+      },
+      "storeRev": 89270500,
+      "storeOnline": 19140000,
+      "storeTarget": 76290000,
+      "custIn": 238,
+      "custBuy": 234,
       "memonRev": 0
     },
     {
@@ -3317,12 +3435,14 @@
       "fbAds": 24712800,
       "ggAds": 16589900,
       "social": 1755000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 40310000
+      },
+      "storeRev": 40310000,
+      "storeOnline": 17003400,
+      "storeTarget": 91650000,
+      "custIn": 107,
+      "custBuy": 104,
       "memonRev": 0
     },
     {
@@ -3355,12 +3475,14 @@
       "fbAds": 30877000,
       "ggAds": 16520000,
       "social": 1135000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 40795000
+      },
+      "storeRev": 40795000,
+      "storeOnline": 21259000,
+      "storeTarget": 56850000,
+      "custIn": 107,
+      "custBuy": 106,
       "memonRev": 0
     },
     {
@@ -3393,12 +3515,14 @@
       "fbAds": 32263500,
       "ggAds": 13890000,
       "social": 1196000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 83921000
+      },
+      "storeRev": 83921000,
+      "storeOnline": 27581500,
+      "storeTarget": 88940000,
+      "custIn": 242,
+      "custBuy": 238,
       "memonRev": 0
     },
     {
@@ -3431,12 +3555,14 @@
       "fbAds": 25460000,
       "ggAds": 16527000,
       "social": 1255000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 85808000
+      },
+      "storeRev": 85808000,
+      "storeOnline": 23337500,
+      "storeTarget": 142190000,
+      "custIn": 248,
+      "custBuy": 239,
       "memonRev": 0
     },
     {
@@ -3469,12 +3595,14 @@
       "fbAds": 21153000,
       "ggAds": 17080000,
       "social": 2900000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 96098500
+      },
+      "storeRev": 96098500,
+      "storeOnline": 24382216,
+      "storeTarget": 145547500,
+      "custIn": 259,
+      "custBuy": 251,
       "memonRev": 0
     },
     {
@@ -3507,12 +3635,14 @@
       "fbAds": 23387500,
       "ggAds": 14016000,
       "social": 815000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 86891500
+      },
+      "storeRev": 86891500,
+      "storeOnline": 16315000,
+      "storeTarget": 179660000,
+      "custIn": 251,
+      "custBuy": 234,
       "memonRev": 0
     },
     {
@@ -3545,12 +3675,14 @@
       "fbAds": 25168500,
       "ggAds": 13969000,
       "social": 1825000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 114970000
+      },
+      "storeRev": 114970000,
+      "storeOnline": 16910000,
+      "storeTarget": 185550000,
+      "custIn": 295,
+      "custBuy": 287,
       "memonRev": 0
     },
     {
@@ -3583,12 +3715,14 @@
       "fbAds": 17975500,
       "ggAds": 14685500,
       "social": 1855000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 88653250
+      },
+      "storeRev": 88653250,
+      "storeOnline": 22266500,
+      "storeTarget": 72100000,
+      "custIn": 231,
+      "custBuy": 221,
       "memonRev": 0
     },
     {
@@ -3621,12 +3755,14 @@
       "fbAds": 21767500,
       "ggAds": 16463000,
       "social": 1410000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 89568500
+      },
+      "storeRev": 89568500,
+      "storeOnline": 18953500,
+      "storeTarget": 26100000,
+      "custIn": 230,
+      "custBuy": 221,
       "memonRev": 0
     },
     {
@@ -3659,12 +3795,14 @@
       "fbAds": 20165000,
       "ggAds": 13296500,
       "social": 545000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 58195500
+      },
+      "storeRev": 58195500,
+      "storeOnline": 20812500,
+      "storeTarget": 36100000,
+      "custIn": 175,
+      "custBuy": 168,
       "memonRev": 0
     },
     {
@@ -3697,12 +3835,14 @@
       "fbAds": 17675789,
       "ggAds": 16460000,
       "social": 1415000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 103566500
+      },
+      "storeRev": 103566500,
+      "storeOnline": 21243799,
+      "storeTarget": 64450000,
+      "custIn": 312,
+      "custBuy": 301,
       "memonRev": 0
     },
     {
@@ -3736,22 +3876,13 @@
       "ggAds": 21820000,
       "social": 5275000,
       "store": {
-        "Lê Văn Sỹ": 415199251,
-        "Nguyễn Trãi": 398076000,
-        "Cầu Giấy": 398721750,
-        "Xuân Thuỷ": 398214850,
-        "Bạch Mai": 368421000,
-        "Láng": 319774000,
-        "Nguyễn Văn Cừ": 291419500,
-        "Xã Đàn": 162544500,
-        "Tây Sơn": 90135910,
-        "Outlet": 58821000
+        "(?)": 111362000
       },
-      "storeRev": 2901327761,
-      "storeOnline": 586026020,
-      "storeTarget": 2960000000,
-      "custIn": 7996,
-      "custBuy": 7663,
+      "storeRev": 111362000,
+      "storeOnline": 18690500,
+      "storeTarget": 87840000,
+      "custIn": 316,
+      "custBuy": 302,
       "memonRev": 0
     },
     {
@@ -3784,12 +3915,14 @@
       "fbAds": 24395000,
       "ggAds": 14302000,
       "social": 2650000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 120187000
+      },
+      "storeRev": 120187000,
+      "storeOnline": 18650000,
+      "storeTarget": 95380000,
+      "custIn": 315,
+      "custBuy": 306,
       "memonRev": 0
     },
     {
@@ -3822,12 +3955,14 @@
       "fbAds": 14910000,
       "ggAds": 14935000,
       "social": 2725000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 129976500
+      },
+      "storeRev": 129976500,
+      "storeOnline": 20728000,
+      "storeTarget": 97410000,
+      "custIn": 355,
+      "custBuy": 339,
       "memonRev": 0
     },
     {
@@ -3860,12 +3995,14 @@
       "fbAds": 22080000,
       "ggAds": 17328500,
       "social": 424700,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 66415000
+      },
+      "storeRev": 66415000,
+      "storeOnline": 23969000,
+      "storeTarget": 50925000,
+      "custIn": 171,
+      "custBuy": 163,
       "memonRev": 0
     },
     {
@@ -3898,12 +4035,14 @@
       "fbAds": 21664500,
       "ggAds": 15870000,
       "social": 3940000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 53144000
+      },
+      "storeRev": 53144000,
+      "storeOnline": 21184500,
+      "storeTarget": 46495000,
+      "custIn": 147,
+      "custBuy": 144,
       "memonRev": 0
     },
     {
@@ -3936,12 +4075,14 @@
       "fbAds": 14853500,
       "ggAds": 15115500,
       "social": 3671000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 103663500
+      },
+      "storeRev": 103663500,
+      "storeOnline": 18071500,
+      "storeTarget": 48805000,
+      "custIn": 288,
+      "custBuy": 273,
       "memonRev": 0
     },
     {
@@ -3974,12 +4115,14 @@
       "fbAds": 15743000,
       "ggAds": 12425000,
       "social": 3402500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 112586250
+      },
+      "storeRev": 112586250,
+      "storeOnline": 14998000,
+      "storeTarget": 58345000,
+      "custIn": 333,
+      "custBuy": 320,
       "memonRev": 0
     },
     {
@@ -4012,12 +4155,14 @@
       "fbAds": 23166000,
       "ggAds": 11243000,
       "social": 3293750,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 97768500
+      },
+      "storeRev": 97768500,
+      "storeOnline": 19663000,
+      "storeTarget": 84660000,
+      "custIn": 294,
+      "custBuy": 280,
       "memonRev": 0
     },
     {
@@ -4050,12 +4195,14 @@
       "fbAds": 23101000,
       "ggAds": 22918200,
       "social": 5870000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 136909650
+      },
+      "storeRev": 136909650,
+      "storeOnline": 21606000,
+      "storeTarget": 97610000,
+      "custIn": 378,
+      "custBuy": 357,
       "memonRev": 0
     },
     {
@@ -4088,12 +4235,14 @@
       "fbAds": 21150000,
       "ggAds": 14797500,
       "social": 7005000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 138700500
+      },
+      "storeRev": 138700500,
+      "storeOnline": 17337500,
+      "storeTarget": 87100000,
+      "custIn": 360,
+      "custBuy": 341,
       "memonRev": 0
     },
     {
@@ -4126,12 +4275,14 @@
       "fbAds": 25089000,
       "ggAds": 16662500,
       "social": 4212500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 90193000
+      },
+      "storeRev": 90193000,
+      "storeOnline": 24920500,
+      "storeTarget": 74225000,
+      "custIn": 266,
+      "custBuy": 255,
       "memonRev": 0
     },
     {
@@ -4164,12 +4315,14 @@
       "fbAds": 19394750,
       "ggAds": 14768000,
       "social": 2685000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 84892500
+      },
+      "storeRev": 84892500,
+      "storeOnline": 18260000,
+      "storeTarget": 69250000,
+      "custIn": 255,
+      "custBuy": 245,
       "memonRev": 0
     },
     {
@@ -4202,12 +4355,14 @@
       "fbAds": 21997500,
       "ggAds": 16070000,
       "social": 2945000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 88861500
+      },
+      "storeRev": 88861500,
+      "storeOnline": 17740000,
+      "storeTarget": 70050000,
+      "custIn": 231,
+      "custBuy": 223,
       "memonRev": 0
     },
     {
@@ -4240,12 +4395,14 @@
       "fbAds": 28849000,
       "ggAds": 17329000,
       "social": 4229000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 101296600
+      },
+      "storeRev": 101296600,
+      "storeOnline": 29140000,
+      "storeTarget": 57675000,
+      "custIn": 285,
+      "custBuy": 273,
       "memonRev": 0
     },
     {
@@ -4278,12 +4435,14 @@
       "fbAds": 26297500,
       "ggAds": 18302000,
       "social": 1782500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 116497000
+      },
+      "storeRev": 116497000,
+      "storeOnline": 26754000,
+      "storeTarget": 132500000,
+      "custIn": 314,
+      "custBuy": 300,
       "memonRev": 0
     },
     {
@@ -4316,12 +4475,14 @@
       "fbAds": 18699500,
       "ggAds": 13949000,
       "social": 5040000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 131693750
+      },
+      "storeRev": 131693750,
+      "storeOnline": 21336500,
+      "storeTarget": 130250000,
+      "custIn": 386,
+      "custBuy": 364,
       "memonRev": 0
     },
     {
@@ -4354,12 +4515,14 @@
       "fbAds": 25260000,
       "ggAds": 8138000,
       "social": 5432000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 138725250
+      },
+      "storeRev": 138725250,
+      "storeOnline": 17557500,
+      "storeTarget": 137050000,
+      "custIn": 378,
+      "custBuy": 367,
       "memonRev": 0
     },
     {
@@ -4392,12 +4555,14 @@
       "fbAds": 20357000,
       "ggAds": 14785000,
       "social": 490000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 72748501
+      },
+      "storeRev": 72748501,
+      "storeOnline": 19105000,
+      "storeTarget": 75500000,
+      "custIn": 172,
+      "custBuy": 169,
       "memonRev": 0
     },
     {
@@ -4430,12 +4595,14 @@
       "fbAds": 14785000,
       "ggAds": 17715035,
       "social": 2316500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 86689500
+      },
+      "storeRev": 86689500,
+      "storeOnline": 10150000,
+      "storeTarget": 60150000,
+      "custIn": 232,
+      "custBuy": 227,
       "memonRev": 0
     },
     {
@@ -4468,12 +4635,14 @@
       "fbAds": 15875000,
       "ggAds": 16364000,
       "social": 5320000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 70226000
+      },
+      "storeRev": 70226000,
+      "storeOnline": 14753000,
+      "storeTarget": 68150000,
+      "custIn": 175,
+      "custBuy": 165,
       "memonRev": 0
     },
     {
@@ -4506,12 +4675,14 @@
       "fbAds": 16710000,
       "ggAds": 21928800,
       "social": 2349250,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 89219500
+      },
+      "storeRev": 89219500,
+      "storeOnline": 27130550,
+      "storeTarget": 74150000,
+      "custIn": 267,
+      "custBuy": 251,
       "memonRev": 0
     },
     {
@@ -4544,12 +4715,14 @@
       "fbAds": 19054000,
       "ggAds": 18336500,
       "social": 3366000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 99769350
+      },
+      "storeRev": 99769350,
+      "storeOnline": 27920000,
+      "storeTarget": 116750000,
+      "custIn": 265,
+      "custBuy": 253,
       "memonRev": 0
     },
     {
@@ -4582,12 +4755,14 @@
       "fbAds": 14815500,
       "ggAds": 15534750,
       "social": 2017250,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 112837500
+      },
+      "storeRev": 112837500,
+      "storeOnline": 18856000,
+      "storeTarget": 133300000,
+      "custIn": 310,
+      "custBuy": 299,
       "memonRev": 0
     },
     {
@@ -4620,12 +4795,14 @@
       "fbAds": 14423000,
       "ggAds": 13976500,
       "social": 1965000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 99579250
+      },
+      "storeRev": 99579250,
+      "storeOnline": 18905500,
+      "storeTarget": 133400000,
+      "custIn": 274,
+      "custBuy": 262,
       "memonRev": 0
     },
     {
@@ -4658,12 +4835,14 @@
       "fbAds": 17557000,
       "ggAds": 11050000,
       "social": 232000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 53605500
+      },
+      "storeRev": 53605500,
+      "storeOnline": 16454000,
+      "storeTarget": 59700000,
+      "custIn": 141,
+      "custBuy": 136,
       "memonRev": 0
     },
     {
@@ -4692,12 +4871,14 @@
       "fbAds": 10548000,
       "ggAds": 8802000,
       "social": 0,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 9269000
+      },
+      "storeRev": 9269000,
+      "storeOnline": 5020000,
+      "storeTarget": 7000000,
+      "custIn": 20,
+      "custBuy": 19,
       "memonRev": 0
     },
     {
@@ -4730,12 +4911,14 @@
       "fbAds": 13279500,
       "ggAds": 13836000,
       "social": 1401000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 79782750
+      },
+      "storeRev": 79782750,
+      "storeOnline": 18089500,
+      "storeTarget": 62425000,
+      "custIn": 218,
+      "custBuy": 204,
       "memonRev": 0
     },
     {
@@ -4768,12 +4951,14 @@
       "fbAds": 16262000,
       "ggAds": 16360400,
       "social": 2589000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 77106910
+      },
+      "storeRev": 77106910,
+      "storeOnline": 18280470,
+      "storeTarget": 66000000,
+      "custIn": 226,
+      "custBuy": 220,
       "memonRev": 0
     },
     {
@@ -4806,12 +4991,14 @@
       "fbAds": 13160000,
       "ggAds": 6818000,
       "social": 4720500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 73878750
+      },
+      "storeRev": 73878750,
+      "storeOnline": 13983500,
+      "storeTarget": 123900000,
+      "custIn": 200,
+      "custBuy": 195,
       "memonRev": 0
     },
     {
@@ -4844,12 +5031,14 @@
       "fbAds": 13878265,
       "ggAds": 9901750,
       "social": 2265000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 77475500
+      },
+      "storeRev": 77475500,
+      "storeOnline": 15480000,
+      "storeTarget": 127450000,
+      "custIn": 222,
+      "custBuy": 215,
       "memonRev": 0
     },
     {
@@ -4882,12 +5071,14 @@
       "fbAds": 8627150,
       "ggAds": 8580000,
       "social": 2885000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 76267250
+      },
+      "storeRev": 76267250,
+      "storeOnline": 11292000,
+      "storeTarget": 130000000,
+      "custIn": 202,
+      "custBuy": 196,
       "memonRev": 0
     },
     {
@@ -4921,23 +5112,13 @@
       "ggAds": 8535000,
       "social": 3675000,
       "store": {
-        "Nguyễn Trãi": 379345251,
-        "Cầu Giấy": 375540750,
-        "Lê Văn Sỹ": 318062750,
-        "Xuân Thuỷ": 329321750,
-        "Láng": 284851750,
-        "Bạch Mai": 280165000,
-        "Nguyễn Văn Cừ": 262929249,
-        "Xã Đàn": 248656500,
-        "Nguyễn Gia Trí": 184759250,
-        "Tây Sơn": 100251250,
-        "Outlet": 72234000
+        "(?)": 92925000
       },
-      "storeRev": 2836117500,
-      "storeOnline": 462755200,
-      "storeTarget": 3370000000,
-      "custIn": 7625,
-      "custBuy": 7250,
+      "storeRev": 92925000,
+      "storeOnline": 14068000,
+      "storeTarget": 64060000,
+      "custIn": 227,
+      "custBuy": 223,
       "memonRev": 0
     },
     {
@@ -4970,12 +5151,14 @@
       "fbAds": 10170000,
       "ggAds": 9385500,
       "social": 2365000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 86731250
+      },
+      "storeRev": 86731250,
+      "storeOnline": 13720000,
+      "storeTarget": 66620000,
+      "custIn": 228,
+      "custBuy": 223,
       "memonRev": 0
     },
     {
@@ -5008,12 +5191,14 @@
       "fbAds": 15470000,
       "ggAds": 10370000,
       "social": 2250000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67949000
+      },
+      "storeRev": 67949000,
+      "storeOnline": 18424000,
+      "storeTarget": 72060000,
+      "custIn": 197,
+      "custBuy": 189,
       "memonRev": 0
     },
     {
@@ -5046,12 +5231,14 @@
       "fbAds": 19385000,
       "ggAds": 21396000,
       "social": 1465000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 89107750
+      },
+      "storeRev": 89107750,
+      "storeOnline": 16985000,
+      "storeTarget": 78760000,
+      "custIn": 208,
+      "custBuy": 203,
       "memonRev": 0
     },
     {
@@ -5084,12 +5271,14 @@
       "fbAds": 11882500,
       "ggAds": 12152000,
       "social": 2085000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 80239250
+      },
+      "storeRev": 80239250,
+      "storeOnline": 11628500,
+      "storeTarget": 120600000,
+      "custIn": 220,
+      "custBuy": 207,
       "memonRev": 0
     },
     {
@@ -5122,12 +5311,14 @@
       "fbAds": 12835500,
       "ggAds": 17059000,
       "social": 6465000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 112484500
+      },
+      "storeRev": 112484500,
+      "storeOnline": 19480000,
+      "storeTarget": 96420000,
+      "custIn": 312,
+      "custBuy": 305,
       "memonRev": 0
     },
     {
@@ -5160,12 +5351,14 @@
       "fbAds": 14820000,
       "ggAds": 14813000,
       "social": 4935000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 107750500
+      },
+      "storeRev": 107750500,
+      "storeOnline": 17939000,
+      "storeTarget": 86290000,
+      "custIn": 289,
+      "custBuy": 276,
       "memonRev": 0
     },
     {
@@ -5198,12 +5391,14 @@
       "fbAds": 14430000,
       "ggAds": 8605000,
       "social": 815000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 70636250
+      },
+      "storeRev": 70636250,
+      "storeOnline": 15390000,
+      "storeTarget": 57560000,
+      "custIn": 184,
+      "custBuy": 180,
       "memonRev": 0
     },
     {
@@ -5236,12 +5431,14 @@
       "fbAds": 9495000,
       "ggAds": 11909000,
       "social": 2595000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 71702500
+      },
+      "storeRev": 71702500,
+      "storeOnline": 12970000,
+      "storeTarget": 65360000,
+      "custIn": 182,
+      "custBuy": 173,
       "memonRev": 0
     },
     {
@@ -5274,12 +5471,14 @@
       "fbAds": 15472000,
       "ggAds": 12854000,
       "social": 2300000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 69974750
+      },
+      "storeRev": 69974750,
+      "storeOnline": 15696000,
+      "storeTarget": 66160000,
+      "custIn": 195,
+      "custBuy": 186,
       "memonRev": 0
     },
     {
@@ -5291,12 +5490,14 @@
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 74281250
+      },
+      "storeRev": 74281250,
+      "storeOnline": 14245000,
+      "storeTarget": 95850000,
+      "custIn": 207,
+      "custBuy": 197,
       "memonRev": 0
     },
     {
@@ -5329,12 +5530,14 @@
       "fbAds": 11340000,
       "ggAds": 12001100,
       "social": 3080000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 98630000
+      },
+      "storeRev": 98630000,
+      "storeOnline": 11533000,
+      "storeTarget": 117120000,
+      "custIn": 261,
+      "custBuy": 247,
       "memonRev": 0
     },
     {
@@ -5367,12 +5570,14 @@
       "fbAds": 10602500,
       "ggAds": 10533000,
       "social": 4365000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 129952250
+      },
+      "storeRev": 129952250,
+      "storeOnline": 18330500,
+      "storeTarget": 107720000,
+      "custIn": 386,
+      "custBuy": 359,
       "memonRev": 0
     },
     {
@@ -5405,12 +5610,14 @@
       "fbAds": 12255000,
       "ggAds": 15835000,
       "social": 2920000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 129731500
+      },
+      "storeRev": 129731500,
+      "storeOnline": 20830000,
+      "storeTarget": 86590000,
+      "custIn": 360,
+      "custBuy": 343,
       "memonRev": 0
     },
     {
@@ -5443,12 +5650,14 @@
       "fbAds": 15980000,
       "ggAds": 10429500,
       "social": 1385000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 77102500
+      },
+      "storeRev": 77102500,
+      "storeOnline": 14405000,
+      "storeTarget": 93830000,
+      "custIn": 215,
+      "custBuy": 197,
       "memonRev": 0
     },
     {
@@ -5481,12 +5690,14 @@
       "fbAds": 13145000,
       "ggAds": 10890000,
       "social": 1370000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 72030500
+      },
+      "storeRev": 72030500,
+      "storeOnline": 10924000,
+      "storeTarget": 85390000,
+      "custIn": 245,
+      "custBuy": 201,
       "memonRev": 0
     },
     {
@@ -5519,12 +5730,14 @@
       "fbAds": 13520000,
       "ggAds": 13107500,
       "social": 535000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 72225501
+      },
+      "storeRev": 72225501,
+      "storeOnline": 15394000,
+      "storeTarget": 89180000,
+      "custIn": 194,
+      "custBuy": 181,
       "memonRev": 0
     },
     {
@@ -5557,12 +5770,14 @@
       "fbAds": 10830000,
       "ggAds": 13230000,
       "social": 2331000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 84959250
+      },
+      "storeRev": 84959250,
+      "storeOnline": 13648500,
+      "storeTarget": 99200000,
+      "custIn": 210,
+      "custBuy": 203,
       "memonRev": 0
     },
     {
@@ -5595,12 +5810,14 @@
       "fbAds": 28620000,
       "ggAds": 13257500,
       "social": 3546000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 90760000
+      },
+      "storeRev": 90760000,
+      "storeOnline": 17222500,
+      "storeTarget": 122985000,
+      "custIn": 246,
+      "custBuy": 234,
       "memonRev": 0
     },
     {
@@ -5633,12 +5850,14 @@
       "fbAds": 29049000,
       "ggAds": 15264300,
       "social": 2055000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 160409250
+      },
+      "storeRev": 160409250,
+      "storeOnline": 9871500,
+      "storeTarget": 206825000,
+      "custIn": 468,
+      "custBuy": 455,
       "memonRev": 0
     },
     {
@@ -5671,12 +5890,14 @@
       "fbAds": 18780000,
       "ggAds": 11635000,
       "social": 2145000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 161582750
+      },
+      "storeRev": 161582750,
+      "storeOnline": 11935000,
+      "storeTarget": 166580000,
+      "custIn": 454,
+      "custBuy": 446,
       "memonRev": 0
     },
     {
@@ -5705,12 +5926,14 @@
       "fbAds": 8695000,
       "ggAds": 10185500,
       "social": 2321000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 88256000
+      },
+      "storeRev": 88256000,
+      "storeOnline": 12860000,
+      "storeTarget": 81325000,
+      "custIn": 224,
+      "custBuy": 222,
       "memonRev": 0
     },
     {
@@ -5735,12 +5958,14 @@
       "fbAds": 24975000,
       "ggAds": 2915500,
       "social": 2460000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 73864250
+      },
+      "storeRev": 73864250,
+      "storeOnline": 17473000,
+      "storeTarget": 67025000,
+      "custIn": 191,
+      "custBuy": 178,
       "memonRev": 0
     },
     {
@@ -5769,12 +5994,14 @@
       "fbAds": 0,
       "ggAds": 10810000,
       "social": 2870000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 104498000
+      },
+      "storeRev": 104498000,
+      "storeOnline": 26665000,
+      "storeTarget": 78025000,
+      "custIn": 258,
+      "custBuy": 243,
       "memonRev": 0
     },
     {
@@ -5799,12 +6026,14 @@
       "fbAds": 0,
       "ggAds": 12185000,
       "social": 1960000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 82412500
+      },
+      "storeRev": 82412500,
+      "storeOnline": 17069000,
+      "storeTarget": 85525000,
+      "custIn": 219,
+      "custBuy": 191,
       "memonRev": 0
     },
     {
@@ -5829,12 +6058,14 @@
       "fbAds": 0,
       "ggAds": 14437500,
       "social": 2525000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 115463749
+      },
+      "storeRev": 115463749,
+      "storeOnline": 15725700,
+      "storeTarget": 114175000,
+      "custIn": 276,
+      "custBuy": 272,
       "memonRev": 0
     },
     {
@@ -5863,12 +6094,14 @@
       "fbAds": 0,
       "ggAds": 11990000,
       "social": 3570000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 136890750
+      },
+      "storeRev": 136890750,
+      "storeOnline": 15605000,
+      "storeTarget": 162312500,
+      "custIn": 381,
+      "custBuy": 353,
       "memonRev": 0
     },
     {
@@ -5893,12 +6126,14 @@
       "fbAds": 0,
       "ggAds": 10515000,
       "social": 950000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 133031750
+      },
+      "storeRev": 133031750,
+      "storeOnline": 13051500,
+      "storeTarget": 140850000,
+      "custIn": 343,
+      "custBuy": 329,
       "memonRev": 0
     },
     {
@@ -5923,12 +6158,14 @@
       "fbAds": 445000,
       "ggAds": 5646500,
       "social": 1095000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 58598000
+      },
+      "storeRev": 58598000,
+      "storeOnline": 13901500,
+      "storeTarget": 83250000,
+      "custIn": 149,
+      "custBuy": 143,
       "memonRev": 0
     },
     {
@@ -5940,12 +6177,14 @@
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 41937000
+      },
+      "storeRev": 41937000,
+      "storeOnline": 15765000,
+      "storeTarget": 55875000,
+      "custIn": 96,
+      "custBuy": 91,
       "memonRev": 0
     },
     {
@@ -5979,23 +6218,13 @@
       "ggAds": 31377640,
       "social": 1090000,
       "store": {
-        "Nguyễn Trãi": 744396000,
-        "Nguyễn Gia Trí": 675261385,
-        "Cầu Giấy": 696046750,
-        "Lê Văn Sỹ": 569287747,
-        "Láng": 599260000,
-        "Bạch Mai": 571602200,
-        "Xuân Thuỷ": 548361915,
-        "Nguyễn Văn Cừ": 493730250,
-        "Xã Đàn": 408113500,
-        "Tây Sơn": 180178500,
-        "Outlet": 93765000
+        "(?)": 111561150
       },
-      "storeRev": 5580003247,
-      "storeOnline": 767390050,
-      "storeTarget": 5410000000,
-      "custIn": 13840,
-      "custBuy": 13325,
+      "storeRev": 111561150,
+      "storeOnline": 21888000,
+      "storeTarget": 92300000,
+      "custIn": 270,
+      "custBuy": 256,
       "memonRev": 0
     },
     {
@@ -6028,12 +6257,14 @@
       "fbAds": 32514500,
       "ggAds": 28445000,
       "social": 985000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 149334350
+      },
+      "storeRev": 149334350,
+      "storeOnline": 21627500,
+      "storeTarget": 111000000,
+      "custIn": 366,
+      "custBuy": 348,
       "memonRev": 0
     },
     {
@@ -6066,12 +6297,14 @@
       "fbAds": 31642250,
       "ggAds": 25973000,
       "social": 2705000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 155455000
+      },
+      "storeRev": 155455000,
+      "storeOnline": 30575750,
+      "storeTarget": 195700000,
+      "custIn": 397,
+      "custBuy": 387,
       "memonRev": 0
     },
     {
@@ -6104,12 +6337,14 @@
       "fbAds": 29699780,
       "ggAds": 15048000,
       "social": 4267500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 214337500
+      },
+      "storeRev": 214337500,
+      "storeOnline": 29428500,
+      "storeTarget": 265800000,
+      "custIn": 567,
+      "custBuy": 550,
       "memonRev": 0
     },
     {
@@ -6142,12 +6377,14 @@
       "fbAds": 40939000,
       "ggAds": 35184500,
       "social": 13020000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 272408750
+      },
+      "storeRev": 272408750,
+      "storeOnline": 34378000,
+      "storeTarget": 300300000,
+      "custIn": 684,
+      "custBuy": 663,
       "memonRev": 0
     },
     {
@@ -6180,12 +6417,14 @@
       "fbAds": 53042000,
       "ggAds": 27171500,
       "social": 6139500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 177015000
+      },
+      "storeRev": 177015000,
+      "storeOnline": 33991000,
+      "storeTarget": 271400000,
+      "custIn": 461,
+      "custBuy": 443,
       "memonRev": 0
     },
     {
@@ -6218,12 +6457,14 @@
       "fbAds": 28240000,
       "ggAds": 11185000,
       "social": 870000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 30509500
+      },
+      "storeRev": 30509500,
+      "storeOnline": 6052000,
+      "storeTarget": 33000000,
+      "custIn": 91,
+      "custBuy": 82,
       "memonRev": 0
     },
     {
@@ -6256,12 +6497,14 @@
       "fbAds": 30455000,
       "ggAds": 14010000,
       "social": 5000000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 104202497
+      },
+      "storeRev": 104202497,
+      "storeOnline": 18462803,
+      "storeTarget": 90540000,
+      "custIn": 287,
+      "custBuy": 274,
       "memonRev": 0
     },
     {
@@ -6294,12 +6537,14 @@
       "fbAds": 32860000,
       "ggAds": 17405000,
       "social": 6525000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 99874500
+      },
+      "storeRev": 99874500,
+      "storeOnline": 19930000,
+      "storeTarget": 89700000,
+      "custIn": 278,
+      "custBuy": 260,
       "memonRev": 0
     },
     {
@@ -6332,12 +6577,14 @@
       "fbAds": 54675000,
       "ggAds": 33992000,
       "social": 1605000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 106913000
+      },
+      "storeRev": 106913000,
+      "storeOnline": 25207498,
+      "storeTarget": 90960000,
+      "custIn": 301,
+      "custBuy": 275,
       "memonRev": 0
     },
     {
@@ -6370,12 +6617,14 @@
       "fbAds": 42041000,
       "ggAds": 12844000,
       "social": 4935000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 132248350
+      },
+      "storeRev": 132248350,
+      "storeOnline": 18641999,
+      "storeTarget": 139050000,
+      "custIn": 347,
+      "custBuy": 328,
       "memonRev": 0
     },
     {
@@ -6408,12 +6657,14 @@
       "fbAds": 42805500,
       "ggAds": 26092000,
       "social": 6580000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 159214000
+      },
+      "storeRev": 159214000,
+      "storeOnline": 20202000,
+      "storeTarget": 148910000,
+      "custIn": 439,
+      "custBuy": 403,
       "memonRev": 0
     },
     {
@@ -6446,12 +6697,14 @@
       "fbAds": 41361500,
       "ggAds": 21675000,
       "social": 860000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 80898000
+      },
+      "storeRev": 80898000,
+      "storeOnline": 17881000,
+      "storeTarget": 115375000,
+      "custIn": 199,
+      "custBuy": 184,
       "memonRev": 0
     },
     {
@@ -6484,12 +6737,14 @@
       "fbAds": 45112500,
       "ggAds": 19105000,
       "social": 870000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 108627250
+      },
+      "storeRev": 108627250,
+      "storeOnline": 20511000,
+      "storeTarget": 126625000,
+      "custIn": 257,
+      "custBuy": 241,
       "memonRev": 0
     },
     {
@@ -6522,12 +6777,14 @@
       "fbAds": 44884500,
       "ggAds": 20636500,
       "social": 2225000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 145196250
+      },
+      "storeRev": 145196250,
+      "storeOnline": 40786000,
+      "storeTarget": 140875000,
+      "custIn": 333,
+      "custBuy": 314,
       "memonRev": 0
     },
     {
@@ -6560,12 +6817,14 @@
       "fbAds": 54039500,
       "ggAds": 30831000,
       "social": 5157500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 141959250
+      },
+      "storeRev": 141959250,
+      "storeOnline": 22609000,
+      "storeTarget": 105000000,
+      "custIn": 324,
+      "custBuy": 308,
       "memonRev": 0
     },
     {
@@ -6598,12 +6857,14 @@
       "fbAds": 46903700,
       "ggAds": 23230000,
       "social": 3395500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 204995415
+      },
+      "storeRev": 204995415,
+      "storeOnline": 25340500,
+      "storeTarget": 226750000,
+      "custIn": 534,
+      "custBuy": 509,
       "memonRev": 0
     },
     {
@@ -6636,12 +6897,14 @@
       "fbAds": 65359000,
       "ggAds": 24150000,
       "social": 10780000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 339371500
+      },
+      "storeRev": 339371500,
+      "storeOnline": 35305000,
+      "storeTarget": 227000000,
+      "custIn": 828,
+      "custBuy": 803,
       "memonRev": 0
     },
     {
@@ -6674,12 +6937,14 @@
       "fbAds": 68736000,
       "ggAds": 33236500,
       "social": 18750000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 548064750
+      },
+      "storeRev": 548064750,
+      "storeOnline": 44542000,
+      "storeTarget": 245350000,
+      "custIn": 1323,
+      "custBuy": 1307,
       "memonRev": 0
     },
     {
@@ -6712,12 +6977,14 @@
       "fbAds": 79889000,
       "ggAds": 58494000,
       "social": 25500000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 1019820250
+      },
+      "storeRev": 1019820250,
+      "storeOnline": 69445000,
+      "storeTarget": 335625000,
+      "custIn": 2398,
+      "custBuy": 2388,
       "memonRev": 0
     },
     {
@@ -6750,12 +7017,14 @@
       "fbAds": 34766000,
       "ggAds": 30917700,
       "social": 4625000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 180312000
+      },
+      "storeRev": 180312000,
+      "storeOnline": 21930000,
+      "storeTarget": 127700000,
+      "custIn": 489,
+      "custBuy": 471,
       "memonRev": 0
     },
     {
@@ -6788,12 +7057,14 @@
       "fbAds": 25735000,
       "ggAds": 19665000,
       "social": 730000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 119696000
+      },
+      "storeRev": 119696000,
+      "storeOnline": 17740000,
+      "storeTarget": 106625000,
+      "custIn": 306,
+      "custBuy": 289,
       "memonRev": 0
     },
     {
@@ -6826,12 +7097,14 @@
       "fbAds": 40020000,
       "ggAds": 20451500,
       "social": 4042000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 125336000
+      },
+      "storeRev": 125336000,
+      "storeOnline": 26254000,
+      "storeTarget": 129500000,
+      "custIn": 298,
+      "custBuy": 283,
       "memonRev": 0
     },
     {
@@ -6864,12 +7137,14 @@
       "fbAds": 24449000,
       "ggAds": 19602000,
       "social": 675000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 121062750
+      },
+      "storeRev": 121062750,
+      "storeOnline": 20512500,
+      "storeTarget": 116500000,
+      "custIn": 288,
+      "custBuy": 281,
       "memonRev": 0
     },
     {
@@ -6902,12 +7177,14 @@
       "fbAds": 22721500,
       "ggAds": 15262500,
       "social": 1415000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 139628750
+      },
+      "storeRev": 139628750,
+      "storeOnline": 19914000,
+      "storeTarget": 200500000,
+      "custIn": 383,
+      "custBuy": 358,
       "memonRev": 0
     },
     {
@@ -6940,12 +7217,14 @@
       "fbAds": 18618000,
       "ggAds": 12030000,
       "social": 5317500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 144385500
+      },
+      "storeRev": 144385500,
+      "storeOnline": 17439000,
+      "storeTarget": 143687500,
+      "custIn": 337,
+      "custBuy": 330,
       "memonRev": 0
     },
     {
@@ -6978,12 +7257,14 @@
       "fbAds": 36569500,
       "ggAds": 25470000,
       "social": 2245000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 151677485
+      },
+      "storeRev": 151677485,
+      "storeOnline": 20089000,
+      "storeTarget": 100440000,
+      "custIn": 231,
+      "custBuy": 214,
       "memonRev": 0
     },
     {
@@ -7016,12 +7297,14 @@
       "fbAds": 21073500,
       "ggAds": 11115000,
       "social": 3430000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 70853000
+      },
+      "storeRev": 70853000,
+      "storeOnline": 16806000,
+      "storeTarget": 97100000,
+      "custIn": 189,
+      "custBuy": 178,
       "memonRev": 0
     },
     {
@@ -7054,12 +7337,14 @@
       "fbAds": 15837750,
       "ggAds": 13560000,
       "social": 805000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 78933250
+      },
+      "storeRev": 78933250,
+      "storeOnline": 13949000,
+      "storeTarget": 93400000,
+      "custIn": 222,
+      "custBuy": 211,
       "memonRev": 0
     },
     {
@@ -7092,12 +7377,14 @@
       "fbAds": 30910000,
       "ggAds": 13787500,
       "social": 4205000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 72349250
+      },
+      "storeRev": 72349250,
+      "storeOnline": 17917500,
+      "storeTarget": 76700000,
+      "custIn": 205,
+      "custBuy": 194,
       "memonRev": 0
     },
     {
@@ -7130,12 +7417,14 @@
       "fbAds": 25818000,
       "ggAds": 18220500,
       "social": 1015000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 73763000
+      },
+      "storeRev": 73763000,
+      "storeOnline": 18034500,
+      "storeTarget": 83900000,
+      "custIn": 208,
+      "custBuy": 193,
       "memonRev": 0
     },
     {
@@ -7169,23 +7458,13 @@
       "ggAds": 9543000,
       "social": 1730000,
       "store": {
-        "Nguyễn Gia Trí": 393760250,
-        "Nguyễn Trãi": 403109252,
-        "Lê Văn Sỹ": 367688250,
-        "Cầu Giấy": 360077750,
-        "Xuân Thuỷ": 326237995,
-        "Bạch Mai": 296481751,
-        "Nguyễn Văn Cừ": 263874685,
-        "Láng": 244046998,
-        "Xã Đàn": 228353000,
-        "Tây Sơn": 118787000,
-        "Outlet": 66272000
+        "(?)": 99993750
       },
-      "storeRev": 3068688931,
-      "storeOnline": 597446974,
-      "storeTarget": 3960000000,
-      "custIn": 8322,
-      "custBuy": 7891,
+      "storeRev": 99993750,
+      "storeOnline": 12746500,
+      "storeTarget": 92850000,
+      "custIn": 259,
+      "custBuy": 241,
       "memonRev": 0
     },
     {
@@ -7218,12 +7497,14 @@
       "fbAds": 23610000,
       "ggAds": 17190000,
       "social": 3260000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 93457250
+      },
+      "storeRev": 93457250,
+      "storeOnline": 22082000,
+      "storeTarget": 94650000,
+      "custIn": 266,
+      "custBuy": 241,
       "memonRev": 0
     },
     {
@@ -7256,12 +7537,14 @@
       "fbAds": 35018000,
       "ggAds": 19988000,
       "social": 255000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 42970750
+      },
+      "storeRev": 42970750,
+      "storeOnline": 20330500,
+      "storeTarget": 59275000,
+      "custIn": 110,
+      "custBuy": 114,
       "memonRev": 0
     },
     {
@@ -7294,12 +7577,14 @@
       "fbAds": 37580500,
       "ggAds": 11357000,
       "social": 3525000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64831500
+      },
+      "storeRev": 64831500,
+      "storeOnline": 24317500,
+      "storeTarget": 79915000,
+      "custIn": 196,
+      "custBuy": 183,
       "memonRev": 0
     },
     {
@@ -7332,12 +7617,14 @@
       "fbAds": 20789522,
       "ggAds": 9550000,
       "social": 2300000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 84782500
+      },
+      "storeRev": 84782500,
+      "storeOnline": 16551522,
+      "storeTarget": 69435000,
+      "custIn": 235,
+      "custBuy": 222,
       "memonRev": 0
     },
     {
@@ -7370,12 +7657,14 @@
       "fbAds": 22110000,
       "ggAds": 16600000,
       "social": 570000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 84619000
+      },
+      "storeRev": 84619000,
+      "storeOnline": 17775000,
+      "storeTarget": 103805000,
+      "custIn": 234,
+      "custBuy": 221,
       "memonRev": 0
     },
     {
@@ -7408,12 +7697,14 @@
       "fbAds": 29551100,
       "ggAds": 11047500,
       "social": 2455000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 77087250
+      },
+      "storeRev": 77087250,
+      "storeOnline": 21015500,
+      "storeTarget": 114715000,
+      "custIn": 190,
+      "custBuy": 174,
       "memonRev": 0
     },
     {
@@ -7446,12 +7737,14 @@
       "fbAds": 38713000,
       "ggAds": 9193000,
       "social": 3080000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 125614248
+      },
+      "storeRev": 125614248,
+      "storeOnline": 23048502,
+      "storeTarget": 159095000,
+      "custIn": 339,
+      "custBuy": 321,
       "memonRev": 0
     },
     {
@@ -7484,12 +7777,14 @@
       "fbAds": 27412500,
       "ggAds": 11520000,
       "social": 2940000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 115843500
+      },
+      "storeRev": 115843500,
+      "storeOnline": 15630000,
+      "storeTarget": 129540000,
+      "custIn": 267,
+      "custBuy": 248,
       "memonRev": 0
     },
     {
@@ -7522,12 +7817,14 @@
       "fbAds": 43891500,
       "ggAds": 9756000,
       "social": 2615000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 75968000
+      },
+      "storeRev": 75968000,
+      "storeOnline": 28878000,
+      "storeTarget": 101543000,
+      "custIn": 188,
+      "custBuy": 184,
       "memonRev": 0
     },
     {
@@ -7560,12 +7857,14 @@
       "fbAds": 23147500,
       "ggAds": 6590000,
       "social": 1050000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 87038751
+      },
+      "storeRev": 87038751,
+      "storeOnline": 17651500,
+      "storeTarget": 100293000,
+      "custIn": 217,
+      "custBuy": 206,
       "memonRev": 0
     },
     {
@@ -7594,12 +7893,14 @@
       "fbAds": 29209500,
       "ggAds": 21478000,
       "social": 0,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 95159000
+      },
+      "storeRev": 95159000,
+      "storeOnline": 19564500,
+      "storeTarget": 80868000,
+      "custIn": 249,
+      "custBuy": 231,
       "memonRev": 0
     },
     {
@@ -7632,12 +7933,14 @@
       "fbAds": 27332000,
       "ggAds": 10425500,
       "social": 2600000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 79546500
+      },
+      "storeRev": 79546500,
+      "storeOnline": 18855500,
+      "storeTarget": 124243000,
+      "custIn": 219,
+      "custBuy": 209,
       "memonRev": 0
     },
     {
@@ -7670,12 +7973,14 @@
       "fbAds": 35069300,
       "ggAds": 11309000,
       "social": 1062500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 110488250
+      },
+      "storeRev": 110488250,
+      "storeOnline": 23452500,
+      "storeTarget": 143362500,
+      "custIn": 259,
+      "custBuy": 246,
       "memonRev": 0
     },
     {
@@ -7708,12 +8013,14 @@
       "fbAds": 28223000,
       "ggAds": 12846000,
       "social": 3499500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 152257750
+      },
+      "storeRev": 152257750,
+      "storeOnline": 16669500,
+      "storeTarget": 147743000,
+      "custIn": 411,
+      "custBuy": 382,
       "memonRev": 0
     },
     {
@@ -7746,12 +8053,14 @@
       "fbAds": 13841500,
       "ggAds": 14292500,
       "social": 3739500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 142669000
+      },
+      "storeRev": 142669000,
+      "storeOnline": 13839000,
+      "storeTarget": 156343000,
+      "custIn": 392,
+      "custBuy": 371,
       "memonRev": 0
     },
     {
@@ -7784,12 +8093,14 @@
       "fbAds": 21187000,
       "ggAds": 11774000,
       "social": 3648000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 87234750
+      },
+      "storeRev": 87234750,
+      "storeOnline": 21477000,
+      "storeTarget": 83243000,
+      "custIn": 254,
+      "custBuy": 238,
       "memonRev": 0
     },
     {
@@ -7822,12 +8133,14 @@
       "fbAds": 24396050,
       "ggAds": 15782500,
       "social": 1325000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 77981500
+      },
+      "storeRev": 77981500,
+      "storeOnline": 19519300,
+      "storeTarget": 88368000,
+      "custIn": 219,
+      "custBuy": 209,
       "memonRev": 0
     },
     {
@@ -7860,12 +8173,14 @@
       "fbAds": 19872500,
       "ggAds": 19127500,
       "social": 4052000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 154319750
+      },
+      "storeRev": 154319750,
+      "storeOnline": 17931000,
+      "storeTarget": 139918000,
+      "custIn": 437,
+      "custBuy": 419,
       "memonRev": 0
     },
     {
@@ -7898,12 +8213,14 @@
       "fbAds": 19738000,
       "ggAds": 43506000,
       "social": 6149000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 150785745
+      },
+      "storeRev": 150785745,
+      "storeOnline": 24798000,
+      "storeTarget": 177243000,
+      "custIn": 395,
+      "custBuy": 382,
       "memonRev": 0
     },
     {
@@ -7936,12 +8253,14 @@
       "fbAds": 20895500,
       "ggAds": 16998500,
       "social": 4241500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 108305749
+      },
+      "storeRev": 108305749,
+      "storeOnline": 18772500,
+      "storeTarget": 129600000,
+      "custIn": 329,
+      "custBuy": 311,
       "memonRev": 0
     },
     {
@@ -7974,12 +8293,14 @@
       "fbAds": 14602500,
       "ggAds": 7986500,
       "social": 4090000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 122116752
+      },
+      "storeRev": 122116752,
+      "storeOnline": 14118500,
+      "storeTarget": 129143000,
+      "custIn": 363,
+      "custBuy": 345,
       "memonRev": 0
     },
     {
@@ -8012,12 +8333,14 @@
       "fbAds": 15893000,
       "ggAds": 12075000,
       "social": 2537500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 123694436
+      },
+      "storeRev": 123694436,
+      "storeOnline": 18474000,
+      "storeTarget": 119155500,
+      "custIn": 354,
+      "custBuy": 338,
       "memonRev": 0
     },
     {
@@ -8050,12 +8373,14 @@
       "fbAds": 17498300,
       "ggAds": 8830000,
       "social": 1220000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 81654000
+      },
+      "storeRev": 81654000,
+      "storeOnline": 23161800,
+      "storeTarget": 106943000,
+      "custIn": 211,
+      "custBuy": 203,
       "memonRev": 0
     },
     {
@@ -8088,12 +8413,14 @@
       "fbAds": 20149250,
       "ggAds": 6790000,
       "social": 2085000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 93324750
+      },
+      "storeRev": 93324750,
+      "storeOnline": 17374500,
+      "storeTarget": 94543000,
+      "custIn": 244,
+      "custBuy": 230,
       "memonRev": 0
     },
     {
@@ -8126,12 +8453,14 @@
       "fbAds": 34490500,
       "ggAds": 12711500,
       "social": 2130000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 75609000
+      },
+      "storeRev": 75609000,
+      "storeOnline": 19106500,
+      "storeTarget": 96518000,
+      "custIn": 233,
+      "custBuy": 219,
       "memonRev": 0
     },
     {
@@ -8164,12 +8493,14 @@
       "fbAds": 28232000,
       "ggAds": 13982000,
       "social": 2917500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 97632500
+      },
+      "storeRev": 97632500,
+      "storeOnline": 21956500,
+      "storeTarget": 131111000,
+      "custIn": 254,
+      "custBuy": 237,
       "memonRev": 0
     },
     {
@@ -8202,12 +8533,14 @@
       "fbAds": 18298000,
       "ggAds": 11820500,
       "social": 3447500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 97803250
+      },
+      "storeRev": 97803250,
+      "storeOnline": 13974250,
+      "storeTarget": 140780500,
+      "custIn": 279,
+      "custBuy": 270,
       "memonRev": 0
     },
     {
@@ -8240,12 +8573,14 @@
       "fbAds": 52355000,
       "ggAds": 12069000,
       "social": 5297000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 136519250
+      },
+      "storeRev": 136519250,
+      "storeOnline": 29867000,
+      "storeTarget": 164093000,
+      "custIn": 367,
+      "custBuy": 360,
       "memonRev": 0
     },
     {
@@ -8278,12 +8613,14 @@
       "fbAds": 20713000,
       "ggAds": 8730100,
       "social": 2727500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 129380500
+      },
+      "storeRev": 129380500,
+      "storeOnline": 24508600,
+      "storeTarget": 155085000,
+      "custIn": 352,
+      "custBuy": 336,
       "memonRev": 0
     },
     {
@@ -8317,23 +8654,13 @@
       "ggAds": 12133200,
       "social": 3395750,
       "store": {
-        "Nguyễn Trãi": 518578223,
-        "Xuân Thuỷ": 487536543,
-        "Nguyễn Gia Trí": 455452000,
-        "Cầu Giấy": 464841545,
-        "Nguyễn Văn Cừ": 454739000,
-        "Lê Văn Sỹ": 389735450,
-        "Bạch Mai": 420613000,
-        "Láng": 380773042,
-        "Xã Đàn": 355593500,
-        "Tây Sơn": 163526001,
-        "Outlet": 92611000
+        "(?)": 70797000
       },
-      "storeRev": 4183999304,
-      "storeOnline": 978300741,
-      "storeTarget": 4770000000,
-      "custIn": 10176,
-      "custBuy": 9904,
+      "storeRev": 70797000,
+      "storeOnline": 25706400,
+      "storeTarget": 81000000,
+      "custIn": 182,
+      "custBuy": 172,
       "memonRev": 0
     },
     {
@@ -8366,12 +8693,14 @@
       "fbAds": 24186000,
       "ggAds": 19968950,
       "social": 3235000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 82131000
+      },
+      "storeRev": 82131000,
+      "storeOnline": 25199250,
+      "storeTarget": 91020000,
+      "custIn": 219,
+      "custBuy": 210,
       "memonRev": 0
     },
     {
@@ -8404,12 +8733,14 @@
       "fbAds": 35105500,
       "ggAds": 11793000,
       "social": 5155000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 91323500
+      },
+      "storeRev": 91323500,
+      "storeOnline": 28071100,
+      "storeTarget": 89260000,
+      "custIn": 222,
+      "custBuy": 210,
       "memonRev": 0
     },
     {
@@ -8442,12 +8773,14 @@
       "fbAds": 40535000,
       "ggAds": 18167000,
       "social": 6095000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 100652500
+      },
+      "storeRev": 100652500,
+      "storeOnline": 30727000,
+      "storeTarget": 88840000,
+      "custIn": 259,
+      "custBuy": 248,
       "memonRev": 0
     },
     {
@@ -8480,12 +8813,14 @@
       "fbAds": 38963000,
       "ggAds": 16469000,
       "social": 5915000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 93579999
+      },
+      "storeRev": 93579999,
+      "storeOnline": 27076000,
+      "storeTarget": 199160000,
+      "custIn": 246,
+      "custBuy": 237,
       "memonRev": 0
     },
     {
@@ -8518,12 +8853,14 @@
       "fbAds": 22151000,
       "ggAds": 10601500,
       "social": 5105000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 140917500
+      },
+      "storeRev": 140917500,
+      "storeOnline": 12617000,
+      "storeTarget": 183760000,
+      "custIn": 367,
+      "custBuy": 366,
       "memonRev": 0
     },
     {
@@ -8556,12 +8893,14 @@
       "fbAds": 21376250,
       "ggAds": 18469000,
       "social": 5155000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 142374750
+      },
+      "storeRev": 142374750,
+      "storeOnline": 17601754,
+      "storeTarget": 210120000,
+      "custIn": 330,
+      "custBuy": 320,
       "memonRev": 0
     },
     {
@@ -8594,12 +8933,14 @@
       "fbAds": 20950600,
       "ggAds": 18488400,
       "social": 1590000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 72537000
+      },
+      "storeRev": 72537000,
+      "storeOnline": 22810500,
+      "storeTarget": 89940000,
+      "custIn": 176,
+      "custBuy": 171,
       "memonRev": 0
     },
     {
@@ -8632,12 +8973,14 @@
       "fbAds": 24793000,
       "ggAds": 11525000,
       "social": 2549000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 78400851
+      },
+      "storeRev": 78400851,
+      "storeOnline": 19860499,
+      "storeTarget": 90520000,
+      "custIn": 186,
+      "custBuy": 176,
       "memonRev": 0
     },
     {
@@ -8670,12 +9013,14 @@
       "fbAds": 22382000,
       "ggAds": 36268300,
       "social": 4737500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 102541590
+      },
+      "storeRev": 102541590,
+      "storeOnline": 31026200,
+      "storeTarget": 102700000,
+      "custIn": 225,
+      "custBuy": 216,
       "memonRev": 0
     },
     {
@@ -8708,12 +9053,14 @@
       "fbAds": 29439500,
       "ggAds": 13918000,
       "social": 3036000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 98621800
+      },
+      "storeRev": 98621800,
+      "storeOnline": 24013000,
+      "storeTarget": 91640000,
+      "custIn": 240,
+      "custBuy": 225,
       "memonRev": 0
     },
     {
@@ -8746,12 +9093,14 @@
       "fbAds": 17466000,
       "ggAds": 48896000,
       "social": 4136000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 95366500
+      },
+      "storeRev": 95366500,
+      "storeOnline": 22273900,
+      "storeTarget": 197160000,
+      "custIn": 250,
+      "custBuy": 236,
       "memonRev": 0
     },
     {
@@ -8784,12 +9133,14 @@
       "fbAds": 26932000,
       "ggAds": 16597900,
       "social": 3151000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 99705250
+      },
+      "storeRev": 99705250,
+      "storeOnline": 22011500,
+      "storeTarget": 181480000,
+      "custIn": 262,
+      "custBuy": 250,
       "memonRev": 0
     },
     {
@@ -8822,12 +9173,14 @@
       "fbAds": 16662500,
       "ggAds": 22657240,
       "social": 4531500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 144855000
+      },
+      "storeRev": 144855000,
+      "storeOnline": 30190240,
+      "storeTarget": 195120000,
+      "custIn": 360,
+      "custBuy": 350,
       "memonRev": 0
     },
     {
@@ -8860,12 +9213,14 @@
       "fbAds": 24301000,
       "ggAds": 17513250,
       "social": 1593000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 88258750
+      },
+      "storeRev": 88258750,
+      "storeOnline": 19985250,
+      "storeTarget": 109100000,
+      "custIn": 208,
+      "custBuy": 198,
       "memonRev": 0
     },
     {
@@ -8898,12 +9253,14 @@
       "fbAds": 26819500,
       "ggAds": 25861800,
       "social": 1165000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 82860000
+      },
+      "storeRev": 82860000,
+      "storeOnline": 30164800,
+      "storeTarget": 95125000,
+      "custIn": 218,
+      "custBuy": 212,
       "memonRev": 0
     },
     {
@@ -8936,12 +9293,14 @@
       "fbAds": 36932400,
       "ggAds": 16863000,
       "social": 4207000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 104209000
+      },
+      "storeRev": 104209000,
+      "storeOnline": 33594000,
+      "storeTarget": 117050000,
+      "custIn": 273,
+      "custBuy": 270,
       "memonRev": 0
     },
     {
@@ -8974,12 +9333,14 @@
       "fbAds": 27847500,
       "ggAds": 21571500,
       "social": 4850000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 109626250
+      },
+      "storeRev": 109626250,
+      "storeOnline": 29013500,
+      "storeTarget": 120250000,
+      "custIn": 280,
+      "custBuy": 269,
       "memonRev": 0
     },
     {
@@ -9012,12 +9373,14 @@
       "fbAds": 29507500,
       "ggAds": 16031500,
       "social": 9925500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 114354800
+      },
+      "storeRev": 114354800,
+      "storeOnline": 28006500,
+      "storeTarget": 250650000,
+      "custIn": 309,
+      "custBuy": 296,
       "memonRev": 0
     },
     {
@@ -9050,12 +9413,14 @@
       "fbAds": 28836000,
       "ggAds": 46571200,
       "social": 6803000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 160434002
+      },
+      "storeRev": 160434002,
+      "storeOnline": 38758498,
+      "storeTarget": 263950000,
+      "custIn": 388,
+      "custBuy": 375,
       "memonRev": 0
     },
     {
@@ -9088,12 +9453,14 @@
       "fbAds": 33749500,
       "ggAds": 19018500,
       "social": 4617000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 181096544
+      },
+      "storeRev": 181096544,
+      "storeOnline": 37341000,
+      "storeTarget": 238200000,
+      "custIn": 432,
+      "custBuy": 415,
       "memonRev": 0
     },
     {
@@ -9126,12 +9493,14 @@
       "fbAds": 47274000,
       "ggAds": 44620000,
       "social": 6091000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 165340000
+      },
+      "storeRev": 165340000,
+      "storeOnline": 72400500,
+      "storeTarget": 133500000,
+      "custIn": 427,
+      "custBuy": 422,
       "memonRev": 0
     },
     {
@@ -9164,12 +9533,14 @@
       "fbAds": 57616500,
       "ggAds": 47274200,
       "social": 6913000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 298485497
+      },
+      "storeRev": 298485497,
+      "storeOnline": 73682500,
+      "storeTarget": 123925000,
+      "custIn": 692,
+      "custBuy": 683,
       "memonRev": 0
     },
     {
@@ -9202,12 +9573,14 @@
       "fbAds": 65859852,
       "ggAds": 80215500,
       "social": 22077000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 605138497
+      },
+      "storeRev": 605138497,
+      "storeOnline": 109129000,
+      "storeTarget": 124225000,
+      "custIn": 1318,
+      "custBuy": 1306,
       "memonRev": 0
     },
     {
@@ -9240,12 +9613,14 @@
       "fbAds": 46427500,
       "ggAds": 35416300,
       "social": 11797000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 254393775
+      },
+      "storeRev": 254393775,
+      "storeOnline": 54647000,
+      "storeTarget": 125850000,
+      "custIn": 624,
+      "custBuy": 612,
       "memonRev": 0
     },
     {
@@ -9278,12 +9653,14 @@
       "fbAds": 15545000,
       "ggAds": 11249000,
       "social": 5233000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 123347750
+      },
+      "storeRev": 123347750,
+      "storeOnline": 20024000,
+      "storeTarget": 232100000,
+      "custIn": 280,
+      "custBuy": 293,
       "memonRev": 0
     },
     {
@@ -9316,12 +9693,14 @@
       "fbAds": 20919500,
       "ggAds": 16072000,
       "social": 3351500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 119964949
+      },
+      "storeRev": 119964949,
+      "storeOnline": 17390500,
+      "storeTarget": 233700000,
+      "custIn": 271,
+      "custBuy": 263,
       "memonRev": 0
     },
     {
@@ -9350,12 +9729,14 @@
       "fbAds": 13809000,
       "ggAds": 7759500,
       "social": 0,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 117201000
+      },
+      "storeRev": 117201000,
+      "storeOnline": 11795750,
+      "storeTarget": 208350000,
+      "custIn": 302,
+      "custBuy": 288,
       "memonRev": 0
     },
     {
@@ -9388,12 +9769,14 @@
       "fbAds": 19230000,
       "ggAds": 10291500,
       "social": 2770000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64310750
+      },
+      "storeRev": 64310750,
+      "storeOnline": 15599500,
+      "storeTarget": 144515000,
+      "custIn": 168,
+      "custBuy": 163,
       "memonRev": 0
     },
     {
@@ -9426,12 +9809,14 @@
       "fbAds": 21300000,
       "ggAds": 11250800,
       "social": 1290000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 82135500
+      },
+      "storeRev": 82135500,
+      "storeOnline": 21020800,
+      "storeTarget": 136990000,
+      "custIn": 214,
+      "custBuy": 207,
       "memonRev": 0
     },
     {
@@ -9464,12 +9849,14 @@
       "fbAds": 19434900,
       "ggAds": 20164300,
       "social": 4025000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 99038000
+      },
+      "storeRev": 99038000,
+      "storeOnline": 26563300,
+      "storeTarget": 125250000,
+      "custIn": 248,
+      "custBuy": 245,
       "memonRev": 0
     },
     {
@@ -9503,23 +9890,13 @@
       "ggAds": 5892500,
       "social": 17990000,
       "store": {
-        "Nguyễn Gia Trí": 299050600,
-        "Nguyễn Trãi": 288679500,
-        "Lê Văn Sỹ": 254088750,
-        "Cầu Giấy": 275408750,
-        "Xuân Thuỷ": 267977500,
-        "Nguyễn Văn Cừ": 220506500,
-        "Bạch Mai": 215409500,
-        "Láng": 198115500,
-        "Xã Đàn": 186030750,
-        "Tây Sơn": 65693500,
-        "Outlet": 49914500
+        "(?)": 87007000
       },
-      "storeRev": 2320875350,
-      "storeOnline": 585268801,
-      "storeTarget": 3230000000,
-      "custIn": 5776,
-      "custBuy": 5469,
+      "storeRev": 87007000,
+      "storeOnline": 12216500,
+      "storeTarget": 88240000,
+      "custIn": 205,
+      "custBuy": 196,
       "memonRev": 0
     },
     {
@@ -9552,12 +9929,14 @@
       "fbAds": 0,
       "ggAds": 9263000,
       "social": 17856200,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 81981250
+      },
+      "storeRev": 81981250,
+      "storeOnline": 18066000,
+      "storeTarget": 86690000,
+      "custIn": 192,
+      "custBuy": 188,
       "memonRev": 0
     },
     {
@@ -9590,12 +9969,14 @@
       "fbAds": 0,
       "ggAds": 7680000,
       "social": 15321500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 86235250
+      },
+      "storeRev": 86235250,
+      "storeOnline": 14765000,
+      "storeTarget": 137660000,
+      "custIn": 214,
+      "custBuy": 204,
       "memonRev": 0
     },
     {
@@ -9628,12 +10009,14 @@
       "fbAds": 0,
       "ggAds": 9227000,
       "social": 14480250,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 85259750
+      },
+      "storeRev": 85259750,
+      "storeOnline": 10742250,
+      "storeTarget": 139680000,
+      "custIn": 196,
+      "custBuy": 187,
       "memonRev": 0
     },
     {
@@ -9666,12 +10049,14 @@
       "fbAds": 0,
       "ggAds": 7140250,
       "social": 22190000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64570500
+      },
+      "storeRev": 64570500,
+      "storeOnline": 12165750,
+      "storeTarget": 80997600,
+      "custIn": 160,
+      "custBuy": 155,
       "memonRev": 0
     },
     {
@@ -9704,12 +10089,14 @@
       "fbAds": 0,
       "ggAds": 11330000,
       "social": 21620000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 66514250
+      },
+      "storeRev": 66514250,
+      "storeOnline": 21150000,
+      "storeTarget": 72470400,
+      "custIn": 161,
+      "custBuy": 149,
       "memonRev": 0
     },
     {
@@ -9742,12 +10129,14 @@
       "fbAds": 0,
       "ggAds": 8225000,
       "social": 28543500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 70662500
+      },
+      "storeRev": 70662500,
+      "storeOnline": 21431000,
+      "storeTarget": 77470400,
+      "custIn": 158,
+      "custBuy": 150,
       "memonRev": 0
     },
     {
@@ -9780,12 +10169,14 @@
       "fbAds": 0,
       "ggAds": 6626100,
       "social": 24235000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 58147500
+      },
+      "storeRev": 58147500,
+      "storeOnline": 32446701,
+      "storeTarget": 79676000,
+      "custIn": 155,
+      "custBuy": 149,
       "memonRev": 0
     },
     {
@@ -9818,12 +10209,14 @@
       "fbAds": 0,
       "ggAds": 10936000,
       "social": 23953500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67846000
+      },
+      "storeRev": 67846000,
+      "storeOnline": 17623500,
+      "storeTarget": 90490400,
+      "custIn": 151,
+      "custBuy": 147,
       "memonRev": 0
     },
     {
@@ -9856,12 +10249,14 @@
       "fbAds": 0,
       "ggAds": 10625000,
       "social": 19192500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 89343950
+      },
+      "storeRev": 89343950,
+      "storeOnline": 18960000,
+      "storeTarget": 143272000,
+      "custIn": 242,
+      "custBuy": 239,
       "memonRev": 0
     },
     {
@@ -9894,12 +10289,14 @@
       "fbAds": 0,
       "ggAds": 9622750,
       "social": 13951000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 116976000
+      },
+      "storeRev": 116976000,
+      "storeOnline": 13494000,
+      "storeTarget": 133096000,
+      "custIn": 273,
+      "custBuy": 267,
       "memonRev": 0
     },
     {
@@ -9932,12 +10329,14 @@
       "fbAds": 0,
       "ggAds": 15622600,
       "social": 30685000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64795250
+      },
+      "storeRev": 64795250,
+      "storeOnline": 33934600,
+      "storeTarget": 76188000,
+      "custIn": 150,
+      "custBuy": 144,
       "memonRev": 0
     },
     {
@@ -9970,12 +10369,14 @@
       "fbAds": 0,
       "ggAds": 6227000,
       "social": 22379000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 69128750
+      },
+      "storeRev": 69128750,
+      "storeOnline": 18982000,
+      "storeTarget": 84182400,
+      "custIn": 162,
+      "custBuy": 155,
       "memonRev": 0
     },
     {
@@ -10008,12 +10409,14 @@
       "fbAds": 0,
       "ggAds": 5875000,
       "social": 19487000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 74505000
+      },
+      "storeRev": 74505000,
+      "storeOnline": 11375000,
+      "storeTarget": 92965600,
+      "custIn": 186,
+      "custBuy": 179,
       "memonRev": 0
     },
     {
@@ -10046,12 +10449,14 @@
       "fbAds": 0,
       "ggAds": 24915000,
       "social": 29806750,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 74782750
+      },
+      "storeRev": 74782750,
+      "storeOnline": 29980250,
+      "storeTarget": 68967200,
+      "custIn": 178,
+      "custBuy": 170,
       "memonRev": 0
     },
     {
@@ -10084,12 +10489,14 @@
       "fbAds": 0,
       "ggAds": 54589620,
       "social": 27852000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 82276500
+      },
+      "storeRev": 82276500,
+      "storeOnline": 26702500,
+      "storeTarget": 77856000,
+      "custIn": 215,
+      "custBuy": 208,
       "memonRev": 0
     },
     {
@@ -10122,12 +10529,14 @@
       "fbAds": 0,
       "ggAds": 9472000,
       "social": 34893000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 90851750
+      },
+      "storeRev": 90851750,
+      "storeOnline": 21681000,
+      "storeTarget": 125856000,
+      "custIn": 233,
+      "custBuy": 221,
       "memonRev": 0
     },
     {
@@ -10160,12 +10569,14 @@
       "fbAds": 0,
       "ggAds": 11634000,
       "social": 48700500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 119059500
+      },
+      "storeRev": 119059500,
+      "storeOnline": 22396500,
+      "storeTarget": 145324000,
+      "custIn": 307,
+      "custBuy": 285,
       "memonRev": 0
     },
     {
@@ -10198,12 +10609,14 @@
       "fbAds": 0,
       "ggAds": 11686000,
       "social": 41696000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 62816700
+      },
+      "storeRev": 62816700,
+      "storeOnline": 17407000,
+      "storeTarget": 73079200,
+      "custIn": 162,
+      "custBuy": 150,
       "memonRev": 0
     },
     {
@@ -10236,12 +10649,14 @@
       "fbAds": 0,
       "ggAds": 10760500,
       "social": 41680500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 74264750
+      },
+      "storeRev": 74264750,
+      "storeOnline": 18712500,
+      "storeTarget": 71712800,
+      "custIn": 197,
+      "custBuy": 166,
       "memonRev": 0
     },
     {
@@ -10274,12 +10689,14 @@
       "fbAds": 0,
       "ggAds": 14880500,
       "social": 24565000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64242200
+      },
+      "storeRev": 64242200,
+      "storeOnline": 14317500,
+      "storeTarget": 76161600,
+      "custIn": 171,
+      "custBuy": 155,
       "memonRev": 0
     },
     {
@@ -10312,12 +10729,14 @@
       "fbAds": 0,
       "ggAds": 11895000,
       "social": 42098750,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 59693750
+      },
+      "storeRev": 59693750,
+      "storeOnline": 26627000,
+      "storeTarget": 73704800,
+      "custIn": 144,
+      "custBuy": 137,
       "memonRev": 0
     },
     {
@@ -10350,12 +10769,14 @@
       "fbAds": 0,
       "ggAds": 15323500,
       "social": 22522000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 69699000
+      },
+      "storeRev": 69699000,
+      "storeOnline": 16412000,
+      "storeTarget": 83697600,
+      "custIn": 174,
+      "custBuy": 159,
       "memonRev": 0
     },
     {
@@ -10388,12 +10809,14 @@
       "fbAds": 0,
       "ggAds": 8207500,
       "social": 21704250,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 82518250
+      },
+      "storeRev": 82518250,
+      "storeOnline": 13915000,
+      "storeTarget": 118280000,
+      "custIn": 225,
+      "custBuy": 211,
       "memonRev": 0
     },
     {
@@ -10426,12 +10849,14 @@
       "fbAds": 0,
       "ggAds": 14245000,
       "social": 23454000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 86224250
+      },
+      "storeRev": 86224250,
+      "storeOnline": 17865000,
+      "storeTarget": 115568000,
+      "custIn": 241,
+      "custBuy": 219,
       "memonRev": 0
     },
     {
@@ -10464,12 +10889,14 @@
       "fbAds": 0,
       "ggAds": 14027000,
       "social": 23911500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 54015000
+      },
+      "storeRev": 54015000,
+      "storeOnline": 17313500,
+      "storeTarget": 70428000,
+      "custIn": 136,
+      "custBuy": 122,
       "memonRev": 0
     },
     {
@@ -10502,12 +10929,14 @@
       "fbAds": 0,
       "ggAds": 13145750,
       "social": 24652000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 53430750
+      },
+      "storeRev": 53430750,
+      "storeOnline": 18320750,
+      "storeTarget": 77257500,
+      "custIn": 141,
+      "custBuy": 127,
       "memonRev": 0
     },
     {
@@ -10540,12 +10969,14 @@
       "fbAds": 0,
       "ggAds": 9993000,
       "social": 10800000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 15461000
+      },
+      "storeRev": 15461000,
+      "storeOnline": 9673000,
+      "storeTarget": 49840500,
+      "custIn": 41,
+      "custBuy": 42,
       "memonRev": 0
     },
     {
@@ -10578,12 +11009,14 @@
       "fbAds": 0,
       "ggAds": 25978800,
       "social": 25461000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 72312750
+      },
+      "storeRev": 72312750,
+      "storeOnline": 29095000,
+      "storeTarget": 89258500,
+      "custIn": 171,
+      "custBuy": 169,
       "memonRev": 0
     },
     {
@@ -10616,12 +11049,14 @@
       "fbAds": 0,
       "ggAds": 15418500,
       "social": 21903000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 83872250
+      },
+      "storeRev": 83872250,
+      "storeOnline": 15860500,
+      "storeTarget": 75879500,
+      "custIn": 206,
+      "custBuy": 201,
       "memonRev": 0
     },
     {
@@ -10650,12 +11085,14 @@
       "fbAds": 0,
       "ggAds": 43241000,
       "social": 15051000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 92381250
+      },
+      "storeRev": 92381250,
+      "storeOnline": 11637500,
+      "storeTarget": 138962500,
+      "custIn": 229,
+      "custBuy": 218,
       "memonRev": 0
     },
     {
@@ -10689,23 +11126,13 @@
       "ggAds": 7533000,
       "social": 21740500,
       "store": {
-        "Nguyễn Trãi": 330504500,
-        "Xuân Thuỷ": 327659750,
-        "Lê Văn Sỹ": 268900000,
-        "Cầu Giấy": 307730750,
-        "Nguyễn Gia Trí": 268888500,
-        "Bạch Mai": 257970000,
-        "Nguyễn Văn Cừ": 236848957,
-        "Láng": 197668750,
-        "Xã Đàn": 197895500,
-        "Tây Sơn": 54317500,
-        "Outlet": 46198000
+        "(?)": 92921500
       },
-      "storeRev": 2494582207,
-      "storeOnline": 551202201,
-      "storeTarget": 4000000000,
-      "custIn": 6072,
-      "custBuy": 5735,
+      "storeRev": 92921500,
+      "storeOnline": 15320000,
+      "storeTarget": 41374304,
+      "custIn": 226,
+      "custBuy": 211,
       "memonRev": 0
     },
     {
@@ -10738,12 +11165,14 @@
       "fbAds": 0,
       "ggAds": 36110000,
       "social": 24512000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 60806500
+      },
+      "storeRev": 60806500,
+      "storeOnline": 18098700,
+      "storeTarget": 106779367,
+      "custIn": 160,
+      "custBuy": 155,
       "memonRev": 0
     },
     {
@@ -10776,12 +11205,14 @@
       "fbAds": 0,
       "ggAds": 8629000,
       "social": 26251000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 61722250
+      },
+      "storeRev": 61722250,
+      "storeOnline": 21198000,
+      "storeTarget": 125120000,
+      "custIn": 159,
+      "custBuy": 148,
       "memonRev": 0
     },
     {
@@ -10814,12 +11245,14 @@
       "fbAds": 0,
       "ggAds": 15807500,
       "social": 26799000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 68917500
+      },
+      "storeRev": 68917500,
+      "storeOnline": 14954500,
+      "storeTarget": 128928000,
+      "custIn": 176,
+      "custBuy": 160,
       "memonRev": 0
     },
     {
@@ -10852,12 +11285,14 @@
       "fbAds": 0,
       "ggAds": 17080000,
       "social": 30366500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 71301500
+      },
+      "storeRev": 71301500,
+      "storeOnline": 21076000,
+      "storeTarget": 131886000,
+      "custIn": 186,
+      "custBuy": 177,
       "memonRev": 0
     },
     {
@@ -10890,12 +11325,14 @@
       "fbAds": 0,
       "ggAds": 20727000,
       "social": 26846500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 109165500
+      },
+      "storeRev": 109165500,
+      "storeOnline": 25281000,
+      "storeTarget": 267852000,
+      "custIn": 274,
+      "custBuy": 253,
       "memonRev": 0
     },
     {
@@ -10928,12 +11365,14 @@
       "fbAds": 0,
       "ggAds": 11187750,
       "social": 36513500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 123980250
+      },
+      "storeRev": 123980250,
+      "storeOnline": 23531750,
+      "storeTarget": 277401266,
+      "custIn": 318,
+      "custBuy": 299,
       "memonRev": 0
     },
     {
@@ -10966,12 +11405,14 @@
       "fbAds": 0,
       "ggAds": 15517500,
       "social": 30339000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 90191000
+      },
+      "storeRev": 90191000,
+      "storeOnline": 24067500,
+      "storeTarget": 230588000,
+      "custIn": 206,
+      "custBuy": 190,
       "memonRev": 0
     },
     {
@@ -11004,12 +11445,14 @@
       "fbAds": 0,
       "ggAds": 10180000,
       "social": 30281010,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 82156000
+      },
+      "storeRev": 82156000,
+      "storeOnline": 18865000,
+      "storeTarget": 128554999,
+      "custIn": 216,
+      "custBuy": 200,
       "memonRev": 0
     },
     {
@@ -11042,12 +11485,14 @@
       "fbAds": 0,
       "ggAds": 14350250,
       "social": 27596000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 103980705
+      },
+      "storeRev": 103980705,
+      "storeOnline": 33910750,
+      "storeTarget": 129464999,
+      "custIn": 258,
+      "custBuy": 242,
       "memonRev": 0
     },
     {
@@ -11080,12 +11525,14 @@
       "fbAds": 0,
       "ggAds": 21502000,
       "social": 30452000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 141512752
+      },
+      "storeRev": 141512752,
+      "storeOnline": 33135000,
+      "storeTarget": 138755062,
+      "custIn": 312,
+      "custBuy": 303,
       "memonRev": 0
     },
     {
@@ -11118,12 +11565,14 @@
       "fbAds": 0,
       "ggAds": 15943250,
       "social": 23616000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 149000000
+      },
+      "storeRev": 149000000,
+      "storeOnline": 32043500,
+      "storeTarget": 136604999,
+      "custIn": 381,
+      "custBuy": 360,
       "memonRev": 0
     },
     {
@@ -11156,12 +11605,14 @@
       "fbAds": 0,
       "ggAds": 32983500,
       "social": 28036000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 212526500
+      },
+      "storeRev": 212526500,
+      "storeOnline": 46977500,
+      "storeTarget": 277830001,
+      "custIn": 507,
+      "custBuy": 497,
       "memonRev": 0
     },
     {
@@ -11194,12 +11645,14 @@
       "fbAds": 0,
       "ggAds": 22839000,
       "social": 22095000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 238560750
+      },
+      "storeRev": 238560750,
+      "storeOnline": 35142000,
+      "storeTarget": 326160128,
+      "custIn": 546,
+      "custBuy": 532,
       "memonRev": 0
     },
     {
@@ -11220,12 +11673,14 @@
       "fbAds": 0,
       "ggAds": 540000,
       "social": 525000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 18056500
+      },
+      "storeRev": 18056500,
+      "storeOnline": 990000,
+      "storeTarget": 90339874,
+      "custIn": 33,
+      "custBuy": 29,
       "memonRev": 0
     },
     {
@@ -11237,7 +11692,9 @@
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
-      "store": {},
+      "store": {
+        "(?)": 0
+      },
       "storeRev": 0,
       "storeOnline": 0,
       "storeTarget": 0,
@@ -11254,7 +11711,9 @@
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
-      "store": {},
+      "store": {
+        "(?)": 0
+      },
       "storeRev": 0,
       "storeOnline": 0,
       "storeTarget": 0,
@@ -11271,7 +11730,9 @@
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
-      "store": {},
+      "store": {
+        "(?)": 0
+      },
       "storeRev": 0,
       "storeOnline": 0,
       "storeTarget": 0,
@@ -11288,7 +11749,9 @@
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
-      "store": {},
+      "store": {
+        "(?)": 0
+      },
       "storeRev": 0,
       "storeOnline": 0,
       "storeTarget": 0,
@@ -11322,12 +11785,14 @@
       "fbAds": 0,
       "ggAds": 2796000,
       "social": 1570000,
-      "store": {},
-      "storeRev": 0,
+      "store": {
+        "(?)": 43590000
+      },
+      "storeRev": 43590000,
       "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "storeTarget": 25165822,
+      "custIn": 104,
+      "custBuy": 99,
       "memonRev": 0
     },
     {
@@ -11356,12 +11821,14 @@
       "fbAds": 0,
       "ggAds": 3355000,
       "social": 15081500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67018500
+      },
+      "storeRev": 67018500,
+      "storeOnline": 9575000,
+      "storeTarget": 27350063,
+      "custIn": 137,
+      "custBuy": 132,
       "memonRev": 0
     },
     {
@@ -11394,12 +11861,14 @@
       "fbAds": 0,
       "ggAds": 14200000,
       "social": 20448500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 104476000
+      },
+      "storeRev": 104476000,
+      "storeOnline": 21036000,
+      "storeTarget": 105310063,
+      "custIn": 277,
+      "custBuy": 249,
       "memonRev": 0
     },
     {
@@ -11432,12 +11901,14 @@
       "fbAds": 0,
       "ggAds": 7479500,
       "social": 14690000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 110374500
+      },
+      "storeRev": 110374500,
+      "storeOnline": 11489500,
+      "storeTarget": 99158411,
+      "custIn": 263,
+      "custBuy": 244,
       "memonRev": 0
     },
     {
@@ -11470,12 +11941,14 @@
       "fbAds": 0,
       "ggAds": 24491000,
       "social": 25462000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 104720000
+      },
+      "storeRev": 104720000,
+      "storeOnline": 33253500,
+      "storeTarget": 97221322,
+      "custIn": 235,
+      "custBuy": 227,
       "memonRev": 0
     },
     {
@@ -11508,12 +11981,14 @@
       "fbAds": 0,
       "ggAds": 19550000,
       "social": 34088500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 91458000
+      },
+      "storeRev": 91458000,
+      "storeOnline": 29763501,
+      "storeTarget": 102255911,
+      "custIn": 216,
+      "custBuy": 201,
       "memonRev": 0
     },
     {
@@ -11546,12 +12021,14 @@
       "fbAds": 0,
       "ggAds": 18212000,
       "social": 34249000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 88522000
+      },
+      "storeRev": 88522000,
+      "storeOnline": 28462000,
+      "storeTarget": 112405822,
+      "custIn": 228,
+      "custBuy": 212,
       "memonRev": 0
     },
     {
@@ -11584,12 +12061,14 @@
       "fbAds": 0,
       "ggAds": 9665500,
       "social": 37028000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 103948250
+      },
+      "storeRev": 103948250,
+      "storeOnline": 21127000,
+      "storeTarget": 151845217,
+      "custIn": 289,
+      "custBuy": 269,
       "memonRev": 0
     },
     {
@@ -11622,12 +12101,14 @@
       "fbAds": 0,
       "ggAds": 19807500,
       "social": 41658500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 155675750
+      },
+      "storeRev": 155675750,
+      "storeOnline": 31904500,
+      "storeTarget": 144045215,
+      "custIn": 365,
+      "custBuy": 346,
       "memonRev": 0
     },
     {
@@ -11661,23 +12142,13 @@
       "ggAds": 20063000,
       "social": 24206500,
       "store": {
-        "Nguyễn Trãi": 548820250,
-        "Xuân Thuỷ": 539038800,
-        "Lê Văn Sỹ": 465500750,
-        "Cầu Giấy": 528009250,
-        "Nguyễn Gia Trí": 482427700,
-        "Bạch Mai": 470787001,
-        "Láng": 427890750,
-        "Nguyễn Văn Cừ": 404667500,
-        "Xã Đàn": 353113249,
-        "Outlet": 102537000,
-        "Tây Sơn": 90476620
+        "(?)": 126009500
       },
-      "storeRev": 4413268870,
-      "storeOnline": 950724918,
-      "storeTarget": 5070000000,
-      "custIn": 10632,
-      "custBuy": 9953,
+      "storeRev": 126009500,
+      "storeOnline": 34494500,
+      "storeTarget": 111804000,
+      "custIn": 329,
+      "custBuy": 304,
       "memonRev": 0
     },
     {
@@ -11710,12 +12181,14 @@
       "fbAds": 28228500,
       "ggAds": 22853500,
       "social": 16453500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 93406750
+      },
+      "storeRev": 93406750,
+      "storeOnline": 32472845,
+      "storeTarget": 118524000,
+      "custIn": 222,
+      "custBuy": 200,
       "memonRev": 0
     },
     {
@@ -11748,12 +12221,14 @@
       "fbAds": 30038000,
       "ggAds": 38721000,
       "social": 14676000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 115268000
+      },
+      "storeRev": 115268000,
+      "storeOnline": 41752000,
+      "storeTarget": 136164000,
+      "custIn": 268,
+      "custBuy": 250,
       "memonRev": 0
     },
     {
@@ -11786,12 +12261,14 @@
       "fbAds": 30237500,
       "ggAds": 29113000,
       "social": 26481989,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 112384700
+      },
+      "storeRev": 112384700,
+      "storeOnline": 37049500,
+      "storeTarget": 118776000,
+      "custIn": 286,
+      "custBuy": 263,
       "memonRev": 0
     },
     {
@@ -11824,12 +12301,14 @@
       "fbAds": 42340000,
       "ggAds": 45100500,
       "social": 27338491,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 190332250
+      },
+      "storeRev": 190332250,
+      "storeOnline": 56592500,
+      "storeTarget": 137760000,
+      "custIn": 437,
+      "custBuy": 406,
       "memonRev": 0
     },
     {
@@ -11862,12 +12341,14 @@
       "fbAds": 43374000,
       "ggAds": 58494000,
       "social": 32985500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 277322800
+      },
+      "storeRev": 277322800,
+      "storeOnline": 75851502,
+      "storeTarget": 172550000,
+      "custIn": 636,
+      "custBuy": 597,
       "memonRev": 0
     },
     {
@@ -11900,12 +12381,14 @@
       "fbAds": 52855000,
       "ggAds": 67564240,
       "social": 40937000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 494365750
+      },
+      "storeRev": 494365750,
+      "storeOnline": 114005155,
+      "storeTarget": 375250000,
+      "custIn": 1151,
+      "custBuy": 1113,
       "memonRev": 0
     },
     {
@@ -11938,12 +12421,14 @@
       "fbAds": 61508000,
       "ggAds": 117823000,
       "social": 58831000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 754014871
+      },
+      "storeRev": 754014871,
+      "storeOnline": 130120501,
+      "storeTarget": 514125000,
+      "custIn": 1666,
+      "custBuy": 1640,
       "memonRev": 0
     },
     {
@@ -11976,12 +12461,14 @@
       "fbAds": 24652500,
       "ggAds": 21723000,
       "social": 25028913,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 288548250
+      },
+      "storeRev": 288548250,
+      "storeOnline": 51641994,
+      "storeTarget": 133776000,
+      "custIn": 677,
+      "custBuy": 641,
       "memonRev": 0
     },
     {
@@ -12014,12 +12501,14 @@
       "fbAds": 19920801,
       "ggAds": 16537998,
       "social": 6094199,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 108456500
+      },
+      "storeRev": 108456500,
+      "storeOnline": 35275500,
+      "storeTarget": 100320000,
+      "custIn": 276,
+      "custBuy": 254,
       "memonRev": 0
     },
     {
@@ -12052,12 +12541,14 @@
       "fbAds": 5574282,
       "ggAds": 13597750,
       "social": 12720718,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 101060250
+      },
+      "storeRev": 101060250,
+      "storeOnline": 22167750,
+      "storeTarget": 102096000,
+      "custIn": 267,
+      "custBuy": 247,
       "memonRev": 0
     },
     {
@@ -12090,12 +12581,14 @@
       "fbAds": 14398006,
       "ggAds": 10396000,
       "social": 19256993,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 118224250
+      },
+      "storeRev": 118224250,
+      "storeOnline": 30571000,
+      "storeTarget": 116506000,
+      "custIn": 254,
+      "custBuy": 227,
       "memonRev": 0
     },
     {
@@ -12128,12 +12621,14 @@
       "fbAds": 14662426,
       "ggAds": 13667000,
       "social": 14660574,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 93044000
+      },
+      "storeRev": 93044000,
+      "storeOnline": 21998000,
+      "storeTarget": 135694000,
+      "custIn": 245,
+      "custBuy": 220,
       "memonRev": 0
     },
     {
@@ -12166,12 +12661,14 @@
       "fbAds": 14500287,
       "ggAds": 15852500,
       "social": 11086213,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 186026500
+      },
+      "storeRev": 186026500,
+      "storeOnline": 21997500,
+      "storeTarget": 174250000,
+      "custIn": 469,
+      "custBuy": 436,
       "memonRev": 0
     },
     {
@@ -12204,12 +12701,14 @@
       "fbAds": 13683614,
       "ggAds": 8436500,
       "social": 8063886,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 131827250
+      },
+      "storeRev": 131827250,
+      "storeOnline": 17476500,
+      "storeTarget": 160344000,
+      "custIn": 327,
+      "custBuy": 300,
       "memonRev": 0
     },
     {
@@ -12242,12 +12741,14 @@
       "fbAds": 6351433,
       "ggAds": 8466500,
       "social": 11226567,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 80761750
+      },
+      "storeRev": 80761750,
+      "storeOnline": 9623000,
+      "storeTarget": 105600000,
+      "custIn": 209,
+      "custBuy": 179,
       "memonRev": 0
     },
     {
@@ -12280,12 +12781,14 @@
       "fbAds": 9832457,
       "ggAds": 13670000,
       "social": 13907043,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 79540000
+      },
+      "storeRev": 79540000,
+      "storeOnline": 19127671,
+      "storeTarget": 131280000,
+      "custIn": 205,
+      "custBuy": 179,
       "memonRev": 0
     },
     {
@@ -12318,12 +12821,14 @@
       "fbAds": 11110388,
       "ggAds": 20805000,
       "social": 5499612,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 79082500
+      },
+      "storeRev": 79082500,
+      "storeOnline": 15191000,
+      "storeTarget": 117504000,
+      "custIn": 206,
+      "custBuy": 193,
       "memonRev": 0
     },
     {
@@ -12356,12 +12861,14 @@
       "fbAds": 4599788,
       "ggAds": 7235000,
       "social": 6133212,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 69763000
+      },
+      "storeRev": 69763000,
+      "storeOnline": 10509000,
+      "storeTarget": 109506000,
+      "custIn": 166,
+      "custBuy": 147,
       "memonRev": 0
     },
     {
@@ -12394,12 +12901,14 @@
       "fbAds": 7280000,
       "ggAds": 10415500,
       "social": 11663750,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67761000
+      },
+      "storeRev": 67761000,
+      "storeOnline": 13547500,
+      "storeTarget": 150348000,
+      "custIn": 187,
+      "custBuy": 171,
       "memonRev": 0
     },
     {
@@ -12432,12 +12941,14 @@
       "fbAds": 7320000,
       "ggAds": 9689000,
       "social": 10015000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 117208750
+      },
+      "storeRev": 117208750,
+      "storeOnline": 16990000,
+      "storeTarget": 146404000,
+      "custIn": 304,
+      "custBuy": 285,
       "memonRev": 0
     },
     {
@@ -12470,12 +12981,14 @@
       "fbAds": 6610000,
       "ggAds": 8285000,
       "social": 11770000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 97613750
+      },
+      "storeRev": 97613750,
+      "storeOnline": 12790000,
+      "storeTarget": 143016000,
+      "custIn": 265,
+      "custBuy": 241,
       "memonRev": 0
     },
     {
@@ -12508,12 +13021,14 @@
       "fbAds": 4450000,
       "ggAds": 7257000,
       "social": 5731000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 53332750
+      },
+      "storeRev": 53332750,
+      "storeOnline": 12784000,
+      "storeTarget": 109584000,
+      "custIn": 143,
+      "custBuy": 128,
       "memonRev": 0
     },
     {
@@ -12546,12 +13061,14 @@
       "fbAds": 7568410,
       "ggAds": 6380000,
       "social": 5964090,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 68390250
+      },
+      "storeRev": 68390250,
+      "storeOnline": 13140000,
+      "storeTarget": 78120000,
+      "custIn": 167,
+      "custBuy": 153,
       "memonRev": 0
     },
     {
@@ -12584,12 +13101,14 @@
       "fbAds": 8678473,
       "ggAds": 7725000,
       "social": 4101527,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 74334250
+      },
+      "storeRev": 74334250,
+      "storeOnline": 11395000,
+      "storeTarget": 91704000,
+      "custIn": 181,
+      "custBuy": 164,
       "memonRev": 0
     },
     {
@@ -12622,12 +13141,14 @@
       "fbAds": 5459093,
       "ggAds": 8318000,
       "social": 6435907,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64756499
+      },
+      "storeRev": 64756499,
+      "storeOnline": 14062500,
+      "storeTarget": 102590000,
+      "custIn": 164,
+      "custBuy": 150,
       "memonRev": 0
     },
     {
@@ -12660,12 +13181,14 @@
       "fbAds": 5328500,
       "ggAds": 13303500,
       "social": 8809500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 78860750
+      },
+      "storeRev": 78860750,
+      "storeOnline": 18150000,
+      "storeTarget": 117232000,
+      "custIn": 183,
+      "custBuy": 174,
       "memonRev": 0
     },
     {
@@ -12694,12 +13217,14 @@
       "fbAds": 2389130,
       "ggAds": 9371000,
       "social": 9745870,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 86509250
+      },
+      "storeRev": 86509250,
+      "storeOnline": 10850000,
+      "storeTarget": 123534000,
+      "custIn": 245,
+      "custBuy": 231,
       "memonRev": 0
     },
     {
@@ -12728,12 +13253,14 @@
       "fbAds": 8458139,
       "ggAds": 8365000,
       "social": 5626861,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 71494250
+      },
+      "storeRev": 71494250,
+      "storeOnline": 10970000,
+      "storeTarget": 132486000,
+      "custIn": 191,
+      "custBuy": 174,
       "memonRev": 0
     },
     {
@@ -12766,12 +13293,14 @@
       "fbAds": 13473252,
       "ggAds": 9755000,
       "social": 6899748,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 56349250
+      },
+      "storeRev": 56349250,
+      "storeOnline": 20151500,
+      "storeTarget": 94950000,
+      "custIn": 129,
+      "custBuy": 117,
       "memonRev": 0
     },
     {
@@ -12804,12 +13333,14 @@
       "fbAds": 7796128,
       "ggAds": 6155000,
       "social": 2024372,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 68749250
+      },
+      "storeRev": 68749250,
+      "storeOnline": 15563500,
+      "storeTarget": 82915000,
+      "custIn": 161,
+      "custBuy": 153,
       "memonRev": 0
     },
     {
@@ -12843,23 +13374,13 @@
       "ggAds": 8073500,
       "social": 8720011,
       "store": {
-        "Nguyễn Trãi": 293178000,
-        "Xuân Thuỷ": 280129000,
-        "Nguyễn Gia Trí": 256430500,
-        "Lê Văn Sỹ": 225938500,
-        "Cầu Giấy": 225578250,
-        "Bạch Mai": 221084750,
-        "Láng": 217781750,
-        "Nguyễn Văn Cừ": 187761000,
-        "Xã Đàn": 181519001,
-        "Outlet": 68477750,
-        "Tây Sơn": 0
+        "(?)": 68378500
       },
-      "storeRev": 2157878501,
-      "storeOnline": 397815750,
-      "storeTarget": 3570000000,
-      "custIn": 5108,
-      "custBuy": 4664,
+      "storeRev": 68378500,
+      "storeOnline": 15539250,
+      "storeTarget": 80832000,
+      "custIn": 147,
+      "custBuy": 131,
       "memonRev": 0
     },
     {
@@ -12892,12 +13413,14 @@
       "fbAds": 5238874,
       "ggAds": 2985500,
       "social": 13663126,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 62538250
+      },
+      "storeRev": 62538250,
+      "storeOnline": 13360000,
+      "storeTarget": 75757500,
+      "custIn": 159,
+      "custBuy": 146,
       "memonRev": 0
     },
     {
@@ -12930,12 +13453,14 @@
       "fbAds": 8673682,
       "ggAds": 8352000,
       "social": 7236318,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67264500
+      },
+      "storeRev": 67264500,
+      "storeOnline": 19475103,
+      "storeTarget": 116552000,
+      "custIn": 166,
+      "custBuy": 153,
       "memonRev": 0
     },
     {
@@ -12964,12 +13489,14 @@
       "fbAds": 6699449,
       "ggAds": 4190000,
       "social": 4112551,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 103026500
+      },
+      "storeRev": 103026500,
+      "storeOnline": 11740000,
+      "storeTarget": 138635000,
+      "custIn": 259,
+      "custBuy": 237,
       "memonRev": 0
     },
     {
@@ -13002,12 +13529,14 @@
       "fbAds": 6468307,
       "ggAds": 7661003,
       "social": 6013693,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 93155500
+      },
+      "storeRev": 93155500,
+      "storeOnline": 10860000,
+      "storeTarget": 156230000,
+      "custIn": 245,
+      "custBuy": 219,
       "memonRev": 0
     },
     {
@@ -13040,12 +13569,14 @@
       "fbAds": 7629194,
       "ggAds": 12888250,
       "social": 7161306,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 52392501
+      },
+      "storeRev": 52392501,
+      "storeOnline": 16040500,
+      "storeTarget": 90499200,
+      "custIn": 147,
+      "custBuy": 125,
       "memonRev": 0
     },
     {
@@ -13078,12 +13609,14 @@
       "fbAds": 6872662,
       "ggAds": 7058500,
       "social": 11152338,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 60482250
+      },
+      "storeRev": 60482250,
+      "storeOnline": 16718500,
+      "storeTarget": 89280400,
+      "custIn": 143,
+      "custBuy": 129,
       "memonRev": 0
     },
     {
@@ -13116,12 +13649,14 @@
       "fbAds": 6794336,
       "ggAds": 5252000,
       "social": 8175664,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64094750
+      },
+      "storeRev": 64094750,
+      "storeOnline": 13532000,
+      "storeTarget": 72732000,
+      "custIn": 153,
+      "custBuy": 139,
       "memonRev": 0
     },
     {
@@ -13154,12 +13689,14 @@
       "fbAds": 3560596,
       "ggAds": 14953261,
       "social": 11453404,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 58372000
+      },
+      "storeRev": 58372000,
+      "storeOnline": 17426500,
+      "storeTarget": 86803200,
+      "custIn": 146,
+      "custBuy": 137,
       "memonRev": 0
     },
     {
@@ -13192,12 +13729,14 @@
       "fbAds": 1719989,
       "ggAds": 12170000,
       "social": 12835011,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 78693500
+      },
+      "storeRev": 78693500,
+      "storeOnline": 19834500,
+      "storeTarget": 131654800,
+      "custIn": 195,
+      "custBuy": 179,
       "memonRev": 0
     },
     {
@@ -13226,12 +13765,14 @@
       "fbAds": 5537793,
       "ggAds": 9564000,
       "social": 7935706,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 91715500
+      },
+      "storeRev": 91715500,
+      "storeOnline": 14659001,
+      "storeTarget": 172451600,
+      "custIn": 225,
+      "custBuy": 211,
       "memonRev": 0
     },
     {
@@ -13260,12 +13801,14 @@
       "fbAds": 844876,
       "ggAds": 6472998,
       "social": 9330124,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 87485750
+      },
+      "storeRev": 87485750,
+      "storeOnline": 8590000,
+      "storeTarget": 167572400,
+      "custIn": 232,
+      "custBuy": 202,
       "memonRev": 0
     },
     {
@@ -13294,12 +13837,14 @@
       "fbAds": 6445144,
       "ggAds": 7505423,
       "social": 8119856,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 89526000
+      },
+      "storeRev": 89526000,
+      "storeOnline": 13315000,
+      "storeTarget": 80405600,
+      "custIn": 154,
+      "custBuy": 137,
       "memonRev": 0
     },
     {
@@ -13332,12 +13877,14 @@
       "fbAds": 6154186,
       "ggAds": 9235000,
       "social": 5505814,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 58393250
+      },
+      "storeRev": 58393250,
+      "storeOnline": 9230000,
+      "storeTarget": 75108000,
+      "custIn": 131,
+      "custBuy": 122,
       "memonRev": 0
     },
     {
@@ -13370,12 +13917,14 @@
       "fbAds": 5788730,
       "ggAds": 18399000,
       "social": 7793630,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 48650750
+      },
+      "storeRev": 48650750,
+      "storeOnline": 14981000,
+      "storeTarget": 71618800,
+      "custIn": 136,
+      "custBuy": 121,
       "memonRev": 0
     },
     {
@@ -13408,12 +13957,14 @@
       "fbAds": 2294620,
       "ggAds": 12567500,
       "social": 11414380,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67751000
+      },
+      "storeRev": 67751000,
+      "storeOnline": 11294000,
+      "storeTarget": 84753600,
+      "custIn": 152,
+      "custBuy": 145,
       "memonRev": 0
     },
     {
@@ -13446,12 +13997,14 @@
       "fbAds": 4799015,
       "ggAds": 15349500,
       "social": 10346984,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 87824500
+      },
+      "storeRev": 87824500,
+      "storeOnline": 14360000,
+      "storeTarget": 133198400,
+      "custIn": 189,
+      "custBuy": 172,
       "memonRev": 0
     },
     {
@@ -13484,12 +14037,14 @@
       "fbAds": 7143928,
       "ggAds": 16426256,
       "social": 11151072,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 95083000
+      },
+      "storeRev": 95083000,
+      "storeOnline": 12485000,
+      "storeTarget": 153026000,
+      "custIn": 216,
+      "custBuy": 198,
       "memonRev": 0
     },
     {
@@ -13522,12 +14077,14 @@
       "fbAds": 3261849,
       "ggAds": 11437999,
       "social": 4640901,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 91013250
+      },
+      "storeRev": 91013250,
+      "storeOnline": 15574751,
+      "storeTarget": 126669200,
+      "custIn": 218,
+      "custBuy": 199,
       "memonRev": 0
     },
     {
@@ -13560,12 +14117,14 @@
       "fbAds": 1209717,
       "ggAds": 5365000,
       "social": 6523083,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 59766500
+      },
+      "storeRev": 59766500,
+      "storeOnline": 10145000,
+      "storeTarget": 59505600,
+      "custIn": 154,
+      "custBuy": 140,
       "memonRev": 0
     },
     {
@@ -13598,12 +14157,14 @@
       "fbAds": 8908719,
       "ggAds": 13277252,
       "social": 8011281,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 55649750
+      },
+      "storeRev": 55649750,
+      "storeOnline": 22367500,
+      "storeTarget": 78746800,
+      "custIn": 135,
+      "custBuy": 120,
       "memonRev": 0
     },
     {
@@ -13636,12 +14197,14 @@
       "fbAds": 8841172,
       "ggAds": 13156055,
       "social": 6952328,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 66808750
+      },
+      "storeRev": 66808750,
+      "storeOnline": 16070145,
+      "storeTarget": 77299200,
+      "custIn": 161,
+      "custBuy": 151,
       "memonRev": 0
     },
     {
@@ -13674,12 +14237,14 @@
       "fbAds": 6993854,
       "ggAds": 7391455,
       "social": 6278646,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 74825000
+      },
+      "storeRev": 74825000,
+      "storeOnline": 13229500,
+      "storeTarget": 77438400,
+      "custIn": 181,
+      "custBuy": 164,
       "memonRev": 0
     },
     {
@@ -13712,12 +14277,14 @@
       "fbAds": 4461494,
       "ggAds": 10710000,
       "social": 10907006,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 79464750
+      },
+      "storeRev": 79464750,
+      "storeOnline": 11147500,
+      "storeTarget": 114525600,
+      "custIn": 177,
+      "custBuy": 170,
       "memonRev": 0
     },
     {
@@ -13750,12 +14317,14 @@
       "fbAds": 1744368,
       "ggAds": 8714500,
       "social": 5735132,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 80129000
+      },
+      "storeRev": 80129000,
+      "storeOnline": 11224500,
+      "storeTarget": 139300400,
+      "custIn": 177,
+      "custBuy": 165,
       "memonRev": 0
     },
     {
@@ -13788,12 +14357,14 @@
       "fbAds": 3099659,
       "ggAds": 4910000,
       "social": 6460341,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 89222250
+      },
+      "storeRev": 89222250,
+      "storeOnline": 9610000,
+      "storeTarget": 123750800,
+      "custIn": 177,
+      "custBuy": 164,
       "memonRev": 0
     },
     {
@@ -13826,12 +14397,14 @@
       "fbAds": 2349728,
       "ggAds": 15728000,
       "social": 3255272,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 51640250
+      },
+      "storeRev": 51640250,
+      "storeOnline": 8758000,
+      "storeTarget": 69272500,
+      "custIn": 112,
+      "custBuy": 101,
       "memonRev": 0
     },
     {
@@ -13860,12 +14433,14 @@
       "fbAds": 4909062,
       "ggAds": 7936000,
       "social": 3740938,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 59015500
+      },
+      "storeRev": 59015500,
+      "storeOnline": 9231000,
+      "storeTarget": 71265000,
+      "custIn": 139,
+      "custBuy": 129,
       "memonRev": 0
     },
     {
@@ -13898,12 +14473,14 @@
       "fbAds": 5321666,
       "ggAds": 8038998,
       "social": 2868084,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67779500
+      },
+      "storeRev": 67779500,
+      "storeOnline": 9690000,
+      "storeTarget": 69230000,
+      "custIn": 164,
+      "custBuy": 149,
       "memonRev": 0
     },
     {
@@ -13936,12 +14513,14 @@
       "fbAds": 3214755,
       "ggAds": 11015000,
       "social": 2461745,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 47736000
+      },
+      "storeRev": 47736000,
+      "storeOnline": 7327500,
+      "storeTarget": 61710000,
+      "custIn": 118,
+      "custBuy": 109,
       "memonRev": 0
     },
     {
@@ -13975,24 +14554,13 @@
       "ggAds": 10070000,
       "social": 2875353,
       "store": {
-        "Nguyễn Trãi": 333520661,
-        "Lê Văn Sỹ": 264404250,
-        "Nguyễn Gia Trí": 273249500,
-        "Xuân Thuỷ": 293053250,
-        "Láng": 260857500,
-        "Cầu Giấy": 250803500,
-        "Bạch Mai": 235477750,
-        "Nguyễn Văn Cừ": 212797500,
-        "Xã Đàn": 175260250,
-        "Outlet": 47396000,
-        "Tây Sơn": 0,
-        "(?)": 0
+        "(?)": 51524000
       },
-      "storeRev": 2346820161,
-      "storeOnline": 487577500,
-      "storeTarget": 3430000000,
-      "custIn": 5370,
-      "custBuy": 5013,
+      "storeRev": 51524000,
+      "storeOnline": 9325000,
+      "storeTarget": 77796000,
+      "custIn": 119,
+      "custBuy": 107,
       "memonRev": 0
     },
     {
@@ -14025,12 +14593,14 @@
       "fbAds": 4569137,
       "ggAds": 6470000,
       "social": 8403363,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 52035750
+      },
+      "storeRev": 52035750,
+      "storeOnline": 14925000,
+      "storeTarget": 89166000,
+      "custIn": 125,
+      "custBuy": 114,
       "memonRev": 0
     },
     {
@@ -14063,12 +14633,14 @@
       "fbAds": 1349641,
       "ggAds": 6020000,
       "social": 10709859,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 53517750
+      },
+      "storeRev": 53517750,
+      "storeOnline": 7115000,
+      "storeTarget": 96936000,
+      "custIn": 128,
+      "custBuy": 118,
       "memonRev": 0
     },
     {
@@ -14097,12 +14669,14 @@
       "fbAds": 7643820,
       "ggAds": 5708000,
       "social": 7141680,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 77527250
+      },
+      "storeRev": 77527250,
+      "storeOnline": 10858000,
+      "storeTarget": 65643600,
+      "custIn": 162,
+      "custBuy": 148,
       "memonRev": 0
     },
     {
@@ -14135,12 +14709,14 @@
       "fbAds": 7731456,
       "ggAds": 12619000,
       "social": 13849044,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 61946000
+      },
+      "storeRev": 61946000,
+      "storeOnline": 17177000,
+      "storeTarget": 84348000,
+      "custIn": 145,
+      "custBuy": 132,
       "memonRev": 0
     },
     {
@@ -14173,12 +14749,14 @@
       "fbAds": 5979003,
       "ggAds": 13140000,
       "social": 9465997,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 57780250
+      },
+      "storeRev": 57780250,
+      "storeOnline": 16650000,
+      "storeTarget": 77946000,
+      "custIn": 141,
+      "custBuy": 127,
       "memonRev": 0
     },
     {
@@ -14211,12 +14789,14 @@
       "fbAds": 12734843,
       "ggAds": 13390000,
       "social": 11145157,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 70537500
+      },
+      "storeRev": 70537500,
+      "storeOnline": 19970000,
+      "storeTarget": 79807200,
+      "custIn": 165,
+      "custBuy": 154,
       "memonRev": 0
     },
     {
@@ -14249,12 +14829,14 @@
       "fbAds": 5500000,
       "ggAds": 14741500,
       "social": 9018000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 68524500
+      },
+      "storeRev": 68524500,
+      "storeOnline": 12957000,
+      "storeTarget": 127001600,
+      "custIn": 180,
+      "custBuy": 172,
       "memonRev": 0
     },
     {
@@ -14287,12 +14869,14 @@
       "fbAds": 1065000,
       "ggAds": 13506250,
       "social": 9900500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 91296750
+      },
+      "storeRev": 91296750,
+      "storeOnline": 13328500,
+      "storeTarget": 144262800,
+      "custIn": 201,
+      "custBuy": 193,
       "memonRev": 0
     },
     {
@@ -14325,12 +14909,14 @@
       "fbAds": 3325000,
       "ggAds": 11848500,
       "social": 8498500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 110100500
+      },
+      "storeRev": 110100500,
+      "storeOnline": 17023500,
+      "storeTarget": 142144200,
+      "custIn": 215,
+      "custBuy": 208,
       "memonRev": 0
     },
     {
@@ -14363,12 +14949,14 @@
       "fbAds": 4175000,
       "ggAds": 12041000,
       "social": 8013000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 55544250
+      },
+      "storeRev": 55544250,
+      "storeOnline": 13554250,
+      "storeTarget": 72811200,
+      "custIn": 122,
+      "custBuy": 116,
       "memonRev": 0
     },
     {
@@ -14397,12 +14985,14 @@
       "fbAds": 8150000,
       "ggAds": 11392000,
       "social": 16506000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 61297250
+      },
+      "storeRev": 61297250,
+      "storeOnline": 18844500,
+      "storeTarget": 79015200,
+      "custIn": 146,
+      "custBuy": 138,
       "memonRev": 0
     },
     {
@@ -14431,12 +15021,14 @@
       "fbAds": 1325000,
       "ggAds": 27954000,
       "social": 6871000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 56215500
+      },
+      "storeRev": 56215500,
+      "storeOnline": 15219000,
+      "storeTarget": 89971200,
+      "custIn": 123,
+      "custBuy": 117,
       "memonRev": 0
     },
     {
@@ -14469,12 +15061,14 @@
       "fbAds": 4830000,
       "ggAds": 15755500,
       "social": 8938500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 53025500
+      },
+      "storeRev": 53025500,
+      "storeOnline": 11261500,
+      "storeTarget": 72837600,
+      "custIn": 128,
+      "custBuy": 117,
       "memonRev": 0
     },
     {
@@ -14507,12 +15101,14 @@
       "fbAds": 3595000,
       "ggAds": 17932000,
       "social": 11068000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 73983000
+      },
+      "storeRev": 73983000,
+      "storeOnline": 17997000,
+      "storeTarget": 120612800,
+      "custIn": 171,
+      "custBuy": 154,
       "memonRev": 0
     },
     {
@@ -14545,12 +15141,14 @@
       "fbAds": 8175501,
       "ggAds": 6665000,
       "social": 14174499,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 96171250
+      },
+      "storeRev": 96171250,
+      "storeOnline": 19881000,
+      "storeTarget": 134362800,
+      "custIn": 226,
+      "custBuy": 210,
       "memonRev": 0
     },
     {
@@ -14583,12 +15181,14 @@
       "fbAds": 4332500,
       "ggAds": 13741000,
       "social": 5545000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 83793250
+      },
+      "storeRev": 83793250,
+      "storeOnline": 15066000,
+      "storeTarget": 123274800,
+      "custIn": 185,
+      "custBuy": 173,
       "memonRev": 0
     },
     {
@@ -14621,12 +15221,14 @@
       "fbAds": 995000,
       "ggAds": 14408694,
       "social": 11650000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 55546750
+      },
+      "storeRev": 55546750,
+      "storeOnline": 14250250,
+      "storeTarget": 78553200,
+      "custIn": 133,
+      "custBuy": 122,
       "memonRev": 0
     },
     {
@@ -14655,12 +15257,14 @@
       "fbAds": 1990000,
       "ggAds": 11812042,
       "social": 9412000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 59960750
+      },
+      "storeRev": 59960750,
+      "storeOnline": 15517000,
+      "storeTarget": 81496800,
+      "custIn": 141,
+      "custBuy": 132,
       "memonRev": 0
     },
     {
@@ -14693,12 +15297,14 @@
       "fbAds": 6505000,
       "ggAds": 11656000,
       "social": 6633000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 56453000
+      },
+      "storeRev": 56453000,
+      "storeOnline": 14449500,
+      "storeTarget": 58357200,
+      "custIn": 130,
+      "custBuy": 135,
       "memonRev": 0
     },
     {
@@ -14731,12 +15337,14 @@
       "fbAds": 2295000,
       "ggAds": 19442000,
       "social": 9781500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 76939000
+      },
+      "storeRev": 76939000,
+      "storeOnline": 10050000,
+      "storeTarget": 89746800,
+      "custIn": 161,
+      "custBuy": 148,
       "memonRev": 0
     },
     {
@@ -14769,12 +15377,14 @@
       "fbAds": 5090000,
       "ggAds": 32379220,
       "social": 20682500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 74306250
+      },
+      "storeRev": 74306250,
+      "storeOnline": 12860000,
+      "storeTarget": 124590400,
+      "custIn": 183,
+      "custBuy": 171,
       "memonRev": 0
     },
     {
@@ -14807,12 +15417,14 @@
       "fbAds": 6375000,
       "ggAds": 38235750,
       "social": 8783000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 93554250
+      },
+      "storeRev": 93554250,
+      "storeOnline": 12481500,
+      "storeTarget": 117691200,
+      "custIn": 251,
+      "custBuy": 234,
       "memonRev": 0
     },
     {
@@ -14845,12 +15457,14 @@
       "fbAds": 4525000,
       "ggAds": 11050500,
       "social": 9900000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 79890250
+      },
+      "storeRev": 79890250,
+      "storeOnline": 13830000,
+      "storeTarget": 119572200,
+      "custIn": 207,
+      "custBuy": 189,
       "memonRev": 0
     },
     {
@@ -14883,12 +15497,14 @@
       "fbAds": 5694500,
       "ggAds": 14978500,
       "social": 6885000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 59012750
+      },
+      "storeRev": 59012750,
+      "storeOnline": 13789500,
+      "storeTarget": 77814000,
+      "custIn": 144,
+      "custBuy": 127,
       "memonRev": 0
     },
     {
@@ -14917,12 +15533,14 @@
       "fbAds": 9795000,
       "ggAds": 15240678,
       "social": 7543450,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 81322750
+      },
+      "storeRev": 81322750,
+      "storeOnline": 12765750,
+      "storeTarget": 64350000,
+      "custIn": 142,
+      "custBuy": 133,
       "memonRev": 0
     },
     {
@@ -14955,12 +15573,14 @@
       "fbAds": 12026250,
       "ggAds": 51701000,
       "social": 10026750,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64371000
+      },
+      "storeRev": 64371000,
+      "storeOnline": 22649500,
+      "storeTarget": 67544400,
+      "custIn": 142,
+      "custBuy": 130,
       "memonRev": 0
     },
     {
@@ -14993,12 +15613,14 @@
       "fbAds": 14437000,
       "ggAds": 19211000,
       "social": 3243000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64614750
+      },
+      "storeRev": 64614750,
+      "storeOnline": 25276500,
+      "storeTarget": 85879200,
+      "custIn": 135,
+      "custBuy": 126,
       "memonRev": 0
     },
     {
@@ -15027,12 +15649,14 @@
       "fbAds": 20097500,
       "ggAds": 14803000,
       "social": 10612250,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 97716001
+      },
+      "storeRev": 97716001,
+      "storeOnline": 23329750,
+      "storeTarget": 106761600,
+      "custIn": 219,
+      "custBuy": 204,
       "memonRev": 0
     },
     {
@@ -15065,12 +15689,14 @@
       "fbAds": 5250000,
       "ggAds": 12645000,
       "social": 11538000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 101289910
+      },
+      "storeRev": 101289910,
+      "storeOnline": 16270000,
+      "storeTarget": 112701600,
+      "custIn": 240,
+      "custBuy": 224,
       "memonRev": 0
     },
     {
@@ -15103,12 +15729,14 @@
       "fbAds": 7870000,
       "ggAds": 15205500,
       "social": 18529500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 180245750
+      },
+      "storeRev": 180245750,
+      "storeOnline": 28436000,
+      "storeTarget": 128007000,
+      "custIn": 396,
+      "custBuy": 380,
       "memonRev": 0
     },
     {
@@ -15142,24 +15770,13 @@
       "ggAds": 45711000,
       "social": 30535500,
       "store": {
-        "Nguyễn Trãi": 194769748,
-        "Xuân Thuỷ": 183000000,
-        "Láng": 178032500,
-        "Nguyễn Gia Trí": 164076000,
-        "Lê Văn Sỹ": 149532500,
-        "Cầu Giấy": 161915250,
-        "Bạch Mai": 155910252,
-        "Nguyễn Văn Cừ": 123014750,
-        "Xã Đàn": 110557500,
-        "Outlet": 43432000,
-        "(?)": 0,
-        "Tây Sơn": 0
+        "(?)": 416910000
       },
-      "storeRev": 1464240500,
-      "storeOnline": 220145502,
-      "storeTarget": 3310000000,
-      "custIn": 3079,
-      "custBuy": 2838,
+      "storeRev": 416910000,
+      "storeOnline": 62960000,
+      "storeTarget": 278712000,
+      "custIn": 867,
+      "custBuy": 849,
       "memonRev": 0
     },
     {
@@ -15192,12 +15809,14 @@
       "fbAds": 11190000,
       "ggAds": 11747000,
       "social": 6864900,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 116093248
+      },
+      "storeRev": 116093248,
+      "storeOnline": 19108002,
+      "storeTarget": 93268000,
+      "custIn": 235,
+      "custBuy": 221,
       "memonRev": 0
     },
     {
@@ -15230,12 +15849,14 @@
       "fbAds": 5020000,
       "ggAds": 6235000,
       "social": 12536500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 83051500
+      },
+      "storeRev": 83051500,
+      "storeOnline": 10490000,
+      "storeTarget": 103650400,
+      "custIn": 173,
+      "custBuy": 162,
       "memonRev": 0
     },
     {
@@ -15268,12 +15889,14 @@
       "fbAds": 4870000,
       "ggAds": 51367500,
       "social": 8612500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 61475250
+      },
+      "storeRev": 61475250,
+      "storeOnline": 11898000,
+      "storeTarget": 101725600,
+      "custIn": 149,
+      "custBuy": 134,
       "memonRev": 0
     },
     {
@@ -15306,12 +15929,14 @@
       "fbAds": 2704000,
       "ggAds": 11740725,
       "social": 8661500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 81283750
+      },
+      "storeRev": 81283750,
+      "storeOnline": 12263000,
+      "storeTarget": 129655680,
+      "custIn": 187,
+      "custBuy": 167,
       "memonRev": 0
     },
     {
@@ -15340,12 +15965,14 @@
       "fbAds": 4055000,
       "ggAds": 7077500,
       "social": 4302000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 92133001
+      },
+      "storeRev": 92133001,
+      "storeOnline": 6932000,
+      "storeTarget": 156611600,
+      "custIn": 209,
+      "custBuy": 185,
       "memonRev": 0
     },
     {
@@ -15374,12 +16001,14 @@
       "fbAds": 7810000,
       "ggAds": 15380000,
       "social": 3812500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 93916500
+      },
+      "storeRev": 93916500,
+      "storeOnline": 10675000,
+      "storeTarget": 165808800,
+      "custIn": 199,
+      "custBuy": 176,
       "memonRev": 0
     },
     {
@@ -15391,12 +16020,14 @@
       "fbAds": 5830000,
       "ggAds": 0,
       "social": -5830000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 30504000
+      },
+      "storeRev": 30504000,
+      "storeOnline": 16595000,
+      "storeTarget": 87696000,
+      "custIn": 87,
+      "custBuy": 71,
       "memonRev": 0
     },
     {
@@ -15429,12 +16060,14 @@
       "fbAds": 9470000,
       "ggAds": 11491000,
       "social": 5180000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 71490250
+      },
+      "storeRev": 71490250,
+      "storeOnline": 15791000,
+      "storeTarget": 74956800,
+      "custIn": 146,
+      "custBuy": 128,
       "memonRev": 0
     },
     {
@@ -15467,12 +16100,14 @@
       "fbAds": 4715000,
       "ggAds": 15089000,
       "social": 6160000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 58912000
+      },
+      "storeRev": 58912000,
+      "storeOnline": 11604000,
+      "storeTarget": 70512000,
+      "custIn": 143,
+      "custBuy": 126,
       "memonRev": 0
     },
     {
@@ -15505,12 +16140,14 @@
       "fbAds": 7370000,
       "ggAds": 11235000,
       "social": 4340000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 67240250
+      },
+      "storeRev": 67240250,
+      "storeOnline": 10965000,
+      "storeTarget": 81120000,
+      "custIn": 149,
+      "custBuy": 133,
       "memonRev": 0
     },
     {
@@ -15543,12 +16180,14 @@
       "fbAds": 3092500,
       "ggAds": 7335000,
       "social": 9387500,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 64186000
+      },
+      "storeRev": 64186000,
+      "storeOnline": 9660000,
+      "storeTarget": 122848000,
+      "custIn": 141,
+      "custBuy": 123,
       "memonRev": 0
     },
     {
@@ -15577,12 +16216,14 @@
       "fbAds": 11605000,
       "ggAds": 8582500,
       "social": -480000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 92715501
+      },
+      "storeRev": 92715501,
+      "storeOnline": 7367500,
+      "storeTarget": 141357600,
+      "custIn": 198,
+      "custBuy": 182,
       "memonRev": 0
     },
     {
@@ -15615,37 +16256,41 @@
       "fbAds": 8570000,
       "ggAds": 17006000,
       "social": 4780000,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 133839250
+      },
+      "storeRev": 133839250,
+      "storeOnline": 12207000,
+      "storeTarget": 116928000,
+      "custIn": 195,
+      "custBuy": 180,
       "memonRev": 0
     },
     {
       "day": "2026-06-15",
       "online": {},
       "onlineRev": 0,
-      "onlineOrders": 0,
-      "onlineTarget": 0,
+      "onlineOrders": 13,
+      "onlineTarget": 19000000,
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "(?)": 5932000
+      },
+      "storeRev": 5932000,
+      "storeOnline": 3815000,
+      "storeTarget": 14947200,
+      "custIn": 19,
+      "custBuy": 14,
       "memonRev": 0
     }
   ],
   "memonBills": [],
   "marketing": {
     "onlineRevenue": 986462209,
-    "onlineOrders": 1481,
-    "onlineAov": 666078,
+    "onlineOrders": 1494,
+    "onlineAov": 660283,
     "channels": [
       {
         "name": "Zalo",
@@ -15685,17 +16330,17 @@
     ]
   },
   "sales": {
-    "totalRevenue": 2450702709,
-    "salesCount": 1481,
+    "totalRevenue": 3685161120,
+    "salesCount": 1494,
     "byType": {
       "Online": 986462209,
-      "Cửa hàng": 1464240500
+      "Cửa hàng": 2698698911
     },
-    "onlinePct": 40,
-    "storePct": 60
+    "onlinePct": 27,
+    "storePct": 73
   },
   "brands": {
-    "Bemori": 2450702709,
+    "Bemori": 3685161120,
     "Memon": 0
   }
 }
