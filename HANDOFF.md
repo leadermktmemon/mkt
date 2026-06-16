@@ -73,10 +73,22 @@ DEPLOY.md, KE-HOACH-BAO-CAO-MARKETING.md  # tài liệu
 ## 7. VIỆC CÒN TREO (NEXT)
 1. ⚠️ **Bật Cloudflare Access** (Zero Trust → Access → Self-hosted → hostname `mkt.leader-mkt-memon.workers.dev` → Allow theo email) — vì dashboard đang công khai lộ doanh thu.
 2. **Điền `dashboardUrl`** = `https://mkt.leader-mkt-memon.workers.dev/` vào Secret `LARK_CONFIG` (để nút "Mở dashboard" trong thẻ Lark hoạt động).
-3. ✅ **Ads vs Tự nhiên** — đã có ở Nhóm 4 (DT Ads FB+GG vs Tự nhiên/Viral). Còn thiếu: **chi phí ads thật + traffic + TikTok/YouTube** → cắm khi nối Meta/Google/TikTok Ads + GA.
-4. **Tách Memon (B2B/sỉ)** — chưa làm; nguồn từ nhanh.vn (kho 230213) hoặc Base Lark riêng nếu có.
-5. **Lead/CVR**: team chỉ nhập T5-T6/2025 rồi dừng → chưa đưa vào; bật lại khi nhập đều.
-6. **Số đơn THẬT theo kênh** (bảng 3.1) + **số đơn marketing tại CH** (bảng cửa hàng 2.2): Base đang trống → hiện ước tính. Đề nghị team nhập để có số thật.
+3. **Tách Memon (B2B/sỉ)** — chưa làm; nguồn từ nhanh.vn (kho 230213) hoặc Base Lark riêng nếu có.
+4. **Lead/CVR**: team chỉ nhập T5-T6/2025 rồi dừng → chưa đưa vào; bật lại khi nhập đều.
+5. **Số đơn THẬT theo kênh** (bảng 3.1) + **số đơn marketing tại CH** (bảng cửa hàng 2.2): Base đang trống → hiện ước tính. Đề nghị team nhập để có số thật.
+6. **Google Ads**: chưa nối. Khi nối sẽ có CP Google → ROAS Google Ads trong Nhóm 4.
+7. **TikTok/YouTube traffic**: cần API TikTok Ads + GA4 cho Nhóm 4 viral.
+8. **ROAS Instagram**: Lark không có cột "DT IG ADS" riêng → hiện chỉ có CP IG, chưa có ROAS.
+
+## 7b. ĐÃ HOÀN THÀNH (Meta Ads — 2026-06-16)
+- **meta-fetch.mjs**: kéo chi phí Meta theo ngày, breakdown FB/IG, gộp **5 tài khoản từ 2 BM**:
+  - BM1: Pa15 (token System User Apimemon, app get-data)
+  - BM2: Bemori 1/2/3/4
+- **meta-data.json** (gitignored, build artifact): output trung gian
+- **lark-build-data.mjs**: đọc meta-data.json → thêm `metaFb/metaIg/metaTotal` vào mỗi ngày
+- **index.html**: hiển thị số thật — Nhóm 1 (CP + ROAS), Nhóm 3 (FB/IG riêng), Nhóm 4 (Ads card)
+- **daily-report.yml**: chạy meta-fetch trước lark-build → cần Secret `META_CONFIG` ✅ (đã set)
+- **30 ngày (đầy đủ)**: FB 87.6tr + IG 6tr = **93.7tr VND tổng chi phí Meta**
 
 ## 8. CÁCH TIẾP TỤC (cho chat mới / người mới)
 - Cập nhật dữ liệu tay: `node marketing-report/dashboard/lark-build-data.mjs` (kéo Lark → data.js).
