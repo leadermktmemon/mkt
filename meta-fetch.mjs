@@ -38,27 +38,37 @@ const since = "2025-01-01";
 const until = new Date().toISOString().slice(0, 10);
 const daily = {};
 
-for (const acc of cfg.accounts) {
-  console.log(`Kéo ${acc.name} (act_${acc.id}) ${since} → ${until}...`);
-  const p = new URLSearchParams({
-    level: "account", fields: "spend,impressions,clicks",
-    time_increment: "1", breakdowns: "publisher_platform",
-    time_range: JSON.stringify({ since, until }),
-    limit: "500", access_token: token,
-  });
-  try {
-    const rows = await pages(`${G}/act_${acc.id}/insights?${p}`);
-    console.log(`  ${rows.length} dòng dữ liệu`);
-    for (const row of rows) {
-      const day = row.date_start;
-      if (!daily[day]) daily[day] = { facebook: 0, instagram: 0, messenger: 0, audience_network: 0, total: 0 };
-      const spend = Number(row.spend) || 0;
-      const plat = row.publisher_platform?.toLowerCase() || "other";
-      if (plat in daily[day]) daily[day][plat] += spend;
-      daily[day].total += spend;
-    }
-  } catch (e) { console.log(`  LỖI ${acc.name}: ${e.message}`); }
+// Gop tat ca BM: main token + additionalTokens
+const allGroups = [
+  { label: "BM1", token, accounts: cfg.accounts || [] },
+  ...(cfg.additionalTokens || []).map(t => ({ label: t.label || "BM?", token: t.token, accounts: t.accounts || [] })),
+];
+
+async function fetchGroup(label, grpToken, accounts) {
+  for (const acc of accounts) {
+    console.log(`[${label}] Kéo ${acc.name} (act_${acc.id})...`);
+    const p = new URLSearchParams({
+      level: "account", fields: "spend,impressions,clicks",
+      time_increment: "1", breakdowns: "publisher_platform",
+      time_range: JSON.stringify({ since, until }),
+      limit: "500", access_token: grpToken,
+    });
+    try {
+      const rows = await pages(`${G}/act_${acc.id}/insights?${p}`);
+      console.log(`  ${rows.length} dòng`);
+      for (const row of rows) {
+        const day = row.date_start;
+        if (!daily[day]) daily[day] = { facebook: 0, instagram: 0, messenger: 0, audience_network: 0, total: 0 };
+        const spend = Number(row.spend) || 0;
+        const plat = row.publisher_platform?.toLowerCase() || "other";
+        if (plat in daily[day]) daily[day][plat] += spend;
+        daily[day].total += spend;
+      }
+    } catch (e) { console.log(`  LỖI ${acc.name}: ${e.message}`); }
+  }
 }
+
+for (const g of allGroups) await fetchGroup(g.label, g.token, g.accounts);
 
 for (const d of Object.values(daily)) for (const k of Object.keys(d)) d[k] = Math.round(d[k]);
 
