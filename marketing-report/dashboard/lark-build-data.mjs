@@ -5,7 +5,7 @@
 //   Cua hang = Base "Cua hang" 2.4 (theo thang) -> Doanh thu CH theo shop + pheu (khach vao/mua, target)
 // Output: data.json + data.js
 
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 
@@ -63,6 +63,11 @@ const look=await allRecords(tk,STORE_APP,STORE_LOOK);
 const STORE_MAP={};for(const r of look){const tf=r.fields["TK cửa hàng"]&&r.fields["TK cửa hàng"][0];const nm=r.fields["Cửa hàng"];if(tf&&nm)STORE_MAP[tf.id]=nm;}
 console.log(`3.1 nguồn: ${src.length} | 2.2 tổng (target): ${tot.length} | Cửa hàng: ${store.length} | map CH: ${Object.keys(STORE_MAP).length}`);
 
+// Chi phi Meta Ads theo ngay (do meta-fetch.mjs tao truoc, neu co)
+const metaPath=join(__dirname,"meta-data.json");
+const metaByDay=existsSync(metaPath)?JSON.parse(readFileSync(metaPath,"utf8")).daily||{}:{};
+console.log(`Meta Ads: ${Object.keys(metaByDay).length} ngày dữ liệu${Object.keys(metaByDay).length===0?" (chạy meta-fetch.mjs trước để có dữ liệu)":""}`);
+
 const dayMap={};
 function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0};}
 
@@ -98,10 +103,12 @@ const daily=days.map(day=>{const D=dayMap[day];
   for(const k in D.store)storeTotals[k]=(storeTotals[k]||0)+D.store[k];
   // onlineRev = doanh thu Online CHINH (uu tien 2.2 "Doanh thu 100%"; fallback 3.1 cho ngay 2.2 chua co, vd dau 2025).
   // online[kenh].rev giu nguyen tu 3.1 (chi de tinh TY TRONG kenh); so don theo kenh KHONG co trong Base -> uoc luong khi hien thi.
+  const md=metaByDay[day]||{};
   return {day,online:roundChan(D.online),onlineRev:round(D.online100||D.onlineRev),onlineRev31:round(D.onlineRev),onlineOrders:D.onlineOrders,onlineProducts:D.onlineProducts,onlineTarget:round(D.onlineTarget),
     fbAds:round(D.fbAds),ggAds:round(D.ggAds),social:round(D.social),
     brands:roundObj(D.brands),bc:Object.fromEntries(Object.entries(D.bc).map(([b,o])=>[b,roundObj(o)])),
-    store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0};
+    store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0,
+    metaFb:md.facebook||0,metaIg:md.instagram||0,metaTotal:md.total||0};
 });
 const channels=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
 const stores=Object.entries(storeTotals).filter(([,v])=>v>0).sort((a,b)=>b[1]-a[1]).map(([n])=>n);

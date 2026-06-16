@@ -9,7 +9,7 @@ const cfg = JSON.parse(readFileSync(CONFIG, "utf8"));
 const V = cfg.apiVersion || "v21.0";
 const G = `https://graph.facebook.com/${V}`;
 
-for (const k of ["appId", "appSecret", "token"]) {
+for (const k of ["appId", "token"]) {
   if (!cfg[k] || String(cfg[k]).startsWith("DIEN_")) { console.error(`Thieu "${k}" trong meta.config.json`); process.exit(1); }
 }
 
@@ -20,17 +20,21 @@ async function get(url) {
   return data;
 }
 
-// 1) Doi sang long-lived token (60 ngay)
-console.log("Đổi token sống lâu (60 ngày)...");
+// 1) Doi sang long-lived token (chi khi co appSecret; System User token khong can exchange)
 let token = cfg.token;
-try {
-  const ex = await get(`${G}/oauth/access_token?grant_type=fb_exchange_token&client_id=${cfg.appId}&client_secret=${cfg.appSecret}&fb_exchange_token=${encodeURIComponent(cfg.token)}`);
-  if (ex.access_token) {
-    token = ex.access_token;
-    cfg.longLivedToken = token;
-    console.log("  OK. Token mới hết hạn sau ~60 ngày.");
-  }
-} catch (e) { console.log("  (Không đổi được, dùng token gốc):", e.message); }
+if (cfg.appSecret) {
+  console.log("Đổi token sống lâu (60 ngày)...");
+  try {
+    const ex = await get(`${G}/oauth/access_token?grant_type=fb_exchange_token&client_id=${cfg.appId}&client_secret=${cfg.appSecret}&fb_exchange_token=${encodeURIComponent(cfg.token)}`);
+    if (ex.access_token) {
+      token = ex.access_token;
+      cfg.longLivedToken = token;
+      console.log("  OK. Token mới hết hạn sau ~60 ngày.");
+    }
+  } catch (e) { console.log("  (Không đổi được, dùng token gốc):", e.message); }
+} else {
+  console.log("System User token — bỏ qua bước exchange (token không hết hạn).");
+}
 
 // 2) Liet ke ad account
 console.log("\nLiệt kê ad account...");

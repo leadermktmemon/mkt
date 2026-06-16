@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T18:19:52.824Z",
+  "generatedAt": "2026-06-16T07:11:26.527Z",
   "source": "lark",
   "period": {
     "days": 416,
@@ -89,7 +89,10 @@
       "storeTarget": 0,
       "custIn": 0,
       "custBuy": 0,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1120656,
+      "metaIg": 7150,
+      "metaTotal": 1128436
     },
     {
       "day": "2025-02-01",
@@ -153,7 +156,10 @@
       "storeTarget": 0,
       "custIn": 0,
       "custBuy": 0,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 683967,
+      "metaIg": 5603,
+      "metaTotal": 694970
     },
     {
       "day": "2025-03-01",
@@ -217,7 +223,10 @@
       "storeTarget": 0,
       "custIn": 0,
       "custBuy": 0,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 707799,
+      "metaIg": 19152,
+      "metaTotal": 790716
     },
     {
       "day": "2025-04-01",
@@ -281,7 +290,10 @@
       "storeTarget": 0,
       "custIn": 0,
       "custBuy": 0,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 740220,
+      "metaIg": 51649,
+      "metaTotal": 803981
     },
     {
       "day": "2025-05-01",
@@ -353,7 +365,10 @@
       "storeTarget": 44454000,
       "custIn": 152,
       "custBuy": 139,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 555932,
+      "metaIg": 0,
+      "metaTotal": 590498
     },
     {
       "day": "2025-05-02",
@@ -424,7 +439,10 @@
       "storeTarget": 61282500,
       "custIn": 129,
       "custBuy": 121,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 584858,
+      "metaIg": 0,
+      "metaTotal": 600906
     },
     {
       "day": "2025-05-03",
@@ -494,7 +512,10 @@
       "storeTarget": 63043000,
       "custIn": 154,
       "custBuy": 147,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 561380,
+      "metaIg": 0,
+      "metaTotal": 579216
     },
     {
       "day": "2025-05-04",
@@ -566,7 +587,10 @@
       "storeTarget": 60382500,
       "custIn": 176,
       "custBuy": 169,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 649697,
+      "metaIg": 0,
+      "metaTotal": 665503
     },
     {
       "day": "2025-05-05",
@@ -636,7 +660,10 @@
       "storeTarget": 50892800,
       "custIn": 147,
       "custBuy": 136,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 619162,
+      "metaIg": 0,
+      "metaTotal": 626531
     },
     {
       "day": "2025-05-06",
@@ -708,7 +735,10 @@
       "storeTarget": 52348400,
       "custIn": 149,
       "custBuy": 145,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 521869,
+      "metaIg": 0,
+      "metaTotal": 528063
     },
     {
       "day": "2025-05-07",
@@ -780,7 +810,10 @@
       "storeTarget": 52413200,
       "custIn": 120,
       "custBuy": 114,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 477821,
+      "metaIg": 0,
+      "metaTotal": 491614
     },
     {
       "day": "2025-05-08",
@@ -851,7 +884,10 @@
       "storeTarget": 54173200,
       "custIn": 154,
       "custBuy": 146,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 494576,
+      "metaIg": 0,
+      "metaTotal": 500287
     },
     {
       "day": "2025-05-09",
@@ -922,7 +958,10 @@
       "storeTarget": 69852300,
       "custIn": 146,
       "custBuy": 140,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 517335,
+      "metaIg": 0,
+      "metaTotal": 527594
     },
     {
       "day": "2025-05-10",
@@ -993,7 +1032,10 @@
       "storeTarget": 109711450,
       "custIn": 226,
       "custBuy": 213,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 366804,
+      "metaIg": 0,
+      "metaTotal": 370286
     },
     {
       "day": "2025-05-11",
@@ -1063,7 +1105,10 @@
       "storeTarget": 102848450,
       "custIn": 262,
       "custBuy": 250,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 438673,
+      "metaIg": 0,
+      "metaTotal": 446597
     },
     {
       "day": "2025-05-12",
@@ -1134,7 +1179,10 @@
       "storeTarget": 57973200,
       "custIn": 168,
       "custBuy": 157,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 489655,
+      "metaIg": 0,
+      "metaTotal": 494904
     },
     {
       "day": "2025-05-13",
@@ -1205,7 +1253,10 @@
       "storeTarget": 46325200,
       "custIn": 171,
       "custBuy": 166,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 252176,
+      "metaIg": 0,
+      "metaTotal": 252880
     },
     {
       "day": "2025-05-14",
@@ -1272,7 +1323,10 @@
       "storeTarget": 42298000,
       "custIn": 154,
       "custBuy": 150,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 313230,
+      "metaIg": 1204,
+      "metaTotal": 314823
     },
     {
       "day": "2025-05-15",
@@ -1344,7 +1398,10 @@
       "storeTarget": 42319800,
       "custIn": 144,
       "custBuy": 135,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 568151,
+      "metaIg": 4796,
+      "metaTotal": 575749
     },
     {
       "day": "2025-05-16",
@@ -1415,7 +1472,10 @@
       "storeTarget": 68509800,
       "custIn": 173,
       "custBuy": 165,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 543056,
+      "metaIg": 1984,
+      "metaTotal": 545935
     },
     {
       "day": "2025-05-17",
@@ -1487,7 +1547,10 @@
       "storeTarget": 99621900,
       "custIn": 184,
       "custBuy": 175,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 957332,
+      "metaIg": 2062,
+      "metaTotal": 970059
     },
     {
       "day": "2025-05-18",
@@ -1559,7 +1622,10 @@
       "storeTarget": 101620400,
       "custIn": 232,
       "custBuy": 221,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1120774,
+      "metaIg": 7760,
+      "metaTotal": 1144164
     },
     {
       "day": "2025-05-19",
@@ -1631,7 +1697,10 @@
       "storeTarget": 68479300,
       "custIn": 104,
       "custBuy": 101,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 665142,
+      "metaIg": 1372,
+      "metaTotal": 678667
     },
     {
       "day": "2025-05-20",
@@ -1704,7 +1773,10 @@
       "storeTarget": 82378300,
       "custIn": 163,
       "custBuy": 154,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 583509,
+      "metaIg": 0,
+      "metaTotal": 590106
     },
     {
       "day": "2025-05-21",
@@ -1776,7 +1848,10 @@
       "storeTarget": 67195700,
       "custIn": 142,
       "custBuy": 129,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 531278,
+      "metaIg": 0,
+      "metaTotal": 536628
     },
     {
       "day": "2025-05-22",
@@ -1849,7 +1924,10 @@
       "storeTarget": 79279300,
       "custIn": 219,
       "custBuy": 209,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1036898,
+      "metaIg": 6966,
+      "metaTotal": 1055898
     },
     {
       "day": "2025-05-23",
@@ -1919,7 +1997,10 @@
       "storeTarget": 102730150,
       "custIn": 179,
       "custBuy": 173,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1153128,
+      "metaIg": 6539,
+      "metaTotal": 1176568
     },
     {
       "day": "2025-05-24",
@@ -1991,7 +2072,10 @@
       "storeTarget": 129523675,
       "custIn": 206,
       "custBuy": 201,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1059699,
+      "metaIg": 6658,
+      "metaTotal": 1078729
     },
     {
       "day": "2025-05-25",
@@ -2065,7 +2149,10 @@
       "storeTarget": 140421425,
       "custIn": 295,
       "custBuy": 272,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1018148,
+      "metaIg": 27224,
+      "metaTotal": 1066331
     },
     {
       "day": "2025-05-26",
@@ -2138,7 +2225,10 @@
       "storeTarget": 74582100,
       "custIn": 192,
       "custBuy": 180,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1224905,
+      "metaIg": 63123,
+      "metaTotal": 1331961
     },
     {
       "day": "2025-05-27",
@@ -2211,7 +2301,10 @@
       "storeTarget": 78776100,
       "custIn": 190,
       "custBuy": 181,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1299368,
+      "metaIg": 98474,
+      "metaTotal": 1438946
     },
     {
       "day": "2025-05-28",
@@ -2283,7 +2376,10 @@
       "storeTarget": 64692100,
       "custIn": 206,
       "custBuy": 202,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1197492,
+      "metaIg": 121999,
+      "metaTotal": 1394196
     },
     {
       "day": "2025-05-29",
@@ -2356,7 +2452,10 @@
       "storeTarget": 136788600,
       "custIn": 241,
       "custBuy": 230,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1270870,
+      "metaIg": 113986,
+      "metaTotal": 1519328
     },
     {
       "day": "2025-05-30",
@@ -2429,7 +2528,10 @@
       "storeTarget": 167585750,
       "custIn": 294,
       "custBuy": 273,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1421151,
+      "metaIg": 93559,
+      "metaTotal": 1591348
     },
     {
       "day": "2025-05-31",
@@ -2503,7 +2605,10 @@
       "storeTarget": 163117750,
       "custIn": 498,
       "custBuy": 492,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1365574,
+      "metaIg": 114321,
+      "metaTotal": 1548203
     },
     {
       "day": "2025-06-01",
@@ -2578,7 +2683,10 @@
       "storeTarget": 391000000,
       "custIn": 955,
       "custBuy": 949,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1960657,
+      "metaIg": 166054,
+      "metaTotal": 2187235
     },
     {
       "day": "2025-06-02",
@@ -2650,7 +2758,10 @@
       "storeTarget": 77216000,
       "custIn": 278,
       "custBuy": 272,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1775636,
+      "metaIg": 109447,
+      "metaTotal": 1930871
     },
     {
       "day": "2025-06-03",
@@ -2721,7 +2832,10 @@
       "storeTarget": 68896000,
       "custIn": 187,
       "custBuy": 175,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1358020,
+      "metaIg": 137925,
+      "metaTotal": 1545138
     },
     {
       "day": "2025-06-04",
@@ -2793,7 +2907,10 @@
       "storeTarget": 72148000,
       "custIn": 216,
       "custBuy": 212,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1297109,
+      "metaIg": 36943,
+      "metaTotal": 1400435
     },
     {
       "day": "2025-06-05",
@@ -2865,7 +2982,10 @@
       "storeTarget": 70292000,
       "custIn": 219,
       "custBuy": 212,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1201230,
+      "metaIg": 0,
+      "metaTotal": 1246271
     },
     {
       "day": "2025-06-06",
@@ -2938,7 +3058,10 @@
       "storeTarget": 109572000,
       "custIn": 212,
       "custBuy": 204,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1475707,
+      "metaIg": 1968,
+      "metaTotal": 1558979
     },
     {
       "day": "2025-06-07",
@@ -3009,7 +3132,10 @@
       "storeTarget": 77700000,
       "custIn": 174,
       "custBuy": 166,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1404515,
+      "metaIg": 589,
+      "metaTotal": 1489899
     },
     {
       "day": "2025-06-08",
@@ -3082,7 +3208,10 @@
       "storeTarget": 99900000,
       "custIn": 227,
       "custBuy": 222,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1441553,
+      "metaIg": 2659,
+      "metaTotal": 1552134
     },
     {
       "day": "2025-06-09",
@@ -3153,7 +3282,10 @@
       "storeTarget": 50552000,
       "custIn": 163,
       "custBuy": 156,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1191736,
+      "metaIg": 6567,
+      "metaTotal": 1243113
     },
     {
       "day": "2025-06-10",
@@ -3225,7 +3357,10 @@
       "storeTarget": 50590000,
       "custIn": 156,
       "custBuy": 148,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 903167,
+      "metaIg": 1435,
+      "metaTotal": 940377
     },
     {
       "day": "2025-06-11",
@@ -3300,7 +3435,10 @@
       "storeTarget": 50977000,
       "custIn": 178,
       "custBuy": 170,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 315753,
+      "metaIg": 0,
+      "metaTotal": 344388
     },
     {
       "day": "2025-06-12",
@@ -3371,7 +3509,10 @@
       "storeTarget": 66550000,
       "custIn": 157,
       "custBuy": 152,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1240556,
+      "metaIg": 109311,
+      "metaTotal": 1445805
     },
     {
       "day": "2025-06-13",
@@ -3442,7 +3583,10 @@
       "storeTarget": 68599500,
       "custIn": 198,
       "custBuy": 190,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1113452,
+      "metaIg": 130316,
+      "metaTotal": 1282422
     },
     {
       "day": "2025-06-14",
@@ -3515,7 +3659,10 @@
       "storeTarget": 81092000,
       "custIn": 274,
       "custBuy": 261,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1002004,
+      "metaIg": 118471,
+      "metaTotal": 1151732
     },
     {
       "day": "2025-06-15",
@@ -3587,7 +3734,10 @@
       "storeTarget": 87576000,
       "custIn": 187,
       "custBuy": 181,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1010419,
+      "metaIg": 95898,
+      "metaTotal": 1150254
     },
     {
       "day": "2025-06-16",
@@ -3660,7 +3810,10 @@
       "storeTarget": 53635000,
       "custIn": 163,
       "custBuy": 151,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1011251,
+      "metaIg": 90765,
+      "metaTotal": 1139743
     },
     {
       "day": "2025-06-17",
@@ -3734,7 +3887,10 @@
       "storeTarget": 51562000,
       "custIn": 221,
       "custBuy": 211,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 931134,
+      "metaIg": 92489,
+      "metaTotal": 1058007
     },
     {
       "day": "2025-06-18",
@@ -3805,7 +3961,10 @@
       "storeTarget": 40912000,
       "custIn": 195,
       "custBuy": 187,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1122480,
+      "metaIg": 118372,
+      "metaTotal": 1267953
     },
     {
       "day": "2025-06-19",
@@ -3877,7 +4036,10 @@
       "storeTarget": 64837000,
       "custIn": 207,
       "custBuy": 192,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1123173,
+      "metaIg": 123962,
+      "metaTotal": 1269060
     },
     {
       "day": "2025-06-20",
@@ -3948,7 +4110,10 @@
       "storeTarget": 51447000,
       "custIn": 296,
       "custBuy": 285,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1106677,
+      "metaIg": 131471,
+      "metaTotal": 1259397
     },
     {
       "day": "2025-06-21",
@@ -4021,7 +4186,10 @@
       "storeTarget": 72376000,
       "custIn": 203,
       "custBuy": 196,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 896321,
+      "metaIg": 112525,
+      "metaTotal": 1020651
     },
     {
       "day": "2025-06-22",
@@ -4094,7 +4262,10 @@
       "storeTarget": 90540000,
       "custIn": 332,
       "custBuy": 274,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 943330,
+      "metaIg": 102631,
+      "metaTotal": 1060327
     },
     {
       "day": "2025-06-23",
@@ -4167,7 +4338,10 @@
       "storeTarget": 47620000,
       "custIn": 144,
       "custBuy": 138,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 913068,
+      "metaIg": 79763,
+      "metaTotal": 1013791
     },
     {
       "day": "2025-06-24",
@@ -4239,7 +4413,10 @@
       "storeTarget": 46644000,
       "custIn": 178,
       "custBuy": 171,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1355686,
+      "metaIg": 124788,
+      "metaTotal": 1539839
     },
     {
       "day": "2025-06-25",
@@ -4315,7 +4492,10 @@
       "storeTarget": 54244000,
       "custIn": 180,
       "custBuy": 175,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1581909,
+      "metaIg": 191133,
+      "metaTotal": 1815443
     },
     {
       "day": "2025-06-26",
@@ -4391,7 +4571,10 @@
       "storeTarget": 50858000,
       "custIn": 187,
       "custBuy": 181,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1551539,
+      "metaIg": 158745,
+      "metaTotal": 1744209
     },
     {
       "day": "2025-06-27",
@@ -4463,7 +4646,10 @@
       "storeTarget": 70581000,
       "custIn": 189,
       "custBuy": 188,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1578340,
+      "metaIg": 157060,
+      "metaTotal": 1771132
     },
     {
       "day": "2025-06-28",
@@ -4535,7 +4721,10 @@
       "storeTarget": 86228000,
       "custIn": 338,
       "custBuy": 330,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1329139,
+      "metaIg": 209910,
+      "metaTotal": 1565981
     },
     {
       "day": "2025-06-29",
@@ -4605,7 +4794,10 @@
       "storeTarget": 69624000,
       "custIn": 391,
       "custBuy": 379,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1688471,
+      "metaIg": 209787,
+      "metaTotal": 1930836
     },
     {
       "day": "2025-06-30",
@@ -4676,7 +4868,10 @@
       "storeTarget": 44611000,
       "custIn": 182,
       "custBuy": 179,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1563716,
+      "metaIg": 163364,
+      "metaTotal": 1760470
     },
     {
       "day": "2025-07-01",
@@ -4747,7 +4942,10 @@
       "storeTarget": 70550000,
       "custIn": 233,
       "custBuy": 228,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1299392,
+      "metaIg": 200736,
+      "metaTotal": 1536079
     },
     {
       "day": "2025-07-02",
@@ -4819,7 +5017,10 @@
       "storeTarget": 99050000,
       "custIn": 196,
       "custBuy": 193,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1625716,
+      "metaIg": 205531,
+      "metaTotal": 1864613
     },
     {
       "day": "2025-07-03",
@@ -4889,7 +5090,10 @@
       "storeTarget": 96362500,
       "custIn": 186,
       "custBuy": 182,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1627760,
+      "metaIg": 225326,
+      "metaTotal": 1885996
     },
     {
       "day": "2025-07-04",
@@ -4966,7 +5170,10 @@
       "storeTarget": 129550000,
       "custIn": 224,
       "custBuy": 220,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1539252,
+      "metaIg": 315743,
+      "metaTotal": 1894355
     },
     {
       "day": "2025-07-05",
@@ -5042,7 +5249,10 @@
       "storeTarget": 131300000,
       "custIn": 307,
       "custBuy": 303,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1359301,
+      "metaIg": 291128,
+      "metaTotal": 1688943
     },
     {
       "day": "2025-07-06",
@@ -5114,7 +5324,10 @@
       "storeTarget": 128200000,
       "custIn": 260,
       "custBuy": 256,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1761640,
+      "metaIg": 312084,
+      "metaTotal": 2113192
     },
     {
       "day": "2025-07-07",
@@ -5190,7 +5403,10 @@
       "storeTarget": 46425000,
       "custIn": 202,
       "custBuy": 197,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1633024,
+      "metaIg": 310926,
+      "metaTotal": 1975935
     },
     {
       "day": "2025-07-08",
@@ -5262,7 +5478,10 @@
       "storeTarget": 43720000,
       "custIn": 211,
       "custBuy": 203,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1582664,
+      "metaIg": 317636,
+      "metaTotal": 1931182
     },
     {
       "day": "2025-07-09",
@@ -5333,7 +5552,10 @@
       "storeTarget": 48725000,
       "custIn": 253,
       "custBuy": 248,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1415105,
+      "metaIg": 519437,
+      "metaTotal": 1955315
     },
     {
       "day": "2025-07-10",
@@ -5406,7 +5628,10 @@
       "storeTarget": 51695000,
       "custIn": 280,
       "custBuy": 275,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1455030,
+      "metaIg": 441089,
+      "metaTotal": 1917650
     },
     {
       "day": "2025-07-11",
@@ -5479,7 +5704,10 @@
       "storeTarget": 59360000,
       "custIn": 283,
       "custBuy": 285,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1113610,
+      "metaIg": 335998,
+      "metaTotal": 1465116
     },
     {
       "day": "2025-07-12",
@@ -5551,7 +5779,10 @@
       "storeTarget": 72690000,
       "custIn": 273,
       "custBuy": 269,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1474466,
+      "metaIg": 233349,
+      "metaTotal": 1726267
     },
     {
       "day": "2025-07-13",
@@ -5616,7 +5847,10 @@
       "storeTarget": 74050000,
       "custIn": 330,
       "custBuy": 325,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1788303,
+      "metaIg": 269515,
+      "metaTotal": 2086919
     },
     {
       "day": "2025-07-14",
@@ -5690,7 +5924,10 @@
       "storeTarget": 42425000,
       "custIn": 209,
       "custBuy": 204,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1734544,
+      "metaIg": 299087,
+      "metaTotal": 2063541
     },
     {
       "day": "2025-07-15",
@@ -5764,7 +6001,10 @@
       "storeTarget": 44590000,
       "custIn": 232,
       "custBuy": 223,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1694496,
+      "metaIg": 206001,
+      "metaTotal": 1951822
     },
     {
       "day": "2025-07-16",
@@ -5837,7 +6077,10 @@
       "storeTarget": 39810000,
       "custIn": 238,
       "custBuy": 233,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1714931,
+      "metaIg": 209964,
+      "metaTotal": 1987864
     },
     {
       "day": "2025-07-17",
@@ -5910,7 +6153,10 @@
       "storeTarget": 49170000,
       "custIn": 263,
       "custBuy": 258,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1638561,
+      "metaIg": 236339,
+      "metaTotal": 1929409
     },
     {
       "day": "2025-07-18",
@@ -5986,7 +6232,10 @@
       "storeTarget": 54747500,
       "custIn": 254,
       "custBuy": 249,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1630607,
+      "metaIg": 230119,
+      "metaTotal": 1931420
     },
     {
       "day": "2025-07-19",
@@ -6058,7 +6307,10 @@
       "storeTarget": 79640000,
       "custIn": 190,
       "custBuy": 187,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1623446,
+      "metaIg": 213857,
+      "metaTotal": 1891552
     },
     {
       "day": "2025-07-20",
@@ -6130,7 +6382,10 @@
       "storeTarget": 76290000,
       "custIn": 238,
       "custBuy": 234,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2314953,
+      "metaIg": 216607,
+      "metaTotal": 2592578
     },
     {
       "day": "2025-07-21",
@@ -6204,7 +6459,10 @@
       "storeTarget": 91650000,
       "custIn": 107,
       "custBuy": 104,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2352238,
+      "metaIg": 219248,
+      "metaTotal": 2636177
     },
     {
       "day": "2025-07-22",
@@ -6275,7 +6533,10 @@
       "storeTarget": 56850000,
       "custIn": 107,
       "custBuy": 106,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1795283,
+      "metaIg": 310165,
+      "metaTotal": 2145612
     },
     {
       "day": "2025-07-23",
@@ -6346,7 +6607,10 @@
       "storeTarget": 88940000,
       "custIn": 242,
       "custBuy": 238,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2132085,
+      "metaIg": 332222,
+      "metaTotal": 2513886
     },
     {
       "day": "2025-07-24",
@@ -6419,7 +6683,10 @@
       "storeTarget": 142190000,
       "custIn": 248,
       "custBuy": 239,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1976788,
+      "metaIg": 313959,
+      "metaTotal": 2351631
     },
     {
       "day": "2025-07-25",
@@ -6491,7 +6758,10 @@
       "storeTarget": 145547500,
       "custIn": 259,
       "custBuy": 251,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2116978,
+      "metaIg": 334718,
+      "metaTotal": 2510749
     },
     {
       "day": "2025-07-26",
@@ -6567,7 +6837,10 @@
       "storeTarget": 179660000,
       "custIn": 251,
       "custBuy": 234,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2194278,
+      "metaIg": 300276,
+      "metaTotal": 2552585
     },
     {
       "day": "2025-07-27",
@@ -6640,7 +6913,10 @@
       "storeTarget": 185550000,
       "custIn": 295,
       "custBuy": 287,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2478524,
+      "metaIg": 331807,
+      "metaTotal": 2873620
     },
     {
       "day": "2025-07-28",
@@ -6714,7 +6990,10 @@
       "storeTarget": 72100000,
       "custIn": 231,
       "custBuy": 221,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2226409,
+      "metaIg": 329682,
+      "metaTotal": 2607011
     },
     {
       "day": "2025-07-29",
@@ -6785,7 +7064,10 @@
       "storeTarget": 26100000,
       "custIn": 230,
       "custBuy": 221,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1704757,
+      "metaIg": 177878,
+      "metaTotal": 1893652
     },
     {
       "day": "2025-07-30",
@@ -6856,7 +7138,10 @@
       "storeTarget": 36100000,
       "custIn": 175,
       "custBuy": 168,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1549562,
+      "metaIg": 158676,
+      "metaTotal": 1718752
     },
     {
       "day": "2025-07-31",
@@ -6928,7 +7213,10 @@
       "storeTarget": 64450000,
       "custIn": 312,
       "custBuy": 301,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1477141,
+      "metaIg": 201698,
+      "metaTotal": 1690863
     },
     {
       "day": "2025-08-01",
@@ -7004,7 +7292,10 @@
       "storeTarget": 87840000,
       "custIn": 316,
       "custBuy": 302,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1481140,
+      "metaIg": 218760,
+      "metaTotal": 1719104
     },
     {
       "day": "2025-08-02",
@@ -7075,7 +7366,10 @@
       "storeTarget": 95380000,
       "custIn": 315,
       "custBuy": 306,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1506904,
+      "metaIg": 170264,
+      "metaTotal": 1701025
     },
     {
       "day": "2025-08-03",
@@ -7146,7 +7440,10 @@
       "storeTarget": 97410000,
       "custIn": 355,
       "custBuy": 339,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1606317,
+      "metaIg": 165896,
+      "metaTotal": 1795538
     },
     {
       "day": "2025-08-04",
@@ -7217,7 +7514,10 @@
       "storeTarget": 50925000,
       "custIn": 171,
       "custBuy": 163,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1651040,
+      "metaIg": 118016,
+      "metaTotal": 1789284
     },
     {
       "day": "2025-08-05",
@@ -7290,7 +7590,10 @@
       "storeTarget": 46495000,
       "custIn": 147,
       "custBuy": 144,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1421061,
+      "metaIg": 152059,
+      "metaTotal": 1596734
     },
     {
       "day": "2025-08-06",
@@ -7361,7 +7664,10 @@
       "storeTarget": 48805000,
       "custIn": 288,
       "custBuy": 273,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1493798,
+      "metaIg": 143630,
+      "metaTotal": 1654686
     },
     {
       "day": "2025-08-07",
@@ -7437,7 +7743,10 @@
       "storeTarget": 58345000,
       "custIn": 333,
       "custBuy": 320,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1399115,
+      "metaIg": 195849,
+      "metaTotal": 1613219
     },
     {
       "day": "2025-08-08",
@@ -7509,7 +7818,10 @@
       "storeTarget": 84660000,
       "custIn": 294,
       "custBuy": 280,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1436262,
+      "metaIg": 156291,
+      "metaTotal": 1610245
     },
     {
       "day": "2025-08-09",
@@ -7582,7 +7894,10 @@
       "storeTarget": 97610000,
       "custIn": 378,
       "custBuy": 357,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1474235,
+      "metaIg": 162808,
+      "metaTotal": 1649006
     },
     {
       "day": "2025-08-10",
@@ -7653,7 +7968,10 @@
       "storeTarget": 87100000,
       "custIn": 360,
       "custBuy": 341,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1657454,
+      "metaIg": 197181,
+      "metaTotal": 1867983
     },
     {
       "day": "2025-08-11",
@@ -7723,7 +8041,10 @@
       "storeTarget": 74225000,
       "custIn": 266,
       "custBuy": 255,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1656977,
+      "metaIg": 176837,
+      "metaTotal": 1851523
     },
     {
       "day": "2025-08-12",
@@ -7793,7 +8114,10 @@
       "storeTarget": 69250000,
       "custIn": 255,
       "custBuy": 245,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1624837,
+      "metaIg": 240293,
+      "metaTotal": 1883152
     },
     {
       "day": "2025-08-13",
@@ -7865,7 +8189,10 @@
       "storeTarget": 70050000,
       "custIn": 231,
       "custBuy": 223,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1653183,
+      "metaIg": 231774,
+      "metaTotal": 1901507
     },
     {
       "day": "2025-08-14",
@@ -7940,7 +8267,10 @@
       "storeTarget": 57675000,
       "custIn": 285,
       "custBuy": 273,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1621400,
+      "metaIg": 269465,
+      "metaTotal": 1909268
     },
     {
       "day": "2025-08-15",
@@ -8011,7 +8341,10 @@
       "storeTarget": 132500000,
       "custIn": 314,
       "custBuy": 300,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1573319,
+      "metaIg": 228871,
+      "metaTotal": 1817634
     },
     {
       "day": "2025-08-16",
@@ -8084,7 +8417,10 @@
       "storeTarget": 130250000,
       "custIn": 386,
       "custBuy": 364,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1738171,
+      "metaIg": 181206,
+      "metaTotal": 1936456
     },
     {
       "day": "2025-08-17",
@@ -8156,7 +8492,10 @@
       "storeTarget": 137050000,
       "custIn": 378,
       "custBuy": 367,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2318321,
+      "metaIg": 204782,
+      "metaTotal": 2559252
     },
     {
       "day": "2025-08-18",
@@ -8225,7 +8564,10 @@
       "storeTarget": 75500000,
       "custIn": 172,
       "custBuy": 169,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2526594,
+      "metaIg": 169114,
+      "metaTotal": 2749008
     },
     {
       "day": "2025-08-19",
@@ -8296,7 +8638,10 @@
       "storeTarget": 60150000,
       "custIn": 232,
       "custBuy": 227,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2472851,
+      "metaIg": 164524,
+      "metaTotal": 2670421
     },
     {
       "day": "2025-08-20",
@@ -8371,7 +8716,10 @@
       "storeTarget": 68150000,
       "custIn": 175,
       "custBuy": 165,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2407327,
+      "metaIg": 143167,
+      "metaTotal": 2584355
     },
     {
       "day": "2025-08-21",
@@ -8447,7 +8795,10 @@
       "storeTarget": 74150000,
       "custIn": 267,
       "custBuy": 251,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2358197,
+      "metaIg": 159900,
+      "metaTotal": 2546003
     },
     {
       "day": "2025-08-22",
@@ -8521,7 +8872,10 @@
       "storeTarget": 116750000,
       "custIn": 265,
       "custBuy": 253,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1633882,
+      "metaIg": 183100,
+      "metaTotal": 1840372
     },
     {
       "day": "2025-08-23",
@@ -8592,7 +8946,10 @@
       "storeTarget": 133300000,
       "custIn": 310,
       "custBuy": 299,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1519595,
+      "metaIg": 122129,
+      "metaTotal": 1668795
     },
     {
       "day": "2025-08-24",
@@ -8662,7 +9019,10 @@
       "storeTarget": 133400000,
       "custIn": 274,
       "custBuy": 262,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1893257,
+      "metaIg": 121475,
+      "metaTotal": 2057239
     },
     {
       "day": "2025-08-25",
@@ -8735,7 +9095,10 @@
       "storeTarget": 59700000,
       "custIn": 141,
       "custBuy": 136,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1956800,
+      "metaIg": 113739,
+      "metaTotal": 2104280
     },
     {
       "day": "2025-08-26",
@@ -8793,7 +9156,10 @@
       "storeTarget": 7000000,
       "custIn": 20,
       "custBuy": 19,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1728089,
+      "metaIg": 85741,
+      "metaTotal": 1845450
     },
     {
       "day": "2025-08-27",
@@ -8866,7 +9232,10 @@
       "storeTarget": 62425000,
       "custIn": 218,
       "custBuy": 204,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1645472,
+      "metaIg": 119387,
+      "metaTotal": 1792267
     },
     {
       "day": "2025-08-28",
@@ -8937,7 +9306,10 @@
       "storeTarget": 66000000,
       "custIn": 226,
       "custBuy": 220,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1613232,
+      "metaIg": 100353,
+      "metaTotal": 1739242
     },
     {
       "day": "2025-08-29",
@@ -9009,7 +9381,10 @@
       "storeTarget": 123900000,
       "custIn": 200,
       "custBuy": 195,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1239159,
+      "metaIg": 222909,
+      "metaTotal": 1490055
     },
     {
       "day": "2025-08-30",
@@ -9081,7 +9456,10 @@
       "storeTarget": 127450000,
       "custIn": 222,
       "custBuy": 215,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1368811,
+      "metaIg": 117812,
+      "metaTotal": 1510200
     },
     {
       "day": "2025-08-31",
@@ -9152,7 +9530,10 @@
       "storeTarget": 130000000,
       "custIn": 202,
       "custBuy": 196,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1310169,
+      "metaIg": 74802,
+      "metaTotal": 1405180
     },
     {
       "day": "2025-09-01",
@@ -9222,7 +9603,10 @@
       "storeTarget": 64060000,
       "custIn": 227,
       "custBuy": 223,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1379444,
+      "metaIg": 77478,
+      "metaTotal": 1475351
     },
     {
       "day": "2025-09-02",
@@ -9290,7 +9674,10 @@
       "storeTarget": 66620000,
       "custIn": 228,
       "custBuy": 223,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1192962,
+      "metaIg": 62235,
+      "metaTotal": 1274294
     },
     {
       "day": "2025-09-03",
@@ -9361,7 +9748,10 @@
       "storeTarget": 72060000,
       "custIn": 197,
       "custBuy": 189,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1690912,
+      "metaIg": 199582,
+      "metaTotal": 1914473
     },
     {
       "day": "2025-09-04",
@@ -9433,7 +9823,10 @@
       "storeTarget": 78760000,
       "custIn": 208,
       "custBuy": 203,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1643549,
+      "metaIg": 215050,
+      "metaTotal": 1887359
     },
     {
       "day": "2025-09-05",
@@ -9504,7 +9897,10 @@
       "storeTarget": 120600000,
       "custIn": 220,
       "custBuy": 207,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1536274,
+      "metaIg": 229226,
+      "metaTotal": 1792459
     },
     {
       "day": "2025-09-06",
@@ -9576,7 +9972,10 @@
       "storeTarget": 96420000,
       "custIn": 312,
       "custBuy": 305,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1262642,
+      "metaIg": 159123,
+      "metaTotal": 1448142
     },
     {
       "day": "2025-09-07",
@@ -9650,7 +10049,10 @@
       "storeTarget": 86290000,
       "custIn": 289,
       "custBuy": 276,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1391207,
+      "metaIg": 117731,
+      "metaTotal": 1540571
     },
     {
       "day": "2025-09-08",
@@ -9720,7 +10122,10 @@
       "storeTarget": 57560000,
       "custIn": 184,
       "custBuy": 180,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1349638,
+      "metaIg": 143598,
+      "metaTotal": 1520775
     },
     {
       "day": "2025-09-09",
@@ -9790,7 +10195,10 @@
       "storeTarget": 65360000,
       "custIn": 182,
       "custBuy": 173,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1191070,
+      "metaIg": 164071,
+      "metaTotal": 1380950
     },
     {
       "day": "2025-09-10",
@@ -9860,7 +10268,10 @@
       "storeTarget": 66160000,
       "custIn": 195,
       "custBuy": 186,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1181641,
+      "metaIg": 130372,
+      "metaTotal": 1334582
     },
     {
       "day": "2025-09-11",
@@ -9892,7 +10303,10 @@
       "storeTarget": 95850000,
       "custIn": 207,
       "custBuy": 197,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1218792,
+      "metaIg": 158278,
+      "metaTotal": 1391326
     },
     {
       "day": "2025-09-12",
@@ -9962,7 +10376,10 @@
       "storeTarget": 117120000,
       "custIn": 261,
       "custBuy": 247,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1100619,
+      "metaIg": 138834,
+      "metaTotal": 1248587
     },
     {
       "day": "2025-09-13",
@@ -10033,7 +10450,10 @@
       "storeTarget": 107720000,
       "custIn": 386,
       "custBuy": 359,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1248922,
+      "metaIg": 98518,
+      "metaTotal": 1358316
     },
     {
       "day": "2025-09-14",
@@ -10103,7 +10523,10 @@
       "storeTarget": 86590000,
       "custIn": 360,
       "custBuy": 343,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1393786,
+      "metaIg": 125753,
+      "metaTotal": 1536866
     },
     {
       "day": "2025-09-15",
@@ -10174,7 +10597,10 @@
       "storeTarget": 93830000,
       "custIn": 215,
       "custBuy": 197,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1339928,
+      "metaIg": 103872,
+      "metaTotal": 1459351
     },
     {
       "day": "2025-09-16",
@@ -10243,7 +10669,10 @@
       "storeTarget": 85390000,
       "custIn": 245,
       "custBuy": 201,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1324447,
+      "metaIg": 125229,
+      "metaTotal": 1463598
     },
     {
       "day": "2025-09-17",
@@ -10308,7 +10737,10 @@
       "storeTarget": 89180000,
       "custIn": 194,
       "custBuy": 181,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1001805,
+      "metaIg": 186683,
+      "metaTotal": 1200463
     },
     {
       "day": "2025-09-18",
@@ -10371,7 +10803,10 @@
       "storeTarget": 99200000,
       "custIn": 210,
       "custBuy": 203,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 899090,
+      "metaIg": 155869,
+      "metaTotal": 1065964
     },
     {
       "day": "2025-09-19",
@@ -10443,7 +10878,10 @@
       "storeTarget": 122985000,
       "custIn": 246,
       "custBuy": 234,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 893362,
+      "metaIg": 153511,
+      "metaTotal": 1054804
     },
     {
       "day": "2025-09-20",
@@ -10517,7 +10955,10 @@
       "storeTarget": 206825000,
       "custIn": 468,
       "custBuy": 455,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 790953,
+      "metaIg": 141079,
+      "metaTotal": 939553
     },
     {
       "day": "2025-09-21",
@@ -10587,7 +11028,10 @@
       "storeTarget": 166580000,
       "custIn": 454,
       "custBuy": 446,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 936312,
+      "metaIg": 207628,
+      "metaTotal": 1152134
     },
     {
       "day": "2025-09-22",
@@ -10652,7 +11096,10 @@
       "storeTarget": 81325000,
       "custIn": 224,
       "custBuy": 222,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 989368,
+      "metaIg": 166924,
+      "metaTotal": 1170484
     },
     {
       "day": "2025-09-23",
@@ -10708,7 +11155,10 @@
       "storeTarget": 67025000,
       "custIn": 191,
       "custBuy": 178,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1139789,
+      "metaIg": 132171,
+      "metaTotal": 1282591
     },
     {
       "day": "2025-09-24",
@@ -10771,7 +11221,10 @@
       "storeTarget": 78025000,
       "custIn": 258,
       "custBuy": 243,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1658971,
+      "metaIg": 139113,
+      "metaTotal": 1802925
     },
     {
       "day": "2025-09-25",
@@ -10826,7 +11279,10 @@
       "storeTarget": 85525000,
       "custIn": 219,
       "custBuy": 191,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 234173,
+      "metaIg": 12304,
+      "metaTotal": 246517
     },
     {
       "day": "2025-09-26",
@@ -10881,7 +11337,10 @@
       "storeTarget": 114175000,
       "custIn": 276,
       "custBuy": 272,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 721585,
+      "metaIg": 136221,
+      "metaTotal": 860715
     },
     {
       "day": "2025-09-27",
@@ -10944,7 +11403,10 @@
       "storeTarget": 162312500,
       "custIn": 381,
       "custBuy": 353,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 503617,
+      "metaIg": 77762,
+      "metaTotal": 584500
     },
     {
       "day": "2025-09-28",
@@ -10999,7 +11461,10 @@
       "storeTarget": 140850000,
       "custIn": 343,
       "custBuy": 329,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 499720,
+      "metaIg": 148990,
+      "metaTotal": 652323
     },
     {
       "day": "2025-09-29",
@@ -11058,7 +11523,10 @@
       "storeTarget": 83250000,
       "custIn": 149,
       "custBuy": 143,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 695389,
+      "metaIg": 167079,
+      "metaTotal": 868157
     },
     {
       "day": "2025-09-30",
@@ -11089,7 +11557,10 @@
       "storeTarget": 55875000,
       "custIn": 96,
       "custBuy": 91,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 636811,
+      "metaIg": 162094,
+      "metaTotal": 804855
     },
     {
       "day": "2025-10-01",
@@ -11159,7 +11630,10 @@
       "storeTarget": 92300000,
       "custIn": 270,
       "custBuy": 256,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 611401,
+      "metaIg": 231883,
+      "metaTotal": 851135
     },
     {
       "day": "2025-10-02",
@@ -11222,7 +11696,10 @@
       "storeTarget": 111000000,
       "custIn": 366,
       "custBuy": 348,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 711393,
+      "metaIg": 251746,
+      "metaTotal": 970068
     },
     {
       "day": "2025-10-03",
@@ -11292,7 +11769,10 @@
       "storeTarget": 195700000,
       "custIn": 397,
       "custBuy": 387,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 825949,
+      "metaIg": 257260,
+      "metaTotal": 1089085
     },
     {
       "day": "2025-10-04",
@@ -11362,7 +11842,10 @@
       "storeTarget": 265800000,
       "custIn": 567,
       "custBuy": 550,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 722806,
+      "metaIg": 291284,
+      "metaTotal": 1018548
     },
     {
       "day": "2025-10-05",
@@ -11428,7 +11911,10 @@
       "storeTarget": 300300000,
       "custIn": 684,
       "custBuy": 663,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 948783,
+      "metaIg": 176680,
+      "metaTotal": 1132122
     },
     {
       "day": "2025-10-06",
@@ -11499,7 +11985,10 @@
       "storeTarget": 271400000,
       "custIn": 461,
       "custBuy": 443,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1075139,
+      "metaIg": 295511,
+      "metaTotal": 1378392
     },
     {
       "day": "2025-10-07",
@@ -11556,7 +12045,10 @@
       "storeTarget": 33000000,
       "custIn": 91,
       "custBuy": 82,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1132185,
+      "metaIg": 229926,
+      "metaTotal": 1365484
     },
     {
       "day": "2025-10-08",
@@ -11619,7 +12111,10 @@
       "storeTarget": 90540000,
       "custIn": 287,
       "custBuy": 274,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1209007,
+      "metaIg": 242780,
+      "metaTotal": 1456228
     },
     {
       "day": "2025-10-09",
@@ -11686,7 +12181,10 @@
       "storeTarget": 89700000,
       "custIn": 278,
       "custBuy": 260,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1226289,
+      "metaIg": 183984,
+      "metaTotal": 1416148
     },
     {
       "day": "2025-10-10",
@@ -11749,7 +12247,10 @@
       "storeTarget": 90960000,
       "custIn": 301,
       "custBuy": 275,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1349449,
+      "metaIg": 203981,
+      "metaTotal": 1559506
     },
     {
       "day": "2025-10-11",
@@ -11812,7 +12313,10 @@
       "storeTarget": 139050000,
       "custIn": 347,
       "custBuy": 328,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1106137,
+      "metaIg": 287971,
+      "metaTotal": 1398622
     },
     {
       "day": "2025-10-12",
@@ -11884,7 +12388,10 @@
       "storeTarget": 148910000,
       "custIn": 439,
       "custBuy": 403,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1453126,
+      "metaIg": 332486,
+      "metaTotal": 1792212
     },
     {
       "day": "2025-10-13",
@@ -11950,7 +12457,10 @@
       "storeTarget": 115375000,
       "custIn": 199,
       "custBuy": 184,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1265174,
+      "metaIg": 231694,
+      "metaTotal": 1504001
     },
     {
       "day": "2025-10-14",
@@ -12020,7 +12530,10 @@
       "storeTarget": 126625000,
       "custIn": 257,
       "custBuy": 241,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2283036,
+      "metaIg": 481792,
+      "metaTotal": 2775296
     },
     {
       "day": "2025-10-15",
@@ -12087,7 +12600,10 @@
       "storeTarget": 140875000,
       "custIn": 333,
       "custBuy": 314,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2371265,
+      "metaIg": 345883,
+      "metaTotal": 2736431
     },
     {
       "day": "2025-10-16",
@@ -12154,7 +12670,10 @@
       "storeTarget": 105000000,
       "custIn": 324,
       "custBuy": 308,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2449959,
+      "metaIg": 433844,
+      "metaTotal": 2911620
     },
     {
       "day": "2025-10-17",
@@ -12220,7 +12739,10 @@
       "storeTarget": 226750000,
       "custIn": 534,
       "custBuy": 509,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2428254,
+      "metaIg": 432559,
+      "metaTotal": 2890294
     },
     {
       "day": "2025-10-18",
@@ -12292,7 +12814,10 @@
       "storeTarget": 227000000,
       "custIn": 828,
       "custBuy": 803,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2667475,
+      "metaIg": 417001,
+      "metaTotal": 3109286
     },
     {
       "day": "2025-10-19",
@@ -12362,7 +12887,10 @@
       "storeTarget": 245350000,
       "custIn": 1323,
       "custBuy": 1307,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 4041514,
+      "metaIg": 702924,
+      "metaTotal": 4782507
     },
     {
       "day": "2025-10-20",
@@ -12437,7 +12965,10 @@
       "storeTarget": 335625000,
       "custIn": 2398,
       "custBuy": 2388,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 3558150,
+      "metaIg": 656996,
+      "metaTotal": 4247723
     },
     {
       "day": "2025-10-21",
@@ -12509,7 +13040,10 @@
       "storeTarget": 127700000,
       "custIn": 489,
       "custBuy": 471,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 972061,
+      "metaIg": 212429,
+      "metaTotal": 1192116
     },
     {
       "day": "2025-10-22",
@@ -12580,7 +13114,10 @@
       "storeTarget": 106625000,
       "custIn": 306,
       "custBuy": 289,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 699379,
+      "metaIg": 158752,
+      "metaTotal": 864097
     },
     {
       "day": "2025-10-23",
@@ -12647,7 +13184,10 @@
       "storeTarget": 129500000,
       "custIn": 298,
       "custBuy": 283,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 699337,
+      "metaIg": 122869,
+      "metaTotal": 827235
     },
     {
       "day": "2025-10-24",
@@ -12713,7 +13253,10 @@
       "storeTarget": 116500000,
       "custIn": 288,
       "custBuy": 281,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 775363,
+      "metaIg": 79700,
+      "metaTotal": 859821
     },
     {
       "day": "2025-10-25",
@@ -12780,7 +13323,10 @@
       "storeTarget": 200500000,
       "custIn": 383,
       "custBuy": 358,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 711320,
+      "metaIg": 72541,
+      "metaTotal": 787907
     },
     {
       "day": "2025-10-26",
@@ -12846,7 +13392,10 @@
       "storeTarget": 143687500,
       "custIn": 337,
       "custBuy": 330,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 912539,
+      "metaIg": 92593,
+      "metaTotal": 1012525
     },
     {
       "day": "2025-10-27",
@@ -12912,7 +13461,10 @@
       "storeTarget": 100440000,
       "custIn": 231,
       "custBuy": 214,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1068296,
+      "metaIg": 62992,
+      "metaTotal": 1145164
     },
     {
       "day": "2025-10-28",
@@ -12978,7 +13530,10 @@
       "storeTarget": 97100000,
       "custIn": 189,
       "custBuy": 178,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1133414,
+      "metaIg": 115338,
+      "metaTotal": 1251588
     },
     {
       "day": "2025-10-29",
@@ -13048,7 +13603,10 @@
       "storeTarget": 93400000,
       "custIn": 222,
       "custBuy": 211,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 750378,
+      "metaIg": 109752,
+      "metaTotal": 861675
     },
     {
       "day": "2025-10-30",
@@ -13114,7 +13672,10 @@
       "storeTarget": 76700000,
       "custIn": 205,
       "custBuy": 194,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 762163,
+      "metaIg": 100404,
+      "metaTotal": 863378
     },
     {
       "day": "2025-10-31",
@@ -13184,7 +13745,10 @@
       "storeTarget": 83900000,
       "custIn": 208,
       "custBuy": 193,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 647013,
+      "metaIg": 71290,
+      "metaTotal": 718618
     },
     {
       "day": "2025-11-01",
@@ -13250,7 +13814,10 @@
       "storeTarget": 92850000,
       "custIn": 259,
       "custBuy": 241,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 498853,
+      "metaIg": 35545,
+      "metaTotal": 534596
     },
     {
       "day": "2025-11-02",
@@ -13319,7 +13886,10 @@
       "storeTarget": 94650000,
       "custIn": 266,
       "custBuy": 241,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 669044,
+      "metaIg": 30531,
+      "metaTotal": 699865
     },
     {
       "day": "2025-11-03",
@@ -13391,7 +13961,10 @@
       "storeTarget": 59275000,
       "custIn": 110,
       "custBuy": 114,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 606446,
+      "metaIg": 28719,
+      "metaTotal": 635622
     },
     {
       "day": "2025-11-04",
@@ -13458,7 +14031,10 @@
       "storeTarget": 79915000,
       "custIn": 196,
       "custBuy": 183,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 570451,
+      "metaIg": 47027,
+      "metaTotal": 617632
     },
     {
       "day": "2025-11-05",
@@ -13525,7 +14101,10 @@
       "storeTarget": 69435000,
       "custIn": 235,
       "custBuy": 222,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 534877,
+      "metaIg": 46496,
+      "metaTotal": 581900
     },
     {
       "day": "2025-11-06",
@@ -13596,7 +14175,10 @@
       "storeTarget": 103805000,
       "custIn": 234,
       "custBuy": 221,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 812566,
+      "metaIg": 47327,
+      "metaTotal": 860677
     },
     {
       "day": "2025-11-07",
@@ -13664,7 +14246,10 @@
       "storeTarget": 114715000,
       "custIn": 190,
       "custBuy": 174,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 857085,
+      "metaIg": 96265,
+      "metaTotal": 954868
     },
     {
       "day": "2025-11-08",
@@ -13727,7 +14312,10 @@
       "storeTarget": 159095000,
       "custIn": 339,
       "custBuy": 321,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 786220,
+      "metaIg": 60188,
+      "metaTotal": 848295
     },
     {
       "day": "2025-11-09",
@@ -13790,7 +14378,10 @@
       "storeTarget": 129540000,
       "custIn": 267,
       "custBuy": 248,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 999040,
+      "metaIg": 81330,
+      "metaTotal": 1084538
     },
     {
       "day": "2025-11-10",
@@ -13858,7 +14449,10 @@
       "storeTarget": 101543000,
       "custIn": 188,
       "custBuy": 184,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1022486,
+      "metaIg": 106832,
+      "metaTotal": 1133583
     },
     {
       "day": "2025-11-11",
@@ -13930,7 +14524,10 @@
       "storeTarget": 100293000,
       "custIn": 217,
       "custBuy": 206,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 740022,
+      "metaIg": 72184,
+      "metaTotal": 816584
     },
     {
       "day": "2025-11-12",
@@ -13993,7 +14590,10 @@
       "storeTarget": 80868000,
       "custIn": 249,
       "custBuy": 231,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 691269,
+      "metaIg": 90683,
+      "metaTotal": 782414
     },
     {
       "day": "2025-11-13",
@@ -14059,7 +14659,10 @@
       "storeTarget": 124243000,
       "custIn": 219,
       "custBuy": 209,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 530884,
+      "metaIg": 73017,
+      "metaTotal": 603901
     },
     {
       "day": "2025-11-14",
@@ -14125,7 +14728,10 @@
       "storeTarget": 143362500,
       "custIn": 259,
       "custBuy": 246,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2891848,
+      "metaIg": 102096,
+      "metaTotal": 2993944
     },
     {
       "day": "2025-11-15",
@@ -14199,7 +14805,10 @@
       "storeTarget": 147743000,
       "custIn": 411,
       "custBuy": 382,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1530311,
+      "metaIg": 126920,
+      "metaTotal": 1657231
     },
     {
       "day": "2025-11-16",
@@ -14269,7 +14878,10 @@
       "storeTarget": 156343000,
       "custIn": 392,
       "custBuy": 371,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1515714,
+      "metaIg": 155030,
+      "metaTotal": 1670744
     },
     {
       "day": "2025-11-17",
@@ -14339,7 +14951,10 @@
       "storeTarget": 83243000,
       "custIn": 254,
       "custBuy": 238,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1410552,
+      "metaIg": 108628,
+      "metaTotal": 1519182
     },
     {
       "day": "2025-11-18",
@@ -14410,7 +15025,10 @@
       "storeTarget": 88368000,
       "custIn": 219,
       "custBuy": 209,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1139142,
+      "metaIg": 102490,
+      "metaTotal": 1241632
     },
     {
       "day": "2025-11-19",
@@ -14482,7 +15100,10 @@
       "storeTarget": 139918000,
       "custIn": 437,
       "custBuy": 419,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 869194,
+      "metaIg": 125735,
+      "metaTotal": 994929
     },
     {
       "day": "2025-11-20",
@@ -14552,7 +15173,10 @@
       "storeTarget": 177243000,
       "custIn": 395,
       "custBuy": 382,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 829386,
+      "metaIg": 141400,
+      "metaTotal": 970786
     },
     {
       "day": "2025-11-21",
@@ -14618,7 +15242,10 @@
       "storeTarget": 129600000,
       "custIn": 329,
       "custBuy": 311,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 993214,
+      "metaIg": 91194,
+      "metaTotal": 1084408
     },
     {
       "day": "2025-11-22",
@@ -14684,7 +15311,10 @@
       "storeTarget": 129143000,
       "custIn": 363,
       "custBuy": 345,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1183155,
+      "metaIg": 92919,
+      "metaTotal": 1276075
     },
     {
       "day": "2025-11-23",
@@ -14754,7 +15384,10 @@
       "storeTarget": 119155500,
       "custIn": 354,
       "custBuy": 338,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1660002,
+      "metaIg": 86576,
+      "metaTotal": 1746580
     },
     {
       "day": "2025-11-24",
@@ -14820,7 +15453,10 @@
       "storeTarget": 106943000,
       "custIn": 211,
       "custBuy": 203,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1841819,
+      "metaIg": 140815,
+      "metaTotal": 1982634
     },
     {
       "day": "2025-11-25",
@@ -14886,7 +15522,10 @@
       "storeTarget": 94543000,
       "custIn": 244,
       "custBuy": 230,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1760011,
+      "metaIg": 118911,
+      "metaTotal": 1878926
     },
     {
       "day": "2025-11-26",
@@ -14956,7 +15595,10 @@
       "storeTarget": 96518000,
       "custIn": 233,
       "custBuy": 219,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1159126,
+      "metaIg": 59125,
+      "metaTotal": 1218251
     },
     {
       "day": "2025-11-27",
@@ -15026,7 +15668,10 @@
       "storeTarget": 131111000,
       "custIn": 254,
       "custBuy": 237,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 869338,
+      "metaIg": 42707,
+      "metaTotal": 912045
     },
     {
       "day": "2025-11-28",
@@ -15099,7 +15744,10 @@
       "storeTarget": 140780500,
       "custIn": 279,
       "custBuy": 270,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1145751,
+      "metaIg": 51901,
+      "metaTotal": 1197652
     },
     {
       "day": "2025-11-29",
@@ -15165,7 +15813,10 @@
       "storeTarget": 164093000,
       "custIn": 367,
       "custBuy": 360,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1121693,
+      "metaIg": 49348,
+      "metaTotal": 1171043
     },
     {
       "day": "2025-11-30",
@@ -15228,7 +15879,10 @@
       "storeTarget": 155085000,
       "custIn": 352,
       "custBuy": 336,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1569277,
+      "metaIg": 74263,
+      "metaTotal": 1643540
     },
     {
       "day": "2025-12-01",
@@ -15300,7 +15954,10 @@
       "storeTarget": 81000000,
       "custIn": 182,
       "custBuy": 172,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1493353,
+      "metaIg": 42917,
+      "metaTotal": 1536270
     },
     {
       "day": "2025-12-02",
@@ -15371,7 +16028,10 @@
       "storeTarget": 91020000,
       "custIn": 219,
       "custBuy": 210,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1408937,
+      "metaIg": 36969,
+      "metaTotal": 1445906
     },
     {
       "day": "2025-12-03",
@@ -15441,7 +16101,10 @@
       "storeTarget": 89260000,
       "custIn": 222,
       "custBuy": 210,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1631450,
+      "metaIg": 29791,
+      "metaTotal": 1661244
     },
     {
       "day": "2025-12-04",
@@ -15513,7 +16176,10 @@
       "storeTarget": 88840000,
       "custIn": 259,
       "custBuy": 248,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1960428,
+      "metaIg": 28619,
+      "metaTotal": 1989051
     },
     {
       "day": "2025-12-05",
@@ -15582,7 +16248,10 @@
       "storeTarget": 199160000,
       "custIn": 246,
       "custBuy": 237,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2534335,
+      "metaIg": 61120,
+      "metaTotal": 2595455
     },
     {
       "day": "2025-12-06",
@@ -15648,7 +16317,10 @@
       "storeTarget": 183760000,
       "custIn": 367,
       "custBuy": 366,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1112038,
+      "metaIg": 35235,
+      "metaTotal": 1147273
     },
     {
       "day": "2025-12-07",
@@ -15718,7 +16390,10 @@
       "storeTarget": 210120000,
       "custIn": 330,
       "custBuy": 320,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2018525,
+      "metaIg": 30112,
+      "metaTotal": 2048637
     },
     {
       "day": "2025-12-08",
@@ -15789,7 +16464,10 @@
       "storeTarget": 89940000,
       "custIn": 176,
       "custBuy": 171,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 956744,
+      "metaIg": 23792,
+      "metaTotal": 980536
     },
     {
       "day": "2025-12-09",
@@ -15856,7 +16534,10 @@
       "storeTarget": 90520000,
       "custIn": 186,
       "custBuy": 176,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2055196,
+      "metaIg": 38274,
+      "metaTotal": 2093470
     },
     {
       "day": "2025-12-10",
@@ -15923,7 +16604,10 @@
       "storeTarget": 102700000,
       "custIn": 225,
       "custBuy": 216,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1617283,
+      "metaIg": 25160,
+      "metaTotal": 1642443
     },
     {
       "day": "2025-12-11",
@@ -15990,7 +16674,10 @@
       "storeTarget": 91640000,
       "custIn": 240,
       "custBuy": 225,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1474438,
+      "metaIg": 31239,
+      "metaTotal": 1505678
     },
     {
       "day": "2025-12-12",
@@ -16056,7 +16743,10 @@
       "storeTarget": 197160000,
       "custIn": 250,
       "custBuy": 236,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1572930,
+      "metaIg": 16032,
+      "metaTotal": 1588963
     },
     {
       "day": "2025-12-13",
@@ -16123,7 +16813,10 @@
       "storeTarget": 181480000,
       "custIn": 262,
       "custBuy": 250,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1621046,
+      "metaIg": 42248,
+      "metaTotal": 1663294
     },
     {
       "day": "2025-12-14",
@@ -16190,7 +16883,10 @@
       "storeTarget": 195120000,
       "custIn": 360,
       "custBuy": 350,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2182129,
+      "metaIg": 18678,
+      "metaTotal": 2200816
     },
     {
       "day": "2025-12-15",
@@ -16256,7 +16952,10 @@
       "storeTarget": 109100000,
       "custIn": 208,
       "custBuy": 198,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2079032,
+      "metaIg": 16691,
+      "metaTotal": 2095725
     },
     {
       "day": "2025-12-16",
@@ -16322,7 +17021,10 @@
       "storeTarget": 95125000,
       "custIn": 218,
       "custBuy": 212,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1818835,
+      "metaIg": 18201,
+      "metaTotal": 1837037
     },
     {
       "day": "2025-12-17",
@@ -16393,7 +17095,10 @@
       "storeTarget": 117050000,
       "custIn": 273,
       "custBuy": 270,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1853714,
+      "metaIg": 34656,
+      "metaTotal": 1888371
     },
     {
       "day": "2025-12-18",
@@ -16463,7 +17168,10 @@
       "storeTarget": 120250000,
       "custIn": 280,
       "custBuy": 269,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1812822,
+      "metaIg": 27000,
+      "metaTotal": 1839823
     },
     {
       "day": "2025-12-19",
@@ -16533,7 +17241,10 @@
       "storeTarget": 250650000,
       "custIn": 309,
       "custBuy": 296,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1964577,
+      "metaIg": 28271,
+      "metaTotal": 1992848
     },
     {
       "day": "2025-12-20",
@@ -16600,7 +17311,10 @@
       "storeTarget": 263950000,
       "custIn": 388,
       "custBuy": 375,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2047764,
+      "metaIg": 37315,
+      "metaTotal": 2085079
     },
     {
       "day": "2025-12-21",
@@ -16666,7 +17380,10 @@
       "storeTarget": 238200000,
       "custIn": 432,
       "custBuy": 415,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2678891,
+      "metaIg": 52256,
+      "metaTotal": 2731147
     },
     {
       "day": "2025-12-22",
@@ -16736,7 +17453,10 @@
       "storeTarget": 133500000,
       "custIn": 427,
       "custBuy": 422,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2639626,
+      "metaIg": 50963,
+      "metaTotal": 2690590
     },
     {
       "day": "2025-12-23",
@@ -16807,7 +17527,10 @@
       "storeTarget": 123925000,
       "custIn": 692,
       "custBuy": 683,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2773922,
+      "metaIg": 87126,
+      "metaTotal": 2861062
     },
     {
       "day": "2025-12-24",
@@ -16883,7 +17606,10 @@
       "storeTarget": 124225000,
       "custIn": 1318,
       "custBuy": 1306,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2915531,
+      "metaIg": 177937,
+      "metaTotal": 3093571
     },
     {
       "day": "2025-12-25",
@@ -16954,7 +17680,10 @@
       "storeTarget": 125850000,
       "custIn": 624,
       "custBuy": 612,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2533254,
+      "metaIg": 175561,
+      "metaTotal": 2708955
     },
     {
       "day": "2025-12-26",
@@ -17021,7 +17750,10 @@
       "storeTarget": 232100000,
       "custIn": 280,
       "custBuy": 293,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2395846,
+      "metaIg": 136032,
+      "metaTotal": 2531904
     },
     {
       "day": "2025-12-27",
@@ -17092,7 +17824,10 @@
       "storeTarget": 233700000,
       "custIn": 271,
       "custBuy": 263,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1087300,
+      "metaIg": 41923,
+      "metaTotal": 1129225
     },
     {
       "day": "2025-12-28",
@@ -17155,7 +17890,10 @@
       "storeTarget": 208350000,
       "custIn": 302,
       "custBuy": 288,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1306312,
+      "metaIg": 80649,
+      "metaTotal": 1386962
     },
     {
       "day": "2025-12-29",
@@ -17228,7 +17966,10 @@
       "storeTarget": 144515000,
       "custIn": 168,
       "custBuy": 163,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1473272,
+      "metaIg": 59315,
+      "metaTotal": 1532591
     },
     {
       "day": "2025-12-30",
@@ -17295,7 +18036,10 @@
       "storeTarget": 136990000,
       "custIn": 214,
       "custBuy": 207,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1300851,
+      "metaIg": 55445,
+      "metaTotal": 1356297
     },
     {
       "day": "2025-12-31",
@@ -17361,7 +18105,10 @@
       "storeTarget": 125250000,
       "custIn": 248,
       "custBuy": 245,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1119797,
+      "metaIg": 48045,
+      "metaTotal": 1167847
     },
     {
       "day": "2026-01-01",
@@ -17427,7 +18174,10 @@
       "storeTarget": 88240000,
       "custIn": 205,
       "custBuy": 196,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1164623,
+      "metaIg": 34958,
+      "metaTotal": 1199582
     },
     {
       "day": "2026-01-02",
@@ -17493,7 +18243,10 @@
       "storeTarget": 86690000,
       "custIn": 192,
       "custBuy": 188,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1212107,
+      "metaIg": 52719,
+      "metaTotal": 1264826
     },
     {
       "day": "2026-01-03",
@@ -17559,7 +18312,10 @@
       "storeTarget": 137660000,
       "custIn": 214,
       "custBuy": 204,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1064617,
+      "metaIg": 38647,
+      "metaTotal": 1103266
     },
     {
       "day": "2026-01-04",
@@ -17625,7 +18381,10 @@
       "storeTarget": 139680000,
       "custIn": 196,
       "custBuy": 187,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1541813,
+      "metaIg": 53352,
+      "metaTotal": 1595165
     },
     {
       "day": "2026-01-05",
@@ -17688,7 +18447,10 @@
       "storeTarget": 80997600,
       "custIn": 160,
       "custBuy": 155,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1252197,
+      "metaIg": 46766,
+      "metaTotal": 1298963
     },
     {
       "day": "2026-01-06",
@@ -17762,7 +18524,10 @@
       "storeTarget": 72470400,
       "custIn": 161,
       "custBuy": 149,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1002646,
+      "metaIg": 47001,
+      "metaTotal": 1049649
     },
     {
       "day": "2026-01-07",
@@ -17828,7 +18593,10 @@
       "storeTarget": 77470400,
       "custIn": 158,
       "custBuy": 150,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 949789,
+      "metaIg": 46417,
+      "metaTotal": 996206
     },
     {
       "day": "2026-01-08",
@@ -17894,7 +18662,10 @@
       "storeTarget": 79676000,
       "custIn": 155,
       "custBuy": 149,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1026943,
+      "metaIg": 46833,
+      "metaTotal": 1073776
     },
     {
       "day": "2026-01-09",
@@ -17960,7 +18731,10 @@
       "storeTarget": 90490400,
       "custIn": 151,
       "custBuy": 147,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 922975,
+      "metaIg": 43257,
+      "metaTotal": 966232
     },
     {
       "day": "2026-01-10",
@@ -18026,7 +18800,10 @@
       "storeTarget": 143272000,
       "custIn": 242,
       "custBuy": 239,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1059141,
+      "metaIg": 55282,
+      "metaTotal": 1114423
     },
     {
       "day": "2026-01-11",
@@ -18092,7 +18869,10 @@
       "storeTarget": 133096000,
       "custIn": 273,
       "custBuy": 267,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1427421,
+      "metaIg": 53803,
+      "metaTotal": 1481224
     },
     {
       "day": "2026-01-12",
@@ -18158,7 +18938,10 @@
       "storeTarget": 76188000,
       "custIn": 150,
       "custBuy": 144,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1496945,
+      "metaIg": 106427,
+      "metaTotal": 1603470
     },
     {
       "day": "2026-01-13",
@@ -18224,7 +19007,10 @@
       "storeTarget": 84182400,
       "custIn": 162,
       "custBuy": 155,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1545130,
+      "metaIg": 148231,
+      "metaTotal": 1693399
     },
     {
       "day": "2026-01-14",
@@ -18290,7 +19076,10 @@
       "storeTarget": 92965600,
       "custIn": 186,
       "custBuy": 179,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1522830,
+      "metaIg": 122991,
+      "metaTotal": 1646465
     },
     {
       "day": "2026-01-15",
@@ -18357,7 +19146,10 @@
       "storeTarget": 68967200,
       "custIn": 178,
       "custBuy": 170,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1663748,
+      "metaIg": 82537,
+      "metaTotal": 1746295
     },
     {
       "day": "2026-01-16",
@@ -18427,7 +19219,10 @@
       "storeTarget": 77856000,
       "custIn": 215,
       "custBuy": 208,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1665117,
+      "metaIg": 97534,
+      "metaTotal": 1762708
     },
     {
       "day": "2026-01-17",
@@ -18493,7 +19288,10 @@
       "storeTarget": 125856000,
       "custIn": 233,
       "custBuy": 221,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1584814,
+      "metaIg": 131177,
+      "metaTotal": 1715992
     },
     {
       "day": "2026-01-18",
@@ -18559,7 +19357,10 @@
       "storeTarget": 145324000,
       "custIn": 307,
       "custBuy": 285,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2291325,
+      "metaIg": 182868,
+      "metaTotal": 2474211
     },
     {
       "day": "2026-01-19",
@@ -18629,7 +19430,10 @@
       "storeTarget": 73079200,
       "custIn": 162,
       "custBuy": 150,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2079531,
+      "metaIg": 183821,
+      "metaTotal": 2263353
     },
     {
       "day": "2026-01-20",
@@ -18696,7 +19500,10 @@
       "storeTarget": 71712800,
       "custIn": 197,
       "custBuy": 166,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1737519,
+      "metaIg": 180077,
+      "metaTotal": 1917596
     },
     {
       "day": "2026-01-21",
@@ -18763,7 +19570,10 @@
       "storeTarget": 76161600,
       "custIn": 171,
       "custBuy": 155,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1725151,
+      "metaIg": 100732,
+      "metaTotal": 1825925
     },
     {
       "day": "2026-01-22",
@@ -18829,7 +19639,10 @@
       "storeTarget": 73704800,
       "custIn": 144,
       "custBuy": 137,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1729444,
+      "metaIg": 136487,
+      "metaTotal": 1865931
     },
     {
       "day": "2026-01-23",
@@ -18900,7 +19713,10 @@
       "storeTarget": 83697600,
       "custIn": 174,
       "custBuy": 159,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2076557,
+      "metaIg": 124659,
+      "metaTotal": 2201216
     },
     {
       "day": "2026-01-24",
@@ -18966,7 +19782,10 @@
       "storeTarget": 118280000,
       "custIn": 225,
       "custBuy": 211,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1829768,
+      "metaIg": 103466,
+      "metaTotal": 1933240
     },
     {
       "day": "2026-01-25",
@@ -19032,7 +19851,10 @@
       "storeTarget": 115568000,
       "custIn": 241,
       "custBuy": 219,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2482043,
+      "metaIg": 127395,
+      "metaTotal": 2609438
     },
     {
       "day": "2026-01-26",
@@ -19102,7 +19924,10 @@
       "storeTarget": 70428000,
       "custIn": 136,
       "custBuy": 122,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2471336,
+      "metaIg": 166443,
+      "metaTotal": 2637779
     },
     {
       "day": "2026-01-27",
@@ -19169,7 +19994,10 @@
       "storeTarget": 77257500,
       "custIn": 141,
       "custBuy": 127,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2218187,
+      "metaIg": 141102,
+      "metaTotal": 2359295
     },
     {
       "day": "2026-01-28",
@@ -19230,7 +20058,10 @@
       "storeTarget": 49840500,
       "custIn": 41,
       "custBuy": 42,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1973510,
+      "metaIg": 128757,
+      "metaTotal": 2102267
     },
     {
       "day": "2026-01-29",
@@ -19296,7 +20127,10 @@
       "storeTarget": 89258500,
       "custIn": 171,
       "custBuy": 169,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2141629,
+      "metaIg": 110272,
+      "metaTotal": 2251907
     },
     {
       "day": "2026-01-30",
@@ -19366,7 +20200,10 @@
       "storeTarget": 75879500,
       "custIn": 206,
       "custBuy": 201,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2382842,
+      "metaIg": 129174,
+      "metaTotal": 2512018
     },
     {
       "day": "2026-01-31",
@@ -19428,7 +20265,10 @@
       "storeTarget": 138962500,
       "custIn": 229,
       "custBuy": 218,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2375417,
+      "metaIg": 172785,
+      "metaTotal": 2548205
     },
     {
       "day": "2026-02-01",
@@ -19494,7 +20334,10 @@
       "storeTarget": 41374304,
       "custIn": 226,
       "custBuy": 211,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 3075791,
+      "metaIg": 192445,
+      "metaTotal": 3268240
     },
     {
       "day": "2026-02-02",
@@ -19560,7 +20403,10 @@
       "storeTarget": 106779367,
       "custIn": 160,
       "custBuy": 155,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 3063381,
+      "metaIg": 209674,
+      "metaTotal": 3273060
     },
     {
       "day": "2026-02-03",
@@ -19627,7 +20473,10 @@
       "storeTarget": 125120000,
       "custIn": 159,
       "custBuy": 148,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2139029,
+      "metaIg": 122267,
+      "metaTotal": 2261297
     },
     {
       "day": "2026-02-04",
@@ -19693,7 +20542,10 @@
       "storeTarget": 128928000,
       "custIn": 176,
       "custBuy": 160,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1678967,
+      "metaIg": 89300,
+      "metaTotal": 1768268
     },
     {
       "day": "2026-02-05",
@@ -19759,7 +20611,10 @@
       "storeTarget": 131886000,
       "custIn": 186,
       "custBuy": 177,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1767936,
+      "metaIg": 75026,
+      "metaTotal": 1842962
     },
     {
       "day": "2026-02-06",
@@ -19826,7 +20681,10 @@
       "storeTarget": 267852000,
       "custIn": 274,
       "custBuy": 253,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1824635,
+      "metaIg": 57231,
+      "metaTotal": 1881866
     },
     {
       "day": "2026-02-07",
@@ -19893,7 +20751,10 @@
       "storeTarget": 277401266,
       "custIn": 318,
       "custBuy": 299,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1677428,
+      "metaIg": 85647,
+      "metaTotal": 1763075
     },
     {
       "day": "2026-02-08",
@@ -19959,7 +20820,10 @@
       "storeTarget": 230588000,
       "custIn": 206,
       "custBuy": 190,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2291868,
+      "metaIg": 95201,
+      "metaTotal": 2387069
     },
     {
       "day": "2026-02-09",
@@ -20026,7 +20890,10 @@
       "storeTarget": 128554999,
       "custIn": 216,
       "custBuy": 200,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1792002,
+      "metaIg": 85071,
+      "metaTotal": 1877073
     },
     {
       "day": "2026-02-10",
@@ -20092,7 +20959,10 @@
       "storeTarget": 129464999,
       "custIn": 258,
       "custBuy": 242,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1224268,
+      "metaIg": 45820,
+      "metaTotal": 1270096
     },
     {
       "day": "2026-02-11",
@@ -20159,7 +21029,10 @@
       "storeTarget": 138755062,
       "custIn": 312,
       "custBuy": 303,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1282107,
+      "metaIg": 62160,
+      "metaTotal": 1344268
     },
     {
       "day": "2026-02-12",
@@ -20225,7 +21098,10 @@
       "storeTarget": 136604999,
       "custIn": 381,
       "custBuy": 360,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1540820,
+      "metaIg": 80131,
+      "metaTotal": 1620952
     },
     {
       "day": "2026-02-13",
@@ -20295,7 +21171,10 @@
       "storeTarget": 277830001,
       "custIn": 507,
       "custBuy": 497,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1525200,
+      "metaIg": 99304,
+      "metaTotal": 1624504
     },
     {
       "day": "2026-02-14",
@@ -20361,7 +21240,10 @@
       "storeTarget": 326160128,
       "custIn": 546,
       "custBuy": 532,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1170291,
+      "metaIg": 77561,
+      "metaTotal": 1247852
     },
     {
       "day": "2026-02-15",
@@ -20406,7 +21288,10 @@
       "storeTarget": 90339874,
       "custIn": 33,
       "custBuy": 29,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 470878,
+      "metaIg": 61727,
+      "metaTotal": 532606
     },
     {
       "day": "2026-02-16",
@@ -20427,7 +21312,10 @@
       "storeTarget": 0,
       "custIn": 0,
       "custBuy": 0,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 0,
+      "metaIg": 0,
+      "metaTotal": 0
     },
     {
       "day": "2026-02-17",
@@ -20448,7 +21336,10 @@
       "storeTarget": 0,
       "custIn": 0,
       "custBuy": 0,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 0,
+      "metaIg": 0,
+      "metaTotal": 0
     },
     {
       "day": "2026-02-18",
@@ -20469,7 +21360,10 @@
       "storeTarget": 0,
       "custIn": 0,
       "custBuy": 0,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 0,
+      "metaIg": 0,
+      "metaTotal": 0
     },
     {
       "day": "2026-02-19",
@@ -20490,7 +21384,10 @@
       "storeTarget": 0,
       "custIn": 0,
       "custBuy": 0,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 0,
+      "metaIg": 0,
+      "metaTotal": 0
     },
     {
       "day": "2026-02-20",
@@ -20544,7 +21441,10 @@
       "storeTarget": 25165822,
       "custIn": 104,
       "custBuy": 99,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 0,
+      "metaIg": 0,
+      "metaTotal": 0
     },
     {
       "day": "2026-02-21",
@@ -20597,7 +21497,10 @@
       "storeTarget": 27350063,
       "custIn": 137,
       "custBuy": 132,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1498611,
+      "metaIg": 48304,
+      "metaTotal": 1546915
     },
     {
       "day": "2026-02-22",
@@ -20662,7 +21565,10 @@
       "storeTarget": 105310063,
       "custIn": 277,
       "custBuy": 249,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1304001,
+      "metaIg": 68267,
+      "metaTotal": 1372269
     },
     {
       "day": "2026-02-23",
@@ -20725,7 +21631,10 @@
       "storeTarget": 99158411,
       "custIn": 263,
       "custBuy": 244,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1455417,
+      "metaIg": 64541,
+      "metaTotal": 1519958
     },
     {
       "day": "2026-02-24",
@@ -20791,7 +21700,10 @@
       "storeTarget": 97221322,
       "custIn": 235,
       "custBuy": 227,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1156008,
+      "metaIg": 61738,
+      "metaTotal": 1217746
     },
     {
       "day": "2026-02-25",
@@ -20857,7 +21769,10 @@
       "storeTarget": 102255911,
       "custIn": 216,
       "custBuy": 201,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1206056,
+      "metaIg": 108276,
+      "metaTotal": 1314332
     },
     {
       "day": "2026-02-26",
@@ -20920,7 +21835,10 @@
       "storeTarget": 112405822,
       "custIn": 228,
       "custBuy": 212,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2051704,
+      "metaIg": 140286,
+      "metaTotal": 2191991
     },
     {
       "day": "2026-02-27",
@@ -20990,7 +21908,10 @@
       "storeTarget": 151845217,
       "custIn": 289,
       "custBuy": 269,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2881533,
+      "metaIg": 165788,
+      "metaTotal": 3047326
     },
     {
       "day": "2026-02-28",
@@ -21060,7 +21981,10 @@
       "storeTarget": 144045215,
       "custIn": 365,
       "custBuy": 346,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2923369,
+      "metaIg": 183152,
+      "metaTotal": 3106559
     },
     {
       "day": "2026-03-01",
@@ -21126,7 +22050,10 @@
       "storeTarget": 111804000,
       "custIn": 329,
       "custBuy": 304,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 3039702,
+      "metaIg": 261706,
+      "metaTotal": 3301460
     },
     {
       "day": "2026-03-02",
@@ -21196,7 +22123,10 @@
       "storeTarget": 118524000,
       "custIn": 222,
       "custBuy": 200,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2605311,
+      "metaIg": 260342,
+      "metaTotal": 2865667
     },
     {
       "day": "2026-03-03",
@@ -21263,7 +22193,10 @@
       "storeTarget": 136164000,
       "custIn": 268,
       "custBuy": 250,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 4262316,
+      "metaIg": 429119,
+      "metaTotal": 4691551
     },
     {
       "day": "2026-03-04",
@@ -21330,7 +22263,10 @@
       "storeTarget": 118776000,
       "custIn": 286,
       "custBuy": 263,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 4431211,
+      "metaIg": 378868,
+      "metaTotal": 4810098
     },
     {
       "day": "2026-03-05",
@@ -21396,7 +22332,10 @@
       "storeTarget": 137760000,
       "custIn": 437,
       "custBuy": 406,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 3547199,
+      "metaIg": 310927,
+      "metaTotal": 3858153
     },
     {
       "day": "2026-03-06",
@@ -21462,7 +22401,10 @@
       "storeTarget": 172550000,
       "custIn": 636,
       "custBuy": 597,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 4210611,
+      "metaIg": 398881,
+      "metaTotal": 4609642
     },
     {
       "day": "2026-03-07",
@@ -21528,7 +22470,10 @@
       "storeTarget": 375250000,
       "custIn": 1151,
       "custBuy": 1113,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 4032379,
+      "metaIg": 230502,
+      "metaTotal": 4262956
     },
     {
       "day": "2026-03-08",
@@ -21593,7 +22538,10 @@
       "storeTarget": 514125000,
       "custIn": 1666,
       "custBuy": 1640,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 7448067,
+      "metaIg": 817484,
+      "metaTotal": 8265607
     },
     {
       "day": "2026-03-09",
@@ -21663,7 +22611,10 @@
       "storeTarget": 133776000,
       "custIn": 677,
       "custBuy": 641,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2977969,
+      "metaIg": 478005,
+      "metaTotal": 3455974
     },
     {
       "day": "2026-03-10",
@@ -21733,7 +22684,10 @@
       "storeTarget": 100320000,
       "custIn": 276,
       "custBuy": 254,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2561310,
+      "metaIg": 289658,
+      "metaTotal": 2850983
     },
     {
       "day": "2026-03-11",
@@ -21799,7 +22753,10 @@
       "storeTarget": 102096000,
       "custIn": 267,
       "custBuy": 247,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1153945,
+      "metaIg": 61543,
+      "metaTotal": 1215488
     },
     {
       "day": "2026-03-12",
@@ -21870,7 +22827,10 @@
       "storeTarget": 116506000,
       "custIn": 254,
       "custBuy": 227,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1054475,
+      "metaIg": 62406,
+      "metaTotal": 1116882
     },
     {
       "day": "2026-03-13",
@@ -21936,7 +22896,10 @@
       "storeTarget": 135694000,
       "custIn": 245,
       "custBuy": 220,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1088226,
+      "metaIg": 51651,
+      "metaTotal": 1139877
     },
     {
       "day": "2026-03-14",
@@ -22003,7 +22966,10 @@
       "storeTarget": 174250000,
       "custIn": 469,
       "custBuy": 436,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 681838,
+      "metaIg": 43568,
+      "metaTotal": 725406
     },
     {
       "day": "2026-03-15",
@@ -22073,7 +23039,10 @@
       "storeTarget": 160344000,
       "custIn": 327,
       "custBuy": 300,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1035608,
+      "metaIg": 60740,
+      "metaTotal": 1096348
     },
     {
       "day": "2026-03-16",
@@ -22139,7 +23108,10 @@
       "storeTarget": 105600000,
       "custIn": 209,
       "custBuy": 179,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 652390,
+      "metaIg": 39419,
+      "metaTotal": 691809
     },
     {
       "day": "2026-03-17",
@@ -22209,7 +23181,10 @@
       "storeTarget": 131280000,
       "custIn": 205,
       "custBuy": 179,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 820271,
+      "metaIg": 37327,
+      "metaTotal": 857598
     },
     {
       "day": "2026-03-18",
@@ -22275,7 +23250,10 @@
       "storeTarget": 117504000,
       "custIn": 206,
       "custBuy": 193,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 885451,
+      "metaIg": 40256,
+      "metaTotal": 925707
     },
     {
       "day": "2026-03-19",
@@ -22341,7 +23319,10 @@
       "storeTarget": 109506000,
       "custIn": 166,
       "custBuy": 147,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 777457,
+      "metaIg": 30556,
+      "metaTotal": 808016
     },
     {
       "day": "2026-03-20",
@@ -22408,7 +23389,10 @@
       "storeTarget": 150348000,
       "custIn": 187,
       "custBuy": 171,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 640215,
+      "metaIg": 35653,
+      "metaTotal": 675868
     },
     {
       "day": "2026-03-21",
@@ -22478,7 +23462,10 @@
       "storeTarget": 146404000,
       "custIn": 304,
       "custBuy": 285,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1067331,
+      "metaIg": 46823,
+      "metaTotal": 1114154
     },
     {
       "day": "2026-03-22",
@@ -22544,7 +23531,10 @@
       "storeTarget": 143016000,
       "custIn": 265,
       "custBuy": 241,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 969883,
+      "metaIg": 33354,
+      "metaTotal": 1003237
     },
     {
       "day": "2026-03-23",
@@ -22614,7 +23604,10 @@
       "storeTarget": 109584000,
       "custIn": 143,
       "custBuy": 128,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1619289,
+      "metaIg": 82600,
+      "metaTotal": 1701889
     },
     {
       "day": "2026-03-24",
@@ -22681,7 +23674,10 @@
       "storeTarget": 78120000,
       "custIn": 167,
       "custBuy": 153,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1495432,
+      "metaIg": 78419,
+      "metaTotal": 1573851
     },
     {
       "day": "2026-03-25",
@@ -22748,7 +23744,10 @@
       "storeTarget": 91704000,
       "custIn": 181,
       "custBuy": 164,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1007800,
+      "metaIg": 30780,
+      "metaTotal": 1038580
     },
     {
       "day": "2026-03-26",
@@ -22811,7 +23810,10 @@
       "storeTarget": 102590000,
       "custIn": 164,
       "custBuy": 150,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1353670,
+      "metaIg": 35005,
+      "metaTotal": 1388675
     },
     {
       "day": "2026-03-27",
@@ -22875,7 +23877,10 @@
       "storeTarget": 117232000,
       "custIn": 183,
       "custBuy": 174,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1530738,
+      "metaIg": 115453,
+      "metaTotal": 1646210
     },
     {
       "day": "2026-03-28",
@@ -22939,7 +23944,10 @@
       "storeTarget": 123534000,
       "custIn": 245,
       "custBuy": 231,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1218381,
+      "metaIg": 57707,
+      "metaTotal": 1276088
     },
     {
       "day": "2026-03-29",
@@ -23003,7 +24011,10 @@
       "storeTarget": 132486000,
       "custIn": 191,
       "custBuy": 174,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 737934,
+      "metaIg": 34001,
+      "metaTotal": 771935
     },
     {
       "day": "2026-03-30",
@@ -23065,7 +24076,10 @@
       "storeTarget": 94950000,
       "custIn": 129,
       "custBuy": 117,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1086357,
+      "metaIg": 38952,
+      "metaTotal": 1125309
     },
     {
       "day": "2026-03-31",
@@ -23127,7 +24141,10 @@
       "storeTarget": 82915000,
       "custIn": 161,
       "custBuy": 153,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1309449,
+      "metaIg": 45710,
+      "metaTotal": 1355159
     },
     {
       "day": "2026-04-01",
@@ -23196,7 +24213,10 @@
       "storeTarget": 80832000,
       "custIn": 147,
       "custBuy": 131,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1438650,
+      "metaIg": 71163,
+      "metaTotal": 1509813
     },
     {
       "day": "2026-04-02",
@@ -23261,7 +24281,10 @@
       "storeTarget": 75757500,
       "custIn": 159,
       "custBuy": 146,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1393261,
+      "metaIg": 125249,
+      "metaTotal": 1518510
     },
     {
       "day": "2026-04-03",
@@ -23327,7 +24350,10 @@
       "storeTarget": 116552000,
       "custIn": 166,
       "custBuy": 153,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1632211,
+      "metaIg": 94709,
+      "metaTotal": 1726920
     },
     {
       "day": "2026-04-04",
@@ -23389,7 +24415,10 @@
       "storeTarget": 138635000,
       "custIn": 259,
       "custBuy": 237,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 911326,
+      "metaIg": 67944,
+      "metaTotal": 979270
     },
     {
       "day": "2026-04-05",
@@ -23451,7 +24480,10 @@
       "storeTarget": 156230000,
       "custIn": 245,
       "custBuy": 219,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1842437,
+      "metaIg": 178123,
+      "metaTotal": 2020560
     },
     {
       "day": "2026-04-06",
@@ -23517,7 +24549,10 @@
       "storeTarget": 90499200,
       "custIn": 147,
       "custBuy": 125,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1350078,
+      "metaIg": 104184,
+      "metaTotal": 1454262
     },
     {
       "day": "2026-04-07",
@@ -23582,7 +24617,10 @@
       "storeTarget": 89280400,
       "custIn": 143,
       "custBuy": 129,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1341058,
+      "metaIg": 65917,
+      "metaTotal": 1406975
     },
     {
       "day": "2026-04-08",
@@ -23647,7 +24685,10 @@
       "storeTarget": 72732000,
       "custIn": 153,
       "custBuy": 139,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1166078,
+      "metaIg": 110291,
+      "metaTotal": 1276371
     },
     {
       "day": "2026-04-09",
@@ -23712,7 +24753,10 @@
       "storeTarget": 86803200,
       "custIn": 146,
       "custBuy": 137,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1081180,
+      "metaIg": 95444,
+      "metaTotal": 1176624
     },
     {
       "day": "2026-04-10",
@@ -23777,7 +24821,10 @@
       "storeTarget": 131654800,
       "custIn": 195,
       "custBuy": 179,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 752464,
+      "metaIg": 61420,
+      "metaTotal": 813884
     },
     {
       "day": "2026-04-11",
@@ -23837,7 +24884,10 @@
       "storeTarget": 172451600,
       "custIn": 225,
       "custBuy": 211,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1048690,
+      "metaIg": 95862,
+      "metaTotal": 1144552
     },
     {
       "day": "2026-04-12",
@@ -23898,7 +24948,10 @@
       "storeTarget": 167572400,
       "custIn": 232,
       "custBuy": 202,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 623810,
+      "metaIg": 45133,
+      "metaTotal": 668943
     },
     {
       "day": "2026-04-13",
@@ -23958,7 +25011,10 @@
       "storeTarget": 80405600,
       "custIn": 154,
       "custBuy": 137,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 928886,
+      "metaIg": 31018,
+      "metaTotal": 959904
     },
     {
       "day": "2026-04-14",
@@ -24023,7 +25079,10 @@
       "storeTarget": 75108000,
       "custIn": 131,
       "custBuy": 122,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 691133,
+      "metaIg": 24693,
+      "metaTotal": 715826
     },
     {
       "day": "2026-04-15",
@@ -24088,7 +25147,10 @@
       "storeTarget": 71618800,
       "custIn": 136,
       "custBuy": 121,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1100948,
+      "metaIg": 110310,
+      "metaTotal": 1211258
     },
     {
       "day": "2026-04-16",
@@ -24153,7 +25215,10 @@
       "storeTarget": 84753600,
       "custIn": 152,
       "custBuy": 145,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 869073,
+      "metaIg": 46982,
+      "metaTotal": 916055
     },
     {
       "day": "2026-04-17",
@@ -24222,7 +25287,10 @@
       "storeTarget": 133198400,
       "custIn": 189,
       "custBuy": 172,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 875161,
+      "metaIg": 45439,
+      "metaTotal": 920600
     },
     {
       "day": "2026-04-18",
@@ -24287,7 +25355,10 @@
       "storeTarget": 153026000,
       "custIn": 216,
       "custBuy": 198,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1111882,
+      "metaIg": 68764,
+      "metaTotal": 1180646
     },
     {
       "day": "2026-04-19",
@@ -24356,7 +25427,10 @@
       "storeTarget": 126669200,
       "custIn": 218,
       "custBuy": 199,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 657680,
+      "metaIg": 60364,
+      "metaTotal": 718061
     },
     {
       "day": "2026-04-20",
@@ -24422,7 +25496,10 @@
       "storeTarget": 59505600,
       "custIn": 154,
       "custBuy": 140,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 829498,
+      "metaIg": 68040,
+      "metaTotal": 897542
     },
     {
       "day": "2026-04-21",
@@ -24487,7 +25564,10 @@
       "storeTarget": 78746800,
       "custIn": 135,
       "custBuy": 120,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1114644,
+      "metaIg": 126817,
+      "metaTotal": 1241461
     },
     {
       "day": "2026-04-22",
@@ -24553,7 +25633,10 @@
       "storeTarget": 77299200,
       "custIn": 161,
       "custBuy": 151,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 842381,
+      "metaIg": 79533,
+      "metaTotal": 921914
     },
     {
       "day": "2026-04-23",
@@ -24618,7 +25701,10 @@
       "storeTarget": 77438400,
       "custIn": 181,
       "custBuy": 164,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 591715,
+      "metaIg": 56618,
+      "metaTotal": 648333
     },
     {
       "day": "2026-04-24",
@@ -24683,7 +25769,10 @@
       "storeTarget": 114525600,
       "custIn": 177,
       "custBuy": 170,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 775307,
+      "metaIg": 38877,
+      "metaTotal": 814184
     },
     {
       "day": "2026-04-25",
@@ -24748,7 +25837,10 @@
       "storeTarget": 139300400,
       "custIn": 177,
       "custBuy": 165,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 556741,
+      "metaIg": 65078,
+      "metaTotal": 621819
     },
     {
       "day": "2026-04-26",
@@ -24813,7 +25905,10 @@
       "storeTarget": 123750800,
       "custIn": 177,
       "custBuy": 164,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 777476,
+      "metaIg": 68685,
+      "metaTotal": 846161
     },
     {
       "day": "2026-04-27",
@@ -24878,7 +25973,10 @@
       "storeTarget": 69272500,
       "custIn": 112,
       "custBuy": 101,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 785570,
+      "metaIg": 58065,
+      "metaTotal": 843635
     },
     {
       "day": "2026-04-28",
@@ -24938,7 +26036,10 @@
       "storeTarget": 71265000,
       "custIn": 139,
       "custBuy": 129,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 963568,
+      "metaIg": 65102,
+      "metaTotal": 1028670
     },
     {
       "day": "2026-04-29",
@@ -25003,7 +26104,10 @@
       "storeTarget": 69230000,
       "custIn": 164,
       "custBuy": 149,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1395496,
+      "metaIg": 107915,
+      "metaTotal": 1503411
     },
     {
       "day": "2026-04-30",
@@ -25068,7 +26172,10 @@
       "storeTarget": 61710000,
       "custIn": 118,
       "custBuy": 109,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 916456,
+      "metaIg": 68860,
+      "metaTotal": 985316
     },
     {
       "day": "2026-05-01",
@@ -25133,7 +26240,10 @@
       "storeTarget": 77796000,
       "custIn": 119,
       "custBuy": 107,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 789275,
+      "metaIg": 58719,
+      "metaTotal": 847994
     },
     {
       "day": "2026-05-02",
@@ -25198,7 +26308,10 @@
       "storeTarget": 89166000,
       "custIn": 125,
       "custBuy": 114,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 929015,
+      "metaIg": 48677,
+      "metaTotal": 977692
     },
     {
       "day": "2026-05-03",
@@ -25263,7 +26376,10 @@
       "storeTarget": 96936000,
       "custIn": 128,
       "custBuy": 118,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 798081,
+      "metaIg": 10148,
+      "metaTotal": 808229
     },
     {
       "day": "2026-05-04",
@@ -25323,7 +26439,10 @@
       "storeTarget": 65643600,
       "custIn": 162,
       "custBuy": 148,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1349219,
+      "metaIg": 69622,
+      "metaTotal": 1418875
     },
     {
       "day": "2026-05-05",
@@ -25388,7 +26507,10 @@
       "storeTarget": 84348000,
       "custIn": 145,
       "custBuy": 132,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1773047,
+      "metaIg": 155825,
+      "metaTotal": 1928872
     },
     {
       "day": "2026-05-06",
@@ -25454,7 +26576,10 @@
       "storeTarget": 77946000,
       "custIn": 141,
       "custBuy": 127,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1386677,
+      "metaIg": 156996,
+      "metaTotal": 1543678
     },
     {
       "day": "2026-05-07",
@@ -25519,7 +26644,10 @@
       "storeTarget": 79807200,
       "custIn": 165,
       "custBuy": 154,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2729958,
+      "metaIg": 279765,
+      "metaTotal": 3009727
     },
     {
       "day": "2026-05-08",
@@ -25588,7 +26716,10 @@
       "storeTarget": 127001600,
       "custIn": 180,
       "custBuy": 172,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1788572,
+      "metaIg": 67742,
+      "metaTotal": 1856314
     },
     {
       "day": "2026-05-09",
@@ -25652,7 +26783,10 @@
       "storeTarget": 144262800,
       "custIn": 201,
       "custBuy": 193,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1926639,
+      "metaIg": 59046,
+      "metaTotal": 1985686
     },
     {
       "day": "2026-05-10",
@@ -25716,7 +26850,10 @@
       "storeTarget": 142144200,
       "custIn": 215,
       "custBuy": 208,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1486617,
+      "metaIg": 90762,
+      "metaTotal": 1577379
     },
     {
       "day": "2026-05-11",
@@ -25781,7 +26918,10 @@
       "storeTarget": 72811200,
       "custIn": 122,
       "custBuy": 116,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1003550,
+      "metaIg": 97588,
+      "metaTotal": 1101138
     },
     {
       "day": "2026-05-12",
@@ -25845,7 +26985,10 @@
       "storeTarget": 79015200,
       "custIn": 146,
       "custBuy": 138,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2010507,
+      "metaIg": 103207,
+      "metaTotal": 2113716
     },
     {
       "day": "2026-05-13",
@@ -25910,7 +27053,10 @@
       "storeTarget": 89971200,
       "custIn": 123,
       "custBuy": 117,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1006698,
+      "metaIg": 79893,
+      "metaTotal": 1086591
     },
     {
       "day": "2026-05-14",
@@ -25974,7 +27120,10 @@
       "storeTarget": 72837600,
       "custIn": 128,
       "custBuy": 117,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1012811,
+      "metaIg": 48839,
+      "metaTotal": 1061650
     },
     {
       "day": "2026-05-15",
@@ -26039,7 +27188,10 @@
       "storeTarget": 120612800,
       "custIn": 171,
       "custBuy": 154,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1245078,
+      "metaIg": 93758,
+      "metaTotal": 1338836
     },
     {
       "day": "2026-05-16",
@@ -26104,7 +27256,10 @@
       "storeTarget": 134362800,
       "custIn": 226,
       "custBuy": 210,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2152142,
+      "metaIg": 187503,
+      "metaTotal": 2339645
     },
     {
       "day": "2026-05-17",
@@ -26169,7 +27324,10 @@
       "storeTarget": 123274800,
       "custIn": 185,
       "custBuy": 173,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2104558,
+      "metaIg": 132230,
+      "metaTotal": 2236788
     },
     {
       "day": "2026-05-18",
@@ -26234,7 +27392,10 @@
       "storeTarget": 78553200,
       "custIn": 133,
       "custBuy": 122,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1608108,
+      "metaIg": 78550,
+      "metaTotal": 1686658
     },
     {
       "day": "2026-05-19",
@@ -26299,7 +27460,10 @@
       "storeTarget": 81496800,
       "custIn": 141,
       "custBuy": 132,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1935034,
+      "metaIg": 140375,
+      "metaTotal": 2075409
     },
     {
       "day": "2026-05-20",
@@ -26368,7 +27532,10 @@
       "storeTarget": 58357200,
       "custIn": 130,
       "custBuy": 135,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1925528,
+      "metaIg": 108577,
+      "metaTotal": 2034105
     },
     {
       "day": "2026-05-21",
@@ -26437,7 +27604,10 @@
       "storeTarget": 89746800,
       "custIn": 161,
       "custBuy": 148,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1850517,
+      "metaIg": 132932,
+      "metaTotal": 1983449
     },
     {
       "day": "2026-05-22",
@@ -26503,7 +27673,10 @@
       "storeTarget": 124590400,
       "custIn": 183,
       "custBuy": 171,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2320496,
+      "metaIg": 186470,
+      "metaTotal": 2511484
     },
     {
       "day": "2026-05-23",
@@ -26572,7 +27745,10 @@
       "storeTarget": 117691200,
       "custIn": 251,
       "custBuy": 234,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2530691,
+      "metaIg": 153151,
+      "metaTotal": 2685092
     },
     {
       "day": "2026-05-24",
@@ -26641,7 +27817,10 @@
       "storeTarget": 119572200,
       "custIn": 207,
       "custBuy": 189,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1849761,
+      "metaIg": 119083,
+      "metaTotal": 1968844
     },
     {
       "day": "2026-05-25",
@@ -26706,7 +27885,10 @@
       "storeTarget": 77814000,
       "custIn": 144,
       "custBuy": 127,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1586776,
+      "metaIg": 98522,
+      "metaTotal": 1685298
     },
     {
       "day": "2026-05-26",
@@ -26771,7 +27953,10 @@
       "storeTarget": 64350000,
       "custIn": 142,
       "custBuy": 133,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2235421,
+      "metaIg": 204239,
+      "metaTotal": 2454727
     },
     {
       "day": "2026-05-27",
@@ -26840,7 +28025,10 @@
       "storeTarget": 67544400,
       "custIn": 142,
       "custBuy": 130,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2934064,
+      "metaIg": 405409,
+      "metaTotal": 3382612
     },
     {
       "day": "2026-05-28",
@@ -26905,7 +28093,10 @@
       "storeTarget": 85879200,
       "custIn": 135,
       "custBuy": 126,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 3644170,
+      "metaIg": 356671,
+      "metaTotal": 4018324
     },
     {
       "day": "2026-05-29",
@@ -26965,7 +28156,10 @@
       "storeTarget": 106761600,
       "custIn": 219,
       "custBuy": 204,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 4820903,
+      "metaIg": 421720,
+      "metaTotal": 5273336
     },
     {
       "day": "2026-05-30",
@@ -27034,7 +28228,10 @@
       "storeTarget": 112701600,
       "custIn": 240,
       "custBuy": 224,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 3189919,
+      "metaIg": 213943,
+      "metaTotal": 3417813
     },
     {
       "day": "2026-05-31",
@@ -27103,7 +28300,10 @@
       "storeTarget": 128007000,
       "custIn": 396,
       "custBuy": 380,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 3078069,
+      "metaIg": 234375,
+      "metaTotal": 3326423
     },
     {
       "day": "2026-06-01",
@@ -27172,7 +28372,10 @@
       "storeTarget": 278712000,
       "custIn": 867,
       "custBuy": 849,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 4321402,
+      "metaIg": 513698,
+      "metaTotal": 4841053
     },
     {
       "day": "2026-06-02",
@@ -27241,7 +28444,10 @@
       "storeTarget": 93268000,
       "custIn": 235,
       "custBuy": 221,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 3062634,
+      "metaIg": 338336,
+      "metaTotal": 3400974
     },
     {
       "day": "2026-06-03",
@@ -27310,7 +28516,10 @@
       "storeTarget": 103650400,
       "custIn": 173,
       "custBuy": 162,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1517435,
+      "metaIg": 136517,
+      "metaTotal": 1653952
     },
     {
       "day": "2026-06-04",
@@ -27379,7 +28588,10 @@
       "storeTarget": 101725600,
       "custIn": 149,
       "custBuy": 134,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2119446,
+      "metaIg": 115040,
+      "metaTotal": 2234486
     },
     {
       "day": "2026-06-05",
@@ -27448,7 +28660,10 @@
       "storeTarget": 129655680,
       "custIn": 187,
       "custBuy": 167,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1962451,
+      "metaIg": 107060,
+      "metaTotal": 2069511
     },
     {
       "day": "2026-06-06",
@@ -27512,7 +28727,10 @@
       "storeTarget": 156611600,
       "custIn": 209,
       "custBuy": 185,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1574374,
+      "metaIg": 143625,
+      "metaTotal": 1717999
     },
     {
       "day": "2026-06-07",
@@ -27580,7 +28798,10 @@
       "storeTarget": 165808800,
       "custIn": 199,
       "custBuy": 176,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2078870,
+      "metaIg": 203177,
+      "metaTotal": 2282091
     },
     {
       "day": "2026-06-08",
@@ -27611,7 +28832,10 @@
       "storeTarget": 87696000,
       "custIn": 87,
       "custBuy": 71,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2107713,
+      "metaIg": 192222,
+      "metaTotal": 2299935
     },
     {
       "day": "2026-06-09",
@@ -27680,7 +28904,10 @@
       "storeTarget": 74956800,
       "custIn": 146,
       "custBuy": 128,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1868044,
+      "metaIg": 95837,
+      "metaTotal": 1963881
     },
     {
       "day": "2026-06-10",
@@ -27749,7 +28976,10 @@
       "storeTarget": 70512000,
       "custIn": 143,
       "custBuy": 126,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1202785,
+      "metaIg": 160777,
+      "metaTotal": 1363562
     },
     {
       "day": "2026-06-11",
@@ -27814,7 +29044,10 @@
       "storeTarget": 81120000,
       "custIn": 149,
       "custBuy": 133,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1162293,
+      "metaIg": 120715,
+      "metaTotal": 1283008
     },
     {
       "day": "2026-06-12",
@@ -27883,7 +29116,10 @@
       "storeTarget": 122848000,
       "custIn": 141,
       "custBuy": 123,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1130142,
+      "metaIg": 124471,
+      "metaTotal": 1265300
     },
     {
       "day": "2026-06-13",
@@ -27947,7 +29183,10 @@
       "storeTarget": 141357600,
       "custIn": 198,
       "custBuy": 182,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1700126,
+      "metaIg": 142383,
+      "metaTotal": 1842509
     },
     {
       "day": "2026-06-14",
@@ -28012,16 +29251,19 @@
       "storeTarget": 116928000,
       "custIn": 195,
       "custBuy": 180,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1649599,
+      "metaIg": 124796,
+      "metaTotal": 1774395
     },
     {
       "day": "2026-06-15",
       "online": {},
-      "onlineRev": 18495000,
+      "onlineRev": 29170000,
       "onlineRev31": 0,
-      "onlineOrders": 27,
-      "onlineProducts": 434,
-      "onlineTarget": 31000000,
+      "onlineOrders": 34,
+      "onlineProducts": 441,
+      "onlineTarget": 41000000,
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
@@ -28044,7 +29286,10 @@
       "storeTarget": 97027200,
       "custIn": 117,
       "custBuy": 98,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 2115594,
+      "metaIg": 233505,
+      "metaTotal": 2356004
     },
     {
       "day": "2026-06-16",
@@ -28065,52 +29310,55 @@
       "storeTarget": 0,
       "custIn": 0,
       "custBuy": 0,
-      "memonRev": 0
+      "memonRev": 0,
+      "metaFb": 1063603,
+      "metaIg": 80334,
+      "metaTotal": 1146289
     }
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 1011332809,
-    "onlineOrders": 1459,
-    "onlineAov": 693168,
+    "onlineRevenue": 1022007809,
+    "onlineOrders": 1466,
+    "onlineAov": 697140,
     "channels": [
       {
         "name": "Zalo",
-        "orders": 628,
-        "revenue": 435054056,
-        "aov": 692761,
+        "orders": 631,
+        "revenue": 439646216,
+        "aov": 696745,
         "share": 43,
         "est": true
       },
       {
         "name": "Facebook",
-        "orders": 541,
-        "revenue": 375238277,
-        "aov": 693601,
+        "orders": 544,
+        "revenue": 379199059,
+        "aov": 697057,
         "share": 37,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
         "orders": 115,
-        "revenue": 79385181,
-        "aov": 690306,
+        "revenue": 80223122,
+        "aov": 697592,
         "share": 8,
         "est": true
       },
       {
         "name": "Instagram",
         "orders": 100,
-        "revenue": 69222840,
-        "aov": 692228,
+        "revenue": 69953514,
+        "aov": 699535,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
         "orders": 76,
-        "revenue": 52432455,
-        "aov": 689901,
+        "revenue": 52985899,
+        "aov": 697183,
         "share": 5,
         "est": true
       }
@@ -28120,23 +29368,23 @@
     "walkinRevenue": 2661343661,
     "walkinOrders": 5390,
     "marketingRevenue": 468065752,
-    "marketingOrdersEst": 675,
+    "marketingOrdersEst": 671,
     "custIn": 5819,
     "closeRate": 93,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3672676470,
-    "salesCount": 1459,
+    "totalRevenue": 3683351470,
+    "salesCount": 1466,
     "byType": {
-      "Online": 1011332809,
+      "Online": 1022007809,
       "Cửa hàng": 2661343661
     },
     "onlinePct": 28,
     "storePct": 72
   },
   "brands": {
-    "Bemori": 3672676470,
+    "Bemori": 3683351470,
     "Memon": 0
   }
 }
