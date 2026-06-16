@@ -29,6 +29,17 @@
   .kpi.accent{border-color:var(--blue);border-width:2px;}
   .kpi .label{font-size:13px;color:var(--muted);margin-bottom:6px;}
   .kpi .val{font-size:25px;font-weight:700;letter-spacing:-0.5px;}
+  /* The so sanh tach biet (moi muc 1 the) */
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:14px;margin-bottom:18px;}
+  .ccard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 17px;border-top:3px solid var(--line);}
+  .ctitle{font-weight:600;font-size:14px;display:flex;align-items:center;gap:8px;margin-bottom:4px;}
+  .cmain{font-size:26px;font-weight:700;letter-spacing:-0.5px;margin:2px 0 12px;}
+  .cmain small{font-size:12px;font-weight:500;color:var(--muted);margin-left:4px;}
+  .cmetrics{display:grid;grid-template-columns:1fr 1fr;gap:5px 16px;}
+  .cm{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;border-top:1px solid var(--line);padding-top:5px;}
+  .cm span{color:var(--muted);}
+  .cm b{font-weight:600;}
+  .cm b.mut{color:var(--muted);font-weight:500;font-style:italic;}
   .grid2{display:grid;grid-template-columns:1.15fr 0.85fr;gap:16px;margin-bottom:16px;}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;}
   .panel h2{font-size:15px;font-weight:600;margin:0 0 14px;display:flex;justify-content:space-between;align-items:center;gap:8px;}
@@ -42,6 +53,7 @@
   th{color:var(--muted);font-weight:500;}
   td.name{display:flex;align-items:center;gap:8px;}
   .note{font-size:13px;color:var(--muted);padding:8px 0;}
+  td.mut,span.mut{color:var(--muted);}
   footer{margin-top:24px;font-size:12px;color:var(--muted);text-align:center;}
   @media(max-width:760px){.grid2{grid-template-columns:1fr;}}
 </style>
@@ -87,7 +99,7 @@
     </div>
   </div>
 
-  <div class="kpis" id="kpis"></div>
+  <div class="cards" id="cards"></div>
 
   <div class="panel" style="margin-bottom:16px;">
     <h2><span id="trendTitle">Xu hướng doanh thu</span><span id="granLabel" style="font-size:12px;color:var(--muted);font-weight:400;"></span></h2>
@@ -198,90 +210,95 @@
     var on=sumOnline(slice),stW=sumStore(slice),mktCH=sumStoreOnline(slice),mem=sumMemon(slice);
     var P={grid2:document.querySelector('.grid2'),store:document.getElementById('storePanel'),matrix:document.getElementById('matrixPanel'),n4:document.getElementById('n4Panel')};
     P.grid2.style.display='grid';P.store.style.display='none';P.matrix.style.display='none';P.n4.style.display='none';
-    var k=[],keys=[],valFn=function(){return {};},trendTitle='Xu hướng',bdT='',mixT='',head='',rows='',mixL=[],mixV=[],mixC=[],leg='',bdNote='';
+    var cards=[],keys=[],valFn=function(){return {};},trendTitle='Xu hướng',bdT='',mixT='',head='',rows='',mixL=[],mixV=[],mixC=[],leg='',bdNote='';
+    var m=function(label,val,muted){return {label:label,val:val,muted:muted};};
+    var totRow=function(cols){return '<tr style="border-top:2px solid var(--line)"><td class="name"><b>Tổng</b></td>'+cols.map(function(c){return '<td><b>'+c+'</b></td>';}).join('')+'</tr>';};
 
     if(group==='1'){
-      // ===== NHOM 1: Sales Online / Cua hang =====
-      var ord1=sumF(slice,'onlineOrders'),vbuy1=sumF(slice,'custBuy'),s1=on+stW;
-      k=[{label:'Tổng doanh thu',val:vnd(on+stW+mem),accent:true},
-         {label:'Sales Online',val:vnd(on)},
-         {label:'Cửa hàng (Walk-in)',val:vnd(stW)},
-         {label:'Marketing → CH',val:vnd(mktCH)},
-         {label:'Memon (B2B/sỉ)',val:vnd(mem)},
-         {label:'Chi phí (Online+CH)',val:COST}];
+      // ===== NHOM 1: Tong quan — Sales Online ⟂ Cua hang (tach biet) =====
+      var ord1=sumF(slice,'onlineOrders'),vbuy1=sumF(slice,'custBuy'),vin1=sumF(slice,'custIn'),s1=on+stW;
+      var oTgt=sumF(slice,'onlineTarget'),sTgt=sumF(slice,'storeTarget');
+      cards=[
+        {title:'Sales Online',color:'#378ADD',main:vnd(on),sub:(s1?Math.round(on/s1*100):0)+'% tổng',metrics:[
+          m('Chi phí',COST,1),m('ROAS','—',1),m('Lợi nhuận','—',1),
+          m('Số đơn',ord1.toLocaleString('vi-VN')),m('AOV',vnd(ord1?on/ord1:0)),m('%KPI',(oTgt?Math.round(on/oTgt*100):0)+'%')]},
+        {title:'Cửa hàng (Walk-in)',color:'#1D9E75',main:vnd(stW),sub:(s1?Math.round(stW/s1*100):0)+'% tổng',metrics:[
+          m('Chi phí',COST,1),m('ROAS','—',1),m('Lợi nhuận','—',1),
+          m('Số đơn',vbuy1.toLocaleString('vi-VN')),m('AOV',vnd(vbuy1?stW/vbuy1:0)),m('Tỷ lệ chốt',(vin1?Math.round(vbuy1/vin1*100):0)+'%'),
+          m('Marketing→CH',vnd(mktCH)),m('%KPI',(sTgt?Math.round(stW/sTgt*100):0)+'%')]},
+      ];
       keys=['Online','Cửa hàng'];valFn=function(d){return {Online:d.onlineRev||0,'Cửa hàng':d.storeRev||0};};
-      trendTitle='Xu hướng: Online vs Cửa hàng';
+      trendTitle='Xu hướng: Sales Online vs Cửa hàng';
       bdT='Sales Online vs Cửa hàng';mixT='Cơ cấu Online / Cửa hàng';
       head='<tr><th>Loại</th><th>Đơn</th><th>Doanh thu</th><th>%</th><th>Chi phí</th></tr>';
       var rws=[['Sales Online',ord1,on,'#378ADD'],['Cửa hàng (Walk-in)',vbuy1,stW,'#1D9E75']];
-      rows=rws.map(function(r){return '<tr><td class="name"><span class="dot" style="background:'+r[3]+'"></span>'+r[0]+'</td><td>'+r[1].toLocaleString('vi-VN')+'</td><td>'+vnd(r[2])+'</td><td>'+(s1?Math.round(r[2]/s1*100):0)+'%</td><td style="color:var(--muted)">'+COST+'</td></tr>';}).join('');
+      rows=rws.map(function(r){return '<tr><td class="name"><span class="dot" style="background:'+r[3]+'"></span>'+r[0]+'</td><td>'+r[1].toLocaleString('vi-VN')+'</td><td>'+vnd(r[2])+'</td><td>'+(s1?Math.round(r[2]/s1*100):0)+'%</td><td class="mut">'+COST+'</td></tr>';}).join('')+totRow([(ord1+vbuy1).toLocaleString('vi-VN'),vnd(s1),'100%',COST]);
       mixL=['Online','Cửa hàng'];mixV=[on,stW];mixC=['#378ADD','#1D9E75'];
       leg='<span><span class="dot" style="background:#378ADD"></span>Online '+(s1?Math.round(on/s1*100):0)+'%</span><span><span class="dot" style="background:#1D9E75"></span>Cửa hàng '+(s1?Math.round(stW/s1*100):0)+'%</span>';
-      bdNote='Chi phí Online/Cửa hàng sẽ hiện khi khớp dữ liệu ads & chi phí vận hành.';
+      bdNote='Mỗi mảng có chi phí/ROAS/lợi nhuận riêng — sẽ hiện khi khớp dữ liệu ads & chi phí vận hành.';
       P.store.style.display='block';var sb=storeAgg(slice).list;document.getElementById('storeWrap').style.height=(Math.max(sb.length,1)*34+70)+'px';
       drawBar('cStore',sb.map(function(s){return s.name;}),sb.map(function(s){return s.revenue;}),'#1D9E75');
     }
     else if(group==='2'){
-      // ===== NHOM 2: Thuong hieu =====
+      // ===== NHOM 2: Tung thuong hieu tach biet =====
       var B=brandsAgg(slice);
-      k=[{label:'Tổng (có nhãn TH)',val:vnd(B.total),accent:true}];
-      B.list.forEach(function(b){k.push({label:b.name,val:vnd(b.revenue)});});
-      k.push({label:'Chi phí theo TH',val:COST});
+      cards=B.list.map(function(b,i){return {title:b.name,color:COL[b.name]||colorOf(b.name,i),main:vnd(b.revenue),sub:b.share+'% tổng',metrics:[
+        m('Chi phí',COST,1),m('ROAS','—',1),m('Lợi nhuận','—',1),m('Tỷ trọng',b.share+'%')]};});
       keys=B.list.map(function(b){return b.name;});valFn=function(d){var o={};for(var b in (d.brands||{}))o[b]=d.brands[b];return o;};
       trendTitle='Xu hướng doanh thu theo thương hiệu';
       bdT='Doanh thu theo thương hiệu';mixT='Cơ cấu thương hiệu';
       head='<tr><th>Thương hiệu</th><th>Doanh thu</th><th>%</th><th>Chi phí</th><th>ROAS</th></tr>';
-      rows=B.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+(COL[c.name]||colorOf(c.name,i))+'"></span>'+c.name+'</td><td>'+vnd(c.revenue)+'</td><td>'+c.share+'%</td><td style="color:var(--muted)">'+COST+'</td><td style="color:var(--muted)">—</td></tr>';}).join('')||'<tr><td colspan="5" class="note">Không có dữ liệu</td></tr>';
+      rows=B.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+(COL[c.name]||colorOf(c.name,i))+'"></span>'+c.name+'</td><td>'+vnd(c.revenue)+'</td><td>'+c.share+'%</td><td class="mut">'+COST+'</td><td class="mut">—</td></tr>';}).join('')||'<tr><td colspan="5" class="note">Không có dữ liệu</td></tr>';
+      if(B.list.length)rows+=totRow([vnd(B.total),'100%',COST,'—']);
       mixL=B.list.map(function(c){return c.name;});mixV=B.list.map(function(c){return c.revenue;});mixC=B.list.map(function(c,i){return COL[c.name]||colorOf(c.name,i);});
       leg=B.list.map(function(c,i){return '<span><span class="dot" style="background:'+(COL[c.name]||colorOf(c.name,i))+'"></span>'+c.name+' '+c.share+'%</span>';}).join('');
-      bdNote='Doanh thu thương hiệu lấy từ cột tổng hợp bảng 3.1 (chưa gồm Bán lẻ NK). Chi phí/ROAS chờ khớp ads.';
+      bdNote='Doanh thu thương hiệu lấy từ cột tổng hợp bảng 3.1 (chưa gồm Bán lẻ NK). Chi phí/ROAS riêng từng TH — chờ khớp ads.';
     }
     else if(group==='3'){
-      // ===== NHOM 3: Theo kenh + TH x kenh =====
+      // ===== NHOM 3: Tung kenh tach biet + ma tran TH x kenh =====
       var C=onlineAgg(slice);
-      k=[{label:'Doanh thu Online',val:vnd(C.total),accent:true},
-         {label:'Số đơn',val:C.orders.toLocaleString('vi-VN')},
-         {label:'AOV',val:vnd(C.aov)},
-         {label:'Số kênh',val:C.list.length},
-         {label:'Chi phí theo kênh',val:COST}];
+      cards=C.list.map(function(c,i){return {title:c.name,color:COL[c.name]||colorOf(c.name,i),main:vnd(c.revenue),sub:c.share+'% tổng',metrics:[
+        m('Chi phí',COST,1),m('ROAS','—',1),m('Đơn (ƯT)',c.orders.toLocaleString('vi-VN')),m('AOV (ƯT)',vnd(c.aov))]};});
       keys=C.list.map(function(c){return c.name;});valFn=function(d){var o={};for(var c in d.online)o[c]=d.online[c].rev;return o;};
       trendTitle='Xu hướng doanh thu theo kênh';
       bdT='Doanh thu theo kênh';mixT='Cơ cấu kênh';
       head='<tr><th>Kênh</th><th>Đơn (ƯT)</th><th>Doanh thu</th><th>AOV (ƯT)</th><th>%</th><th>Chi phí</th></tr>';
-      rows=C.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+(COL[c.name]||colorOf(c.name,i))+'"></span>'+c.name+'</td><td>'+c.orders+'</td><td>'+vnd(c.revenue)+'</td><td>'+vnd(c.aov)+'</td><td>'+c.share+'%</td><td style="color:var(--muted)">'+COST+'</td></tr>';}).join('')||'<tr><td colspan="6" class="note">Không có dữ liệu</td></tr>';
+      rows=C.list.map(function(c,i){return '<tr><td class="name"><span class="dot" style="background:'+(COL[c.name]||colorOf(c.name,i))+'"></span>'+c.name+'</td><td>'+c.orders+'</td><td>'+vnd(c.revenue)+'</td><td>'+vnd(c.aov)+'</td><td>'+c.share+'%</td><td class="mut">'+COST+'</td></tr>';}).join('')||'<tr><td colspan="6" class="note">Không có dữ liệu</td></tr>';
+      if(C.list.length)rows+=totRow([C.orders.toLocaleString('vi-VN'),vnd(C.total),vnd(C.aov),'100%',COST]);
       mixL=C.list.map(function(c){return c.name;});mixV=C.list.map(function(c){return c.revenue;});mixC=C.list.map(function(c,i){return COL[c.name]||colorOf(c.name,i);});
       leg=C.list.map(function(c,i){return '<span><span class="dot" style="background:'+(COL[c.name]||colorOf(c.name,i))+'"></span>'+c.name+' '+c.share+'%</span>';}).join('');
-      bdNote='⚠ Đơn & AOV theo kênh là ước tính theo tỷ trọng DT (Base chưa nhập đơn theo kênh).';
+      bdNote='⚠ Đơn & AOV theo kênh là ước tính theo tỷ trọng DT (Base chưa nhập đơn theo kênh). Chi phí/ROAS riêng từng kênh — chờ ads.';
       P.matrix.style.display='block';
       var BC=bcAgg(slice);
       var mh='<tr><th>Thương hiệu \\ Kênh</th>'+BC.channels.map(function(c){return '<th>'+c+'</th>';}).join('')+'<th>Tổng</th></tr>';
       var mb=BC.brands.map(function(b){var cells=BC.channels.map(function(c){var v=(BC.matrix[b]&&BC.matrix[b][c])||0;return '<td>'+(v?vnd(v):'·')+'</td>';}).join('');return '<tr><td class="name"><span class="dot" style="background:'+(COL[b]||colorOf(b,0))+'"></span>'+b+'</td>'+cells+'<td><b>'+vnd(BC.brandTot[b]||0)+'</b></td></tr>';}).join('');
-      var mf='<tr><td class="name"><b>Tổng</b></td>'+BC.channels.map(function(c){return '<td><b>'+vnd(BC.chanTot[c]||0)+'</b></td>';}).join('')+'<td><b>'+vnd(BC.total)+'</b></td></tr>';
+      var mf='<tr style="border-top:2px solid var(--line)"><td class="name"><b>Tổng</b></td>'+BC.channels.map(function(c){return '<td><b>'+vnd(BC.chanTot[c]||0)+'</b></td>';}).join('')+'<td><b>'+vnd(BC.total)+'</b></td></tr>';
       document.querySelector('#matrixTable thead').innerHTML=mh;
       document.querySelector('#matrixTable tbody').innerHTML=mb+mf;
     }
     else {
-      // ===== NHOM 4: Noi dung & Ads =====
+      // ===== NHOM 4: Cu the nhat — Noi dung ⟂ Ads (tach biet) =====
       var A=adsAgg(slice);
-      k=[{label:'DT từ Ads (FB+GG)',val:vnd(A.ads),accent:true},
-         {label:'DT Tự nhiên / Viral',val:vnd(A.organic)},
-         {label:'Tổng (phân bổ nguồn)',val:vnd(A.total)},
-         {label:'Chi phí Ads',val:COST},
-         {label:'ROAS',val:'—'}];
+      cards=[
+        {title:'Ads (FB + Google)',color:'#D85A30',main:vnd(A.ads),sub:(A.total?Math.round(A.ads/A.total*100):0)+'% tổng',metrics:[
+          m('Chi phí ads',COST,1),m('ROAS','—',1),m('Lợi nhuận','—',1),m('FB Ads',vnd(A.fb)),m('Google Ads',vnd(A.gg))]},
+        {title:'Nội dung / Tự nhiên / Viral',color:'#1D9E75',main:vnd(A.organic),sub:(A.total?Math.round(A.organic/A.total*100):0)+'% tổng',metrics:[
+          m('Chi phí nội dung',COST,1),m('Traffic','—',1),m('Hiệu quả','—',1),m('Tỷ trọng',(A.total?Math.round(A.organic/A.total*100):0)+'%')]},
+      ];
       keys=['Ads','Tự nhiên / Viral'];valFn=function(d){return {'Ads':(d.fbAds||0)+(d.ggAds||0),'Tự nhiên / Viral':d.social||0};};
-      trendTitle='Xu hướng: Ads vs Tự nhiên/Viral';
+      trendTitle='Xu hướng: Ads vs Nội dung/Tự nhiên';
       P.grid2.style.display='none';
       P.n4.style.display='block';
       var cr=chanRaw(slice),mr=bcRaw(slice);
       var nh='<tr><th>Tuyến</th><th>Kênh</th><th>Định vị</th><th>Doanh thu (kỳ)</th><th>Ads</th><th>Traffic</th><th>Nội dung/tháng</th></tr>';
-      var nb=N4.map(function(r){var rev=r.rev?r.rev(cr,mr):null;return '<tr><td>'+(r.line==='Viral'?'🎬 ':'📌 ')+r.line+'</td><td class="name">'+r.name+'</td><td style="color:var(--muted)">'+r.pos+'</td><td>'+(rev!=null?vnd(rev):'<span style="color:var(--muted)">— chờ DL</span>')+'</td><td style="color:var(--muted)">'+COST+'</td><td style="color:var(--muted)">— chờ DL</td><td style="color:var(--muted)">'+r.target+'</td></tr>';}).join('');
+      var nb=N4.map(function(r){var rev=r.rev?r.rev(cr,mr):null;return '<tr><td>'+(r.line==='Viral'?'🎬 ':'📌 ')+r.line+'</td><td class="name">'+r.name+'</td><td style="color:var(--muted)">'+r.pos+'</td><td>'+(rev!=null?vnd(rev):'<span class="mut">— chờ DL</span>')+'</td><td class="mut">'+COST+'</td><td class="mut">— chờ DL</td><td style="color:var(--muted)">'+r.target+'</td></tr>';}).join('');
       document.querySelector('#n4Table thead').innerHTML=nh;
       document.querySelector('#n4Table tbody').innerHTML=nb;
-      document.getElementById('n4Note').textContent='Doanh thu hiện chỉ map được tuyến cố định (Web/Facebook/Instagram) từ bảng 3.1. TikTok/YouTube và cột Ads/Traffic sẽ hiện khi khớp kênh truyền thông & ads. "Nội dung/tháng" là mục tiêu theo kế hoạch phân bổ.';
+      document.getElementById('n4Note').textContent='Doanh thu hiện chỉ map được tuyến cố định (Web/Facebook/Instagram) từ bảng 3.1. TikTok/YouTube và cột Ads/Traffic/Chi phí sẽ hiện khi khớp kênh truyền thông & ads. "Nội dung/tháng" là mục tiêu theo kế hoạch phân bổ.';
     }
 
-    // ---- KPIs ----
-    document.getElementById('kpis').innerHTML=k.map(function(x){return '<div class="kpi'+(x.accent?' accent':'')+'"><div class="label">'+x.label+'</div><div class="val">'+x.val+'</div></div>';}).join('');
+    // ---- The so sanh tach biet ----
+    document.getElementById('cards').innerHTML=cards.map(function(c){return '<div class="ccard" style="border-top-color:'+c.color+'"><div class="ctitle"><span class="dot" style="background:'+c.color+'"></span>'+c.title+'</div><div class="cmain">'+c.main+(c.sub?' <small>'+c.sub+'</small>':'')+'</div><div class="cmetrics">'+c.metrics.map(function(x){return '<div class="cm"><span>'+x.label+'</span><b'+(x.muted?' class="mut"':'')+'>'+x.val+'</b></div>';}).join('')+'</div></div>';}).join('');
 
     // ---- Trend (chung) ----
     var idx={},buckets=[];
