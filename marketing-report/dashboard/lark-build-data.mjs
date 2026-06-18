@@ -66,7 +66,8 @@ console.log(`3.1 nguồn: ${src.length} | 2.2 tổng (target): ${tot.length} | C
 // Chi phi Meta Ads theo ngay (do meta-fetch.mjs tao truoc, neu co)
 const metaPath=join(__dirname,"meta-data.json");
 const metaByDay=existsSync(metaPath)?JSON.parse(readFileSync(metaPath,"utf8")).daily||{}:{};
-console.log(`Meta Ads: ${Object.keys(metaByDay).length} ngày dữ liệu${Object.keys(metaByDay).length===0?" (chạy meta-fetch.mjs trước để có dữ liệu)":""}`);
+const metaCampaigns=existsSync(metaPath)?(JSON.parse(readFileSync(metaPath,"utf8")).campaigns||[]):[];
+console.log(`Meta Ads: ${Object.keys(metaByDay).length} ngày dữ liệu${Object.keys(metaByDay).length===0?" (chạy meta-fetch.mjs trước để có dữ liệu)":""}. Campaigns: ${metaCampaigns.length}`);
 
 const dayMap={};
 function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0};}
@@ -125,7 +126,7 @@ function summarize(slice){let on=0,oo=0,st=0,stOnline=0,vin=0,vbuy=0;const chRaw
     sales:{totalRevenue:round(total),salesCount:oo,byType:{Online:round(on),"Cửa hàng":round(st)},onlinePct:total?round(on/total*100):0,storePct:total?round(st/total*100):0},brands:{Bemori:round(total),Memon:0}};}
 const sum30=summarize(daily.slice(-30));
 
-const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands};
+const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,campaigns:metaCampaigns,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands};
 writeFileSync(join(__dirname,"data.json"),JSON.stringify(data,null,2),"utf8");
 writeFileSync(join(__dirname,"data.js"),`window.DASHBOARD_DATA=${JSON.stringify(data)};`,"utf8");
 
