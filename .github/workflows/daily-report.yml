@@ -47,6 +47,7 @@ jobs:
         run: node marketing-report/dashboard/lark-build-data.mjs
 
       - name: Gửi thẻ KPI vào Lark (chỉ buổi sáng ~08h VN)
+        continue-on-error: true
         run: |
           if [ "$(date -u +%H)" = "01" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             node marketing-report/send-lark.mjs
