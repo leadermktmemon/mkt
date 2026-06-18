@@ -60,4 +60,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add marketing-report/dashboard/data.js marketing-report/dashboard/data.json
           git commit -m "chore: cap nhat du lieu dashboard" || echo "Không có thay đổi"
+          git pull --rebase origin main
           git push
