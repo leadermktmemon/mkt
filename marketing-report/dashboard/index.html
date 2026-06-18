@@ -86,6 +86,8 @@
       <span class="lbl">Kỳ</span>
       <select id="periodSel">
         <option value="today">Hôm nay</option>
+        <option value="thisweek">Tuần này</option>
+        <option value="lastweek">Tuần trước</option>
         <option value="7">7 ngày qua</option>
         <option value="30" selected>30 ngày qua</option>
         <option value="month">Tháng này</option>
@@ -169,6 +171,8 @@
     if(p==='7')return d.slice(-7); if(p==='30')return d.slice(-30);
     if(p==='90')return d.slice(-90); if(p==='365')return d.slice(-365);
     if(p==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return d.filter(function(x){return x.day===t;});}
+    if(p==='thisweek'){var nw=new Date(Date.now()+7*3600*1000);var dw=nw.getUTCDay();var off=dw===0?6:dw-1;var mon=new Date(nw.getTime()-off*86400000).toISOString().slice(0,10);var tod=nw.toISOString().slice(0,10);return d.filter(function(x){return x.day>=mon&&x.day<=tod;});}
+    if(p==='lastweek'){var nw2=new Date(Date.now()+7*3600*1000);var dw2=nw2.getUTCDay();var off2=dw2===0?6:dw2-1;var thisMon=new Date(nw2.getTime()-off2*86400000);var lMon=new Date(thisMon.getTime()-7*86400000).toISOString().slice(0,10);var lSun=new Date(thisMon.getTime()-86400000).toISOString().slice(0,10);return d.filter(function(x){return x.day>=lMon&&x.day<=lSun;});}
     if(p==='month'){var m=d[d.length-1].day.slice(0,7);return d.filter(function(x){return x.day.slice(0,7)===m;});}
     if(p==='custom')return d.filter(function(x){return (!cFrom||x.day>=cFrom)&&(!cTo||x.day<=cTo);});
     return d; }
