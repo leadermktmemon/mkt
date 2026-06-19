@@ -2,7 +2,7 @@ name: Daily Marketing Report
 
 on:
   schedule:
-    - cron: "0 1,4,7,10,13 * * *"   # ~3 tiếng/lần trong giờ làm VN (08,11,14,17,20h)
+    - cron: "0 1 * * *"   # 08h sáng VN (01:00 UTC)
   workflow_dispatch:        # cho phép bấm chạy tay
 
 permissions:
