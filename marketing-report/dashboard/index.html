@@ -379,22 +379,20 @@
       var chRaw3={};slice.forEach(function(d){for(var k in d.online)chRaw3[k]=(chRaw3[k]||0)+d.online[k].rev;});
       var chRawP3={};prev.forEach(function(d){for(var k in d.online)chRawP3[k]=(chRawP3[k]||0)+d.online[k].rev;});
       var fbTot3=chRaw3['Facebook']||0,fbTotP3=chRawP3['Facebook']||0;
-      var fbOrg3=Math.max(0,fbTot3-AD.fb),fbOrgP3=Math.max(0,fbTotP3-ADp.fb);
       var igRev3=chRaw3['Instagram']||0,igRevP3=chRawP3['Instagram']||0;
       var zRev3=chRaw3['Zalo']||0,zRevP3=chRawP3['Zalo']||0;
       var wRev3=chRaw3['Website']||0,wRevP3=chRawP3['Website']||0;
       var blRev3=chRaw3['Bán lẻ NK']||0,blRevP3=chRawP3['Bán lẻ NK']||0;
       cards=[
         {title:'Facebook Ads',color:'#378ADD',main:vnd(AD.fb)+growBadge(AD.fb,ADp.fb)+yoyBadge(AD.fb,ADyoy.fb),sub:MA.fb?'ROAS '+roasFmt(AD.fb,MA.fb):'chờ chi phí',metrics:[
-          m('Chi phí Meta FB',MA.fb?vnd(MA.fb):COST,!MA.fb),m('ROAS',MA.fb?roasFmt(AD.fb,MA.fb):'—',!MA.fb),
-          m('FB tự nhiên',vnd(fbOrg3)),m('FB tổng',vnd(fbTot3))]},
+          m('Chi phí Meta FB',MA.fb?vnd(MA.fb):COST,!MA.fb),m('ROAS',MA.fb?roasFmt(AD.fb,MA.fb):'—',!MA.fb)]},
         {title:'Instagram',color:'#D4537E',main:vnd(igRev3)+growBadge(igRev3,igRevP3)+yoyBadge(igRev3,yoy.length?(function(){var r=0;yoy.forEach(function(d){r+=(d.online&&d.online['Instagram']?d.online['Instagram'].rev:0);});return r;})():0),sub:MA.ig?'ROAS '+roasFmt(igRev3,MA.ig):'chờ chi phí',metrics:[
           m('Chi phí Meta IG',MA.ig?vnd(MA.ig):COST,!MA.ig),m('ROAS',MA.ig?roasFmt(igRev3,MA.ig):'—',!MA.ig)]},
         {title:'Zalo',color:'#1D9E75',main:vnd(zRev3)+growBadge(zRev3,zRevP3)+yoyBadge(zRev3,yoy.length?(function(){var r=0;yoy.forEach(function(d){r+=(d.online&&d.online['Zalo']?d.online['Zalo'].rev:0);});return r;})():0),sub:Math.round(zRev3/(on||1)*100)+'% online',metrics:[
           m('Chi phí','— (Google Ads sau)',1),m('ROAS','∞ (0 spend)',0)]},
       ];
-      keys=['FB Ads','FB tự nhiên','Instagram','Zalo','Website','Social','Bán lẻ NK'];
-      valFn=function(d){var fb=d.online&&d.online['Facebook']?d.online['Facebook'].rev:0;var fbA=d.fbAds||0;return{'FB Ads':fbA,'FB tự nhiên':Math.max(0,fb-fbA),'Instagram':d.online&&d.online['Instagram']?d.online['Instagram'].rev:0,'Zalo':d.online&&d.online['Zalo']?d.online['Zalo'].rev:0,'Website':d.online&&d.online['Website']?d.online['Website'].rev:0,'Social':d.social||0,'Bán lẻ NK':d.online&&d.online['Bán lẻ NK']?d.online['Bán lẻ NK'].rev:0};};
+      keys=['FB Ads','Instagram','Zalo','Website','Social','Bán lẻ NK'];
+      valFn=function(d){return{'FB Ads':d.fbAds||0,'Instagram':d.online&&d.online['Instagram']?d.online['Instagram'].rev:0,'Zalo':d.online&&d.online['Zalo']?d.online['Zalo'].rev:0,'Website':d.online&&d.online['Website']?d.online['Website'].rev:0,'Social':d.social||0,'Bán lẻ NK':d.online&&d.online['Bán lẻ NK']?d.online['Bán lẻ NK'].rev:0};};
       trendTitle='Xu hướng theo kênh';
       var chanRows3=[
         {name:'Facebook Ads',rev:AD.fb,revP:ADp.fb,cost:MA.fb,roas:MA.fb&&AD.fb?AD.fb/MA.fb:null,col:'#378ADD'},
@@ -403,8 +401,7 @@
         {name:'Website',rev:wRev3,revP:wRevP3,cost:0,roas:null,col:'#7F77DD'},
         {name:'Social tự nhiên',rev:AD.organic,revP:ADp.organic,cost:0,roas:null,col:'#888780'},
         {name:'Bán lẻ NK',rev:blRev3,revP:blRevP3,cost:0,roas:null,col:'#BA7517'},
-        {name:'Facebook tự nhiên',rev:fbOrg3,revP:fbOrgP3,cost:0,roas:null,col:'#94c5f5'},
-        {name:'Facebook tổng',rev:fbTot3,revP:fbTotP3,cost:MA.fb,roas:MA.fb&&fbTot3?fbTot3/MA.fb:null,col:'#a0c4f5',ital:true},
+        {name:'Facebook (kênh DM)',rev:fbTot3,revP:fbTotP3,cost:0,roas:null,col:'#a0c4f5',ital:true},
       ];
       chanRows3.sort(function(a,b){return b.rev-a.rev;});
       var chTot3=on||1;
@@ -416,11 +413,11 @@
         '<td'+(r.roas==null?' class="mut"':' style="font-weight:600;color:'+rc+'"')+'>'+rs+'</td>'+
         '<td>'+Math.round(r.rev/chTot3*100)+'%</td></tr>';}).join('');
       bdT='Hiệu quả theo kênh';mixT='Cơ cấu kênh Online';
-      mixL=['FB Ads','Instagram','Zalo','Website','FB tự nhiên','Social','Bán lẻ NK'];
-      mixV=[AD.fb,igRev3,zRev3,wRev3,fbOrg3,AD.organic,blRev3];
-      mixC=['#378ADD','#D4537E','#1D9E75','#7F77DD','#94c5f5','#888780','#BA7517'];
+      mixL=['FB Ads','Instagram','Zalo','Website','Social','Bán lẻ NK'];
+      mixV=[AD.fb,igRev3,zRev3,wRev3,AD.organic,blRev3];
+      mixC=['#378ADD','#D4537E','#1D9E75','#7F77DD','#888780','#BA7517'];
       leg=mixL.map(function(l,i){return '<span><span class="dot" style="background:'+mixC[i]+'"></span>'+l+'</span>';}).join('');
-      bdNote='ROAS = Doanh thu kênh (Lark) / Chi phí Meta. FB tổng (mờ) = Ads + tự nhiên. Google Ads cập nhật sau khi tích hợp.';
+      bdNote='ROAS = Doanh thu attribution Lark / Chi phí Meta. "Facebook (kênh DM)" (mờ) = đơn chat qua FB page — khác FB Ads vì nhiều khách click ad rồi nhắn Zalo. Google Ads cập nhật sau khi tích hợp.';
     }
 
     // ---- The so sanh tach biet ----
