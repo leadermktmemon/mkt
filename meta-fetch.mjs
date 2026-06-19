@@ -75,10 +75,10 @@ console.log('\nKéo trạng thái chiến dịch...');
 const campStatus = {};
 async function fetchStatuses(label, grpToken, accounts) {
   for (const acc of accounts) {
-    const p = new URLSearchParams({ fields: 'id,effective_status', limit: '500', access_token: grpToken });
+    const p = new URLSearchParams({ fields: 'id,effective_status,objective', limit: '500', access_token: grpToken });
     try {
       const rows = await pages(`${G}/act_${acc.id}/campaigns?${p}`);
-      for (const c of rows) campStatus[c.id] = c.effective_status;
+      for (const c of rows) campStatus[c.id] = { status: c.effective_status, objective: c.objective || '' };
       console.log(`  [${label}] ${acc.name}: ${rows.length} campaigns`);
     } catch (e) { console.log(`  [Status] LỖI ${acc.name}: ${e.message}`); }
   }
@@ -112,7 +112,8 @@ async function fetchCampaignDays(label, grpToken, accounts) {
         campaignDays.push({
           day: row.date_start,
           account: acc.name, bm: label, id: row.campaign_id, name: row.campaign_name,
-          status: campStatus[row.campaign_id] || 'UNKNOWN',
+          status: campStatus[row.campaign_id]?.status || 'UNKNOWN',
+          objective: campStatus[row.campaign_id]?.objective || '',
           spend, impressions: Number(row.impressions) || 0, clicks: Number(row.clicks) || 0,
           engagement: Math.round(acts['post_engagement'] || 0),
           messages: Math.round(acts['onsite_conversion.messaging_conversation_started_7d'] || acts['onsite_conversion.messaging_conversation_started_30d'] || 0),

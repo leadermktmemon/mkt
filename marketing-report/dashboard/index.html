@@ -144,7 +144,7 @@
       </select>
       <span id="campSummary" style="font-size:13px;color:var(--muted);"></span>
     </div>
-    <div style="overflow-x:auto;"><table id="campTable" style="width:100%;border-collapse:collapse;font-size:13px;"><thead></thead><tbody></tbody></table></div>
+    <div id="campBody"></div>
     <div class="note" id="campNote" style="margin-top:10px;"></div>
   </div>
 
@@ -274,6 +274,9 @@
       // ===== NHOM 2: Campaign Facebook =====
       P.grid2.style.display='none';P.store.style.display='none';P.trend.style.display='none';
       P.campaign.style.display='block';
+      var BRAND_OBJ={OUTCOME_ENGAGEMENT:1,BRAND_AWARENESS:1,REACH:1,VIDEO_VIEWS:1,POST_ENGAGEMENT:1,PAGE_LIKES:1,OUTCOME_AWARENESS:1,EVENT_RESPONSES:1};
+      var CONV_OBJ={OUTCOME_SALES:1,OUTCOME_LEADS:1,CONVERSIONS:1,LEAD_GENERATION:1,MESSAGES:1,CATALOG_SALES:1,OUTCOME_TRAFFIC:1,TRAFFIC:1,APP_INSTALLS:1};
+      function campType(o){return BRAND_OBJ[o]?'brand':CONV_OBJ[o]?'conv':'other';}
       var campDays=D.campaignDays||[];
       var startDay=slice.length?slice[0].day:'';
       var endDay=slice.length?slice[slice.length-1].day:'';
@@ -285,23 +288,89 @@
       });
       var campMap={};
       filteredDays.forEach(function(r){
-        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,bm:r.bm,status:r.status,spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
-        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;
+        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
+        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;
       });
       var campsAgg=Object.values(campMap).sort(function(a,b){return b.spend-a.spend;});
-      campsAgg.forEach(function(c){c.roas=c.purchaseValue&&c.spend?Math.round(c.purchaseValue/c.spend*100)/100:0;});
+      campsAgg.forEach(function(c){
+        c.type=campType(c.objective);
+        c.roas=c.purchaseValue&&c.spend?Math.round(c.purchaseValue/c.spend*100)/100:0;
+        c.cpm=c.impressions?Math.round(c.spend/c.impressions*1000):0;
+        c.cpe=c.engagement?Math.round(c.spend/c.engagement):0;
+        c.cpl=c.leads?Math.round(c.spend/c.leads):0;
+        c.cpo=c.purchases?Math.round(c.spend/c.purchases):0;
+      });
+      function sumC(arr){return arr.reduce(function(s,c){return{spend:s.spend+c.spend,impressions:s.impressions+c.impressions,engagement:s.engagement+c.engagement,messages:s.messages+c.messages,leads:s.leads+c.leads,purchases:s.purchases+c.purchases,purchaseValue:s.purchaseValue+c.purchaseValue};},{spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0});}
+      var brandC=campsAgg.filter(function(c){return c.type==='brand';}),convC=campsAgg.filter(function(c){return c.type!=='brand';});
+      var bS=sumC(brandC),cvS=sumC(convC),totS=sumC(campsAgg);
       var nAct=campsAgg.filter(function(c){return c.status==='ACTIVE';}).length;
       var nPaus=campsAgg.filter(function(c){return c.status==='PAUSED';}).length;
-      var totSpend=campsAgg.reduce(function(s,c){return s+c.spend;},0);
-      document.getElementById('campSummary').innerHTML=campsAgg.length?'<b>'+nAct+'</b> đang chạy · <b>'+nPaus+'</b> đã dừng · Tổng chi: <b>'+vnd(totSpend)+'</b>':'';
       var periodLbl=startDay&&endDay?(startDay===endDay?startDay:startDay+' → '+endDay):'30 ngày gần nhất';
       document.getElementById('campPeriod').textContent=campDays.length?(periodLbl+' · Meta Ads API'):'Chưa có dữ liệu';
-      var SL={'ACTIVE':'<span style="color:#15803d;font-weight:600">● Đang chạy</span>','PAUSED':'<span style="color:#888780">⏸ Đã dừng</span>','ARCHIVED':'<span style="color:#dc2626">✕ Lưu trữ</span>'};
-      var ch2='<tr><th style="text-align:left;white-space:nowrap">Sản phẩm</th><th style="text-align:left">Tên chiến dịch</th><th>Tài khoản</th><th>Trạng thái</th><th>Chi phí</th><th>Hiển thị</th><th>Tương tác</th><th>Mess</th><th>Lead</th><th>Mua</th><th>DT Ads</th><th>ROAS</th></tr>';
-      var cb2=campsAgg.map(function(c){var prod=detectProduct(c.name);var rs=c.roas?c.roas.toFixed(1)+'x':'—';var rc=c.roas?(c.roas>=5?'#15803d':c.roas>=2?'#378ADD':'#dc2626'):'var(--muted)';return '<tr><td style="white-space:nowrap"><span class="dot" style="background:'+(COL[prod]||'#888780')+'"></span>'+prod+'</td><td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px">'+c.name+'</td><td style="white-space:nowrap;color:var(--muted);font-size:12px">'+c.account+'</td><td style="white-space:nowrap;font-size:12px">'+(SL[c.status]||c.status)+'</td><td>'+vnd(c.spend)+'</td><td>'+(c.impressions?(c.impressions>=1000?(c.impressions/1000).toFixed(0)+'K':c.impressions):'—')+'</td><td>'+(c.engagement||'—')+'</td><td>'+(c.messages||'—')+'</td><td>'+(c.leads||'—')+'</td><td>'+(c.purchases||'—')+'</td><td>'+(c.purchaseValue?vnd(c.purchaseValue):'—')+'</td><td style="font-weight:600;color:'+rc+'">'+rs+'</td></tr>';}).join('')||'<tr><td colspan="12" style="text-align:center;padding:20px" class="note">Chưa có dữ liệu. Chạy <code>node meta-fetch.mjs</code> để cập nhật.</td></tr>';
-      document.querySelector('#campTable thead').innerHTML=ch2;
-      document.querySelector('#campTable tbody').innerHTML=cb2;
-      document.getElementById('campNote').innerHTML='ROAS = Doanh thu pixel (offsite purchase) / Chi phí · Sản phẩm tự động nhận diện từ tên chiến dịch.';
+      document.getElementById('campSummary').innerHTML='';
+      var imprFmt=function(n){return n>=1000?(n/1000).toFixed(0)+'K':(n||'—');};
+      var SL={'ACTIVE':'<span style="color:#15803d" title="Đang chạy">●</span>','PAUSED':'<span style="color:#aaa" title="Đã dừng">⏸</span>','ARCHIVED':'<span style="color:#dc2626" title="Lưu trữ">✕</span>'};
+      var tROAS=totS.purchaseValue&&totS.spend?Math.round(totS.purchaseValue/totS.spend*10)/10:0;
+      var tCPM=totS.impressions?Math.round(totS.spend/totS.impressions*1000):0;
+      var html='';
+      // --- Summary cards ---
+      html+='<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:18px;">';
+      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Tổng chi phí</div><div style="font-size:20px;font-weight:700">'+vnd(totS.spend)+'</div><div style="font-size:11px;color:var(--muted)">'+nAct+' đang chạy · '+nPaus+' dừng</div></div>';
+      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Hiển thị · CPM</div><div style="font-size:20px;font-weight:700">'+imprFmt(totS.impressions)+'</div><div style="font-size:11px;color:var(--muted)">'+vnd(tCPM)+'/1000</div></div>';
+      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Tương tác (Brand)</div><div style="font-size:20px;font-weight:700">'+imprFmt(totS.engagement)+'</div><div style="font-size:11px;color:var(--muted)">Chi: '+vnd(bS.spend)+'</div></div>';
+      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Mess · Lead · Mua</div><div style="font-size:18px;font-weight:700">'+totS.messages+' · '+totS.leads+' · '+totS.purchases+'</div><div style="font-size:11px;color:var(--muted)">Chi: '+vnd(cvS.spend)+'</div></div>';
+      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">ROAS · DT Ads</div><div style="font-size:20px;font-weight:700;color:'+(tROAS>=5?'#15803d':tROAS>=2?'#378ADD':'var(--ink)')+'">'+(tROAS?tROAS.toFixed(1)+'x':'—')+'</div><div style="font-size:11px;color:var(--muted)">'+vnd(totS.purchaseValue)+'</div></div>';
+      html+='</div>';
+      // --- Section table helper ---
+      function secTable(camps,isBrand){
+        if(!camps.length)return '<p class="note" style="padding:6px 0 12px">Không có chiến dịch trong kỳ này</p>';
+        var h='<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:12px"><thead><tr style="border-bottom:1px solid var(--line);color:var(--muted)">';
+        if(isBrand) h+='<th style="text-align:left;padding:5px 8px;white-space:nowrap">Sản phẩm</th><th style="text-align:left;padding:5px 8px">Tên chiến dịch</th><th style="padding:5px 4px">TT</th><th style="padding:5px 8px">Chi phí</th><th style="padding:5px 8px">Hiển thị</th><th style="padding:5px 8px">CPM</th><th style="padding:5px 8px">Tương tác</th><th style="padding:5px 8px">CPE</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
+        else h+='<th style="text-align:left;padding:5px 8px;white-space:nowrap">Sản phẩm</th><th style="text-align:left;padding:5px 8px">Tên chiến dịch</th><th style="padding:5px 4px">TT</th><th style="padding:5px 8px">Chi phí</th><th style="padding:5px 8px">Mess</th><th style="padding:5px 8px">Lead</th><th style="padding:5px 8px">CPL</th><th style="padding:5px 8px">Mua</th><th style="padding:5px 8px">CPO</th><th style="padding:5px 8px">DT Ads</th><th style="padding:5px 8px">ROAS</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
+        h+='</tr></thead><tbody>';
+        camps.forEach(function(c){
+          var prod=detectProduct(c.name);var sl=SL[c.status]||'';
+          h+='<tr style="border-top:1px solid var(--line)">';
+          h+='<td style="padding:5px 8px;white-space:nowrap"><span class="dot" style="background:'+(COL[prod]||'#888780')+'"></span>'+prod+'</td>';
+          h+='<td style="padding:5px 8px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="'+c.name+'">'+c.name+'</td>';
+          h+='<td style="padding:5px 4px;text-align:center">'+sl+'</td>';
+          h+='<td style="padding:5px 8px;font-weight:600">'+vnd(c.spend)+'</td>';
+          if(isBrand){
+            h+='<td style="padding:5px 8px;color:var(--muted)">'+imprFmt(c.impressions)+'</td>';
+            h+='<td style="padding:5px 8px;color:var(--muted)">'+vnd(c.cpm)+'</td>';
+            h+='<td style="padding:5px 8px">'+imprFmt(c.engagement)+'</td>';
+            h+='<td style="padding:5px 8px;color:var(--muted)">'+(c.cpe?vnd(c.cpe):'—')+'</td>';
+          } else {
+            var rs=c.roas?c.roas.toFixed(1)+'x':'—',rc=c.roas?(c.roas>=5?'#15803d':c.roas>=2?'#378ADD':'#dc2626'):'var(--muted)';
+            h+='<td style="padding:5px 8px">'+(c.messages||'—')+'</td>';
+            h+='<td style="padding:5px 8px">'+(c.leads||'—')+'</td>';
+            h+='<td style="padding:5px 8px;color:var(--muted)">'+(c.cpl?vnd(c.cpl):'—')+'</td>';
+            h+='<td style="padding:5px 8px">'+(c.purchases||'—')+'</td>';
+            h+='<td style="padding:5px 8px;color:var(--muted)">'+(c.cpo?vnd(c.cpo):'—')+'</td>';
+            h+='<td style="padding:5px 8px">'+(c.purchaseValue?vnd(c.purchaseValue):'—')+'</td>';
+            h+='<td style="padding:5px 8px;font-weight:600;color:'+rc+'">'+rs+'</td>';
+          }
+          h+='<td style="padding:5px 8px;color:var(--muted);font-size:11px;white-space:nowrap">'+c.account+'</td>';
+          h+='</tr>';
+        });
+        h+='</tbody></table></div>';
+        return h;
+      }
+      // --- Brand section ---
+      var bCPM=bS.impressions?Math.round(bS.spend/bS.impressions*1000):0;
+      html+='<div style="margin-bottom:20px"><div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:6px;border-bottom:2px solid #378ADD;margin-bottom:10px">';
+      html+='<span style="font-weight:700;font-size:13px;color:#378ADD">📣 Brand — Nhận diện & Tương tác</span>';
+      html+='<span style="font-size:11px;color:var(--muted)">Chi: '+vnd(bS.spend)+' · Hiển thị: '+imprFmt(bS.impressions)+' · Tương tác: '+imprFmt(bS.engagement)+(bCPM?' · CPM: '+vnd(bCPM):'')+'</span></div>';
+      html+=secTable(brandC,true)+'</div>';
+      // --- Conversion section ---
+      var cvROAS=cvS.purchaseValue&&cvS.spend?Math.round(cvS.purchaseValue/cvS.spend*10)/10:0;
+      html+='<div><div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:6px;border-bottom:2px solid #1D9E75;margin-bottom:10px">';
+      html+='<span style="font-weight:700;font-size:13px;color:#1D9E75">🎯 Chuyển đổi — Mess, Lead, Mua</span>';
+      html+='<span style="font-size:11px;color:var(--muted)">Chi: '+vnd(cvS.spend)+' · Mess: '+cvS.messages+' · Lead: '+cvS.leads+' · Mua: '+cvS.purchases+(cvROAS?' · ROAS: '+cvROAS.toFixed(1)+'x':'')+'</span></div>';
+      html+=secTable(convC,false)+'</div>';
+      if(!campsAgg.length) html='<p class="note" style="text-align:center;padding:24px">Chưa có dữ liệu. Chạy <code>node meta-fetch.mjs</code> để cập nhật.</p>';
+      document.getElementById('campBody').innerHTML=html;
+      document.getElementById('campNote').innerHTML='CPM = Chi/1000 hiển thị · CPE = Chi/tương tác · CPL = Chi/lead · CPO = Chi/đơn · ROAS = DT pixel / Chi phí';
       keys=['Meta FB','Meta IG'];valFn=function(d){return{'Meta FB':d.metaFb||0,'Meta IG':d.metaIg||0};};
       trendTitle='Chi phí Meta theo ngày';
     }
