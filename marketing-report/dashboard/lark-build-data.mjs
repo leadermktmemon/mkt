@@ -109,7 +109,7 @@ const daily=days.map(day=>{const D=dayMap[day];
     fbAds:round(D.fbAds),ggAds:round(D.ggAds),social:round(D.social),
     brands:roundObj(D.brands),bc:Object.fromEntries(Object.entries(D.bc).map(([b,o])=>[b,roundObj(o)])),
     store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0,
-    metaFb:md.facebook||0,metaIg:md.instagram||0,metaTotal:md.total||0};
+    metaFb:md.facebook||0,metaIg:md.instagram||0,metaTotal:md.total||0,metaIgPixelRev:Math.round(md.igPurchaseValue||0)};
 });
 const channels=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
 const stores=Object.entries(storeTotals).filter(([,v])=>v>0).sort((a,b)=>b[1]-a[1]).map(([n])=>n);

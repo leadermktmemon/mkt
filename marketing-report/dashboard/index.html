@@ -209,7 +209,7 @@
     return {matrix:m,channels:chans,brands:brs,brandTot:brT,chanTot:chT,total:tot};}
   // Nhom 4: ads vs tu nhien/viral (cot 3.1) + doanh thu kenh tho
   function adsAgg(s){var fb=0,gg=0,so=0;s.forEach(function(d){fb+=d.fbAds||0;gg+=d.ggAds||0;so+=d.social||0;});return {ads:fb+gg,fb:fb,gg:gg,organic:so,total:fb+gg+so};}
-  function metaAgg(s){var fb=0,ig=0,tot=0;s.forEach(function(d){fb+=d.metaFb||0;ig+=d.metaIg||0;tot+=d.metaTotal||0;});return {fb:fb,ig:ig,total:tot};}
+  function metaAgg(s){var fb=0,ig=0,tot=0,igPx=0;s.forEach(function(d){fb+=d.metaFb||0;ig+=d.metaIg||0;tot+=d.metaTotal||0;igPx+=d.metaIgPixelRev||0;});return {fb:fb,ig:ig,total:tot,igPixelRev:igPx};}
   function roasFmt(rev,cost){if(!cost)return '—';var r=rev/cost;return (r>=10?r.toFixed(0):(r>=1?r.toFixed(1):r.toFixed(2))).replace(/\.?0+$/,'')+'x';}
   function chanRaw(s){var ch={};s.forEach(function(d){for(var k in d.online)ch[k]=(ch[k]||0)+d.online[k].rev;});return ch;}
   function bcRaw(s){var m={};s.forEach(function(d){for(var b in (d.bc||{})){m[b]=m[b]||{};for(var c in d.bc[b])m[b][c]=(m[b][c]||0)+d.bc[b][c];}});return m;}
@@ -386,8 +386,8 @@
       cards=[
         {title:'Facebook Ads',color:'#378ADD',main:vnd(AD.fb)+growBadge(AD.fb,ADp.fb)+yoyBadge(AD.fb,ADyoy.fb),sub:MA.fb?'ROAS '+roasFmt(AD.fb,MA.fb):'chờ chi phí',metrics:[
           m('Chi phí Meta FB',MA.fb?vnd(MA.fb):COST,!MA.fb),m('ROAS',MA.fb?roasFmt(AD.fb,MA.fb):'—',!MA.fb)]},
-        {title:'Instagram',color:'#D4537E',main:vnd(igRev3)+growBadge(igRev3,igRevP3)+yoyBadge(igRev3,yoy.length?(function(){var r=0;yoy.forEach(function(d){r+=(d.online&&d.online['Instagram']?d.online['Instagram'].rev:0);});return r;})():0),sub:MA.ig?'ROAS '+roasFmt(igRev3,MA.ig):'chờ chi phí',metrics:[
-          m('Chi phí Meta IG',MA.ig?vnd(MA.ig):COST,!MA.ig),m('ROAS',MA.ig?roasFmt(igRev3,MA.ig):'—',!MA.ig)]},
+        {title:'Instagram',color:'#D4537E',main:vnd(igRev3)+growBadge(igRev3,igRevP3)+yoyBadge(igRev3,yoy.length?(function(){var r=0;yoy.forEach(function(d){r+=(d.online&&d.online['Instagram']?d.online['Instagram'].rev:0);});return r;})():0),sub:MA.ig?(MA.igPixelRev?'ROAS pixel '+roasFmt(MA.igPixelRev,MA.ig):'ROAS kênh '+roasFmt(igRev3,MA.ig)):'chờ chi phí',metrics:[
+          m('Chi phí Meta IG',MA.ig?vnd(MA.ig):COST,!MA.ig),m('ROAS (pixel)',MA.igPixelRev?roasFmt(MA.igPixelRev,MA.ig):'—',!MA.igPixelRev),m('DT kênh IG',vnd(igRev3))]},
         {title:'Zalo',color:'#1D9E75',main:vnd(zRev3)+growBadge(zRev3,zRevP3)+yoyBadge(zRev3,yoy.length?(function(){var r=0;yoy.forEach(function(d){r+=(d.online&&d.online['Zalo']?d.online['Zalo'].rev:0);});return r;})():0),sub:Math.round(zRev3/(on||1)*100)+'% online',metrics:[
           m('Chi phí','— (Google Ads sau)',1),m('ROAS','∞ (0 spend)',0)]},
       ];
@@ -396,7 +396,7 @@
       trendTitle='Xu hướng theo kênh';
       var chanRows3=[
         {name:'Facebook Ads',rev:AD.fb,revP:ADp.fb,cost:MA.fb,roas:MA.fb&&AD.fb?AD.fb/MA.fb:null,col:'#378ADD'},
-        {name:'Instagram',rev:igRev3,revP:igRevP3,cost:MA.ig,roas:MA.ig&&igRev3?igRev3/MA.ig:null,col:'#D4537E'},
+        {name:'Instagram',rev:igRev3,revP:igRevP3,cost:MA.ig,roas:MA.ig&&MA.igPixelRev?MA.igPixelRev/MA.ig:null,col:'#D4537E'},
         {name:'Zalo',rev:zRev3,revP:zRevP3,cost:0,roas:null,col:'#1D9E75'},
         {name:'Website',rev:wRev3,revP:wRevP3,cost:0,roas:null,col:'#7F77DD'},
         {name:'Social tự nhiên',rev:AD.organic,revP:ADp.organic,cost:0,roas:null,col:'#888780'},
@@ -417,7 +417,7 @@
       mixV=[AD.fb,igRev3,zRev3,wRev3,AD.organic,blRev3];
       mixC=['#378ADD','#D4537E','#1D9E75','#7F77DD','#888780','#BA7517'];
       leg=mixL.map(function(l,i){return '<span><span class="dot" style="background:'+mixC[i]+'"></span>'+l+'</span>';}).join('');
-      bdNote='ROAS = Doanh thu attribution Lark / Chi phí Meta. "Facebook (kênh DM)" (mờ) = đơn chat qua FB page — khác FB Ads vì nhiều khách click ad rồi nhắn Zalo. Google Ads cập nhật sau khi tích hợp.';
+      bdNote='ROAS FB Ads = DT attribution Lark / Chi phí Meta FB. ROAS IG = DT pixel Meta / Chi phí IG Ads (tự động). "Facebook (kênh DM)" (mờ) = đơn chat qua FB page — khác FB Ads vì nhiều khách click ad rồi nhắn Zalo.';
     }
 
     // ---- The so sanh tach biet ----

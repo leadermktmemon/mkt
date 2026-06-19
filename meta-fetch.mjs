@@ -48,7 +48,7 @@ async function fetchGroup(label, grpToken, accounts) {
   for (const acc of accounts) {
     console.log(`[${label}] Kéo ${acc.name} (act_${acc.id})...`);
     const p = new URLSearchParams({
-      level: "account", fields: "spend,impressions,clicks",
+      level: "account", fields: "spend,impressions,clicks,action_values",
       time_increment: "1", breakdowns: "publisher_platform",
       time_range: JSON.stringify({ since, until }),
       limit: "500", access_token: grpToken,
@@ -58,11 +58,18 @@ async function fetchGroup(label, grpToken, accounts) {
       console.log(`  ${rows.length} dòng`);
       for (const row of rows) {
         const day = row.date_start;
-        if (!daily[day]) daily[day] = { facebook: 0, instagram: 0, messenger: 0, audience_network: 0, total: 0 };
+        if (!daily[day]) daily[day] = { facebook: 0, instagram: 0, messenger: 0, audience_network: 0, total: 0, igPurchaseValue: 0 };
         const spend = Number(row.spend) || 0;
         const plat = row.publisher_platform?.toLowerCase() || "other";
         if (plat in daily[day]) daily[day][plat] += spend;
         daily[day].total += spend;
+        if (plat === 'instagram') {
+          const actVals = {};
+          (row.action_values || []).forEach(a => { actVals[a.action_type] = (actVals[a.action_type] || 0) + (Number(a.value) || 0); });
+          daily[day].igPurchaseValue = (daily[day].igPurchaseValue || 0) +
+            (actVals['offsite_conversion.fb_pixel_purchase'] || 0) +
+            (actVals['onsite_conversion.purchase'] || 0);
+        }
       }
     } catch (e) { console.log(`  LỖI ${acc.name}: ${e.message}`); }
   }
