@@ -399,17 +399,17 @@
         {name:'Instagram',rev:igRev3,revP:igRevP3,cost:MA.ig,roas:MA.ig&&MA.igPixelRev?MA.igPixelRev/MA.ig:null,col:'#D4537E'},
         {name:'Zalo',rev:zRev3,revP:zRevP3,cost:0,roas:null,col:'#1D9E75'},
         {name:'Website',rev:wRev3,revP:wRevP3,cost:0,roas:null,col:'#7F77DD'},
-        {name:'Social tự nhiên',rev:AD.organic,revP:ADp.organic,cost:0,roas:null,col:'#888780'},
+        {name:'Social tự nhiên',rev:AD.organic,revP:ADp.organic,cost:0,roas:null,col:'#888780',noAds:true},
         {name:'Bán lẻ NK',rev:blRev3,revP:blRevP3,cost:0,roas:null,col:'#BA7517'},
-        {name:'Facebook (kênh DM)',rev:fbTot3,revP:fbTotP3,cost:0,roas:null,col:'#a0c4f5',ital:true},
+        {name:'Facebook (kênh DM)',rev:fbTot3,revP:fbTotP3,cost:0,roas:null,col:'#a0c4f5',ital:true,noAds:true},
       ];
       chanRows3.sort(function(a,b){return b.rev-a.rev;});
       var chTot3=on||1;
       head='<tr><th>Kênh</th><th>Doanh thu</th><th>vs kỳ trước</th><th>Chi phí</th><th>ROAS</th><th>%</th></tr>';
-      rows=chanRows3.map(function(r){var rs=r.roas!=null?roasFmt(r.rev,r.cost):'—';var rc=r.roas!=null?(r.roas>=5?'#15803d':r.roas>=2?'#378ADD':'#dc2626'):'';return '<tr'+(r.ital?' style="opacity:0.6"':'')+'>'+
+      rows=chanRows3.map(function(r){var rs=r.roas!=null?(r.roas>=10?Math.round(r.roas)+'x':r.roas.toFixed(1).replace(/\.0$/,'')+'x'):'—';var rc=r.roas!=null?(r.roas>=5?'#15803d':r.roas>=2?'#378ADD':'#dc2626'):'';return '<tr'+(r.ital?' style="opacity:0.6"':'')+'>'+
         '<td class="name"><span class="dot" style="background:'+r.col+'"></span>'+r.name+'</td>'+
         '<td>'+vnd(r.rev)+'</td><td>'+growBadge(r.rev,r.revP)+'</td>'+
-        '<td'+(r.cost?'':' class="mut"')+'>'+( r.cost?vnd(r.cost):COST)+'</td>'+
+        '<td'+(r.cost?'':' class="mut"')+'>'+(r.cost?vnd(r.cost):r.noAds?'—':COST)+'</td>'+
         '<td'+(r.roas==null?' class="mut"':' style="font-weight:600;color:'+rc+'"')+'>'+rs+'</td>'+
         '<td>'+Math.round(r.rev/chTot3*100)+'%</td></tr>';}).join('');
       bdT='Hiệu quả theo kênh';mixT='Cơ cấu kênh Online';
