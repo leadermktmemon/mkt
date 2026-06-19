@@ -249,7 +249,7 @@
           m('Sales Online',vnd(on)),m('Cửa hàng walk-in',vnd(stW)),
           m('%KPI Online',(oTgt?Math.round(on/oTgt*100):0)+'%'),m('%KPI Store',(sTgt?Math.round(stW/sTgt*100):0)+'%')]},
         {title:'Sales Online',color:'#378ADD',main:vnd(on)+growBadge(on,onPrev)+yoyBadge(on,onYoY),sub:(s1?Math.round(on/s1*100):0)+'% tổng',metrics:[
-          m('Chi phí Meta',MA.total?vnd(MA.total):COST,!MA.total),m('ROAS',MA.total?roasFmt(on,MA.total):'—',!MA.total),
+          m('Chi phí Meta FB',MA.fb?vnd(MA.fb):COST,!MA.fb),m('ROAS',MA.fb?roasFmt(AD.fb,MA.fb):'—',!MA.fb),
           m('Số đơn',ord1.toLocaleString('vi-VN')),m('AOV',vnd(ord1?on/ord1:0)),m('%KPI',(oTgt?Math.round(on/oTgt*100):0)+'%')]},
         {title:'Cửa hàng (Walk-in)',color:'#1D9E75',main:vnd(stW)+growBadge(stW,stPrev)+yoyBadge(stW,stYoY),sub:(s1?Math.round(stW/s1*100):0)+'% tổng',metrics:[
           m('Số KH vào',vin1.toLocaleString('vi-VN')),m('Số KH mua',vbuy1.toLocaleString('vi-VN')),
