@@ -310,16 +310,17 @@
       document.getElementById('campSummary').innerHTML='';
       var imprFmt=function(n){return n>=1000?(n/1000).toFixed(0)+'K':(n||'—');};
       var SL={'ACTIVE':'<span style="color:#15803d" title="Đang chạy">●</span>','PAUSED':'<span style="color:#aaa" title="Đã dừng">⏸</span>','ARCHIVED':'<span style="color:#dc2626" title="Lưu trữ">✕</span>'};
-      var tROAS=totS.purchaseValue&&totS.spend?Math.round(totS.purchaseValue/totS.spend*10)/10:0;
-      var tCPM=totS.impressions?Math.round(totS.spend/totS.impressions*1000):0;
+      var salesROAS=cvS.purchaseValue&&cvS.spend?Math.round(cvS.purchaseValue/cvS.spend*10)/10:0;
+      var bCPM=bS.impressions?Math.round(bS.spend/bS.impressions*1000):0;
+      var brandPct=totS.spend?Math.round(bS.spend/totS.spend*100):0;
       var html='';
       // --- Summary cards ---
       html+='<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:18px;">';
-      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Tổng chi phí</div><div style="font-size:20px;font-weight:700">'+vnd(totS.spend)+'</div><div style="font-size:11px;color:var(--muted)">'+nAct+' đang chạy · '+nPaus+' dừng</div></div>';
-      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Hiển thị · CPM</div><div style="font-size:20px;font-weight:700">'+imprFmt(totS.impressions)+'</div><div style="font-size:11px;color:var(--muted)">'+vnd(tCPM)+'/1000</div></div>';
-      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Tương tác (Brand)</div><div style="font-size:20px;font-weight:700">'+imprFmt(totS.engagement)+'</div><div style="font-size:11px;color:var(--muted)">Chi: '+vnd(bS.spend)+'</div></div>';
-      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Mess · Lead · Mua</div><div style="font-size:18px;font-weight:700">'+totS.messages+' · '+totS.leads+' · '+totS.purchases+'</div><div style="font-size:11px;color:var(--muted)">Chi: '+vnd(cvS.spend)+'</div></div>';
-      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">ROAS · DT Ads</div><div style="font-size:20px;font-weight:700;color:'+(tROAS>=5?'#15803d':tROAS>=2?'#378ADD':'var(--ink)')+'">'+(tROAS?tROAS.toFixed(1)+'x':'—')+'</div><div style="font-size:11px;color:var(--muted)">'+vnd(totS.purchaseValue)+'</div></div>';
+      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Tổng chi phí</div><div style="font-size:20px;font-weight:700">'+vnd(totS.spend)+'</div><div style="font-size:11px;color:var(--muted)">Branding '+vnd(bS.spend)+' · Doanh số '+vnd(cvS.spend)+'</div></div>';
+      html+='<div class="card" style="padding:12px 14px;border-top:2px solid #378ADD"><div style="font-size:11px;color:#378ADD;margin-bottom:3px">📣 Branding · chi phí</div><div style="font-size:20px;font-weight:700">'+vnd(bS.spend)+' <span style="font-size:11px;color:var(--muted);font-weight:500">'+brandPct+'%</span></div><div style="font-size:11px;color:var(--muted)">Hiển thị '+imprFmt(bS.impressions)+' · Tương tác '+imprFmt(bS.engagement)+(bCPM?' · CPM '+vnd(bCPM):'')+'</div></div>';
+      html+='<div class="card" style="padding:12px 14px;border-top:2px solid #1D9E75"><div style="font-size:11px;color:#1D9E75;margin-bottom:3px">🎯 Doanh số · chi phí</div><div style="font-size:20px;font-weight:700">'+vnd(cvS.spend)+' <span style="font-size:11px;color:var(--muted);font-weight:500">'+(100-brandPct)+'%</span></div><div style="font-size:11px;color:var(--muted)">Mess '+cvS.messages+' · Lead '+cvS.leads+' · Mua '+cvS.purchases+'</div></div>';
+      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">DT Doanh số (pixel)</div><div style="font-size:20px;font-weight:700">'+(cvS.purchaseValue?vnd(cvS.purchaseValue):'—')+'</div><div style="font-size:11px;color:var(--muted)">từ '+cvS.purchases+' đơn mua</div></div>';
+      html+='<div class="card" style="padding:12px 14px;border-top:2px solid '+(salesROAS>=5?'#15803d':salesROAS>=2?'#378ADD':'#dc2626')+'"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">ROAS Doanh số</div><div style="font-size:20px;font-weight:700;color:'+(salesROAS>=5?'#15803d':salesROAS>=2?'#378ADD':'var(--ink)')+'">'+(salesROAS?salesROAS.toFixed(1)+'x':'—')+'</div><div style="font-size:11px;color:var(--muted)">DT÷chi Doanh số · ko gồm Branding</div></div>';
       html+='</div>';
       // --- Section table helper ---
       function secTable(camps,isBrand){
@@ -359,18 +360,18 @@
       // --- Brand section ---
       var bCPM=bS.impressions?Math.round(bS.spend/bS.impressions*1000):0;
       html+='<div style="margin-bottom:20px"><div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:6px;border-bottom:2px solid #378ADD;margin-bottom:10px">';
-      html+='<span style="font-weight:700;font-size:13px;color:#378ADD">📣 Brand — Nhận diện & Tương tác</span>';
+      html+='<span style="font-weight:700;font-size:13px;color:#378ADD">📣 Branding — Tương tác · View · Like · Nhận diện</span>';
       html+='<span style="font-size:11px;color:var(--muted)">Chi: '+vnd(bS.spend)+' · Hiển thị: '+imprFmt(bS.impressions)+' · Tương tác: '+imprFmt(bS.engagement)+(bCPM?' · CPM: '+vnd(bCPM):'')+'</span></div>';
       html+=secTable(brandC,true)+'</div>';
       // --- Conversion section ---
       var cvROAS=cvS.purchaseValue&&cvS.spend?Math.round(cvS.purchaseValue/cvS.spend*10)/10:0;
       html+='<div><div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:6px;border-bottom:2px solid #1D9E75;margin-bottom:10px">';
-      html+='<span style="font-weight:700;font-size:13px;color:#1D9E75">🎯 Chuyển đổi — Mess, Lead, Mua</span>';
+      html+='<span style="font-weight:700;font-size:13px;color:#1D9E75">🎯 Doanh số — Mess · Lead · Mua</span>';
       html+='<span style="font-size:11px;color:var(--muted)">Chi: '+vnd(cvS.spend)+' · Mess: '+cvS.messages+' · Lead: '+cvS.leads+' · Mua: '+cvS.purchases+(cvROAS?' · ROAS: '+cvROAS.toFixed(1)+'x':'')+'</span></div>';
       html+=secTable(convC,false)+'</div>';
       if(!campsAgg.length) html='<p class="note" style="text-align:center;padding:24px">Chưa có dữ liệu. Chạy <code>node meta-fetch.mjs</code> để cập nhật.</p>';
       document.getElementById('campBody').innerHTML=html;
-      document.getElementById('campNote').innerHTML='CPM = Chi/1000 hiển thị · CPE = Chi/tương tác · CPL = Chi/lead · CPO = Chi/đơn · ROAS = DT pixel / Chi phí';
+      document.getElementById('campNote').innerHTML='Branding (mục tiêu tương tác/view/like/nhận diện) đo bằng hiển thị &amp; tương tác — KHÔNG tính ROAS. ROAS Doanh số = DT pixel ÷ chi phí Doanh số (KHÔNG gồm chi phí Branding). CPM = Chi/1000 hiển thị · CPE = Chi/tương tác · CPL = Chi/lead · CPO = Chi/đơn.';
       keys=['Meta FB','Meta IG'];valFn=function(d){return{'Meta FB':d.metaFb||0,'Meta IG':d.metaIg||0};};
       trendTitle='Chi phí Meta theo ngày';
     }
