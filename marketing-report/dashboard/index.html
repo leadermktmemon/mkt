@@ -181,6 +181,10 @@
 
   var group='1', period='30', gran='day', cFrom=null, cTo=null, charts={};
 
+  // ---- URL hash state (F5 / chia se link giu nguyen bo loc) ----
+  function pushURL(){var p=new URLSearchParams();p.set('g',group);p.set('p',period);p.set('gr',gran);if(period==='custom'){if(cFrom)p.set('f',cFrom);if(cTo)p.set('t',cTo);}var sf=document.getElementById('campStatusFilter').value,ef=document.getElementById('campEffFilter').value;if(sf)p.set('sf',sf);if(ef)p.set('ef',ef);history.replaceState(null,'','#'+p.toString());}
+  function loadURL(){if(!location.hash)return;var p=new URLSearchParams(location.hash.slice(1));if(p.get('g'))group=p.get('g');if(p.get('p')){period=p.get('p');document.getElementById('periodSel').value=period;}if(p.get('gr'))gran=p.get('gr');if(p.get('f')){cFrom=p.get('f');document.getElementById('dFrom').value=cFrom;}if(p.get('t')){cTo=p.get('t');document.getElementById('dTo').value=cTo;}if(period==='custom')document.getElementById('customRange').style.display='inline-flex';document.querySelectorAll('#segGroup button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-grp')===group);});document.querySelectorAll('#segGran button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-g')===gran);});var sf=p.get('sf'),ef=p.get('ef');if(sf)document.getElementById('campStatusFilter').value=sf;if(ef)document.getElementById('campEffFilter').value=ef;}
+
   function sliceFor(p){ var d=D.daily; if(!d.length)return [];
     if(p==='7')return d.slice(-7); if(p==='30')return d.slice(-30);
     if(p==='90')return d.slice(-90); if(p==='365')return d.slice(-365);
@@ -526,8 +530,9 @@
   function rangeLabel(){var s=sliceFor(period);
     if(!s.length){if(period==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return fmtD(t)+' · chưa có dữ liệu (cập nhật trong ngày)';}return '(không có dữ liệu)';}
     var a=s[0].day,b=s[s.length-1].day;return a===b?fmtD(a):fmtD(a)+' → '+fmtD(b);}
-  var _r=render;render=function(){_r();document.getElementById('sub').textContent=rangeLabel();};
+  var _r=render;render=function(){_r();document.getElementById('sub').textContent=rangeLabel();pushURL();};
   document.getElementById('foot').innerHTML='<b style="color:var(--brand)">Memon<sup>®</sup></b> · Gấu bông cao cấp — Trao cảm xúc, gửi yêu thương · Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN');
+  loadURL();
   render();
 })();
 </script>
