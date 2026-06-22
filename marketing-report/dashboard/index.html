@@ -5,16 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Memon · Dashboard</title>
 <style>
-  :root{ --bg:#f4f5f7; --card:#fff; --ink:#1a1c1f; --muted:#6b7280; --line:#e6e8eb; --blue:#378ADD; --teal:#1D9E75; --amber:#BA7517; }
+  :root{ --bg:#f2f6f8; --card:#fff; --ink:#1a1c1f; --muted:#6b7280; --line:#e6e8eb; --brand:#15A9D6; --brand-dark:#0E8AB4; --brand-soft:#e7f6fb; --pink:#F2709E; --pink-soft:#fdeef4; --blue:#15A9D6; --teal:#1D9E75; --amber:#BA7517; }
   *{box-sizing:border-box;}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
   .wrap{max-width:1100px;margin:0 auto;padding:24px 20px 48px;}
   header{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:16px;}
-  .brand{display:flex;align-items:center;gap:12px;}
-  .logoimg{height:42px;width:auto;display:block;}
-  .logotext{font-size:26px;font-weight:700;color:#1CA9D8;letter-spacing:-0.5px;}
-  h1{font-size:20px;margin:0 0 0 4px;font-weight:600;display:inline;}
-  .sub{font-size:13px;color:var(--muted);}
+  .brand{display:flex;align-items:center;gap:14px;}
+  .logoimg{height:46px;width:auto;display:block;}
+  .logoMark{font-size:30px;font-weight:800;color:var(--brand);letter-spacing:-1px;font-family:"Segoe UI Rounded","Nunito","Segoe UI",-apple-system,sans-serif;line-height:1;}
+  .logoMark sup{font-size:12px;top:-0.9em;}
+  .brandtext h1{font-size:18px;margin:0;font-weight:700;color:var(--ink);letter-spacing:-0.3px;}
+  .tagline{font-size:12px;color:var(--pink);font-weight:600;margin-top:2px;}
+  .sub{font-size:13px;color:var(--muted);font-weight:500;}
+  .brandbar{height:4px;border-radius:4px;background:linear-gradient(90deg,var(--brand) 0%,var(--pink) 100%);margin:0 0 18px;}
   .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:18px;}
   .seg{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;flex-wrap:wrap;}
   .seg button{border:0;background:transparent;padding:8px 13px;font-size:13px;color:var(--muted);cursor:pointer;}
@@ -69,11 +72,15 @@
 <div class="wrap">
   <header>
     <div class="brand">
-      <img src="logo.png" alt="Memon" class="logoimg" onerror="this.outerHTML='<span class=\'logotext\'>Memon</span>'">
-      <h1>Dashboard</h1>
+      <img src="logo.png" alt="Memon" class="logoimg" onerror="this.outerHTML='<span class=\'logoMark\'>Memon<sup>®</sup></span>'">
+      <div class="brandtext">
+        <h1>Dashboard Marketing</h1>
+        <div class="tagline">Trao cảm xúc · Gửi yêu thương 🧸</div>
+      </div>
     </div>
     <div class="sub" id="sub"></div>
   </header>
+  <div class="brandbar"></div>
 
   <div class="controls">
     <div class="seg" id="segGroup">
@@ -489,7 +496,7 @@
     if(!s.length){if(period==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return fmtD(t)+' · chưa có dữ liệu (cập nhật trong ngày)';}return '(không có dữ liệu)';}
     var a=s[0].day,b=s[s.length-1].day;return a===b?fmtD(a):fmtD(a)+' → '+fmtD(b);}
   var _r=render;render=function(){_r();document.getElementById('sub').textContent=rangeLabel();};
-  document.getElementById('foot').textContent='Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN');
+  document.getElementById('foot').innerHTML='<b style="color:var(--brand)">Memon<sup>®</sup></b> · Gấu bông cao cấp — Trao cảm xúc, gửi yêu thương · Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN');
   render();
 })();
 </script>
