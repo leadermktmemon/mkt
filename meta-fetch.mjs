@@ -92,6 +92,30 @@ async function fetchStatuses(label, grpToken, accounts) {
 }
 for (const g of allGroups) await fetchStatuses(g.label, g.token, g.accounts);
 
+// ---- Buoc 1b: optimization_goal theo ad set -> map ve campaign ----
+// Vi objective OUTCOME_ENGAGEMENT gop ca messaging (ban hang) lan video/like (branding),
+// optimization_goal moi phan biet duoc dung: CONVERSATIONS/OFFSITE_CONVERSIONS=ban hang, POST_ENGAGEMENT/THRUPLAY/REACH=branding.
+console.log('\nKéo optimization_goal theo nhóm quảng cáo...');
+const BRAND_GOAL = new Set(['POST_ENGAGEMENT','ENGAGED_USERS','PROFILE_AND_PAGE_ENGAGEMENT','EVENT_RESPONSES','THRUPLAY','TWO_SECOND_CONTINUOUS_VIDEO_VIEWS','VIDEO_VIEWS','REACH','IMPRESSIONS','AD_RECALL_LIFT','PAGE_LIKES','VISIT_INSTAGRAM_PROFILE','PROFILE_VISIT']);
+const campOpt = {};
+async function fetchOptGoals(label, grpToken, accounts) {
+  for (const acc of accounts) {
+    const p = new URLSearchParams({ fields: 'campaign_id,optimization_goal', limit: '500', access_token: grpToken });
+    try {
+      const rows = await pages(`${G}/act_${acc.id}/adsets?${p}`);
+      for (const a of rows) {
+        const cid = a.campaign_id, g = a.optimization_goal || '';
+        if (!cid || !g) continue;
+        const prev = campOpt[cid];
+        // Uu tien goal ban hang: neu campaign co ca adset branding lan ban hang -> xep ban hang
+        if (!prev || (BRAND_GOAL.has(prev) && !BRAND_GOAL.has(g))) campOpt[cid] = g;
+      }
+      console.log(`  [${label}] ${acc.name}: ${rows.length} ad sets`);
+    } catch (e) { console.log(`  [OptGoal] LỖI ${acc.name}: ${e.message}`); }
+  }
+}
+for (const g of allGroups) await fetchOptGoals(g.label, g.token, g.accounts);
+
 // ---- Buoc 2: Chi phi theo ngay x campaign (30 ngay, time_increment=1) ----
 console.log('\nKéo chi tiết chiến dịch theo ngày...');
 const campaignDays = [];
@@ -121,6 +145,7 @@ async function fetchCampaignDays(label, grpToken, accounts) {
           account: acc.name, bm: label, id: row.campaign_id, name: row.campaign_name,
           status: campStatus[row.campaign_id]?.status || 'UNKNOWN',
           objective: campStatus[row.campaign_id]?.objective || '',
+          optGoal: campOpt[row.campaign_id] || '',
           spend, impressions: Number(row.impressions) || 0, clicks: Number(row.clicks) || 0,
           engagement: Math.round(acts['post_engagement'] || 0),
           messages: Math.round(acts['onsite_conversion.messaging_conversation_started_7d'] || acts['onsite_conversion.messaging_conversation_started_30d'] || 0),

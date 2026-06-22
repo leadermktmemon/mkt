@@ -274,9 +274,14 @@
       // ===== NHOM 2: Campaign Facebook =====
       P.grid2.style.display='none';P.store.style.display='none';P.trend.style.display='none';
       P.campaign.style.display='block';
-      var BRAND_OBJ={OUTCOME_ENGAGEMENT:1,BRAND_AWARENESS:1,REACH:1,VIDEO_VIEWS:1,POST_ENGAGEMENT:1,PAGE_LIKES:1,OUTCOME_AWARENESS:1,EVENT_RESPONSES:1};
-      var CONV_OBJ={OUTCOME_SALES:1,OUTCOME_LEADS:1,CONVERSIONS:1,LEAD_GENERATION:1,MESSAGES:1,CATALOG_SALES:1,OUTCOME_TRAFFIC:1,TRAFFIC:1,APP_INSTALLS:1};
-      function campType(o){return BRAND_OBJ[o]?'brand':CONV_OBJ[o]?'conv':'other';}
+      // Branding chi xet optimization_goal thuan nhan dien/tuong tac/view/like (objective Meta qua tho, gop ca messaging ban hang).
+      var BRAND_GOAL={POST_ENGAGEMENT:1,ENGAGED_USERS:1,PROFILE_AND_PAGE_ENGAGEMENT:1,EVENT_RESPONSES:1,THRUPLAY:1,TWO_SECOND_CONTINUOUS_VIDEO_VIEWS:1,VIDEO_VIEWS:1,REACH:1,IMPRESSIONS:1,AD_RECALL_LIFT:1,PAGE_LIKES:1,VISIT_INSTAGRAM_PROFILE:1,PROFILE_VISIT:1};
+      var BRAND_OBJ={BRAND_AWARENESS:1,REACH:1,VIDEO_VIEWS:1,OUTCOME_AWARENESS:1};  // fallback cuoi (KHONG gom OUTCOME_ENGAGEMENT vi no lan ca messaging)
+      function campType(c){
+        if(c.optGoal) return BRAND_GOAL[c.optGoal]?'brand':'conv';            // 1. chinh xac theo y do chay ads
+        if((c.messages||0)+(c.leads||0)+(c.purchases||0)>0) return 'conv';    // 2. hanh vi thuc: co mess/lead/mua -> ban hang
+        return BRAND_OBJ[c.objective]?'brand':'conv';                          // 3. fallback theo objective
+      }
       var campDays=D.campaignDays||[];
       var startDay=slice.length?slice[0].day:'';
       var endDay=slice.length?slice[slice.length-1].day:'';
@@ -288,12 +293,12 @@
       });
       var campMap={};
       filteredDays.forEach(function(r){
-        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
-        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;
+        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
+        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;if(r.optGoal)c.optGoal=r.optGoal;
       });
       var campsAgg=Object.values(campMap).sort(function(a,b){return b.spend-a.spend;});
       campsAgg.forEach(function(c){
-        c.type=campType(c.objective);
+        c.type=campType(c);
         c.roas=c.purchaseValue&&c.spend?Math.round(c.purchaseValue/c.spend*100)/100:0;
         c.cpm=c.impressions?Math.round(c.spend/c.impressions*1000):0;
         c.cpe=c.engagement?Math.round(c.spend/c.engagement):0;
