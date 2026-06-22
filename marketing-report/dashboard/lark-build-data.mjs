@@ -106,7 +106,7 @@ const daily=days.map(day=>{const D=dayMap[day];
   // online[kenh].rev giu nguyen tu 3.1 (chi de tinh TY TRONG kenh); so don theo kenh KHONG co trong Base -> uoc luong khi hien thi.
   const md=metaByDay[day]||{};
   return {day,online:roundChan(D.online),onlineRev:round(D.online100||D.onlineRev),onlineRev31:round(D.onlineRev),onlineOrders:D.onlineOrders,onlineProducts:D.onlineProducts,onlineTarget:round(D.onlineTarget),
-    fbAds:round(D.fbAds),ggAds:round(D.ggAds),social:round(D.social),
+    fbAds:round(D.fbAds),ggAds:round(D.ggAds),social:Math.max(0,round(D.social)),
     brands:roundObj(D.brands),bc:Object.fromEntries(Object.entries(D.bc).map(([b,o])=>[b,roundObj(o)])),
     store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0,
     metaFb:md.facebook||0,metaIg:md.instagram||0,metaTotal:md.total||0,metaIgPixelRev:Math.round(md.igPurchaseValue||0)};
