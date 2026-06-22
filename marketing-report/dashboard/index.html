@@ -74,6 +74,19 @@
   .cgrow.yoy{background:#fef9c3;color:#92400e;font-size:9.5px;opacity:.8;}
   .cgrow.yoy.dn{background:#fce7f3;color:#9d174d;}
   .cgrow.yoy.nt{background:#f3f4f6;color:#6b7280;}
+  /* Modal phong to chien dich */
+  #campModal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:900;align-items:center;justify-content:center;padding:16px;}
+  #campModal.open{display:flex;}
+  .mbox{background:var(--card);border-radius:16px;width:100%;max-width:520px;max-height:92vh;overflow-y:auto;position:relative;box-shadow:0 24px 64px rgba(0,0,0,.25);}
+  .mimg{width:100%;border-radius:16px 16px 0 0;max-height:290px;object-fit:cover;display:block;background:#eef1f5;}
+  .mnoi{width:100%;height:120px;border-radius:16px 16px 0 0;background:#eef1f5;display:flex;align-items:center;justify-content:center;color:var(--muted2);font-size:12px;}
+  .mbody{padding:20px 22px 24px;}
+  .mclose{position:absolute;top:10px;right:10px;width:30px;height:30px;border-radius:50%;background:rgba(0,0,0,.4);color:#fff;border:0;font-size:20px;line-height:28px;cursor:pointer;text-align:center;z-index:1;}
+  .mclose:hover{background:rgba(0,0,0,.65);}
+  .mgrid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border-radius:10px;overflow:hidden;margin:14px 0;}
+  .mcell{background:var(--card);padding:10px 14px;}
+  .mcell .ml{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:3px;}
+  .mcell .mv{font-size:16px;font-weight:700;}
 </style>
 </head>
 <body>
@@ -171,6 +184,15 @@
   </div>
 
   <footer id="foot"></footer>
+</div>
+
+<div id="campModal" onclick="if(event.target===this)closeCampModal()">
+  <div class="mbox">
+    <button class="mclose" onclick="closeCampModal()">×</button>
+    <img id="mImg" class="mimg" src="" alt="" onerror="this.style.display='none';document.getElementById('mNoImg').style.display='flex'">
+    <div id="mNoImg" class="mnoi" style="display:none">Không có ảnh</div>
+    <div class="mbody" id="mBody"></div>
+  </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
@@ -338,6 +360,7 @@
         if(c.type==='brand') c.eff=c.cpm?(c.cpm<=8000?'good':c.cpm<=15000?'ok':'poor'):'';
         else c.eff=c.roas?(c.roas>=3?'good':c.roas>=1.5?'ok':'poor'):'';
       });
+      window._camps={};campsAgg.forEach(function(c){window._camps[c.id]=c;});
       function sumC(arr){return arr.reduce(function(s,c){return{spend:s.spend+c.spend,impressions:s.impressions+c.impressions,engagement:s.engagement+c.engagement,messages:s.messages+c.messages,leads:s.leads+c.leads,purchases:s.purchases+c.purchases,purchaseValue:s.purchaseValue+c.purchaseValue};},{spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0});}
       var brandAll=campsAgg.filter(function(c){return c.type==='brand';}),convAll=campsAgg.filter(function(c){return c.type!=='brand';});
       var bS=sumC(brandAll),cvS=sumC(convAll),totS=sumC(campsAgg);
@@ -399,8 +422,8 @@
         camps.forEach(function(c){
           var sl=SL[c.status]||'';
           h+='<tr style="border-top:1px solid var(--line)">';
-          h+='<td style="padding:4px 6px;text-align:center">'+(c.thumb?'<img src="'+c.thumb+'" style="width:40px;height:40px;object-fit:cover;border-radius:6px;background:#f0f0f0;vertical-align:middle" onerror="this.style.display=\'none\'">':'<span style="display:inline-block;width:40px;height:40px;border-radius:6px;background:#f0f0f0"></span>')+'</td>';
-          h+='<td style="padding:5px 8px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="'+c.name+'">'+c.name+'</td>';
+          h+='<td style="padding:4px 6px;text-align:center;cursor:pointer" onclick="showCampModal(\''+c.id+'\')">'+(c.thumb?'<img src="'+c.thumb+'" style="width:40px;height:40px;object-fit:cover;border-radius:6px;background:#f0f0f0;vertical-align:middle;transition:transform .15s" onmouseover="this.style.transform=\'scale(1.12)\'" onmouseout="this.style.transform=\'\'" onerror="this.style.display=\'none\'">':'<span style="display:inline-block;width:40px;height:40px;border-radius:6px;background:#eef1f5"></span>')+'</td>';
+          h+='<td style="padding:5px 8px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer" onclick="showCampModal(\''+c.id+'\')" title="'+c.name+'"><span style="color:var(--brand-dark)">'+c.name+'</span></td>';
           h+='<td style="padding:5px 4px;text-align:center">'+sl+'</td>';
           h+='<td style="padding:5px 8px;font-weight:600">'+vnd(c.spend)+'</td>';
           if(isBrand){
@@ -533,6 +556,45 @@
   document.getElementById('campStatusFilter').addEventListener('change',function(){render();});
   document.getElementById('campEffFilter').addEventListener('change',function(){render();});
   window.setCampEff=function(v){document.getElementById('campEffFilter').value=v;render();};
+  window.showCampModal=function(id){
+    var c=window._camps&&window._camps[id];if(!c)return;
+    var imgEl=document.getElementById('mImg'),noImg=document.getElementById('mNoImg');
+    if(c.thumb){imgEl.src=c.thumb;imgEl.style.display='block';noImg.style.display='none';}
+    else{imgEl.style.display='none';noImg.style.display='flex';}
+    var isBrand=c.type==='brand';
+    var SLtxt={'ACTIVE':'<span style="color:#15803d;font-weight:600">● Đang chạy</span>','PAUSED':'<span style="color:#aaa">⏸ Đã dừng</span>','ARCHIVED':'<span style="color:#dc2626">✕ Lưu trữ</span>'};
+    var effHtml=(function(){
+      var st='font-size:12px;padding:3px 10px;border-radius:5px;font-weight:600;';
+      if(c.eff==='good')return '<span style="'+st+'background:#dcfce7;color:#15803d">Tốt</span>';
+      if(c.eff==='ok')return '<span style="'+st+'background:#fef9c3;color:#a16207">Khá</span>';
+      if(c.eff==='poor')return '<span style="'+st+'background:#fee2e2;color:#dc2626">'+(isBrand?'Đắt':'Kém')+'</span>';
+      return '<span style="font-size:12px;color:var(--muted2)">Chưa đo</span>';
+    })();
+    var typeTag=isBrand?'<span style="font-size:12px;padding:3px 10px;border-radius:5px;background:#e6f1fb;color:#185fa5;font-weight:600">📣 Branding</span>':'<span style="font-size:12px;padding:3px 10px;border-radius:5px;background:#e1f5ee;color:#0f6e56;font-weight:600">🎯 Doanh số</span>';
+    var cells=isBrand?[
+      ['Chi phí',vnd(c.spend)],['Hiển thị',c.impressions?Math.round(c.impressions/1000)+'K':'—'],
+      ['CPM',c.cpm?vnd(c.cpm):'—'],['Tương tác',c.engagement?c.engagement.toLocaleString('vi-VN'):'—'],
+      ['CPE',c.cpe?vnd(c.cpe):'—']
+    ]:[
+      ['Chi phí',vnd(c.spend)],['Hiển thị',c.impressions?Math.round(c.impressions/1000)+'K':'—'],
+      ['Tin nhắn',c.messages||'—'],['Lead',c.leads||'—'],
+      ['Đơn mua',c.purchases||'—'],['DT pixel',c.purchaseValue?vnd(c.purchaseValue):'—'],
+      ['CPO',c.cpo?vnd(c.cpo):'—'],['ROAS FB Ads',c.roas?c.roas.toFixed(1)+'x':'—']
+    ];
+    var b='';
+    b+='<div style="font-size:16px;font-weight:800;line-height:1.35;margin-bottom:5px">'+c.name+'</div>';
+    b+='<div style="font-size:12px;color:var(--muted);margin-bottom:12px">'+c.account+' · '+(SLtxt[c.status]||c.status)+'</div>';
+    b+='<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:2px">'+typeTag+' '+effHtml+'</div>';
+    b+='<div class="mgrid">';
+    cells.forEach(function(cl){b+='<div class="mcell"><div class="ml">'+cl[0]+'</div><div class="mv">'+cl[1]+'</div></div>';});
+    b+='</div>';
+    b+='<a href="https://adsmanager.facebook.com/adsmanager/manage/campaigns?selected_campaign_ids='+c.id+'" target="_blank" rel="noopener" style="font-size:13px;color:var(--brand);font-weight:600;text-decoration:none">Xem chiến dịch trên Meta Ads Manager →</a>';
+    document.getElementById('mBody').innerHTML=b;
+    document.getElementById('campModal').classList.add('open');
+    document.body.style.overflow='hidden';
+  };
+  window.closeCampModal=function(){document.getElementById('campModal').classList.remove('open');document.body.style.overflow='';};
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')closeCampModal();});
 
   function fmtD(d){return d.split('-').reverse().join('/');}
   function rangeLabel(){var s=sliceFor(period);
