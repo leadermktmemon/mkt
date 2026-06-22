@@ -2,7 +2,7 @@
 // Chay: node meta-fetch.mjs
 // Output: marketing-report/dashboard/meta-data.json (doc boi lark-build-data.mjs)
 
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -183,6 +183,32 @@ async function fetchCampaignDays(label, grpToken, accounts) {
 for (const g of allGroups) await fetchCampaignDays(g.label, g.token, g.accounts);
 campaignDays.sort((a, b) => a.day < b.day ? -1 : a.day > b.day ? 1 : b.spend - a.spend);
 console.log(`CampaignDays: ${campaignDays.length} ngày×campaign (${since30} → ${until})`);
+
+// ---- Tai thumbnail ve file tinh (thumbs/<id>.jpg) — URL fbcdn het han nhanh nen luu local de hien thi on dinh ----
+const THUMB_DIR = join(__dirname, "marketing-report", "dashboard", "thumbs");
+mkdirSync(THUMB_DIR, { recursive: true });
+const wantThumb = {};
+for (const r of campaignDays) if (r.thumb && r.thumb.startsWith("http")) wantThumb[r.id] = r.thumb;
+console.log(`\nTải ${Object.keys(wantThumb).length} thumbnail về thumbs/...`);
+const localThumb = {};
+let thumbOk = 0;
+for (const [id, url] of Object.entries(wantThumb)) {
+  try {
+    const r = await fetch(url);
+    if (!r.ok) continue;
+    const buf = Buffer.from(await r.arrayBuffer());
+    if (buf.length < 100) continue;
+    writeFileSync(join(THUMB_DIR, id + ".jpg"), buf);
+    localThumb[id] = "thumbs/" + id + ".jpg";
+    thumbOk++;
+  } catch { /* bo qua anh loi */ }
+}
+console.log(`  Tải xong ${thumbOk}/${Object.keys(wantThumb).length} ảnh`);
+// Gan thumb = duong dan local (rong neu tai that bai)
+for (const r of campaignDays) r.thumb = localThumb[r.id] || "";
+// Don file cu khong con campaign nao dung
+const keep = new Set(Object.values(localThumb).map(p => p.split("/").pop()));
+for (const f of readdirSync(THUMB_DIR)) if (f.endsWith(".jpg") && !keep.has(f)) { try { unlinkSync(join(THUMB_DIR, f)); } catch {} }
 
 for (const d of Object.values(daily)) for (const k of Object.keys(d)) d[k] = Math.round(d[k]);
 

@@ -149,6 +149,13 @@
         <option value="PAUSED">Đã dừng (PAUSED)</option>
         <option value="ARCHIVED">Đã lưu trữ</option>
       </select>
+      <select id="campEffFilter" style="font-size:13px;padding:5px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);">
+        <option value="">Tất cả hiệu quả</option>
+        <option value="good">🟢 Tốt</option>
+        <option value="ok">🟡 Khá</option>
+        <option value="poor">🔴 Kém / Đắt</option>
+        <option value="none">⚪ Chưa đo</option>
+      </select>
       <span id="campSummary" style="font-size:13px;color:var(--muted);"></span>
     </div>
     <div id="campBody"></div>
@@ -315,10 +322,22 @@
         c.cpe=c.engagement?Math.round(c.spend/c.engagement):0;
         c.cpl=c.leads?Math.round(c.spend/c.leads):0;
         c.cpo=c.purchases?Math.round(c.spend/c.purchases):0;
+        // Hieu qua: Branding theo CPM (reach re=tot), Doanh so theo ROAS. '' = chua do.
+        if(c.type==='brand') c.eff=c.cpm?(c.cpm<=8000?'good':c.cpm<=15000?'ok':'poor'):'';
+        else c.eff=c.roas?(c.roas>=3?'good':c.roas>=1.5?'ok':'poor'):'';
       });
       function sumC(arr){return arr.reduce(function(s,c){return{spend:s.spend+c.spend,impressions:s.impressions+c.impressions,engagement:s.engagement+c.engagement,messages:s.messages+c.messages,leads:s.leads+c.leads,purchases:s.purchases+c.purchases,purchaseValue:s.purchaseValue+c.purchaseValue};},{spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0});}
-      var brandC=campsAgg.filter(function(c){return c.type==='brand';}),convC=campsAgg.filter(function(c){return c.type!=='brand';});
-      var bS=sumC(brandC),cvS=sumC(convC),totS=sumC(campsAgg);
+      var brandAll=campsAgg.filter(function(c){return c.type==='brand';}),convAll=campsAgg.filter(function(c){return c.type!=='brand';});
+      var bS=sumC(brandAll),cvS=sumC(convAll),totS=sumC(campsAgg);
+      // Loc theo hieu qua (chi anh huong bang liet ke, KHONG anh huong summary tong)
+      var efVal=document.getElementById('campEffFilter').value;
+      var effWant=efVal==='none'?'':efVal;
+      var brandC=efVal?brandAll.filter(function(c){return c.eff===effWant;}):brandAll;
+      var convC=efVal?convAll.filter(function(c){return c.eff===effWant;}):convAll;
+      // Thong ke theo hieu qua (tren toan bo campaign trong ky)
+      var EFFK=[['good','🟢 Tốt'],['ok','🟡 Khá'],['poor','🔴 Kém/Đắt'],['','⚪ Chưa đo']];
+      var effStat={};EFFK.forEach(function(k){effStat[k[0]]={n:0,spend:0,pv:0};});
+      campsAgg.forEach(function(c){var b=effStat[c.eff||''];if(b){b.n++;b.spend+=c.spend;b.pv+=c.purchaseValue;}});
       var nAct=campsAgg.filter(function(c){return c.status==='ACTIVE';}).length;
       var nPaus=campsAgg.filter(function(c){return c.status==='PAUSED';}).length;
       var periodLbl=startDay&&endDay?(startDay===endDay?startDay:startDay+' → '+endDay):'30 ngày gần nhất';
@@ -338,18 +357,25 @@
       html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">DT Doanh số (pixel)</div><div style="font-size:20px;font-weight:700">'+(cvS.purchaseValue?vnd(cvS.purchaseValue):'—')+'</div><div style="font-size:11px;color:var(--muted)">từ '+cvS.purchases+' đơn mua</div></div>';
       html+='<div class="card" style="padding:12px 14px;border-top:2px solid '+(salesROAS>=5?'#15803d':salesROAS>=2?'#378ADD':'#dc2626')+'"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">ROAS Doanh số</div><div style="font-size:20px;font-weight:700;color:'+(salesROAS>=5?'#15803d':salesROAS>=2?'#378ADD':'var(--ink)')+'">'+(salesROAS?salesROAS.toFixed(1)+'x':'—')+'</div><div style="font-size:11px;color:var(--muted)">DT÷chi Doanh số · ko gồm Branding</div></div>';
       html+='</div>';
+      // --- Thong ke + loc theo hieu qua (bam de loc) ---
+      var effCol={good:'#15803d',ok:'#a16207',poor:'#dc2626','':'#6b7280'};
+      html+='<div style="font-size:11px;color:var(--muted);margin-bottom:6px">Hiệu quả chiến dịch <span style="color:#bbb">(bấm để lọc)</span></div>';
+      html+='<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:18px;">';
+      EFFK.forEach(function(k){var key=k[0],st=effStat[key];var on=efVal===(key===''?'none':key);
+        html+='<div onclick="window.setCampEff(\''+(on?'':(key===''?'none':key))+'\')" style="cursor:pointer;padding:10px 12px;border-radius:10px;border:1px solid '+(on?effCol[key]:'var(--line)')+';background:'+(on?effCol[key]+'14':'var(--card)')+'">';
+        html+='<div style="font-size:12px;font-weight:700;color:'+effCol[key]+'">'+k[1]+'</div>';
+        html+='<div style="font-size:17px;font-weight:700;margin-top:2px">'+st.n+' <span style="font-size:11px;color:var(--muted);font-weight:500">camp</span></div>';
+        html+='<div style="font-size:11px;color:var(--muted)">'+vnd(st.spend)+(st.pv?' · DT '+vnd(st.pv):'')+'</div></div>';
+      });
+      html+='</div>';
       // --- Danh gia hieu qua: Doanh so theo ROAS, Branding theo CPM (reach re = tot) ---
-      function effBadge(c,isBrand){
+      function effBadge(c){
         var st='display:inline-block;font-size:10.5px;font-weight:600;padding:2px 7px;border-radius:20px;white-space:nowrap;';
         var G='background:#dcfce7;color:#15803d', A='background:#fef9c3;color:#a16207', R='background:#fee2e2;color:#dc2626', M='color:var(--muted)';
-        if(isBrand){var cpm=c.cpm||0;if(!cpm)return '<span style="'+M+'">—</span>';
-          if(cpm<=8000)return '<span style="'+st+G+'">Tốt</span>';
-          if(cpm<=15000)return '<span style="'+st+A+'">Khá</span>';
-          return '<span style="'+st+R+'">Đắt</span>';}
-        var r=c.roas||0;if(!r)return '<span style="'+M+'">— chưa đo</span>';
-        if(r>=3)return '<span style="'+st+G+'">Tốt</span>';
-        if(r>=1.5)return '<span style="'+st+A+'">Khá</span>';
-        return '<span style="'+st+R+'">Kém</span>';
+        if(c.eff==='good')return '<span style="'+st+G+'">Tốt</span>';
+        if(c.eff==='ok')return '<span style="'+st+A+'">Khá</span>';
+        if(c.eff==='poor')return '<span style="'+st+R+'">'+(c.type==='brand'?'Đắt':'Kém')+'</span>';
+        return '<span style="'+M+'">— chưa đo</span>';
       }
       // --- Section table helper ---
       function secTable(camps,isBrand){
@@ -361,7 +387,7 @@
         camps.forEach(function(c){
           var sl=SL[c.status]||'';
           h+='<tr style="border-top:1px solid var(--line)">';
-          h+='<td style="padding:4px 6px;text-align:center">'+(c.thumb?'<img src="'+c.thumb+'" style="width:38px;height:38px;object-fit:cover;border-radius:6px;background:#f0f0f0;vertical-align:middle" loading="lazy" onerror="this.style.display=\'none\'">':'<span style="display:inline-block;width:38px;height:38px;border-radius:6px;background:#f0f0f0"></span>')+'</td>';
+          h+='<td style="padding:4px 6px;text-align:center">'+(c.thumb?'<img src="'+c.thumb+'" style="width:40px;height:40px;object-fit:cover;border-radius:6px;background:#f0f0f0;vertical-align:middle" onerror="this.style.display=\'none\'">':'<span style="display:inline-block;width:40px;height:40px;border-radius:6px;background:#f0f0f0"></span>')+'</td>';
           h+='<td style="padding:5px 8px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="'+c.name+'">'+c.name+'</td>';
           h+='<td style="padding:5px 4px;text-align:center">'+sl+'</td>';
           h+='<td style="padding:5px 8px;font-weight:600">'+vnd(c.spend)+'</td>';
@@ -380,24 +406,27 @@
             h+='<td style="padding:5px 8px">'+(c.purchaseValue?vnd(c.purchaseValue):'—')+'</td>';
             h+='<td style="padding:5px 8px;font-weight:600;color:'+rc+'">'+rs+'</td>';
           }
-          h+='<td style="padding:5px 8px;text-align:center">'+effBadge(c,isBrand)+'</td>';
+          h+='<td style="padding:5px 8px;text-align:center">'+effBadge(c)+'</td>';
           h+='<td style="padding:5px 8px;color:var(--muted);font-size:11px;white-space:nowrap">'+c.account+'</td>';
           h+='</tr>';
         });
         h+='</tbody></table></div>';
         return h;
       }
+      // Tong cua phan dang hien (theo bo loc) de header khop so dong
+      var bShown=sumC(brandC),cvShown=sumC(convC);
+      var efSuffix=efVal?' <span style="color:var(--brand)">(lọc: '+(EFFK.filter(function(k){return (k[0]===''?'none':k[0])===efVal;})[0]||['','?'])[1]+')</span>':'';
       // --- Brand section ---
-      var bCPM=bS.impressions?Math.round(bS.spend/bS.impressions*1000):0;
+      var bCPMs=bShown.impressions?Math.round(bShown.spend/bShown.impressions*1000):0;
       html+='<div style="margin-bottom:20px"><div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:6px;border-bottom:2px solid #378ADD;margin-bottom:10px">';
-      html+='<span style="font-weight:700;font-size:13px;color:#378ADD">📣 Branding — Tương tác · View · Like · Nhận diện</span>';
-      html+='<span style="font-size:11px;color:var(--muted)">Chi: '+vnd(bS.spend)+' · Hiển thị: '+imprFmt(bS.impressions)+' · Tương tác: '+imprFmt(bS.engagement)+(bCPM?' · CPM: '+vnd(bCPM):'')+'</span></div>';
+      html+='<span style="font-weight:700;font-size:13px;color:#378ADD">📣 Branding — Tương tác · View · Like · Nhận diện'+efSuffix+'</span>';
+      html+='<span style="font-size:11px;color:var(--muted)">'+brandC.length+' camp · Chi: '+vnd(bShown.spend)+' · Hiển thị: '+imprFmt(bShown.impressions)+' · Tương tác: '+imprFmt(bShown.engagement)+(bCPMs?' · CPM: '+vnd(bCPMs):'')+'</span></div>';
       html+=secTable(brandC,true)+'</div>';
       // --- Conversion section ---
-      var cvROAS=cvS.purchaseValue&&cvS.spend?Math.round(cvS.purchaseValue/cvS.spend*10)/10:0;
+      var cvROAS=cvShown.purchaseValue&&cvShown.spend?Math.round(cvShown.purchaseValue/cvShown.spend*10)/10:0;
       html+='<div><div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:6px;border-bottom:2px solid #1D9E75;margin-bottom:10px">';
-      html+='<span style="font-weight:700;font-size:13px;color:#1D9E75">🎯 Doanh số — Mess · Lead · Mua</span>';
-      html+='<span style="font-size:11px;color:var(--muted)">Chi: '+vnd(cvS.spend)+' · Mess: '+cvS.messages+' · Lead: '+cvS.leads+' · Mua: '+cvS.purchases+(cvROAS?' · ROAS: '+cvROAS.toFixed(1)+'x':'')+'</span></div>';
+      html+='<span style="font-weight:700;font-size:13px;color:#1D9E75">🎯 Doanh số — Mess · Lead · Mua'+efSuffix+'</span>';
+      html+='<span style="font-size:11px;color:var(--muted)">'+convC.length+' camp · Chi: '+vnd(cvShown.spend)+' · Mess: '+cvShown.messages+' · Lead: '+cvShown.leads+' · Mua: '+cvShown.purchases+(cvROAS?' · ROAS: '+cvROAS.toFixed(1)+'x':'')+'</span></div>';
       html+=secTable(convC,false)+'</div>';
       if(!campsAgg.length) html='<p class="note" style="text-align:center;padding:24px">Chưa có dữ liệu. Chạy <code>node meta-fetch.mjs</code> để cập nhật.</p>';
       document.getElementById('campBody').innerHTML=html;
@@ -490,6 +519,8 @@
   fromI.addEventListener('change',function(){cFrom=this.value;if(period==='custom')render();});
   toI.addEventListener('change',function(){cTo=this.value;if(period==='custom')render();});
   document.getElementById('campStatusFilter').addEventListener('change',function(){render();});
+  document.getElementById('campEffFilter').addEventListener('change',function(){render();});
+  window.setCampEff=function(v){document.getElementById('campEffFilter').value=v;render();};
 
   function fmtD(d){return d.split('-').reverse().join('/');}
   function rangeLabel(){var s=sliceFor(period);
