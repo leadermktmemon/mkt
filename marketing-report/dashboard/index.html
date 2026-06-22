@@ -345,8 +345,8 @@
       });
       var campMap={};
       filteredDays.forEach(function(r){
-        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',thumb:r.thumb||'',spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
-        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;if(r.optGoal)c.optGoal=r.optGoal;if(r.thumb)c.thumb=r.thumb;
+        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',thumb:r.thumb||'',creative:r.creative||{},spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
+        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;if(r.optGoal)c.optGoal=r.optGoal;if(r.thumb)c.thumb=r.thumb;if(r.creative&&(r.creative.title||r.creative.body))c.creative=r.creative;
       });
       var campsAgg=Object.values(campMap).sort(function(a,b){return b.spend-a.spend;});
       campsAgg.forEach(function(c){
@@ -556,6 +556,7 @@
   document.getElementById('campStatusFilter').addEventListener('change',function(){render();});
   document.getElementById('campEffFilter').addEventListener('change',function(){render();});
   window.setCampEff=function(v){document.getElementById('campEffFilter').value=v;render();};
+  function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
   window.showCampModal=function(id){
     var c=window._camps&&window._camps[id];if(!c)return;
     var imgEl=document.getElementById('mImg'),noImg=document.getElementById('mNoImg');
@@ -589,6 +590,17 @@
     cells.forEach(function(cl){b+='<div class="mcell"><div class="ml">'+cl[0]+'</div><div class="mv">'+cl[1]+'</div></div>';});
     b+='</div>';
     b+='<a href="https://adsmanager.facebook.com/adsmanager/manage/campaigns?selected_campaign_ids='+c.id+'" target="_blank" rel="noopener" style="font-size:13px;color:var(--brand);font-weight:600;text-decoration:none">Xem chiến dịch trên Meta Ads Manager →</a>';
+    var cr=c.creative||{};
+    if(cr.title||cr.body){
+      b+='<div style="border-top:1px solid var(--line);margin-top:16px;padding-top:16px">';
+      b+='<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:10px">Nội dung quảng cáo</div>';
+      if(cr.title)b+='<div style="font-size:14px;font-weight:700;line-height:1.4;margin-bottom:8px">'+escHtml(cr.title)+'</div>';
+      if(cr.body)b+='<div style="font-size:13px;line-height:1.7;color:var(--ink);white-space:pre-wrap;background:var(--bg);border-radius:8px;padding:12px">'+escHtml(cr.body)+'</div>';
+      if(cr.cta){var ctaMap={MESSAGE_PAGE:'Nhắn tin',SHOP_NOW:'Mua ngay',LEARN_MORE:'Tìm hiểu thêm',SIGN_UP:'Đăng ký',CONTACT_US:'Liên hệ',SUBSCRIBE:'Đăng ký nhận tin',BOOK_NOW:'Đặt ngay',DOWNLOAD:'Tải về',GET_OFFER:'Nhận ưu đãi',WATCH_VIDEO:'Xem video',APPLY_NOW:'Đăng ký ngay',GET_QUOTE:'Nhận báo giá',CALL_NOW:'Gọi ngay',ORDER_NOW:'Đặt hàng ngay',NO_BUTTON:'(không có nút)'};b+='<div style="display:inline-block;margin-top:10px;padding:6px 14px;border-radius:7px;background:var(--brand);color:#fff;font-size:12px;font-weight:700">'+(ctaMap[cr.cta]||cr.cta)+'</div>';}
+      b+='</div>';
+    }else if(Object.keys(cr).some(k=>cr[k])){
+      b+='<div style="border-top:1px solid var(--line);margin-top:16px;padding-top:16px;font-size:12px;color:var(--muted2)">Không có nội dung văn bản cho chiến dịch này (có thể là video/carousel).</div>';
+    }
     document.getElementById('mBody').innerHTML=b;
     document.getElementById('campModal').classList.add('open');
     document.body.style.overflow='hidden';
