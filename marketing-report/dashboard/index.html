@@ -274,13 +274,17 @@
       // ===== NHOM 2: Campaign Facebook =====
       P.grid2.style.display='none';P.store.style.display='none';P.trend.style.display='none';
       P.campaign.style.display='block';
-      // Branding chi xet optimization_goal thuan nhan dien/tuong tac/view/like (objective Meta qua tho, gop ca messaging ban hang).
+      // Phan loai Branding vs Ban hang. Tin hieu chinh: CPM (=chi/1000 hien thi).
+      // Branding hien thi rong/re -> CPM THAP. Ban hang nham tep hep co y dinh mua -> CPM CAO (gap nhieu lan).
+      var CPM_BRAND_MAX=30000;  // CPM < 30K -> Branding; >= 30K -> Ban hang (dieu chinh tai day)
       var BRAND_GOAL={POST_ENGAGEMENT:1,ENGAGED_USERS:1,PROFILE_AND_PAGE_ENGAGEMENT:1,EVENT_RESPONSES:1,THRUPLAY:1,TWO_SECOND_CONTINUOUS_VIDEO_VIEWS:1,VIDEO_VIEWS:1,REACH:1,IMPRESSIONS:1,AD_RECALL_LIFT:1,PAGE_LIKES:1,VISIT_INSTAGRAM_PROFILE:1,PROFILE_VISIT:1};
       var BRAND_OBJ={BRAND_AWARENESS:1,REACH:1,VIDEO_VIEWS:1,OUTCOME_AWARENESS:1};  // fallback cuoi (KHONG gom OUTCOME_ENGAGEMENT vi no lan ca messaging)
       function campType(c){
-        if(c.optGoal) return BRAND_GOAL[c.optGoal]?'brand':'conv';            // 1. chinh xac theo y do chay ads
-        if((c.messages||0)+(c.leads||0)+(c.purchases||0)>0) return 'conv';    // 2. hanh vi thuc: co mess/lead/mua -> ban hang
-        return BRAND_OBJ[c.objective]?'brand':'conv';                          // 3. fallback theo objective
+        var cpm=c.impressions?c.spend/c.impressions*1000:0;
+        if(cpm) return cpm<CPM_BRAND_MAX?'brand':'conv';                      // 1. CPM (tin hieu chinh): thap = branding
+        if(c.optGoal) return BRAND_GOAL[c.optGoal]?'brand':'conv';            // 2. optimization_goal
+        if((c.messages||0)+(c.leads||0)+(c.purchases||0)>0) return 'conv';    // 3. hanh vi thuc
+        return BRAND_OBJ[c.objective]?'brand':'conv';                          // 4. fallback objective
       }
       var campDays=D.campaignDays||[];
       var startDay=slice.length?slice[0].day:'';
@@ -376,7 +380,7 @@
       html+=secTable(convC,false)+'</div>';
       if(!campsAgg.length) html='<p class="note" style="text-align:center;padding:24px">Chưa có dữ liệu. Chạy <code>node meta-fetch.mjs</code> để cập nhật.</p>';
       document.getElementById('campBody').innerHTML=html;
-      document.getElementById('campNote').innerHTML='Branding (mục tiêu tương tác/view/like/nhận diện) đo bằng hiển thị &amp; tương tác — KHÔNG tính ROAS. ROAS Doanh số = DT pixel ÷ chi phí Doanh số (KHÔNG gồm chi phí Branding). CPM = Chi/1000 hiển thị · CPE = Chi/tương tác · CPL = Chi/lead · CPO = Chi/đơn.';
+      document.getElementById('campNote').innerHTML='Phân loại theo CPM: Branding hiển thị rộng/rẻ (CPM &lt; 30K) — đo bằng hiển thị &amp; tương tác, KHÔNG tính ROAS. Doanh số nhắm tệp hẹp (CPM ≥ 30K) — ROAS = DT pixel ÷ chi phí Doanh số (KHÔNG gồm chi phí Branding). CPM = Chi/1000 hiển thị · CPE = Chi/tương tác · CPL = Chi/lead · CPO = Chi/đơn.';
       keys=['Meta FB','Meta IG'];valFn=function(d){return{'Meta FB':d.metaFb||0,'Meta IG':d.metaIg||0};};
       trendTitle='Chi phí Meta theo ngày';
     }

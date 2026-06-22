@@ -117,6 +117,8 @@ async function fetchOptGoals(label, grpToken, accounts) {
 for (const g of allGroups) await fetchOptGoals(g.label, g.token, g.accounts);
 
 // ---- Buoc 2: Chi phi theo ngay x campaign (30 ngay, time_increment=1) ----
+// CPM (=spend/impressions, deu cong don duoc) la tin hieu chinh phan biet Branding (CPM thap: hien thi rong/re)
+// vs Ban hang (CPM cao: tep hep, dat) -> tinh truc tiep o dashboard, khong can fetch reach/frequency.
 console.log('\nKéo chi tiết chiến dịch theo ngày...');
 const campaignDays = [];
 const since30 = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
