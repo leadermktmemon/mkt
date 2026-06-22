@@ -116,6 +116,26 @@ async function fetchOptGoals(label, grpToken, accounts) {
 }
 for (const g of allGroups) await fetchOptGoals(g.label, g.token, g.accounts);
 
+// ---- Buoc 1c: thumbnail quang cao theo campaign (uu tien ad dang chay) ----
+console.log('\nKéo thumbnail quảng cáo...');
+const campThumb = {};
+async function fetchThumbs(label, grpToken, accounts) {
+  for (const acc of accounts) {
+    const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{thumbnail_url}', limit: '500', access_token: grpToken });
+    try {
+      const rows = await pages(`${G}/act_${acc.id}/ads?${p}`);
+      for (const a of rows) {
+        const cid = a.campaign_id, t = a.creative?.thumbnail_url || '';
+        if (!cid || !t) continue;
+        // Uu tien thumbnail cua ad ACTIVE; neu chua co thi lay tam ad bat ky
+        if (!campThumb[cid] || a.effective_status === 'ACTIVE') campThumb[cid] = t;
+      }
+      console.log(`  [${label}] ${acc.name}: ${rows.length} ads`);
+    } catch (e) { console.log(`  [Thumb] LỖI ${acc.name}: ${e.message}`); }
+  }
+}
+for (const g of allGroups) await fetchThumbs(g.label, g.token, g.accounts);
+
 // ---- Buoc 2: Chi phi theo ngay x campaign (30 ngay, time_increment=1) ----
 // CPM (=spend/impressions, deu cong don duoc) la tin hieu chinh phan biet Branding (CPM thap: hien thi rong/re)
 // vs Ban hang (CPM cao: tep hep, dat) -> tinh truc tiep o dashboard, khong can fetch reach/frequency.
@@ -148,6 +168,7 @@ async function fetchCampaignDays(label, grpToken, accounts) {
           status: campStatus[row.campaign_id]?.status || 'UNKNOWN',
           objective: campStatus[row.campaign_id]?.objective || '',
           optGoal: campOpt[row.campaign_id] || '',
+          thumb: campThumb[row.campaign_id] || '',
           spend, impressions: Number(row.impressions) || 0, clicks: Number(row.clicks) || 0,
           engagement: Math.round(acts['post_engagement'] || 0),
           messages: Math.round(acts['onsite_conversion.messaging_conversation_started_7d'] || acts['onsite_conversion.messaging_conversation_started_30d'] || 0),

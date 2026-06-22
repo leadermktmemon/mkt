@@ -297,8 +297,8 @@
       });
       var campMap={};
       filteredDays.forEach(function(r){
-        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
-        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;if(r.optGoal)c.optGoal=r.optGoal;
+        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',thumb:r.thumb||'',spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
+        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;if(r.optGoal)c.optGoal=r.optGoal;if(r.thumb)c.thumb=r.thumb;
       });
       var campsAgg=Object.values(campMap).sort(function(a,b){return b.spend-a.spend;});
       campsAgg.forEach(function(c){
@@ -331,17 +331,30 @@
       html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">DT Doanh số (pixel)</div><div style="font-size:20px;font-weight:700">'+(cvS.purchaseValue?vnd(cvS.purchaseValue):'—')+'</div><div style="font-size:11px;color:var(--muted)">từ '+cvS.purchases+' đơn mua</div></div>';
       html+='<div class="card" style="padding:12px 14px;border-top:2px solid '+(salesROAS>=5?'#15803d':salesROAS>=2?'#378ADD':'#dc2626')+'"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">ROAS Doanh số</div><div style="font-size:20px;font-weight:700;color:'+(salesROAS>=5?'#15803d':salesROAS>=2?'#378ADD':'var(--ink)')+'">'+(salesROAS?salesROAS.toFixed(1)+'x':'—')+'</div><div style="font-size:11px;color:var(--muted)">DT÷chi Doanh số · ko gồm Branding</div></div>';
       html+='</div>';
+      // --- Danh gia hieu qua: Doanh so theo ROAS, Branding theo CPM (reach re = tot) ---
+      function effBadge(c,isBrand){
+        var st='display:inline-block;font-size:10.5px;font-weight:600;padding:2px 7px;border-radius:20px;white-space:nowrap;';
+        var G='background:#dcfce7;color:#15803d', A='background:#fef9c3;color:#a16207', R='background:#fee2e2;color:#dc2626', M='color:var(--muted)';
+        if(isBrand){var cpm=c.cpm||0;if(!cpm)return '<span style="'+M+'">—</span>';
+          if(cpm<=8000)return '<span style="'+st+G+'">Tốt</span>';
+          if(cpm<=15000)return '<span style="'+st+A+'">Khá</span>';
+          return '<span style="'+st+R+'">Đắt</span>';}
+        var r=c.roas||0;if(!r)return '<span style="'+M+'">— chưa đo</span>';
+        if(r>=3)return '<span style="'+st+G+'">Tốt</span>';
+        if(r>=1.5)return '<span style="'+st+A+'">Khá</span>';
+        return '<span style="'+st+R+'">Kém</span>';
+      }
       // --- Section table helper ---
       function secTable(camps,isBrand){
         if(!camps.length)return '<p class="note" style="padding:6px 0 12px">Không có chiến dịch trong kỳ này</p>';
         var h='<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:12px"><thead><tr style="border-bottom:1px solid var(--line);color:var(--muted)">';
-        if(isBrand) h+='<th style="text-align:left;padding:5px 8px;white-space:nowrap">Sản phẩm</th><th style="text-align:left;padding:5px 8px">Tên chiến dịch</th><th style="padding:5px 4px">TT</th><th style="padding:5px 8px">Chi phí</th><th style="padding:5px 8px">Hiển thị</th><th style="padding:5px 8px">CPM</th><th style="padding:5px 8px">Tương tác</th><th style="padding:5px 8px">CPE</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
-        else h+='<th style="text-align:left;padding:5px 8px;white-space:nowrap">Sản phẩm</th><th style="text-align:left;padding:5px 8px">Tên chiến dịch</th><th style="padding:5px 4px">TT</th><th style="padding:5px 8px">Chi phí</th><th style="padding:5px 8px">Mess</th><th style="padding:5px 8px">Lead</th><th style="padding:5px 8px">CPL</th><th style="padding:5px 8px">Mua</th><th style="padding:5px 8px">CPO</th><th style="padding:5px 8px">DT Ads</th><th style="padding:5px 8px">ROAS</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
+        if(isBrand) h+='<th style="padding:5px 6px">Ảnh</th><th style="text-align:left;padding:5px 8px">Tên chiến dịch</th><th style="padding:5px 4px">TT</th><th style="padding:5px 8px">Chi phí</th><th style="padding:5px 8px">Hiển thị</th><th style="padding:5px 8px">CPM</th><th style="padding:5px 8px">Tương tác</th><th style="padding:5px 8px">CPE</th><th style="padding:5px 8px">Hiệu quả</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
+        else h+='<th style="padding:5px 6px">Ảnh</th><th style="text-align:left;padding:5px 8px">Tên chiến dịch</th><th style="padding:5px 4px">TT</th><th style="padding:5px 8px">Chi phí</th><th style="padding:5px 8px">Mess</th><th style="padding:5px 8px">Lead</th><th style="padding:5px 8px">CPL</th><th style="padding:5px 8px">Mua</th><th style="padding:5px 8px">CPO</th><th style="padding:5px 8px">DT Ads</th><th style="padding:5px 8px">ROAS</th><th style="padding:5px 8px">Hiệu quả</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
         h+='</tr></thead><tbody>';
         camps.forEach(function(c){
-          var prod=detectProduct(c.name);var sl=SL[c.status]||'';
+          var sl=SL[c.status]||'';
           h+='<tr style="border-top:1px solid var(--line)">';
-          h+='<td style="padding:5px 8px;white-space:nowrap"><span class="dot" style="background:'+(COL[prod]||'#888780')+'"></span>'+prod+'</td>';
+          h+='<td style="padding:4px 6px;text-align:center">'+(c.thumb?'<img src="'+c.thumb+'" style="width:38px;height:38px;object-fit:cover;border-radius:6px;background:#f0f0f0;vertical-align:middle" loading="lazy" onerror="this.style.display=\'none\'">':'<span style="display:inline-block;width:38px;height:38px;border-radius:6px;background:#f0f0f0"></span>')+'</td>';
           h+='<td style="padding:5px 8px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="'+c.name+'">'+c.name+'</td>';
           h+='<td style="padding:5px 4px;text-align:center">'+sl+'</td>';
           h+='<td style="padding:5px 8px;font-weight:600">'+vnd(c.spend)+'</td>';
@@ -360,6 +373,7 @@
             h+='<td style="padding:5px 8px">'+(c.purchaseValue?vnd(c.purchaseValue):'—')+'</td>';
             h+='<td style="padding:5px 8px;font-weight:600;color:'+rc+'">'+rs+'</td>';
           }
+          h+='<td style="padding:5px 8px;text-align:center">'+effBadge(c,isBrand)+'</td>';
           h+='<td style="padding:5px 8px;color:var(--muted);font-size:11px;white-space:nowrap">'+c.account+'</td>';
           h+='</tr>';
         });
