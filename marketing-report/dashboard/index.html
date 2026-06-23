@@ -344,6 +344,16 @@
         if(sfVal&&r.status!==sfVal)return false;
         return true;
       });
+      // Hom nay chua co du lieu Meta (bao cao tre ~2h) -> tu dong dung ngay gan nhat
+      var campFallbackDay='';
+      if(!filteredDays.length&&period==='today'&&campDays.length){
+        campFallbackDay=campDays.reduce(function(mx,r){return r.day>mx?r.day:mx;},'');
+        filteredDays=campDays.filter(function(r){
+          if(r.day!==campFallbackDay)return false;
+          if(sfVal&&r.status!==sfVal)return false;
+          return true;
+        });
+      }
       var campMap={};
       filteredDays.forEach(function(r){
         if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',thumb:r.thumb||'',creative:r.creative||{},spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
@@ -379,7 +389,7 @@
       campsAgg.forEach(function(c){var b=effStat[c.eff||''];if(b){b.n++;b.spend+=c.spend;b.pv+=c.purchaseValue;}});
       var nAct=campsAgg.filter(function(c){return c.status==='ACTIVE';}).length;
       var nPaus=campsAgg.filter(function(c){return c.status==='PAUSED';}).length;
-      var periodLbl=startDay&&endDay?(startDay===endDay?startDay:startDay+' → '+endDay):'30 ngày gần nhất';
+      var periodLbl=campFallbackDay?campFallbackDay+' (mới nhất)':(startDay&&endDay?(startDay===endDay?startDay:startDay+' → '+endDay):'30 ngày gần nhất');
       document.getElementById('campPeriod').textContent=campDays.length?(periodLbl+' · Meta Ads API'):'Chưa có dữ liệu';
       document.getElementById('campSummary').innerHTML='';
       var imprFmt=function(n){return n>=1000?(n/1000).toFixed(0)+'K':(n||'—');};
@@ -527,7 +537,7 @@
       html+='<span style="font-weight:700;font-size:13px;color:#1D9E75">🎯 Doanh số — Mess · Lead · Mua'+efSuffix+'</span>';
       html+='<span style="font-size:11px;color:var(--muted)">'+convC.length+' camp · Chi: '+vnd(cvShown.spend)+' · Mess: '+cvShown.messages+' · Lead: '+cvShown.leads+' · Mua: '+cvShown.purchases+(cvROAS?' · ROAS: '+cvROAS.toFixed(1)+'x':'')+'</span></div>';
       html+=secTable(convC,false)+'</div>';
-      if(!campsAgg.length) html='<p class="note" style="text-align:center;padding:24px">Chưa có dữ liệu. Chạy <code>node meta-fetch.mjs</code> để cập nhật.</p>';
+      if(!campsAgg.length){var lastMeta=campDays.length?campDays.reduce(function(mx,r){return r.day>mx?r.day:mx;},''):'';html='<p class="note" style="text-align:center;padding:32px 16px">'+(lastMeta?'Chưa có dữ liệu chiến dịch cho kỳ này.<br><span style="font-size:11px">Dữ liệu Meta gần nhất: '+fmtD(lastMeta)+'. Tự động cập nhật mỗi 30 phút.</span>':'Chưa có dữ liệu Meta Ads. Tự động cập nhật mỗi 30 phút.')+'</p>';}
       document.getElementById('campBody').innerHTML=html;
       document.getElementById('campNote').innerHTML='Phân loại theo CPM: Branding hiển thị rộng/rẻ (CPM &lt; 20K) — đo bằng hiển thị &amp; tương tác, KHÔNG tính ROAS. Doanh số nhắm tệp hẹp (CPM ≥ 20K) — ROAS = DT pixel ÷ chi phí Doanh số (KHÔNG gồm chi phí Branding). CPM = Chi/1000 hiển thị · CPE = Chi/tương tác · CPL = Chi/lead · CPO = Chi/đơn.';
       keys=['Meta FB','Meta IG'];valFn=function(d){return{'Meta FB':d.metaFb||0,'Meta IG':d.metaIg||0};};
