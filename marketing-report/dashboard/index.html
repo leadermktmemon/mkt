@@ -177,6 +177,7 @@
         <option value="poor">🔴 Kém / Đắt</option>
         <option value="none">⚪ Chưa đo</option>
       </select>
+      <input type="text" id="campSearch" placeholder="🔍 Tìm tên chiến dịch..." style="font-size:13px;padding:5px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);min-width:190px;outline:none;" onfocus="this.style.borderColor='var(--brand)'" onblur="this.style.borderColor='var(--line)'">
       <span id="campSummary" style="font-size:13px;color:var(--muted);"></span>
     </div>
     <div id="campBody"></div>
@@ -212,8 +213,8 @@
   var group='1', period='30', gran='day', cFrom=null, cTo=null, charts={};
 
   // ---- URL hash state (F5 / chia se link giu nguyen bo loc) ----
-  function pushURL(){var p=new URLSearchParams();p.set('g',group);p.set('p',period);p.set('gr',gran);if(period==='custom'){if(cFrom)p.set('f',cFrom);if(cTo)p.set('t',cTo);}var sf=document.getElementById('campStatusFilter').value,ef=document.getElementById('campEffFilter').value;if(sf)p.set('sf',sf);if(ef)p.set('ef',ef);history.replaceState(null,'','#'+p.toString());}
-  function loadURL(){if(!location.hash)return;var p=new URLSearchParams(location.hash.slice(1));if(p.get('g'))group=p.get('g');if(p.get('p')){period=p.get('p');document.getElementById('periodSel').value=period;}if(p.get('gr'))gran=p.get('gr');if(p.get('f')){cFrom=p.get('f');document.getElementById('dFrom').value=cFrom;}if(p.get('t')){cTo=p.get('t');document.getElementById('dTo').value=cTo;}if(period==='custom')document.getElementById('customRange').style.display='inline-flex';document.querySelectorAll('#segGroup button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-grp')===group);});document.querySelectorAll('#segGran button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-g')===gran);});var sf=p.get('sf'),ef=p.get('ef');if(sf)document.getElementById('campStatusFilter').value=sf;if(ef)document.getElementById('campEffFilter').value=ef;}
+  function pushURL(){var p=new URLSearchParams();p.set('g',group);p.set('p',period);p.set('gr',gran);if(period==='custom'){if(cFrom)p.set('f',cFrom);if(cTo)p.set('t',cTo);}var sf=document.getElementById('campStatusFilter').value,ef=document.getElementById('campEffFilter').value,sq=document.getElementById('campSearch').value;if(sf)p.set('sf',sf);if(ef)p.set('ef',ef);if(sq)p.set('sq',sq);history.replaceState(null,'','#'+p.toString());}
+  function loadURL(){if(!location.hash)return;var p=new URLSearchParams(location.hash.slice(1));if(p.get('g'))group=p.get('g');if(p.get('p')){period=p.get('p');document.getElementById('periodSel').value=period;}if(p.get('gr'))gran=p.get('gr');if(p.get('f')){cFrom=p.get('f');document.getElementById('dFrom').value=cFrom;}if(p.get('t')){cTo=p.get('t');document.getElementById('dTo').value=cTo;}if(period==='custom')document.getElementById('customRange').style.display='inline-flex';document.querySelectorAll('#segGroup button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-grp')===group);});document.querySelectorAll('#segGran button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-g')===gran);});var sf=p.get('sf'),ef=p.get('ef'),sq=p.get('sq');if(sf)document.getElementById('campStatusFilter').value=sf;if(ef)document.getElementById('campEffFilter').value=ef;if(sq)document.getElementById('campSearch').value=sq;}
 
   function sliceFor(p){ var d=D.daily; if(!d.length)return [];
     if(p==='7')return d.slice(-7); if(p==='30')return d.slice(-30);
@@ -367,8 +368,9 @@
       // Loc theo hieu qua (chi anh huong bang liet ke, KHONG anh huong summary tong)
       var efVal=document.getElementById('campEffFilter').value;
       var effWant=efVal==='none'?'':efVal;
-      var brandC=efVal?brandAll.filter(function(c){return c.eff===effWant;}):brandAll;
-      var convC=efVal?convAll.filter(function(c){return c.eff===effWant;}):convAll;
+      var searchQ=(document.getElementById('campSearch').value||'').toLowerCase().trim();
+      var brandC=brandAll.filter(function(c){return(!efVal||c.eff===effWant)&&(!searchQ||c.name.toLowerCase().indexOf(searchQ)>=0);});
+      var convC=convAll.filter(function(c){return(!efVal||c.eff===effWant)&&(!searchQ||c.name.toLowerCase().indexOf(searchQ)>=0);});
       // Thong ke theo hieu qua (tren toan bo campaign trong ky)
       var EFFK=[['good','🟢 Tốt'],['ok','🟡 Khá'],['poor','🔴 Kém/Đắt'],['','⚪ Chưa đo']];
       var effStat={};EFFK.forEach(function(k){effStat[k[0]]={n:0,spend:0,pv:0};});
@@ -451,6 +453,39 @@
       // Tong cua phan dang hien (theo bo loc) de header khop so dong
       var bShown=sumC(brandC),cvShown=sumC(convC);
       var efSuffix=efVal?' <span style="color:var(--brand)">(lọc: '+(EFFK.filter(function(k){return (k[0]===''?'none':k[0])===efVal;})[0]||['','?'])[1]+')</span>':'';
+      // --- Pheu chuyen doi Doanh so ---
+      if(cvS.messages||cvS.leads||cvS.purchases){
+        var fM=cvS.messages||0,fL=cvS.leads||0,fB=cvS.purchases||0;
+        var cpMsg=fM&&cvS.spend?Math.round(cvS.spend/fM):0;
+        var cpLd=fL&&cvS.spend?Math.round(cvS.spend/fL):0;
+        var cpBy=fB&&cvS.spend?Math.round(cvS.spend/fB):0;
+        var rML=fM&&fL?(fL/fM*100).toFixed(1)+'%':'—';
+        var rMB=fM&&fB?(fB/fM*100).toFixed(1)+'%':'—';
+        var rLB=fL&&fB?(fB/fL*100).toFixed(1)+'%':'—';
+        html+='<div style="margin-bottom:20px">';
+        html+='<div style="font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin-bottom:10px">📊 Phễu chuyển đổi — Doanh số</div>';
+        html+='<div style="display:flex;align-items:center;gap:0;flex-wrap:wrap">';
+        function fStep(icon,label,num,cost,rate,col){
+          return '<div style="flex:1;min-width:110px;background:var(--card);border:1px solid var(--line);border-left:3px solid '+col+';border-radius:10px;padding:12px 14px;margin:0 2px 6px">'
+            +'<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:'+col+';margin-bottom:4px">'+icon+' '+label+'</div>'
+            +'<div style="font-size:22px;font-weight:800;line-height:1.1;margin-bottom:4px">'+num+'</div>'
+            +(cost?'<div style="font-size:11px;color:var(--muted)">Chi/'+label.toLowerCase()+': <b>'+cost+'</b></div>':'')
+            +(rate?'<div style="font-size:11px;color:var(--muted)">Tỉ lệ: <b style="color:'+col+'">'+rate+'</b></div>':'')
+            +'</div>';
+        }
+        function fArrow(pct){
+          return '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 4px;margin-bottom:6px">'
+            +'<div style="font-size:11px;font-weight:700;color:var(--brand);white-space:nowrap">'+pct+'</div>'
+            +'<div style="font-size:20px;color:var(--muted2);line-height:1">→</div>'
+            +'</div>';
+        }
+        html+=fStep('💬','Tin nhắn',fM.toLocaleString('vi-VN'),cpMsg?vnd(cpMsg):'','','#1D9E75');
+        html+=fArrow(rML);
+        html+=fStep('📋','Lead',fL.toLocaleString('vi-VN'),cpLd?vnd(cpLd):'',rLB?'Lead→Mua: '+rLB:'','#BA7517');
+        html+=fArrow(rMB);
+        html+=fStep('🛒','Lượt mua',fB.toLocaleString('vi-VN'),cpBy?vnd(cpBy):'','','var(--pink)');
+        html+='</div></div>';
+      }
       // --- Brand section ---
       var bCPMs=bShown.impressions?Math.round(bShown.spend/bShown.impressions*1000):0;
       html+='<div style="margin-bottom:20px"><div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:6px;border-bottom:2px solid #378ADD;margin-bottom:10px">';
@@ -555,6 +590,7 @@
   toI.addEventListener('change',function(){cTo=this.value;if(period==='custom')render();});
   document.getElementById('campStatusFilter').addEventListener('change',function(){render();});
   document.getElementById('campEffFilter').addEventListener('change',function(){render();});
+  document.getElementById('campSearch').addEventListener('input',function(){render();});
   window.setCampEff=function(v){document.getElementById('campEffFilter').value=v;render();};
   function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
   window.showCampModal=function(id){
