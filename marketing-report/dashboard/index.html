@@ -39,8 +39,8 @@
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:12px;margin-bottom:20px;}
   .ccard{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:12px;padding:18px 20px;box-shadow:0 1px 4px rgba(0,0,0,.04);}
   .ctitle{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);margin-bottom:10px;}
-  .cmain{font-size:28px;font-weight:800;letter-spacing:-.8px;line-height:1.2;margin:0 0 4px;}
-  .cmain small{font-size:12px;font-weight:500;color:var(--muted);margin-left:6px;letter-spacing:0;}
+  .cmain{font-size:28px;font-weight:800;letter-spacing:-.8px;line-height:1.2;margin:0 0 2px;}
+  .csub{font-size:12px;color:var(--muted);font-weight:500;margin:0 0 10px;line-height:1.4;}
   .cmetrics{display:grid;grid-template-columns:1fr 1fr;gap:0 16px;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);}
   .cm{display:flex;justify-content:space-between;gap:6px;font-size:12px;padding:5px 0;border-top:1px solid var(--line);}
   .cm:nth-child(-n+2){border-top:none;}
@@ -388,23 +388,50 @@
       var bCPM=bS.impressions?Math.round(bS.spend/bS.impressions*1000):0;
       var brandPct=totS.spend?Math.round(bS.spend/totS.spend*100):0;
       var html='';
-      // --- Summary cards ---
-      html+='<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:18px;">';
-      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">Tổng chi phí</div><div style="font-size:20px;font-weight:700">'+vnd(totS.spend)+'</div><div style="font-size:11px;color:var(--muted)">Branding '+vnd(bS.spend)+' · Doanh số '+vnd(cvS.spend)+'</div></div>';
-      html+='<div class="card" style="padding:12px 14px;border-top:2px solid #378ADD"><div style="font-size:11px;color:#378ADD;margin-bottom:3px">📣 Branding · chi phí</div><div style="font-size:20px;font-weight:700">'+vnd(bS.spend)+' <span style="font-size:11px;color:var(--muted);font-weight:500">'+brandPct+'%</span></div><div style="font-size:11px;color:var(--muted)">Hiển thị '+imprFmt(bS.impressions)+' · Tương tác '+imprFmt(bS.engagement)+(bCPM?' · CPM '+vnd(bCPM):'')+'</div></div>';
-      html+='<div class="card" style="padding:12px 14px;border-top:2px solid #1D9E75"><div style="font-size:11px;color:#1D9E75;margin-bottom:3px">🎯 Doanh số · chi phí</div><div style="font-size:20px;font-weight:700">'+vnd(cvS.spend)+' <span style="font-size:11px;color:var(--muted);font-weight:500">'+(100-brandPct)+'%</span></div><div style="font-size:11px;color:var(--muted)">Mess '+cvS.messages+' · Lead '+cvS.leads+' · Mua '+cvS.purchases+'</div></div>';
-      html+='<div class="card" style="padding:12px 14px"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">DT Doanh số (pixel)</div><div style="font-size:20px;font-weight:700">'+(cvS.purchaseValue?vnd(cvS.purchaseValue):'—')+'</div><div style="font-size:11px;color:var(--muted)">từ '+cvS.purchases+' đơn mua</div></div>';
-      html+='<div class="card" style="padding:12px 14px;border-top:2px solid '+(salesROAS>=5?'#15803d':salesROAS>=2?'#378ADD':'#dc2626')+'"><div style="font-size:11px;color:var(--muted);margin-bottom:3px">ROAS Doanh số</div><div style="font-size:20px;font-weight:700;color:'+(salesROAS>=5?'#15803d':salesROAS>=2?'#378ADD':'var(--ink)')+'">'+(salesROAS?salesROAS.toFixed(1)+'x':'—')+'</div><div style="font-size:11px;color:var(--muted)">DT÷chi Doanh số · ko gồm Branding</div></div>';
+      var roasCol=salesROAS>=5?'#15803d':salesROAS>=2?'#378ADD':'#dc2626';
+      var bCPE=bS.engagement?Math.round(bS.spend/bS.engagement):0;
+      var cvCPMsg=cvS.messages?Math.round(cvS.spend/cvS.messages):0;
+      // --- Tong quan: strip + 2 cot ---
+      html+='<div style="display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px;flex-wrap:wrap">';
+      html+='<div style="flex:0 0 auto"><div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin-bottom:2px">Tổng chi phí</div><div style="font-size:28px;font-weight:800;letter-spacing:-1px;line-height:1.1">'+vnd(totS.spend)+'</div><div style="font-size:11px;color:var(--muted);margin-top:2px">'+campsAgg.length+' chiến dịch · '+nAct+' đang chạy</div></div>';
+      html+='<div style="flex:1;min-width:100px"><div style="font-size:10px;color:var(--muted);margin-bottom:5px"><b style="color:#378ADD">📣 Branding '+brandPct+'%</b> &nbsp; <b style="color:#1D9E75">🎯 Doanh số '+(100-brandPct)+'%</b></div><div style="display:flex;height:7px;border-radius:4px;overflow:hidden"><div style="background:#378ADD;width:'+brandPct+'%"></div><div style="background:#1D9E75;width:'+(100-brandPct)+'%"></div></div></div>';
+      var roasBg=salesROAS>=5?'#dcfce7':salesROAS>=2?'#edf8fc':'#fee2e2';
+      html+='<div style="flex:0 0 auto;text-align:center;padding:8px 18px;border-radius:10px;background:'+roasBg+'"><div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:'+roasCol+'">ROAS</div><div style="font-size:24px;font-weight:800;color:'+roasCol+';line-height:1.1">'+(salesROAS?salesROAS.toFixed(1)+'x':'—')+'</div><div style="font-size:10px;color:var(--muted)">Doanh số</div></div>';
       html+='</div>';
-      // --- Thong ke + loc theo hieu qua (bam de loc) ---
+      html+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">';
+      // Branding card
+      html+='<div style="background:var(--card);border:1px solid var(--line);border-left:3px solid #378ADD;border-radius:10px;padding:14px 16px">';
+      html+='<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:#378ADD;margin-bottom:6px">📣 Branding</div>';
+      html+='<div style="font-size:22px;font-weight:800;letter-spacing:-.5px;margin-bottom:8px">'+vnd(bS.spend)+' <span style="font-size:12px;font-weight:500;color:var(--muted)">'+brandPct+'%</span></div>';
+      html+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:3px 10px;font-size:12px">';
+      html+='<div style="color:var(--muted)">Hiển thị<br><b style="color:var(--ink)">'+imprFmt(bS.impressions)+'</b></div>';
+      html+='<div style="color:var(--muted)">CPM<br><b style="color:var(--ink)">'+(bCPM?vnd(bCPM):'—')+'</b></div>';
+      html+='<div style="color:var(--muted)">Tương tác<br><b style="color:var(--ink)">'+imprFmt(bS.engagement)+'</b></div>';
+      html+='<div style="color:var(--muted)">CPE<br><b style="color:var(--ink)">'+(bCPE?vnd(bCPE):'—')+'</b></div>';
+      html+='</div></div>';
+      // Doanh so card
+      html+='<div style="background:var(--card);border:1px solid var(--line);border-left:3px solid #1D9E75;border-radius:10px;padding:14px 16px">';
+      html+='<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:#1D9E75;margin-bottom:6px">🎯 Doanh số</div>';
+      html+='<div style="font-size:22px;font-weight:800;letter-spacing:-.5px;margin-bottom:8px">'+vnd(cvS.spend)+' <span style="font-size:12px;font-weight:500;color:var(--muted)">'+(100-brandPct)+'%</span></div>';
+      html+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:3px 10px;font-size:12px">';
+      html+='<div style="color:var(--muted)">Tin nhắn<br><b style="color:var(--ink)">'+(cvS.messages||'—')+'</b></div>';
+      html+='<div style="color:var(--muted)">Lead<br><b style="color:var(--ink)">'+(cvS.leads||'—')+'</b></div>';
+      html+='<div style="color:var(--muted)">Lượt mua<br><b style="color:var(--ink)">'+(cvS.purchases||'—')+'</b></div>';
+      html+='<div style="color:var(--muted)">DT pixel<br><b style="color:var(--ink)">'+(cvS.purchaseValue?vnd(cvS.purchaseValue):'—')+'</b></div>';
+      html+='</div></div>';
+      html+='</div>';
+      // --- Hieu qua: compact pill row ---
       var effCol={good:'#15803d',ok:'#a16207',poor:'#dc2626','':'#6b7280'};
-      html+='<div style="font-size:11px;color:var(--muted);margin-bottom:6px">Hiệu quả chiến dịch <span style="color:#bbb">(bấm để lọc)</span></div>';
-      html+='<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:18px;">';
-      EFFK.forEach(function(k){var key=k[0],st=effStat[key];var on=efVal===(key===''?'none':key);
-        html+='<div onclick="window.setCampEff(\''+(on?'':(key===''?'none':key))+'\')" style="cursor:pointer;padding:10px 12px;border-radius:10px;border:1px solid '+(on?effCol[key]:'var(--line)')+';background:'+(on?effCol[key]+'14':'var(--card)')+'">';
-        html+='<div style="font-size:12px;font-weight:700;color:'+effCol[key]+'">'+k[1]+'</div>';
-        html+='<div style="font-size:17px;font-weight:700;margin-top:2px">'+st.n+' <span style="font-size:11px;color:var(--muted);font-weight:500">camp</span></div>';
-        html+='<div style="font-size:11px;color:var(--muted)">'+vnd(st.spend)+(st.pv?' · DT '+vnd(st.pv):'')+'</div></div>';
+      html+='<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:10px">';
+      html+='<span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);white-space:nowrap;margin-right:2px">Hiệu quả</span>';
+      EFFK.forEach(function(k){
+        var key=k[0],st=effStat[key],isOn=efVal===(key===''?'none':key);
+        var c=effCol[key];
+        html+='<div onclick="window.setCampEff(\''+(isOn?'':(key===''?'none':key))+'\')" style="cursor:pointer;display:flex;align-items:center;gap:6px;padding:5px 12px;border-radius:20px;border:1.5px solid '+(isOn?c:'var(--line)')+';background:'+(isOn?c+'1a':'transparent')+'">';
+        html+='<span style="font-size:12px;font-weight:700;color:'+c+'">'+k[1]+'</span>';
+        html+='<span style="font-size:12px;font-weight:700;color:'+(isOn?c:'var(--ink)')+'">'+st.n+'</span>';
+        if(st.spend)html+='<span style="font-size:10px;color:var(--muted)">'+vnd(st.spend)+'</span>';
+        html+='</div>';
       });
       html+='</div>';
       // --- Danh gia hieu qua: Doanh so theo ROAS, Branding theo CPM (reach re = tot) ---
@@ -553,7 +580,7 @@
     }
 
     // ---- The so sanh tach biet ----
-    document.getElementById('cards').innerHTML=cards.map(function(c){return '<div class="ccard" style="border-left-color:'+c.color+'"><div class="ctitle">'+c.title+'</div><div class="cmain">'+c.main+(c.sub?' <small>'+c.sub+'</small>':'')+'</div><div class="cmetrics">'+c.metrics.map(function(x){return '<div class="cm"><span>'+x.label+'</span><b'+(x.muted?' class="mut"':'')+'>'+x.val+'</b></div>';}).join('')+'</div></div>';}).join('');
+    document.getElementById('cards').innerHTML=cards.map(function(c){return '<div class="ccard" style="border-left-color:'+c.color+';background:linear-gradient(135deg,var(--card) 80%,'+c.color+'0a 100%)"><div class="ctitle">'+c.title+'</div><div class="cmain">'+c.main+'</div>'+(c.sub?'<div class="csub">'+c.sub+'</div>':'')+'<div class="cmetrics">'+c.metrics.map(function(x){return '<div class="cm"><span>'+x.label+'</span><b'+(x.muted?' class="mut"':'')+'>'+x.val+'</b></div>';}).join('')+'</div></div>';}).join('');
 
     // ---- Trend (chung) ----
     var idx={},buckets=[];
