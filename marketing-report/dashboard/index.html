@@ -211,6 +211,8 @@
   var COST='— (chờ ads)';
 
   var group='1', period='30', gran='day', cFrom=null, cTo=null, charts={};
+  var campSort={brand:{col:'spend',dir:1},conv:{col:'spend',dir:1}};
+  window.sortCamp=function(type,col){if(campSort[type].col===col)campSort[type].dir*=-1;else{campSort[type].col=col;campSort[type].dir=1;}render();};
 
   // ---- URL hash state (F5 / chia se link giu nguyen bo loc) ----
   function pushURL(){var p=new URLSearchParams();p.set('g',group);p.set('p',period);p.set('gr',gran);if(period==='custom'){if(cFrom)p.set('f',cFrom);if(cTo)p.set('t',cTo);}var sf=document.getElementById('campStatusFilter').value,ef=document.getElementById('campEffFilter').value,sq=document.getElementById('campSearch').value;if(sf)p.set('sf',sf);if(ef)p.set('ef',ef);if(sq)p.set('sq',sq);history.replaceState(null,'','#'+p.toString());}
@@ -354,10 +356,11 @@
           return true;
         });
       }
+      var creativeMap=D.creativeMap||{};
       var campMap={};
       filteredDays.forEach(function(r){
-        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',thumb:r.thumb||'',creative:r.creative||{},spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
-        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;if(r.optGoal)c.optGoal=r.optGoal;if(r.thumb)c.thumb=r.thumb;if(r.creative&&(r.creative.title||r.creative.body))c.creative=r.creative;
+        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',thumb:r.thumb||'',creative:creativeMap[r.id]||{},spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
+        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;if(r.optGoal)c.optGoal=r.optGoal;if(r.thumb)c.thumb=r.thumb;
       });
       var campsAgg=Object.values(campMap).sort(function(a,b){return b.spend-a.spend;});
       campsAgg.forEach(function(c){
@@ -456,10 +459,16 @@
       // --- Section table helper ---
       function secTable(camps,isBrand){
         if(!camps.length)return '<p class="note" style="padding:6px 0 12px">Không có chiến dịch trong kỳ này</p>';
+        var type=isBrand?'brand':'conv',cs=campSort[type];
+        var sorted=camps.slice().sort(function(a,b){return ((b[cs.col]||0)-(a[cs.col]||0))*cs.dir;});
+        var si=function(col){return cs.col===col?(cs.dir===1?'▼':'▲'):'<span style="opacity:.25">⇅</span>';};
+        var sh=function(col,lbl,left){return '<th style="cursor:pointer;padding:5px 8px;white-space:nowrap;'+(left?'text-align:left':'')+'user-select:none" onclick="sortCamp(\''+type+'\',\''+col+'\')">'+lbl+' '+si(col)+'</th>';};
         var h='<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:12px"><thead><tr style="border-bottom:1px solid var(--line);color:var(--muted)">';
-        if(isBrand) h+='<th style="padding:5px 6px">Ảnh</th><th style="text-align:left;padding:5px 8px">Tên chiến dịch</th><th style="padding:5px 4px">TT</th><th style="padding:5px 8px">Chi phí</th><th style="padding:5px 8px">Hiển thị</th><th style="padding:5px 8px">CPM</th><th style="padding:5px 8px">Tương tác</th><th style="padding:5px 8px">CPE</th><th style="padding:5px 8px">Hiệu quả</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
-        else h+='<th style="padding:5px 6px">Ảnh</th><th style="text-align:left;padding:5px 8px">Tên chiến dịch</th><th style="padding:5px 4px">TT</th><th style="padding:5px 8px">Chi phí</th><th style="padding:5px 8px">Mess</th><th style="padding:5px 8px">Lead</th><th style="padding:5px 8px">CPL</th><th style="padding:5px 8px">Mua</th><th style="padding:5px 8px">CPO</th><th style="padding:5px 8px">DT Ads</th><th style="padding:5px 8px">ROAS</th><th style="padding:5px 8px">Hiệu quả</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
+        h+='<th style="padding:5px 6px">Ảnh</th>'+sh('name','Tên chiến dịch','left')+'<th style="padding:5px 4px">TT</th>'+sh('spend','Chi phí');
+        if(isBrand) h+=sh('impressions','Hiển thị')+sh('cpm','CPM')+sh('engagement','Tương tác')+sh('cpe','CPE')+'<th style="padding:5px 8px">Hiệu quả</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
+        else h+=sh('messages','Mess')+sh('leads','Lead')+sh('cpl','CPL')+sh('purchases','Mua')+sh('cpo','CPO')+sh('purchaseValue','DT Ads')+sh('roas','ROAS')+'<th style="padding:5px 8px">Hiệu quả</th><th style="text-align:left;padding:5px 8px">Tài khoản</th>';
         h+='</tr></thead><tbody>';
+        var camps=sorted;
         camps.forEach(function(c){
           var sl=SL[c.status]||'';
           h+='<tr style="border-top:1px solid var(--line)">';

@@ -126,7 +126,13 @@ function summarize(slice){let on=0,oo=0,st=0,stOnline=0,vin=0,vbuy=0;const chRaw
     sales:{totalRevenue:round(total),salesCount:oo,byType:{Online:round(on),"Cửa hàng":round(st)},onlinePct:total?round(on/total*100):0,storePct:total?round(st/total*100):0},brands:{Bemori:round(total),Memon:0}};}
 const sum30=summarize(daily.slice(-30));
 
-const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,campaignDays:metaCampaigns,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands};
+// Tach creative ra creativeMap (tranh luu 438 ban sao trung nhau trong campaignDays)
+const creativeMap={};
+const campaignDaysClean=metaCampaigns.map(({creative,...rest})=>{
+  if(creative&&(creative.title||creative.body)&&!creativeMap[rest.id])creativeMap[rest.id]=creative;
+  return rest;
+});
+const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,creativeMap,campaignDays:campaignDaysClean,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands};
 writeFileSync(join(__dirname,"data.json"),JSON.stringify(data,null,2),"utf8");
 writeFileSync(join(__dirname,"data.js"),`window.DASHBOARD_DATA=${JSON.stringify(data)};`,"utf8");
 

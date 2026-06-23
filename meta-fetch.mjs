@@ -201,19 +201,25 @@ const wantThumb = {};
 for (const r of campaignDays) if (r.thumb && r.thumb.startsWith("http")) wantThumb[r.id] = r.thumb;
 console.log(`\nTải ${Object.keys(wantThumb).length} thumbnail về thumbs/...`);
 const localThumb = {};
-let thumbOk = 0;
+let thumbOk = 0, thumbSkip = 0;
 for (const [id, url] of Object.entries(wantThumb)) {
+  const localPath = join(THUMB_DIR, id + ".jpg");
+  if (existsSync(localPath)) {           // da co roi -> dung lai, khong tai lai
+    localThumb[id] = "thumbs/" + id + ".jpg";
+    thumbSkip++;
+    continue;
+  }
   try {
     const r = await fetch(url);
     if (!r.ok) continue;
     const buf = Buffer.from(await r.arrayBuffer());
     if (buf.length < 100) continue;
-    writeFileSync(join(THUMB_DIR, id + ".jpg"), buf);
+    writeFileSync(localPath, buf);
     localThumb[id] = "thumbs/" + id + ".jpg";
     thumbOk++;
   } catch { /* bo qua anh loi */ }
 }
-console.log(`  Tải xong ${thumbOk}/${Object.keys(wantThumb).length} ảnh`);
+console.log(`  Tải ${thumbOk} mới + dùng lại ${thumbSkip} có sẵn (/${Object.keys(wantThumb).length} tổng)`);
 // Gan thumb = duong dan local (rong neu tai that bai)
 for (const r of campaignDays) r.thumb = localThumb[r.id] || "";
 // Don file cu khong con campaign nao dung
