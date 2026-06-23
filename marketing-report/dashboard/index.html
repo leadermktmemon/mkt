@@ -362,15 +362,17 @@
         else c.eff=c.roas?(c.roas>=3?'good':c.roas>=1.5?'ok':'poor'):'';
       });
       window._camps={};campsAgg.forEach(function(c){window._camps[c.id]=c;});
+      // Loc tu khoa: anh huong TOAN BO (summary, pheu, hieu qua, bang)
+      var searchQ=(document.getElementById('campSearch').value||'').toLowerCase().trim();
+      if(searchQ) campsAgg=campsAgg.filter(function(c){return c.name.toLowerCase().indexOf(searchQ)>=0;});
       function sumC(arr){return arr.reduce(function(s,c){return{spend:s.spend+c.spend,impressions:s.impressions+c.impressions,engagement:s.engagement+c.engagement,messages:s.messages+c.messages,leads:s.leads+c.leads,purchases:s.purchases+c.purchases,purchaseValue:s.purchaseValue+c.purchaseValue};},{spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0});}
       var brandAll=campsAgg.filter(function(c){return c.type==='brand';}),convAll=campsAgg.filter(function(c){return c.type!=='brand';});
       var bS=sumC(brandAll),cvS=sumC(convAll),totS=sumC(campsAgg);
-      // Loc theo hieu qua (chi anh huong bang liet ke, KHONG anh huong summary tong)
+      // Loc theo hieu qua (chi anh huong bang liet ke)
       var efVal=document.getElementById('campEffFilter').value;
       var effWant=efVal==='none'?'':efVal;
-      var searchQ=(document.getElementById('campSearch').value||'').toLowerCase().trim();
-      var brandC=brandAll.filter(function(c){return(!efVal||c.eff===effWant)&&(!searchQ||c.name.toLowerCase().indexOf(searchQ)>=0);});
-      var convC=convAll.filter(function(c){return(!efVal||c.eff===effWant)&&(!searchQ||c.name.toLowerCase().indexOf(searchQ)>=0);});
+      var brandC=efVal?brandAll.filter(function(c){return c.eff===effWant;}):brandAll;
+      var convC=efVal?convAll.filter(function(c){return c.eff===effWant;}):convAll;
       // Thong ke theo hieu qua (tren toan bo campaign trong ky)
       var EFFK=[['good','🟢 Tốt'],['ok','🟡 Khá'],['poor','🔴 Kém/Đắt'],['','⚪ Chưa đo']];
       var effStat={};EFFK.forEach(function(k){effStat[k[0]]={n:0,spend:0,pv:0};});
