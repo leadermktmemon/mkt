@@ -39,7 +39,7 @@ jobs:
         run: |
           if [ -f meta.config.json ]; then
             HOUR=$(date -u +%H); MIN=$(date -u +%M)
-            # Chỉ chạy trong cửa sổ 01:00–01:15 UTC (08h00 VN) hoặc khi bấm tay
+            # Chạy lúc 01:00–01:15 UTC (08h VN, trước khi gửi báo cáo 9h) hoặc khi bấm tay
             if { [ "$HOUR" = "01" ] && [ "$((10#$MIN))" -lt "15" ]; } || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
               echo "Kéo Meta Ads (${HOUR}:${MIN} UTC)..."
               node meta-fetch.mjs
@@ -53,21 +53,26 @@ jobs:
       - name: Tổng hợp dữ liệu từ Base Lark (Sales Online + Cửa hàng)
         run: node marketing-report/dashboard/lark-build-data.mjs
 
-      - name: Gửi thẻ KPI vào Lark (chỉ 08h VN = 01:00 UTC, hoặc chạy tay)
+      - name: Gửi thẻ KPI vào Lark (chỉ 09h VN = 02:00 UTC, hoặc chạy tay)
         continue-on-error: true
         run: |
           HOUR=$(date -u +%H); MIN=$(date -u +%M)
-          if { [ "$HOUR" = "01" ] && [ "$((10#$MIN))" -lt "15" ]; } || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if { [ "$HOUR" = "02" ] && [ "$((10#$MIN))" -lt "15" ]; } || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Gửi báo cáo Lark (${HOUR}:${MIN} UTC)..."
             node marketing-report/send-lark.mjs
           else
-            echo "Bỏ qua gửi Lark (${HOUR}:${MIN} UTC — chỉ gửi 01:00–01:15 UTC)"
+            echo "Bỏ qua gửi Lark (${HOUR}:${MIN} UTC — chỉ gửi 02:00–02:15 UTC = 09h VN)"
           fi
 
       - name: Commit dữ liệu dashboard (để Cloudflare deploy)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Fetch latest rồi reset HEAD về origin/main, giữ nguyên working tree (data.js vừa build)
+          # Tránh conflict khi có commit thủ công lên main song song với cron
+          git fetch origin main
+          git reset --soft origin/main
           git add marketing-report/dashboard/data.js marketing-report/dashboard/data.json marketing-report/dashboard/thumbs
-          git commit -m "chore: cap nhat du lieu dashboard" || echo "Không có thay đổi"
-          git pull --rebase origin main
+          git diff --cached --quiet && echo "Không có thay đổi, bỏ qua push" && exit 0
+          git commit -m "chore: cap nhat du lieu dashboard"
           git push

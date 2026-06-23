@@ -129,7 +129,9 @@ const sum30=summarize(daily.slice(-30));
 // Tach creative ra creativeMap (tranh luu 438 ban sao trung nhau trong campaignDays)
 const creativeMap={};
 const campaignDaysClean=metaCampaigns.map(({creative,...rest})=>{
-  if(creative&&(creative.title||creative.body)&&!creativeMap[rest.id])creativeMap[rest.id]=creative;
+  // Luu vao creativeMap neu co bat ky noi dung nao: text, anh cao res, hoac anh carousel
+  const hasContent=creative&&(creative.title||creative.body||creative.imageUrl||(creative.images&&creative.images.length>0));
+  if(hasContent&&!creativeMap[rest.id])creativeMap[rest.id]=creative;
   return rest;
 });
 const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,creativeMap,campaignDays:campaignDaysClean,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands};
