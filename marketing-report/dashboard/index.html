@@ -678,7 +678,23 @@
     if(!s.length){if(period==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return fmtD(t)+' · chưa có dữ liệu (cập nhật trong ngày)';}return '(không có dữ liệu)';}
     var a=s[0].day,b=s[s.length-1].day;return a===b?fmtD(a):fmtD(a)+' → '+fmtD(b);}
   var _r=render;render=function(){_r();document.getElementById('sub').textContent=rangeLabel();pushURL();};
-  document.getElementById('foot').innerHTML='<b style="color:var(--brand)">Memon<sup>®</sup></b> · Gấu bông cao cấp — Trao cảm xúc, gửi yêu thương · Cập nhật '+new Date(D.generatedAt).toLocaleString('vi-VN');
+  var genAt=new Date(D.generatedAt);
+  var genStr=genAt.toLocaleTimeString('vi-VN',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Ho_Chi_Minh'});
+  document.getElementById('foot').innerHTML='<b style="color:var(--brand)">Memon<sup>®</sup></b> · Gấu bông cao cấp — Trao cảm xúc, gửi yêu thương &nbsp;·&nbsp; Cập nhật '+genStr+' &nbsp;<span id="refreshCd" style="color:var(--muted2)"></span>';
+
+  // Tự reload sau 31 phút để nhận data.js mới (GitHub Actions chạy mỗi 30 phút)
+  (function(){
+    var RELOAD_MS=31*60*1000, reloadAt=Date.now()+RELOAD_MS;
+    function tick(){
+      var left=Math.max(0,reloadAt-Date.now());
+      var m=Math.floor(left/60000),s=Math.floor((left%60000)/1000);
+      var el=document.getElementById('refreshCd');
+      if(el)el.textContent='⟳ '+(left<60000?s+'s':m+':'+(s<10?'0':'')+s);
+      if(left<=500)location.reload(); else setTimeout(tick,left>120000?30000:1000);
+    }
+    tick();
+  })();
+
   loadURL();
   render();
 })();

@@ -2,8 +2,8 @@ name: Daily Marketing Report
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # 08h sáng VN (01:00 UTC)
-  workflow_dispatch:        # cho phép bấm chạy tay
+    - cron: "*/30 * * * *"  # mỗi 30 phút (build data.js và deploy)
+  workflow_dispatch:         # cho phép bấm chạy tay
 
 permissions:
   contents: write           # để commit dashboard/data.js
@@ -35,24 +35,32 @@ jobs:
             echo "Meta config: chưa có secret META_CONFIG, bỏ qua ads"
           fi
 
-      - name: Kéo chi phí Meta Ads (nếu có config)
+      - name: Kéo chi phí Meta Ads (chỉ 08h VN = 01:00 UTC, hoặc chạy tay)
         run: |
           if [ -f meta.config.json ]; then
-            node meta-fetch.mjs
+            HOUR=$(date -u +%H); MIN=$(date -u +%M)
+            # Chỉ chạy trong cửa sổ 01:00–01:15 UTC (08h00 VN) hoặc khi bấm tay
+            if { [ "$HOUR" = "01" ] && [ "$((10#$MIN))" -lt "15" ]; } || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "Kéo Meta Ads (${HOUR}:${MIN} UTC)..."
+              node meta-fetch.mjs
+            else
+              echo "Bỏ qua Meta fetch (${HOUR}:${MIN} UTC — chỉ chạy 01:00–01:15 UTC)"
+            fi
           else
-            echo "Bỏ qua Meta fetch"
+            echo "Bỏ qua Meta fetch (chưa có meta.config.json)"
           fi
 
       - name: Tổng hợp dữ liệu từ Base Lark (Sales Online + Cửa hàng)
         run: node marketing-report/dashboard/lark-build-data.mjs
 
-      - name: Gửi thẻ KPI vào Lark (chỉ buổi sáng ~08h VN)
+      - name: Gửi thẻ KPI vào Lark (chỉ 08h VN = 01:00 UTC, hoặc chạy tay)
         continue-on-error: true
         run: |
-          if [ "$(date -u +%H)" = "01" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          HOUR=$(date -u +%H); MIN=$(date -u +%M)
+          if { [ "$HOUR" = "01" ] && [ "$((10#$MIN))" -lt "15" ]; } || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             node marketing-report/send-lark.mjs
           else
-            echo "Bỏ qua gửi Lark (không phải khung 08h)"
+            echo "Bỏ qua gửi Lark (${HOUR}:${MIN} UTC — chỉ gửi 01:00–01:15 UTC)"
           fi
 
       - name: Commit dữ liệu dashboard (để Cloudflare deploy)
