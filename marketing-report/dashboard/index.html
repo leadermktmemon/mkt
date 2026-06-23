@@ -78,8 +78,12 @@
   #campModal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:900;align-items:center;justify-content:center;padding:16px;}
   #campModal.open{display:flex;}
   .mbox{background:var(--card);border-radius:16px;width:100%;max-width:520px;max-height:92vh;overflow-y:auto;position:relative;box-shadow:0 24px 64px rgba(0,0,0,.25);}
-  .mimg{width:100%;border-radius:16px 16px 0 0;max-height:290px;object-fit:cover;display:block;background:#eef1f5;}
+  .mimg{width:100%;border-radius:16px 16px 0 0;max-height:320px;object-fit:contain;display:block;background:#111;}
   .mnoi{width:100%;height:120px;border-radius:16px 16px 0 0;background:#eef1f5;display:flex;align-items:center;justify-content:center;color:var(--muted2);font-size:12px;}
+  .mcarousel{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;border-radius:16px 16px 0 0;background:#111;scrollbar-width:none;gap:3px;}
+  .mcarousel::-webkit-scrollbar{display:none;}
+  .mcarousel img{flex:0 0 calc(100% - 3px);max-height:320px;object-fit:contain;scroll-snap-align:start;display:block;background:#111;}
+  .mcar-info{text-align:center;padding:6px 12px;font-size:11px;color:var(--muted);border-bottom:1px solid var(--line);}
   .mbody{padding:20px 22px 24px;}
   .mclose{position:absolute;top:10px;right:10px;width:30px;height:30px;border-radius:50%;background:rgba(0,0,0,.4);color:#fff;border:0;font-size:20px;line-height:28px;cursor:pointer;text-align:center;z-index:1;}
   .mclose:hover{background:rgba(0,0,0,.65);}
@@ -190,8 +194,7 @@
 <div id="campModal" onclick="if(event.target===this)closeCampModal()">
   <div class="mbox">
     <button class="mclose" onclick="closeCampModal()">×</button>
-    <img id="mImg" class="mimg" src="" alt="" onerror="this.style.display='none';document.getElementById('mNoImg').style.display='flex'">
-    <div id="mNoImg" class="mnoi" style="display:none">Không có ảnh</div>
+    <div id="mImgArea"></div>
     <div class="mbody" id="mBody"></div>
   </div>
 </div>
@@ -643,9 +646,22 @@
   function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
   window.showCampModal=function(id){
     var c=window._camps&&window._camps[id];if(!c)return;
-    var imgEl=document.getElementById('mImg'),noImg=document.getElementById('mNoImg');
-    if(c.thumb){imgEl.src=c.thumb;imgEl.style.display='block';noImg.style.display='none';}
-    else{imgEl.style.display='none';noImg.style.display='flex';}
+    var cr=c.creative||{};
+    // Uu tien: carousel CDN > anh cao res CDN > thumbnail local
+    var imgs=cr.images&&cr.images.length>0?cr.images:(cr.imageUrl?[cr.imageUrl]:(c.thumb?[c.thumb]:[]));
+    var imgArea=document.getElementById('mImgArea');
+    if(!imgs.length){
+      imgArea.innerHTML='<div class="mnoi">Không có ảnh</div>';
+    }else if(imgs.length===1){
+      var el=document.createElement('img');el.className='mimg';el.alt='';el.src=imgs[0];
+      el.onerror=function(){imgArea.innerHTML='<div class="mnoi">Không có ảnh</div>';};
+      imgArea.innerHTML='';imgArea.appendChild(el);
+    }else{
+      var ch='<div class="mcarousel">';
+      imgs.forEach(function(src){ch+='<img src="'+escHtml(src)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';});
+      ch+='</div><div class="mcar-info">'+imgs.length+' ảnh carousel · vuốt ngang để xem</div>';
+      imgArea.innerHTML=ch;
+    }
     var isBrand=c.type==='brand';
     var SLtxt={'ACTIVE':'<span style="color:#15803d;font-weight:600">● Đang chạy</span>','PAUSED':'<span style="color:#aaa">⏸ Đã dừng</span>','ARCHIVED':'<span style="color:#dc2626">✕ Lưu trữ</span>'};
     var effHtml=(function(){
@@ -674,7 +690,6 @@
     cells.forEach(function(cl){b+='<div class="mcell"><div class="ml">'+cl[0]+'</div><div class="mv">'+cl[1]+'</div></div>';});
     b+='</div>';
     b+='<a href="https://adsmanager.facebook.com/adsmanager/manage/campaigns?selected_campaign_ids='+c.id+'" target="_blank" rel="noopener" style="font-size:13px;color:var(--brand);font-weight:600;text-decoration:none">Xem chiến dịch trên Meta Ads Manager →</a>';
-    var cr=c.creative||{};
     if(cr.title||cr.body){
       b+='<div style="border-top:1px solid var(--line);margin-top:16px;padding-top:16px">';
       b+='<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:10px">Nội dung quảng cáo</div>';
@@ -682,8 +697,6 @@
       if(cr.body)b+='<div style="font-size:13px;line-height:1.7;color:var(--ink);white-space:pre-wrap;background:var(--bg);border-radius:8px;padding:12px">'+escHtml(cr.body)+'</div>';
       if(cr.cta){var ctaMap={MESSAGE_PAGE:'Nhắn tin',SHOP_NOW:'Mua ngay',LEARN_MORE:'Tìm hiểu thêm',SIGN_UP:'Đăng ký',CONTACT_US:'Liên hệ',SUBSCRIBE:'Đăng ký nhận tin',BOOK_NOW:'Đặt ngay',DOWNLOAD:'Tải về',GET_OFFER:'Nhận ưu đãi',WATCH_VIDEO:'Xem video',APPLY_NOW:'Đăng ký ngay',GET_QUOTE:'Nhận báo giá',CALL_NOW:'Gọi ngay',ORDER_NOW:'Đặt hàng ngay',NO_BUTTON:'(không có nút)'};b+='<div style="display:inline-block;margin-top:10px;padding:6px 14px;border-radius:7px;background:var(--brand);color:#fff;font-size:12px;font-weight:700">'+(ctaMap[cr.cta]||cr.cta)+'</div>';}
       b+='</div>';
-    }else if(Object.keys(cr).some(k=>cr[k])){
-      b+='<div style="border-top:1px solid var(--line);margin-top:16px;padding-top:16px;font-size:12px;color:var(--muted2)">Không có nội dung văn bản cho chiến dịch này (có thể là video/carousel).</div>';
     }
     document.getElementById('mBody').innerHTML=b;
     document.getElementById('campModal').classList.add('open');
