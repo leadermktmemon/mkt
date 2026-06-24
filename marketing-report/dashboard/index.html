@@ -282,6 +282,12 @@
 
   function render(){
     var slice=sliceFor(period);
+    // Fallback cho "Hom nay": neu chua co du lieu Lark hom nay, dung ngay gan nhat
+    if(!slice.length&&period==='today'&&D.daily.length){
+      var _lastDay=D.daily[D.daily.length-1].day;
+      var _todayStr=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);
+      if(_lastDay<_todayStr)slice=D.daily.filter(function(d){return d.day===_lastDay;});
+    }
     var prev=prevSliceFor(period);
     var on=sumOnline(slice),stW=sumStore(slice),mktCH=sumStoreOnline(slice);
     var onPrev=sumOnline(prev),stPrev=sumStore(prev);
@@ -707,7 +713,7 @@
 
   function fmtD(d){return d.split('-').reverse().join('/');}
   function rangeLabel(){var s=sliceFor(period);
-    if(!s.length){if(period==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return fmtD(t)+' · chưa có dữ liệu (cập nhật trong ngày)';}return '(không có dữ liệu)';}
+    if(!s.length){if(period==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);if(D.daily.length){var ld=D.daily[D.daily.length-1].day;if(ld<t)return fmtD(t)+' · dữ liệu '+fmtD(ld)+' (mới nhất)';}return fmtD(t)+' · chưa có dữ liệu (cập nhật trong ngày)';}return '(không có dữ liệu)';}
     var a=s[0].day,b=s[s.length-1].day;return a===b?fmtD(a):fmtD(a)+' → '+fmtD(b);}
   var _r=render;render=function(){_r();document.getElementById('sub').textContent=rangeLabel();pushURL();};
   var genAt=new Date(D.generatedAt);
