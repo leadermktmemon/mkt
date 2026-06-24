@@ -3,6 +3,7 @@ name: Daily Marketing Report
 on:
   schedule:
     - cron: "*/30 * * * *"  # mỗi 30 phút (build data.js và deploy)
+    - cron: "0 2 * * *"      # 09h VN (02:00 UTC): trigger riêng để đảm bảo gửi Lark đúng giờ
   workflow_dispatch:         # cho phép bấm chạy tay
 
 permissions:
@@ -38,13 +39,14 @@ jobs:
       - name: Kéo chi phí Meta Ads (chỉ 08h VN = 01:00 UTC, hoặc chạy tay)
         run: |
           if [ -f meta.config.json ]; then
-            HOUR=$(date -u +%H); MIN=$(date -u +%M)
-            # Chạy lúc 01:00–01:15 UTC (08h VN, trước khi gửi báo cáo 9h) hoặc khi bấm tay
-            if { [ "$HOUR" = "01" ] && [ "$((10#$MIN))" -lt "15" ]; } || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-              echo "Kéo Meta Ads (${HOUR}:${MIN} UTC)..."
+            SCHEDULE="${{ github.event.schedule }}"
+            HOUR=$(date -u +%H)
+            # Chạy khi cron 01:00 UTC hoặc khi bấm tay (không chạy khi cron 02:00 UTC hay */30)
+            if [ "$SCHEDULE" = "0 1 * * *" ] || [ "$HOUR" = "01" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "Kéo Meta Ads (${HOUR}:00 UTC)..."
               node meta-fetch.mjs
             else
-              echo "Bỏ qua Meta fetch (${HOUR}:${MIN} UTC — chỉ chạy 01:00–01:15 UTC)"
+              echo "Bỏ qua Meta fetch (chỉ chạy 01:00 UTC = 08h VN)"
             fi
           else
             echo "Bỏ qua Meta fetch (chưa có meta.config.json)"
@@ -53,15 +55,16 @@ jobs:
       - name: Tổng hợp dữ liệu từ Base Lark (Sales Online + Cửa hàng)
         run: node marketing-report/dashboard/lark-build-data.mjs
 
-      - name: Gửi thẻ KPI vào Lark (chỉ 09h VN = 02:00 UTC, hoặc chạy tay)
+      - name: Gửi thẻ KPI vào Lark (09h VN = cron 02:00 UTC, hoặc chạy tay)
         continue-on-error: true
         run: |
-          HOUR=$(date -u +%H); MIN=$(date -u +%M)
-          if { [ "$HOUR" = "02" ] && [ "$((10#$MIN))" -lt "15" ]; } || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Gửi báo cáo Lark (${HOUR}:${MIN} UTC)..."
+          SCHEDULE="${{ github.event.schedule }}"
+          # Gửi khi: (1) trigger bởi cron 0 2 * * * riêng, hoặc (2) bấm tay
+          if [ "$SCHEDULE" = "0 2 * * *" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Gửi báo cáo Lark (trigger: ${SCHEDULE:-workflow_dispatch})..."
             node marketing-report/send-lark.mjs
           else
-            echo "Bỏ qua gửi Lark (${HOUR}:${MIN} UTC — chỉ gửi 02:00–02:15 UTC = 09h VN)"
+            echo "Bỏ qua gửi Lark (trigger: ${SCHEDULE:-unknown} — chỉ gửi khi cron 02:00 UTC hoặc chạy tay)"
           fi
 
       - name: Commit dữ liệu dashboard (để Cloudflare deploy)
