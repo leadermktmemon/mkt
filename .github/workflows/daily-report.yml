@@ -55,6 +55,30 @@ jobs:
       - name: Tổng hợp dữ liệu từ Base Lark (Sales Online + Cửa hàng)
         run: node marketing-report/dashboard/lark-build-data.mjs
 
+      - name: Screenshot dashboard (để gửi kèm vào Lark)
+        continue-on-error: true
+        run: |
+          SCHEDULE="${{ github.event.schedule }}"
+          if [ "$SCHEDULE" = "0 2 * * *" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            cd marketing-report/dashboard
+            python3 -m http.server 8080 &
+            SERVER_PID=$!
+            sleep 5
+            CHROME=$(which google-chrome-stable 2>/dev/null || which google-chrome 2>/dev/null || which chromium-browser 2>/dev/null || which chromium 2>/dev/null)
+            if [ -n "$CHROME" ]; then
+              "$CHROME" --headless --no-sandbox --disable-gpu \
+                --run-all-compositor-stages-before-draw \
+                --virtual-time-budget=3000 \
+                --screenshot=/tmp/dashboard.png \
+                --window-size=1440,900 \
+                http://localhost:8080
+              ls -la /tmp/dashboard.png && echo "Screenshot OK" || echo "Screenshot thất bại"
+            else
+              echo "Không tìm thấy Chrome/Chromium, bỏ qua screenshot"
+            fi
+            kill $SERVER_PID 2>/dev/null || true
+          fi
+
       - name: Gửi thẻ KPI vào Lark (09h VN = cron 02:00 UTC, hoặc chạy tay)
         continue-on-error: true
         run: |

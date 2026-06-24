@@ -3,6 +3,8 @@
 // Neu bot bat "Signature verification", truyen `secret` de tu dong ky chu ky.
 
 import crypto from "node:crypto";
+import { readFileSync } from "node:fs";
+import { basename } from "node:path";
 
 // Thuat toan ky cua Lark: key = "{timestamp}\n{secret}", data rong, HMAC-SHA256 -> base64
 function genSign(secret, timestamp) {
@@ -38,6 +40,35 @@ async function post(webhookUrl, payload, secret) {
     throw new Error(`Lark webhook loi: ${JSON.stringify(data)}`);
   }
   return data;
+}
+
+// Upload anh len Lark Image API, tra ve img_key de dung trong card.
+// larkCfg = { domain, appId, appSecret } (tu lark.config.json).
+export async function uploadImage(filePath, larkCfg) {
+  const base = larkCfg.domain === "feishu"
+    ? "https://open.feishu.cn" : "https://open.larksuite.com";
+
+  const tokenRes = await fetch(`${base}/open-apis/auth/v3/tenant_access_token/internal`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ app_id: larkCfg.appId, app_secret: larkCfg.appSecret }),
+  });
+  const { tenant_access_token: token } = await tokenRes.json();
+  if (!token) throw new Error("Không lấy được tenant_access_token");
+
+  const form = new FormData();
+  form.append("image_type", "message");
+  const buf = readFileSync(filePath);
+  form.append("image", new Blob([buf], { type: "image/jpeg" }), basename(filePath));
+
+  const res = await fetch(`${base}/open-apis/im/v1/images`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${token}` },
+    body: form,
+  });
+  const data = await res.json();
+  if (data.code !== 0) throw new Error(`Upload ảnh lỗi (code ${data.code}): ${data.msg}`);
+  return data.data.image_key;
 }
 
 // Tien ich: dung 1 card ban tin tu cac "section" markdown.
