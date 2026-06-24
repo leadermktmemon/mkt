@@ -100,6 +100,8 @@ jobs:
           git fetch origin main
           git reset --soft origin/main
           git add marketing-report/dashboard/data.js marketing-report/dashboard/data.json marketing-report/dashboard/thumbs
+          # meta-data.json: commit khi co (chi co sau khi meta-fetch chay luc 08h VN)
+          git add marketing-report/dashboard/meta-data.json 2>/dev/null || true
           git diff --cached --quiet && echo "Không có thay đổi, bỏ qua push" && exit 0
           git commit -m "chore: cap nhat du lieu dashboard"
           git push

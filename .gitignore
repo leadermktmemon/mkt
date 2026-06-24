@@ -10,7 +10,7 @@ marketing-report/dashboard/.cache-raw.json
 nhanh-data/
 base-data.json
 base-data.csv
-marketing-report/dashboard/meta-data.json
+# meta-data.json cần commit để giữ campaign data giữa các lần chạy cron
 
 # Node
 node_modules/
