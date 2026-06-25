@@ -1,4 +1,4 @@
-name = "mkt-cron-trigger"
+name = "mkt"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 no_bundle = false
