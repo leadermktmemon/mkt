@@ -65,8 +65,9 @@ console.log(`3.1 nguồn: ${src.length} | 2.2 tổng (target): ${tot.length} | C
 
 // Chi phi Meta Ads theo ngay (do meta-fetch.mjs tao truoc, neu co)
 const metaPath=join(__dirname,"meta-data.json");
-const metaByDay=existsSync(metaPath)?JSON.parse(readFileSync(metaPath,"utf8")).daily||{}:{};
-const metaCampaigns=existsSync(metaPath)?(JSON.parse(readFileSync(metaPath,"utf8")).campaignDays||[]):[];
+const metaRaw=existsSync(metaPath)?JSON.parse(readFileSync(metaPath,"utf8")):{};
+const metaByDay=metaRaw.daily||{};
+const metaCampaigns=metaRaw.campaignDays||[];
 console.log(`Meta Ads: ${Object.keys(metaByDay).length} ngày dữ liệu${Object.keys(metaByDay).length===0?" (chạy meta-fetch.mjs trước để có dữ liệu)":""}. Campaigns: ${metaCampaigns.length}`);
 
 const dayMap={};
@@ -121,9 +122,14 @@ function summarize(slice){let on=0,oo=0,st=0,stOnline=0,vin=0,vbuy=0;const chRaw
   const aov=oo?round(on/oo):0;
   const mktOrders=aov?Math.round(stOnline/aov):0; // so don Marketing chuyen ve CH = uoc luong (DT chuyen don / AOV online)
   const total=on+st;
+  // Gom doanh thu theo thuong hieu tu 3.1 (BRANDS map: Bemori/Teddy/Khác -> cot Base)
+  const brandTotals={};for(const d of slice){for(const b in d.brands){brandTotals[b]=(brandTotals[b]||0)+d.brands[b];}}
+  // Bemori = Bemori online + cua hang (uoc luong theo ty trong); Memon = B2B/si (chua co Base rieng)
+  const bemiShare=(brandTotals["Bemori"]||0)/((Object.values(brandTotals).reduce((a,b)=>a+b,0))||1);
+  const brands={Bemori:round((brandTotals["Bemori"]||0)+bemiShare*st),Teddy:round(brandTotals["Teddy"]||0),Memon:0};
   return {marketing:{onlineRevenue:round(on),onlineOrders:oo,onlineAov:aov,channels:chList},
     store:{walkinRevenue:round(st),walkinOrders:vbuy,marketingRevenue:round(stOnline),marketingOrdersEst:mktOrders,custIn:vin,closeRate:vin?round(vbuy/vin*100):0,marketingPct:(st+stOnline)?round(stOnline/(st+stOnline)*100):0},
-    sales:{totalRevenue:round(total),salesCount:oo,byType:{Online:round(on),"Cửa hàng":round(st)},onlinePct:total?round(on/total*100):0,storePct:total?round(st/total*100):0},brands:{Bemori:round(total),Memon:0}};}
+    sales:{totalRevenue:round(total),salesCount:oo,byType:{Online:round(on),"Cửa hàng":round(st)},onlinePct:total?round(on/total*100):0,storePct:total?round(st/total*100):0},brands};}
 const sum30=summarize(daily.slice(-30));
 
 // Tach creative ra creativeMap (tranh luu 438 ban sao trung nhau trong campaignDays)

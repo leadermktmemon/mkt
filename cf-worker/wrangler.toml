@@ -1,0 +1,10 @@
+name = "mkt-cron-trigger"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[triggers]
+crons = ["*/30 * * * *"]
+
+[vars]
+GITHUB_REPO = "leadermktmemon/mkt"
+# GITHUB_TOKEN: set via: npx wrangler secret put GITHUB_TOKEN

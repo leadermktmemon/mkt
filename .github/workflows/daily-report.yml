@@ -2,9 +2,10 @@ name: Daily Marketing Report
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # mỗi 30 phút (build data.js và deploy)
-    - cron: "0 2 * * *"      # 09h VN (02:00 UTC): trigger riêng để đảm bảo gửi Lark đúng giờ
-  workflow_dispatch:         # cho phép bấm chạy tay
+    - cron: "*/30 * * * *"  # fallback (GitHub throttle nặng — dùng Cloudflare Worker bên ngoài là chính)
+    - cron: "0 1 * * *"      # 08h VN (01:00 UTC): kéo Meta Ads mỗi ngày
+    - cron: "0 2 * * *"      # 09h VN (02:00 UTC): gửi báo cáo Lark
+  workflow_dispatch:         # chạy tay hoặc trigger từ Cloudflare Worker (cf-worker/)
 
 permissions:
   contents: write           # để commit dashboard/data.js
@@ -36,17 +37,16 @@ jobs:
             echo "Meta config: chưa có secret META_CONFIG, bỏ qua ads"
           fi
 
-      - name: Kéo chi phí Meta Ads (chỉ 08h VN = 01:00 UTC, hoặc chạy tay)
+      - name: Kéo chi phí Meta Ads (08h VN = cron 01:00 UTC, hoặc chạy tay)
         run: |
           if [ -f meta.config.json ]; then
             SCHEDULE="${{ github.event.schedule }}"
-            HOUR=$(date -u +%H)
-            # Chạy khi cron 01:00 UTC hoặc khi bấm tay (không chạy khi cron 02:00 UTC hay */30)
-            if [ "$SCHEDULE" = "0 1 * * *" ] || [ "$HOUR" = "01" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-              echo "Kéo Meta Ads (${HOUR}:00 UTC)..."
+            # Chỉ chạy khi đúng cron 01:00 UTC hoặc bấm tay — KHÔNG chạy mỗi 30 phút
+            if [ "$SCHEDULE" = "0 1 * * *" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "Kéo Meta Ads (trigger: ${SCHEDULE:-workflow_dispatch})..."
               node meta-fetch.mjs
             else
-              echo "Bỏ qua Meta fetch (chỉ chạy 01:00 UTC = 08h VN)"
+              echo "Bỏ qua Meta fetch (trigger: ${SCHEDULE:-unknown})"
             fi
           else
             echo "Bỏ qua Meta fetch (chưa có meta.config.json)"
