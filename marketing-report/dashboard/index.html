@@ -118,6 +118,9 @@
       <span class="lbl">Kỳ</span>
       <select id="periodSel">
         <option value="today">Hôm nay</option>
+        <option value="yesterday">Hôm qua</option>
+        <option value="2days">2 ngày qua</option>
+        <option value="3days">3 ngày qua</option>
         <option value="thisweek">Tuần này</option>
         <option value="lastweek">Tuần trước</option>
         <option value="7">7 ngày qua</option>
@@ -232,6 +235,9 @@
     if(p==='90'){var t90=_vnToday();var f90=_vnDaysAgo(89);return d.filter(function(x){return x.day>=f90&&x.day<=t90;});}
     if(p==='365'){var t365=_vnToday();var f365=_vnDaysAgo(364);return d.filter(function(x){return x.day>=f365&&x.day<=t365;});}
     if(p==='today'){var t=_vnToday();return d.filter(function(x){return x.day===t;});}
+    if(p==='yesterday'){var y=_vnDaysAgo(1);return d.filter(function(x){return x.day===y;});}
+    if(p==='2days'){var t2=_vnDaysAgo(1);var f2=_vnDaysAgo(2);return d.filter(function(x){return x.day>=f2&&x.day<=t2;});}
+    if(p==='3days'){var t3=_vnDaysAgo(1);var f3=_vnDaysAgo(3);return d.filter(function(x){return x.day>=f3&&x.day<=t3;});}
     if(p==='thisweek'){var nw=_vnNow();var dw=nw.getUTCDay();var off=dw===0?6:dw-1;var mon=new Date(nw.getTime()-off*86400000).toISOString().slice(0,10);var tod=nw.toISOString().slice(0,10);return d.filter(function(x){return x.day>=mon&&x.day<=tod;});}
     if(p==='lastweek'){var nw2=_vnNow();var dw2=nw2.getUTCDay();var off2=dw2===0?6:dw2-1;var thisMon=new Date(nw2.getTime()-off2*86400000);var lMon=new Date(thisMon.getTime()-7*86400000).toISOString().slice(0,10);var lSun=new Date(thisMon.getTime()-86400000).toISOString().slice(0,10);return d.filter(function(x){return x.day>=lMon&&x.day<=lSun;});}
     // month: thang hien tai theo gio VN
@@ -290,12 +296,12 @@
 
   function render(){
     var slice=sliceFor(period);
-    // Fallback cho "Hom nay": neu chua co du lieu hoac du lieu hom nay = 0 (chua nhap), dung ngay co du lieu gan nhat
+    // Fallback chi cho "Hom nay": neu chua co du lieu hoac du lieu = 0 (chua nhap), dung ngay gan nhat co du lieu
+    // Khong ap dung cho yesterday/2days/3days (cac moc do luon co du lieu lich su)
     if(period==='today'&&D.daily.length){
       var _todayStr=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);
       var _todayEmpty=!slice.length||(slice.length===1&&!slice[0].onlineRev&&!slice[0].storeRev&&!slice[0].onlineOrders);
       if(_todayEmpty){
-        // Tim ngay gan nhat co du lieu thuc
         for(var _i=D.daily.length-1;_i>=0;_i--){if(D.daily[_i].day<_todayStr&&(D.daily[_i].onlineRev||D.daily[_i].storeRev)){slice=[D.daily[_i]];break;}}
       }
     }
@@ -366,6 +372,9 @@
         var _td=_vn.toISOString().slice(0,10);
         var _ago=function(n){return new Date(Date.now()+7*3600*1000-n*86400000).toISOString().slice(0,10);};
         if(period==='today'){startDay=_td;endDay=_td;}
+        else if(period==='yesterday'){startDay=_ago(1);endDay=_ago(1);}
+        else if(period==='2days'){startDay=_ago(2);endDay=_ago(1);}
+        else if(period==='3days'){startDay=_ago(3);endDay=_ago(1);}
         else if(period==='7'){startDay=_ago(6);endDay=_td;}
         else if(period==='30'){startDay=_ago(29);endDay=_td;}
         else if(period==='90'){startDay=_ago(89);endDay=_td;}
@@ -757,6 +766,9 @@
     }
     var a=s[0].day,b=s[s.length-1].day;
     // Neu la period co ngay cu the (today/thisweek/lastweek/month), hien dung ngay
+    if(period==='yesterday'){var _y=new Date(Date.now()+7*3600*1000-86400000).toISOString().slice(0,10);return fmtD(_y);}
+    if(period==='2days'){return fmtD(new Date(Date.now()+7*3600*1000-2*86400000).toISOString().slice(0,10))+' → '+fmtD(new Date(Date.now()+7*3600*1000-86400000).toISOString().slice(0,10));}
+    if(period==='3days'){return fmtD(new Date(Date.now()+7*3600*1000-3*86400000).toISOString().slice(0,10))+' → '+fmtD(new Date(Date.now()+7*3600*1000-86400000).toISOString().slice(0,10));}
     if(period==='7')return fmtD(new Date(Date.now()+7*3600*1000-6*86400000).toISOString().slice(0,10))+' → '+fmtD(todayVN);
     if(period==='30')return fmtD(new Date(Date.now()+7*3600*1000-29*86400000).toISOString().slice(0,10))+' → '+fmtD(todayVN);
     if(period==='90')return fmtD(new Date(Date.now()+7*3600*1000-89*86400000).toISOString().slice(0,10))+' → '+fmtD(todayVN);
