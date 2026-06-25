@@ -222,12 +222,20 @@
   function loadURL(){if(!location.hash)return;var p=new URLSearchParams(location.hash.slice(1));if(p.get('g'))group=p.get('g');if(p.get('p')){period=p.get('p');document.getElementById('periodSel').value=period;}if(p.get('gr'))gran=p.get('gr');if(p.get('f')){cFrom=p.get('f');document.getElementById('dFrom').value=cFrom;}if(p.get('t')){cTo=p.get('t');document.getElementById('dTo').value=cTo;}if(period==='custom')document.getElementById('customRange').style.display='inline-flex';document.querySelectorAll('#segGroup button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-grp')===group);});document.querySelectorAll('#segGran button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-g')===gran);});var sf=p.get('sf'),ef=p.get('ef'),sq=p.get('sq');if(sf)document.getElementById('campStatusFilter').value=sf;if(ef)document.getElementById('campEffFilter').value=ef;if(sq)document.getElementById('campSearch').value=sq;}
 
   function sliceFor(p){ var d=D.daily; if(!d.length)return [];
-    if(p==='7')return d.slice(-7); if(p==='30')return d.slice(-30);
-    if(p==='90')return d.slice(-90); if(p==='365')return d.slice(-365);
-    if(p==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);return d.filter(function(x){return x.day===t;});}
-    if(p==='thisweek'){var nw=new Date(Date.now()+7*3600*1000);var dw=nw.getUTCDay();var off=dw===0?6:dw-1;var mon=new Date(nw.getTime()-off*86400000).toISOString().slice(0,10);var tod=nw.toISOString().slice(0,10);return d.filter(function(x){return x.day>=mon&&x.day<=tod;});}
-    if(p==='lastweek'){var nw2=new Date(Date.now()+7*3600*1000);var dw2=nw2.getUTCDay();var off2=dw2===0?6:dw2-1;var thisMon=new Date(nw2.getTime()-off2*86400000);var lMon=new Date(thisMon.getTime()-7*86400000).toISOString().slice(0,10);var lSun=new Date(thisMon.getTime()-86400000).toISOString().slice(0,10);return d.filter(function(x){return x.day>=lMon&&x.day<=lSun;});}
-    if(p==='month'){var m=d[d.length-1].day.slice(0,7);return d.filter(function(x){return x.day.slice(0,7)===m;});}
+    // Helper: ngay hom nay theo gio VN (UTC+7)
+    var _vnNow=function(){return new Date(Date.now()+7*3600*1000);};
+    var _vnToday=function(){return _vnNow().toISOString().slice(0,10);};
+    var _vnDaysAgo=function(n){return new Date(Date.now()+7*3600*1000-n*86400000).toISOString().slice(0,10);};
+    // N ngay: luon tinh tu HOm NAY (khong phu thuoc ngay cuoi cua data)
+    if(p==='7'){var t7=_vnToday();var f7=_vnDaysAgo(6);return d.filter(function(x){return x.day>=f7&&x.day<=t7;});}
+    if(p==='30'){var t30=_vnToday();var f30=_vnDaysAgo(29);return d.filter(function(x){return x.day>=f30&&x.day<=t30;});}
+    if(p==='90'){var t90=_vnToday();var f90=_vnDaysAgo(89);return d.filter(function(x){return x.day>=f90&&x.day<=t90;});}
+    if(p==='365'){var t365=_vnToday();var f365=_vnDaysAgo(364);return d.filter(function(x){return x.day>=f365&&x.day<=t365;});}
+    if(p==='today'){var t=_vnToday();return d.filter(function(x){return x.day===t;});}
+    if(p==='thisweek'){var nw=_vnNow();var dw=nw.getUTCDay();var off=dw===0?6:dw-1;var mon=new Date(nw.getTime()-off*86400000).toISOString().slice(0,10);var tod=nw.toISOString().slice(0,10);return d.filter(function(x){return x.day>=mon&&x.day<=tod;});}
+    if(p==='lastweek'){var nw2=_vnNow();var dw2=nw2.getUTCDay();var off2=dw2===0?6:dw2-1;var thisMon=new Date(nw2.getTime()-off2*86400000);var lMon=new Date(thisMon.getTime()-7*86400000).toISOString().slice(0,10);var lSun=new Date(thisMon.getTime()-86400000).toISOString().slice(0,10);return d.filter(function(x){return x.day>=lMon&&x.day<=lSun;});}
+    // month: thang hien tai theo gio VN
+    if(p==='month'){var m=_vnToday().slice(0,7);return d.filter(function(x){return x.day.slice(0,7)===m;});}
     if(p==='custom')return d.filter(function(x){return (!cFrom||x.day>=cFrom)&&(!cTo||x.day<=cTo);});
     return d; }
 
@@ -282,11 +290,14 @@
 
   function render(){
     var slice=sliceFor(period);
-    // Fallback cho "Hom nay": neu chua co du lieu Lark hom nay, dung ngay gan nhat
-    if(!slice.length&&period==='today'&&D.daily.length){
-      var _lastDay=D.daily[D.daily.length-1].day;
+    // Fallback cho "Hom nay": neu chua co du lieu hoac du lieu hom nay = 0 (chua nhap), dung ngay co du lieu gan nhat
+    if(period==='today'&&D.daily.length){
       var _todayStr=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);
-      if(_lastDay<_todayStr)slice=D.daily.filter(function(d){return d.day===_lastDay;});
+      var _todayEmpty=!slice.length||(slice.length===1&&!slice[0].onlineRev&&!slice[0].storeRev&&!slice[0].onlineOrders);
+      if(_todayEmpty){
+        // Tim ngay gan nhat co du lieu thuc
+        for(var _i=D.daily.length-1;_i>=0;_i--){if(D.daily[_i].day<_todayStr&&(D.daily[_i].onlineRev||D.daily[_i].storeRev)){slice=[D.daily[_i]];break;}}
+      }
     }
     var prev=prevSliceFor(period);
     var on=sumOnline(slice),stW=sumStore(slice),mktCH=sumStoreOnline(slice);
@@ -712,9 +723,27 @@
   document.addEventListener('keydown',function(e){if(e.key==='Escape')closeCampModal();});
 
   function fmtD(d){return d.split('-').reverse().join('/');}
-  function rangeLabel(){var s=sliceFor(period);
-    if(!s.length){if(period==='today'){var t=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);if(D.daily.length){var ld=D.daily[D.daily.length-1].day;if(ld<t)return fmtD(t)+' · dữ liệu '+fmtD(ld)+' (mới nhất)';}return fmtD(t)+' · chưa có dữ liệu (cập nhật trong ngày)';}return '(không có dữ liệu)';}
-    var a=s[0].day,b=s[s.length-1].day;return a===b?fmtD(a):fmtD(a)+' → '+fmtD(b);}
+  function rangeLabel(){
+    var todayVN=new Date(Date.now()+7*3600*1000).toISOString().slice(0,10);
+    var rawSlice=sliceFor(period); // slice truoc fallback (de biet co data thuc hom nay khong)
+    var s=sliceFor(period); // slice da co fallback trong render()
+    // Lay slice hien tai tu DOM (sau fallback da ap dung)
+    // Dung bien 'slice' trong closure cua render
+    if(!rawSlice.length||(period==='today'&&rawSlice.length===1&&!rawSlice[0].onlineRev&&!rawSlice[0].storeRev&&!rawSlice[0].onlineOrders)){
+      if(period==='today'){
+        var ld=D.daily.length?D.daily[D.daily.length-1].day:'';
+        return fmtD(todayVN)+' · dữ liệu mới nhất '+fmtD(ld)+'(chờ cập nhật)';
+      }
+      return '(không có dữ liệu)';
+    }
+    var a=s[0].day,b=s[s.length-1].day;
+    // Neu la period co ngay cu the (today/thisweek/lastweek/month), hien dung ngay
+    if(period==='7')return fmtD(new Date(Date.now()+7*3600*1000-6*86400000).toISOString().slice(0,10))+' → '+fmtD(todayVN);
+    if(period==='30')return fmtD(new Date(Date.now()+7*3600*1000-29*86400000).toISOString().slice(0,10))+' → '+fmtD(todayVN);
+    if(period==='90')return fmtD(new Date(Date.now()+7*3600*1000-89*86400000).toISOString().slice(0,10))+' → '+fmtD(todayVN);
+    if(period==='365')return fmtD(new Date(Date.now()+7*3600*1000-364*86400000).toISOString().slice(0,10))+' → '+fmtD(todayVN);
+    return a===b?fmtD(a):fmtD(a)+' → '+fmtD(b);
+  }
   var _r=render;render=function(){_r();document.getElementById('sub').textContent=rangeLabel();pushURL();};
   var genAt=new Date(D.generatedAt);
   var genStr=genAt.toLocaleTimeString('vi-VN',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Ho_Chi_Minh'});
