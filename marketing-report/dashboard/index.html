@@ -358,23 +358,42 @@
         return BRAND_OBJ[c.objective]?'brand':'conv';                          // 4. fallback objective
       }
       var campDays=D.campaignDays||[];
-      var startDay=slice.length?slice[0].day:'';
-      var endDay=slice.length?slice[slice.length-1].day:'';
+      var startDay='', endDay='';
+      // Tinh date range cho campaign TRUC TIEP tu period (khong qua Lark slice)
+      // Tranh truong hop ngay chua co du lieu Lark lam sai endDay
+      (function(){
+        var _vn=new Date(Date.now()+7*3600*1000);
+        var _td=_vn.toISOString().slice(0,10);
+        var _ago=function(n){return new Date(Date.now()+7*3600*1000-n*86400000).toISOString().slice(0,10);};
+        if(period==='today'){startDay=_td;endDay=_td;}
+        else if(period==='7'){startDay=_ago(6);endDay=_td;}
+        else if(period==='30'){startDay=_ago(29);endDay=_td;}
+        else if(period==='90'){startDay=_ago(89);endDay=_td;}
+        else if(period==='365'){startDay=_ago(364);endDay=_td;}
+        else if(period==='thisweek'){var _dw=_vn.getUTCDay();var _off=_dw===0?6:_dw-1;startDay=new Date(_vn.getTime()-_off*86400000).toISOString().slice(0,10);endDay=_td;}
+        else if(period==='lastweek'){var _dw2=_vn.getUTCDay();var _off2=_dw2===0?6:_dw2-1;var _thisMon=new Date(_vn.getTime()-_off2*86400000);startDay=new Date(_thisMon.getTime()-7*86400000).toISOString().slice(0,10);endDay=new Date(_thisMon.getTime()-86400000).toISOString().slice(0,10);}
+        else if(period==='month'){startDay=_td.slice(0,7)+'-01';endDay=_td;}
+        else if(period==='custom'){startDay=cFrom||'';endDay=cTo||'';}
+        else{startDay=slice.length?slice[0].day:'';endDay=slice.length?slice[slice.length-1].day:'';}
+      })();
       var sfVal=document.getElementById('campStatusFilter').value;
       var filteredDays=campDays.filter(function(r){
-        if(startDay&&(r.day<startDay||r.day>endDay))return false;
+        if(startDay&&r.day<startDay)return false;
+        if(endDay&&r.day>endDay)return false;
         if(sfVal&&r.status!==sfVal)return false;
         return true;
       });
-      // Hom nay chua co du lieu Meta (bao cao tre ~2h) -> tu dong dung ngay gan nhat
+      // Fallback: neu khong co du lieu trong ky (Meta bao cao tre ~2h) -> dung ngay gan nhat co du lieu
       var campFallbackDay='';
-      if(!filteredDays.length&&period==='today'&&campDays.length){
+      if(!filteredDays.length&&campDays.length){
         campFallbackDay=campDays.reduce(function(mx,r){return r.day>mx?r.day:mx;},'');
-        filteredDays=campDays.filter(function(r){
-          if(r.day!==campFallbackDay)return false;
-          if(sfVal&&r.status!==sfVal)return false;
-          return true;
-        });
+        if(campFallbackDay<=endDay){
+          filteredDays=campDays.filter(function(r){
+            if(r.day!==campFallbackDay)return false;
+            if(sfVal&&r.status!==sfVal)return false;
+            return true;
+          });
+        }else{campFallbackDay='';}
       }
       var creativeMap=D.creativeMap||{};
       var campMap={};
