@@ -1,12 +1,13 @@
-// Cloudflare Worker: trigger GitHub Actions workflow_dispatch moi 30 phut.
-// Giai phap cho GitHub Actions scheduled cron bi throttle tren repo it hoat dong.
-// Cloudflare cron chay dung gio, sau do GitHub chay ngay lap tuc (workflow_dispatch, khong queue).
-//
-// Setup:
-//   npx wrangler secret put GITHUB_TOKEN   (GitHub PAT voi scope: workflow)
-//   npx wrangler deploy
+// Cloudflare Worker "mkt":
+//   fetch()     -> serve dashboard static files (marketing-report/dashboard/)
+//   scheduled() -> trigger GitHub Actions workflow_dispatch moi 30 phut
 
 export default {
+  // Pass HTTP requests den assets (dashboard index.html, data.js, thumbs/, ...)
+  async fetch(request, env, ctx) {
+    return env.ASSETS.fetch(request);
+  },
+
   async scheduled(event, env, ctx) {
     const repo = env.GITHUB_REPO || "leadermktmemon/mkt";
     const url = `https://api.github.com/repos/${repo}/actions/workflows/daily-report.yml/dispatches`;
