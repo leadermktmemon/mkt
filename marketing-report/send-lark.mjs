@@ -10,7 +10,14 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const cfg = JSON.parse(readFileSync(join(__dirname, "config.json"), "utf8"));
 const larkCfg = JSON.parse(readFileSync(join(__dirname, "../lark.config.json"), "utf8"));
 const D = JSON.parse(readFileSync(join(__dirname, "dashboard", "data.json"), "utf8"));
-const M = D.marketing, S = D.sales;
+// Dung du lieu TUAN NAY (weekMarketing/weekSales) thay vi 30 ngay
+const M = D.weekMarketing || D.marketing;
+const S = D.weekSales || D.sales;
+const B = D.weekBrands || D.brands || {};
+const wp = D.weekPeriod || {};
+const periodLabel = wp.from && wp.to
+  ? `${wp.from.slice(8)}/${wp.from.slice(5,7)} → ${wp.to.slice(8)}/${wp.to.slice(5,7)}`
+  : "Tuần này";
 
 const vnd = (n) => { n = Math.round(n);
   if (n >= 1e9) return (n / 1e9).toFixed(2).replace(/\.?0+$/, "") + " tỷ";
@@ -68,7 +75,7 @@ if (existsSync(metaPath)) {
 
 // ---- Build elements ----
 const overview =
-  `**🎯 MARKETING** _(30 ngày · Lark)_\n` +
+  `**🎯 MARKETING** _(${periodLabel} · Lark)_\n` +
   `• Doanh thu online: **${vnd(M.onlineRevenue)}**  •  Đơn: **${M.onlineOrders}**  •  AOV: **${vnd(M.onlineAov)}**`;
 
 let chTable = "**Hiệu quả theo kênh** _(đơn theo kênh: ước tính)_\n```\nKênh           Đơn   Doanh thu   %\n";
@@ -77,7 +84,6 @@ for (const c of M.channels) {
 }
 chTable += "```";
 
-const B = D.brands || {};
 const sales =
   `**🏬 TOÀN HỆ THỐNG**\n` +
   `• Tổng doanh thu: **${vnd(S.totalRevenue)}**  (Cửa hàng ${S.storePct}% · Online ${S.onlinePct}%)\n` +

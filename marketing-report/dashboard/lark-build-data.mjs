@@ -132,15 +132,24 @@ function summarize(slice){let on=0,oo=0,st=0,stOnline=0,vin=0,vbuy=0;const chRaw
     sales:{totalRevenue:round(total),salesCount:oo,byType:{Online:round(on),"Cửa hàng":round(st)},onlinePct:total?round(on/total*100):0,storePct:total?round(st/total*100):0},brands};}
 const sum30=summarize(daily.slice(-30));
 
+// Tuan nay theo gio VN (UTC+7): Thu 2 -> hom nay
+const _vnNow=new Date(Date.now()+7*3600*1000);
+const _vnToday=_vnNow.toISOString().slice(0,10);
+const _dow=_vnNow.getUTCDay();
+const _offMon=_dow===0?6:_dow-1;
+const _monDate=new Date(_vnNow.getTime()-_offMon*86400000).toISOString().slice(0,10);
+const weekSlice=daily.filter(d=>d.day>=_monDate&&d.day<=_vnToday);
+const sumWeek=summarize(weekSlice.length?weekSlice:daily.slice(-7));
+const weekPeriod={from:_monDate,to:_vnToday,days:weekSlice.length};
+
 // Tach creative ra creativeMap (tranh luu 438 ban sao trung nhau trong campaignDays)
 const creativeMap={};
 const campaignDaysClean=metaCampaigns.map(({creative,...rest})=>{
-  // Luu vao creativeMap neu co bat ky noi dung nao: text, anh cao res, hoac anh carousel
   const hasContent=creative&&(creative.title||creative.body||creative.imageUrl||(creative.images&&creative.images.length>0));
   if(hasContent&&!creativeMap[rest.id])creativeMap[rest.id]=creative;
   return rest;
 });
-const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,creativeMap,campaignDays:campaignDaysClean,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands};
+const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,creativeMap,campaignDays:campaignDaysClean,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands,weekMarketing:sumWeek.marketing,weekStore:sumWeek.store,weekSales:sumWeek.sales,weekBrands:sumWeek.brands,weekPeriod};
 writeFileSync(join(__dirname,"data.json"),JSON.stringify(data,null,2),"utf8");
 writeFileSync(join(__dirname,"data.js"),`window.DASHBOARD_DATA=${JSON.stringify(data)};`,"utf8");
 

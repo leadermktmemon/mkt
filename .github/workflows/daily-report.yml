@@ -79,16 +79,16 @@ jobs:
             kill $SERVER_PID 2>/dev/null || true
           fi
 
-      - name: Gửi thẻ KPI vào Lark (09h VN = cron 02:00 UTC, hoặc chạy tay)
+      - name: Gửi thẻ KPI vào Lark (09h VN = cron 02:00 UTC — CHỈ 1 lần/ngày)
         continue-on-error: true
         run: |
           SCHEDULE="${{ github.event.schedule }}"
-          # Gửi khi: (1) trigger bởi cron 0 2 * * * riêng, hoặc (2) bấm tay
-          if [ "$SCHEDULE" = "0 2 * * *" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Gửi báo cáo Lark (trigger: ${SCHEDULE:-workflow_dispatch})..."
+          # Chi gui khi dung cron 02:00 UTC (09h VN). Cloudflare Worker dung workflow_dispatch -> KHONG gui.
+          if [ "$SCHEDULE" = "0 2 * * *" ]; then
+            echo "Gửi báo cáo Lark (09h VN)..."
             node marketing-report/send-lark.mjs
           else
-            echo "Bỏ qua gửi Lark (trigger: ${SCHEDULE:-unknown} — chỉ gửi khi cron 02:00 UTC hoặc chạy tay)"
+            echo "Bỏ qua gửi Lark (trigger: ${SCHEDULE:-workflow_dispatch} — chỉ gửi đúng 09h VN)"
           fi
 
       - name: Commit dữ liệu dashboard (để Cloudflare deploy)
