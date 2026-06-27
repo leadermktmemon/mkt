@@ -397,8 +397,9 @@
         var cpm=c.impressions?c.spend/c.impressions*1000:0;
         if(cpm) return cpm<CPM_BRAND_MAX?'brand':'conv';                      // 1. CPM (tin hieu chinh): thap = branding
         if(c.optGoal) return BRAND_GOAL[c.optGoal]?'brand':'conv';            // 2. optimization_goal
-        if((c.messages||0)+(c.leads||0)+(c.purchases||0)>0) return 'conv';    // 3. hanh vi thuc
-        return BRAND_OBJ[c.objective]?'brand':'conv';                          // 4. fallback objective
+        // 3. Hành vi: tin nhắn KHÔNG đủ (branding cũng sinh mess) — chỉ lead/mua mới chắc là doanh số
+        if((c.leads||0)+(c.purchases||0)>0) return 'conv';
+        return BRAND_OBJ[c.objective]?'brand':'conv';                          // 4. Objective fallback
       }
       var campDays=D.campaignDays||[];
       var startDay='', endDay='';
