@@ -390,7 +390,10 @@
       var CPM_BRAND_MAX=20000;  // CPM < 20K -> Branding; >= 20K -> Ban hang (dieu chinh tai day)
       var BRAND_GOAL={POST_ENGAGEMENT:1,ENGAGED_USERS:1,PROFILE_AND_PAGE_ENGAGEMENT:1,EVENT_RESPONSES:1,THRUPLAY:1,TWO_SECOND_CONTINUOUS_VIDEO_VIEWS:1,VIDEO_VIEWS:1,REACH:1,IMPRESSIONS:1,AD_RECALL_LIFT:1,PAGE_LIKES:1,VISIT_INSTAGRAM_PROFILE:1,PROFILE_VISIT:1};
       var BRAND_OBJ={BRAND_AWARENESS:1,REACH:1,VIDEO_VIEWS:1,OUTCOME_AWARENESS:1};  // fallback cuoi (KHONG gom OUTCOME_ENGAGEMENT vi no lan ca messaging)
+      // Tên campaign chứa đuôi "..TC" (case-insensitive) => luôn là Branding
+      var BRAND_NAME_RE=/\.\.[Tt][Cc](\s|$)/;
       function campType(c){
+        if(BRAND_NAME_RE.test(c.name)) return 'brand';                        // 0. Tên ..TC = Branding (ưu tiên cao nhất)
         var cpm=c.impressions?c.spend/c.impressions*1000:0;
         if(cpm) return cpm<CPM_BRAND_MAX?'brand':'conv';                      // 1. CPM (tin hieu chinh): thap = branding
         if(c.optGoal) return BRAND_GOAL[c.optGoal]?'brand':'conv';            // 2. optimization_goal
@@ -667,7 +670,7 @@
       html+=secTable(convC,false)+'</div>';
       if(!campsAgg.length){var lastMeta=campDays.length?campDays.reduce(function(mx,r){return r.day>mx?r.day:mx;},''):'';html='<p class="note" style="text-align:center;padding:32px 16px">'+(lastMeta?'Chưa có dữ liệu chiến dịch cho kỳ này.<br><span style="font-size:11px">Dữ liệu Meta gần nhất: '+fmtD(lastMeta)+'. Tự động cập nhật mỗi 30 phút.</span>':'Chưa có dữ liệu Meta Ads. Tự động cập nhật mỗi 30 phút.')+'</p>';}
       document.getElementById('campBody').innerHTML=html;
-      document.getElementById('campNote').innerHTML='Phân loại theo CPM: Branding hiển thị rộng/rẻ (CPM &lt; 20K) — đo bằng hiển thị &amp; tương tác, KHÔNG tính ROAS. Doanh số nhắm tệp hẹp (CPM ≥ 20K) — ROAS = DT pixel ÷ chi phí Doanh số (KHÔNG gồm chi phí Branding). CPM = Chi/1000 hiển thị · CPE = Chi/tương tác · CPL = Chi/lead · CPO = Chi/đơn.';
+      document.getElementById('campNote').innerHTML='Phân loại Branding: (0) tên chứa <b>..TC</b> → luôn là Branding; (1) CPM &lt; 20K → Branding; (2) optimization_goal; (3) hành vi thực. Branding đo bằng hiển thị &amp; tương tác, KHÔNG tính ROAS. Doanh số: CPM ≥ 20K, ROAS = DT pixel ÷ chi phí. CPM = Chi/1000 hiển thị · CPE = Chi/tương tác · CPL = Chi/lead.';
       keys=['Meta FB','Meta IG'];valFn=function(d){return{'Meta FB':d.metaFb||0,'Meta IG':d.metaIg||0};};
       trendTitle='Chi phí Meta theo ngày';
     }
