@@ -390,17 +390,18 @@
       var CPM_BRAND_MAX=20000;  // CPM < 20K -> Branding; >= 20K -> Ban hang (dieu chinh tai day)
       var BRAND_GOAL={POST_ENGAGEMENT:1,ENGAGED_USERS:1,PROFILE_AND_PAGE_ENGAGEMENT:1,EVENT_RESPONSES:1,THRUPLAY:1,TWO_SECOND_CONTINUOUS_VIDEO_VIEWS:1,VIDEO_VIEWS:1,REACH:1,IMPRESSIONS:1,AD_RECALL_LIFT:1,PAGE_LIKES:1,VISIT_INSTAGRAM_PROFILE:1,PROFILE_VISIT:1};
       var BRAND_OBJ={BRAND_AWARENESS:1,REACH:1,VIDEO_VIEWS:1,OUTCOME_AWARENESS:1};  // fallback cuoi (KHONG gom OUTCOME_ENGAGEMENT vi no lan ca messaging)
-      // Tên campaign chứa "- TC -" hoặc "TC" đứng riêng => luôn là Branding
-      // Naming convention thực tế: "DD/MM - TC - ..." (không phải ..TC)
+      // Quy tắc phân loại (theo thứ tự ưu tiên):
+      //   1. Tên chứa "- TC -" => luôn Branding (override mọi yếu tố khác)
+      //   2. CPM ≤ 20K         => Branding  |  CPM > 20K => Doanh số
+      //   3. (fallback khi không có impressions) optGoal / lead+mua / objective
       var BRAND_NAME_RE=/(?:^|[-\s])TC(?:[-\s]|$)/i;
       function campType(c){
-        if(BRAND_NAME_RE.test(c.name)) return 'brand';                        // 0. Tên chứa "- TC -" = Branding (ưu tiên cao nhất)
+        if(BRAND_NAME_RE.test(c.name)) return 'brand';                        // 1. "- TC -" = Branding tuyệt đối
         var cpm=c.impressions?c.spend/c.impressions*1000:0;
-        if(cpm) return cpm<CPM_BRAND_MAX?'brand':'conv';                      // 1. CPM (tin hieu chinh): thap = branding
-        if(c.optGoal) return BRAND_GOAL[c.optGoal]?'brand':'conv';            // 2. optimization_goal
-        // 3. Hành vi: tin nhắn KHÔNG đủ (branding cũng sinh mess) — chỉ lead/mua mới chắc là doanh số
-        if((c.leads||0)+(c.purchases||0)>0) return 'conv';
-        return BRAND_OBJ[c.objective]?'brand':'conv';                          // 4. Objective fallback
+        if(cpm) return cpm<=CPM_BRAND_MAX?'brand':'conv';                     // 2. CPM ≤ 20K → Branding; > 20K → Doanh số
+        if(c.optGoal) return BRAND_GOAL[c.optGoal]?'brand':'conv';            // 3a. optimization_goal (fallback)
+        if((c.leads||0)+(c.purchases||0)>0) return 'conv';                    // 3b. lead/mua → Doanh số (tin nhắn không đủ)
+        return BRAND_OBJ[c.objective]?'brand':'conv';                          // 3c. objective
       }
       var campDays=D.campaignDays||[];
       var startDay='', endDay='';
@@ -672,7 +673,7 @@
       html+=secTable(convC,false)+'</div>';
       if(!campsAgg.length){var lastMeta=campDays.length?campDays.reduce(function(mx,r){return r.day>mx?r.day:mx;},''):'';html='<p class="note" style="text-align:center;padding:32px 16px">'+(lastMeta?'Chưa có dữ liệu chiến dịch cho kỳ này.<br><span style="font-size:11px">Dữ liệu Meta gần nhất: '+fmtD(lastMeta)+'. Tự động cập nhật mỗi 30 phút.</span>':'Chưa có dữ liệu Meta Ads. Tự động cập nhật mỗi 30 phút.')+'</p>';}
       document.getElementById('campBody').innerHTML=html;
-      document.getElementById('campNote').innerHTML='Phân loại Branding: (0) tên chứa <b>..TC</b> → luôn là Branding; (1) CPM &lt; 20K → Branding; (2) optimization_goal; (3) hành vi thực. Branding đo bằng hiển thị &amp; tương tác, KHÔNG tính ROAS. Doanh số: CPM ≥ 20K, ROAS = DT pixel ÷ chi phí. CPM = Chi/1000 hiển thị · CPE = Chi/tương tác · CPL = Chi/lead.';
+      document.getElementById('campNote').innerHTML='Phân loại: <b>Tên chứa "-TC-"</b> → Branding tuyệt đối · <b>CPM ≤ 20K</b> → Branding · <b>CPM > 20K</b> → Doanh số. Fallback (khi không có impressions): optimization_goal → lead/lượt mua → objective. Branding đo hiển thị &amp; tương tác, KHÔNG tính ROAS. CPM = chi/1000 hiển thị · CPE = chi/tương tác · CPL = chi/lead.';
       keys=['Meta FB','Meta IG'];valFn=function(d){return{'Meta FB':d.metaFb||0,'Meta IG':d.metaIg||0};};
       trendTitle='Chi phí Meta theo ngày';
     }
