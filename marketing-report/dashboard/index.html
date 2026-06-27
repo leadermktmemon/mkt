@@ -390,10 +390,11 @@
       var CPM_BRAND_MAX=20000;  // CPM < 20K -> Branding; >= 20K -> Ban hang (dieu chinh tai day)
       var BRAND_GOAL={POST_ENGAGEMENT:1,ENGAGED_USERS:1,PROFILE_AND_PAGE_ENGAGEMENT:1,EVENT_RESPONSES:1,THRUPLAY:1,TWO_SECOND_CONTINUOUS_VIDEO_VIEWS:1,VIDEO_VIEWS:1,REACH:1,IMPRESSIONS:1,AD_RECALL_LIFT:1,PAGE_LIKES:1,VISIT_INSTAGRAM_PROFILE:1,PROFILE_VISIT:1};
       var BRAND_OBJ={BRAND_AWARENESS:1,REACH:1,VIDEO_VIEWS:1,OUTCOME_AWARENESS:1};  // fallback cuoi (KHONG gom OUTCOME_ENGAGEMENT vi no lan ca messaging)
-      // Tên campaign chứa đuôi "..TC" (case-insensitive) => luôn là Branding
-      var BRAND_NAME_RE=/\.\.[Tt][Cc](\s|$)/;
+      // Tên campaign chứa "- TC -" hoặc "TC" đứng riêng => luôn là Branding
+      // Naming convention thực tế: "DD/MM - TC - ..." (không phải ..TC)
+      var BRAND_NAME_RE=/(?:^|[-\s])TC(?:[-\s]|$)/i;
       function campType(c){
-        if(BRAND_NAME_RE.test(c.name)) return 'brand';                        // 0. Tên ..TC = Branding (ưu tiên cao nhất)
+        if(BRAND_NAME_RE.test(c.name)) return 'brand';                        // 0. Tên chứa "- TC -" = Branding (ưu tiên cao nhất)
         var cpm=c.impressions?c.spend/c.impressions*1000:0;
         if(cpm) return cpm<CPM_BRAND_MAX?'brand':'conv';                      // 1. CPM (tin hieu chinh): thap = branding
         if(c.optGoal) return BRAND_GOAL[c.optGoal]?'brand':'conv';            // 2. optimization_goal
