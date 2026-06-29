@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T06:02:47.670Z",
+  "generatedAt": "2026-06-29T06:32:28.239Z",
   "source": "lark",
   "period": {
     "days": 429,
@@ -29212,17 +29212,51 @@
     },
     {
       "day": "2026-06-08",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 7130000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 3610000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 10656000,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 735000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 1311500,
+          "orders": 0
+        }
+      },
       "onlineRev": 23442500,
-      "onlineRev31": 0,
+      "onlineRev31": 23442500,
       "onlineOrders": 37,
       "onlineProducts": 0,
       "onlineTarget": 31000000,
       "fbAds": 5830000,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 11391000,
+      "social": 6221500,
+      "brands": {
+        "Bemori": 21086000,
+        "Teddy": 1045000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 6085000,
+          "Instagram": 3610000,
+          "Zalo": 10656000,
+          "Website": 735000
+        },
+        "Teddy": {
+          "Facebook": 1045000
+        }
+      },
       "store": {
         "Nguyễn Gia Trí": 4755000,
         "Xuân Thủy": 5707000,
@@ -29672,17 +29706,54 @@
     },
     {
       "day": "2026-06-15",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 11450000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 2000000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 13310000,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 835000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 1575000,
+          "orders": 0
+        }
+      },
       "onlineRev": 29170000,
-      "onlineRev31": 0,
+      "onlineRev31": 29170000,
       "onlineOrders": 34,
       "onlineProducts": 0,
       "onlineTarget": 41000000,
       "fbAds": 9416551,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 15040000,
+      "social": 4713449,
+      "brands": {
+        "Bemori": 26095000,
+        "Teddy": 1500000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 9055000,
+          "Instagram": 2000000,
+          "Zalo": 13310000,
+          "Website": 835000
+        },
+        "Teddy": {
+          "Facebook": 1500000
+        },
+        "GBO/NNGB": {
+          "Facebook": 895000
+        }
+      },
       "store": {
         "Láng": 4102500,
         "Nguyễn Trãi": 8117500,
@@ -29708,17 +29779,28 @@
     },
     {
       "day": "2026-06-16",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 6486500,
+          "orders": 0
+        }
+      },
       "onlineRev": 25728500,
-      "onlineRev31": 0,
+      "onlineRev31": 6486500,
       "onlineOrders": 44,
       "onlineProducts": 0,
       "onlineTarget": 41000000,
       "fbAds": 7021500,
       "ggAds": 0,
       "social": 0,
-      "brands": {},
-      "bc": {},
+      "brands": {
+        "Bemori": 6486500
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 6486500
+        }
+      },
       "store": {
         "Nguyễn Văn Cừ": 10490500,
         "Cầu Giấy": 4530000,
@@ -30270,9 +30352,9 @@
       "custIn": 229,
       "custBuy": 211,
       "memonRev": 0,
-      "metaFb": 3390900,
+      "metaFb": 3391210,
       "metaIg": 68869,
-      "metaTotal": 3459769,
+      "metaTotal": 3460079,
       "metaIgPixelRev": 0
     },
     {
@@ -30331,9 +30413,9 @@
       "custIn": 0,
       "custBuy": 0,
       "memonRev": 0,
-      "metaFb": 1210351,
-      "metaIg": 19587,
-      "metaTotal": 1229938,
+      "metaFb": 1318914,
+      "metaIg": 21451,
+      "metaTotal": 1340370,
       "metaIgPixelRev": 0
     }
   ],
@@ -30535,7 +30617,7 @@
       "body": "✨ [Pre - order] Mùa hè con ôm gì cũng nóng!!! Mẹ sắm gối ôm kem lạnh, con ngủ mát đến sáng\n🥵Con thì mồ hôi nhễ nhại, lật qua lật lại vì bí bách; còn mẹ ê ẩm cả người vì chiếc gối ôm cũ vừa cứng vừa nóng. \n🥶 Mẹ đã thử đủ cách nhưng vẫn nóng, tham khảo ngay Gối Ôm Kem Lạnh Hình Sóng  chính là \"cứu tinh\" đập tan cái nóng: \n❄ Vải kem lạnh giải nhiệt thần tốc: Sờ vào mát rượi tay, không bí nóng bé ôm ấp ngủ ngon không lo đổ mồ hôi trộm.\n👉 Đặc biệt thiết kế sóng công thái học độc đáo: Ôm khít theo đường cong cơ thể tự nhiên, không thẳng như gối thường.\n✅Cho bé: Nâng đỡ vừa vặn, tạo điểm tựa êm ái giúp con ngủ sâu, không giật mình.\n✅ Cho bố mẹ: Đỡ phần thắt lưng, kê tay kê chân giúp giảm áp lực cơ thể, hết hẳn mỏi lưng khi nằm lâu.\n❤ Vừa mát, vừa chuẩn công thái học, mẹ chốt cho cả nhà cùng tận hưởng cảm giác mát lạnh, êm ái nhaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng Ẩn Ẩn bớt",
       "cta": "MESSAGE_PAGE",
       "linkUrl": "",
-      "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.1600-4/714765582_960412086812496_5905797262502068011_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=A9bTlwsY8vwQ7kNvwHki7ph&_nc_oc=AdpuKKB2L7OiX1QRnyWGPjOIQSqQFcVSRJ6lkvVQTvHCetozYVOqwUIvrPeSVNOLfP8&_nc_zt=1&_nc_ht=scontent-sjc3-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=6TmHfvOIUQPqlF5NZwu43w&_nc_tpa=Q5bMBQGwOx_Md_ljreKtdrj_3TSGiEBqC-HZekDb-zoqVIfnC1jlCK1GHIpeYH458-gxNtZddNO7LwvPmQ&oh=00_Af859ayCOTg3v-frQHbOcW7PagGm-UMC6hq_fxnOXuKxSw&oe=6A47D863",
+      "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t45.1600-4/714765582_960412086812496_5905797262502068011_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=A9bTlwsY8vwQ7kNvwGvri8z&_nc_oc=AdraIOEBxnqsf_ztSNN_slLOUFQsC97tOB_KeWdEwCbIpC4L6WKbXiMKMISWCuGItIA&_nc_zt=1&_nc_ht=scontent-iad3-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=NSz09laXSufLs1c_biFgfQ&_nc_tpa=Q5bMBQEt5vhYshi5J5R2WK4Zd8Tq9jR5pwZSHqAXYpIHEvFFist7QWXI10Zw_fslYc1V-3zlLrHeCV--tA&oh=00_Af_v1P331QYhVt_FMAAG_b_L4HT_BnPfdp259WkGMoL-OA&oe=6A47D863",
       "images": []
     },
     "120244219403720340": {
@@ -30543,7 +30625,7 @@
       "body": "Hội bạn thân mỗi đứa một nết nhưng thiếu nhau là buồn ngang\n“Tag hội của bạn vào đây.”\n#Bemori #GauBong #QuaTang #HoiBanThan",
       "cta": "MESSAGE_PAGE",
       "linkUrl": "",
-      "imageUrl": "https://scontent-sjc6-1.xx.fbcdn.net/v/t45.1600-4/711642952_959790800207958_3237435767963139064_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=I5e82MaegtEQ7kNvwHtcXcJ&_nc_oc=AdqGQCKQHn3khSxDd65NYNZbGh54JMcYE_qqGco4tEbLmb7t_MnTmQTeXEkYN795Sjs&_nc_zt=1&_nc_ht=scontent-sjc6-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=SBvFX80pZkzpEPde59xvBg&_nc_tpa=Q5bMBQFAQf4FoK5ZFA-fDH2SP3J0fyj3unPIk_Cnn-k0IFWmDdiGgm5RYPsrMXcx3WUl6kRzhDFS4_Hl&oh=00_Af8uifpVcC8RIWPmReUxndCbdfUI5luKIF-7VYa543BPBg&oe=6A47EE95",
+      "imageUrl": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/711642952_959790800207958_3237435767963139064_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=I5e82MaegtEQ7kNvwG5zw_A&_nc_oc=Adq-18rYppTTMc6AnXHGoc13mPfzh4fyBgFiSdcY5aOsM4o5AWUVJAwc4VIwSSj46xI&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=AVkq9pX2NTca1FRM7a3iPA&_nc_tpa=Q5bMBQEVPsAEXCfhh-DSDJv-7W8fe0c1WEO7NP2aYYwlLHmz2huVTGbXGFJRQ2zbHw6IFHdtX7WDOM4L&oh=00_Af_F7ufMtAGukxrmTnXmXW6JCTer0pCKWPM2RFFtATFurw&oe=6A47EE95",
       "images": []
     },
     "120244265538590340": {
@@ -38942,8 +39024,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120243906469930340.jpg",
-      "spend": 121937,
-      "impressions": 2112,
+      "spend": 122247,
+      "impressions": 2113,
       "clicks": 31,
       "engagement": 21,
       "messages": 1,
@@ -39302,15 +39384,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120245151366830340.jpg",
-      "spend": 137865,
-      "impressions": 2795,
-      "clicks": 114,
-      "engagement": 76,
+      "spend": 143746,
+      "impressions": 2885,
+      "clicks": 117,
+      "engagement": 79,
       "messages": 8,
-      "leads": 2,
+      "leads": 4,
       "purchases": 1,
       "purchaseValue": 790000,
-      "roas": 5.73
+      "roas": 5.5
     },
     {
       "day": "2026-06-29",
@@ -39322,10 +39404,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120244343830350340.jpg",
-      "spend": 131500,
-      "impressions": 1565,
-      "clicks": 64,
-      "engagement": 39,
+      "spend": 136118,
+      "impressions": 1640,
+      "clicks": 70,
+      "engagement": 41,
       "messages": 6,
       "leads": 6,
       "purchases": 0,
@@ -39342,9 +39424,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246031154890340.jpg",
-      "spend": 117071,
-      "impressions": 2187,
-      "clicks": 86,
+      "spend": 120626,
+      "impressions": 2230,
+      "clicks": 89,
       "engagement": 47,
       "messages": 5,
       "leads": 0,
@@ -39362,10 +39444,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120255768361810112.jpg",
-      "spend": 103337,
-      "impressions": 2276,
-      "clicks": 80,
-      "engagement": 33,
+      "spend": 109123,
+      "impressions": 2430,
+      "clicks": 89,
+      "engagement": 37,
       "messages": 6,
       "leads": 2,
       "purchases": 0,
@@ -39376,17 +39458,17 @@
       "day": "2026-06-29",
       "account": "Pa15",
       "bm": "BM1",
-      "id": "120246031119000340",
-      "name": "27/06/2026 - TN - CR - W4",
+      "id": "120243906469930340",
+      "name": "2710.hoahong.Bemori.Memon - Bản sao 2",
       "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120246031119000340.jpg",
-      "spend": 90871,
-      "impressions": 1738,
-      "clicks": 24,
-      "engagement": 13,
-      "messages": 0,
+      "optGoal": "CONVERSATIONS",
+      "thumb": "thumbs/120243906469930340.jpg",
+      "spend": 103064,
+      "impressions": 2132,
+      "clicks": 41,
+      "engagement": 18,
+      "messages": 2,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -39402,15 +39484,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246057193430340.jpg",
-      "spend": 90361,
-      "impressions": 1030,
-      "clicks": 18,
-      "engagement": 162,
+      "spend": 96662,
+      "impressions": 1104,
+      "clicks": 19,
+      "engagement": 177,
       "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 425000,
-      "roas": 4.7
+      "roas": 4.4
     },
     {
       "day": "2026-06-29",
@@ -39422,31 +39504,31 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120256954831130112.jpg",
-      "spend": 87729,
-      "impressions": 1078,
-      "clicks": 68,
-      "engagement": 43,
-      "messages": 2,
+      "spend": 95608,
+      "impressions": 1184,
+      "clicks": 76,
+      "engagement": 48,
+      "messages": 3,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 1388000,
-      "roas": 15.82
+      "roas": 14.52
     },
     {
       "day": "2026-06-29",
       "account": "Pa15",
       "bm": "BM1",
-      "id": "120243906469930340",
-      "name": "2710.hoahong.Bemori.Memon - Bản sao 2",
+      "id": "120246031119000340",
+      "name": "27/06/2026 - TN - CR - W4",
       "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "CONVERSATIONS",
-      "thumb": "thumbs/120243906469930340.jpg",
-      "spend": 83610,
-      "impressions": 1756,
-      "clicks": 34,
-      "engagement": 15,
-      "messages": 2,
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120246031119000340.jpg",
+      "spend": 93068,
+      "impressions": 1802,
+      "clicks": 24,
+      "engagement": 13,
+      "messages": 0,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -39462,15 +39544,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246138178650340.jpg",
-      "spend": 80085,
-      "impressions": 1590,
-      "clicks": 50,
-      "engagement": 35,
-      "messages": 2,
+      "spend": 88589,
+      "impressions": 1714,
+      "clicks": 57,
+      "engagement": 38,
+      "messages": 3,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 715000,
-      "roas": 8.93
+      "roas": 8.07
     },
     {
       "day": "2026-06-29",
@@ -39482,15 +39564,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120245230406420340.jpg",
-      "spend": 73790,
-      "impressions": 1636,
-      "clicks": 47,
-      "engagement": 418,
+      "spend": 78473,
+      "impressions": 1735,
+      "clicks": 49,
+      "engagement": 449,
       "messages": 4,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 594000,
-      "roas": 8.05
+      "roas": 7.57
     },
     {
       "day": "2026-06-29",
@@ -39502,30 +39584,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246138159730340.jpg",
-      "spend": 66899,
-      "impressions": 1045,
-      "clicks": 34,
-      "engagement": 13,
-      "messages": 0,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-06-29",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120239554786720340",
-      "name": "2710.hoahong.Bemori.Memon - Bản sao",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "CONVERSATIONS",
-      "thumb": "thumbs/120239554786720340.jpg",
-      "spend": 59139,
-      "impressions": 1281,
-      "clicks": 29,
-      "engagement": 20,
+      "spend": 75776,
+      "impressions": 1191,
+      "clicks": 45,
+      "engagement": 22,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -39542,10 +39604,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120257278301710112.jpg",
-      "spend": 58125,
-      "impressions": 594,
-      "clicks": 14,
-      "engagement": 11,
+      "spend": 65108,
+      "impressions": 657,
+      "clicks": 20,
+      "engagement": 16,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -39556,16 +39618,16 @@
       "day": "2026-06-29",
       "account": "Pa15",
       "bm": "BM1",
-      "id": "120245150010850340",
-      "name": "15/06/2026 - CĐ - TN - M - W3",
+      "id": "120239554786720340",
+      "name": "2710.hoahong.Bemori.Memon - Bản sao",
       "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120245150010850340.jpg",
-      "spend": 26183,
-      "impressions": 545,
-      "clicks": 3,
-      "engagement": 0,
+      "optGoal": "CONVERSATIONS",
+      "thumb": "thumbs/120239554786720340.jpg",
+      "spend": 59782,
+      "impressions": 1297,
+      "clicks": 29,
+      "engagement": 20,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -39582,10 +39644,50 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "POST_ENGAGEMENT",
       "thumb": "thumbs/120245716947060340.jpg",
-      "spend": 24669,
-      "impressions": 1320,
-      "clicks": 116,
-      "engagement": 83,
+      "spend": 43609,
+      "impressions": 2457,
+      "clicks": 191,
+      "engagement": 116,
+      "messages": 0,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-06-29",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120245150010850340",
+      "name": "15/06/2026 - CĐ - TN - M - W3",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120245150010850340.jpg",
+      "spend": 38797,
+      "impressions": 914,
+      "clicks": 9,
+      "engagement": 5,
+      "messages": 0,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-06-29",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120245475701060340",
+      "name": "19/06/2026- TC - - CH - CR -W3",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "REACH",
+      "thumb": "thumbs/120245475701060340.jpg",
+      "spend": 26,
+      "impressions": 15,
+      "clicks": 0,
+      "engagement": 2,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -39601,41 +39703,41 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 563,
-        "revenue": 360306635,
-        "aov": 639976,
+        "orders": 564,
+        "revenue": 361325022,
+        "aov": 640647,
         "share": 41,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 528,
-        "revenue": 338031093,
-        "aov": 640210,
+        "orders": 531,
+        "revenue": 339597625,
+        "aov": 639544,
         "share": 39,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 126,
-        "revenue": 80823868,
-        "aov": 641459,
+        "orders": 121,
+        "revenue": 77329679,
+        "aov": 639088,
         "share": 9,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 92,
-        "revenue": 58735022,
-        "aov": 638424,
+        "orders": 95,
+        "revenue": 60974036,
+        "aov": 641832,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 59,
-        "revenue": 37744468,
-        "aov": 639737,
+        "orders": 57,
+        "revenue": 36414724,
+        "aov": 638855,
         "share": 4,
         "est": true
       }
@@ -39661,8 +39763,8 @@
     "storePct": 75
   },
   "brands": {
-    "Bemori": 3081481734,
-    "Teddy": 21162500,
+    "Bemori": 3133922081,
+    "Teddy": 23707500,
     "Memon": 0
   },
   "weekMarketing": {
