@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T07:33:57.941Z",
+  "generatedAt": "2026-06-29T08:02:38.853Z",
   "source": "lark",
   "period": {
     "days": 429,
@@ -28769,7 +28769,7 @@
       },
       "storeRev": 416910000,
       "storeOnline": 62960000,
-      "storeTarget": 278712000,
+      "storeTarget": 237048000,
       "custIn": 867,
       "custBuy": 849,
       "memonRev": 0,
@@ -28842,7 +28842,7 @@
       },
       "storeRev": 116093248,
       "storeOnline": 19108002,
-      "storeTarget": 93268000,
+      "storeTarget": 72772000,
       "custIn": 235,
       "custBuy": 221,
       "memonRev": 0,
@@ -28915,7 +28915,7 @@
       },
       "storeRev": 83051500,
       "storeOnline": 10490000,
-      "storeTarget": 103650400,
+      "storeTarget": 77974400,
       "custIn": 173,
       "custBuy": 162,
       "memonRev": 0,
@@ -28988,7 +28988,7 @@
       },
       "storeRev": 61475250,
       "storeOnline": 11898000,
-      "storeTarget": 101725600,
+      "storeTarget": 87277600,
       "custIn": 149,
       "custBuy": 134,
       "memonRev": 0,
@@ -29061,7 +29061,7 @@
       },
       "storeRev": 81283750,
       "storeOnline": 12263000,
-      "storeTarget": 129655680,
+      "storeTarget": 105463680,
       "custIn": 187,
       "custBuy": 167,
       "memonRev": 0,
@@ -29129,7 +29129,7 @@
       },
       "storeRev": 92133001,
       "storeOnline": 6932000,
-      "storeTarget": 156611600,
+      "storeTarget": 119819600,
       "custIn": 209,
       "custBuy": 185,
       "memonRev": 0,
@@ -29201,7 +29201,7 @@
       },
       "storeRev": 93916500,
       "storeOnline": 10675000,
-      "storeTarget": 165808800,
+      "storeTarget": 137080800,
       "custIn": 199,
       "custBuy": 176,
       "memonRev": 0,
@@ -29270,7 +29270,7 @@
       },
       "storeRev": 30504000,
       "storeOnline": 16595000,
-      "storeTarget": 87696000,
+      "storeTarget": 76296000,
       "custIn": 87,
       "custBuy": 71,
       "memonRev": 0,
@@ -29343,7 +29343,7 @@
       },
       "storeRev": 71490250,
       "storeOnline": 15791000,
-      "storeTarget": 74956800,
+      "storeTarget": 66196800,
       "custIn": 146,
       "custBuy": 128,
       "memonRev": 0,
@@ -29416,7 +29416,7 @@
       },
       "storeRev": 58912000,
       "storeOnline": 11604000,
-      "storeTarget": 70512000,
+      "storeTarget": 54672000,
       "custIn": 143,
       "custBuy": 126,
       "memonRev": 0,
@@ -29485,7 +29485,7 @@
       },
       "storeRev": 67240250,
       "storeOnline": 10965000,
-      "storeTarget": 81120000,
+      "storeTarget": 69600000,
       "custIn": 149,
       "custBuy": 133,
       "memonRev": 0,
@@ -29558,7 +29558,7 @@
       },
       "storeRev": 64186000,
       "storeOnline": 9660000,
-      "storeTarget": 122848000,
+      "storeTarget": 101728000,
       "custIn": 141,
       "custBuy": 123,
       "memonRev": 0,
@@ -29626,7 +29626,7 @@
       },
       "storeRev": 92715501,
       "storeOnline": 7367500,
-      "storeTarget": 141357600,
+      "storeTarget": 117597600,
       "custIn": 198,
       "custBuy": 182,
       "memonRev": 0,
@@ -29695,7 +29695,7 @@
       },
       "storeRev": 132234250,
       "storeOnline": 12207000,
-      "storeTarget": 116928000,
+      "storeTarget": 93168000,
       "custIn": 195,
       "custBuy": 180,
       "memonRev": 0,
@@ -29768,7 +29768,7 @@
       },
       "storeRev": 52370000,
       "storeOnline": 13595000,
-      "storeTarget": 97027200,
+      "storeTarget": 81331200,
       "custIn": 117,
       "custBuy": 98,
       "memonRev": 0,
@@ -29841,7 +29841,7 @@
       },
       "storeRev": 67476000,
       "storeOnline": 12983500,
-      "storeTarget": 83865600,
+      "storeTarget": 68169600,
       "custIn": 145,
       "custBuy": 124,
       "memonRev": 0,
@@ -29914,7 +29914,7 @@
       },
       "storeRev": 77462750,
       "storeOnline": 13170000,
-      "storeTarget": 82944000,
+      "storeTarget": 69120000,
       "custIn": 142,
       "custBuy": 132,
       "memonRev": 0,
@@ -29987,7 +29987,7 @@
       },
       "storeRev": 52686001,
       "storeOnline": 13854000,
-      "storeTarget": 85920000,
+      "storeTarget": 72096000,
       "custIn": 124,
       "custBuy": 113,
       "memonRev": 0,
@@ -29998,17 +29998,54 @@
     },
     {
       "day": "2026-06-19",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 17409000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 3750000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 4355000,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 1759000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 1415000,
+          "orders": 0
+        }
+      },
       "onlineRev": 28688477,
-      "onlineRev31": 0,
+      "onlineRev31": 28688000,
       "onlineOrders": 42,
       "onlineProducts": 0,
       "onlineTarget": 41000000,
       "fbAds": 6799000,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 7154000,
+      "social": 14735000,
+      "brands": {
+        "Bemori": 25738000,
+        "Teddy": 1535000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 14834000,
+          "Instagram": 3750000,
+          "Zalo": 4355000,
+          "Website": 1759000
+        },
+        "Teddy": {
+          "Facebook": 1535000
+        },
+        "GBO/NNGB": {
+          "Facebook": 1040000
+        }
+      },
       "store": {
         "Nguyễn Văn Cừ": 6410000,
         "Láng": 7727500,
@@ -30023,7 +30060,7 @@
       },
       "storeRev": 74581000,
       "storeOnline": 14079500,
-      "storeTarget": 149163520,
+      "storeTarget": 123819520,
       "custIn": 160,
       "custBuy": 141,
       "memonRev": 0,
@@ -30034,17 +30071,51 @@
     },
     {
       "day": "2026-06-20",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 16685000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 2650000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 7661500,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 1340000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 569000,
+          "orders": 0
+        }
+      },
       "onlineRev": 28905468,
-      "onlineRev31": 0,
+      "onlineRev31": 28905500,
       "onlineOrders": 40,
       "onlineProducts": 0,
       "onlineTarget": 27000000,
       "fbAds": 5016000,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 9001500,
+      "social": 14888000,
+      "brands": {
+        "Bemori": 27566500,
+        "Teddy": 770000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 15915000,
+          "Instagram": 2650000,
+          "Zalo": 7661500,
+          "Website": 1340000
+        },
+        "Teddy": {
+          "Facebook": 770000
+        }
+      },
       "store": {
         "Láng": 9280000,
         "Bạch Mai": 3984000,
@@ -30059,7 +30130,7 @@
       },
       "storeRev": 78906750,
       "storeOnline": 14471000,
-      "storeTarget": 164226240,
+      "storeTarget": 127722240,
       "custIn": 163,
       "custBuy": 152,
       "memonRev": 0,
@@ -30129,7 +30200,7 @@
       },
       "storeRev": 93634750,
       "storeOnline": 16326500,
-      "storeTarget": 163607040,
+      "storeTarget": 135095040,
       "custIn": 190,
       "custBuy": 177,
       "memonRev": 0,
@@ -30140,17 +30211,54 @@
     },
     {
       "day": "2026-06-22",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 9764000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 455000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 6100000,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 575000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 1070000,
+          "orders": 0
+        }
+      },
       "onlineRev": 17964000,
-      "onlineRev31": 0,
+      "onlineRev31": 17964000,
       "onlineOrders": 38,
       "onlineProducts": 0,
       "onlineTarget": 41000000,
       "fbAds": 0,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 7520000,
+      "social": 10444000,
+      "brands": {
+        "Bemori": 15414000,
+        "Teddy": 1480000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 7439000,
+          "Instagram": 455000,
+          "Zalo": 6100000,
+          "Website": 575000
+        },
+        "Teddy": {
+          "Facebook": 1480000
+        },
+        "GBO/NNGB": {
+          "Facebook": 845000
+        }
+      },
       "store": {
         "Bạch Mai": 10218000,
         "Xuân Thủy": 10908500,
@@ -30165,7 +30273,7 @@
       },
       "storeRev": 69738500,
       "storeOnline": 15557000,
-      "storeTarget": 78172800,
+      "storeTarget": 66772800,
       "custIn": 157,
       "custBuy": 143,
       "memonRev": 0,
@@ -30233,7 +30341,7 @@
       },
       "storeRev": 64427250,
       "storeOnline": 14148550,
-      "storeTarget": 61132800,
+      "storeTarget": 49612800,
       "custIn": 128,
       "custBuy": 118,
       "memonRev": 0,
@@ -30303,7 +30411,7 @@
       },
       "storeRev": 63366500,
       "storeOnline": 7718500,
-      "storeTarget": 65572800,
+      "storeTarget": 49732800,
       "custIn": 138,
       "custBuy": 126,
       "memonRev": 0,
@@ -30339,7 +30447,7 @@
       },
       "storeRev": 60601250,
       "storeOnline": 19568000,
-      "storeTarget": 88187800,
+      "storeTarget": 72347800,
       "custIn": 127,
       "custBuy": 118,
       "memonRev": 0,
@@ -30375,7 +30483,7 @@
       },
       "storeRev": 85197750,
       "storeOnline": 14746500,
-      "storeTarget": 93711400,
+      "storeTarget": 84271400,
       "custIn": 183,
       "custBuy": 167,
       "memonRev": 0,
@@ -30411,7 +30519,7 @@
       },
       "storeRev": 103970750,
       "storeOnline": 10853500,
-      "storeTarget": 124884200,
+      "storeTarget": 107784200,
       "custIn": 229,
       "custBuy": 211,
       "memonRev": 0,
@@ -30447,12 +30555,12 @@
       },
       "storeRev": 94121250,
       "storeOnline": 10906000,
-      "storeTarget": 119057200,
+      "storeTarget": 101957200,
       "custIn": 201,
       "custBuy": 189,
       "memonRev": 0,
-      "metaFb": 2951176,
-      "metaIg": 117980,
+      "metaFb": 2951177,
+      "metaIg": 117979,
       "metaTotal": 3069156,
       "metaIgPixelRev": 0
     },
@@ -30476,9 +30584,9 @@
       "custIn": 0,
       "custBuy": 0,
       "memonRev": 0,
-      "metaFb": 1520236,
-      "metaIg": 28170,
-      "metaTotal": 1548433,
+      "metaFb": 1617425,
+      "metaIg": 31562,
+      "metaTotal": 1649563,
       "metaIgPixelRev": 0
     }
   ],
@@ -30680,7 +30788,7 @@
       "body": "✨ [Pre - order] Mùa hè con ôm gì cũng nóng!!! Mẹ sắm gối ôm kem lạnh, con ngủ mát đến sáng\n🥵Con thì mồ hôi nhễ nhại, lật qua lật lại vì bí bách; còn mẹ ê ẩm cả người vì chiếc gối ôm cũ vừa cứng vừa nóng. \n🥶 Mẹ đã thử đủ cách nhưng vẫn nóng, tham khảo ngay Gối Ôm Kem Lạnh Hình Sóng  chính là \"cứu tinh\" đập tan cái nóng: \n❄ Vải kem lạnh giải nhiệt thần tốc: Sờ vào mát rượi tay, không bí nóng bé ôm ấp ngủ ngon không lo đổ mồ hôi trộm.\n👉 Đặc biệt thiết kế sóng công thái học độc đáo: Ôm khít theo đường cong cơ thể tự nhiên, không thẳng như gối thường.\n✅Cho bé: Nâng đỡ vừa vặn, tạo điểm tựa êm ái giúp con ngủ sâu, không giật mình.\n✅ Cho bố mẹ: Đỡ phần thắt lưng, kê tay kê chân giúp giảm áp lực cơ thể, hết hẳn mỏi lưng khi nằm lâu.\n❤ Vừa mát, vừa chuẩn công thái học, mẹ chốt cho cả nhà cùng tận hưởng cảm giác mát lạnh, êm ái nhaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng Ẩn Ẩn bớt",
       "cta": "MESSAGE_PAGE",
       "linkUrl": "",
-      "imageUrl": "https://scontent-ord5-3.xx.fbcdn.net/v/t45.1600-4/714765582_960412086812496_5905797262502068011_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=A9bTlwsY8vwQ7kNvwErZR0F&_nc_oc=AdqTKsZClL5LNQcCf2Lu0vbR-syS3RIkqWvCDQwpeW-VZrZWt0tg3W1APRrMbF5Hf9c&_nc_zt=1&_nc_ht=scontent-ord5-3.xx&edm=AOgd6ZUEAAAA&_nc_gid=u-1SDLGI-gq5ruIJUQ_UnA&_nc_tpa=Q5bMBQEYN3AMVsmBeSKFRgq1_2d4Ok8AhuMq1efhGm7HU1FXsbzoabyBRZjXcidKJ8yG30my1zD7wpH3eQ&oh=00_Af_-ReuiYYsjuC_TsRP6qL2qK_OgcvYdurrNCUESM37UUg&oe=6A47D863",
+      "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t45.1600-4/714765582_960412086812496_5905797262502068011_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=A9bTlwsY8vwQ7kNvwF34sGs&_nc_oc=AdqLlzbbT9q5SOsACarYCFlYMxF2_zr09huptFKFi1g4nuvamXQzeWGRcaG9w76fIOA&_nc_zt=1&_nc_ht=scontent-iad3-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=AqVJ1E-NAwMsUEgxbV3Pbg&_nc_tpa=Q5bMBQFh-eGhTMBMYliq5IS3nkQuqKvYfsTEEA-ji7D3-xzo-h1E98f519nvMlgfUCew24l-WtTKxDTP9Q&oh=00_Af-L8USMTFWfo2XxmlDzHX3W0Xji_mPz-JnDhucxIDrpJw&oe=6A4810A3",
       "images": []
     },
     "120244219403720340": {
@@ -30688,7 +30796,7 @@
       "body": "Hội bạn thân mỗi đứa một nết nhưng thiếu nhau là buồn ngang\n“Tag hội của bạn vào đây.”\n#Bemori #GauBong #QuaTang #HoiBanThan",
       "cta": "MESSAGE_PAGE",
       "linkUrl": "",
-      "imageUrl": "https://scontent-ord5-3.xx.fbcdn.net/v/t45.1600-4/711642952_959790800207958_3237435767963139064_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=I5e82MaegtEQ7kNvwE9y3A5&_nc_oc=AdoOm6amhnQvWhG3PURmuTn_H8CNO4lNGBoE3N-Jnx5tSKQKE4LsQ2oS8OOSOSeE9bA&_nc_zt=1&_nc_ht=scontent-ord5-3.xx&edm=AOgd6ZUEAAAA&_nc_gid=ExbUhqaHMZyibjL62BNrOA&_nc_tpa=Q5bMBQEwN7rmY-RkFQeCp04vtQw_k694DGrZm97BfW3ENeSE3foqLYxq7Tc8F7Bnqv1DfKcU5ImGxydp&oh=00_Af9uErlfTwukYWFeLVuuxgsgIIZpOUMd0V4EOuppYQfCoA&oe=6A47EE95",
+      "imageUrl": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/711642952_959790800207958_3237435767963139064_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=I5e82MaegtEQ7kNvwFWLiFz&_nc_oc=Adp7Kfo1nIK6ELwlE3gPlwWjKB-hSy4EpshAZYX7sMGIMJd7oMHFh--W3Aa1CpTGF90&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=_ZZBnbANQhLfm_kynm94gA&_nc_tpa=Q5bMBQGFMB4PpizTvFXXufqeHYApuLBtp9E4pB2vOCVfXFqjMJRLZHj6YZFZD5PJkgtzWRSDct693Ioi&oh=00_Af_n20kIO7Y0SqY2Yttx6TGsuo_kWeg7aO5Ip9311G9wsQ&oe=6A47EE95",
       "images": []
     },
     "120244265538590340": {
@@ -39447,15 +39555,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120245151366830340.jpg",
-      "spend": 158973,
-      "impressions": 3077,
-      "clicks": 121,
-      "engagement": 82,
-      "messages": 8,
+      "spend": 169918,
+      "impressions": 3206,
+      "clicks": 128,
+      "engagement": 86,
+      "messages": 9,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 790000,
-      "roas": 4.97
+      "roas": 4.65
     },
     {
       "day": "2026-06-29",
@@ -39467,10 +39575,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120244343830350340.jpg",
-      "spend": 151436,
-      "impressions": 1776,
-      "clicks": 79,
-      "engagement": 47,
+      "spend": 157337,
+      "impressions": 1874,
+      "clicks": 80,
+      "engagement": 48,
       "messages": 8,
       "leads": 6,
       "purchases": 0,
@@ -39487,9 +39595,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120243906469930340.jpg",
-      "spend": 134369,
-      "impressions": 2728,
-      "clicks": 55,
+      "spend": 149754,
+      "impressions": 3017,
+      "clicks": 56,
       "engagement": 29,
       "messages": 3,
       "leads": 0,
@@ -39507,15 +39615,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246031154890340.jpg",
-      "spend": 126507,
-      "impressions": 2300,
-      "clicks": 90,
-      "engagement": 48,
+      "spend": 130614,
+      "impressions": 2336,
+      "clicks": 91,
+      "engagement": 49,
       "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 1470000,
-      "roas": 11.62
+      "roas": 11.25
     },
     {
       "day": "2026-06-29",
@@ -39527,10 +39635,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120255768361810112.jpg",
-      "spend": 117789,
-      "impressions": 2620,
-      "clicks": 97,
-      "engagement": 40,
+      "spend": 120549,
+      "impressions": 2686,
+      "clicks": 98,
+      "engagement": 41,
       "messages": 6,
       "leads": 2,
       "purchases": 0,
@@ -39547,15 +39655,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246057193430340.jpg",
-      "spend": 110290,
-      "impressions": 1199,
+      "spend": 117575,
+      "impressions": 1252,
       "clicks": 20,
-      "engagement": 189,
+      "engagement": 192,
       "messages": 3,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 425000,
-      "roas": 3.85
+      "roas": 3.61
     },
     {
       "day": "2026-06-29",
@@ -39567,15 +39675,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120256954831130112.jpg",
-      "spend": 104886,
-      "impressions": 1316,
-      "clicks": 79,
-      "engagement": 51,
+      "spend": 107738,
+      "impressions": 1360,
+      "clicks": 82,
+      "engagement": 52,
       "messages": 3,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1388000,
-      "roas": 13.23
+      "roas": 12.88
     },
     {
       "day": "2026-06-29",
@@ -39587,15 +39695,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246138178650340.jpg",
-      "spend": 102008,
-      "impressions": 1845,
-      "clicks": 61,
-      "engagement": 43,
-      "messages": 4,
+      "spend": 107077,
+      "impressions": 1902,
+      "clicks": 69,
+      "engagement": 46,
+      "messages": 5,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 715000,
-      "roas": 7.01
+      "roas": 6.68
     },
     {
       "day": "2026-06-29",
@@ -39607,11 +39715,11 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246138159730340.jpg",
-      "spend": 97215,
-      "impressions": 1390,
-      "clicks": 66,
-      "engagement": 39,
-      "messages": 2,
+      "spend": 105505,
+      "impressions": 1502,
+      "clicks": 75,
+      "engagement": 43,
+      "messages": 3,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -39627,8 +39735,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246031119000340.jpg",
-      "spend": 96036,
-      "impressions": 1863,
+      "spend": 96498,
+      "impressions": 1879,
       "clicks": 28,
       "engagement": 15,
       "messages": 0,
@@ -39647,15 +39755,15 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120245230406420340.jpg",
-      "spend": 85027,
-      "impressions": 1879,
-      "clicks": 50,
-      "engagement": 482,
-      "messages": 4,
+      "spend": 88950,
+      "impressions": 1970,
+      "clicks": 55,
+      "engagement": 513,
+      "messages": 5,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 594000,
-      "roas": 6.99
+      "roas": 6.68
     },
     {
       "day": "2026-06-29",
@@ -39667,10 +39775,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "POST_ENGAGEMENT",
       "thumb": "thumbs/120245716947060340.jpg",
-      "spend": 75370,
-      "impressions": 4522,
-      "clicks": 380,
-      "engagement": 247,
+      "spend": 85779,
+      "impressions": 5206,
+      "clicks": 467,
+      "engagement": 318,
       "messages": 2,
       "leads": 0,
       "purchases": 0,
@@ -39687,8 +39795,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120257278301710112.jpg",
-      "spend": 73658,
-      "impressions": 745,
+      "spend": 75376,
+      "impressions": 763,
       "clicks": 22,
       "engagement": 17,
       "messages": 1,
@@ -39707,11 +39815,11 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120239554786720340.jpg",
-      "spend": 60182,
-      "impressions": 1308,
-      "clicks": 30,
-      "engagement": 20,
-      "messages": 0,
+      "spend": 72144,
+      "impressions": 1723,
+      "clicks": 42,
+      "engagement": 24,
+      "messages": 1,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -39727,10 +39835,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120245150010850340.jpg",
-      "spend": 55143,
-      "impressions": 1289,
-      "clicks": 17,
-      "engagement": 11,
+      "spend": 65074,
+      "impressions": 1404,
+      "clicks": 22,
+      "engagement": 14,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -39747,10 +39855,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "REACH",
       "thumb": "thumbs/120245475701060340.jpg",
-      "spend": 161,
-      "impressions": 47,
-      "clicks": 0,
-      "engagement": 5,
+      "spend": 10362,
+      "impressions": 2726,
+      "clicks": 5,
+      "engagement": 46,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -39766,41 +39874,41 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 557,
-        "revenue": 356688424,
-        "aov": 640374,
-        "share": 41,
+        "orders": 581,
+        "revenue": 371696082,
+        "aov": 639752,
+        "share": 42,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 530,
-        "revenue": 339372347,
-        "aov": 640325,
-        "share": 39,
+        "orders": 510,
+        "revenue": 326559231,
+        "aov": 640312,
+        "share": 37,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 122,
-        "revenue": 78388041,
-        "aov": 642525,
-        "share": 9,
+        "orders": 116,
+        "revenue": 74131322,
+        "aov": 639063,
+        "share": 8,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 100,
-        "revenue": 64246217,
-        "aov": 642462,
-        "share": 7,
+        "orders": 103,
+        "revenue": 65750780,
+        "aov": 638357,
+        "share": 8,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 58,
-        "revenue": 36946057,
-        "aov": 637001,
+        "orders": 59,
+        "revenue": 37503671,
+        "aov": 635655,
         "share": 4,
         "est": true
       }
@@ -39826,8 +39934,8 @@
     "storePct": 75
   },
   "brands": {
-    "Bemori": 3162029554,
-    "Teddy": 27117500,
+    "Bemori": 3228418945,
+    "Teddy": 30902500,
     "Memon": 0
   },
   "weekMarketing": {
