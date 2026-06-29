@@ -345,7 +345,7 @@
     var MA=metaAgg(slice),MAp=metaAgg(prev),AD=adsAgg(slice),ADp=adsAgg(prev);
     var yoy=yoySliceFor(period);var onYoY=sumOnline(yoy),stYoY=sumStore(yoy),stOnlineYoY=sumStoreOnline(yoy),ADyoy=adsAgg(yoy);
     var fbTotSlice=0;slice.forEach(function(d){fbTotSlice+=(d.online&&d.online['Facebook']?d.online['Facebook'].rev:0);});
-    var fbRevAll=AD.fb+fbTotSlice;
+    var fbRevAll=fbTotSlice;
     var P={grid2:document.querySelector('.grid2'),store:document.getElementById('storePanel'),campaign:document.getElementById('campaignPanel'),trend:document.getElementById('trendPanel')};
     P.grid2.style.display='grid';P.store.style.display='none';P.campaign.style.display='none';P.trend.style.display='block';
     var cards=[],keys=[],valFn=function(){return {};},trendTitle='Xu hướng',bdT='',mixT='',head='',rows='',mixL=[],mixV=[],mixC=[],leg='',bdNote='';
@@ -688,7 +688,7 @@
       var chRaw3={};slice.forEach(function(d){for(var k in d.online)chRaw3[k]=(chRaw3[k]||0)+d.online[k].rev;});
       var chRawP3={};prev.forEach(function(d){for(var k in d.online)chRawP3[k]=(chRawP3[k]||0)+d.online[k].rev;});
       var fbTot3=chRaw3['Facebook']||0,fbTotP3=chRawP3['Facebook']||0;
-      var fbRevAll3=AD.fb+fbTot3;
+      var fbRevAll3=fbTot3;
       var igRev3=chRaw3['Instagram']||0,igRevP3=chRawP3['Instagram']||0;
       var zRev3=chRaw3['Zalo']||0,zRevP3=chRawP3['Zalo']||0;
       var wRev3=chRaw3['Website']||0,wRevP3=chRawP3['Website']||0;
@@ -727,7 +727,7 @@
       mixV=[AD.fb,igRev3,zRev3,wRev3,AD.organic,blRev3];
       mixC=['#378ADD','#D4537E','#1D9E75','#7F77DD','#888780','#BA7517'];
       leg=mixL.map(function(l,i){return '<span><span class="dot" style="background:'+mixC[i]+'"></span>'+l+'</span>';}).join('');
-      bdNote='ROAS Facebook (tổng) = (DT kênh Messenger + DT quy về ads) ÷ chi phí Meta FB — phản ánh toàn bộ giá trị Facebook: đơn organic Messenger + đơn ads kể cả chốt qua Zalo. Tab Campaign dùng pixel Meta (thuần ads). ROAS IG = doanh thu pixel Meta ÷ chi phí IG.';
+      bdNote='ROAS Facebook = DT kênh Messenger (tất cả đơn chốt qua Facebook inbox) ÷ chi phí Meta FB. Zalo không tính vào Facebook vì nguồn Zalo đến từ Website. Tab Campaign dùng pixel Meta (thuần ads). ROAS IG = doanh thu pixel Meta ÷ chi phí IG.';
     }
 
     // ---- The so sanh tach biet ----
