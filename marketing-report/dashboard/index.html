@@ -211,6 +211,9 @@
   <div class="panel" id="campaignPanel" style="display:none;margin-bottom:16px;">
     <h2 style="display:flex;justify-content:space-between;align-items:center;">Chiến dịch Facebook <span id="campPeriod" style="font-size:12px;color:var(--muted);font-weight:400;"></span></h2>
     <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px;flex-wrap:wrap;">
+      <select id="campAccountFilter" style="font-size:13px;padding:5px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);">
+        <option value="">Tất cả tài khoản</option>
+      </select>
       <select id="campStatusFilter" style="font-size:13px;padding:5px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);">
         <option value="">Tất cả trạng thái</option>
         <option value="ACTIVE">Đang chạy (ACTIVE)</option>
@@ -261,8 +264,8 @@
   window.sortCamp=function(type,col){if(campSort[type].col===col)campSort[type].dir*=-1;else{campSort[type].col=col;campSort[type].dir=1;}render();};
 
   // ---- URL hash state (F5 / chia se link giu nguyen bo loc) ----
-  function pushURL(){var p=new URLSearchParams();p.set('g',group);p.set('p',period);p.set('gr',gran);if(period==='custom'){if(cFrom)p.set('f',cFrom);if(cTo)p.set('t',cTo);}var sf=document.getElementById('campStatusFilter').value,ef=document.getElementById('campEffFilter').value,sq=document.getElementById('campSearch').value;if(sf)p.set('sf',sf);if(ef)p.set('ef',ef);if(sq)p.set('sq',sq);history.replaceState(null,'','#'+p.toString());}
-  function loadURL(){if(!location.hash)return;var p=new URLSearchParams(location.hash.slice(1));if(p.get('g'))group=p.get('g');if(p.get('p')){period=p.get('p');document.getElementById('periodSel').value=period;}if(p.get('gr'))gran=p.get('gr');if(p.get('f')){cFrom=p.get('f');document.getElementById('dFrom').value=cFrom;}if(p.get('t')){cTo=p.get('t');document.getElementById('dTo').value=cTo;}if(period==='custom')document.getElementById('customRange').style.display='inline-flex';document.querySelectorAll('#segGroup button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-grp')===group);});document.querySelectorAll('#segGran button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-g')===gran);});var sf=p.get('sf'),ef=p.get('ef'),sq=p.get('sq');if(sf)document.getElementById('campStatusFilter').value=sf;if(ef)document.getElementById('campEffFilter').value=ef;if(sq)document.getElementById('campSearch').value=sq;}
+  function pushURL(){var p=new URLSearchParams();p.set('g',group);p.set('p',period);p.set('gr',gran);if(period==='custom'){if(cFrom)p.set('f',cFrom);if(cTo)p.set('t',cTo);}var sf=document.getElementById('campStatusFilter').value,ef=document.getElementById('campEffFilter').value,sq=document.getElementById('campSearch').value,af=document.getElementById('campAccountFilter').value;if(sf)p.set('sf',sf);if(ef)p.set('ef',ef);if(sq)p.set('sq',sq);if(af)p.set('af',af);history.replaceState(null,'','#'+p.toString());}
+  function loadURL(){if(!location.hash)return;var p=new URLSearchParams(location.hash.slice(1));if(p.get('g'))group=p.get('g');if(p.get('p')){period=p.get('p');document.getElementById('periodSel').value=period;}if(p.get('gr'))gran=p.get('gr');if(p.get('f')){cFrom=p.get('f');document.getElementById('dFrom').value=cFrom;}if(p.get('t')){cTo=p.get('t');document.getElementById('dTo').value=cTo;}if(period==='custom')document.getElementById('customRange').style.display='inline-flex';document.querySelectorAll('#segGroup button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-grp')===group);});document.querySelectorAll('#segGran button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-g')===gran);});var sf=p.get('sf'),ef=p.get('ef'),sq=p.get('sq'),af=p.get('af');if(sf)document.getElementById('campStatusFilter').value=sf;if(ef)document.getElementById('campEffFilter').value=ef;if(sq)document.getElementById('campSearch').value=sq;if(af)document.getElementById('campAccountFilter').value=af;}
 
   function sliceFor(p){ var d=D.daily; if(!d.length)return [];
     // Helper: ngay hom nay theo gio VN (UTC+7)
@@ -446,10 +449,12 @@
         else{startDay=slice.length?slice[0].day:'';endDay=slice.length?slice[slice.length-1].day:'';}
       })();
       var sfVal=document.getElementById('campStatusFilter').value;
+      var afVal=document.getElementById('campAccountFilter').value;
       var filteredDays=campDays.filter(function(r){
         if(startDay&&r.day<startDay)return false;
         if(endDay&&r.day>endDay)return false;
         if(sfVal&&r.status!==sfVal)return false;
+        if(afVal&&r.account!==afVal)return false;
         return true;
       });
       // Fallback: neu khong co du lieu trong ky (Meta bao cao tre ~2h) -> dung ngay gan nhat co du lieu
@@ -460,6 +465,7 @@
           filteredDays=campDays.filter(function(r){
             if(r.day!==campFallbackDay)return false;
             if(sfVal&&r.status!==sfVal)return false;
+            if(afVal&&r.account!==afVal)return false;
             return true;
           });
         }else{campFallbackDay='';}
@@ -597,10 +603,12 @@
       EFFK.forEach(function(k){
         var key=k[0],st=effStat[key],isOn=efVal===(key===''?'none':key);
         var c=effCol[key];
+        var spendPct=totS.spend?Math.round(st.spend/totS.spend*100):0;
         html+='<div onclick="window.setCampEff(\''+(isOn?'':(key===''?'none':key))+'\')" style="cursor:pointer;display:flex;align-items:center;gap:5px;padding:4px 12px;border-radius:20px;border:1.5px solid '+(isOn?c:'var(--line)')+';background:'+(isOn?c.replace(')','-soft)'):'var(--card)')+';box-shadow:var(--sh)">';
         html+='<span style="font-size:11px;font-weight:700;color:'+c+'">'+k[1]+'</span>';
         html+='<span style="font-size:11px;font-weight:700;color:var(--ink)">'+st.n+'</span>';
         if(st.spend)html+='<span style="font-size:10px;color:var(--muted)">·&nbsp;'+vnd(st.spend)+'</span>';
+        html+='<span style="font-size:10px;font-weight:700;color:'+c+';background:'+c.replace(')','-soft)')+';padding:1px 6px;border-radius:10px">'+spendPct+'%</span>';
         html+='</div>';
       });
       html+='</div>';
@@ -849,7 +857,12 @@
   toI.addEventListener('change',function(){cTo=this.value;if(period==='custom')render();});
   document.getElementById('campStatusFilter').addEventListener('change',function(){render();});
   document.getElementById('campEffFilter').addEventListener('change',function(){render();});
+  document.getElementById('campAccountFilter').addEventListener('change',function(){render();});
   document.getElementById('campSearch').addEventListener('input',function(){render();});
+  // Populate dropdown tai khoan QC tu danh sach campaign (1 lan, on dinh)
+  (function(){var acc={};(D.campaignDays||[]).forEach(function(r){if(r.account)acc[r.account]=1;});
+    var sel=document.getElementById('campAccountFilter');
+    Object.keys(acc).sort().forEach(function(a){var o=document.createElement('option');o.value=a;o.textContent=a;sel.appendChild(o);});})();
   window.setCampEff=function(v){document.getElementById('campEffFilter').value=v;render();};
   function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
   window.showCampModal=function(id){
