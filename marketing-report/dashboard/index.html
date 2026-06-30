@@ -377,13 +377,17 @@
           m('Tỷ lệ chốt',(vin1?Math.round(vbuy1/vin1*100):0)+'%'),m('%KPI',(sTgt?Math.round(stAll/sTgt*100):0)+'%')]},
       ];
       // ---- Phễu Lead → L4 → Đơn + Chất lượng Lead theo nguồn (Sales Online) ----
+      // Đơn chốt trong phễu = chỉ FB+IG+Zalo (khớp 3 kênh có track lead). Base ko nhập đơn/kênh
+      // -> ước tính theo tỷ trọng doanh thu 3 kênh / tổng kênh.
+      function fbizOrders(sl,totOrd){var fbiz=0,all=0;sl.forEach(function(d){for(var k in d.online){var r=d.online[k].rev||0;all+=r;if(k==='Facebook'||k==='Instagram'||k==='Zalo')fbiz+=r;}});return all?Math.round(totOrd*fbiz/all):totOrd;}
       var leadRaw=sumF(slice,'leadRaw'),leadL4=sumF(slice,'leadL4');
-      var leadRawP=sumF(prev,'leadRaw'),leadL4P=sumF(prev,'leadL4'),ordPrev1=sumF(prev,'onlineOrders');
+      var ordFbiz=fbizOrders(slice,ord1);
+      var leadRawP=sumF(prev,'leadRaw'),leadL4P=sumF(prev,'leadL4'),ordPrev1=fbizOrders(prev,sumF(prev,'onlineOrders'));
       var lq={
         fb:{L:sumF(slice,'leadFB'),L4:sumF(slice,'leadL4FB'),Lp:sumF(prev,'leadFB'),L4p:sumF(prev,'leadL4FB')},
         fbads:{L:sumF(slice,'leadFBAds'),L4:sumF(slice,'leadL4FBAds'),Lp:sumF(prev,'leadFBAds'),L4p:sumF(prev,'leadL4FBAds')}
       };
-      renderLeadFunnel(P.lead,leadRaw,leadL4,ord1,leadRawP,leadL4P,ordPrev1,slice,lq);
+      renderLeadFunnel(P.lead,leadRaw,leadL4,ordFbiz,leadRawP,leadL4P,ordPrev1,slice,lq);
       keys=['Online','Cửa hàng'];valFn=function(d){return {Online:d.onlineRev||0,'Cửa hàng':(d.storeRev||0)+(d.storeOnline||0)};};
       trendTitle='Xu hướng: Sales Online vs Cửa hàng';
       var C1=onlineAgg(slice);
@@ -784,7 +788,7 @@
     var stages=[
       {label:'Lead (L)',desc:'Tổng lượt khách',val:leadRaw,prev:leadRawP,col:'var(--brand)'},
       {label:'Lead L4',desc:'Chất lượng (FB+IG+Zalo)',val:leadL4,prev:leadL4P,col:'var(--brand-dark)'},
-      {label:'Đơn chốt',desc:'Online',val:orders,prev:ordersP,col:'var(--pink)'}
+      {label:'Đơn chốt',desc:'FB+IG+Zalo (ước tính)',val:orders,prev:ordersP,col:'var(--pink)'}
     ];
     var maxV=Math.max(leadRaw,leadL4,orders)||1;
     var html='<div style="display:flex;align-items:stretch;gap:0;flex-wrap:wrap">';
@@ -831,7 +835,7 @@
     }
     document.getElementById('leadFunnelBody').innerHTML=html;
     var noteEl=document.getElementById('leadFunnelNote');
-    noteEl.innerHTML='<b>Lead (L)</b>: tổng lượt khách tương tác · <b>Lead L4</b>: lead chất lượng = L4 FB + L4 IG + L4 Zalo · <b>Đơn chốt</b>: đơn Online thực tế. <b>Chất lượng Lead theo nguồn</b> = L4 ÷ Lead thu được, tách riêng Facebook chung và Facebook Ads.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead — tỷ lệ có thể chưa phản ánh đủ.':'');
+    noteEl.innerHTML='<b>Lead (L)</b>: tổng lượt khách tương tác · <b>Lead L4</b>: lead chất lượng = L4 FB + L4 IG + L4 Zalo · <b>Đơn chốt</b>: chỉ tính 3 kênh FB+IG+Zalo (khớp với nguồn lead) — ước tính theo tỷ trọng doanh thu vì Base chưa nhập số đơn theo kênh. <b>Chất lượng Lead theo nguồn</b> = L4 ÷ Lead thu được, tách riêng Facebook chung và Facebook Ads.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead — tỷ lệ có thể chưa phản ánh đủ.':'');
   }
 
   function drawDonut(id,labels,vals,colors){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'doughnut',data:{labels:labels,datasets:[{data:vals,backgroundColor:colors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});}
