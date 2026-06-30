@@ -807,13 +807,6 @@
       }
     });
     html+='</div>';
-    // Tom tat tong: ty le Lead -> Don
-    var l2o=pct(orders,leadRaw);
-    html+='<div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px solid var(--line-soft)">';
-    html+='<div style="flex:1;min-width:120px"><div style="font-size:11px;color:var(--muted)">Lead → Đơn (tổng)</div><div style="font-size:18px;font-weight:700;color:var(--ink)">'+l2o+'%</div></div>';
-    html+='<div style="flex:1;min-width:120px"><div style="font-size:11px;color:var(--muted)">Lead → L4 (chất lượng)</div><div style="font-size:18px;font-weight:700;color:var(--ink)">'+pct(leadL4,leadRaw)+'%</div></div>';
-    html+='<div style="flex:1;min-width:120px"><div style="font-size:11px;color:var(--muted)">Lead/đơn (bình quân)</div><div style="font-size:18px;font-weight:700;color:var(--ink)">'+(orders?Math.round(leadRaw/orders*10)/10:'—')+'</div></div>';
-    html+='</div>';
     // ---- Chat luong Lead theo nguon: % = L4 / L (lead chat luong / lead thu duoc) ----
     if(lq&&(lq.fb.L||lq.fbads.L)){
       var qCard=function(title,col,o){
