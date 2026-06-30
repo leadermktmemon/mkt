@@ -73,7 +73,7 @@ const metaCampaigns=metaRaw.campaignDays||[];
 console.log(`Meta Ads: ${Object.keys(metaByDay).length} ngày dữ liệu${Object.keys(metaByDay).length===0?" (chạy meta-fetch.mjs trước để có dữ liệu)":""}. Campaigns: ${metaCampaigns.length}`);
 
 const dayMap={};
-function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0,leadRaw:0,leadQual:0,leadFB:0,leadL4FB:0,leadFBAds:0,leadL4FBAds:0};}
+function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0,leadRaw:0,leadQual:0,leadL4:0,leadFB:0,leadL4FB:0,leadFBAds:0,leadL4FBAds:0};}
 
 // 3.1 -> Online theo kenh
 for(const r of src){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
@@ -95,6 +95,8 @@ for(const r of tot){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01
 //   % chat luong lead = L4 / L (lead chat luong / lead thu duoc)
 for(const r of lead){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
   D.leadRaw+=num(f["L"]);D.leadQual+=num(f["Tổng Lead tiềm năng"]);
+  // L4 tong (chat luong) = L4 FB + L4 IG + L4 Zalo. FB ADS la tap con cua FB -> khong cong rieng.
+  D.leadL4+=num(f["Số L4 FB"])+num(f["Số L4 IG"])+num(f["Số L4 Zalo"]);
   D.leadFB+=num(f["Số L FB"]);D.leadL4FB+=num(f["Số L4 FB"]);
   D.leadFBAds+=num(f["Số L FB ADS"]);D.leadL4FBAds+=num(f["Số L4 FB ADS"]);}
 // 2.4 -> Cua hang (theo thang)
@@ -120,7 +122,7 @@ const daily=days.map(day=>{const D=dayMap[day];
     fbAds:round(D.fbAds),ggAds:round(D.ggAds),social:Math.max(0,round(D.social)),
     brands:roundObj(D.brands),bc:Object.fromEntries(Object.entries(D.bc).map(([b,o])=>[b,roundObj(o)])),
     store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0,
-    leadRaw:round(D.leadRaw),leadQual:round(D.leadQual),leadFB:round(D.leadFB),leadL4FB:round(D.leadL4FB),leadFBAds:round(D.leadFBAds),leadL4FBAds:round(D.leadL4FBAds),
+    leadRaw:round(D.leadRaw),leadQual:round(D.leadQual),leadL4:round(D.leadL4),leadFB:round(D.leadFB),leadL4FB:round(D.leadL4FB),leadFBAds:round(D.leadFBAds),leadL4FBAds:round(D.leadL4FBAds),
     metaFb:md.facebook||0,metaIg:md.instagram||0,metaTotal:md.total||0,metaIgPixelRev:Math.round(md.igPurchaseValue||0)};
 });
 const channels=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);

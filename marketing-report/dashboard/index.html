@@ -179,7 +179,7 @@
   <div class="cards" id="cards"></div>
 
   <div class="panel" id="leadFunnelPanel" style="display:none;margin-bottom:16px;">
-    <h2 style="display:flex;justify-content:space-between;align-items:center;">Phễu chuyển đổi Lead → Đơn <span id="leadFunnelPeriod" style="font-size:12px;color:var(--muted);font-weight:400;"></span></h2>
+    <h2 style="display:flex;justify-content:space-between;align-items:center;">Phễu chuyển đổi Lead → L4 → Đơn <span id="leadFunnelPeriod" style="font-size:12px;color:var(--muted);font-weight:400;"></span></h2>
     <div id="leadFunnelBody"></div>
     <p class="note" id="leadFunnelNote" style="margin-top:10px;"></p>
   </div>
@@ -376,14 +376,14 @@
           m('Số KH vào',vin1.toLocaleString('vi-VN')),m('Số KH mua',vbuy1.toLocaleString('vi-VN')),
           m('Tỷ lệ chốt',(vin1?Math.round(vbuy1/vin1*100):0)+'%'),m('%KPI',(sTgt?Math.round(stAll/sTgt*100):0)+'%')]},
       ];
-      // ---- Phễu Lead → Đơn + Chất lượng Lead theo nguồn (Sales Online) ----
-      var leadRaw=sumF(slice,'leadRaw'),leadQual=sumF(slice,'leadQual');
-      var leadRawP=sumF(prev,'leadRaw'),leadQualP=sumF(prev,'leadQual'),ordPrev1=sumF(prev,'onlineOrders');
+      // ---- Phễu Lead → L4 → Đơn + Chất lượng Lead theo nguồn (Sales Online) ----
+      var leadRaw=sumF(slice,'leadRaw'),leadL4=sumF(slice,'leadL4');
+      var leadRawP=sumF(prev,'leadRaw'),leadL4P=sumF(prev,'leadL4'),ordPrev1=sumF(prev,'onlineOrders');
       var lq={
         fb:{L:sumF(slice,'leadFB'),L4:sumF(slice,'leadL4FB'),Lp:sumF(prev,'leadFB'),L4p:sumF(prev,'leadL4FB')},
         fbads:{L:sumF(slice,'leadFBAds'),L4:sumF(slice,'leadL4FBAds'),Lp:sumF(prev,'leadFBAds'),L4p:sumF(prev,'leadL4FBAds')}
       };
-      renderLeadFunnel(P.lead,leadRaw,leadQual,ord1,leadRawP,leadQualP,ordPrev1,slice,lq);
+      renderLeadFunnel(P.lead,leadRaw,leadL4,ord1,leadRawP,leadL4P,ordPrev1,slice,lq);
       keys=['Online','Cửa hàng'];valFn=function(d){return {Online:d.onlineRev||0,'Cửa hàng':(d.storeRev||0)+(d.storeOnline||0)};};
       trendTitle='Xu hướng: Sales Online vs Cửa hàng';
       var C1=onlineAgg(slice);
@@ -768,25 +768,25 @@
     }
   }
 
-  function renderLeadFunnel(panel,leadRaw,leadQual,orders,leadRawP,leadQualP,ordersP,slice,lq){
+  function renderLeadFunnel(panel,leadRaw,leadL4,orders,leadRawP,leadL4P,ordersP,slice,lq){
     // Dem so ngay co du lieu lead trong ky (de canh bao khi Lark chua nhap)
     var daysWithLead=0;slice.forEach(function(d){if((d.leadRaw||0)>0)daysWithLead++;});
     panel.style.display='block';
     document.getElementById('leadFunnelPeriod').textContent=daysWithLead+'/'+slice.length+' ngày có dữ liệu';
-    if(!leadRaw&&!leadQual){
+    if(!leadRaw&&!leadL4){
       document.getElementById('leadFunnelBody').innerHTML='<p class="note" style="text-align:center;padding:24px 16px">Chưa có dữ liệu Lead cho kỳ này. Team nhập vào bảng "Lead theo ngày" trên Lark Base.</p>';
       document.getElementById('leadFunnelNote').textContent='';
       return;
     }
     var nf=function(n){return (n||0).toLocaleString('vi-VN');};
     var pct=function(a,b){return b?Math.round(a/b*1000)/10:0;};
-    // 3 chang pheu: L (lead tho) -> Lead tiem nang -> Don chot
+    // 3 chang pheu: L (lead tho) -> L4 (chat luong) -> Don chot
     var stages=[
       {label:'Lead (L)',desc:'Tổng lượt khách',val:leadRaw,prev:leadRawP,col:'var(--brand)'},
-      {label:'Lead tiềm năng',desc:'Đã sàng lọc',val:leadQual,prev:leadQualP,col:'var(--brand-dark)'},
+      {label:'Lead L4',desc:'Chất lượng (FB+IG+Zalo)',val:leadL4,prev:leadL4P,col:'var(--brand-dark)'},
       {label:'Đơn chốt',desc:'Online',val:orders,prev:ordersP,col:'var(--pink)'}
     ];
-    var maxV=Math.max(leadRaw,leadQual,orders)||1;
+    var maxV=Math.max(leadRaw,leadL4,orders)||1;
     var html='<div style="display:flex;align-items:stretch;gap:0;flex-wrap:wrap">';
     stages.forEach(function(s,i){
       var w=Math.max(28,Math.round(s.val/maxV*100));
@@ -811,7 +811,7 @@
     var l2o=pct(orders,leadRaw);
     html+='<div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px solid var(--line-soft)">';
     html+='<div style="flex:1;min-width:120px"><div style="font-size:11px;color:var(--muted)">Lead → Đơn (tổng)</div><div style="font-size:18px;font-weight:700;color:var(--ink)">'+l2o+'%</div></div>';
-    html+='<div style="flex:1;min-width:120px"><div style="font-size:11px;color:var(--muted)">Tỷ lệ sàng lọc</div><div style="font-size:18px;font-weight:700;color:var(--ink)">'+pct(leadQual,leadRaw)+'%</div></div>';
+    html+='<div style="flex:1;min-width:120px"><div style="font-size:11px;color:var(--muted)">Lead → L4 (chất lượng)</div><div style="font-size:18px;font-weight:700;color:var(--ink)">'+pct(leadL4,leadRaw)+'%</div></div>';
     html+='<div style="flex:1;min-width:120px"><div style="font-size:11px;color:var(--muted)">Lead/đơn (bình quân)</div><div style="font-size:18px;font-weight:700;color:var(--ink)">'+(orders?Math.round(leadRaw/orders*10)/10:'—')+'</div></div>';
     html+='</div>';
     // ---- Chat luong Lead theo nguon: % = L4 / L (lead chat luong / lead thu duoc) ----
@@ -838,7 +838,7 @@
     }
     document.getElementById('leadFunnelBody').innerHTML=html;
     var noteEl=document.getElementById('leadFunnelNote');
-    noteEl.innerHTML='<b>Lead (L)</b>: tổng lượt khách tương tác · <b>Lead tiềm năng</b>: đã sàng lọc/báo giá · <b>Đơn chốt</b>: đơn Online thực tế. <b>Chất lượng Lead</b> = L4 (lead chất lượng) ÷ Lead thu được, tách riêng Facebook chung và Facebook Ads.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead — tỷ lệ có thể chưa phản ánh đủ.':'');
+    noteEl.innerHTML='<b>Lead (L)</b>: tổng lượt khách tương tác · <b>Lead L4</b>: lead chất lượng = L4 FB + L4 IG + L4 Zalo · <b>Đơn chốt</b>: đơn Online thực tế. <b>Chất lượng Lead theo nguồn</b> = L4 ÷ Lead thu được, tách riêng Facebook chung và Facebook Ads.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead — tỷ lệ có thể chưa phản ánh đủ.':'');
   }
 
   function drawDonut(id,labels,vals,colors){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'doughnut',data:{labels:labels,datasets:[{data:vals,backgroundColor:colors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});}
