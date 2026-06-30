@@ -16,6 +16,7 @@ const BASE = cfg.domain === "feishu" ? "https://open.feishu.cn" : "https://open.
 const SO_APP = "NimAbYHV3aWjPmsp7I9lugmbgcv";
 const SO_SOURCE = "tbl6xpLNnyuXLydn";   // 3.1 DT theo nguon hang ngay
 const SO_TOTAL = "tblLf6OWq6Z9nFQD";    // 2.2 Tong hop SO theo ngay (co Target ngay)
+const SO_LEAD = "tblXZw7l2e5Hk8ZJ";     // Lead theo ngay: "L" (lead tho) + "Tong Lead tiem nang"
 const STORE_APP = "Sfb9bDqKgakJMSs9xOglyyE5gdg";
 const STORE_TBL = "tblH6XAodJy1WQwy";   // 2.2 Tong hop cua hang theo NGAY (4488 dong, du lieu hang ngay)
 const STORE_LOOK = "tbl8zrOpqU22yN4z";  // 5.1 Lookup thong tin cua hang: map TK cua hang -> ten sach
@@ -57,11 +58,12 @@ const BC = {
 const tk=await token();
 const src=await allRecords(tk,SO_APP,SO_SOURCE);
 const tot=await allRecords(tk,SO_APP,SO_TOTAL);
+const lead=await allRecords(tk,SO_APP,SO_LEAD);
 const store=await allRecords(tk,STORE_APP,STORE_TBL);
 const look=await allRecords(tk,STORE_APP,STORE_LOOK);
 // Map account (TK cua hang id) -> ten cua hang sach tu bang 5.1
 const STORE_MAP={};for(const r of look){const tf=r.fields["TK cửa hàng"]&&r.fields["TK cửa hàng"][0];const nm=r.fields["Cửa hàng"];if(tf&&nm)STORE_MAP[tf.id]=nm;}
-console.log(`3.1 nguồn: ${src.length} | 2.2 tổng (target): ${tot.length} | Cửa hàng: ${store.length} | map CH: ${Object.keys(STORE_MAP).length}`);
+console.log(`3.1 nguồn: ${src.length} | 2.2 tổng (target): ${tot.length} | Lead: ${lead.length} | Cửa hàng: ${store.length} | map CH: ${Object.keys(STORE_MAP).length}`);
 
 // Chi phi Meta Ads theo ngay (do meta-fetch.mjs tao truoc, neu co)
 const metaPath=join(__dirname,"meta-data.json");
@@ -71,7 +73,7 @@ const metaCampaigns=metaRaw.campaignDays||[];
 console.log(`Meta Ads: ${Object.keys(metaByDay).length} ngày dữ liệu${Object.keys(metaByDay).length===0?" (chạy meta-fetch.mjs trước để có dữ liệu)":""}. Campaigns: ${metaCampaigns.length}`);
 
 const dayMap={};
-function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0};}
+function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0,leadRaw:0,leadQual:0};}
 
 // 3.1 -> Online theo kenh
 for(const r of src){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
@@ -87,6 +89,9 @@ for(const r of src){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01
 for(const r of tot){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
   D.onlineTarget+=num(f["Target ngày"]);D.onlineOrders+=num(f["Số đơn hàng chốt được"]);
   D.online100+=num(f["Doanh thu 100%"]);D.onlineProducts+=num(f["Số sản phẩm bán"]);}
+// Lead theo ngay: "L" = lead tho (luot khach), "Tong Lead tiem nang" = lead da sang loc
+for(const r of lead){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
+  D.leadRaw+=num(f["L"]);D.leadQual+=num(f["Tổng Lead tiềm năng"]);}
 // 2.4 -> Cua hang (theo thang)
 for(const r of store){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
   const ch=num(f["Doanh thu CH"]);const onl=num(f["Doanh thu đơn Online chuyển đơn"]);
@@ -110,6 +115,7 @@ const daily=days.map(day=>{const D=dayMap[day];
     fbAds:round(D.fbAds),ggAds:round(D.ggAds),social:Math.max(0,round(D.social)),
     brands:roundObj(D.brands),bc:Object.fromEntries(Object.entries(D.bc).map(([b,o])=>[b,roundObj(o)])),
     store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0,
+    leadRaw:round(D.leadRaw),leadQual:round(D.leadQual),
     metaFb:md.facebook||0,metaIg:md.instagram||0,metaTotal:md.total||0,metaIgPixelRev:Math.round(md.igPurchaseValue||0)};
 });
 const channels=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
