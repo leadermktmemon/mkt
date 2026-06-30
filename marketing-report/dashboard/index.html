@@ -484,6 +484,7 @@
         c.cpe=c.engagement?Math.round(c.spend/c.engagement):0;
         c.cpl=c.leads?Math.round(c.spend/c.leads):0;
         c.cpo=c.purchases?Math.round(c.spend/c.purchases):0;
+        c.cpMsg=c.messages?Math.round(c.spend/c.messages):0;   // CP/TN = chi phi / tin nhan
         // Hieu qua: Branding theo CPM (reach re=tot), Doanh so theo ROAS. '' = chua do.
         if(c.type==='brand') c.eff=c.cpm?(c.cpm<=8000?'good':c.cpm<=15000?'ok':'poor'):'';
         else c.eff=c.roas?(c.roas>=3?'good':c.roas>=1.5?'ok':'poor'):'';
@@ -642,6 +643,7 @@
           h+=sh('cpe','CPE');
         } else {
           h+=sh('messages','Tin nhắn');
+          h+=sh('cpMsg','CP/TN');
           h+=sh('purchaseValue','DT Ads');
           h+=sh('roas','ROAS');
           h+=sh('cpl','CPL');
@@ -670,6 +672,7 @@
             var rs=c.roas?c.roas.toFixed(1)+'x':'—';
             var rc=c.roas?(c.roas>=5?'var(--teal)':c.roas>=2?'var(--brand-dark)':'var(--red)'):'var(--muted2)';
             h+='<td style="padding:6px 10px">'+(c.messages||'—')+'</td>';
+            h+='<td style="padding:6px 10px;color:var(--muted)">'+(c.cpMsg?vnd(c.cpMsg):'—')+'</td>';
             h+='<td style="padding:6px 10px">'+(c.purchaseValue?vnd(c.purchaseValue):'—')+'</td>';
             h+='<td style="padding:6px 10px;font-weight:700;color:'+rc+'">'+rs+'</td>';
             h+='<td style="padding:6px 10px;color:var(--muted)">'+(c.cpl?vnd(c.cpl):'—')+'</td>';
@@ -701,7 +704,7 @@
       html+=secTable(convC,false)+'</div>';
       if(!campsAgg.length){var lastMeta=campDays.length?campDays.reduce(function(mx,r){return r.day>mx?r.day:mx;},''):'';html='<p class="note" style="text-align:center;padding:32px 16px">'+(lastMeta?'Chưa có dữ liệu chiến dịch cho kỳ này.<br><span style="font-size:11px">Dữ liệu Meta gần nhất: '+fmtD(lastMeta)+'. Tự động cập nhật mỗi 30 phút.</span>':'Chưa có dữ liệu Meta Ads. Tự động cập nhật mỗi 30 phút.')+'</p>';}
       document.getElementById('campBody').innerHTML=html;
-      document.getElementById('campNote').innerHTML='Phân loại: <b>Tên chứa "-TC-"</b> → Branding tuyệt đối · <b>CPM ≤ 20K</b> → Branding · <b>CPM > 20K</b> → Doanh số. Fallback (khi không có impressions): optimization_goal → lead/lượt mua → objective. Branding đo hiển thị &amp; tương tác, KHÔNG tính ROAS. CPM = chi/1000 hiển thị · CPE = chi/tương tác · CPL = chi/lead.';
+      document.getElementById('campNote').innerHTML='Phân loại: <b>Tên chứa "-TC-"</b> → Branding tuyệt đối · <b>CPM ≤ 20K</b> → Branding · <b>CPM > 20K</b> → Doanh số. Fallback (khi không có impressions): optimization_goal → lead/lượt mua → objective. Branding đo hiển thị &amp; tương tác, KHÔNG tính ROAS. CPM = chi/1000 hiển thị · CPE = chi/tương tác · CPL = chi/lead · CP/TN = chi/tin nhắn.';
       keys=['Meta FB','Meta IG'];valFn=function(d){return{'Meta FB':d.metaFb||0,'Meta IG':d.metaIg||0};};
       trendTitle='Chi phí Meta theo ngày';
     }
