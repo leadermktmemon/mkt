@@ -128,5 +128,20 @@ const card = {
   elements,
 };
 
-await sendCard(cfg.lark.webhookUrl, card, cfg.lark.secret || undefined);
-console.log("Đã gửi thẻ KPI marketing (có ảnh) vào Lark.");
+// ---- Gui toi TAT CA nhom Lark (webhookUrl chinh + mang webhooks phu) ----
+const targets = [];
+if (cfg.lark.webhookUrl) targets.push({ url: cfg.lark.webhookUrl, secret: cfg.lark.secret });
+for (const w of (cfg.lark.webhooks || [])) {
+  if (w && w.url) targets.push({ url: w.url, secret: w.secret });
+}
+let sent = 0;
+for (const t of targets) {
+  try {
+    await sendCard(t.url, card, t.secret || undefined);
+    sent++;
+    console.log("Đã gửi Lark:", "…" + t.url.slice(-12));
+  } catch (e) {
+    console.log("Gửi Lark thất bại:", "…" + t.url.slice(-12), "-", e.message);
+  }
+}
+console.log(`Đã gửi thẻ KPI marketing (có ảnh) vào ${sent}/${targets.length} nhóm Lark.`);
