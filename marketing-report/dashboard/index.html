@@ -418,20 +418,23 @@
       var leadRawP=sumF(prev,'leadRaw'),leadQualP=sumF(prev,'leadQual');
       // LUU Y quan trong: Lark dung 2 SO DO PHAN NHOM KHAC NHAU cho volume va ty le chot (tu ban than Lark, khong phai loi cua minh):
       //   - Volume (Lead/Lead tiem nang): chia 3 phan loai tru nhau FB Ads / Zalo+Web / Organic (cong lai = Tong)
-      //   - Ty le chot: chia theo "FB" (= CA KENH FB+IG, KHONG rieng ads) / Zalo+Web / Organic
-      //   => KHONG co ty le chot rieng cho riêng "FB Ads" trong du lieu Lark hien co, nen khong gan nham vao the FB Ads.
+      //   - Ty le chot (bang tong hop cua Lark): chia theo "FB" (= CA KENH FB+IG, KHONG rieng ads) / Zalo+Web / Organic
+      //   Rieng ty le chot cho DUNG FB Ads: Lark co field cap-ngay "%CVR FB ADS" = L5/(L4+L5) nhung KHONG dua vao
+      //   bang tong hop thang -> tu tinh bang cach cong don L4/L5 FB ADS ca ky (chinh xac hon trung binh ngay).
       function srcBreakdown(sl){
         var L=sumF(sl,'leadRaw'),TN=sumF(sl,'leadQual');
-        var FBadsL=sumF(sl,'leadFBAds'),FBadsTN=sumF(sl,'leadL4FBAds')+sumF(sl,'leadL5FBAds');
+        var l4FBA=sumF(sl,'leadL4FBAds'),l5FBA=sumF(sl,'leadL5FBAds');
+        var FBadsL=sumF(sl,'leadFBAds'),FBadsTN=l4FBA+l5FBA;
         var GGadsL=sumF(sl,'leadZalo')+sumF(sl,'leadWeb'),GGadsTN=sumF(sl,'leadL4Zalo')+sumF(sl,'leadL5Zalo')+sumF(sl,'leadWeb');
         var OrgL=L-GGadsL-FBadsL,OrgTN=TN-GGadsTN-FBadsTN;
-        var l5FB=sumF(sl,'leadL5FB'),l5IG=sumF(sl,'leadL5IG'),l5Web=sumF(sl,'leadL5Web'),l5Za=sumF(sl,'leadL5Zalo'),l5FBA=sumF(sl,'leadL5FBAds');
+        var l5FB=sumF(sl,'leadL5FB'),l5IG=sumF(sl,'leadL5IG'),l5Web=sumF(sl,'leadL5Web'),l5Za=sumF(sl,'leadL5Zalo');
         var l4FB=sumF(sl,'leadL4FB'),l4IG=sumF(sl,'leadL4IG'),l4Za=sumF(sl,'leadL4Zalo'),web=sumF(sl,'leadWeb');
         var closeAll=(l4FB+l4IG+l4Za+web+l5FB+l5IG+l5Za)?(l5FB+l5IG+l5Web+l5Za)/(l4FB+l4IG+l4Za+web+l5FB+l5IG+l5Za):0;
         var closeFB=(l4FB+l4IG+l5IG+l5FB)?(l5FB+l5IG)/(l4FB+l4IG+l5IG+l5FB):0;
         var closeGG=(l4Za+l5Za+web)?(l5Web+l5Za)/(l4Za+l5Za+web):0;
         var closeOrg=OrgTN?(l5FB+l5IG-l5FBA)/OrgTN:0;
-        return {L:L,TN:TN,closeAll:closeAll,closeFB:closeFB,
+        var closeFBAds=FBadsTN?l5FBA/FBadsTN:0;
+        return {L:L,TN:TN,closeAll:closeAll,closeFB:closeFB,closeFBAds:closeFBAds,
           fbads:{L:FBadsL,TN:FBadsTN},
           ggads:{L:GGadsL,TN:GGadsTN,close:closeGG},
           organic:{L:OrgL,TN:OrgTN,close:closeOrg}};
@@ -908,8 +911,9 @@
       h+='</div>';
       return h;
     };
-    html+='<div class="fsrc-title" style="margin-top:4px">Tỷ lệ chốt theo nhóm <span style="font-weight:400;color:var(--muted2)">— L5 ÷ (L4+L5). Facebook ở đây là cả kênh FB+IG, không tách riêng Ads (Lark không có số này riêng)</span></div>';
+    html+='<div class="fsrc-title" style="margin-top:4px">Tỷ lệ chốt theo nhóm <span style="font-weight:400;color:var(--muted2)">— L5 ÷ (L4+L5), tính từ dữ liệu chi tiết vì bảng tổng hợp Lark không có sẵn "Facebook Ads" riêng</span></div>';
     html+='<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px">';
+    html+=closeChip('Facebook Ads',srcNow.closeFBAds,srcPrev.closeFBAds);
     html+=closeChip('Facebook (FB+IG)',srcNow.closeFB,srcPrev.closeFB);
     html+=closeChip('Zalo + Web',srcNow.ggads.close,srcPrev.ggads.close);
     html+=closeChip('Organic',srcNow.organic.close,srcPrev.organic.close);
@@ -936,7 +940,7 @@
     }
     document.getElementById('leadFunnelBody').innerHTML=html;
     var noteEl=document.getElementById('leadFunnelNote');
-    noteEl.innerHTML='<b>Lượt khách (L)</b>: FB+IG+Zalo+Web · <b>Lead tiềm năng</b> = L4+L5, khớp field "Tổng Lead tiềm năng" của Lark · <b>Tỷ lệ chốt</b> = L5 (đã chốt) ÷ (L4+L5). <b>Lead theo nguồn</b> chia 3 phần tách biệt cộng lại = Tổng: Facebook Ads (lead gắn ads) · Zalo + Web (Lark gọi "GG Ads" dù không phải chi Google Ads) · Organic (còn lại, chủ yếu FB+IG không ads). ⚠ <b>Tỷ lệ chốt theo nhóm</b> dùng sơ đồ KHÁC của chính Lark (Facebook = cả kênh FB+IG gộp, không tách riêng Ads) — Lark không cung cấp tỷ lệ chốt riêng cho Facebook Ads. Đã đối chiếu khớp 8/8 số lượng với báo cáo Lark; % tỷ lệ chốt lệch ~1 điểm vì Lark tự tính trung bình ngày không nhất quán giữa các thẻ.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead.':'');
+    noteEl.innerHTML='<b>Lượt khách (L)</b>: FB+IG+Zalo+Web · <b>Lead tiềm năng</b> = L4+L5, khớp field "Tổng Lead tiềm năng" của Lark · <b>Lead → tiềm năng (%)</b> đo lượng, KHÔNG phải tỷ lệ chốt — FB Ads có % này thấp hơn do lượng lead thô rất lớn (nhiều tương tác nhẹ chưa đủ điều kiện). <b>Lead theo nguồn</b> chia 3 phần tách biệt cộng lại = Tổng: Facebook Ads (lead gắn ads) · Zalo + Web (Lark gọi "GG Ads" dù không phải chi Google Ads) · Organic (còn lại, chủ yếu FB+IG không ads). <b>Tỷ lệ chốt theo nhóm</b> = L5 (đã chốt) ÷ (L4+L5) — riêng Facebook Ads được tự tính cộng dồn từ dữ liệu chi tiết (Lark không đưa số này vào bảng tổng hợp tháng), Facebook (FB+IG) là cả kênh gộp theo đúng field Lark. Đã đối chiếu khớp 8/8 số lượng với báo cáo Lark; 3 tỷ lệ chốt còn lại lệch ~1 điểm vì Lark tự tính trung bình ngày không nhất quán giữa các thẻ.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead.':'');
   }
 
   function drawDonut(id,labels,vals,colors){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'doughnut',data:{labels:labels,datasets:[{data:vals,backgroundColor:colors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});}
