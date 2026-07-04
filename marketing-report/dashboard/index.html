@@ -108,6 +108,23 @@
   .cgrow.yoy.dn{background:#fce7f3;color:#9d174d;}
   .cgrow.yoy.nt{background:var(--line);color:var(--muted);}
 
+  /* ===== LEAD FUNNEL ===== */
+  .fkpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;flex:1;min-width:180px;}
+  .fkpi .ctitle{margin-bottom:6px;}
+  .farrow{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 18px;min-width:76px;}
+  .farrow-ico{font-size:20px;color:var(--muted2);line-height:1;}
+  .farrow-pct{font-size:15px;font-weight:800;margin-top:4px;}
+  .farrow-lbl{font-size:9.5px;color:var(--muted2);text-align:center;margin-top:1px;}
+  .fsrc-title{font-size:12px;font-weight:700;color:var(--ink2);margin-bottom:10px;}
+  .fsrc-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;flex:1;min-width:280px;}
+  .fsrc-head{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--ink);margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--line-soft);}
+  .fsrc-dot{width:9px;height:9px;border-radius:50%;flex:none;}
+  .fsrc-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  .fsrc-val{font-size:23px;font-weight:800;line-height:1.1;}
+  .fsrc-lbl{font-size:10.5px;color:var(--muted);margin:3px 0 8px;}
+  .fsrc-sub{font-size:11.5px;color:var(--muted);}
+  .fsrc-sub b{color:var(--ink);font-weight:700;}
+
   /* ===== CAMPAIGN MODAL ===== */
   #campModal{display:none;position:fixed;inset:0;background:rgba(10,20,35,.65);z-index:900;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(4px);}
   #campModal.open{display:flex;}
@@ -804,67 +821,49 @@
     }
     var nf=function(n){return (n||0).toLocaleString('vi-VN');};
     var pct=function(a,b){return b?Math.round(a/b*1000)/10:0;};
-    // 2 chang pheu: Luot khach (L = FB+IG+Zalo+Web) -> Lead L4 (FB+IG+Zalo)
-    var stages=[
-      {label:'Lượt khách (L)',desc:'FB+IG+Zalo+Web',val:leadRaw,prev:leadRawP,col:'var(--brand)'},
-      {label:'Lead L4',desc:'Chất lượng (FB+IG+Zalo)',val:leadL4,prev:leadL4P,col:'var(--pink)'}
-    ];
-    var maxV=Math.max(leadRaw,leadL4)||1;
-    var html='<div style="display:flex;align-items:stretch;gap:0;flex-wrap:wrap">';
-    stages.forEach(function(s,i){
-      var w=Math.max(28,Math.round(s.val/maxV*100));
-      html+='<div style="flex:1;min-width:150px;display:flex;flex-direction:column">';
-      html+='<div style="font-size:12px;color:var(--muted);font-weight:600;margin-bottom:2px">'+s.label+'</div>';
-      html+='<div style="font-size:11px;color:var(--muted2);margin-bottom:8px">'+s.desc+'</div>';
-      html+='<div style="background:'+s.col+';height:'+(36+w*0.4)+'px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:20px;box-shadow:var(--sh)">'+nf(s.val)+'</div>';
-      html+='<div style="margin-top:6px;font-size:11px">'+growBadge(s.val,s.prev)+'</div>';
-      html+='</div>';
-      if(i<stages.length-1){
-        var cr=pct(stages[i+1].val,s.val);
-        var crCol=cr>=50?'var(--teal)':cr>=20?'var(--brand-dark)':'var(--amber)';
-        html+='<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 6px;min-width:64px">';
-        html+='<div style="font-size:18px;color:var(--muted2);line-height:1">→</div>';
-        html+='<div style="font-size:13px;font-weight:700;color:'+crCol+';margin-top:2px">'+cr+'%</div>';
-        html+='<div style="font-size:9.5px;color:var(--muted2);text-align:center">đạt L4</div>';
-        html+='</div>';
-      }
-    });
+    // Chip delta gon (tai su dung mau .cgrow co san: xanh=tang, do=giam, xam=khong doi)
+    var chip=function(delta,suffix,digits){
+      if(!delta)return '<span class="cgrow nt">0'+suffix+'</span>';
+      var v=Math.abs(Math.round(delta*Math.pow(10,digits||1))/Math.pow(10,digits||1));
+      return delta>0?'<span class="cgrow up">▲'+v+suffix+'</span>':'<span class="cgrow dn">▼'+v+suffix+'</span>';
+    };
+    // ---- 2 chang pheu: Luot khach (L) -> Lead L4, dang the KPI co dinh chieu cao ----
+    var cr=pct(leadL4,leadRaw);
+    var crCol=cr>=15?'var(--teal)':cr>=8?'var(--brand-dark)':'var(--red)';
+    var html='<div style="display:flex;align-items:stretch;gap:0;flex-wrap:wrap;margin-bottom:20px">';
+    html+='<div class="fkpi" style="border-left:4px solid var(--brand)">';
+    html+='<div class="ctitle">Lượt khách (L)</div>';
+    html+='<div class="cmain" style="font-size:27px">'+nf(leadRaw)+'</div>';
+    html+='<div class="csub">FB+IG+Zalo+Web '+growBadge(leadRaw,leadRawP)+'</div>';
     html+='</div>';
-    // ---- Chat luong Lead theo nguon: % = L4 / L (lead chat luong / lead thu duoc) ----
+    html+='<div class="farrow"><div class="farrow-ico">→</div><div class="farrow-pct" style="color:'+crCol+'">'+cr+'%</div><div class="farrow-lbl">đạt L4</div></div>';
+    html+='<div class="fkpi" style="border-left:4px solid var(--pink)">';
+    html+='<div class="ctitle">Lead L4</div>';
+    html+='<div class="cmain" style="font-size:27px;color:var(--pink-dark)">'+nf(leadL4)+'</div>';
+    html+='<div class="csub">Chất lượng (FB+IG+Zalo) '+growBadge(leadL4,leadL4P)+'</div>';
+    html+='</div>';
+    html+='</div>';
+    // ---- Hieu qua Facebook theo nguon: Lead chat luong (L4/L) + ROAS (DT/Chi), dang the gon gang ----
     if(lq&&(lq.fb.L||lq.fbads.L)){
       var qCard=function(title,col,o){
         var q=pct(o.L4,o.L), qp=pct(o.L4p,o.Lp);
-        var qCol=q>=15?'var(--teal)':q>=10?'var(--brand-dark)':'var(--amber)';
-        var qDelta=qp?(Math.round((q-qp)*10)/10):0;
-        var qBadge=qDelta>0?'<span style="color:var(--teal);font-size:10.5px;font-weight:600">▲'+qDelta+'đ</span>':qDelta<0?'<span style="color:var(--red);font-size:10.5px;font-weight:600">▼'+Math.abs(qDelta)+'đ</span>':'';
+        var qCol=q>=15?'var(--teal)':q>=8?'var(--brand-dark)':'var(--red)';
         var roas=o.cost?o.rev/o.cost:0, roasP=o.costP?o.revP/o.costP:0;
         var roasTxt=o.cost?roasFmt(o.rev,o.cost):'—';
         var roasCol=roas>=5?'var(--teal)':roas>=2?'var(--brand-dark)':(roas>0?'var(--red)':'var(--muted2)');
-        var rDelta=(roasP&&roas)?Math.round((roas-roasP)*10)/10:0;
-        var rBadge=rDelta>0?'<span style="color:var(--teal);font-size:10.5px;font-weight:600">▲'+rDelta+'x</span>':rDelta<0?'<span style="color:var(--red);font-size:10.5px;font-weight:600">▼'+Math.abs(rDelta)+'x</span>':'';
-        var h='<div style="flex:1;min-width:280px;border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:linear-gradient(135deg,var(--card) 82%,'+col+'0d 100%)">';
-        h+='<div style="display:flex;align-items:center;gap:6px;margin-bottom:10px"><span style="width:9px;height:9px;border-radius:50%;background:'+col+'"></span><b style="font-size:13px;color:var(--ink)">'+title+'</b></div>';
-        h+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">';
-        // Cot trai: chat luong lead
-        h+='<div style="border-right:1px solid var(--line-soft);padding-right:10px">';
-        h+='<div style="display:flex;align-items:baseline;gap:5px"><span style="font-size:24px;font-weight:800;color:'+qCol+'">'+q+'%</span>'+qBadge+'</div>';
-        h+='<div style="font-size:10px;color:var(--muted);margin-bottom:8px">lead chất lượng</div>';
-        h+='<div style="font-size:11.5px;color:var(--muted)">Lead <b style="color:var(--ink)">'+nf(o.L)+'</b> · L4 <b style="color:'+col+'">'+nf(o.L4)+'</b></div>';
-        h+='</div>';
-        // Cot phai: ROAS
-        h+='<div>';
-        h+='<div style="display:flex;align-items:baseline;gap:5px"><span style="font-size:24px;font-weight:800;color:'+roasCol+'">'+roasTxt+'</span>'+rBadge+'</div>';
-        h+='<div style="font-size:10px;color:var(--muted);margin-bottom:8px">ROAS</div>';
-        h+='<div style="font-size:11.5px;color:var(--muted)">DT <b style="color:var(--ink)">'+vnd(o.rev)+'</b> · Chi <b style="color:var(--ink)">'+(o.cost?vnd(o.cost):'—')+'</b></div>';
-        h+='</div>';
+        var h='<div class="fsrc-card">';
+        h+='<div class="fsrc-head"><span class="fsrc-dot" style="background:'+col+'"></span>'+title+'</div>';
+        h+='<div class="fsrc-grid">';
+        h+='<div><div class="fsrc-val" style="color:'+qCol+'">'+q+'%</div><div class="fsrc-lbl">lead chất lượng '+chip(q-qp,'đ')+'</div><div class="fsrc-sub">Lead <b>'+nf(o.L)+'</b> · L4 <b>'+nf(o.L4)+'</b></div></div>';
+        h+='<div><div class="fsrc-val" style="color:'+roasCol+'">'+roasTxt+'</div><div class="fsrc-lbl">ROAS '+(roasP&&roas?chip(roas-roasP,'x'):'')+'</div><div class="fsrc-sub">DT <b>'+vnd(o.rev)+'</b> · Chi <b>'+(o.cost?vnd(o.cost):'—')+'</b></div></div>';
         h+='</div></div>';
         return h;
       };
-      html+='<div style="margin-top:16px"><div style="font-size:12px;font-weight:700;color:var(--ink2);margin-bottom:8px">Hiệu quả Facebook theo nguồn <span style="font-weight:400;color:var(--muted2)">— Lead chất lượng (L4÷Lead) & ROAS (Doanh thu÷Chi phí)</span></div>';
+      html+='<div class="fsrc-title">Hiệu quả Facebook theo nguồn <span style="font-weight:400;color:var(--muted2)">— Lead chất lượng (L4÷Lead) & ROAS (Doanh thu÷Chi phí)</span></div>';
       html+='<div style="display:flex;gap:12px;flex-wrap:wrap">';
       html+=qCard('Facebook (chung)','var(--brand)',lq.fb);
       html+=qCard('Facebook Ads','var(--pink)',lq.fbads);
-      html+='</div></div>';
+      html+='</div>';
     }
     document.getElementById('leadFunnelBody').innerHTML=html;
     var noteEl=document.getElementById('leadFunnelNote');
