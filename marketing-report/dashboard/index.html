@@ -354,6 +354,7 @@
     var MA=metaAgg(slice),MAp=metaAgg(prev),AD=adsAgg(slice),ADp=adsAgg(prev);
     var yoy=yoySliceFor(period);var onYoY=sumOnline(yoy),stYoY=sumStore(yoy),stOnlineYoY=sumStoreOnline(yoy),ADyoy=adsAgg(yoy);
     var fbTotSlice=0;slice.forEach(function(d){fbTotSlice+=(d.online&&d.online['Facebook']?d.online['Facebook'].rev:0);});
+    var fbTotPrev=0;prev.forEach(function(d){fbTotPrev+=(d.online&&d.online['Facebook']?d.online['Facebook'].rev:0);});
     var fbRevAll=fbTotSlice;
     var P={grid2:document.querySelector('.grid2'),store:document.getElementById('storePanel'),campaign:document.getElementById('campaignPanel'),trend:document.getElementById('trendPanel'),lead:document.getElementById('leadFunnelPanel')};
     P.grid2.style.display='grid';P.store.style.display='none';P.campaign.style.display='none';P.trend.style.display='block';P.lead.style.display='none';
@@ -379,7 +380,7 @@
           m('Sales Online',vnd(on)),m('Cửa hàng (tổng)',vnd(stAll)),
           m('%KPI Online',(oTgt?Math.round(on/oTgt*100):0)+'%'),m('%KPI Store',(sTgt?Math.round(stAll/sTgt*100):0)+'%')]},
         {title:'Sales Online',color:'#378ADD',main:vnd(on)+growBadge(on,onPrev)+yoyBadge(on,onYoY),sub:(s1?Math.round(on/s1*100):0)+'% tổng',metrics:[
-          m('Chi phí quảng cáo FB',MA.fb?vnd(MA.fb):COST,!MA.fb),m('ROAS Facebook',MA.fb?roasFmt(fbRevAll,MA.fb):'—',!MA.fb),
+          m('Chi phí quảng cáo FB',MA.fb?vnd(MA.fb):COST,!MA.fb),
           m('Số đơn',ord1.toLocaleString('vi-VN')),m('AOV',vnd(ord1?on/ord1:0)),m('%KPI',(oTgt?Math.round(on/oTgt*100):0)+'%')]},
         {title:'Cửa hàng',color:'#1D9E75',main:vnd(stAll)+growBadge(stAll,stAllPrev)+yoyBadge(stAll,stAllYoY),sub:(s1?Math.round(stAll/s1*100):0)+'% tổng',metrics:[
           m('Walk-in',vnd(stW)),m('Marketing→CH',vnd(mktCH)),
@@ -389,9 +390,14 @@
       // ---- Phễu Lượt khách → Lead L4 + Chất lượng Lead theo nguồn (Sales Online) ----
       var leadRaw=sumF(slice,'leadRaw'),leadL4=sumF(slice,'leadL4');
       var leadRawP=sumF(prev,'leadRaw'),leadL4P=sumF(prev,'leadL4');
+      // ROAS theo nguon: Facebook (chung) dung DT kenh Messenger (fbTotSlice, ke ca organic);
+      // Facebook Ads dung DT quy ve ads (AD.fb, "Doanh thu FB ADS" tu Lark) — tach rieng, KHONG cong don.
+      // Ca 2 chia cho CUNG 1 chi phi Meta FB (MA.fb) vi Meta chi bao cao 1 muc chi cho vi tri FB.
       var lq={
-        fb:{L:sumF(slice,'leadFB'),L4:sumF(slice,'leadL4FB'),Lp:sumF(prev,'leadFB'),L4p:sumF(prev,'leadL4FB')},
-        fbads:{L:sumF(slice,'leadFBAds'),L4:sumF(slice,'leadL4FBAds'),Lp:sumF(prev,'leadFBAds'),L4p:sumF(prev,'leadL4FBAds')}
+        fb:{L:sumF(slice,'leadFB'),L4:sumF(slice,'leadL4FB'),Lp:sumF(prev,'leadFB'),L4p:sumF(prev,'leadL4FB'),
+            rev:fbTotSlice,revP:fbTotPrev,cost:MA.fb,costP:MAp.fb},
+        fbads:{L:sumF(slice,'leadFBAds'),L4:sumF(slice,'leadL4FBAds'),Lp:sumF(prev,'leadFBAds'),L4p:sumF(prev,'leadL4FBAds'),
+            rev:AD.fb,revP:ADp.fb,cost:MA.fb,costP:MAp.fb}
       };
       renderLeadFunnel(P.lead,leadRaw,leadL4,leadRawP,leadL4P,slice,lq);
       keys=['Online','Cửa hàng'];valFn=function(d){return {Online:d.onlineRev||0,'Cửa hàng':(d.storeRev||0)+(d.storeOnline||0)};};
@@ -829,18 +835,32 @@
       var qCard=function(title,col,o){
         var q=pct(o.L4,o.L), qp=pct(o.L4p,o.Lp);
         var qCol=q>=15?'var(--teal)':q>=10?'var(--brand-dark)':'var(--amber)';
-        var delta=qp?(Math.round((q-qp)*10)/10):0;
-        var dBadge=delta>0?'<span style="color:var(--teal);font-size:11px;font-weight:600"> ▲'+delta+'đ</span>':delta<0?'<span style="color:var(--red);font-size:11px;font-weight:600"> ▼'+Math.abs(delta)+'đ</span>':'';
-        var h='<div style="flex:1;min-width:200px;border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:linear-gradient(135deg,var(--card) 82%,'+col+'0d 100%)">';
-        h+='<div style="display:flex;align-items:center;gap:6px;margin-bottom:8px"><span style="width:9px;height:9px;border-radius:50%;background:'+col+'"></span><b style="font-size:13px;color:var(--ink)">'+title+'</b></div>';
-        h+='<div style="display:flex;align-items:baseline;gap:6px;margin-bottom:8px"><span style="font-size:28px;font-weight:800;color:'+qCol+'">'+q+'%</span><span style="font-size:11px;color:var(--muted)">lead chất lượng</span>'+dBadge+'</div>';
-        h+='<div style="display:flex;gap:14px;font-size:12px">';
-        h+='<div><span style="color:var(--muted)">Lead thu được</span><br><b style="font-size:15px">'+nf(o.L)+'</b></div>';
-        h+='<div><span style="color:var(--muted)">Lead L4 (chất lượng)</span><br><b style="font-size:15px;color:'+col+'">'+nf(o.L4)+'</b></div>';
+        var qDelta=qp?(Math.round((q-qp)*10)/10):0;
+        var qBadge=qDelta>0?'<span style="color:var(--teal);font-size:10.5px;font-weight:600">▲'+qDelta+'đ</span>':qDelta<0?'<span style="color:var(--red);font-size:10.5px;font-weight:600">▼'+Math.abs(qDelta)+'đ</span>':'';
+        var roas=o.cost?o.rev/o.cost:0, roasP=o.costP?o.revP/o.costP:0;
+        var roasTxt=o.cost?roasFmt(o.rev,o.cost):'—';
+        var roasCol=roas>=5?'var(--teal)':roas>=2?'var(--brand-dark)':(roas>0?'var(--red)':'var(--muted2)');
+        var rDelta=(roasP&&roas)?Math.round((roas-roasP)*10)/10:0;
+        var rBadge=rDelta>0?'<span style="color:var(--teal);font-size:10.5px;font-weight:600">▲'+rDelta+'x</span>':rDelta<0?'<span style="color:var(--red);font-size:10.5px;font-weight:600">▼'+Math.abs(rDelta)+'x</span>':'';
+        var h='<div style="flex:1;min-width:280px;border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:linear-gradient(135deg,var(--card) 82%,'+col+'0d 100%)">';
+        h+='<div style="display:flex;align-items:center;gap:6px;margin-bottom:10px"><span style="width:9px;height:9px;border-radius:50%;background:'+col+'"></span><b style="font-size:13px;color:var(--ink)">'+title+'</b></div>';
+        h+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">';
+        // Cot trai: chat luong lead
+        h+='<div style="border-right:1px solid var(--line-soft);padding-right:10px">';
+        h+='<div style="display:flex;align-items:baseline;gap:5px"><span style="font-size:24px;font-weight:800;color:'+qCol+'">'+q+'%</span>'+qBadge+'</div>';
+        h+='<div style="font-size:10px;color:var(--muted);margin-bottom:8px">lead chất lượng</div>';
+        h+='<div style="font-size:11.5px;color:var(--muted)">Lead <b style="color:var(--ink)">'+nf(o.L)+'</b> · L4 <b style="color:'+col+'">'+nf(o.L4)+'</b></div>';
+        h+='</div>';
+        // Cot phai: ROAS
+        h+='<div>';
+        h+='<div style="display:flex;align-items:baseline;gap:5px"><span style="font-size:24px;font-weight:800;color:'+roasCol+'">'+roasTxt+'</span>'+rBadge+'</div>';
+        h+='<div style="font-size:10px;color:var(--muted);margin-bottom:8px">ROAS</div>';
+        h+='<div style="font-size:11.5px;color:var(--muted)">DT <b style="color:var(--ink)">'+vnd(o.rev)+'</b> · Chi <b style="color:var(--ink)">'+(o.cost?vnd(o.cost):'—')+'</b></div>';
+        h+='</div>';
         h+='</div></div>';
         return h;
       };
-      html+='<div style="margin-top:16px"><div style="font-size:12px;font-weight:700;color:var(--ink2);margin-bottom:8px">Chất lượng Lead theo nguồn <span style="font-weight:400;color:var(--muted2)">(L4 ÷ Lead thu được)</span></div>';
+      html+='<div style="margin-top:16px"><div style="font-size:12px;font-weight:700;color:var(--ink2);margin-bottom:8px">Hiệu quả Facebook theo nguồn <span style="font-weight:400;color:var(--muted2)">— Lead chất lượng (L4÷Lead) & ROAS (Doanh thu÷Chi phí)</span></div>';
       html+='<div style="display:flex;gap:12px;flex-wrap:wrap">';
       html+=qCard('Facebook (chung)','var(--brand)',lq.fb);
       html+=qCard('Facebook Ads','var(--pink)',lq.fbads);
@@ -848,7 +868,7 @@
     }
     document.getElementById('leadFunnelBody').innerHTML=html;
     var noteEl=document.getElementById('leadFunnelNote');
-    noteEl.innerHTML='<b>Lượt khách (L)</b>: tổng lượt khách = FB + IG + Zalo + Web · <b>Lead L4</b>: lead chất lượng = L4 FB + L4 IG + L4 Zalo (Web không có cột L4 trong Base nên chưa tính được). <b>Chất lượng Lead theo nguồn</b> = L4 ÷ Lead thu được, tách riêng Facebook chung và Facebook Ads.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead — tỷ lệ có thể chưa phản ánh đủ.':'');
+    noteEl.innerHTML='<b>Lượt khách (L)</b>: tổng lượt khách = FB + IG + Zalo + Web · <b>Lead L4</b>: lead chất lượng = L4 FB + L4 IG + L4 Zalo (Web không có cột L4 trong Base nên chưa tính được). <b>Facebook (chung)</b>: ROAS = DT kênh Messenger (organic + ads) ÷ chi phí Meta FB. <b>Facebook Ads</b>: ROAS = DT quy về ads (team tự theo dõi) ÷ cùng chi phí Meta FB — đo riêng hiệu quả ads, tách khỏi lưu lượng tự nhiên.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead — tỷ lệ có thể chưa phản ánh đủ.':'');
   }
 
   function drawDonut(id,labels,vals,colors){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'doughnut',data:{labels:labels,datasets:[{data:vals,backgroundColor:colors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});}
