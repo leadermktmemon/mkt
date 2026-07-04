@@ -75,7 +75,10 @@ const metaCampaigns=metaRaw.campaignDays||[];
 console.log(`Meta Ads: ${Object.keys(metaByDay).length} ngày dữ liệu${Object.keys(metaByDay).length===0?" (chạy meta-fetch.mjs trước để có dữ liệu)":""}. Campaigns: ${metaCampaigns.length}`);
 
 const dayMap={};
-function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0,leadRaw:0,leadQual:0,leadL4:0,leadFB:0,leadL4FB:0,leadFBAds:0,leadL4FBAds:0};}
+function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0,
+  leadRaw:0,leadQual:0,leadL4:0,leadFB:0,leadL4FB:0,leadFBAds:0,leadL4FBAds:0,
+  // Raw L4/L5 tung nguon (dung de tinh dung cong thuc "BC Ty le chuyen doi" cua Lark: FB Ads / GG Ads(=Zalo+Web) / Organic)
+  leadL5FB:0,leadIG:0,leadL4IG:0,leadL5IG:0,leadZalo:0,leadL4Zalo:0,leadL5Zalo:0,leadWeb:0,leadL5Web:0,leadL5FBAds:0};}
 
 // 3.1 -> Online theo kenh
 for(const r of src){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
@@ -99,8 +102,11 @@ for(const r of lead){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-0
   D.leadRaw+=num(f["L"]);D.leadQual+=num(f["Tổng Lead tiềm năng"]);
   // L4 tong (chat luong) = L4 FB + L4 IG + L4 Zalo. FB ADS la tap con cua FB -> khong cong rieng.
   D.leadL4+=num(f["Số L4 FB"])+num(f["Số L4 IG"])+num(f["Số L4 Zalo"]);
-  D.leadFB+=num(f["Số L FB"]);D.leadL4FB+=num(f["Số L4 FB"]);
-  D.leadFBAds+=num(f["Số L FB ADS"]);D.leadL4FBAds+=num(f["Số L4 FB ADS"]);}
+  D.leadFB+=num(f["Số L FB"]);D.leadL4FB+=num(f["Số L4 FB"]);D.leadL5FB+=num(f["Số L5 FB"]);
+  D.leadFBAds+=num(f["Số L FB ADS"]);D.leadL4FBAds+=num(f["Số L4 FB ADS"]);D.leadL5FBAds+=num(f["Số L5 FB ADS"]);
+  D.leadIG+=num(f["Số L IG"]);D.leadL4IG+=num(f["Số L4 IG"]);D.leadL5IG+=num(f["Số L5 IG"]);
+  D.leadZalo+=num(f["Số L Zalo"]);D.leadL4Zalo+=num(f["Số L4 Zalo"]);D.leadL5Zalo+=num(f["Số L5 Zalo"]);
+  D.leadWeb+=num(f["Số L Web"]);D.leadL5Web+=num(f["Số L5 Web"]);}
 // 2.4 (theo thang) -> Target Thang (Cong ty): target CO DINH ca thang, dung cho %KPI khi xem "Thang nay"
 // (khac voi tong "Target ngay" cong don tu dau thang, la target TANG DAN theo ngay da qua)
 const monthlyTargets={};
@@ -130,6 +136,9 @@ const daily=days.map(day=>{const D=dayMap[day];
     brands:roundObj(D.brands),bc:Object.fromEntries(Object.entries(D.bc).map(([b,o])=>[b,roundObj(o)])),
     store:roundObj(D.store),storeRev:round(D.storeRev),storeOnline:round(D.storeOnline),storeTarget:round(D.storeTarget),custIn:round(D.custIn),custBuy:round(D.custBuy),memonRev:0,
     leadRaw:round(D.leadRaw),leadQual:round(D.leadQual),leadL4:round(D.leadL4),leadFB:round(D.leadFB),leadL4FB:round(D.leadL4FB),leadFBAds:round(D.leadFBAds),leadL4FBAds:round(D.leadL4FBAds),
+    leadL5FB:round(D.leadL5FB),leadIG:round(D.leadIG),leadL4IG:round(D.leadL4IG),leadL5IG:round(D.leadL5IG),
+    leadZalo:round(D.leadZalo),leadL4Zalo:round(D.leadL4Zalo),leadL5Zalo:round(D.leadL5Zalo),
+    leadWeb:round(D.leadWeb),leadL5Web:round(D.leadL5Web),leadL5FBAds:round(D.leadL5FBAds),
     metaFb:md.facebook||0,metaIg:md.instagram||0,metaTotal:md.total||0,metaIgPixelRev:Math.round(md.igPurchaseValue||0)};
 });
 const channels=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
