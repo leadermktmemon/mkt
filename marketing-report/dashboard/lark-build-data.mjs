@@ -17,6 +17,7 @@ const SO_APP = "NimAbYHV3aWjPmsp7I9lugmbgcv";
 const SO_SOURCE = "tbl6xpLNnyuXLydn";   // 3.1 DT theo nguon hang ngay
 const SO_TOTAL = "tblLf6OWq6Z9nFQD";    // 2.2 Tong hop SO theo ngay (co Target ngay)
 const SO_LEAD = "tblXZw7l2e5Hk8ZJ";     // Lead theo ngay: "L" (lead tho) + "Tong Lead tiem nang"
+const SO_MONTH = "tblY31LFneTCuMuC";    // 2.4 Tong hop SO theo thang: Target Thang (Cong ty) - target CO DINH ca thang
 const STORE_APP = "Sfb9bDqKgakJMSs9xOglyyE5gdg";
 const STORE_TBL = "tblH6XAodJy1WQwy";   // 2.2 Tong hop cua hang theo NGAY (4488 dong, du lieu hang ngay)
 const STORE_LOOK = "tbl8zrOpqU22yN4z";  // 5.1 Lookup thong tin cua hang: map TK cua hang -> ten sach
@@ -59,6 +60,7 @@ const tk=await token();
 const src=await allRecords(tk,SO_APP,SO_SOURCE);
 const tot=await allRecords(tk,SO_APP,SO_TOTAL);
 const lead=await allRecords(tk,SO_APP,SO_LEAD);
+const monthTot=await allRecords(tk,SO_APP,SO_MONTH);
 const store=await allRecords(tk,STORE_APP,STORE_TBL);
 const look=await allRecords(tk,STORE_APP,STORE_LOOK);
 // Map account (TK cua hang id) -> ten cua hang sach tu bang 5.1
@@ -99,6 +101,11 @@ for(const r of lead){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-0
   D.leadL4+=num(f["Số L4 FB"])+num(f["Số L4 IG"])+num(f["Số L4 Zalo"]);
   D.leadFB+=num(f["Số L FB"]);D.leadL4FB+=num(f["Số L4 FB"]);
   D.leadFBAds+=num(f["Số L FB ADS"]);D.leadL4FBAds+=num(f["Số L4 FB ADS"]);}
+// 2.4 (theo thang) -> Target Thang (Cong ty): target CO DINH ca thang, dung cho %KPI khi xem "Thang nay"
+// (khac voi tong "Target ngay" cong don tu dau thang, la target TANG DAN theo ngay da qua)
+const monthlyTargets={};
+for(const r of monthTot){const f=r.fields;const y=num(f["Năm tương ứng"]),m=num(f["Tháng tương ứng"]);if(!y||!m)continue;
+  monthlyTargets[`${y}-${pad(m)}`]=num(f["Target Tháng (Công ty)"]);}
 // 2.4 -> Cua hang (theo thang)
 for(const r of store){const f=r.fields;const day=dayOf(f);if(!day||day<"2025-01-01")continue;const D=ensure(day);
   const ch=num(f["Doanh thu CH"]);const onl=num(f["Doanh thu đơn Online chuyển đơn"]);
@@ -162,7 +169,7 @@ const campaignDaysClean=metaCampaigns.map(({creative,...rest})=>{
   if(hasContent&&!creativeMap[rest.id])creativeMap[rest.id]=creative;
   return rest;
 });
-const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,creativeMap,campaignDays:campaignDaysClean,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands,weekMarketing:sumWeek.marketing,weekStore:sumWeek.store,weekSales:sumWeek.sales,weekBrands:sumWeek.brands,weekPeriod};
+const data={generatedAt:new Date().toISOString(),source:"lark",period:{days:daily.length,fromDate:days[0],toDate:days[days.length-1]},channels,stores,daily,creativeMap,campaignDays:campaignDaysClean,memonBills:[],marketing:sum30.marketing,store:sum30.store,sales:sum30.sales,brands:sum30.brands,weekMarketing:sumWeek.marketing,weekStore:sumWeek.store,weekSales:sumWeek.sales,weekBrands:sumWeek.brands,weekPeriod,monthlyTargets};
 writeFileSync(join(__dirname,"data.json"),JSON.stringify(data,null,2),"utf8");
 writeFileSync(join(__dirname,"data.js"),`window.DASHBOARD_DATA=${JSON.stringify(data)};`,"utf8");
 

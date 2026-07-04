@@ -366,7 +366,14 @@
       var stAll=stW+mktCH,stAllPrev=stPrev+mktCHPrev,stAllYoY=stYoY+stOnlineYoY;
       var s1=on+stAll;
       var ord1=sumF(slice,'onlineOrders'),vbuy1=sumF(slice,'custBuy'),vin1=sumF(slice,'custIn');
+      // %KPI Online: khi xem "Tháng này" dùng Target Tháng (Công ty) CỐ ĐỊNH từ Lark (khớp Báo cáo hàng ngày SO),
+      // KHÔNG cộng dồn Target ngày (tăng dần theo ngày đã qua) — 2 cách tính cho ra %KPI khác hẳn nhau.
       var oTgt=sumF(slice,'onlineTarget'),sTgt=sumF(slice,'storeTarget');
+      if(period==='month'){
+        var _mKey=new Date(Date.now()+7*3600*1000).toISOString().slice(0,7);
+        var _fixedTgt=D.monthlyTargets&&D.monthlyTargets[_mKey];
+        if(_fixedTgt)oTgt=_fixedTgt;
+      }
       cards=[
         {title:'Tổng doanh thu',color:'#26215C',main:vnd(s1)+growBadge(s1,onPrev+stAllPrev)+yoyBadge(s1,onYoY+stAllYoY),sub:'Online + Cửa hàng (Walk-in & MKT)',metrics:[
           m('Sales Online',vnd(on)),m('Cửa hàng (tổng)',vnd(stAll)),
