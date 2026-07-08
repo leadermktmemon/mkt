@@ -444,13 +444,12 @@
           organic:{L:OrgL,TN:OrgTN,close:closeOrg}};
       }
       var srcNow=srcBreakdown(slice),srcPrev=srcBreakdown(prev);
-      // ROAS theo nguon: Facebook (chung) dung DT kenh Messenger (fbTotSlice, ke ca organic);
-      // Facebook Ads dung DT quy ve ads (AD.fb, "Doanh thu FB ADS" tu Lark) — tach rieng, KHONG cong don.
-      // Ca 2 chia cho CUNG 1 chi phi Meta FB (MA.fb) vi Meta chi bao cao 1 muc chi cho vi tri FB.
+      // ROAS theo DUNG 3 nguon thong nhat voi tab "Theo kenh": FB Ads / GG Ads (Zalo+Web) / Nguon tu nhien.
+      var orgRevSlice1=on-AD.fb-ggRevSlice, orgRevPrev1=onPrev-ADp.fb-ggRevPrev;
       var lq={
-        fb:{rev:fbTotSlice,revP:fbTotPrev,cost:MA.fb,costP:MAp.fb},
         fbads:{rev:AD.fb,revP:ADp.fb,cost:MA.fb,costP:MAp.fb},
-        gg:{rev:ggRevSlice,revP:ggRevPrev,cost:ggCostSlice,costP:ggCostPrev}
+        gg:{rev:ggRevSlice,revP:ggRevPrev,cost:ggCostSlice,costP:ggCostPrev},
+        organic:{rev:orgRevSlice1,revP:orgRevPrev1,cost:0,costP:0}
       };
       renderLeadFunnel(P.lead,leadRaw,leadQual,leadRawP,leadQualP,slice,srcNow,srcPrev,lq);
       keys=['Online','Cửa hàng'];valFn=function(d){return {Online:d.onlineRev||0,'Cửa hàng':(d.storeRev||0)+(d.storeOnline||0)};};
@@ -916,30 +915,31 @@
     html+=closeChip('Zalo + Web',srcNow.ggads.close,srcPrev.ggads.close);
     html+=closeChip('Organic',srcNow.organic.close,srcPrev.organic.close);
     html+='</div>';
-    // ---- ROAS Facebook: chung vs Ads — rieng, do hieu qua doanh thu (khac voi breakdown Lead o tren) ----
-    if(lq&&(lq.fb.cost||lq.fbads.cost||lq.fb.rev||lq.fbads.rev)){
-      var roasCard=function(title,col,o){
+    // ---- ROAS theo DUNG 3 nguon thong nhat voi tab "Theo kenh": FB Ads / GG Ads / Nguon tu nhien ----
+    if(lq){
+      var roasCard=function(title,col,o,noAdsLabel){
         var roas=o.cost?o.rev/o.cost:0, roasP=o.costP?o.revP/o.costP:0;
         var roasTxt=o.cost?roasFmt(o.rev,o.cost):'—';
         var roasCol=roas>=5?'var(--teal)':roas>=2?'var(--brand-dark)':(roas>0?'var(--red)':'var(--muted2)');
+        var costTxt=o.cost?vnd(o.cost):(noAdsLabel||COST);
         var h='<div class="fsrc-card" style="min-width:220px;flex:0 1 260px">';
         h+='<div class="fsrc-head"><span class="fsrc-dot" style="background:'+col+'"></span>'+title+'</div>';
         h+='<div class="fsrc-val" style="color:'+roasCol+'">'+roasTxt+'</div>';
         h+='<div class="fsrc-lbl">ROAS '+(roasP&&roas?chip(roas-roasP,'x'):'')+'</div>';
-        h+='<div class="fsrc-sub">DT <b>'+vnd(o.rev)+'</b> · Chi <b>'+(o.cost?vnd(o.cost):COST)+'</b></div>';
+        h+='<div class="fsrc-sub">DT <b>'+vnd(o.rev)+'</b> · Chi <b>'+costTxt+'</b></div>';
         h+='</div>';
         return h;
       };
-      html+='<div class="fsrc-title">Hiệu quả doanh thu (ROAS) <span style="font-weight:400;color:var(--muted2)">— Doanh thu ÷ Chi phí quảng cáo thực (Meta / Google Ads API)</span></div>';
+      html+='<div class="fsrc-title">Hiệu quả doanh thu (ROAS) theo nguồn <span style="font-weight:400;color:var(--muted2)">— Doanh thu ÷ Chi phí quảng cáo thực (Meta / Google Ads API)</span></div>';
       html+='<div style="display:flex;gap:12px;flex-wrap:wrap">';
-      html+=roasCard('Facebook (chung)','var(--brand)',lq.fb);
-      html+=roasCard('Facebook Ads','var(--pink)',lq.fbads);
-      html+=roasCard('Zalo + Web (GG Ads)','var(--teal)',lq.gg);
+      html+=roasCard('FB Ads','var(--pink)',lq.fbads);
+      html+=roasCard('GG Ads (Zalo+Web)','var(--brand)',lq.gg);
+      html+=roasCard('Nguồn tự nhiên','var(--teal)',lq.organic,'— (không ads)');
       html+='</div>';
     }
     document.getElementById('leadFunnelBody').innerHTML=html;
     var noteEl=document.getElementById('leadFunnelNote');
-    noteEl.innerHTML='<b>Lượt khách (L)</b>: FB+IG+Zalo+Web · <b>Lead tiềm năng</b> = L4+L5, khớp field "Tổng Lead tiềm năng" của Lark · <b>Lead → tiềm năng (%)</b> đo lượng, KHÔNG phải tỷ lệ chốt — FB Ads có % này thấp hơn do lượng lead thô rất lớn (nhiều tương tác nhẹ chưa đủ điều kiện). <b>Lead theo nguồn</b> chia 3 phần tách biệt cộng lại = Tổng: Facebook Ads (lead gắn ads) · Zalo + Web (Lark gọi "GG Ads" dù không phải chi Google Ads) · Organic (còn lại, chủ yếu FB+IG không ads). <b>Tỷ lệ chốt theo nhóm</b> = L5 (đã chốt) ÷ (L4+L5) — riêng Facebook Ads được tự tính cộng dồn từ dữ liệu chi tiết (Lark không đưa số này vào bảng tổng hợp tháng), Facebook (FB+IG) là cả kênh gộp theo đúng field Lark. Đã đối chiếu khớp 8/8 số lượng với báo cáo Lark; 3 tỷ lệ chốt còn lại lệch ~1 điểm vì Lark tự tính trung bình ngày không nhất quán giữa các thẻ.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead.':'');
+    noteEl.innerHTML='<b>Lượt khách (L)</b>: FB+IG+Zalo+Web · <b>Lead tiềm năng</b> = L4+L5, khớp field "Tổng Lead tiềm năng" của Lark · <b>Lead → tiềm năng (%)</b> đo lượng, KHÔNG phải tỷ lệ chốt — FB Ads có % này thấp hơn do lượng lead thô rất lớn (nhiều tương tác nhẹ chưa đủ điều kiện). <b>Lead theo nguồn</b> chia 3 phần tách biệt cộng lại = Tổng: Facebook Ads (lead gắn ads) · Zalo + Web (Lark gọi "GG Ads" dù không phải chi Google Ads) · Organic (còn lại, chủ yếu FB+IG không ads). <b>Tỷ lệ chốt theo nhóm</b> = L5 (đã chốt) ÷ (L4+L5) — riêng Facebook Ads được tự tính cộng dồn từ dữ liệu chi tiết (Lark không đưa số này vào bảng tổng hợp tháng), Facebook (FB+IG) là cả kênh gộp theo đúng field Lark. Đã đối chiếu khớp 8/8 số lượng với báo cáo Lark; 3 tỷ lệ chốt còn lại lệch ~1 điểm vì Lark tự tính trung bình ngày không nhất quán giữa các thẻ. <b>ROAS theo nguồn</b> phía dưới dùng đúng 3 nguồn này (FB Ads/GG Ads/Nguồn tự nhiên), khớp với tab "Theo kênh".'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead.':'');
   }
 
   function drawDonut(id,labels,vals,colors){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'doughnut',data:{labels:labels,datasets:[{data:vals,backgroundColor:colors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});}
