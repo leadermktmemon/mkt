@@ -17,7 +17,7 @@ if (!clientId || !clientSecret || !refreshToken || !developerToken || !loginCust
   process.exit(0);
 }
 
-const API_VERSION = cfg.apiVersion || "v18";
+const API_VERSION = cfg.apiVersion || "v21";
 const OUT = join(__dirname, "marketing-report", "dashboard", "google-ads-data.json");
 const noDash = (s) => String(s).replace(/-/g, "");
 
@@ -51,9 +51,10 @@ async function fetchAccountDaily(accessToken, customerId) {
     body: JSON.stringify({ query }),
   });
   const d = await r.json();
-  if (!Array.isArray(d)) {
-    // Loi tra ve dang object { error: {...} }, khong phai mang ket qua
-    throw new Error(JSON.stringify(d).slice(0, 300));
+  // Loi cung tra ve dang mang [{error:{...}}] giong ket qua thanh cong [{results:[...]}]
+  // -> phai kiem tra key "error" tren tung phan tu, khong the chi dua vao Array.isArray
+  if (!r.ok || !Array.isArray(d) || d.some(chunk => chunk.error)) {
+    throw new Error(JSON.stringify(d).slice(0, 400));
   }
   const rows = [];
   for (const chunk of d) rows.push(...(chunk.results || []));
