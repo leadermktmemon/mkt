@@ -1,6 +1,7 @@
 # Bí mật / token — KHÔNG đẩy lên GitHub
 nhanh.config.json
 meta.config.json
+google.config.json
 lark.config.json
 marketing-report/config.json
 .claude/settings.local.json
@@ -10,7 +11,7 @@ marketing-report/dashboard/.cache-raw.json
 nhanh-data/
 base-data.json
 base-data.csv
-# meta-data.json cần commit để giữ campaign data giữa các lần chạy cron
+# meta-data.json, google-ads-data.json cần commit để giữ dữ liệu giữa các lần chạy cron
 
 # Node
 node_modules/

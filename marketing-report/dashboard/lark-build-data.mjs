@@ -74,6 +74,12 @@ const metaByDay=metaRaw.daily||{};
 const metaCampaigns=metaRaw.campaignDays||[];
 console.log(`Meta Ads: ${Object.keys(metaByDay).length} ngày dữ liệu${Object.keys(metaByDay).length===0?" (chạy meta-fetch.mjs trước để có dữ liệu)":""}. Campaigns: ${metaCampaigns.length}`);
 
+// Chi phi Google Ads theo ngay (do google-ads-fetch.mjs tao truoc, neu co) — dung cho ROAS nhom "GG Ads" (Zalo+Web)
+const gadsPath=join(__dirname,"google-ads-data.json");
+const gadsRaw=existsSync(gadsPath)?JSON.parse(readFileSync(gadsPath,"utf8")):{};
+const gadsByDay=gadsRaw.daily||{};
+console.log(`Google Ads: ${Object.keys(gadsByDay).length} ngày dữ liệu${Object.keys(gadsByDay).length===0?" (chạy google-ads-fetch.mjs trước để có dữ liệu)":""}.`);
+
 const dayMap={};
 function ensure(day){return dayMap[day]??={online:{},onlineRev:0,online100:0,onlineOrders:0,onlineProducts:0,onlineTarget:0,fbAds:0,ggAds:0,social:0,brands:{},bc:{},store:{},storeRev:0,storeOnline:0,storeTarget:0,custIn:0,custBuy:0,memonRev:0,
   leadRaw:0,leadQual:0,leadL4:0,leadFB:0,leadL4FB:0,leadFBAds:0,leadL4FBAds:0,
@@ -139,7 +145,8 @@ const daily=days.map(day=>{const D=dayMap[day];
     leadL5FB:round(D.leadL5FB),leadIG:round(D.leadIG),leadL4IG:round(D.leadL4IG),leadL5IG:round(D.leadL5IG),
     leadZalo:round(D.leadZalo),leadL4Zalo:round(D.leadL4Zalo),leadL5Zalo:round(D.leadL5Zalo),
     leadWeb:round(D.leadWeb),leadL5Web:round(D.leadL5Web),leadL5FBAds:round(D.leadL5FBAds),
-    metaFb:md.facebook||0,metaIg:md.instagram||0,metaTotal:md.total||0,metaIgPixelRev:Math.round(md.igPurchaseValue||0)};
+    metaFb:md.facebook||0,metaIg:md.instagram||0,metaTotal:md.total||0,metaIgPixelRev:Math.round(md.igPurchaseValue||0),
+    googleAds:round(gadsByDay[day]||0)};
 });
 const channels=Object.entries(channelTotals).sort((a,b)=>b[1]-a[1]).map(([n])=>n);
 const stores=Object.entries(storeTotals).filter(([,v])=>v>0).sort((a,b)=>b[1]-a[1]).map(([n])=>n);

@@ -26,6 +26,7 @@ jobs:
           LARK_CONFIG: ${{ secrets.LARK_CONFIG }}
           LARK_BASE_CONFIG: ${{ secrets.LARK_BASE_CONFIG }}
           META_CONFIG: ${{ secrets.META_CONFIG }}
+          GOOGLE_CONFIG: ${{ secrets.GOOGLE_CONFIG }}
         run: |
           printf '%s' "$LARK_BASE_CONFIG" > lark.config.json
           printf '%s' "$LARK_CONFIG" > marketing-report/config.json
@@ -35,6 +36,12 @@ jobs:
             echo "Meta config: đã tạo"
           else
             echo "Meta config: chưa có secret META_CONFIG, bỏ qua ads"
+          fi
+          if [ -n "$GOOGLE_CONFIG" ]; then
+            printf '%s' "$GOOGLE_CONFIG" > google.config.json
+            echo "Google Ads config: đã tạo"
+          else
+            echo "Google Ads config: chưa có secret GOOGLE_CONFIG, bỏ qua"
           fi
 
       - name: Kéo chi phí Meta Ads (08h VN = cron 01:00 UTC, hoặc chạy tay)
@@ -50,6 +57,20 @@ jobs:
             fi
           else
             echo "Bỏ qua Meta fetch (chưa có meta.config.json)"
+          fi
+
+      - name: Kéo chi phí Google Ads (08h VN = cron 01:00 UTC, hoặc chạy tay)
+        run: |
+          if [ -f google.config.json ]; then
+            SCHEDULE="${{ github.event.schedule }}"
+            if [ "$SCHEDULE" = "0 1 * * *" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "Kéo Google Ads (trigger: ${SCHEDULE:-workflow_dispatch})..."
+              node google-ads-fetch.mjs
+            else
+              echo "Bỏ qua Google Ads fetch (trigger: ${SCHEDULE:-unknown})"
+            fi
+          else
+            echo "Bỏ qua Google Ads fetch (chưa có google.config.json)"
           fi
 
       - name: Tổng hợp dữ liệu từ Base Lark (Sales Online + Cửa hàng)
@@ -100,8 +121,9 @@ jobs:
           git fetch origin main
           git reset --soft origin/main
           git add marketing-report/dashboard/data.js marketing-report/dashboard/data.json marketing-report/dashboard/thumbs
-          # meta-data.json: commit khi co (chi co sau khi meta-fetch chay luc 08h VN)
+          # meta-data.json, google-ads-data.json: commit khi co (chi co sau khi fetch chay luc 08h VN)
           git add marketing-report/dashboard/meta-data.json 2>/dev/null || true
+          git add marketing-report/dashboard/google-ads-data.json 2>/dev/null || true
           git diff --cached --quiet && echo "Không có thay đổi, bỏ qua push" && exit 0
           git commit -m "chore: cap nhat du lieu dashboard"
           git push

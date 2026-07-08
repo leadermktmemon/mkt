@@ -376,6 +376,10 @@
     var fbTotSlice=0;slice.forEach(function(d){fbTotSlice+=(d.online&&d.online['Facebook']?d.online['Facebook'].rev:0);});
     var fbTotPrev=0;prev.forEach(function(d){fbTotPrev+=(d.online&&d.online['Facebook']?d.online['Facebook'].rev:0);});
     var fbRevAll=fbTotSlice;
+    // DT nhom "GG Ads" (= Zalo + Web, dung quy uoc lead) cho ROAS — chi phi lay tu Google Ads API (googleAds field)
+    function zaloWebRev(sl){var r=0;sl.forEach(function(d){r+=(d.online&&d.online['Zalo']?d.online['Zalo'].rev:0)+(d.online&&d.online['Website']?d.online['Website'].rev:0);});return r;}
+    var ggRevSlice=zaloWebRev(slice),ggRevPrev=zaloWebRev(prev);
+    var ggCostSlice=sumF(slice,'googleAds'),ggCostPrev=sumF(prev,'googleAds');
     var P={grid2:document.querySelector('.grid2'),store:document.getElementById('storePanel'),campaign:document.getElementById('campaignPanel'),trend:document.getElementById('trendPanel'),lead:document.getElementById('leadFunnelPanel')};
     P.grid2.style.display='grid';P.store.style.display='none';P.campaign.style.display='none';P.trend.style.display='block';P.lead.style.display='none';
     var cards=[],keys=[],valFn=function(){return {};},trendTitle='Xu hướng',bdT='',mixT='',head='',rows='',mixL=[],mixV=[],mixC=[],leg='',bdNote='';
@@ -445,7 +449,8 @@
       // Ca 2 chia cho CUNG 1 chi phi Meta FB (MA.fb) vi Meta chi bao cao 1 muc chi cho vi tri FB.
       var lq={
         fb:{rev:fbTotSlice,revP:fbTotPrev,cost:MA.fb,costP:MAp.fb},
-        fbads:{rev:AD.fb,revP:ADp.fb,cost:MA.fb,costP:MAp.fb}
+        fbads:{rev:AD.fb,revP:ADp.fb,cost:MA.fb,costP:MAp.fb},
+        gg:{rev:ggRevSlice,revP:ggRevPrev,cost:ggCostSlice,costP:ggCostPrev}
       };
       renderLeadFunnel(P.lead,leadRaw,leadQual,leadRawP,leadQualP,slice,srcNow,srcPrev,lq);
       keys=['Online','Cửa hàng'];valFn=function(d){return {Online:d.onlineRev||0,'Cửa hàng':(d.storeRev||0)+(d.storeOnline||0)};};
@@ -785,7 +790,7 @@
         {title:'Instagram',color:'#D4537E',main:vnd(igRev3)+growBadge(igRev3,igRevP3)+yoyBadge(igRev3,yoy.length?(function(){var r=0;yoy.forEach(function(d){r+=(d.online&&d.online['Instagram']?d.online['Instagram'].rev:0);});return r;})():0),sub:MA.ig?(MA.igPixelRev?'ROAS pixel '+roasFmt(MA.igPixelRev,MA.ig):'ROAS kênh '+roasFmt(igRev3,MA.ig)):'chờ chi phí',metrics:[
           m('Chi phí Meta IG',MA.ig?vnd(MA.ig):COST,!MA.ig),m('ROAS (pixel)',MA.igPixelRev?roasFmt(MA.igPixelRev,MA.ig):'—',!MA.igPixelRev),m('DT kênh IG',vnd(igRev3))]},
         {title:'Zalo',color:'#1D9E75',main:vnd(zRev3)+growBadge(zRev3,zRevP3)+yoyBadge(zRev3,yoy.length?(function(){var r=0;yoy.forEach(function(d){r+=(d.online&&d.online['Zalo']?d.online['Zalo'].rev:0);});return r;})():0),sub:Math.round(zRev3/(on||1)*100)+'% online',metrics:[
-          m('Chi phí','— (Google Ads sau)',1),m('ROAS','∞ (0 spend)',0)]},
+          m('Chi phí Google Ads (gộp Zalo+Web)',ggCostSlice?vnd(ggCostSlice):COST,!ggCostSlice),m('ROAS (Zalo+Web)',ggCostSlice?roasFmt(ggRevSlice,ggCostSlice):'—',!ggCostSlice)]},
       ];
       keys=['FB Ads (DT quy về)','Instagram','Zalo','Website','Tự nhiên/Viral','Bán lẻ NK'];
       valFn=function(d){return{'FB Ads (DT quy về)':d.fbAds||0,'Instagram':d.online&&d.online['Instagram']?d.online['Instagram'].rev:0,'Zalo':d.online&&d.online['Zalo']?d.online['Zalo'].rev:0,'Website':d.online&&d.online['Website']?d.online['Website'].rev:0,'Tự nhiên/Viral':d.social||0,'Bán lẻ NK':d.online&&d.online['Bán lẻ NK']?d.online['Bán lẻ NK'].rev:0};};
@@ -793,7 +798,7 @@
       var chanRows3=[
         {name:'FB Ads (DT quy về)',rev:AD.fb,revP:ADp.fb,cost:MA.fb,roas:MA.fb&&fbRevAll3?fbRevAll3/MA.fb:null,col:'#378ADD'},
         {name:'Instagram',rev:igRev3,revP:igRevP3,cost:MA.ig,roas:MA.ig&&MA.igPixelRev?MA.igPixelRev/MA.ig:null,col:'#D4537E'},
-        {name:'Zalo',rev:zRev3,revP:zRevP3,cost:0,roas:null,col:'#1D9E75'},
+        {name:'Zalo (+ chi phí GG Ads gộp Web)',rev:zRev3,revP:zRevP3,cost:ggCostSlice,roas:ggCostSlice?ggRevSlice/ggCostSlice:null,col:'#1D9E75'},
         {name:'Website',rev:wRev3,revP:wRevP3,cost:0,roas:null,col:'#7F77DD'},
         {name:'Social tự nhiên',rev:AD.organic,revP:ADp.organic,cost:0,roas:null,col:'#888780',noAds:true},
         {name:'Bán lẻ NK',rev:blRev3,revP:blRevP3,cost:0,roas:null,col:'#BA7517'},
@@ -813,7 +818,7 @@
       mixV=[AD.fb,igRev3,zRev3,wRev3,AD.organic,blRev3];
       mixC=['#378ADD','#D4537E','#1D9E75','#7F77DD','#888780','#BA7517'];
       leg=mixL.map(function(l,i){return '<span><span class="dot" style="background:'+mixC[i]+'"></span>'+l+'</span>';}).join('');
-      bdNote='ROAS Facebook = DT kênh Messenger (tất cả đơn chốt qua Facebook inbox) ÷ chi phí Meta FB. Zalo không tính vào Facebook vì nguồn Zalo đến từ Website. Tab Campaign dùng pixel Meta (thuần ads). ROAS IG = doanh thu pixel Meta ÷ chi phí IG.';
+      bdNote='ROAS Facebook = DT kênh Messenger (tất cả đơn chốt qua Facebook inbox) ÷ chi phí Meta FB. Zalo không tính vào Facebook vì nguồn Zalo đến từ Website. ROAS Zalo dùng chi phí Google Ads GỘP CHUNG với Website (quy ước "GG Ads" = Zalo+Web, không tách được theo kênh). Tab Campaign dùng pixel Meta (thuần ads). ROAS IG = doanh thu pixel Meta ÷ chi phí IG.';
     }
 
     // ---- The so sanh tach biet ----
@@ -928,14 +933,15 @@
         h+='<div class="fsrc-head"><span class="fsrc-dot" style="background:'+col+'"></span>'+title+'</div>';
         h+='<div class="fsrc-val" style="color:'+roasCol+'">'+roasTxt+'</div>';
         h+='<div class="fsrc-lbl">ROAS '+(roasP&&roas?chip(roas-roasP,'x'):'')+'</div>';
-        h+='<div class="fsrc-sub">DT <b>'+vnd(o.rev)+'</b> · Chi <b>'+(o.cost?vnd(o.cost):'—')+'</b></div>';
+        h+='<div class="fsrc-sub">DT <b>'+vnd(o.rev)+'</b> · Chi <b>'+(o.cost?vnd(o.cost):COST)+'</b></div>';
         h+='</div>';
         return h;
       };
-      html+='<div class="fsrc-title">Hiệu quả doanh thu Facebook (ROAS) <span style="font-weight:400;color:var(--muted2)">— Doanh thu ÷ Chi phí Meta FB</span></div>';
+      html+='<div class="fsrc-title">Hiệu quả doanh thu (ROAS) <span style="font-weight:400;color:var(--muted2)">— Doanh thu ÷ Chi phí quảng cáo thực (Meta / Google Ads API)</span></div>';
       html+='<div style="display:flex;gap:12px;flex-wrap:wrap">';
       html+=roasCard('Facebook (chung)','var(--brand)',lq.fb);
       html+=roasCard('Facebook Ads','var(--pink)',lq.fbads);
+      html+=roasCard('Zalo + Web (GG Ads)','var(--teal)',lq.gg);
       html+='</div>';
     }
     document.getElementById('leadFunnelBody').innerHTML=html;

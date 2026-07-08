@@ -1,0 +1,19 @@
+{
+  "apiVersion": "v18",
+  "developerToken": "DIEN_DEVELOPER_TOKEN_TU_API_CENTER",
+  "clientId": "DIEN_OAUTH_CLIENT_ID.apps.googleusercontent.com",
+  "clientSecret": "DIEN_OAUTH_CLIENT_SECRET",
+  "refreshToken": "DIEN_REFRESH_TOKEN_SINH_1_LAN_QUA_OAUTH",
+  "loginCustomerId": "DIEN_CUSTOMER_ID_CUA_MCC_vd_1234567890",
+
+  "_ghi_chu": "loginCustomerId la ID tai khoan QUAN LY (MCC), khong phai tai khoan con. accounts la 7 tai khoan con lay tu anh chup (bo dau gach ngang hoac giu nguyen, script tu xu ly).",
+  "accounts": [
+    { "id": "4325591642", "name": "Bemori.vn" },
+    { "id": "1091036372", "name": "CÒN 14tr" },
+    { "id": "5309847705", "name": "Gaubongonline.com.vn" },
+    { "id": "4614917283", "name": "Gaubongonline.vn" },
+    { "id": "8365870352", "name": "Memon.vn" },
+    { "id": "5199854437", "name": "ngoinhagaubong.com" },
+    { "id": "8116275071", "name": "Teddy.vn" }
+  ]
+}
