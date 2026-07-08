@@ -373,9 +373,6 @@
     var onPrev=sumOnline(prev),stPrev=sumStore(prev),mktCHPrev=sumStoreOnline(prev);
     var MA=metaAgg(slice),MAp=metaAgg(prev),AD=adsAgg(slice),ADp=adsAgg(prev);
     var yoy=yoySliceFor(period);var onYoY=sumOnline(yoy),stYoY=sumStore(yoy),stOnlineYoY=sumStoreOnline(yoy),ADyoy=adsAgg(yoy);
-    var fbTotSlice=0;slice.forEach(function(d){fbTotSlice+=(d.online&&d.online['Facebook']?d.online['Facebook'].rev:0);});
-    var fbTotPrev=0;prev.forEach(function(d){fbTotPrev+=(d.online&&d.online['Facebook']?d.online['Facebook'].rev:0);});
-    var fbRevAll=fbTotSlice;
     // DT nhom "GG Ads" (= Zalo + Web, dung quy uoc lead) cho ROAS — chi phi lay tu Google Ads API (googleAds field)
     function zaloWebRev(sl){var r=0;sl.forEach(function(d){r+=(d.online&&d.online['Zalo']?d.online['Zalo'].rev:0)+(d.online&&d.online['Website']?d.online['Website'].rev:0);});return r;}
     var ggRevSlice=zaloWebRev(slice),ggRevPrev=zaloWebRev(prev);
