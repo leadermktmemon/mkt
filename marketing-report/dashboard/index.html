@@ -373,9 +373,6 @@
     var onPrev=sumOnline(prev),stPrev=sumStore(prev),mktCHPrev=sumStoreOnline(prev);
     var MA=metaAgg(slice),MAp=metaAgg(prev),AD=adsAgg(slice),ADp=adsAgg(prev);
     var yoy=yoySliceFor(period);var onYoY=sumOnline(yoy),stYoY=sumStore(yoy),stOnlineYoY=sumStoreOnline(yoy),ADyoy=adsAgg(yoy);
-    var fbTotSlice=0;slice.forEach(function(d){fbTotSlice+=(d.online&&d.online['Facebook']?d.online['Facebook'].rev:0);});
-    var fbTotPrev=0;prev.forEach(function(d){fbTotPrev+=(d.online&&d.online['Facebook']?d.online['Facebook'].rev:0);});
-    var fbRevAll=fbTotSlice;
     // DT nhom "GG Ads" (= Zalo + Web, dung quy uoc lead) cho ROAS — chi phi lay tu Google Ads API (googleAds field)
     function zaloWebRev(sl){var r=0;sl.forEach(function(d){r+=(d.online&&d.online['Zalo']?d.online['Zalo'].rev:0)+(d.online&&d.online['Website']?d.online['Website'].rev:0);});return r;}
     var ggRevSlice=zaloWebRev(slice),ggRevPrev=zaloWebRev(prev);
@@ -444,13 +441,12 @@
           organic:{L:OrgL,TN:OrgTN,close:closeOrg}};
       }
       var srcNow=srcBreakdown(slice),srcPrev=srcBreakdown(prev);
-      // ROAS theo nguon: Facebook (chung) dung DT kenh Messenger (fbTotSlice, ke ca organic);
-      // Facebook Ads dung DT quy ve ads (AD.fb, "Doanh thu FB ADS" tu Lark) — tach rieng, KHONG cong don.
-      // Ca 2 chia cho CUNG 1 chi phi Meta FB (MA.fb) vi Meta chi bao cao 1 muc chi cho vi tri FB.
+      // ROAS theo 3 nguon quy uoc: Facebook Ads / GG ads (Zalo+Web) / Tu nhien (con lai = on - AD.fb - ggRevSlice)
+      var orgRevSliceLQ=on-AD.fb-ggRevSlice, orgRevPrevLQ=onPrev-ADp.fb-ggRevPrev;
       var lq={
-        fb:{rev:fbTotSlice,revP:fbTotPrev,cost:MA.fb,costP:MAp.fb},
         fbads:{rev:AD.fb,revP:ADp.fb,cost:MA.fb,costP:MAp.fb},
-        gg:{rev:ggRevSlice,revP:ggRevPrev,cost:ggCostSlice,costP:ggCostPrev}
+        gg:{rev:ggRevSlice,revP:ggRevPrev,cost:ggCostSlice,costP:ggCostPrev},
+        organic:{rev:orgRevSliceLQ,revP:orgRevPrevLQ,cost:0,costP:0}
       };
       renderLeadFunnel(P.lead,leadRaw,leadQual,leadRawP,leadQualP,slice,srcNow,srcPrev,lq);
       keys=['Online','Cửa hàng'];valFn=function(d){return {Online:d.onlineRev||0,'Cửa hàng':(d.storeRev||0)+(d.storeOnline||0)};};
@@ -775,50 +771,43 @@
       trendTitle='Chi phí Meta theo ngày';
     }
     else {
-      // ===== NHOM 3: Theo kenh — hieu qua tung kenh =====
-      var chRaw3={};slice.forEach(function(d){for(var k in d.online)chRaw3[k]=(chRaw3[k]||0)+d.online[k].rev;});
-      var chRawP3={};prev.forEach(function(d){for(var k in d.online)chRawP3[k]=(chRawP3[k]||0)+d.online[k].rev;});
-      var fbTot3=chRaw3['Facebook']||0,fbTotP3=chRawP3['Facebook']||0;
-      var fbRevAll3=fbTot3;
-      var igRev3=chRaw3['Instagram']||0,igRevP3=chRawP3['Instagram']||0;
-      var zRev3=chRaw3['Zalo']||0,zRevP3=chRawP3['Zalo']||0;
-      var wRev3=chRaw3['Website']||0,wRevP3=chRawP3['Website']||0;
-      var blRev3=chRaw3['Bán lẻ NK']||0,blRevP3=chRawP3['Bán lẻ NK']||0;
+      // ===== NHOM 3: Theo kenh — dung DUNG 1 quy uoc voi panel Lead (tab Doanh so):
+      //   Facebook Ads = DT quy ve ads (AD.fb, "Doanh thu FB ADS" tu Lark)
+      //   GG ads       = Zalo + Web gop lai (Lark dat ten "GG Ads" du khong phai chi Google that)
+      //   Tu nhien     = Tong doanh thu Online - Facebook Ads - GG ads (phan con lai: FB/IG chot tin nhan
+      //     khong gan ads, Ban le NK, v.v.)
+      var orgRevSlice3=on-AD.fb-ggRevSlice, orgRevPrev3=onPrev-ADp.fb-ggRevPrev;
+      var ggRevYoY3=zaloWebRev(yoy), orgRevYoY3=onYoY-ADyoy.fb-ggRevYoY3;
       cards=[
-        {title:'Quảng cáo Facebook',color:'#378ADD',main:vnd(AD.fb)+growBadge(AD.fb,ADp.fb)+yoyBadge(AD.fb,ADyoy.fb),sub:MA.fb?'ROAS '+roasFmt(fbRevAll3,MA.fb):'chờ chi phí',metrics:[
-          m('Chi phí quảng cáo FB',MA.fb?vnd(MA.fb):COST,!MA.fb),m('ROAS Facebook (tổng)',MA.fb?roasFmt(fbRevAll3,MA.fb):'—',!MA.fb)]},
-        {title:'Instagram',color:'#D4537E',main:vnd(igRev3)+growBadge(igRev3,igRevP3)+yoyBadge(igRev3,yoy.length?(function(){var r=0;yoy.forEach(function(d){r+=(d.online&&d.online['Instagram']?d.online['Instagram'].rev:0);});return r;})():0),sub:MA.ig?(MA.igPixelRev?'ROAS pixel '+roasFmt(MA.igPixelRev,MA.ig):'ROAS kênh '+roasFmt(igRev3,MA.ig)):'chờ chi phí',metrics:[
-          m('Chi phí Meta IG',MA.ig?vnd(MA.ig):COST,!MA.ig),m('ROAS (pixel)',MA.igPixelRev?roasFmt(MA.igPixelRev,MA.ig):'—',!MA.igPixelRev),m('DT kênh IG',vnd(igRev3))]},
-        {title:'Zalo',color:'#1D9E75',main:vnd(zRev3)+growBadge(zRev3,zRevP3)+yoyBadge(zRev3,yoy.length?(function(){var r=0;yoy.forEach(function(d){r+=(d.online&&d.online['Zalo']?d.online['Zalo'].rev:0);});return r;})():0),sub:Math.round(zRev3/(on||1)*100)+'% online',metrics:[
-          m('Chi phí Google Ads (gộp Zalo+Web)',ggCostSlice?vnd(ggCostSlice):COST,!ggCostSlice),m('ROAS (Zalo+Web)',ggCostSlice?roasFmt(ggRevSlice,ggCostSlice):'—',!ggCostSlice)]},
+        {title:'Facebook Ads',color:'#F2709E',main:vnd(AD.fb)+growBadge(AD.fb,ADp.fb)+yoyBadge(AD.fb,ADyoy.fb),sub:MA.fb?'ROAS '+roasFmt(AD.fb,MA.fb):'chờ chi phí',metrics:[
+          m('Chi phí quảng cáo FB',MA.fb?vnd(MA.fb):COST,!MA.fb),m('ROAS',MA.fb?roasFmt(AD.fb,MA.fb):'—',!MA.fb)]},
+        {title:'GG ads',color:'#15A9D6',main:vnd(ggRevSlice)+growBadge(ggRevSlice,ggRevPrev)+yoyBadge(ggRevSlice,ggRevYoY3),sub:ggCostSlice?'ROAS '+roasFmt(ggRevSlice,ggCostSlice):'chờ chi phí',metrics:[
+          m('Chi phí Google Ads',ggCostSlice?vnd(ggCostSlice):COST,!ggCostSlice),m('ROAS',ggCostSlice?roasFmt(ggRevSlice,ggCostSlice):'—',!ggCostSlice)]},
+        {title:'Tự nhiên',color:'#17A97A',main:vnd(orgRevSlice3)+growBadge(orgRevSlice3,orgRevPrev3)+yoyBadge(orgRevSlice3,orgRevYoY3),sub:Math.round(orgRevSlice3/(on||1)*100)+'% online',metrics:[
+          m('Chi phí','— (không ads)',1),m('ROAS','— (không ads)',1)]},
       ];
-      keys=['FB Ads (DT quy về)','Instagram','Zalo','Website','Tự nhiên/Viral','Bán lẻ NK'];
-      valFn=function(d){return{'FB Ads (DT quy về)':d.fbAds||0,'Instagram':d.online&&d.online['Instagram']?d.online['Instagram'].rev:0,'Zalo':d.online&&d.online['Zalo']?d.online['Zalo'].rev:0,'Website':d.online&&d.online['Website']?d.online['Website'].rev:0,'Tự nhiên/Viral':d.social||0,'Bán lẻ NK':d.online&&d.online['Bán lẻ NK']?d.online['Bán lẻ NK'].rev:0};};
-      trendTitle='Xu hướng theo kênh';
+      keys=['Facebook Ads','GG ads','Tự nhiên'];
+      valFn=function(d){var ggd=(d.online&&d.online['Zalo']?d.online['Zalo'].rev:0)+(d.online&&d.online['Website']?d.online['Website'].rev:0);var t=d.onlineRev||0;var fba=d.fbAds||0;return{'Facebook Ads':fba,'GG ads':ggd,'Tự nhiên':t-fba-ggd};};
+      trendTitle='Xu hướng theo nguồn (Facebook Ads / GG ads / Tự nhiên)';
       var chanRows3=[
-        {name:'FB Ads (DT quy về)',rev:AD.fb,revP:ADp.fb,cost:MA.fb,roas:MA.fb&&fbRevAll3?fbRevAll3/MA.fb:null,col:'#378ADD'},
-        {name:'Instagram',rev:igRev3,revP:igRevP3,cost:MA.ig,roas:MA.ig&&MA.igPixelRev?MA.igPixelRev/MA.ig:null,col:'#D4537E'},
-        {name:'Zalo (+ chi phí GG Ads gộp Web)',rev:zRev3,revP:zRevP3,cost:ggCostSlice,roas:ggCostSlice?ggRevSlice/ggCostSlice:null,col:'#1D9E75'},
-        {name:'Website',rev:wRev3,revP:wRevP3,cost:0,roas:null,col:'#7F77DD'},
-        {name:'Social tự nhiên',rev:AD.organic,revP:ADp.organic,cost:0,roas:null,col:'#888780',noAds:true},
-        {name:'Bán lẻ NK',rev:blRev3,revP:blRevP3,cost:0,roas:null,col:'#BA7517'},
-        {name:'Facebook (chốt tin nhắn)',rev:fbTot3,revP:fbTotP3,cost:0,roas:null,col:'#a0c4f5',ital:true,noAds:true},
+        {name:'Facebook Ads',rev:AD.fb,revP:ADp.fb,cost:MA.fb,roas:MA.fb?AD.fb/MA.fb:null,col:'#F2709E'},
+        {name:'GG ads',rev:ggRevSlice,revP:ggRevPrev,cost:ggCostSlice,roas:ggCostSlice?ggRevSlice/ggCostSlice:null,col:'#15A9D6'},
+        {name:'Tự nhiên',rev:orgRevSlice3,revP:orgRevPrev3,cost:0,roas:null,col:'#17A97A',noAds:true},
       ];
-      chanRows3.sort(function(a,b){return b.rev-a.rev;});
       var chTot3=on||1;
-      head='<tr><th>Kênh</th><th>Doanh thu</th><th>vs kỳ trước</th><th>Chi phí</th><th>ROAS</th><th>%</th></tr>';
-      rows=chanRows3.map(function(r){var rs=r.roas!=null?(r.roas>=10?Math.round(r.roas)+'x':r.roas.toFixed(1).replace(/\.0$/,'')+'x'):'—';var rc=r.roas!=null?(r.roas>=5?'#15803d':r.roas>=2?'#378ADD':'#dc2626'):'';return '<tr'+(r.ital?' style="opacity:0.6"':'')+'>'+
+      head='<tr><th>Nguồn</th><th>Doanh thu</th><th>vs kỳ trước</th><th>Chi phí</th><th>ROAS</th><th>%</th></tr>';
+      rows=chanRows3.map(function(r){var rs=r.roas!=null?(r.roas>=10?Math.round(r.roas)+'x':r.roas.toFixed(1).replace(/\.0$/,'')+'x'):'—';var rc=r.roas!=null?(r.roas>=5?'#15803d':r.roas>=2?'#378ADD':'#dc2626'):'';return '<tr>'+
         '<td class="name"><span class="dot" style="background:'+r.col+'"></span>'+r.name+'</td>'+
         '<td>'+vnd(r.rev)+'</td><td>'+growBadge(r.rev,r.revP)+'</td>'+
         '<td'+(r.cost?'':' class="mut"')+'>'+(r.cost?vnd(r.cost):r.noAds?'—':COST)+'</td>'+
         '<td'+(r.roas==null?' class="mut"':' style="font-weight:600;color:'+rc+'"')+'>'+rs+'</td>'+
         '<td>'+Math.round(r.rev/chTot3*100)+'%</td></tr>';}).join('');
-      bdT='Hiệu quả theo kênh';mixT='Cơ cấu kênh Online';
-      mixL=['FB Ads (DT quy về)','Instagram','Zalo','Website','Tự nhiên/Viral','Bán lẻ NK'];
-      mixV=[AD.fb,igRev3,zRev3,wRev3,AD.organic,blRev3];
-      mixC=['#378ADD','#D4537E','#1D9E75','#7F77DD','#888780','#BA7517'];
+      bdT='Hiệu quả theo nguồn';mixT='Cơ cấu nguồn Online';
+      mixL=['Facebook Ads','GG ads','Tự nhiên'];
+      mixV=[AD.fb,ggRevSlice,orgRevSlice3];
+      mixC=['#F2709E','#15A9D6','#17A97A'];
       leg=mixL.map(function(l,i){return '<span><span class="dot" style="background:'+mixC[i]+'"></span>'+l+'</span>';}).join('');
-      bdNote='ROAS Facebook = DT kênh Messenger (tất cả đơn chốt qua Facebook inbox) ÷ chi phí Meta FB. Zalo không tính vào Facebook vì nguồn Zalo đến từ Website. ROAS Zalo dùng chi phí Google Ads GỘP CHUNG với Website (quy ước "GG Ads" = Zalo+Web, không tách được theo kênh). Tab Campaign dùng pixel Meta (thuần ads). ROAS IG = doanh thu pixel Meta ÷ chi phí IG.';
+      bdNote='Quy ước 3 nguồn (khớp panel Lead ở tab Doanh số): Facebook Ads = DT quy về ads (team tự theo dõi) ÷ chi phí Meta FB thực. GG ads = DT kênh Zalo + Website gộp lại (Lark đặt tên "GG Ads" dù không phải chi Google Ads thật) ÷ chi phí Google Ads thực. Tự nhiên = Tổng doanh thu Online − Facebook Ads − GG ads (gồm FB/IG chốt tin nhắn không gắn ads, bán lẻ NK...), không có chi phí quảng cáo nên không tính ROAS.';
     }
 
     // ---- The so sanh tach biet ----
@@ -901,11 +890,11 @@
       h+='</div></div>';
       return h;
     };
-    html+='<div class="fsrc-title">Lead theo nguồn <span style="font-weight:400;color:var(--muted2)">— khớp "BC Tỷ lệ chuyển đổi" của Lark (FB Ads + Zalo/Web + Organic = Tổng)</span></div>';
+    html+='<div class="fsrc-title">Lead theo nguồn <span style="font-weight:400;color:var(--muted2)">— khớp "BC Tỷ lệ chuyển đổi" của Lark (Facebook Ads + GG ads + Tự nhiên = Tổng)</span></div>';
     html+='<div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px">';
     html+=volCard('Facebook Ads','','var(--pink)',srcNow.fbads,srcPrev.fbads);
-    html+=volCard('Zalo + Web','(Lark gọi "GG Ads")','var(--brand)',srcNow.ggads,srcPrev.ggads);
-    html+=volCard('Organic (FB+IG)','','var(--teal)',srcNow.organic,srcPrev.organic);
+    html+=volCard('GG ads','(= Zalo + Web)','var(--brand)',srcNow.ggads,srcPrev.ggads);
+    html+=volCard('Tự nhiên','(chủ yếu FB+IG)','var(--teal)',srcNow.organic,srcPrev.organic);
     html+='</div>';
     // ---- Ty le chot theo nhom: DUNG NHOM cua Lark cho chi so nay (FB = ca kenh FB+IG, khong rieng Ads) ----
     var closeChip=function(title,now,prev){
@@ -920,14 +909,14 @@
     html+='<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px">';
     html+=closeChip('Facebook Ads',srcNow.closeFBAds,srcPrev.closeFBAds);
     html+=closeChip('Facebook (FB+IG)',srcNow.closeFB,srcPrev.closeFB);
-    html+=closeChip('Zalo + Web',srcNow.ggads.close,srcPrev.ggads.close);
-    html+=closeChip('Organic',srcNow.organic.close,srcPrev.organic.close);
+    html+=closeChip('GG ads',srcNow.ggads.close,srcPrev.ggads.close);
+    html+=closeChip('Tự nhiên',srcNow.organic.close,srcPrev.organic.close);
     html+='</div>';
-    // ---- ROAS Facebook: chung vs Ads — rieng, do hieu qua doanh thu (khac voi breakdown Lead o tren) ----
-    if(lq&&(lq.fb.cost||lq.fbads.cost||lq.fb.rev||lq.fbads.rev)){
-      var roasCard=function(title,col,o){
+    // ---- ROAS theo 3 nguon quy uoc: Facebook Ads / GG ads / Tu nhien ----
+    if(lq&&(lq.fbads.cost||lq.gg.cost||lq.fbads.rev||lq.gg.rev)){
+      var roasCard=function(title,col,o,noAdsTxt){
         var roas=o.cost?o.rev/o.cost:0, roasP=o.costP?o.revP/o.costP:0;
-        var roasTxt=o.cost?roasFmt(o.rev,o.cost):'—';
+        var roasTxt=o.cost?roasFmt(o.rev,o.cost):(noAdsTxt||'—');
         var roasCol=roas>=5?'var(--teal)':roas>=2?'var(--brand-dark)':(roas>0?'var(--red)':'var(--muted2)');
         var h='<div class="fsrc-card" style="min-width:220px;flex:0 1 260px">';
         h+='<div class="fsrc-head"><span class="fsrc-dot" style="background:'+col+'"></span>'+title+'</div>';
@@ -939,14 +928,14 @@
       };
       html+='<div class="fsrc-title">Hiệu quả doanh thu (ROAS) <span style="font-weight:400;color:var(--muted2)">— Doanh thu ÷ Chi phí quảng cáo thực (Meta / Google Ads API)</span></div>';
       html+='<div style="display:flex;gap:12px;flex-wrap:wrap">';
-      html+=roasCard('Facebook (chung)','var(--brand)',lq.fb);
       html+=roasCard('Facebook Ads','var(--pink)',lq.fbads);
-      html+=roasCard('Zalo + Web (GG Ads)','var(--teal)',lq.gg);
+      html+=roasCard('GG ads','var(--brand)',lq.gg);
+      html+=roasCard('Tự nhiên','var(--teal)',lq.organic,'— (không ads)');
       html+='</div>';
     }
     document.getElementById('leadFunnelBody').innerHTML=html;
     var noteEl=document.getElementById('leadFunnelNote');
-    noteEl.innerHTML='<b>Lượt khách (L)</b>: FB+IG+Zalo+Web · <b>Lead tiềm năng</b> = L4+L5, khớp field "Tổng Lead tiềm năng" của Lark · <b>Lead → tiềm năng (%)</b> đo lượng, KHÔNG phải tỷ lệ chốt — FB Ads có % này thấp hơn do lượng lead thô rất lớn (nhiều tương tác nhẹ chưa đủ điều kiện). <b>Lead theo nguồn</b> chia 3 phần tách biệt cộng lại = Tổng: Facebook Ads (lead gắn ads) · Zalo + Web (Lark gọi "GG Ads" dù không phải chi Google Ads) · Organic (còn lại, chủ yếu FB+IG không ads). <b>Tỷ lệ chốt theo nhóm</b> = L5 (đã chốt) ÷ (L4+L5) — riêng Facebook Ads được tự tính cộng dồn từ dữ liệu chi tiết (Lark không đưa số này vào bảng tổng hợp tháng), Facebook (FB+IG) là cả kênh gộp theo đúng field Lark. Đã đối chiếu khớp 8/8 số lượng với báo cáo Lark; 3 tỷ lệ chốt còn lại lệch ~1 điểm vì Lark tự tính trung bình ngày không nhất quán giữa các thẻ.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead.':'');
+    noteEl.innerHTML='<b>Lượt khách (L)</b>: FB+IG+Zalo+Web · <b>Lead tiềm năng</b> = L4+L5, khớp field "Tổng Lead tiềm năng" của Lark · <b>Lead → tiềm năng (%)</b> đo lượng, KHÔNG phải tỷ lệ chốt — FB Ads có % này thấp hơn do lượng lead thô rất lớn (nhiều tương tác nhẹ chưa đủ điều kiện). <b>Lead theo nguồn</b> chia 3 phần tách biệt cộng lại = Tổng: Facebook Ads (lead gắn ads) · GG ads (Lark gọi "GG Ads", thực chất = Zalo + Web) · Tự nhiên (còn lại, chủ yếu FB+IG không ads). <b>Tỷ lệ chốt theo nhóm</b> = L5 (đã chốt) ÷ (L4+L5) — riêng Facebook Ads được tự tính cộng dồn từ dữ liệu chi tiết (Lark không đưa số này vào bảng tổng hợp tháng), Facebook (FB+IG) là cả kênh gộp theo đúng field Lark. Đã đối chiếu khớp 8/8 số lượng với báo cáo Lark; 3 tỷ lệ chốt còn lại lệch ~1 điểm vì Lark tự tính trung bình ngày không nhất quán giữa các thẻ.'+(daysWithLead<slice.length?' ⚠ Một số ngày chưa nhập Lead.':'');
   }
 
   function drawDonut(id,labels,vals,colors){if(charts[id])charts[id].destroy();charts[id]=new Chart(document.getElementById(id),{type:'doughnut',data:{labels:labels,datasets:[{data:vals,backgroundColor:colors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.label+': '+full(c.parsed);}}}}}});}

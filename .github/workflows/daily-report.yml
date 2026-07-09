@@ -116,10 +116,21 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Fetch latest rồi reset HEAD về origin/main, giữ nguyên working tree (data.js vừa build)
-          # Tránh conflict khi có commit thủ công lên main song song với cron
+          # Luu tam cac file du lieu vua build ra ngoai working tree, roi HARD reset ve dung
+          # origin/main moi nhat (khong dung "reset --soft" nua - no giu index/working tree cu,
+          # nen cac file KHONG duoc build lai (vd index.html) se bi commit de lai ban CU neu
+          # co commit thu cong khac song song voi luc job checkout -> tung gay mat code sua tay).
+          mkdir -p /tmp/gen-data
+          cp marketing-report/dashboard/data.js marketing-report/dashboard/data.json /tmp/gen-data/ 2>/dev/null || true
+          cp marketing-report/dashboard/meta-data.json /tmp/gen-data/ 2>/dev/null || true
+          cp marketing-report/dashboard/google-ads-data.json /tmp/gen-data/ 2>/dev/null || true
+          cp -r marketing-report/dashboard/thumbs /tmp/gen-data/thumbs 2>/dev/null || true
           git fetch origin main
-          git reset --soft origin/main
+          git reset --hard origin/main
+          cp /tmp/gen-data/data.js /tmp/gen-data/data.json marketing-report/dashboard/ 2>/dev/null || true
+          cp /tmp/gen-data/meta-data.json marketing-report/dashboard/ 2>/dev/null || true
+          cp /tmp/gen-data/google-ads-data.json marketing-report/dashboard/ 2>/dev/null || true
+          cp -r /tmp/gen-data/thumbs marketing-report/dashboard/ 2>/dev/null || true
           git add marketing-report/dashboard/data.js marketing-report/dashboard/data.json marketing-report/dashboard/thumbs
           # meta-data.json, google-ads-data.json: commit khi co (chi co sau khi fetch chay luc 08h VN)
           git add marketing-report/dashboard/meta-data.json 2>/dev/null || true
