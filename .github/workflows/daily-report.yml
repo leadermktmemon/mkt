@@ -112,7 +112,7 @@ jobs:
             echo "Bỏ qua gửi Lark (trigger: ${SCHEDULE:-workflow_dispatch} — chỉ gửi đúng 09h VN)"
           fi
 
-      - name: Commit dữ liệu dashboard (để Cloudflare deploy)
+      - name: Commit dữ liệu dashboard
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -127,3 +127,16 @@ jobs:
           git diff --cached --quiet && echo "Không có thay đổi, bỏ qua push" && exit 0
           git commit -m "chore: cap nhat du lieu dashboard"
           git push
+
+      - name: Deploy Cloudflare Worker (dashboard + data mới nhất lên live)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: "34339de1274b70be28a237cf92d78d65"
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "Deploy Cloudflare Worker..."
+            cd cf-worker
+            npx wrangler deploy
+          else
+            echo "Bỏ qua deploy Cloudflare (chưa có secret CLOUDFLARE_API_TOKEN)"
+          fi
