@@ -120,9 +120,11 @@ for (const g of allGroups) await fetchOptGoals(g.label, g.token, g.accounts);
 console.log('\nKéo thumbnail + nội dung quảng cáo...');
 const campThumb = {};
 const campCreative = {};
+const campCreativeId = {}; // cid -> creative id, de sau nay xin thumbnail do phan giai cao
+const campToken = {}; // cid -> token dung de list no (de goi lai dung quyen truy cap)
 async function fetchThumbs(label, grpToken, accounts) {
   for (const acc of accounts) {
-    const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{image_url,picture}}}}', limit: '100', access_token: grpToken });
+    const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{id,thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{image_url,picture}}}}', limit: '100', access_token: grpToken });
     try {
       const rows = await pages(`${G}/act_${acc.id}/ads?${p}`);
       for (const a of rows) {
@@ -133,6 +135,7 @@ async function fetchThumbs(label, grpToken, accounts) {
           // thumbnail_url cho local download (nho, on dinh); image_url/link_data.picture la anh chat luong cao hon (CDN)
           const linkPicture = cr.object_story_spec?.link_data?.picture || '';
           if (cr.thumbnail_url || cr.image_url) campThumb[cid] = cr.thumbnail_url || cr.image_url;
+          if (cr.id) { campCreativeId[cid] = cr.id; campToken[cid] = grpToken; }
           // Lay anh carousel tu child_attachments (neu co)
           const kids = cr.object_story_spec?.link_data?.child_attachments || [];
           const carouselImgs = kids.map(k => k.image_url || k.picture || '').filter(Boolean);
@@ -151,6 +154,24 @@ async function fetchThumbs(label, grpToken, accounts) {
   }
 }
 for (const g of allGroups) await fetchThumbs(g.label, g.token, g.accounts);
+
+// ---- Xin lai thumbnail do phan giai cao hon (640px) ----
+// Luu y: thumbnail_width/height CHI duoc Meta ton trong khi goi truc tiep node creative
+// (/{creative_id}?fields=thumbnail_url&thumbnail_width=..), KHONG hoat dong khi xin qua
+// field long "creative{thumbnail_url}" tren edge /ads (da test thuc te, van tra ve p64x64).
+// Da so quang cao la boost bai viet co san (Click-to-Messenger) nen chi co thumbnail_url,
+// khong co image_url/link_data.picture -> buoc nay quan trong de anh trong modal khong vo net.
+console.log('\nXin lại thumbnail độ phân giải cao...');
+let hiResOk = 0, hiResFail = 0;
+for (const [cid, creativeId] of Object.entries(campCreativeId)) {
+  try {
+    const p = new URLSearchParams({ fields: 'thumbnail_url', thumbnail_width: '640', thumbnail_height: '640', access_token: campToken[cid] });
+    const r = await fetch(`${G}/${creativeId}?${p}`);
+    const d = await r.json();
+    if (d.thumbnail_url) { campThumb[cid] = d.thumbnail_url; hiResOk++; } else hiResFail++;
+  } catch { hiResFail++; }
+}
+console.log(`  Nâng cấp ${hiResOk} thumbnail, lỗi/bỏ qua ${hiResFail}`);
 
 // ---- Buoc 2: Chi phi theo ngay x campaign (30 ngay, time_increment=1) ----
 // CPM (=spend/impressions, deu cong don duoc) la tin hieu chinh phan biet Branding (CPM thap: hien thi rong/re)
