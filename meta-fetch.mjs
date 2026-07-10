@@ -122,7 +122,7 @@ const campThumb = {};
 const campCreative = {};
 async function fetchThumbs(label, grpToken, accounts) {
   for (const acc of accounts) {
-    const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{child_attachments{image_url,picture}}}}', limit: '100', access_token: grpToken });
+    const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{image_url,picture}}}}', limit: '100', access_token: grpToken });
     try {
       const rows = await pages(`${G}/act_${acc.id}/ads?${p}`);
       for (const a of rows) {
@@ -130,7 +130,8 @@ async function fetchThumbs(label, grpToken, accounts) {
         if (!cid) continue;
         // Uu tien ad ACTIVE; neu chua co thi lay tam ad bat ky
         if (!campThumb[cid] || a.effective_status === 'ACTIVE') {
-          // thumbnail_url cho local download (nho, on dinh); image_url la anh chat luong cao hon (CDN)
+          // thumbnail_url cho local download (nho, on dinh); image_url/link_data.picture la anh chat luong cao hon (CDN)
+          const linkPicture = cr.object_story_spec?.link_data?.picture || '';
           if (cr.thumbnail_url || cr.image_url) campThumb[cid] = cr.thumbnail_url || cr.image_url;
           // Lay anh carousel tu child_attachments (neu co)
           const kids = cr.object_story_spec?.link_data?.child_attachments || [];
@@ -140,7 +141,7 @@ async function fetchThumbs(label, grpToken, accounts) {
             body: cr.body || '',
             cta: cr.call_to_action_type || '',
             linkUrl: cr.link_url || '',
-            imageUrl: cr.image_url || '',   // anh chat luong cao dung trong modal
+            imageUrl: cr.image_url || linkPicture || '',   // anh chat luong cao dung trong modal (fallback link_data.picture khi thieu image_url)
             images: carouselImgs,            // tat ca anh carousel (CDN URL, khong download local)
           };
         }
