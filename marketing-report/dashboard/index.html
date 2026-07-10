@@ -535,8 +535,8 @@
       var creativeMap=D.creativeMap||{};
       var campMap={};
       filteredDays.forEach(function(r){
-        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',thumb:r.thumb||'',creative:creativeMap[r.id]||{},spend:0,impressions:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
-        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;if(r.optGoal)c.optGoal=r.optGoal;if(r.thumb)c.thumb=r.thumb;
+        if(!campMap[r.id])campMap[r.id]={id:r.id,name:r.name,account:r.account,status:r.status,objective:r.objective||'',optGoal:r.optGoal||'',thumb:r.thumb||'',creative:creativeMap[r.id]||{},spend:0,impressions:0,reach:0,clicks:0,engagement:0,messages:0,leads:0,purchases:0,purchaseValue:0};
+        var c=campMap[r.id];c.spend+=r.spend;c.impressions+=r.impressions;c.reach+=(r.reach||0);c.clicks+=(r.clicks||0);c.engagement+=r.engagement;c.messages+=r.messages;c.leads+=r.leads;c.purchases+=r.purchases;c.purchaseValue+=r.purchaseValue;c.status=r.status;if(r.objective)c.objective=r.objective;if(r.optGoal)c.optGoal=r.optGoal;if(r.thumb)c.thumb=r.thumb;
       });
       var campsAgg=Object.values(campMap).sort(function(a,b){return b.spend-a.spend;});
       campsAgg.forEach(function(c){
@@ -547,6 +547,8 @@
         c.cpl=c.leads?Math.round(c.spend/c.leads):0;
         c.cpo=c.purchases?Math.round(c.spend/c.purchases):0;
         c.cpMsg=c.messages?Math.round(c.spend/c.messages):0;   // CP/TN = chi phi / tin nhan
+        c.ctr=c.impressions?Math.round(c.clicks/c.impressions*10000)/100:0;   // % click / hien thi - tiep can co hieu qua khong
+        c.freq=c.reach?Math.round(c.impressions/c.reach*100)/100:0;          // so lan lap lai / nguoi - tiep can rong hay hep
         // Hieu qua: Branding theo CPM (reach re=tot), Doanh so theo ROAS. '' = chua do.
         if(c.type==='brand') c.eff=c.cpm?(c.cpm<=8000?'good':c.cpm<=15000?'ok':'poor'):'';
         else c.eff=c.roas?(c.roas>=3?'good':c.roas>=1.5?'ok':'poor'):'';
@@ -701,9 +703,12 @@
         if(isBrand){
           h+=sh('impressions','Hiển thị');
           h+=sh('cpm','CPM');
+          h+=sh('freq','Tần suất');
+          h+=sh('ctr','CTR');
           h+=sh('engagement','Tương tác');
           h+=sh('cpe','CPE');
         } else {
+          h+=sh('ctr','CTR');
           h+=sh('messages','Tin nhắn');
           h+=sh('cpMsg','CP/TN');
           h+=sh('purchaseValue','DT Ads');
@@ -725,14 +730,19 @@
             +'</td>';
           h+='<td style="padding:6px 4px;text-align:center;font-size:14px">'+sl+'</td>';
           h+='<td style="padding:6px 10px;font-weight:700;color:var(--ink)">'+vnd(c.spend)+'</td>';
+          var freqC=c.freq?(c.freq<=2?'var(--teal)':c.freq<=4?'var(--brand-dark)':'var(--red)'):'var(--muted2)';
+          var ctrC=c.ctr?(c.ctr>=1?'var(--teal)':c.ctr>=0.5?'var(--brand-dark)':'var(--red)'):'var(--muted2)';
           if(isBrand){
             h+='<td style="padding:6px 10px;color:var(--muted)">'+imprFmt(c.impressions)+'</td>';
             h+='<td style="padding:6px 10px;color:var(--muted)">'+vnd(c.cpm)+'</td>';
+            h+='<td style="padding:6px 10px;font-weight:600;color:'+freqC+'">'+(c.freq?c.freq.toFixed(1)+'x':'—')+'</td>';
+            h+='<td style="padding:6px 10px;font-weight:600;color:'+ctrC+'">'+(c.ctr?c.ctr.toFixed(2)+'%':'—')+'</td>';
             h+='<td style="padding:6px 10px">'+imprFmt(c.engagement)+'</td>';
             h+='<td style="padding:6px 10px;color:var(--muted)">'+(c.cpe?vnd(c.cpe):'—')+'</td>';
           } else {
             var rs=c.roas?c.roas.toFixed(1)+'x':'—';
             var rc=c.roas?(c.roas>=5?'var(--teal)':c.roas>=2?'var(--brand-dark)':'var(--red)'):'var(--muted2)';
+            h+='<td style="padding:6px 10px;font-weight:600;color:'+ctrC+'">'+(c.ctr?c.ctr.toFixed(2)+'%':'—')+'</td>';
             h+='<td style="padding:6px 10px">'+(c.messages||'—')+'</td>';
             h+='<td style="padding:6px 10px;color:var(--muted)">'+(c.cpMsg?vnd(c.cpMsg):'—')+'</td>';
             h+='<td style="padding:6px 10px">'+(c.purchaseValue?vnd(c.purchaseValue):'—')+'</td>';
@@ -766,7 +776,7 @@
       html+=secTable(convC,false)+'</div>';
       if(!campsAgg.length){var lastMeta=campDays.length?campDays.reduce(function(mx,r){return r.day>mx?r.day:mx;},''):'';html='<p class="note" style="text-align:center;padding:32px 16px">'+(lastMeta?'Chưa có dữ liệu chiến dịch cho kỳ này.<br><span style="font-size:11px">Dữ liệu Meta gần nhất: '+fmtD(lastMeta)+'. Tự động cập nhật mỗi 30 phút.</span>':'Chưa có dữ liệu Meta Ads. Tự động cập nhật mỗi 30 phút.')+'</p>';}
       document.getElementById('campBody').innerHTML=html;
-      document.getElementById('campNote').innerHTML='Phân loại: <b>Tên chứa "-TC-"</b> → Branding tuyệt đối · <b>CPM ≤ 20K</b> → Branding · <b>CPM > 20K</b> → Doanh số. Fallback (khi không có impressions): optimization_goal → lead/lượt mua → objective. Branding đo hiển thị &amp; tương tác, KHÔNG tính ROAS. CPM = chi/1000 hiển thị · CPE = chi/tương tác · CPL = chi/lead · CP/TN = chi/tin nhắn.';
+      document.getElementById('campNote').innerHTML='Phân loại: <b>Tên chứa "-TC-"</b> → Branding tuyệt đối · <b>CPM ≤ 20K</b> → Branding · <b>CPM > 20K</b> → Doanh số. Fallback (khi không có impressions): optimization_goal → lead/lượt mua → objective. Branding đo hiển thị &amp; tương tác, KHÔNG tính ROAS. CPM = chi/1000 hiển thị · CPE = chi/tương tác · CPL = chi/lead · CP/TN = chi/tin nhắn · <b>Tần suất</b> = hiển thị/người tiếp cận (≤2x tốt, tiếp cận rộng · &gt;4x cao, lặp lại nhiều/tiếp cận hẹp) · <b>CTR</b> = click/hiển thị, đo tiếp cận có hiệu quả không (≥1% tốt · &lt;0.5% kém). Tần suất/CTR cộng dồn theo ngày nên là ước tính, không phải reach duy nhất chính xác tuyệt đối cả kỳ.';
       keys=['Meta FB','Meta IG'];valFn=function(d){return{'Meta FB':d.metaFb||0,'Meta IG':d.metaIg||0};};
       trendTitle='Chi phí Meta theo ngày';
     }

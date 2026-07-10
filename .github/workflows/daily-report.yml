@@ -45,6 +45,7 @@ jobs:
           fi
 
       - name: Kéo chi phí Meta Ads (08h VN = cron 01:00 UTC, hoặc chạy tay)
+        continue-on-error: true
         run: |
           if [ -f meta.config.json ]; then
             SCHEDULE="${{ github.event.schedule }}"

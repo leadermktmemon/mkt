@@ -175,7 +175,10 @@ console.log(`  Nâng cấp ${hiResOk} thumbnail, lỗi/bỏ qua ${hiResFail}`);
 
 // ---- Buoc 2: Chi phi theo ngay x campaign (30 ngay, time_increment=1) ----
 // CPM (=spend/impressions, deu cong don duoc) la tin hieu chinh phan biet Branding (CPM thap: hien thi rong/re)
-// vs Ban hang (CPM cao: tep hep, dat) -> tinh truc tiep o dashboard, khong can fetch reach/frequency.
+// vs Ban hang (CPM cao: tep hep, dat) -> tinh truc tiep o dashboard.
+// reach: cong don theo ngay la XAP XI (1 nguoi xem nhieu ngay se bi dem lai nhieu lan), dung de
+// tinh Tan suat (impressions/reach) cho biet co lap qua nhieu / tiep can hep khong - khong phai
+// reach chinh xac ca ky.
 console.log('\nKéo chi tiết chiến dịch theo ngày...');
 const campaignDays = [];
 const since30 = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
@@ -183,7 +186,7 @@ async function fetchCampaignDays(label, grpToken, accounts) {
   for (const acc of accounts) {
     const p = new URLSearchParams({
       level: 'campaign',
-      fields: 'campaign_name,campaign_id,spend,impressions,clicks,actions,action_values',
+      fields: 'campaign_name,campaign_id,spend,impressions,reach,clicks,actions,action_values',
       time_range: JSON.stringify({ since: since30, until }),
       time_increment: '1',
       limit: '1000', access_token: grpToken,
@@ -207,7 +210,7 @@ async function fetchCampaignDays(label, grpToken, accounts) {
           optGoal: campOpt[row.campaign_id] || '',
           thumb: campThumb[row.campaign_id] || '',
           creative: campCreative[row.campaign_id] || {},
-          spend, impressions: Number(row.impressions) || 0, clicks: Number(row.clicks) || 0,
+          spend, impressions: Number(row.impressions) || 0, reach: Number(row.reach) || 0, clicks: Number(row.clicks) || 0,
           engagement: Math.round(acts['post_engagement'] || 0),
           messages: Math.round(acts['onsite_conversion.messaging_conversation_started_7d'] || acts['onsite_conversion.messaging_conversation_started_30d'] || 0),
           leads: Math.round((acts['lead'] || 0) + (acts['onsite_conversion.lead'] || 0)),
@@ -221,6 +224,17 @@ async function fetchCampaignDays(label, grpToken, accounts) {
 for (const g of allGroups) await fetchCampaignDays(g.label, g.token, g.accounts);
 campaignDays.sort((a, b) => a.day < b.day ? -1 : a.day > b.day ? 1 : b.spend - a.spend);
 console.log(`CampaignDays: ${campaignDays.length} ngày×campaign (${since30} → ${until})`);
+
+// An toan: neu API loi mang/rate-limit khien campaignDays rong (trong khi file cu dang co du lieu),
+// DUNG lai truoc khi ghi/xoa gi ca - tranh ghi de meta-data.json ve rong va xoa sach thumbs local
+// (da tung xay ra thuc te: "fetch failed" hang loat do mang chap chon).
+if (campaignDays.length === 0 && existsSync(OUT)) {
+  const prev = JSON.parse(readFileSync(OUT, "utf8"));
+  if ((prev.campaignDays || []).length > 0) {
+    console.log(`\n⚠ CampaignDays rỗng (có thể do lỗi mạng/API) nhưng file cũ đang có ${prev.campaignDays.length} dòng - DỪNG, không ghi đè để tránh mất dữ liệu.`);
+    process.exit(1);
+  }
+}
 
 // ---- Tai thumbnail ve file tinh (thumbs/<id>.jpg) — URL fbcdn het han nhanh nen luu local de hien thi on dinh ----
 const THUMB_DIR = join(__dirname, "marketing-report", "dashboard", "thumbs");
