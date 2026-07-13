@@ -767,11 +767,22 @@
       html+='</div>';
       html+=secTable(brandC,true)+'</div>';
       // --- Conversion section ---
-      var cvROAS=cvShown.purchaseValue&&cvShown.spend?Math.round(cvShown.purchaseValue/cvShown.spend*10)/10:0;
+      // Doanh thu bo sung (do thieu do luong, vd don tu Google Sheet chua gan duoc campaign)
+      // - nguoi dung tu nhap, luu localStorage, cong thang vao tong DT de tinh lai ROAS. Xoa o -> ve 0 -> tu dong tro lai binh thuong.
+      var extraRevKey='campExtraRev';
+      var extraRev=Number(localStorage.getItem(extraRevKey)||0)||0;
+      var cvRevAdj=cvShown.purchaseValue+extraRev;
+      var cvROAS=cvRevAdj&&cvShown.spend?Math.round(cvRevAdj/cvShown.spend*10)/10:0;
       html+='<div>';
       html+='<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:var(--pink-soft);border-radius:10px 10px 0 0;border-bottom:2px solid var(--pink)">';
       html+='<span style="font-weight:700;font-size:13px;color:var(--pink-dark)">🎯 Doanh số'+efSuffix+'</span>';
       html+='<span style="font-size:11px;color:var(--muted)">'+convC.length+' camp · '+vnd(cvShown.spend)+(cvShown.messages?' · '+cvShown.messages+' mess':'')+(cvShown.purchases?' · '+cvShown.purchases+' mua':'')+(cvROAS?' · ROAS '+cvROAS.toFixed(1)+'x':'')+'</span>';
+      html+='</div>';
+      html+='<div style="display:flex;align-items:center;gap:8px;padding:8px 16px;background:var(--card);border:1px solid var(--line);border-top:none;font-size:12px;flex-wrap:wrap">';
+      html+='<span style="color:var(--muted)">Doanh thu bổ sung (đo thiếu, vd. đơn từ Sheet chưa gắn campaign):</span>';
+      html+='<input id="campExtraRevInput" type="number" placeholder="0" value="'+(extraRev||'')+'" style="width:130px;padding:4px 8px;border:1px solid var(--line);border-radius:6px;font-size:12px" onchange="setCampExtraRev(this.value)">';
+      html+='<span style="color:var(--muted)">VND</span>';
+      if(extraRev)html+='<span style="color:var(--brand-dark);font-weight:600">→ DT đã cộng: '+vnd(cvRevAdj)+' · ROAS mới: '+(cvROAS?cvROAS.toFixed(1)+'x':'—')+'</span>';
       html+='</div>';
       html+=secTable(convC,false)+'</div>';
       if(!campsAgg.length){var lastMeta=campDays.length?campDays.reduce(function(mx,r){return r.day>mx?r.day:mx;},''):'';html='<p class="note" style="text-align:center;padding:32px 16px">'+(lastMeta?'Chưa có dữ liệu chiến dịch cho kỳ này.<br><span style="font-size:11px">Dữ liệu Meta gần nhất: '+fmtD(lastMeta)+'. Tự động cập nhật mỗi 30 phút.</span>':'Chưa có dữ liệu Meta Ads. Tự động cập nhật mỗi 30 phút.')+'</p>';}
@@ -971,6 +982,7 @@
     var sel=document.getElementById('campAccountFilter');
     Object.keys(acc).sort().forEach(function(a){var o=document.createElement('option');o.value=a;o.textContent=a;sel.appendChild(o);});})();
   window.setCampEff=function(v){document.getElementById('campEffFilter').value=v;render();};
+  window.setCampExtraRev=function(v){var n=Number(v)||0;if(n)localStorage.setItem('campExtraRev',n);else localStorage.removeItem('campExtraRev');render();};
   function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
   window.showCampModal=function(id){
     var c=window._camps&&window._camps[id];if(!c)return;
