@@ -707,6 +707,8 @@
           h+=sh('ctr','CTR');
           h+=sh('engagement','Tương tác');
           h+=sh('cpe','CPE');
+          h+=sh('purchaseValue','DT Ads');
+          h+=sh('roas','ROAS');
         } else {
           h+=sh('ctr','CTR');
           h+=sh('messages','Tin nhắn');
@@ -732,6 +734,8 @@
           h+='<td style="padding:6px 10px;font-weight:700;color:var(--ink)">'+vnd(c.spend)+'</td>';
           var freqC=c.freq?(c.freq<=2?'var(--teal)':c.freq<=4?'var(--brand-dark)':'var(--red)'):'var(--muted2)';
           var ctrC=c.ctr?(c.ctr>=1?'var(--teal)':c.ctr>=0.5?'var(--brand-dark)':'var(--red)'):'var(--muted2)';
+          var rs=c.roas?c.roas.toFixed(1)+'x':'—';
+          var rc=c.roas?(c.roas>=5?'var(--teal)':c.roas>=2?'var(--brand-dark)':'var(--red)'):'var(--muted2)';
           if(isBrand){
             h+='<td style="padding:6px 10px;color:var(--muted)">'+imprFmt(c.impressions)+'</td>';
             h+='<td style="padding:6px 10px;color:var(--muted)">'+vnd(c.cpm)+'</td>';
@@ -739,9 +743,9 @@
             h+='<td style="padding:6px 10px;font-weight:600;color:'+ctrC+'">'+(c.ctr?c.ctr.toFixed(2)+'%':'—')+'</td>';
             h+='<td style="padding:6px 10px">'+imprFmt(c.engagement)+'</td>';
             h+='<td style="padding:6px 10px;color:var(--muted)">'+(c.cpe?vnd(c.cpe):'—')+'</td>';
+            h+='<td style="padding:6px 10px">'+(c.purchaseValue?vnd(c.purchaseValue):'—')+'</td>';
+            h+='<td style="padding:6px 10px;font-weight:700;color:'+rc+'">'+rs+'</td>';
           } else {
-            var rs=c.roas?c.roas.toFixed(1)+'x':'—';
-            var rc=c.roas?(c.roas>=5?'var(--teal)':c.roas>=2?'var(--brand-dark)':'var(--red)'):'var(--muted2)';
             h+='<td style="padding:6px 10px;font-weight:600;color:'+ctrC+'">'+(c.ctr?c.ctr.toFixed(2)+'%':'—')+'</td>';
             h+='<td style="padding:6px 10px">'+(c.messages||'—')+'</td>';
             h+='<td style="padding:6px 10px;color:var(--muted)">'+(c.cpMsg?vnd(c.cpMsg):'—')+'</td>';
