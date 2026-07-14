@@ -708,8 +708,6 @@
           h+=sh('engagement','Tương tác');
           h+=sh('cpe','CPE');
           h+=sh('purchases','Đơn hàng');
-          h+=sh('purchaseValue','DT Ads');
-          h+=sh('roas','ROAS');
         } else {
           h+=sh('ctr','CTR');
           h+=sh('messages','Tin nhắn');
@@ -746,8 +744,6 @@
             h+='<td style="padding:6px 10px">'+imprFmt(c.engagement)+'</td>';
             h+='<td style="padding:6px 10px;color:var(--muted)">'+(c.cpe?vnd(c.cpe):'—')+'</td>';
             h+='<td style="padding:6px 10px">'+(c.purchases||'—')+'</td>';
-            h+='<td style="padding:6px 10px">'+(c.purchaseValue?vnd(c.purchaseValue):'—')+'</td>';
-            h+='<td style="padding:6px 10px;font-weight:700;color:'+rc+'">'+rs+'</td>';
           } else {
             h+='<td style="padding:6px 10px;font-weight:600;color:'+ctrC+'">'+(c.ctr?c.ctr.toFixed(2)+'%':'—')+'</td>';
             h+='<td style="padding:6px 10px">'+(c.messages||'—')+'</td>';
