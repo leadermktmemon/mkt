@@ -4,6 +4,10 @@ compatibility_date = "2024-01-01"
 no_bundle = false
 workers_dev = false
 
+[assets]
+directory = "../marketing-report/dashboard"
+binding = "ASSETS"
+
 [triggers]
 crons = ["*/30 * * * *"]
 
