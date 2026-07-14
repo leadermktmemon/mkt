@@ -5,7 +5,7 @@ no_bundle = false
 workers_dev = false
 
 [triggers]
-crons = ["*/30 * * * *"]
+crons = ["0 * * * *"]
 
 [vars]
 GITHUB_REPO = "leadermktmemon/mkt"

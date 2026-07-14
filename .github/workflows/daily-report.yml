@@ -2,7 +2,7 @@ name: Daily Marketing Report
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # fallback (GitHub throttle nặng — dùng Cloudflare Worker bên ngoài là chính)
+    - cron: "0 * * * *"      # fallback moi gio (giam tu 30 phut -> 1 tieng de tranh vuot han mien phi GitHub Actions)
     - cron: "0 1 * * *"      # 08h VN (01:00 UTC): kéo Meta Ads mỗi ngày
     - cron: "0 2 * * *"      # 09h VN (02:00 UTC): gửi báo cáo Lark
   workflow_dispatch:         # chạy tay hoặc trigger từ Cloudflare Worker (cf-worker/)
