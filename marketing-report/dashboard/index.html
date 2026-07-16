@@ -576,7 +576,10 @@
       document.getElementById('campSummary').innerHTML='';
       var imprFmt=function(n){return n>=1000?(n/1000).toFixed(0)+'K':(n||'—');};
       var SL={'ACTIVE':'<span style="color:#15803d" title="Đang chạy">●</span>','PAUSED':'<span style="color:#aaa" title="Đã dừng">⏸</span>','ARCHIVED':'<span style="color:#dc2626" title="Lưu trữ">✕</span>'};
-      var salesROAS=cvS.purchaseValue&&cvS.spend?Math.round(cvS.purchaseValue/cvS.spend*10)/10:0;
+      // Day doanh so: thay DT pixel (hay do thieu do mat attribution) bang DT FB Ads da theo doi o tab Doanh so
+      var pushSalesOn=localStorage.getItem('campPushSales')==='1';
+      var cvRevForRoas=pushSalesOn?AD.fb:cvS.purchaseValue;
+      var salesROAS=cvRevForRoas&&cvS.spend?Math.round(cvRevForRoas/cvS.spend*10)/10:0;
       var bCPM=bS.impressions?Math.round(bS.spend/bS.impressions*1000):0;
       var brandPct=totS.spend?Math.round(bS.spend/totS.spend*100):0;
       var html='';
@@ -596,8 +599,8 @@
       }
       html+='<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px">';
       html+=hkpi('💰','Chi phí ads',vnd(totS.spend),campsAgg.length+' camp · '+nAct+' đang chạy','var(--ink)','');
-      html+=hkpi('💎','DT từ Ads (pixel)',cvS.purchaseValue?vnd(cvS.purchaseValue):'—','Purchase pixel (Meta)','var(--teal)','');
-      html+=hkpi('📈','ROAS doanh số',salesROAS?salesROAS.toFixed(1)+'x':'—','DT pixel ÷ chi phí Sales',roasCol,'');
+      html+=hkpi('💎',pushSalesOn?'DT từ Ads (đã đẩy)':'DT từ Ads (pixel)',cvRevForRoas?vnd(cvRevForRoas):'—',pushSalesOn?'DT Facebook Ads (tab Doanh số)':'Purchase pixel (Meta)','var(--teal)','');
+      html+=hkpi('📈','ROAS doanh số',salesROAS?salesROAS.toFixed(1)+'x':'—',pushSalesOn?'DT đã đẩy ÷ chi phí Sales':'DT pixel ÷ chi phí Sales',roasCol,'');
       html+=hkpi('▶','Đang chạy',nAct+' / '+campsAgg.length,'campaigns active','var(--brand)','');
       html+='</div>';
 
@@ -771,22 +774,17 @@
       html+='</div>';
       html+=secTable(brandC,true)+'</div>';
       // --- Conversion section ---
-      // Doanh thu bo sung (do thieu do luong, vd don tu Google Sheet chua gan duoc campaign)
-      // - nguoi dung tu nhap, luu localStorage, cong thang vao tong DT de tinh lai ROAS. Xoa o -> ve 0 -> tu dong tro lai binh thuong.
-      var extraRevKey='campExtraRev';
-      var extraRev=Number(localStorage.getItem(extraRevKey)||0)||0;
-      var cvRevAdj=cvShown.purchaseValue+extraRev;
+      // (pushSalesOn da khai bao o tren, dung chung cho ca hero row va section nay)
+      var cvRevAdj=pushSalesOn?AD.fb:cvShown.purchaseValue;
       var cvROAS=cvRevAdj&&cvShown.spend?Math.round(cvRevAdj/cvShown.spend*10)/10:0;
       html+='<div>';
       html+='<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:var(--pink-soft);border-radius:10px 10px 0 0;border-bottom:2px solid var(--pink)">';
       html+='<span style="font-weight:700;font-size:13px;color:var(--pink-dark)">🎯 Doanh số'+efSuffix+'</span>';
       html+='<span style="font-size:11px;color:var(--muted)">'+convC.length+' camp · '+vnd(cvShown.spend)+(cvShown.messages?' · '+cvShown.messages+' mess':'')+(cvShown.purchases?' · '+cvShown.purchases+' mua':'')+(cvROAS?' · ROAS '+cvROAS.toFixed(1)+'x':'')+'</span>';
       html+='</div>';
-      html+='<div style="display:flex;align-items:center;gap:8px;padding:8px 16px;background:var(--card);border:1px solid var(--line);border-top:none;font-size:12px;flex-wrap:wrap">';
-      html+='<span style="color:var(--muted)">Doanh thu bổ sung (đo thiếu, vd. đơn từ Sheet chưa gắn campaign):</span>';
-      html+='<input id="campExtraRevInput" type="number" placeholder="0" value="'+(extraRev||'')+'" style="width:130px;padding:4px 8px;border:1px solid var(--line);border-radius:6px;font-size:12px" onchange="setCampExtraRev(this.value)">';
-      html+='<span style="color:var(--muted)">VND</span>';
-      if(extraRev)html+='<span style="color:var(--brand-dark);font-weight:600">→ DT đã cộng: '+vnd(cvRevAdj)+' · ROAS mới: '+(cvROAS?cvROAS.toFixed(1)+'x':'—')+'</span>';
+      html+='<div style="display:flex;align-items:center;gap:10px;padding:8px 16px;background:var(--card);border:1px solid var(--line);border-top:none;font-size:12px;flex-wrap:wrap">';
+      html+='<button onclick="toggleCampPushSales()" style="cursor:pointer;font-size:12px;font-weight:700;padding:6px 14px;border-radius:20px;border:none;color:#fff;background:'+(pushSalesOn?'var(--teal)':'var(--red)')+'">'+(pushSalesOn?'✓ Đã đẩy doanh số (bấm để về ban đầu)':'🔴 Đẩy doanh số')+'</button>';
+      html+='<span style="color:var(--muted)">'+(pushSalesOn?'Đang dùng DT Facebook Ads từ tab Doanh số ('+vnd(AD.fb)+') thay vì DT pixel Meta ('+vnd(cvShown.purchaseValue)+').':'Dùng DT pixel Meta mặc định. Bấm nút để thay bằng DT Facebook Ads đã theo dõi ở tab Doanh số (khắc phục pixel đo thiếu).')+'</span>';
       html+='</div>';
       html+=secTable(convC,false)+'</div>';
       if(!campsAgg.length){var lastMeta=campDays.length?campDays.reduce(function(mx,r){return r.day>mx?r.day:mx;},''):'';html='<p class="note" style="text-align:center;padding:32px 16px">'+(lastMeta?'Chưa có dữ liệu chiến dịch cho kỳ này.<br><span style="font-size:11px">Dữ liệu Meta gần nhất: '+fmtD(lastMeta)+'. Tự động cập nhật mỗi 30 phút.</span>':'Chưa có dữ liệu Meta Ads. Tự động cập nhật mỗi 30 phút.')+'</p>';}
@@ -986,7 +984,7 @@
     var sel=document.getElementById('campAccountFilter');
     Object.keys(acc).sort().forEach(function(a){var o=document.createElement('option');o.value=a;o.textContent=a;sel.appendChild(o);});})();
   window.setCampEff=function(v){document.getElementById('campEffFilter').value=v;render();};
-  window.setCampExtraRev=function(v){var n=Number(v)||0;if(n)localStorage.setItem('campExtraRev',n);else localStorage.removeItem('campExtraRev');render();};
+  window.toggleCampPushSales=function(){var on=localStorage.getItem('campPushSales')==='1';if(on)localStorage.removeItem('campPushSales');else localStorage.setItem('campPushSales','1');render();};
   function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
   window.showCampModal=function(id){
     var c=window._camps&&window._camps[id];if(!c)return;
