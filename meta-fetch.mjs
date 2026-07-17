@@ -124,7 +124,7 @@ const campCreativeId = {}; // cid -> creative id, de sau nay xin thumbnail do ph
 const campToken = {}; // cid -> token dung de list no (de goi lai dung quyen truy cap)
 async function fetchThumbs(label, grpToken, accounts) {
   for (const acc of accounts) {
-    const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{id,thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{image_url,picture}}}}', limit: '100', access_token: grpToken });
+    const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{id,thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{picture}}}}', limit: '100', access_token: grpToken });
     try {
       const rows = await pages(`${G}/act_${acc.id}/ads?${p}`);
       for (const a of rows) {
@@ -225,7 +225,7 @@ async function fetchCampaignDays(label, grpToken, accounts) {
       // sau khi bulk van thieu thumb, truy van truc tiep /{campaign_id}/ads de lay lai.
       for (const cid of missingThumbCids) {
         try {
-          const p2 = new URLSearchParams({ fields: 'id,effective_status,creative{id,thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{image_url,picture}}}}', access_token: grpToken });
+          const p2 = new URLSearchParams({ fields: 'id,effective_status,creative{id,thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{picture}}}}', access_token: grpToken });
           const r2 = await fetch(`${G}/${cid}/ads?${p2}`);
           const d2 = await r2.json();
           for (const a of (d2.data || [])) {
