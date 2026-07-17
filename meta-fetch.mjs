@@ -194,6 +194,7 @@ async function fetchCampaignDays(label, grpToken, accounts) {
     try {
       const rows = await pages(`${G}/act_${acc.id}/insights?${p}`);
       console.log(`  [${label}] ${acc.name}: ${rows.length} ngày×campaign`);
+      const missingThumbCids = new Set();
       for (const row of rows) {
         const spend = Math.round(Number(row.spend) || 0);
         if (!spend) continue;
@@ -202,6 +203,7 @@ async function fetchCampaignDays(label, grpToken, accounts) {
         (row.action_values || []).forEach(a => { actVals[a.action_type] = (actVals[a.action_type] || 0) + (Number(a.value) || 0); });
         const purch = Math.round((acts['offsite_conversion.fb_pixel_purchase'] || 0) + (acts['onsite_conversion.purchase'] || 0));
         const purchVal = Math.round((actVals['offsite_conversion.fb_pixel_purchase'] || 0) + (actVals['onsite_conversion.purchase'] || 0));
+        if (!campThumb[row.campaign_id]) missingThumbCids.add(row.campaign_id);
         campaignDays.push({
           day: row.date_start,
           account: acc.name, bm: label, id: row.campaign_id, name: row.campaign_name,
@@ -217,6 +219,48 @@ async function fetchCampaignDays(label, grpToken, accounts) {
           purchases: purch, purchaseValue: purchVal,
           roas: purchVal && spend ? Math.round(purchVal / spend * 100) / 100 : 0,
         });
+      }
+      // Fallback: bulk fetch /act_.../ads (phan trang ca tai khoan) doi khi bo sot vai ad (da gap
+      // thuc te: 1 campaign co chi tieu nhung khong xuat hien trong ket qua bulk). Voi campaign nao
+      // sau khi bulk van thieu thumb, truy van truc tiep /{campaign_id}/ads de lay lai.
+      for (const cid of missingThumbCids) {
+        try {
+          const p2 = new URLSearchParams({ fields: 'id,effective_status,creative{id,thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{image_url,picture}}}}', access_token: grpToken });
+          const r2 = await fetch(`${G}/${cid}/ads?${p2}`);
+          const d2 = await r2.json();
+          for (const a of (d2.data || [])) {
+            const cr = a.creative || {};
+            if (!cr.thumbnail_url && !cr.image_url) continue;
+            const linkPicture = cr.object_story_spec?.link_data?.picture || '';
+            campThumb[cid] = cr.thumbnail_url || cr.image_url;
+            campCreativeId[cid] = cr.id;
+            campToken[cid] = grpToken;
+            const kids = cr.object_story_spec?.link_data?.child_attachments || [];
+            campCreative[cid] = {
+              title: cr.title || '', body: cr.body || '', cta: cr.call_to_action_type || '', linkUrl: cr.link_url || '',
+              imageUrl: cr.image_url || linkPicture || '',
+              images: kids.map(k => k.image_url || k.picture || '').filter(Boolean),
+            };
+            // Buoc nay chay SAU vong nang cap thumbnail 640px chinh (da xong truoc do) nen phai
+            // tu xin lai anh do phan giai cao ngay tai day, khong thi se ket qua thumbnail nho 64px.
+            try {
+              const p3 = new URLSearchParams({ fields: 'thumbnail_url', thumbnail_width: '640', thumbnail_height: '640', access_token: grpToken });
+              const r3 = await fetch(`${G}/${cr.id}?${p3}`);
+              const d3 = await r3.json();
+              if (d3.thumbnail_url) campThumb[cid] = d3.thumbnail_url;
+            } catch { /* giu ban thumbnail_url mac dinh neu loi */ }
+            break;
+          }
+        } catch { /* bo qua, giu nguyen khong co anh */ }
+      }
+      // Cac dong da push o tren dung thumb/creative CU (rong) truoc khi fallback chay xong -> vá lai.
+      if (missingThumbCids.size) {
+        for (const d of campaignDays) {
+          if (missingThumbCids.has(d.id) && campThumb[d.id]) {
+            d.thumb = campThumb[d.id];
+            d.creative = campCreative[d.id] || {};
+          }
+        }
       }
     } catch (e) { console.log(`  [CampDays] LỖI ${acc.name}: ${e.message}`); }
   }
