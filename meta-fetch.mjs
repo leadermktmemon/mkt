@@ -116,12 +116,28 @@ async function fetchOptGoals(label, grpToken, accounts) {
 }
 for (const g of allGroups) await fetchOptGoals(g.label, g.token, g.accounts);
 
-// ---- Buoc 1c: thumbnail + noi dung sang tao theo campaign (uu tien ad dang chay) ----
-console.log('\nKéo thumbnail + nội dung quảng cáo...');
+// ---- Buoc 1c: thumbnail + noi dung sang tao theo campaign ----
+// CHI goi API cho campaign DANG CHAY (ACTIVE). Campaign da dung thi anh/noi dung khong bao gio
+// doi nua -> tai su dung lai tu file cu, khong ton request. Truoc day quet het ~682 creative moi
+// lan chay khien Meta chan (rate limit) va anh bi mat.
+console.log('\nKéo thumbnail + nội dung quảng cáo (chỉ campaign đang chạy)...');
 const campThumb = {};
 const campCreative = {};
 const campCreativeId = {}; // cid -> creative id, de sau nay xin thumbnail do phan giai cao
 const campToken = {}; // cid -> token dung de list no (de goi lai dung quyen truy cap)
+// Nap lai anh/noi dung da co tu lan chay truoc (giu cho campaign da dung)
+const oldThumb = {}, oldCreative = {};
+if (existsSync(OUT)) {
+  try {
+    const prevRows = JSON.parse(readFileSync(OUT, "utf8")).campaignDays || [];
+    for (const r of prevRows) {
+      if (r.thumb && !oldThumb[r.id]) oldThumb[r.id] = r.thumb;
+      if (r.creative && Object.keys(r.creative).length && !oldCreative[r.id]) oldCreative[r.id] = r.creative;
+    }
+    console.log(`  Tái dùng ${Object.keys(oldThumb).length} ảnh đã có từ lần chạy trước`);
+  } catch { /* file loi -> coi nhu chua co gi */ }
+}
+const isActive = cid => campStatus[cid]?.status === 'ACTIVE';
 async function fetchThumbs(label, grpToken, accounts) {
   for (const acc of accounts) {
     const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{id,thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{picture}}}}', limit: '100', access_token: grpToken });
@@ -130,6 +146,8 @@ async function fetchThumbs(label, grpToken, accounts) {
       for (const a of rows) {
         const cid = a.campaign_id, cr = a.creative || {};
         if (!cid) continue;
+        // Campaign da dung + da co anh tu lan truoc -> bo qua, khong ton request nang cap anh sau nay
+        if (!isActive(cid) && oldThumb[cid]) continue;
         // Uu tien ad ACTIVE; neu chua co thi lay tam ad bat ky
         if (!campThumb[cid] || a.effective_status === 'ACTIVE') {
           // thumbnail_url cho local download (nho, on dinh); image_url/link_data.picture la anh chat luong cao hon (CDN)
@@ -155,23 +173,9 @@ async function fetchThumbs(label, grpToken, accounts) {
 }
 for (const g of allGroups) await fetchThumbs(g.label, g.token, g.accounts);
 
-// ---- Xin lai thumbnail do phan giai cao hon (640px) ----
-// Luu y: thumbnail_width/height CHI duoc Meta ton trong khi goi truc tiep node creative
-// (/{creative_id}?fields=thumbnail_url&thumbnail_width=..), KHONG hoat dong khi xin qua
-// field long "creative{thumbnail_url}" tren edge /ads (da test thuc te, van tra ve p64x64).
-// Da so quang cao la boost bai viet co san (Click-to-Messenger) nen chi co thumbnail_url,
-// khong co image_url/link_data.picture -> buoc nay quan trong de anh trong modal khong vo net.
-console.log('\nXin lại thumbnail độ phân giải cao...');
-let hiResOk = 0, hiResFail = 0;
-for (const [cid, creativeId] of Object.entries(campCreativeId)) {
-  try {
-    const p = new URLSearchParams({ fields: 'thumbnail_url', thumbnail_width: '640', thumbnail_height: '640', access_token: campToken[cid] });
-    const r = await fetch(`${G}/${creativeId}?${p}`);
-    const d = await r.json();
-    if (d.thumbnail_url) { campThumb[cid] = d.thumbnail_url; hiResOk++; } else hiResFail++;
-  } catch { hiResFail++; }
-}
-console.log(`  Nâng cấp ${hiResOk} thumbnail, lỗi/bỏ qua ${hiResFail}`);
+// LUU Y: buoc nang cap thumbnail 640px da duoc DOI XUONG SAU Buoc 2 (xem "Buoc 2b").
+// Ly do: /act_.../ads tra ve MOI campaign trong lich su tai khoan (~682), trong khi bao cao chi
+// dung ~100 campaign co chi tieu trong 30 ngay. Nang cap het 682 la lang phi va bi Meta chan.
 
 // ---- Buoc 2: Chi phi theo ngay x campaign (30 ngay, time_increment=1) ----
 // CPM (=spend/impressions, deu cong don duoc) la tin hieu chinh phan biet Branding (CPM thap: hien thi rong/re)
@@ -203,15 +207,15 @@ async function fetchCampaignDays(label, grpToken, accounts) {
         (row.action_values || []).forEach(a => { actVals[a.action_type] = (actVals[a.action_type] || 0) + (Number(a.value) || 0); });
         const purch = Math.round((acts['offsite_conversion.fb_pixel_purchase'] || 0) + (acts['onsite_conversion.purchase'] || 0));
         const purchVal = Math.round((actVals['offsite_conversion.fb_pixel_purchase'] || 0) + (actVals['onsite_conversion.purchase'] || 0));
-        if (!campThumb[row.campaign_id]) missingThumbCids.add(row.campaign_id);
+        if (!campThumb[row.campaign_id] && !oldThumb[row.campaign_id]) missingThumbCids.add(row.campaign_id);
         campaignDays.push({
           day: row.date_start,
           account: acc.name, bm: label, id: row.campaign_id, name: row.campaign_name,
           status: campStatus[row.campaign_id]?.status || 'UNKNOWN',
           objective: campStatus[row.campaign_id]?.objective || '',
           optGoal: campOpt[row.campaign_id] || '',
-          thumb: campThumb[row.campaign_id] || '',
-          creative: campCreative[row.campaign_id] || {},
+          thumb: campThumb[row.campaign_id] || oldThumb[row.campaign_id] || '',
+          creative: campCreative[row.campaign_id] || oldCreative[row.campaign_id] || {},
           spend, impressions: Number(row.impressions) || 0, reach: Number(row.reach) || 0, clicks: Number(row.clicks) || 0,
           engagement: Math.round(acts['post_engagement'] || 0),
           messages: Math.round(acts['onsite_conversion.messaging_conversation_started_7d'] || acts['onsite_conversion.messaging_conversation_started_30d'] || 0),
@@ -269,6 +273,30 @@ for (const g of allGroups) await fetchCampaignDays(g.label, g.token, g.accounts)
 campaignDays.sort((a, b) => a.day < b.day ? -1 : a.day > b.day ? 1 : b.spend - a.spend);
 console.log(`CampaignDays: ${campaignDays.length} ngày×campaign (${since30} → ${until})`);
 
+// ---- Buoc 2b: Xin thumbnail do phan giai cao (640px) ----
+// Luu y: thumbnail_width/height CHI duoc Meta ton trong khi goi truc tiep node creative
+// (/{creative_id}?fields=thumbnail_url&thumbnail_width=..), KHONG hoat dong khi xin qua
+// field long "creative{thumbnail_url}" tren edge /ads (da test thuc te, van tra ve p64x64).
+// CHI goi cho campaign THUC SU nam trong bao cao 30 ngay VA chua co anh san tu lan chay truoc.
+const needHiRes = new Set();
+for (const r of campaignDays) {
+  if (oldThumb[r.id] && existsSync(join(__dirname, "marketing-report", "dashboard", "thumbs", r.id + ".jpg"))) continue;
+  if (campCreativeId[r.id]) needHiRes.add(r.id);
+}
+console.log(`\nXin thumbnail 640px cho ${needHiRes.size} campaign (bỏ qua ${Object.keys(campCreativeId).length - needHiRes.size} đã có/ngoài kỳ)...`);
+let hiResOk = 0, hiResFail = 0;
+for (const cid of needHiRes) {
+  try {
+    const p = new URLSearchParams({ fields: 'thumbnail_url', thumbnail_width: '640', thumbnail_height: '640', access_token: campToken[cid] });
+    const r = await fetch(`${G}/${campCreativeId[cid]}?${p}`);
+    const d = await r.json();
+    if (d.thumbnail_url) { campThumb[cid] = d.thumbnail_url; hiResOk++; } else hiResFail++;
+  } catch { hiResFail++; }
+}
+console.log(`  Nâng cấp ${hiResOk} thumbnail, lỗi ${hiResFail}`);
+// Cap nhat lai thumb cho cac dong vua nang cap
+for (const r of campaignDays) if (campThumb[r.id]) r.thumb = campThumb[r.id];
+
 // An toan: neu API loi mang/rate-limit khien campaignDays rong (trong khi file cu dang co du lieu),
 // DUNG lai truoc khi ghi/xoa gi ca - tranh ghi de meta-data.json ve rong va xoa sach thumbs local
 // (da tung xay ra thuc te: "fetch failed" hang loat do mang chap chon).
@@ -306,10 +334,20 @@ for (const [id, url] of Object.entries(wantThumb)) {
   } catch { /* bo qua anh loi */ }
 }
 console.log(`  Tải ${thumbOk} mới + dùng lại ${thumbSkip} có sẵn (/${Object.keys(wantThumb).length} tổng)`);
-// Gan thumb = duong dan local (rong neu tai that bai)
-for (const r of campaignDays) r.thumb = localThumb[r.id] || "";
-// Don file cu khong con campaign nao dung
-const keep = new Set(Object.values(localThumb).map(p => p.split("/").pop()));
+// Gan thumb = duong dan local. Neu lan nay khong tai gi (campaign da dung, tai su dung anh cu)
+// thi giu lai duong dan cu MIEN LA file thuc su con ton tai -> tranh xoa mat anh da co.
+for (const r of campaignDays) {
+  if (localThumb[r.id]) { r.thumb = localThumb[r.id]; continue; }
+  const keep = oldThumb[r.id];
+  r.thumb = (keep && !keep.startsWith("http") && existsSync(join(THUMB_DIR, r.id + ".jpg"))) ? keep : "";
+}
+// Don file cu khong con campaign nao dung.
+// QUAN TRONG: phai giu MOI anh dang duoc campaignDays tham chieu (ke ca anh tai su dung tu lan
+// chay truoc, khong nam trong localThumb), neu khong se xoa nham anh cu va mat sach.
+const keep = new Set([
+  ...Object.values(localThumb).map(p => p.split("/").pop()),
+  ...campaignDays.filter(r => r.thumb && !r.thumb.startsWith("http")).map(r => r.thumb.split("/").pop()),
+]);
 for (const f of readdirSync(THUMB_DIR)) if (f.endsWith(".jpg") && !keep.has(f)) { try { unlinkSync(join(THUMB_DIR, f)); } catch {} }
 
 for (const d of Object.values(daily)) for (const k of Object.keys(d)) d[k] = Math.round(d[k]);
