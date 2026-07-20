@@ -2,7 +2,7 @@ name: Daily Marketing Report
 
 on:
   schedule:
-    - cron: "0 */2 * * *"    # tu dong moi 2 tieng
+    - cron: "*/15 * * * *"   # tu dong moi 15 phut (repo public -> Actions mien phi khong gioi han)
     - cron: "0 1 * * *"      # 08h VN (01:00 UTC): kéo Meta Ads mỗi ngày
     - cron: "0 2 * * *"      # 09h VN (02:00 UTC): gửi báo cáo Lark
   workflow_dispatch:         # chạy tay hoặc trigger từ Cloudflare Worker (cf-worker/)
