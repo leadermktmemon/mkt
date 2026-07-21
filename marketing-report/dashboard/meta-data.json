@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T22:32:04.381Z",
+  "generatedAt": "2026-07-21T23:02:04.883Z",
   "since": "2025-01-01",
   "until": "2026-07-21",
   "accounts": [
@@ -4484,11 +4484,11 @@
       "igPurchaseValue": 390000
     },
     "2026-07-21": {
-      "facebook": 2218129,
-      "instagram": 92028,
+      "facebook": 2218598,
+      "instagram": 92035,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2310157,
+      "total": 2310633,
       "igPurchaseValue": 570000
     }
   },
@@ -19976,9 +19976,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 326174,
-      "impressions": 4607,
-      "reach": 4153,
+      "spend": 326259,
+      "impressions": 4611,
+      "reach": 4156,
       "clicks": 166,
       "engagement": 111,
       "messages": 9,
@@ -20034,8 +20034,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 248284,
-      "impressions": 2150,
+      "spend": 248369,
+      "impressions": 2151,
       "reach": 1742,
       "clicks": 103,
       "engagement": 70,
@@ -20092,8 +20092,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 216752,
-      "impressions": 4369,
+      "spend": 216761,
+      "impressions": 4370,
       "reach": 3063,
       "clicks": 83,
       "engagement": 39,
@@ -20121,8 +20121,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 213722,
-      "impressions": 2247,
+      "spend": 213847,
+      "impressions": 2249,
       "reach": 1695,
       "clicks": 139,
       "engagement": 96,
@@ -20130,7 +20130,7 @@
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 450000,
-      "roas": 2.11
+      "roas": 2.1
     },
     {
       "day": "2026-07-21",
@@ -20150,9 +20150,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 211144,
-      "impressions": 3972,
-      "reach": 3653,
+      "spend": 211316,
+      "impressions": 3979,
+      "reach": 3659,
       "clicks": 149,
       "engagement": 110,
       "messages": 7,
