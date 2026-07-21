@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T07:02:43.788Z",
+  "generatedAt": "2026-07-21T07:22:39.035Z",
   "source": "lark",
   "period": {
     "days": 451,
@@ -40225,11 +40225,11 @@
           "orders": 0
         }
       },
-      "onlineRev": 22075000,
+      "onlineRev": 29244000,
       "onlineRev31": 22075000,
-      "onlineOrders": 38,
+      "onlineOrders": 50,
       "onlineProducts": 0,
-      "onlineTarget": 35000000,
+      "onlineTarget": 45000000,
       "fbAds": 5636000,
       "ggAds": 9245000,
       "social": 7194000,
@@ -52733,47 +52733,47 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 711115251,
-    "onlineOrders": 1251,
-    "onlineAov": 568437,
+    "onlineRevenue": 718284251,
+    "onlineOrders": 1263,
+    "onlineAov": 568713,
     "channels": [
       {
         "name": "Facebook",
-        "orders": 625,
-        "revenue": 355296992,
-        "aov": 568475,
+        "orders": 631,
+        "revenue": 358878864,
+        "aov": 568746,
         "share": 50,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 407,
-        "revenue": 231133793,
-        "aov": 567896,
+        "orders": 411,
+        "revenue": 233463934,
+        "aov": 568039,
         "share": 33,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 86,
-        "revenue": 48960241,
-        "aov": 569305,
+        "orders": 87,
+        "revenue": 49453826,
+        "aov": 568435,
         "share": 7,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 83,
-        "revenue": 47152160,
-        "aov": 568098,
+        "orders": 84,
+        "revenue": 47627518,
+        "aov": 566994,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 50,
-        "revenue": 28572065,
-        "aov": 571441,
+        "orders": 51,
+        "revenue": 28860110,
+        "aov": 565885,
         "share": 4,
         "est": true
       }
@@ -52789,10 +52789,10 @@
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2942324751,
-    "salesCount": 1251,
+    "totalRevenue": 2949493751,
+    "salesCount": 1263,
     "byType": {
-      "Online": 711115251,
+      "Online": 718284251,
       "Cửa hàng": 2231209500
     },
     "onlinePct": 24,
