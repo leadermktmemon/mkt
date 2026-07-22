@@ -19,14 +19,19 @@ const OUT = join(__dirname, "marketing-report", "dashboard", "meta-data.json");
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function get(url) {
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 4; i++) {
     const r = await fetch(url); const d = await r.json();
     if (d.error) {
-      if (d.error.code === 17 || d.error.code === 613) { console.log("  Rate limit, đợi 61s..."); await sleep(61000); continue; }
+      // code 4 = app request limit, 17 = user rate limit, 613 = custom rate limit -> doi roi thu lai
+      if (d.error.code === 4 || d.error.code === 17 || d.error.code === 613) {
+        console.log(`  Rate limit (code ${d.error.code}), đợi 61s... (lần ${i + 1}/4)`);
+        await sleep(61000); continue;
+      }
       throw new Error(`${d.error.message} (code ${d.error.code})`);
     }
     return d;
   }
+  throw new Error("Hết số lần thử lại (rate limit kéo dài)");
 }
 async function pages(url) {
   const rows = []; let next = url;
@@ -36,7 +41,23 @@ async function pages(url) {
 
 const since = "2025-01-01";
 const until = new Date().toISOString().slice(0, 10);
+// Chi keo lai ~40 ngay gan nhat cho chi phi tai khoan (ngay cu KHONG bao gio doi -> tai su dung
+// tu file cu). Truoc day keo lai het 557 ngay moi lan chay -> ton rat nhieu request, gay loi
+// "Application request limit reached" khien cac tai khoan sau (PA15) bi mat du lieu.
+const DAILY_WINDOW = 40;
+const sinceDaily = new Date(Date.now() - DAILY_WINDOW * 86400000).toISOString().slice(0, 10);
 const daily = {};
+// Nap lai daily cu, GIU cac ngay < sinceDaily (ngoai cua so keo moi)
+if (existsSync(OUT)) {
+  try {
+    const prevDaily = JSON.parse(readFileSync(OUT, "utf8")).daily || {};
+    let reused = 0;
+    for (const [day, v] of Object.entries(prevDaily)) {
+      if (day < sinceDaily) { daily[day] = v; reused++; }
+    }
+    console.log(`Tái dùng ${reused} ngày chi phí lịch sử (chỉ kéo mới từ ${sinceDaily})`);
+  } catch { /* file loi -> keo lai binh thuong */ }
+}
 
 // Gop tat ca BM: main token + additionalTokens
 const allGroups = [
@@ -50,7 +71,7 @@ async function fetchGroup(label, grpToken, accounts) {
     const p = new URLSearchParams({
       level: "account", fields: "spend,impressions,clicks,action_values",
       time_increment: "1", breakdowns: "publisher_platform",
-      time_range: JSON.stringify({ since, until }),
+      time_range: JSON.stringify({ since: sinceDaily, until }),
       limit: "500", access_token: grpToken,
     });
     try {
@@ -186,8 +207,19 @@ for (const g of allGroups) await fetchThumbs(g.label, g.token, g.accounts);
 console.log('\nKéo chi tiết chiến dịch theo ngày...');
 const campaignDays = [];
 const since30 = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
+// Nap campaignDays cu theo tung tai khoan -> neu 1 tai khoan bi rate limit (code 4), khoi phuc
+// du lieu cu cua RIENG tai khoan do thay vi de mat trang (truoc day PA15 bi mat het khi loi).
+const oldCampByAcc = {};
+if (existsSync(OUT)) {
+  try {
+    for (const r of (JSON.parse(readFileSync(OUT, "utf8")).campaignDays || [])) {
+      (oldCampByAcc[r.account] = oldCampByAcc[r.account] || []).push(r);
+    }
+  } catch { /* file loi -> bo qua */ }
+}
 async function fetchCampaignDays(label, grpToken, accounts) {
   for (const acc of accounts) {
+    const nBefore = campaignDays.length;
     const p = new URLSearchParams({
       level: 'campaign',
       fields: 'campaign_name,campaign_id,spend,impressions,reach,clicks,actions,action_values',
@@ -266,7 +298,14 @@ async function fetchCampaignDays(label, grpToken, accounts) {
           }
         }
       }
-    } catch (e) { console.log(`  [CampDays] LỖI ${acc.name}: ${e.message}`); }
+    } catch (e) {
+      console.log(`  [CampDays] LỖI ${acc.name}: ${e.message}`);
+      // Neu chua push duoc dong nao cho tai khoan nay ma co du lieu cu -> khoi phuc de khong mat trang
+      if (campaignDays.length === nBefore && oldCampByAcc[acc.name]?.length) {
+        campaignDays.push(...oldCampByAcc[acc.name]);
+        console.log(`    → Giữ lại ${oldCampByAcc[acc.name].length} dòng cũ của ${acc.name} (tránh mất dữ liệu)`);
+      }
+    }
   }
 }
 for (const g of allGroups) await fetchCampaignDays(g.label, g.token, g.accounts);
