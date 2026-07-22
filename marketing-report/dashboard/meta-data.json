@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T21:02:15.483Z",
+  "generatedAt": "2026-07-22T21:32:18.999Z",
   "since": "2025-01-01",
   "until": "2026-07-22",
   "accounts": [
@@ -4492,11 +4492,11 @@
       "igPurchaseValue": 570000
     },
     "2026-07-22": {
-      "facebook": 2378963,
-      "instagram": 92106,
+      "facebook": 2379245,
+      "instagram": 92105,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2471069,
+      "total": 2471350,
       "igPurchaseValue": 525000
     }
   },
@@ -19955,8 +19955,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 219316,
-      "impressions": 3079,
+      "spend": 219329,
+      "impressions": 3080,
       "reach": 2503,
       "clicks": 117,
       "engagement": 75,
@@ -20100,9 +20100,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 190283,
-      "impressions": 2276,
-      "reach": 1942,
+      "spend": 190290,
+      "impressions": 2277,
+      "reach": 1944,
       "clicks": 93,
       "engagement": 67,
       "messages": 5,
@@ -20158,8 +20158,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 183856,
-      "impressions": 1748,
+      "spend": 184052,
+      "impressions": 1749,
       "reach": 1309,
       "clicks": 67,
       "engagement": 49,
@@ -20167,7 +20167,7 @@
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 650000,
-      "roas": 3.54
+      "roas": 3.53
     },
     {
       "day": "2026-07-22",
