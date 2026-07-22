@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T11:32:24.532Z",
+  "generatedAt": "2026-07-22T12:02:19.367Z",
   "since": "2025-01-01",
   "until": "2026-07-22",
   "accounts": [
@@ -4492,11 +4492,11 @@
       "igPurchaseValue": 570000
     },
     "2026-07-22": {
-      "facebook": 1705555,
-      "instagram": 62407,
+      "facebook": 1746180,
+      "instagram": 64653,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1767962,
+      "total": 1810833,
       "igPurchaseValue": 0
     }
   },
@@ -19955,16 +19955,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 172100,
-      "impressions": 2282,
-      "reach": 1901,
+      "spend": 174978,
+      "impressions": 2327,
+      "reach": 1954,
       "clicks": 98,
       "engagement": 66,
       "messages": 6,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 360000,
-      "roas": 2.09
+      "roas": 2.06
     },
     {
       "day": "2026-07-22",
@@ -19994,6 +19994,35 @@
       "purchases": 1,
       "purchaseValue": 415000,
       "roas": 2.92
+    },
+    {
+      "day": "2026-07-22",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120258094267570112",
+      "name": "22/07/2026- SBT - CR - M - W4 - BSTRCC",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120258094267570112.jpg",
+      "creative": {
+        "title": "",
+        "body": "🥑 Ngày xưa mẹ chơi đồ hàng bằng lá cây đất cát, nay mẹ có nguyên \"sạp rau củ bông\" để cùng con chơi...\n\n🍓 Nhìn con tỉ mẩn vui chơi, mẹ như thấy lại tuổi thơ của mình. Nhưng thay vì lấm bẩn, mẹ chọn Rau Củ Quả Nhí nhà Bemori Kids mềm mịn và thân thiện với con:\n\n-  Đủ mẫu bơ xanh, chuối vàng, cà rốt... con thỏa thích chơi và nhận biết màu sắc.\n-  Đặc biệt, mềm mịn con chơi xong còn chọn một bạn bông ôm ngủ đến sáng. \n\n💌Mẹ inbox để Bemori kids tư vấn bộ rau củ quả về cùng con khám phá nhaaa!\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 140831,
+      "impressions": 1768,
+      "reach": 1420,
+      "clicks": 111,
+      "engagement": 66,
+      "messages": 5,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-07-22",
@@ -20042,16 +20071,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 137296,
-      "impressions": 1040,
-      "reach": 823,
-      "clicks": 38,
+      "spend": 139590,
+      "impressions": 1067,
+      "reach": 850,
+      "clicks": 40,
       "engagement": 27,
       "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 330000,
-      "roas": 2.4
+      "roas": 2.36
     },
     {
       "day": "2026-07-22",
@@ -20086,35 +20115,6 @@
       "day": "2026-07-22",
       "account": "Bemori 3",
       "bm": "BM2",
-      "id": "120258094267570112",
-      "name": "22/07/2026- SBT - CR - M - W4 - BSTRCC",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120258094267570112.jpg",
-      "creative": {
-        "title": "",
-        "body": "🥑 Ngày xưa mẹ chơi đồ hàng bằng lá cây đất cát, nay mẹ có nguyên \"sạp rau củ bông\" để cùng con chơi...\n\n🍓 Nhìn con tỉ mẩn vui chơi, mẹ như thấy lại tuổi thơ của mình. Nhưng thay vì lấm bẩn, mẹ chọn Rau Củ Quả Nhí nhà Bemori Kids mềm mịn và thân thiện với con:\n\n-  Đủ mẫu bơ xanh, chuối vàng, cà rốt... con thỏa thích chơi và nhận biết màu sắc.\n-  Đặc biệt, mềm mịn con chơi xong còn chọn một bạn bông ôm ngủ đến sáng. \n\n💌Mẹ inbox để Bemori kids tư vấn bộ rau củ quả về cùng con khám phá nhaaa!\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 136076,
-      "impressions": 1676,
-      "reach": 1316,
-      "clicks": 110,
-      "engagement": 58,
-      "messages": 5,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-07-22",
-      "account": "Bemori 3",
-      "bm": "BM2",
       "id": "120256954831130112",
       "name": "24/06/2026- GOL - CR - M - W4",
       "status": "ACTIVE",
@@ -20129,11 +20129,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 133080,
-      "impressions": 1205,
-      "reach": 1010,
+      "spend": 133803,
+      "impressions": 1222,
+      "reach": 1028,
       "clicks": 55,
-      "engagement": 38,
+      "engagement": 40,
       "messages": 3,
       "leads": 0,
       "purchases": 0,
@@ -20245,11 +20245,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 92414,
-      "impressions": 707,
-      "reach": 595,
+      "spend": 95636,
+      "impressions": 736,
+      "reach": 612,
       "clicks": 40,
-      "engagement": 26,
+      "engagement": 28,
       "messages": 2,
       "leads": 0,
       "purchases": 0,
