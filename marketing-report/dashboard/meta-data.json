@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T13:02:25.471Z",
+  "generatedAt": "2026-07-22T13:32:30.758Z",
   "since": "2025-01-01",
   "until": "2026-07-22",
   "accounts": [
@@ -4484,19 +4484,19 @@
       "igPurchaseValue": 390000
     },
     "2026-07-21": {
-      "facebook": 2224569,
+      "facebook": 2224685,
       "instagram": 92028,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2316597,
+      "total": 2316713,
       "igPurchaseValue": 570000
     },
     "2026-07-22": {
-      "facebook": 1866204,
-      "instagram": 69273,
+      "facebook": 1933400,
+      "instagram": 71785,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1935477,
+      "total": 2005185,
       "igPurchaseValue": 0
     }
   },
@@ -19636,8 +19636,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 267562,
-      "impressions": 3530,
+      "spend": 267678,
+      "impressions": 3531,
       "reach": 2436,
       "clicks": 168,
       "engagement": 107,
@@ -19645,7 +19645,7 @@
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 360000,
-      "roas": 1.35
+      "roas": 1.34
     },
     {
       "day": "2026-07-21",
@@ -19955,8 +19955,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 184794,
-      "impressions": 2497,
+      "spend": 189220,
+      "impressions": 2601,
       "reach": 2025,
       "clicks": 102,
       "engagement": 67,
@@ -19964,7 +19964,7 @@
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 360000,
-      "roas": 1.95
+      "roas": 1.9
     },
     {
       "day": "2026-07-22",
@@ -19984,16 +19984,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 162308,
-      "impressions": 5009,
+      "spend": 168726,
+      "impressions": 5262,
       "reach": 3374,
-      "clicks": 95,
+      "clicks": 100,
       "engagement": 42,
       "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 390000,
-      "roas": 2.4
+      "roas": 2.31
     },
     {
       "day": "2026-07-22",
@@ -20013,8 +20013,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 156260,
-      "impressions": 1564,
+      "spend": 162345,
+      "impressions": 1661,
       "reach": 1254,
       "clicks": 69,
       "engagement": 43,
@@ -20022,7 +20022,7 @@
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 1380000,
-      "roas": 8.83
+      "roas": 8.5
     },
     {
       "day": "2026-07-22",
@@ -20042,40 +20042,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 153510,
-      "impressions": 2013,
+      "spend": 159611,
+      "impressions": 2125,
       "reach": 1526,
-      "clicks": 121,
+      "clicks": 126,
       "engagement": 68,
-      "messages": 5,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-07-22",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120243906469930340",
-      "name": "2710.hoahong.Bemori.Memon - Bản sao 2",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "CONVERSATIONS",
-      "thumb": "thumbs/120243906469930340.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌹❤️Mong rằng mọi cô gái “em ko thích hoa đâu, nhanh tàn lắm anh đừng mua” sẽ gặp được chàng trai “bó hoa này không bao giờ tàn, anh sẽ mua cho em\"! 💐\n\n#bemori #gaubong #quatang \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây, TP.HCM\n🐻388 Xã Đàn, Phường Văn Miếu, Hà Nội\n🐻228 Lê Văn Sỹ, P.Tân Sơn Hòa, TP.HCM\n🐻275 Bạch Mai, P.Bạch Mai, Hà Nội\n🐻368 Nguyễn Trãi, P.Đại Mỗ, Hà Nội\n🐻411 Nguyễn Văn Cừ, P.Bồ Đề, Hà Nội\n🐻161 Xuân Thủy, P.Cầu Giấy, Hà Nội\n🐻104 -106 Cầu Giấy, P.Cầu Giấy, Hà Nội\n🐻1028 Đường Láng, P.Láng, Hà Nội\n🐻17 ngõ 23 Nguyễn Khuyến, P.Hà Đông, Hà Nội (Kho gấu online)",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 153360,
-      "impressions": 3158,
-      "reach": 2167,
-      "clicks": 78,
-      "engagement": 37,
       "messages": 5,
       "leads": 0,
       "purchases": 0,
@@ -20100,16 +20071,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 152532,
-      "impressions": 1192,
+      "spend": 158343,
+      "impressions": 1295,
       "reach": 904,
-      "clicks": 43,
+      "clicks": 47,
       "engagement": 29,
       "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 330000,
-      "roas": 2.16
+      "roas": 2.08
+    },
+    {
+      "day": "2026-07-22",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120243906469930340",
+      "name": "2710.hoahong.Bemori.Memon - Bản sao 2",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "CONVERSATIONS",
+      "thumb": "thumbs/120243906469930340.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌹❤️Mong rằng mọi cô gái “em ko thích hoa đâu, nhanh tàn lắm anh đừng mua” sẽ gặp được chàng trai “bó hoa này không bao giờ tàn, anh sẽ mua cho em\"! 💐\n\n#bemori #gaubong #quatang \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây, TP.HCM\n🐻388 Xã Đàn, Phường Văn Miếu, Hà Nội\n🐻228 Lê Văn Sỹ, P.Tân Sơn Hòa, TP.HCM\n🐻275 Bạch Mai, P.Bạch Mai, Hà Nội\n🐻368 Nguyễn Trãi, P.Đại Mỗ, Hà Nội\n🐻411 Nguyễn Văn Cừ, P.Bồ Đề, Hà Nội\n🐻161 Xuân Thủy, P.Cầu Giấy, Hà Nội\n🐻104 -106 Cầu Giấy, P.Cầu Giấy, Hà Nội\n🐻1028 Đường Láng, P.Láng, Hà Nội\n🐻17 ngõ 23 Nguyễn Khuyến, P.Hà Đông, Hà Nội (Kho gấu online)",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 158322,
+      "impressions": 3332,
+      "reach": 2167,
+      "clicks": 79,
+      "engagement": 37,
+      "messages": 5,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-07-22",
@@ -20129,10 +20129,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 143001,
-      "impressions": 1327,
+      "spend": 149155,
+      "impressions": 1433,
       "reach": 1066,
-      "clicks": 57,
+      "clicks": 66,
       "engagement": 40,
       "messages": 3,
       "leads": 0,
@@ -20158,16 +20158,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 139581,
-      "impressions": 1943,
+      "spend": 144677,
+      "impressions": 2042,
       "reach": 1661,
-      "clicks": 73,
+      "clicks": 80,
       "engagement": 48,
       "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 420000,
-      "roas": 3.01
+      "roas": 2.9
     },
     {
       "day": "2026-07-22",
@@ -20187,16 +20187,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 124971,
-      "impressions": 1009,
+      "spend": 128227,
+      "impressions": 1065,
       "reach": 678,
-      "clicks": 47,
+      "clicks": 48,
       "engagement": 18,
       "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 85500,
-      "roas": 0.68
+      "roas": 0.67
     },
     {
       "day": "2026-07-22",
@@ -20216,8 +20216,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 120286,
-      "impressions": 1149,
+      "spend": 124777,
+      "impressions": 1201,
       "reach": 904,
       "clicks": 18,
       "engagement": 228,
@@ -20245,16 +20245,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 103979,
-      "impressions": 1013,
+      "spend": 107986,
+      "impressions": 1073,
       "reach": 572,
-      "clicks": 35,
+      "clicks": 37,
       "engagement": 23,
       "messages": 2,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 465000,
-      "roas": 4.47
+      "roas": 4.31
     },
     {
       "day": "2026-07-22",
@@ -20274,10 +20274,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 103603,
-      "impressions": 791,
+      "spend": 107858,
+      "impressions": 832,
       "reach": 635,
-      "clicks": 43,
+      "clicks": 45,
       "engagement": 28,
       "messages": 2,
       "leads": 0,
@@ -20303,10 +20303,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 84000,
-      "impressions": 885,
+      "spend": 90655,
+      "impressions": 954,
       "reach": 654,
-      "clicks": 25,
+      "clicks": 26,
       "engagement": 17,
       "messages": 4,
       "leads": 0,
@@ -20332,10 +20332,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 80634,
-      "impressions": 1091,
+      "spend": 84436,
+      "impressions": 1186,
       "reach": 767,
-      "clicks": 50,
+      "clicks": 54,
       "engagement": 34,
       "messages": 0,
       "leads": 0,
@@ -20361,8 +20361,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 72767,
-      "impressions": 790,
+      "spend": 72836,
+      "impressions": 791,
       "reach": 728,
       "clicks": 35,
       "engagement": 24,
