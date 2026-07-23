@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T17:57:06.386Z",
+  "generatedAt": "2026-07-23T18:02:56.611Z",
   "source": "lark",
   "period": {
     "days": 454,
@@ -40612,9 +40612,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 3764255,
-      "metaIg": 124946,
-      "metaTotal": 3889201,
+      "metaFb": 3769808,
+      "metaIg": 124927,
+      "metaTotal": 3894735,
       "metaIgPixelRev": 0,
       "googleAds": 0
     },
@@ -53027,9 +53027,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258094267570112.jpg",
-      "spend": 211262,
-      "impressions": 2868,
-      "reach": 2230,
+      "spend": 211280,
+      "impressions": 2869,
+      "reach": 2233,
       "clicks": 146,
       "engagement": 83,
       "messages": 9,
@@ -53048,8 +53048,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258060541290112.jpg",
-      "spend": 195391,
-      "impressions": 2129,
+      "spend": 195452,
+      "impressions": 2131,
       "reach": 1582,
       "clicks": 101,
       "engagement": 69,
@@ -53069,8 +53069,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258094190280112.jpg",
-      "spend": 180444,
-      "impressions": 2472,
+      "spend": 181662,
+      "impressions": 2475,
       "reach": 2132,
       "clicks": 99,
       "engagement": 71,
@@ -53078,7 +53078,7 @@
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 760000,
-      "roas": 4.21
+      "roas": 4.18
     },
     {
       "day": "2026-07-23",
