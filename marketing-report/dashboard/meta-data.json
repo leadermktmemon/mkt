@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T15:32:25.857Z",
+  "generatedAt": "2026-07-23T16:02:28.976Z",
   "since": "2025-01-01",
   "until": "2026-07-23",
   "accounts": [
@@ -4492,19 +4492,19 @@
       "igPurchaseValue": 570000
     },
     "2026-07-22": {
-      "facebook": 2392709,
-      "instagram": 92108,
+      "facebook": 2392722,
+      "instagram": 92105,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2484817,
+      "total": 2484827,
       "igPurchaseValue": 525000
     },
     "2026-07-23": {
-      "facebook": 3586305,
-      "instagram": 122545,
+      "facebook": 3662730,
+      "instagram": 123149,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3708850,
+      "total": 3785879,
       "igPurchaseValue": 0
     }
   },
@@ -20282,16 +20282,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 196140,
-      "impressions": 2702,
-      "reach": 2113,
-      "clicks": 139,
-      "engagement": 78,
+      "spend": 205570,
+      "impressions": 2804,
+      "reach": 2183,
+      "clicks": 144,
+      "engagement": 81,
       "messages": 9,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 285000,
-      "roas": 1.45
+      "roas": 1.39
     },
     {
       "day": "2026-07-23",
@@ -20311,16 +20311,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 181609,
-      "impressions": 1973,
-      "reach": 1430,
-      "clicks": 90,
-      "engagement": 61,
-      "messages": 6,
+      "spend": 188902,
+      "impressions": 2039,
+      "reach": 1507,
+      "clicks": 97,
+      "engagement": 66,
+      "messages": 8,
       "leads": 6,
       "purchases": 3,
       "purchaseValue": 1415000,
-      "roas": 7.79
+      "roas": 7.49
     },
     {
       "day": "2026-07-23",
@@ -20340,16 +20340,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 170989,
-      "impressions": 2403,
-      "reach": 2084,
-      "clicks": 97,
+      "spend": 174760,
+      "impressions": 2430,
+      "reach": 2103,
+      "clicks": 99,
       "engagement": 71,
       "messages": 5,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 760000,
-      "roas": 4.44
+      "roas": 4.35
     },
     {
       "day": "2026-07-23",
