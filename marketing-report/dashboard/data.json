@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T04:03:13.404Z",
+  "generatedAt": "2026-07-23T04:22:10.013Z",
   "source": "lark",
   "period": {
     "days": 453,
@@ -40475,17 +40475,54 @@
     },
     {
       "day": "2026-07-22",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 8255000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 990000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 9761000,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 225000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 654000,
+          "orders": 0
+        }
+      },
       "onlineRev": 19885000,
-      "onlineRev31": 0,
+      "onlineRev31": 19885000,
       "onlineOrders": 42,
       "onlineProducts": 0,
       "onlineTarget": 19000000,
-      "fbAds": 0,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "fbAds": 4275500,
+      "ggAds": 11271000,
+      "social": 4338500,
+      "brands": {
+        "Bemori": 17801000,
+        "Teddy": 1430000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 5540000,
+          "Instagram": 990000,
+          "Zalo": 9761000,
+          "Website": 225000
+        },
+        "Teddy": {
+          "Facebook": 1430000
+        },
+        "GBO/NNGB": {
+          "Facebook": 1285000
+        }
+      },
       "store": {
         "Cầu Giấy": 3327250,
         "Nguyễn Văn Cừ": 2580000,
@@ -40521,9 +40558,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 2391545,
+      "metaFb": 2391598,
       "metaIg": 92105,
-      "metaTotal": 2483650,
+      "metaTotal": 2483703,
       "metaIgPixelRev": 525000,
       "googleAds": 0
     },
@@ -40564,9 +40601,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 1078782,
-      "metaIg": 31541,
-      "metaTotal": 1110323,
+      "metaFb": 1141912,
+      "metaIg": 35428,
+      "metaTotal": 1177340,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -52789,9 +52826,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258094267570112.jpg",
-      "spend": 73230,
-      "impressions": 938,
-      "reach": 773,
+      "spend": 76145,
+      "impressions": 979,
+      "reach": 801,
       "clicks": 56,
       "engagement": 32,
       "messages": 2,
@@ -52810,16 +52847,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258060541290112.jpg",
-      "spend": 64771,
-      "impressions": 643,
-      "reach": 553,
-      "clicks": 28,
-      "engagement": 18,
-      "messages": 1,
+      "spend": 66498,
+      "impressions": 674,
+      "reach": 589,
+      "clicks": 31,
+      "engagement": 20,
+      "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 370000,
-      "roas": 5.71
+      "roas": 5.56
     },
     {
       "day": "2026-07-23",
@@ -52852,10 +52889,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120256954831130112.jpg",
-      "spend": 54036,
-      "impressions": 521,
-      "reach": 451,
-      "clicks": 21,
+      "spend": 56256,
+      "impressions": 545,
+      "reach": 480,
+      "clicks": 22,
       "engagement": 13,
       "messages": 0,
       "leads": 0,
@@ -52980,7 +53017,7 @@
       "thumb": "thumbs/120258098048320112.jpg",
       "spend": 44690,
       "impressions": 481,
-      "reach": 431,
+      "reach": 433,
       "clicks": 17,
       "engagement": 12,
       "messages": 0,
@@ -53041,8 +53078,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258094190280112.jpg",
-      "spend": 41399,
-      "impressions": 529,
+      "spend": 41479,
+      "impressions": 531,
       "reach": 481,
       "clicks": 19,
       "engagement": 15,
@@ -53104,11 +53141,11 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258122632030112.jpg",
-      "spend": 18227,
-      "impressions": 126,
-      "reach": 105,
+      "spend": 19480,
+      "impressions": 146,
+      "reach": 121,
       "clicks": 3,
-      "engagement": 27,
+      "engagement": 30,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -53145,41 +53182,41 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 639,
-        "revenue": 364107924,
-        "aov": 569809,
+        "orders": 636,
+        "revenue": 362392866,
+        "aov": 569800,
         "share": 50,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 406,
-        "revenue": 231314937,
-        "aov": 569741,
+        "orders": 412,
+        "revenue": 234778077,
+        "aov": 569850,
         "share": 32,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 93,
-        "revenue": 52788903,
-        "aov": 567623,
+        "orders": 91,
+        "revenue": 51993098,
+        "aov": 571353,
         "share": 7,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 89,
-        "revenue": 50456147,
-        "aov": 566923,
+        "orders": 88,
+        "revenue": 50063321,
+        "aov": 568901,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 50,
-        "revenue": 28525339,
-        "aov": 570507,
+        "orders": 49,
+        "revenue": 27965889,
+        "aov": 570732,
         "share": 4,
         "est": true
       }
@@ -53205,8 +53242,8 @@
     "storePct": 75
   },
   "brands": {
-    "Bemori": 2610405371,
-    "Teddy": 55558500,
+    "Bemori": 2628990932,
+    "Teddy": 56988500,
     "Memon": 0
   },
   "weekMarketing": {
@@ -53216,41 +53253,41 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 63,
-        "revenue": 35212544,
-        "aov": 558929,
-        "share": 51,
+        "orders": 60,
+        "revenue": 33410400,
+        "aov": 556840,
+        "share": 48,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 41,
-        "revenue": 22645138,
-        "aov": 552320,
-        "share": 33,
+        "orders": 47,
+        "revenue": 25938387,
+        "aov": 551881,
+        "share": 37,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 16,
-        "revenue": 9062966,
-        "aov": 566435,
-        "share": 13,
+        "orders": 13,
+        "revenue": 7128474,
+        "aov": 548344,
+        "share": 10,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 3,
-        "revenue": 1721747,
-        "aov": 573916,
-        "share": 2,
+        "orders": 4,
+        "revenue": 2219992,
+        "aov": 554998,
+        "share": 3,
         "est": true
       },
       {
         "name": "Website",
         "orders": 2,
-        "revenue": 979856,
-        "aov": 489928,
+        "revenue": 924997,
+        "aov": 462498,
         "share": 1,
         "est": true
       }
@@ -53276,8 +53313,8 @@
     "storePct": 69
   },
   "weekBrands": {
-    "Bemori": 188376103,
-    "Teddy": 2205000,
+    "Bemori": 205059721,
+    "Teddy": 3635000,
     "Memon": 0
   },
   "weekPeriod": {
