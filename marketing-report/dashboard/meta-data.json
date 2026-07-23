@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T14:02:31.366Z",
+  "generatedAt": "2026-07-23T14:32:54.532Z",
   "since": "2025-01-01",
   "until": "2026-07-23",
   "accounts": [
@@ -4500,11 +4500,11 @@
       "igPurchaseValue": 525000
     },
     "2026-07-23": {
-      "facebook": 3333737,
-      "instagram": 113765,
+      "facebook": 3424794,
+      "instagram": 117011,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3447502,
+      "total": 3541805,
       "igPurchaseValue": 0
     }
   },
@@ -20282,16 +20282,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 173369,
-      "impressions": 2262,
-      "reach": 1737,
-      "clicks": 118,
-      "engagement": 67,
+      "spend": 180775,
+      "impressions": 2407,
+      "reach": 1828,
+      "clicks": 127,
+      "engagement": 71,
       "messages": 7,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 285000,
-      "roas": 1.64
+      "roas": 1.58
+    },
+    {
+      "day": "2026-07-23",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120258060541290112",
+      "name": "21/07/2026- GOL - CR - M - W4 - GKLTC",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120258060541290112.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌷 Ngắm bé con ôm chặt bạn gối trái cây mát rượi ngủ ngon lành, bao mệt mỏi trong mẹ bỗng chốc tan biến...\n\n☁️ Thiết kế \"vừa mát, vừa bắt mắt\" với đường may tỉ mỉ, chất bông mềm mại, vừa vặn để con ôm ấp, chìm vào giấc mơ. Đặc biệt vải kem lạnh chạm xua tan cái oi bức, mát lạnh suốt đêm dài.\n\n💕 Bé nhà mẹ bao nhiêu tuổi? Inbox Bemori Kids để được tư vấn kẻo hết nhaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 165945,
+      "impressions": 1734,
+      "reach": 1277,
+      "clicks": 79,
+      "engagement": 52,
+      "messages": 4,
+      "leads": 4,
+      "purchases": 2,
+      "purchaseValue": 1055000,
+      "roas": 6.36
     },
     {
       "day": "2026-07-23",
@@ -20340,16 +20369,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 159249,
-      "impressions": 2266,
-      "reach": 1976,
-      "clicks": 84,
-      "engagement": 59,
-      "messages": 3,
+      "spend": 163563,
+      "impressions": 2318,
+      "reach": 2029,
+      "clicks": 94,
+      "engagement": 67,
+      "messages": 5,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 400000,
-      "roas": 2.51
+      "roas": 2.45
     },
     {
       "day": "2026-07-23",
@@ -20379,35 +20408,6 @@
       "purchases": 1,
       "purchaseValue": 175000,
       "roas": 1.11
-    },
-    {
-      "day": "2026-07-23",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120258060541290112",
-      "name": "21/07/2026- GOL - CR - M - W4 - GKLTC",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120258060541290112.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌷 Ngắm bé con ôm chặt bạn gối trái cây mát rượi ngủ ngon lành, bao mệt mỏi trong mẹ bỗng chốc tan biến...\n\n☁️ Thiết kế \"vừa mát, vừa bắt mắt\" với đường may tỉ mỉ, chất bông mềm mại, vừa vặn để con ôm ấp, chìm vào giấc mơ. Đặc biệt vải kem lạnh chạm xua tan cái oi bức, mát lạnh suốt đêm dài.\n\n💕 Bé nhà mẹ bao nhiêu tuổi? Inbox Bemori Kids để được tư vấn kẻo hết nhaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 157206,
-      "impressions": 1591,
-      "reach": 1154,
-      "clicks": 76,
-      "engagement": 49,
-      "messages": 3,
-      "leads": 4,
-      "purchases": 2,
-      "purchaseValue": 1055000,
-      "roas": 6.71
     },
     {
       "day": "2026-07-23",
@@ -20458,7 +20458,7 @@
       },
       "spend": 111059,
       "impressions": 1028,
-      "reach": 887,
+      "reach": 889,
       "clicks": 43,
       "engagement": 26,
       "messages": 0,
@@ -20514,8 +20514,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 74857,
-      "impressions": 587,
+      "spend": 74894,
+      "impressions": 588,
       "reach": 443,
       "clicks": 13,
       "engagement": 127,
