@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T20:32:28.040Z",
+  "generatedAt": "2026-07-23T21:02:12.441Z",
   "since": "2025-01-01",
   "until": "2026-07-23",
   "accounts": [
@@ -4500,11 +4500,11 @@
       "igPurchaseValue": 525000
     },
     "2026-07-23": {
-      "facebook": 3776235,
-      "instagram": 124953,
+      "facebook": 3776332,
+      "instagram": 124924,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3901188,
+      "total": 3901256,
       "igPurchaseValue": 0
     }
   },
