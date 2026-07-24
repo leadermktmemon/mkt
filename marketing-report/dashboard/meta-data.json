@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T10:03:22.656Z",
+  "generatedAt": "2026-07-24T10:32:26.928Z",
   "since": "2025-01-01",
   "until": "2026-07-24",
   "accounts": [
@@ -4500,19 +4500,19 @@
       "igPurchaseValue": 525000
     },
     "2026-07-23": {
-      "facebook": 3794435,
-      "instagram": 124969,
+      "facebook": 3794436,
+      "instagram": 124968,
       "messenger": 0,
       "audience_network": 0,
       "total": 3919404,
       "igPurchaseValue": 0
     },
     "2026-07-24": {
-      "facebook": 2444205,
-      "instagram": 75723,
+      "facebook": 2522186,
+      "instagram": 79016,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2519928,
+      "total": 2601202,
       "igPurchaseValue": 340000
     }
   },
@@ -20442,9 +20442,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 149629,
-      "impressions": 2370,
-      "reach": 1953,
+      "spend": 150130,
+      "impressions": 2380,
+      "reach": 1968,
       "clicks": 55,
       "engagement": 34,
       "messages": 1,
@@ -20500,16 +20500,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 134332,
-      "impressions": 1319,
-      "reach": 1107,
-      "clicks": 78,
-      "engagement": 47,
-      "messages": 7,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "spend": 138913,
+      "impressions": 1356,
+      "reach": 1133,
+      "clicks": 84,
+      "engagement": 50,
+      "messages": 9,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 685000,
+      "roas": 4.93
     },
     {
       "day": "2026-07-24",
@@ -20529,11 +20529,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 130310,
-      "impressions": 1041,
-      "reach": 831,
-      "clicks": 62,
-      "engagement": 46,
+      "spend": 135045,
+      "impressions": 1100,
+      "reach": 858,
+      "clicks": 63,
+      "engagement": 47,
       "messages": 5,
       "leads": 2,
       "purchases": 0,
@@ -20558,11 +20558,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 123400,
-      "impressions": 1215,
-      "reach": 961,
-      "clicks": 57,
-      "engagement": 38,
+      "spend": 125851,
+      "impressions": 1239,
+      "reach": 975,
+      "clicks": 60,
+      "engagement": 39,
       "messages": 3,
       "leads": 0,
       "purchases": 0,
