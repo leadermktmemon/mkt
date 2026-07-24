@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T12:02:17.028Z",
+  "generatedAt": "2026-07-24T12:32:36.410Z",
   "since": "2025-01-01",
   "until": "2026-07-24",
   "accounts": [
@@ -4508,12 +4508,12 @@
       "igPurchaseValue": 0
     },
     "2026-07-24": {
-      "facebook": 2765903,
-      "instagram": 90934,
+      "facebook": 2854408,
+      "instagram": 96557,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2856837,
-      "igPurchaseValue": 340000
+      "total": 2950965,
+      "igPurchaseValue": 890000
     }
   },
   "campaignDays": [
@@ -20457,35 +20457,6 @@
       "day": "2026-07-24",
       "account": "Bemori 3",
       "bm": "BM2",
-      "id": "120257980882700112",
-      "name": "17/07/2026 - CĐ - GOL - CR - W3 - GOK",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120257980882700112.jpg",
-      "creative": {
-        "title": "",
-        "body": "✨ GỐI KẸO KEM LẠNH BEMORI - ĐIỂM TỰA ÊM MỀM CHO HÀNH TRÌNH LÀM MẸ! \n\n🍬 Hành trình làm mẹ đầy hạnh phúc nhưng cũng không ít mỏi mệt với những cơn đau lưng, mất ngủ. Gối ôm hình kẹo kem lạnh 2m vỗ về giấc ngủ trọn vẹn cho mẹ bầu và mẹ bỉm!\n\n🎀 Chiếc gối đa năng này sở hữu những ưu điểm vượt trội:\n- Vải kem lạnh mát, mịn, mẹ ôm ấp không lo nóng bí.\n- Lõi bông lông vũ Micro êm ái, đàn hồi cao, ôm sát cơ thể mềm mại.\n- Thiết kế dài 2m, nâng đỡ thoải mái cho mẹ bầu, mẹ sau sinh.\n\n💕 Giúp mẹ ngủ ngon sâu giấc để mỗi ngày làm mẹ đều ngập tràn năng lượng. Chỉ sẵn 150 chiếc, mẹ inbox Bemori Kids để đặt hàng kẻo hết nhé\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 152732,
-      "impressions": 2415,
-      "reach": 1995,
-      "clicks": 55,
-      "engagement": 34,
-      "messages": 1,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-07-24",
-      "account": "Bemori 3",
-      "bm": "BM2",
       "id": "120258060541290112",
       "name": "21/07/2026- GOL - CR - M - W4 - GKLTC",
       "status": "ACTIVE",
@@ -20500,16 +20471,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 151865,
-      "impressions": 1494,
-      "reach": 1231,
-      "clicks": 87,
-      "engagement": 51,
+      "spend": 158941,
+      "impressions": 1534,
+      "reach": 1258,
+      "clicks": 88,
+      "engagement": 52,
       "messages": 9,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 685000,
-      "roas": 4.51
+      "roas": 4.31
     },
     {
       "day": "2026-07-24",
@@ -20529,13 +20500,42 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 149453,
-      "impressions": 1264,
-      "reach": 985,
-      "clicks": 70,
-      "engagement": 53,
-      "messages": 5,
+      "spend": 155576,
+      "impressions": 1322,
+      "reach": 1023,
+      "clicks": 75,
+      "engagement": 56,
+      "messages": 6,
       "leads": 2,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-07-24",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120257980882700112",
+      "name": "17/07/2026 - CĐ - GOL - CR - W3 - GOK",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120257980882700112.jpg",
+      "creative": {
+        "title": "",
+        "body": "✨ GỐI KẸO KEM LẠNH BEMORI - ĐIỂM TỰA ÊM MỀM CHO HÀNH TRÌNH LÀM MẸ! \n\n🍬 Hành trình làm mẹ đầy hạnh phúc nhưng cũng không ít mỏi mệt với những cơn đau lưng, mất ngủ. Gối ôm hình kẹo kem lạnh 2m vỗ về giấc ngủ trọn vẹn cho mẹ bầu và mẹ bỉm!\n\n🎀 Chiếc gối đa năng này sở hữu những ưu điểm vượt trội:\n- Vải kem lạnh mát, mịn, mẹ ôm ấp không lo nóng bí.\n- Lõi bông lông vũ Micro êm ái, đàn hồi cao, ôm sát cơ thể mềm mại.\n- Thiết kế dài 2m, nâng đỡ thoải mái cho mẹ bầu, mẹ sau sinh.\n\n💕 Giúp mẹ ngủ ngon sâu giấc để mỗi ngày làm mẹ đều ngập tràn năng lượng. Chỉ sẵn 150 chiếc, mẹ inbox Bemori Kids để đặt hàng kẻo hết nhé\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 153277,
+      "impressions": 2421,
+      "reach": 2001,
+      "clicks": 55,
+      "engagement": 34,
+      "messages": 1,
+      "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
@@ -20558,10 +20558,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 140211,
-      "impressions": 1343,
-      "reach": 1044,
-      "clicks": 73,
+      "spend": 142365,
+      "impressions": 1373,
+      "reach": 1063,
+      "clicks": 74,
       "engagement": 50,
       "messages": 3,
       "leads": 0,
