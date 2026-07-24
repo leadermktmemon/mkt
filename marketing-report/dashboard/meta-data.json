@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T22:02:32.546Z",
+  "generatedAt": "2026-07-24T22:32:17.538Z",
   "since": "2025-01-01",
   "until": "2026-07-24",
   "accounts": [
@@ -4508,11 +4508,11 @@
       "igPurchaseValue": 0
     },
     "2026-07-24": {
-      "facebook": 3585039,
-      "instagram": 129257,
+      "facebook": 3587304,
+      "instagram": 129286,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3714296,
+      "total": 3716590,
       "igPurchaseValue": 890000
     }
   },
@@ -19560,7 +19560,7 @@
       "bm": "BM1",
       "id": "120246937234950340",
       "name": "22/07/2026 - SBT - CR - M - W4 - HH",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246937234950340.jpg",
@@ -19966,7 +19966,7 @@
       "bm": "BM1",
       "id": "120246937234950340",
       "name": "22/07/2026 - SBT - CR - M - W4 - HH",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246937234950340.jpg",
@@ -20210,16 +20210,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 300685,
-      "impressions": 2590,
-      "reach": 1777,
+      "spend": 301533,
+      "impressions": 2595,
+      "reach": 1779,
       "clicks": 86,
       "engagement": 56,
       "messages": 5,
       "leads": 8,
       "purchases": 3,
       "purchaseValue": 2135000,
-      "roas": 7.1
+      "roas": 7.08
     },
     {
       "day": "2026-07-24",
@@ -20239,8 +20239,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 297099,
-      "impressions": 3659,
+      "spend": 297130,
+      "impressions": 3660,
       "reach": 3036,
       "clicks": 143,
       "engagement": 99,
@@ -20268,9 +20268,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 294336,
-      "impressions": 4642,
-      "reach": 4118,
+      "spend": 294494,
+      "impressions": 4647,
+      "reach": 4125,
       "clicks": 167,
       "engagement": 121,
       "messages": 7,
@@ -20297,9 +20297,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 285968,
-      "impressions": 6020,
-      "reach": 4098,
+      "spend": 286022,
+      "impressions": 6022,
+      "reach": 4100,
       "clicks": 127,
       "engagement": 79,
       "messages": 6,
@@ -20326,16 +20326,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 282878,
-      "impressions": 8557,
+      "spend": 283078,
+      "impressions": 8562,
       "reach": 6308,
-      "clicks": 169,
-      "engagement": 86,
+      "clicks": 170,
+      "engagement": 87,
       "messages": 11,
       "leads": 8,
       "purchases": 5,
       "purchaseValue": 2079000,
-      "roas": 7.35
+      "roas": 7.34
     },
     {
       "day": "2026-07-24",
@@ -20343,7 +20343,7 @@
       "bm": "BM1",
       "id": "120246937234950340",
       "name": "22/07/2026 - SBT - CR - M - W4 - HH",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246937234950340.jpg",
@@ -20355,9 +20355,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 270001,
-      "impressions": 2742,
-      "reach": 1944,
+      "spend": 270018,
+      "impressions": 2744,
+      "reach": 1947,
       "clicks": 55,
       "engagement": 37,
       "messages": 3,
@@ -20384,8 +20384,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 233852,
-      "impressions": 2090,
+      "spend": 233932,
+      "impressions": 2092,
       "reach": 1580,
       "clicks": 84,
       "engagement": 41,
@@ -20393,7 +20393,7 @@
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 2200000,
-      "roas": 9.41
+      "roas": 9.4
     },
     {
       "day": "2026-07-24",
@@ -20413,9 +20413,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 233007,
-      "impressions": 2098,
-      "reach": 1390,
+      "spend": 233037,
+      "impressions": 2100,
+      "reach": 1392,
       "clicks": 76,
       "engagement": 44,
       "messages": 8,
@@ -20442,8 +20442,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 229757,
-      "impressions": 1954,
+      "spend": 231011,
+      "impressions": 1955,
       "reach": 1560,
       "clicks": 48,
       "engagement": 34,
@@ -20502,7 +20502,7 @@
       },
       "spend": 195650,
       "impressions": 1782,
-      "reach": 1376,
+      "reach": 1378,
       "clicks": 96,
       "engagement": 69,
       "messages": 7,
