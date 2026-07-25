@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T14:41:08.854Z",
+  "generatedAt": "2026-07-25T15:01:51.224Z",
   "source": "lark",
   "period": {
     "days": 455,
@@ -40688,14 +40688,15 @@
       "store": {
         "Bạch Mai": 4128500,
         "Nguyễn Văn Cừ": 1010000,
-        "Outlet": 1360000,
+        "Outlet": 2405000,
+        "Xuân Thủy": 1144750,
         "Xã Đàn": 2965000
       },
-      "storeRev": 9463500,
+      "storeRev": 11653250,
       "storeOnline": 840000,
-      "storeTarget": 14657400,
-      "custIn": 18,
-      "custBuy": 18,
+      "storeTarget": 19625400,
+      "custIn": 28,
+      "custBuy": 28,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -53759,26 +53760,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2227708780,
-    "walkinOrders": 4168,
+    "walkinRevenue": 2229898530,
+    "walkinOrders": 4178,
     "marketingRevenue": 378548438,
     "marketingOrdersEst": 663,
-    "custIn": 4387,
+    "custIn": 4397,
     "closeRate": 95,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2959854281,
+    "totalRevenue": 2962044031,
     "salesCount": 1282,
     "byType": {
       "Online": 732145501,
-      "Cửa hàng": 2227708780
+      "Cửa hàng": 2229898530
     },
     "onlinePct": 25,
     "storePct": 75
   },
   "brands": {
-    "Bemori": 2596478943,
+    "Bemori": 2598475497,
     "Teddy": 53827500,
     "Memon": 0
   },
@@ -53830,26 +53831,26 @@
     ]
   },
   "weekStore": {
-    "walkinRevenue": 298615530,
-    "walkinOrders": 612,
+    "walkinRevenue": 300805280,
+    "walkinOrders": 622,
     "marketingRevenue": 58658000,
     "marketingOrdersEst": 107,
-    "custIn": 624,
+    "custIn": 634,
     "closeRate": 98,
     "marketingPct": 16
   },
   "weekSales": {
-    "totalRevenue": 429133030,
+    "totalRevenue": 431322780,
     "salesCount": 238,
     "byType": {
       "Online": 130517500,
-      "Cửa hàng": 298615530
+      "Cửa hàng": 300805280
     },
     "onlinePct": 30,
     "storePct": 70
   },
   "weekBrands": {
-    "Bemori": 340105383,
+    "Bemori": 342167765,
     "Teddy": 3635000,
     "Memon": 0
   },
