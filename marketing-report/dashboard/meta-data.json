@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T22:31:37.975Z",
+  "generatedAt": "2026-07-25T23:31:31.554Z",
   "since": "2025-01-01",
   "until": "2026-07-25",
   "accounts": [
@@ -4516,11 +4516,11 @@
       "igPurchaseValue": 890000
     },
     "2026-07-25": {
-      "facebook": 2581733,
-      "instagram": 136774,
+      "facebook": 2581875,
+      "instagram": 136780,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2718507,
+      "total": 2718655,
       "igPurchaseValue": 390000
     }
   },
@@ -20595,10 +20595,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 254770,
-      "impressions": 4366,
+      "spend": 254791,
+      "impressions": 4367,
       "reach": 2946,
-      "clicks": 82,
+      "clicks": 83,
       "engagement": 58,
       "messages": 6,
       "leads": 0,
@@ -20624,8 +20624,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 249159,
-      "impressions": 6930,
+      "spend": 249190,
+      "impressions": 6933,
       "reach": 5157,
       "clicks": 139,
       "engagement": 88,
@@ -20654,8 +20654,8 @@
         "images": []
       },
       "spend": 244641,
-      "impressions": 3364,
-      "reach": 2935,
+      "impressions": 3365,
+      "reach": 2939,
       "clicks": 125,
       "engagement": 90,
       "messages": 5,
@@ -20740,8 +20740,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 188258,
-      "impressions": 1966,
+      "spend": 188331,
+      "impressions": 1967,
       "reach": 1514,
       "clicks": 83,
       "engagement": 49,
@@ -20944,7 +20944,7 @@
         "images": []
       },
       "spend": 113975,
-      "impressions": 1524,
+      "impressions": 1525,
       "reach": 1119,
       "clicks": 65,
       "engagement": 44,
@@ -20972,9 +20972,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 102967,
-      "impressions": 1129,
-      "reach": 963,
+      "spend": 102990,
+      "impressions": 1131,
+      "reach": 964,
       "clicks": 34,
       "engagement": 25,
       "messages": 2,
