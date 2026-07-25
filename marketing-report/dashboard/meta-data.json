@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T17:31:39.953Z",
+  "generatedAt": "2026-07-25T18:31:51.922Z",
   "since": "2025-01-01",
   "until": "2026-07-25",
   "accounts": [
@@ -4516,11 +4516,11 @@
       "igPurchaseValue": 890000
     },
     "2026-07-25": {
-      "facebook": 2580739,
-      "instagram": 136785,
+      "facebook": 2580956,
+      "instagram": 136780,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2717524,
+      "total": 2717736,
       "igPurchaseValue": 390000
     }
   },
@@ -20886,7 +20886,7 @@
         "images": []
       },
       "spend": 116673,
-      "impressions": 2167,
+      "impressions": 2168,
       "reach": 1899,
       "clicks": 75,
       "engagement": 47,
