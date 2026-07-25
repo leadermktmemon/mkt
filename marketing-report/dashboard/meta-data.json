@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T11:31:42.868Z",
+  "generatedAt": "2026-07-25T12:32:06.218Z",
   "since": "2025-01-01",
   "until": "2026-07-25",
   "accounts": [
@@ -4508,19 +4508,19 @@
       "igPurchaseValue": 0
     },
     "2026-07-24": {
-      "facebook": 3605178,
+      "facebook": 3605193,
       "instagram": 129259,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3734437,
+      "total": 3734452,
       "igPurchaseValue": 890000
     },
     "2026-07-25": {
-      "facebook": 2257897,
-      "instagram": 119336,
+      "facebook": 2366384,
+      "instagram": 125643,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2377233,
+      "total": 2492027,
       "igPurchaseValue": 390000
     }
   },
@@ -20856,9 +20856,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 120103,
-      "impressions": 1320,
-      "reach": 1223,
+      "spend": 120374,
+      "impressions": 1324,
+      "reach": 1229,
       "clicks": 41,
       "engagement": 28,
       "messages": 2,
@@ -20885,10 +20885,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 113888,
-      "impressions": 1979,
-      "reach": 1742,
-      "clicks": 67,
+      "spend": 115381,
+      "impressions": 2046,
+      "reach": 1784,
+      "clicks": 69,
       "engagement": 43,
       "messages": 3,
       "leads": 0,
@@ -20914,10 +20914,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 113626,
-      "impressions": 814,
+      "spend": 113976,
+      "impressions": 816,
       "reach": 579,
-      "clicks": 32,
+      "clicks": 33,
       "engagement": 23,
       "messages": 1,
       "leads": 0,
@@ -20972,9 +20972,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 96379,
-      "impressions": 828,
-      "reach": 689,
+      "spend": 96402,
+      "impressions": 829,
+      "reach": 690,
       "clicks": 47,
       "engagement": 28,
       "messages": 2,
@@ -21088,8 +21088,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 25485,
-      "impressions": 317,
+      "spend": 25903,
+      "impressions": 318,
       "reach": 290,
       "clicks": 26,
       "engagement": 19,
