@@ -161,7 +161,9 @@ if (existsSync(OUT)) {
 const isActive = cid => campStatus[cid]?.status === 'ACTIVE';
 async function fetchThumbs(label, grpToken, accounts) {
   for (const acc of accounts) {
-    const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{id,thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{picture}}}}', limit: '100', access_token: grpToken });
+    // CHI lay ad DANG CHAY (ACTIVE) -> giam manh so trang phai keo (Pa15: ~931 ads -> chi vai chuc
+    // ad active). Anh cua campaign da dung deu tai su dung tu file cu nen khong can keo lai.
+    const p = new URLSearchParams({ fields: 'campaign_id,effective_status,creative{id,thumbnail_url,image_url,title,body,call_to_action_type,link_url,object_story_spec{link_data{picture,child_attachments{picture}}}}', limit: '100', filtering: '[{"field":"effective_status","operator":"IN","value":["ACTIVE"]}]', access_token: grpToken });
     try {
       const rows = await pages(`${G}/act_${acc.id}/ads?${p}`);
       for (const a of rows) {
@@ -206,15 +208,24 @@ for (const g of allGroups) await fetchThumbs(g.label, g.token, g.accounts);
 // reach chinh xac ca ky.
 console.log('\nKéo chi tiết chiến dịch theo ngày...');
 const campaignDays = [];
-const since30 = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
-// Nap campaignDays cu theo tung tai khoan -> neu 1 tai khoan bi rate limit (code 4), khoi phuc
-// du lieu cu cua RIENG tai khoan do thay vi de mat trang (truoc day PA15 bi mat het khi loi).
+// CHI keo moi ~9 ngay gan nhat (du bao cua so attribution 7 ngay cua Meta - don mua muon van cap
+// nhat dung). Ngay cu hon thi tai su dung tu file cu -> Pa15 (501 campaign x 30 ngay = ~15 trang)
+// giam con ~9 ngay (~4 trang), tranh bi Meta chan (rate limit) lam mat du lieu hom nay.
+const CAMP_FRESH_DAYS = 9;
+const CAMP_KEEP_DAYS = 32;   // gioi han lich su giu lai de file khong phinh vo han
+const sinceCamp = new Date(Date.now() - CAMP_FRESH_DAYS * 86400000).toISOString().slice(0, 10);
+const campKeepFrom = new Date(Date.now() - CAMP_KEEP_DAYS * 86400000).toISOString().slice(0, 10);
+const since30 = sinceCamp; // dung cho time_range cua insights
+// Nap campaignDays cu: tach thanh (a) ngay cu de GIU lai va (b) theo tai khoan de khoi phuc khi loi.
 const oldCampByAcc = {};
+const keptHistorical = []; // cac dong ngay < sinceCamp (on dinh, khong keo lai)
 if (existsSync(OUT)) {
   try {
     for (const r of (JSON.parse(readFileSync(OUT, "utf8")).campaignDays || [])) {
       (oldCampByAcc[r.account] = oldCampByAcc[r.account] || []).push(r);
+      if (r.day < sinceCamp && r.day >= campKeepFrom) keptHistorical.push(r);
     }
+    console.log(`Giữ ${keptHistorical.length} dòng lịch sử (ngày < ${sinceCamp}), chỉ kéo mới từ ${sinceCamp}`);
   } catch { /* file loi -> bo qua */ }
 }
 async function fetchCampaignDays(label, grpToken, accounts) {
@@ -300,17 +311,21 @@ async function fetchCampaignDays(label, grpToken, accounts) {
       }
     } catch (e) {
       console.log(`  [CampDays] LỖI ${acc.name}: ${e.message}`);
-      // Neu chua push duoc dong nao cho tai khoan nay ma co du lieu cu -> khoi phuc de khong mat trang
+      // Loi rate limit -> khoi phuc du lieu GAN DAY (>= sinceCamp) cua rieng tai khoan nay tu file cu
+      // (phan lich su cu se duoc ghep chung o duoi qua keptHistorical).
       if (campaignDays.length === nBefore && oldCampByAcc[acc.name]?.length) {
-        campaignDays.push(...oldCampByAcc[acc.name]);
-        console.log(`    → Giữ lại ${oldCampByAcc[acc.name].length} dòng cũ của ${acc.name} (tránh mất dữ liệu)`);
+        const recent = oldCampByAcc[acc.name].filter(r => r.day >= sinceCamp);
+        campaignDays.push(...recent);
+        console.log(`    → Giữ lại ${recent.length} dòng gần đây của ${acc.name} (tránh mất dữ liệu)`);
       }
     }
   }
 }
 for (const g of allGroups) await fetchCampaignDays(g.label, g.token, g.accounts);
+// Ghep lai phan lich su cu (ngay < sinceCamp) da giu tu file truoc -> co day du ~32 ngay de loc ky.
+campaignDays.push(...keptHistorical);
 campaignDays.sort((a, b) => a.day < b.day ? -1 : a.day > b.day ? 1 : b.spend - a.spend);
-console.log(`CampaignDays: ${campaignDays.length} ngày×campaign (${since30} → ${until})`);
+console.log(`CampaignDays: ${campaignDays.length} ngày×campaign (giữ đến ${campKeepFrom} → ${until})`);
 
 // ---- Buoc 2b: Xin thumbnail do phan giai cao (640px) ----
 // Luu y: thumbnail_width/height CHI duoc Meta ton trong khi goi truc tiep node creative
