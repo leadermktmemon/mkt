@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T10:32:07.754Z",
+  "generatedAt": "2026-07-25T11:01:50.154Z",
   "source": "lark",
   "period": {
     "days": 455,
@@ -40686,13 +40686,14 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Outlet": 1360000,
         "Xã Đàn": 2965000
       },
-      "storeRev": 2965000,
+      "storeRev": 4325000,
       "storeOnline": 0,
-      "storeTarget": 4514400,
-      "custIn": 4,
-      "custBuy": 4,
+      "storeTarget": 6584400,
+      "custIn": 8,
+      "custBuy": 8,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -53756,26 +53757,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2221210280,
-    "walkinOrders": 4154,
+    "walkinRevenue": 2222570280,
+    "walkinOrders": 4158,
     "marketingRevenue": 377708438,
     "marketingOrdersEst": 661,
-    "custIn": 4373,
+    "custIn": 4377,
     "closeRate": 95,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2953355781,
+    "totalRevenue": 2954715781,
     "salesCount": 1282,
     "byType": {
       "Online": 732145501,
-      "Cửa hàng": 2221210280
+      "Cửa hàng": 2222570280
     },
     "onlinePct": 25,
     "storePct": 75
   },
   "brands": {
-    "Bemori": 2590553788,
+    "Bemori": 2591793799,
     "Teddy": 53827500,
     "Memon": 0
   },
@@ -53827,26 +53828,26 @@
     ]
   },
   "weekStore": {
-    "walkinRevenue": 292117030,
-    "walkinOrders": 598,
+    "walkinRevenue": 293477030,
+    "walkinOrders": 602,
     "marketingRevenue": 57818000,
     "marketingOrdersEst": 105,
-    "custIn": 610,
+    "custIn": 614,
     "closeRate": 98,
-    "marketingPct": 17
+    "marketingPct": 16
   },
   "weekSales": {
-    "totalRevenue": 422634530,
+    "totalRevenue": 423994530,
     "salesCount": 238,
     "byType": {
       "Online": 130517500,
-      "Cửa hàng": 292117030
+      "Cửa hàng": 293477030
     },
     "onlinePct": 31,
     "storePct": 69
   },
   "weekBrands": {
-    "Bemori": 333984872,
+    "Bemori": 335265767,
     "Teddy": 3635000,
     "Memon": 0
   },
