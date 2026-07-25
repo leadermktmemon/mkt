@@ -17,6 +17,22 @@ const V = cfg.apiVersion || "v21.0";
 const G = `https://graph.facebook.com/${V}`;
 const OUT = join(__dirname, "marketing-report", "dashboard", "meta-data.json");
 
+// ---- Khoa thoi gian: chi goi Meta API neu du lieu cu hon 55 phut ----
+// Meta fetch bi kich hoat moi 15 phut (Cloudflare Worker) nhung chi phi QC khong doi dang ke
+// trong 15 phut. Gioi han goi Meta ~1 lan/gio -> giam manh so request -> gan nhu khong bao gio
+// bi "Application request limit reached". Bo qua khoa bang FORCE_META=1 (khi chay tay muon lam moi).
+const FRESH_MINUTES = 55;
+if (process.env.FORCE_META !== "1" && existsSync(OUT)) {
+  try {
+    const prev = JSON.parse(readFileSync(OUT, "utf8"));
+    const ageMin = (Date.now() - new Date(prev.generatedAt).getTime()) / 60000;
+    if (ageMin >= 0 && ageMin < FRESH_MINUTES) {
+      console.log(`Dữ liệu Meta mới ${ageMin.toFixed(0)} phút (< ${FRESH_MINUTES}) — bỏ qua để tránh gọi API thừa. (FORCE_META=1 để ép chạy)`);
+      process.exit(0);
+    }
+  } catch { /* file loi -> cu chay binh thuong */ }
+}
+
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function get(url) {
   for (let i = 0; i < 4; i++) {
