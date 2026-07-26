@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T10:02:08.280Z",
+  "generatedAt": "2026-07-26T10:08:56.934Z",
   "source": "lark",
   "period": {
     "days": 456,
@@ -40741,13 +40741,14 @@
       "bc": {},
       "store": {
         "Bạch Mai": 2312250,
+        "Lê Văn Sỹ": 485000,
         "Xã Đàn": 2178250
       },
-      "storeRev": 4490500,
+      "storeRev": 4975500,
       "storeOnline": 279000,
-      "storeTarget": 9689400,
-      "custIn": 12,
-      "custBuy": 12,
+      "storeTarget": 15430200,
+      "custIn": 13,
+      "custBuy": 13,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -54063,26 +54064,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2234516780,
-    "walkinOrders": 4174,
+    "walkinRevenue": 2235001780,
+    "walkinOrders": 4175,
     "marketingRevenue": 372124938,
     "marketingOrdersEst": 654,
-    "custIn": 4380,
+    "custIn": 4381,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2951100281,
+    "totalRevenue": 2951585281,
     "salesCount": 1260,
     "byType": {
       "Online": 716583501,
-      "Cửa hàng": 2234516780
+      "Cửa hàng": 2235001780
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 2571000073,
+    "Bemori": 2571440879,
     "Teddy": 53273500,
     "Memon": 0
   },
@@ -54134,26 +54135,26 @@
     ]
   },
   "weekStore": {
-    "walkinRevenue": 390620280,
-    "walkinOrders": 785,
+    "walkinRevenue": 391105280,
+    "walkinOrders": 786,
     "marketingRevenue": 66981000,
     "marketingOrdersEst": 125,
-    "custIn": 800,
+    "custIn": 801,
     "closeRate": 98,
     "marketingPct": 15
   },
   "weekSales": {
-    "totalRevenue": 535071780,
+    "totalRevenue": 535556780,
     "salesCount": 269,
     "byType": {
       "Online": 144451500,
-      "Cửa hàng": 390620280
+      "Cửa hàng": 391105280
     },
     "onlinePct": 27,
     "storePct": 73
   },
   "weekBrands": {
-    "Bemori": 426758623,
+    "Bemori": 427215413,
     "Teddy": 3635000,
     "Memon": 0
   },
