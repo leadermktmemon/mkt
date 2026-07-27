@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-27T16:32:27.598Z",
+  "generatedAt": "2026-07-27T17:01:50.825Z",
   "source": "lark",
   "period": {
-    "days": 457,
+    "days": 458,
     "fromDate": "2025-01-01",
-    "toDate": "2026-07-27"
+    "toDate": "2026-07-28"
   },
   "channels": [
     "Facebook",
@@ -40833,6 +40833,49 @@
       "metaTotal": 3156498,
       "metaIgPixelRev": 774000,
       "googleAds": 0
+    },
+    {
+      "day": "2026-07-28",
+      "online": {},
+      "onlineRev": 0,
+      "onlineRev31": 0,
+      "onlineOrders": 0,
+      "onlineProducts": 0,
+      "onlineTarget": 0,
+      "fbAds": 0,
+      "ggAds": 0,
+      "social": 0,
+      "brands": {},
+      "bc": {},
+      "store": {},
+      "storeRev": 0,
+      "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
+      "memonRev": 0,
+      "leadRaw": 0,
+      "leadQual": 0,
+      "leadL4": 0,
+      "leadFB": 0,
+      "leadL4FB": 0,
+      "leadFBAds": 0,
+      "leadL4FBAds": 0,
+      "leadL5FB": 0,
+      "leadIG": 0,
+      "leadL4IG": 0,
+      "leadL5IG": 0,
+      "leadZalo": 0,
+      "leadL4Zalo": 0,
+      "leadL5Zalo": 0,
+      "leadWeb": 0,
+      "leadL5Web": 0,
+      "leadL5FBAds": 0,
+      "metaFb": 0,
+      "metaIg": 0,
+      "metaTotal": 0,
+      "metaIgPixelRev": 0,
+      "googleAds": 0
     }
   ],
   "creativeMap": {
@@ -54281,74 +54324,74 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 727420251,
-    "onlineOrders": 1284,
-    "onlineAov": 566527,
+    "onlineRevenue": 702332251,
+    "onlineOrders": 1239,
+    "onlineAov": 566854,
     "channels": [
       {
         "name": "Facebook",
-        "orders": 645,
-        "revenue": 365422034,
-        "aov": 566546,
+        "orders": 622,
+        "revenue": 352427831,
+        "aov": 566604,
         "share": 50,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 416,
-        "revenue": 235566539,
-        "aov": 566266,
+        "orders": 401,
+        "revenue": 227223970,
+        "aov": 566643,
         "share": 32,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 94,
-        "revenue": 53192355,
-        "aov": 565876,
+        "orders": 93,
+        "revenue": 52669187,
+        "aov": 566335,
         "share": 7,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 79,
-        "revenue": 44976480,
-        "aov": 569323,
+        "orders": 75,
+        "revenue": 42623003,
+        "aov": 568307,
         "share": 6,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 50,
-        "revenue": 28262843,
-        "aov": 565257,
+        "orders": 48,
+        "revenue": 27388261,
+        "aov": 570589,
         "share": 4,
         "est": true
       }
     ]
   },
   "store": {
-    "walkinRevenue": 2259211580,
-    "walkinOrders": 4221,
-    "marketingRevenue": 379061188,
-    "marketingOrdersEst": 669,
-    "custIn": 4417,
+    "walkinRevenue": 2165090330,
+    "walkinOrders": 4032,
+    "marketingRevenue": 368155188,
+    "marketingOrdersEst": 649,
+    "custIn": 4216,
     "closeRate": 96,
-    "marketingPct": 14
+    "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2986631831,
-    "salesCount": 1284,
+    "totalRevenue": 2867422581,
+    "salesCount": 1239,
     "byType": {
-      "Online": 727420251,
-      "Cửa hàng": 2259211580
+      "Online": 702332251,
+      "Cửa hàng": 2165090330
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 2593751262,
-    "Teddy": 49550500,
+    "Bemori": 2485925202,
+    "Teddy": 47771500,
     "Memon": 0
   },
   "weekMarketing": {
@@ -54383,8 +54426,8 @@
   },
   "weekPeriod": {
     "from": "2026-07-27",
-    "to": "2026-07-27",
-    "days": 1
+    "to": "2026-07-28",
+    "days": 2
   },
   "monthlyTargets": {
     "2025-01": 860000000,
