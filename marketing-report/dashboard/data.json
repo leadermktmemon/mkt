@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T14:32:21.148Z",
+  "generatedAt": "2026-07-28T15:01:45.994Z",
   "source": "lark",
   "period": {
     "days": 458,
@@ -41028,13 +41028,14 @@
       "store": {
         "Lê Văn Sỹ": 1328000,
         "Xã Đàn": 1100000,
+        "Outlet": 410000,
         "Nguyễn Trãi": 3725000
       },
-      "storeRev": 6153000,
+      "storeRev": 6563000,
       "storeOnline": 0,
-      "storeTarget": 19333800,
-      "custIn": 9,
-      "custBuy": 9,
+      "storeTarget": 20188800,
+      "custIn": 11,
+      "custBuy": 11,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -54640,26 +54641,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2171243330,
-    "walkinOrders": 4041,
+    "walkinRevenue": 2171653330,
+    "walkinOrders": 4043,
     "marketingRevenue": 368155188,
     "marketingOrdersEst": 649,
-    "custIn": 4225,
+    "custIn": 4227,
     "closeRate": 96,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2875479081,
+    "totalRevenue": 2875889081,
     "salesCount": 1242,
     "byType": {
       "Online": 704235751,
-      "Cửa hàng": 2171243330
+      "Cửa hàng": 2171653330
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 2588329831,
+    "Bemori": 2588706271,
     "Teddy": 51399500,
     "Memon": 0
   },
@@ -54711,26 +54712,26 @@
     ]
   },
   "weekStore": {
-    "walkinRevenue": 59184250,
-    "walkinOrders": 116,
+    "walkinRevenue": 59594250,
+    "walkinOrders": 118,
     "marketingRevenue": 10384750,
     "marketingOrdersEst": 21,
-    "custIn": 118,
+    "custIn": 120,
     "closeRate": 98,
     "marketingPct": 15
   },
   "weekSales": {
-    "totalRevenue": 85788500,
+    "totalRevenue": 86198500,
     "salesCount": 53,
     "byType": {
       "Online": 26604250,
-      "Cửa hàng": 59184250
+      "Cửa hàng": 59594250
     },
     "onlinePct": 31,
     "storePct": 69
   },
   "weekBrands": {
-    "Bemori": 65508896,
+    "Bemori": 65867126,
     "Teddy": 1240000,
     "Memon": 0
   },
