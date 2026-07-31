@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-31T17:01:37.849Z",
+  "generatedAt": "2026-07-31T17:30:58.425Z",
   "source": "lark",
   "period": {
-    "days": 461,
+    "days": 462,
     "fromDate": "2025-01-01",
-    "toDate": "2026-07-31"
+    "toDate": "2026-08-01"
   },
   "channels": [
     "Facebook",
@@ -41296,6 +41296,49 @@
       "metaTotal": 3091068,
       "metaIgPixelRev": 0,
       "googleAds": 0
+    },
+    {
+      "day": "2026-08-01",
+      "online": {},
+      "onlineRev": 0,
+      "onlineRev31": 0,
+      "onlineOrders": 0,
+      "onlineProducts": 0,
+      "onlineTarget": 0,
+      "fbAds": 0,
+      "ggAds": 0,
+      "social": 0,
+      "brands": {},
+      "bc": {},
+      "store": {},
+      "storeRev": 0,
+      "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
+      "memonRev": 0,
+      "leadRaw": 0,
+      "leadQual": 0,
+      "leadL4": 0,
+      "leadFB": 0,
+      "leadL4FB": 0,
+      "leadFBAds": 0,
+      "leadL4FBAds": 0,
+      "leadL5FB": 0,
+      "leadIG": 0,
+      "leadL4IG": 0,
+      "leadL5IG": 0,
+      "leadZalo": 0,
+      "leadL4Zalo": 0,
+      "leadL5Zalo": 0,
+      "leadWeb": 0,
+      "leadL5Web": 0,
+      "leadL5FBAds": 0,
+      "metaFb": 0,
+      "metaIg": 0,
+      "metaTotal": 0,
+      "metaIgPixelRev": 0,
+      "googleAds": 0
     }
   ],
   "creativeMap": {
@@ -55145,74 +55188,74 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 671143001,
-    "onlineOrders": 1186,
-    "onlineAov": 565888,
+    "onlineRevenue": 648541001,
+    "onlineOrders": 1142,
+    "onlineAov": 567899,
     "channels": [
       {
         "name": "Facebook",
-        "orders": 593,
-        "revenue": 335600358,
-        "aov": 565937,
+        "orders": 570,
+        "revenue": 323704189,
+        "aov": 567902,
         "share": 50,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 368,
-        "revenue": 208190770,
-        "aov": 565736,
+        "orders": 356,
+        "revenue": 202023014,
+        "aov": 567480,
         "share": 31,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 99,
-        "revenue": 55912146,
-        "aov": 564769,
+        "orders": 94,
+        "revenue": 53325218,
+        "aov": 567290,
         "share": 8,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 81,
-        "revenue": 45913312,
-        "aov": 566831,
+        "orders": 79,
+        "revenue": 44663880,
+        "aov": 565366,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 45,
-        "revenue": 25526415,
-        "aov": 567254,
+        "orders": 44,
+        "revenue": 24824700,
+        "aov": 564198,
         "share": 4,
         "est": true
       }
     ]
   },
   "store": {
-    "walkinRevenue": 2142150580,
-    "walkinOrders": 4100,
-    "marketingRevenue": 362322605,
-    "marketingOrdersEst": 640,
-    "custIn": 4266,
+    "walkinRevenue": 2076083830,
+    "walkinOrders": 3970,
+    "marketingRevenue": 353151605,
+    "marketingOrdersEst": 622,
+    "custIn": 4122,
     "closeRate": 96,
-    "marketingPct": 14
+    "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2813293581,
-    "salesCount": 1186,
+    "totalRevenue": 2724624831,
+    "salesCount": 1142,
     "byType": {
-      "Online": 671143001,
-      "Cửa hàng": 2142150580
+      "Online": 648541001,
+      "Cửa hàng": 2076083830
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 2502472981,
-    "Teddy": 48969500,
+    "Bemori": 2426412863,
+    "Teddy": 46784500,
     "Memon": 0
   },
   "weekMarketing": {
@@ -55289,7 +55332,7 @@
   "weekPeriod": {
     "from": "2026-07-27",
     "to": "2026-08-01",
-    "days": 5
+    "days": 6
   },
   "monthlyTargets": {
     "2025-01": 860000000,
@@ -55307,6 +55350,7 @@
     "2025-07": 930000000,
     "2026-07": 1000000000,
     "2025-08": 1100000000,
+    "2026-08": 1300000000,
     "2025-09": 1200000000,
     "2025-10": 1900000000,
     "2025-11": 1150000000,
