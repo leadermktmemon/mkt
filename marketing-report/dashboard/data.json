@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T15:30:56.083Z",
+  "generatedAt": "2026-08-01T15:39:06.679Z",
   "source": "lark",
   "period": {
     "days": 462,
@@ -41300,9 +41300,9 @@
     {
       "day": "2026-08-01",
       "online": {},
-      "onlineRev": 3300000,
+      "onlineRev": 14047500,
       "onlineRev31": 0,
-      "onlineOrders": 5,
+      "onlineOrders": 21,
       "onlineProducts": 0,
       "onlineTarget": 0,
       "fbAds": 0,
@@ -55085,47 +55085,47 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 651841001,
-    "onlineOrders": 1147,
-    "onlineAov": 568301,
+    "onlineRevenue": 662588501,
+    "onlineOrders": 1163,
+    "onlineAov": 569724,
     "channels": [
       {
         "name": "Facebook",
-        "orders": 572,
-        "revenue": 325351307,
-        "aov": 568796,
+        "orders": 580,
+        "revenue": 330715672,
+        "aov": 570199,
         "share": 50,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 357,
-        "revenue": 203050977,
-        "aov": 568770,
+        "orders": 362,
+        "revenue": 206398864,
+        "aov": 570163,
         "share": 31,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 94,
-        "revenue": 53596555,
-        "aov": 570176,
+        "orders": 96,
+        "revenue": 54480251,
+        "aov": 567503,
         "share": 8,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 79,
-        "revenue": 44891146,
-        "aov": 568242,
+        "orders": 80,
+        "revenue": 45631307,
+        "aov": 570391,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 44,
-        "revenue": 24951017,
-        "aov": 567069,
+        "orders": 45,
+        "revenue": 25362407,
+        "aov": 563609,
         "share": 4,
         "est": true
       }
@@ -55135,16 +55135,16 @@
     "walkinRevenue": 2113832080,
     "walkinOrders": 4057,
     "marketingRevenue": 355831605,
-    "marketingOrdersEst": 626,
+    "marketingOrdersEst": 625,
     "custIn": 4213,
     "closeRate": 96,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2765673081,
-    "salesCount": 1147,
+    "totalRevenue": 2776420581,
+    "salesCount": 1163,
     "byType": {
-      "Online": 651841001,
+      "Online": 662588501,
       "Cửa hàng": 2113832080
     },
     "onlinePct": 24,
@@ -55156,47 +55156,47 @@
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 86363750,
-    "onlineOrders": 166,
-    "onlineAov": 520264,
+    "onlineRevenue": 97111250,
+    "onlineOrders": 182,
+    "onlineAov": 533578,
     "channels": [
       {
         "name": "Facebook",
-        "orders": 78,
-        "revenue": 40697897,
-        "aov": 521768,
+        "orders": 86,
+        "revenue": 45762529,
+        "aov": 532122,
         "share": 47,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 54,
-        "revenue": 27887373,
-        "aov": 516433,
+        "orders": 59,
+        "revenue": 31357805,
+        "aov": 531488,
         "share": 32,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 16,
-        "revenue": 8227257,
-        "aov": 514204,
+        "orders": 17,
+        "revenue": 9251094,
+        "aov": 544182,
         "share": 10,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 13,
-        "revenue": 6699061,
-        "aov": 515312,
+        "orders": 14,
+        "revenue": 7532723,
+        "aov": 538052,
         "share": 8,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 5,
-        "revenue": 2852163,
-        "aov": 570433,
+        "orders": 6,
+        "revenue": 3207099,
+        "aov": 534516,
         "share": 3,
         "est": true
       }
@@ -55206,20 +55206,20 @@
     "walkinRevenue": 354701000,
     "walkinOrders": 706,
     "marketingRevenue": 54372251,
-    "marketingOrdersEst": 105,
+    "marketingOrdersEst": 102,
     "custIn": 733,
     "closeRate": 96,
     "marketingPct": 13
   },
   "weekSales": {
-    "totalRevenue": 441064750,
-    "salesCount": 166,
+    "totalRevenue": 451812250,
+    "salesCount": 182,
     "byType": {
-      "Online": 86363750,
+      "Online": 97111250,
       "Cửa hàng": 354701000
     },
-    "onlinePct": 20,
-    "storePct": 80
+    "onlinePct": 21,
+    "storePct": 79
   },
   "weekBrands": {
     "Bemori": 351759998,
