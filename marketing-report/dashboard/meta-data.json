@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T15:30:50.902Z",
+  "generatedAt": "2026-08-02T17:00:39.688Z",
   "since": "2025-01-01",
   "until": "2026-08-02",
   "accounts": [
@@ -4580,11 +4580,11 @@
       "igPurchaseValue": 345000
     },
     "2026-08-02": {
-      "facebook": 1572971,
-      "instagram": 107915,
+      "facebook": 1621674,
+      "instagram": 113880,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1680886,
+      "total": 1735554,
       "igPurchaseValue": 0
     }
   },
@@ -21427,16 +21427,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 483111,
-      "impressions": 5437,
-      "reach": 4180,
-      "clicks": 249,
-      "engagement": 151,
+      "spend": 496559,
+      "impressions": 5623,
+      "reach": 4381,
+      "clicks": 261,
+      "engagement": 158,
       "messages": 16,
       "leads": 8,
       "purchases": 5,
       "purchaseValue": 2035000,
-      "roas": 4.21
+      "roas": 4.1
     },
     {
       "day": "2026-08-02",
@@ -21456,45 +21456,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 364117,
-      "impressions": 3267,
-      "reach": 1811,
-      "clicks": 94,
-      "engagement": 55,
+      "spend": 377167,
+      "impressions": 3451,
+      "reach": 1875,
+      "clicks": 99,
+      "engagement": 62,
       "messages": 11,
       "leads": 12,
       "purchases": 3,
       "purchaseValue": 2075000,
-      "roas": 5.7
-    },
-    {
-      "day": "2026-08-02",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120247129147050340",
-      "name": "31/07/2026 - SBT - CR - W5 - TTN",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120247129147050340.jpg",
-      "creative": {
-        "title": "",
-        "body": "\"Alo, Công chúa ơi, ra nhận quà nè!\" \n\nNếu nàng đang ngóng Anh ship nhà Bemori thì anh ấy đã đến trước cửa nhà nàng và mang theo món quà rồi đây\n\nChẳng cần chờ đợi ai gửi quà, các nàng tự tạo niềm vui, vỗ về \"em bé\" trong mình vì...\n\nEbe hôm nay đã hoàn thành Deadlines \nEbe hôm qua đã bước qua một nỗi buồn\nEbe thật sự đã làm tốt lắm \n\nThế là đủ một lý do để tự thưởng 🎀 \n\nĐôi khi, người chiếm trọn trái tim nàng... \nChính là nàng, khi học cách yêu lấy bản thân mình trước đó 🤍\n\nYêu mình inbox Bemori gửi \"quà\" để thưởng cho nàng nhé <3\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 339118,
-      "impressions": 3864,
-      "reach": 2668,
-      "clicks": 119,
-      "engagement": 64,
-      "messages": 6,
-      "leads": 2,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "roas": 5.5
     },
     {
       "day": "2026-08-02",
@@ -21514,16 +21485,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 325617,
-      "impressions": 6454,
-      "reach": 3893,
-      "clicks": 104,
-      "engagement": 74,
+      "spend": 344946,
+      "impressions": 6927,
+      "reach": 4091,
+      "clicks": 111,
+      "engagement": 79,
       "messages": 8,
-      "leads": 8,
-      "purchases": 3,
-      "purchaseValue": 1720000,
-      "roas": 5.28
+      "leads": 10,
+      "purchases": 4,
+      "purchaseValue": 2915000,
+      "roas": 8.45
+    },
+    {
+      "day": "2026-08-02",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120247129147050340",
+      "name": "31/07/2026 - SBT - CR - W5 - TTN",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120247129147050340.jpg",
+      "creative": {
+        "title": "",
+        "body": "\"Alo, Công chúa ơi, ra nhận quà nè!\" \n\nNếu nàng đang ngóng Anh ship nhà Bemori thì anh ấy đã đến trước cửa nhà nàng và mang theo món quà rồi đây\n\nChẳng cần chờ đợi ai gửi quà, các nàng tự tạo niềm vui, vỗ về \"em bé\" trong mình vì...\n\nEbe hôm nay đã hoàn thành Deadlines \nEbe hôm qua đã bước qua một nỗi buồn\nEbe thật sự đã làm tốt lắm \n\nThế là đủ một lý do để tự thưởng 🎀 \n\nĐôi khi, người chiếm trọn trái tim nàng... \nChính là nàng, khi học cách yêu lấy bản thân mình trước đó 🤍\n\nYêu mình inbox Bemori gửi \"quà\" để thưởng cho nàng nhé <3\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 340015,
+      "impressions": 3876,
+      "reach": 2685,
+      "clicks": 121,
+      "engagement": 64,
+      "messages": 7,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 325000,
+      "roas": 0.96
     },
     {
       "day": "2026-08-02",
@@ -21543,16 +21543,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 168923,
-      "impressions": 1566,
-      "reach": 1212,
-      "clicks": 100,
-      "engagement": 59,
+      "spend": 176966,
+      "impressions": 1694,
+      "reach": 1299,
+      "clicks": 108,
+      "engagement": 63,
       "messages": 8,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 295000,
-      "roas": 1.75
+      "roas": 1.67
     }
   ]
 }
