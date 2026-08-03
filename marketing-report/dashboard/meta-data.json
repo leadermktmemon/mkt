@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T13:31:05.201Z",
+  "generatedAt": "2026-08-03T14:30:55.815Z",
   "since": "2025-01-01",
   "until": "2026-08-03",
   "accounts": [
@@ -4580,19 +4580,19 @@
       "igPurchaseValue": 345000
     },
     "2026-08-02": {
-      "facebook": 1641494,
-      "instagram": 115451,
+      "facebook": 1641849,
+      "instagram": 115169,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1756945,
+      "total": 1757018,
       "igPurchaseValue": 0
     },
     "2026-08-03": {
-      "facebook": 1810715,
-      "instagram": 124468,
+      "facebook": 1924172,
+      "instagram": 136606,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1935183,
+      "total": 2060778,
       "igPurchaseValue": 0
     }
   },
@@ -20884,8 +20884,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 384831,
-      "impressions": 3498,
+      "spend": 384904,
+      "impressions": 3499,
       "reach": 1908,
       "clicks": 100,
       "engagement": 62,
@@ -21000,16 +21000,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 414186,
-      "impressions": 4427,
-      "reach": 3455,
-      "clicks": 252,
-      "engagement": 149,
-      "messages": 15,
+      "spend": 435860,
+      "impressions": 4730,
+      "reach": 3652,
+      "clicks": 259,
+      "engagement": 156,
+      "messages": 16,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 395000,
-      "roas": 0.95
+      "roas": 0.91
     },
     {
       "day": "2026-08-03",
@@ -21029,45 +21029,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 259596,
-      "impressions": 5807,
-      "reach": 4057,
-      "clicks": 83,
-      "engagement": 62,
+      "spend": 281836,
+      "impressions": 6285,
+      "reach": 4321,
+      "clicks": 88,
+      "engagement": 67,
       "messages": 4,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 945000,
-      "roas": 3.64
-    },
-    {
-      "day": "2026-08-03",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120247129147050340",
-      "name": "31/07/2026 - SBT - CR - W5 - TTN",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120247129147050340.jpg",
-      "creative": {
-        "title": "",
-        "body": "\"Alo, Công chúa ơi, ra nhận quà nè!\" \n\nNếu nàng đang ngóng Anh ship nhà Bemori thì anh ấy đã đến trước cửa nhà nàng và mang theo món quà rồi đây\n\nChẳng cần chờ đợi ai gửi quà, các nàng tự tạo niềm vui, vỗ về \"em bé\" trong mình vì...\n\nEbe hôm nay đã hoàn thành Deadlines \nEbe hôm qua đã bước qua một nỗi buồn\nEbe thật sự đã làm tốt lắm \n\nThế là đủ một lý do để tự thưởng 🎀 \n\nĐôi khi, người chiếm trọn trái tim nàng... \nChính là nàng, khi học cách yêu lấy bản thân mình trước đó 🤍\n\nYêu mình inbox Bemori gửi \"quà\" để thưởng cho nàng nhé <3\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 242716,
-      "impressions": 2581,
-      "reach": 1940,
-      "clicks": 88,
-      "engagement": 46,
-      "messages": 2,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "roas": 3.35
     },
     {
       "day": "2026-08-03",
@@ -21087,16 +21058,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 235925,
-      "impressions": 5442,
-      "reach": 3673,
-      "clicks": 66,
-      "engagement": 41,
-      "messages": 4,
+      "spend": 256900,
+      "impressions": 6012,
+      "reach": 4093,
+      "clicks": 72,
+      "engagement": 47,
+      "messages": 5,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 325000,
-      "roas": 1.38
+      "roas": 1.27
+    },
+    {
+      "day": "2026-08-03",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120247129147050340",
+      "name": "31/07/2026 - SBT - CR - W5 - TTN",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120247129147050340.jpg",
+      "creative": {
+        "title": "",
+        "body": "\"Alo, Công chúa ơi, ra nhận quà nè!\" \n\nNếu nàng đang ngóng Anh ship nhà Bemori thì anh ấy đã đến trước cửa nhà nàng và mang theo món quà rồi đây\n\nChẳng cần chờ đợi ai gửi quà, các nàng tự tạo niềm vui, vỗ về \"em bé\" trong mình vì...\n\nEbe hôm nay đã hoàn thành Deadlines \nEbe hôm qua đã bước qua một nỗi buồn\nEbe thật sự đã làm tốt lắm \n\nThế là đủ một lý do để tự thưởng 🎀 \n\nĐôi khi, người chiếm trọn trái tim nàng... \nChính là nàng, khi học cách yêu lấy bản thân mình trước đó 🤍\n\nYêu mình inbox Bemori gửi \"quà\" để thưởng cho nàng nhé <3\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 244594,
+      "impressions": 2597,
+      "reach": 1956,
+      "clicks": 88,
+      "engagement": 46,
+      "messages": 2,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-08-03",
@@ -21116,16 +21116,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 219444,
-      "impressions": 2118,
-      "reach": 1295,
-      "clicks": 68,
-      "engagement": 34,
-      "messages": 4,
+      "spend": 241433,
+      "impressions": 2337,
+      "reach": 1416,
+      "clicks": 77,
+      "engagement": 38,
+      "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 385000,
-      "roas": 1.75
+      "roas": 1.59
     },
     {
       "day": "2026-08-03",
@@ -21145,11 +21145,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 218249,
-      "impressions": 2337,
-      "reach": 1763,
-      "clicks": 69,
-      "engagement": 46,
+      "spend": 221348,
+      "impressions": 2369,
+      "reach": 1784,
+      "clicks": 72,
+      "engagement": 47,
       "messages": 6,
       "leads": 2,
       "purchases": 0,
@@ -21174,16 +21174,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 176369,
-      "impressions": 4151,
-      "reach": 3706,
-      "clicks": 208,
-      "engagement": 139,
-      "messages": 11,
+      "spend": 201388,
+      "impressions": 4646,
+      "reach": 4097,
+      "clicks": 244,
+      "engagement": 174,
+      "messages": 14,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 360000,
-      "roas": 2.04
+      "roas": 1.79
     },
     {
       "day": "2026-08-03",
@@ -21203,16 +21203,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 168698,
-      "impressions": 2145,
-      "reach": 1749,
-      "clicks": 97,
-      "engagement": 65,
+      "spend": 177419,
+      "impressions": 2226,
+      "reach": 1794,
+      "clicks": 106,
+      "engagement": 68,
       "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 155000,
-      "roas": 0.92
+      "roas": 0.87
     }
   ]
 }
