@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:30:58.789Z",
+  "generatedAt": "2026-08-03T13:31:05.201Z",
   "since": "2025-01-01",
   "until": "2026-08-03",
   "accounts": [
@@ -4580,19 +4580,19 @@
       "igPurchaseValue": 345000
     },
     "2026-08-02": {
-      "facebook": 1639150,
-      "instagram": 115169,
+      "facebook": 1641494,
+      "instagram": 115451,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1754319,
+      "total": 1756945,
       "igPurchaseValue": 0
     },
     "2026-08-03": {
-      "facebook": 1680564,
-      "instagram": 115342,
+      "facebook": 1810715,
+      "instagram": 124468,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1795906,
+      "total": 1935183,
       "igPurchaseValue": 0
     }
   },
@@ -20884,8 +20884,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 382205,
-      "impressions": 3497,
+      "spend": 384831,
+      "impressions": 3498,
       "reach": 1908,
       "clicks": 100,
       "engagement": 62,
@@ -20893,7 +20893,7 @@
       "leads": 12,
       "purchases": 3,
       "purchaseValue": 2075000,
-      "roas": 5.43
+      "roas": 5.39
     },
     {
       "day": "2026-08-02",
@@ -21000,16 +21000,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 389402,
-      "impressions": 4090,
-      "reach": 3202,
-      "clicks": 232,
-      "engagement": 136,
-      "messages": 14,
+      "spend": 414186,
+      "impressions": 4427,
+      "reach": 3455,
+      "clicks": 252,
+      "engagement": 149,
+      "messages": 15,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 395000,
-      "roas": 1.01
+      "roas": 0.95
     },
     {
       "day": "2026-08-03",
@@ -21029,16 +21029,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 241049,
-      "impressions": 5341,
-      "reach": 3731,
-      "clicks": 75,
-      "engagement": 55,
-      "messages": 3,
+      "spend": 259596,
+      "impressions": 5807,
+      "reach": 4057,
+      "clicks": 83,
+      "engagement": 62,
+      "messages": 4,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 945000,
-      "roas": 3.92
+      "roas": 3.64
     },
     {
       "day": "2026-08-03",
@@ -21058,42 +21058,13 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 238284,
-      "impressions": 2550,
-      "reach": 1920,
+      "spend": 242716,
+      "impressions": 2581,
+      "reach": 1940,
       "clicks": 88,
       "engagement": 46,
       "messages": 2,
       "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-08-03",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120246903201790340",
-      "name": "21/07/2026- CĐ - SBT  - M - W4 - TDTTK",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120246903201790340.jpg",
-      "creative": {
-        "title": "",
-        "body": "\"Anh không giỏi nói mấy lời ngọt ngào nhưng anh biết em sẽ mỉm cười khi nhận được món quà này\" 💞\n\n✨ Hy vọng mỗi lần em ôm Teddy Lông Tiểu Kim sẽ thấy bình yên như lúc có anh ở bên. Đôi khi yêu thương chẳng cần nói nhiều, chỉ cần được cảm nhận mỗi ngày. \n\n📩  Inbox Bemori hoặc ghé cửa hàng gần nhất để rinh bé về nha!\n\n#Bemori #gaubong #quatang\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 216976,
-      "impressions": 2311,
-      "reach": 1749,
-      "clicks": 69,
-      "engagement": 46,
-      "messages": 6,
-      "leads": 2,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
@@ -21116,16 +21087,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 211910,
-      "impressions": 4856,
-      "reach": 3397,
-      "clicks": 59,
-      "engagement": 39,
-      "messages": 3,
+      "spend": 235925,
+      "impressions": 5442,
+      "reach": 3673,
+      "clicks": 66,
+      "engagement": 41,
+      "messages": 4,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 325000,
-      "roas": 1.53
+      "roas": 1.38
     },
     {
       "day": "2026-08-03",
@@ -21145,45 +21116,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 194476,
-      "impressions": 1934,
-      "reach": 1193,
-      "clicks": 63,
-      "engagement": 31,
+      "spend": 219444,
+      "impressions": 2118,
+      "reach": 1295,
+      "clicks": 68,
+      "engagement": 34,
       "messages": 4,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 385000,
-      "roas": 1.98
+      "roas": 1.75
     },
     {
       "day": "2026-08-03",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120258291033370112",
-      "name": "30/07/2026-  SBT - CR - M - W5 - BSTCC",
-      "status": "ACTIVE",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120246903201790340",
+      "name": "21/07/2026- CĐ - SBT  - M - W4 - TDTTK",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120258291033370112.jpg",
+      "thumb": "thumbs/120246903201790340.jpg",
       "creative": {
         "title": "",
-        "body": "🛒 CÙNG CON CHƠI ĐỒ ĐỒ HÀNG: MẸ LÀM KHÁCH MUA, CON LÀM CÔ BÁN TRÁI CÂY!\n\n🍏Mẹ có nhớ tuổi thơ mình từng thích mê trò đi chợ đồ đồ hàng? Giờ đây, mẹ mang cả \"gian hàng\" táo, Dừa, Dứa, Xoài bông... mềm mịn nhà Bemori về chơi cùng con. \n\n🍎 Bé đóng vai bán hàng, mẹ làm khách mua, hai mẹ con cười vui cả buổi chiều. Vừa gắn kết tình cảm, vừa tập cho con sự linh hoạt, ham học hỏi. \n\n👉 Đừng để chiều nay của con trôi qua nhạt nhòa bên màn hình điện thoại. Mẹ inbox ngay cho Bemori để rinh Rau Củ Quả siêu về nhé!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "body": "\"Anh không giỏi nói mấy lời ngọt ngào nhưng anh biết em sẽ mỉm cười khi nhận được món quà này\" 💞\n\n✨ Hy vọng mỗi lần em ôm Teddy Lông Tiểu Kim sẽ thấy bình yên như lúc có anh ở bên. Đôi khi yêu thương chẳng cần nói nhiều, chỉ cần được cảm nhận mỗi ngày. \n\n📩  Inbox Bemori hoặc ghé cửa hàng gần nhất để rinh bé về nha!\n\n#Bemori #gaubong #quatang\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
         "cta": "MESSAGE_PAGE",
         "linkUrl": "",
         "imageUrl": "",
         "images": []
       },
-      "spend": 158293,
-      "impressions": 2045,
-      "reach": 1688,
-      "clicks": 97,
-      "engagement": 64,
-      "messages": 5,
+      "spend": 218249,
+      "impressions": 2337,
+      "reach": 1763,
+      "clicks": 69,
+      "engagement": 46,
+      "messages": 6,
       "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 155000,
-      "roas": 0.98
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-08-03",
@@ -21203,16 +21174,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 150291,
-      "impressions": 3659,
-      "reach": 3256,
-      "clicks": 183,
-      "engagement": 127,
-      "messages": 8,
+      "spend": 176369,
+      "impressions": 4151,
+      "reach": 3706,
+      "clicks": 208,
+      "engagement": 139,
+      "messages": 11,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 360000,
-      "roas": 2.4
+      "roas": 2.04
+    },
+    {
+      "day": "2026-08-03",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120258291033370112",
+      "name": "30/07/2026-  SBT - CR - M - W5 - BSTCC",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120258291033370112.jpg",
+      "creative": {
+        "title": "",
+        "body": "🛒 CÙNG CON CHƠI ĐỒ ĐỒ HÀNG: MẸ LÀM KHÁCH MUA, CON LÀM CÔ BÁN TRÁI CÂY!\n\n🍏Mẹ có nhớ tuổi thơ mình từng thích mê trò đi chợ đồ đồ hàng? Giờ đây, mẹ mang cả \"gian hàng\" táo, Dừa, Dứa, Xoài bông... mềm mịn nhà Bemori về chơi cùng con. \n\n🍎 Bé đóng vai bán hàng, mẹ làm khách mua, hai mẹ con cười vui cả buổi chiều. Vừa gắn kết tình cảm, vừa tập cho con sự linh hoạt, ham học hỏi. \n\n👉 Đừng để chiều nay của con trôi qua nhạt nhòa bên màn hình điện thoại. Mẹ inbox ngay cho Bemori để rinh Rau Củ Quả siêu về nhé!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 168698,
+      "impressions": 2145,
+      "reach": 1749,
+      "clicks": 97,
+      "engagement": 65,
+      "messages": 5,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 155000,
+      "roas": 0.92
     }
   ]
 }
