@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:01:27.448Z",
+  "generatedAt": "2026-08-03T11:01:14.611Z",
   "since": "2025-01-01",
   "until": "2026-08-03",
   "accounts": [
@@ -4588,11 +4588,11 @@
       "igPurchaseValue": 0
     },
     "2026-08-03": {
-      "facebook": 1631756,
-      "instagram": 110770,
+      "facebook": 1521488,
+      "instagram": 100143,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1742526,
+      "total": 1621631,
       "igPurchaseValue": 0
     }
   },
@@ -20002,7 +20002,7 @@
       "bm": "BM1",
       "id": "120247129147050340",
       "name": "31/07/2026 - SBT - CR - W5 - TTN",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120247129147050340.jpg",
@@ -20524,7 +20524,7 @@
       "bm": "BM1",
       "id": "120247129147050340",
       "name": "31/07/2026 - SBT - CR - W5 - TTN",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120247129147050340.jpg",
@@ -20930,7 +20930,7 @@
       "bm": "BM1",
       "id": "120247129147050340",
       "name": "31/07/2026 - SBT - CR - W5 - TTN",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120247129147050340.jpg",
@@ -21000,16 +21000,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 381030,
-      "impressions": 3973,
-      "reach": 3133,
-      "clicks": 230,
-      "engagement": 135,
+      "spend": 359665,
+      "impressions": 3738,
+      "reach": 2951,
+      "clicks": 216,
+      "engagement": 124,
       "messages": 13,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 395000,
-      "roas": 1.04
+      "roas": 1.1
     },
     {
       "day": "2026-08-03",
@@ -21017,7 +21017,7 @@
       "bm": "BM1",
       "id": "120247129147050340",
       "name": "31/07/2026 - SBT - CR - W5 - TTN",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120247129147050340.jpg",
@@ -21029,10 +21029,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 235937,
-      "impressions": 2534,
-      "reach": 1900,
-      "clicks": 87,
+      "spend": 229287,
+      "impressions": 2442,
+      "reach": 1842,
+      "clicks": 85,
       "engagement": 46,
       "messages": 2,
       "leads": 0,
@@ -21058,16 +21058,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 227084,
-      "impressions": 5116,
-      "reach": 3594,
-      "clicks": 73,
-      "engagement": 52,
+      "spend": 203773,
+      "impressions": 4586,
+      "reach": 3335,
+      "clicks": 70,
+      "engagement": 49,
       "messages": 3,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 500000,
-      "roas": 2.2
+      "roas": 2.45
     },
     {
       "day": "2026-08-03",
@@ -21075,7 +21075,7 @@
       "bm": "BM1",
       "id": "120246903201790340",
       "name": "21/07/2026- CĐ - SBT  - M - W4 - TDTTK",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120246903201790340.jpg",
@@ -21087,10 +21087,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 215123,
-      "impressions": 2291,
-      "reach": 1737,
-      "clicks": 68,
+      "spend": 203693,
+      "impressions": 2143,
+      "reach": 1626,
+      "clicks": 66,
       "engagement": 45,
       "messages": 6,
       "leads": 2,
@@ -21116,16 +21116,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 203761,
-      "impressions": 4612,
-      "reach": 3257,
-      "clicks": 56,
-      "engagement": 35,
+      "spend": 188652,
+      "impressions": 4156,
+      "reach": 2969,
+      "clicks": 51,
+      "engagement": 32,
       "messages": 3,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 325000,
-      "roas": 1.6
+      "roas": 1.72
     },
     {
       "day": "2026-08-03",
@@ -21145,16 +21145,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 183993,
-      "impressions": 1831,
-      "reach": 1134,
-      "clicks": 56,
-      "engagement": 30,
+      "spend": 166616,
+      "impressions": 1644,
+      "reach": 1043,
+      "clicks": 51,
+      "engagement": 26,
       "messages": 3,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 385000,
-      "roas": 2.09
+      "roas": 2.31
     },
     {
       "day": "2026-08-03",
@@ -21174,16 +21174,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 155506,
-      "impressions": 2013,
-      "reach": 1675,
-      "clicks": 96,
-      "engagement": 64,
+      "spend": 149033,
+      "impressions": 1952,
+      "reach": 1639,
+      "clicks": 92,
+      "engagement": 61,
       "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 155000,
-      "roas": 1
+      "roas": 1.04
     },
     {
       "day": "2026-08-03",
@@ -21203,16 +21203,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 140092,
-      "impressions": 3411,
-      "reach": 3064,
-      "clicks": 171,
-      "engagement": 119,
-      "messages": 8,
+      "spend": 121317,
+      "impressions": 2952,
+      "reach": 2745,
+      "clicks": 147,
+      "engagement": 105,
+      "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 360000,
-      "roas": 2.57
+      "roas": 2.97
     }
   ]
 }
