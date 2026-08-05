@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T02:31:52.055Z",
+  "generatedAt": "2026-08-05T03:01:58.566Z",
   "source": "lark",
   "period": {
     "days": 467,
@@ -41637,15 +41637,15 @@
       "day": "2026-08-04",
       "online": {
         "Facebook": {
-          "rev": 6245000,
+          "rev": 5645000,
           "orders": 0
         },
         "Instagram": {
-          "rev": 4195000,
+          "rev": 3095000,
           "orders": 0
         },
         "Zalo": {
-          "rev": 7695000,
+          "rev": 5480000,
           "orders": 0
         },
         "Website": {
@@ -41658,22 +41658,22 @@
         }
       },
       "onlineRev": 18165000,
-      "onlineRev31": 22080000,
+      "onlineRev31": 18165000,
       "onlineOrders": 32,
       "onlineProducts": 0,
       "onlineTarget": 0,
       "fbAds": 3885000,
-      "ggAds": 8605000,
-      "social": 9590000,
+      "ggAds": 6390000,
+      "social": 7890000,
       "brands": {
-        "Bemori": 17720000,
+        "Bemori": 13805000,
         "Teddy": 915000
       },
       "bc": {
         "Bemori": {
-          "Facebook": 4920000,
-          "Instagram": 4195000,
-          "Zalo": 7695000,
+          "Facebook": 4320000,
+          "Instagram": 3095000,
+          "Zalo": 5480000,
           "Website": 500000
         },
         "Teddy": {
@@ -54648,41 +54648,41 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 543,
-        "revenue": 305174308,
-        "aov": 562015,
+        "orders": 546,
+        "revenue": 306515531,
+        "aov": 561384,
         "share": 50,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 342,
-        "revenue": 192046943,
-        "aov": 561541,
+        "orders": 340,
+        "revenue": 191069002,
+        "aov": 561968,
         "share": 31,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 86,
-        "revenue": 48429650,
-        "aov": 563135,
+        "orders": 87,
+        "revenue": 48736912,
+        "aov": 560194,
         "share": 8,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 80,
-        "revenue": 45118402,
-        "aov": 563980,
+        "orders": 79,
+        "revenue": 44313901,
+        "aov": 560935,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
         "orders": 38,
-        "revenue": 21113948,
-        "aov": 555630,
+        "revenue": 21247905,
+        "aov": 559155,
         "share": 3,
         "est": true
       }
@@ -54708,7 +54708,7 @@
     "storePct": 76
   },
   "brands": {
-    "Bemori": 2320725600,
+    "Bemori": 2315596889,
     "Teddy": 49799500,
     "Memon": 0
   },
@@ -54719,41 +54719,41 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 25,
-        "revenue": 14461206,
-        "aov": 578448,
-        "share": 38,
+        "orders": 26,
+        "revenue": 15340000,
+        "aov": 590000,
+        "share": 40,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 22,
-        "revenue": 12887166,
-        "aov": 585780,
-        "share": 34,
+        "orders": 20,
+        "revenue": 11990000,
+        "aov": 599500,
+        "share": 31,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 10,
-        "revenue": 5996774,
-        "aov": 599677,
-        "share": 16,
+        "orders": 11,
+        "revenue": 6610000,
+        "aov": 600909,
+        "share": 17,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 8,
-        "revenue": 4486240,
-        "aov": 560780,
-        "share": 12,
+        "orders": 7,
+        "revenue": 3845000,
+        "aov": 549286,
+        "share": 10,
         "est": true
       },
       {
         "name": "Website",
         "orders": 1,
-        "revenue": 453614,
-        "aov": 453614,
+        "revenue": 500000,
+        "aov": 500000,
         "share": 1,
         "est": true
       }
@@ -54779,7 +54779,7 @@
     "storePct": 77
   },
   "weekBrands": {
-    "Bemori": 149172754,
+    "Bemori": 143630419,
     "Teddy": 3595000,
     "Memon": 0
   },
