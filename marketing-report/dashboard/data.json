@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T10:01:52.561Z",
+  "generatedAt": "2026-08-06T10:31:20.075Z",
   "source": "lark",
   "period": {
     "days": 468,
@@ -41792,14 +41792,15 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Lê Văn Sỹ": 1035000,
         "Nguyễn Trãi": 1667250,
         "Xã Đàn": 1452500
       },
-      "storeRev": 3119750,
+      "storeRev": 4154750,
       "storeOnline": 685000,
-      "storeTarget": 7599200,
-      "custIn": 7,
-      "custBuy": 7,
+      "storeTarget": 15407000,
+      "custIn": 11,
+      "custBuy": 11,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -54881,26 +54882,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 1980898580,
-    "walkinOrders": 3763,
+    "walkinRevenue": 1981933580,
+    "walkinOrders": 3767,
     "marketingRevenue": 340426604,
     "marketingOrdersEst": 610,
-    "custIn": 3870,
+    "custIn": 3874,
     "closeRate": 97,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2606772830,
+    "totalRevenue": 2607807830,
     "salesCount": 1121,
     "byType": {
       "Online": 625874250,
-      "Cửa hàng": 1980898580
+      "Cửa hàng": 1981933580
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 2292679493,
+    "Bemori": 2293618116,
     "Teddy": 49799500,
     "Memon": 0
   },
@@ -54952,26 +54953,26 @@
     ]
   },
   "weekStore": {
-    "walkinRevenue": 191293000,
-    "walkinOrders": 328,
+    "walkinRevenue": 192328000,
+    "walkinOrders": 332,
     "marketingRevenue": 37115500,
     "marketingOrdersEst": 70,
-    "custIn": 338,
+    "custIn": 342,
     "closeRate": 97,
     "marketingPct": 16
   },
   "weekSales": {
-    "totalRevenue": 265341500,
+    "totalRevenue": 266376500,
     "salesCount": 140,
     "byType": {
       "Online": 74048500,
-      "Cửa hàng": 191293000
+      "Cửa hàng": 192328000
     },
     "onlinePct": 28,
     "storePct": 72
   },
   "weekBrands": {
-    "Bemori": 197661924,
+    "Bemori": 198579455,
     "Teddy": 3595000,
     "Memon": 0
   },
