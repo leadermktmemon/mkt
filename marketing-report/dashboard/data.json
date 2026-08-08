@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T08:01:47.275Z",
+  "generatedAt": "2026-08-08T08:31:18.263Z",
   "source": "lark",
   "period": {
     "days": 470,
@@ -42011,13 +42011,14 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Nguyễn Gia Trí": 2603000
+        "Nguyễn Gia Trí": 2603000,
+        "Xã Đàn": 835000
       },
-      "storeRev": 2603000,
-      "storeOnline": 680000,
-      "storeTarget": 5148000,
-      "custIn": 7,
-      "custBuy": 7,
+      "storeRev": 3438000,
+      "storeOnline": 2415000,
+      "storeTarget": 8128800,
+      "custIn": 10,
+      "custBuy": 10,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55423,26 +55424,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2011115080,
-    "walkinOrders": 3803,
-    "marketingRevenue": 331841353,
-    "marketingOrdersEst": 601,
-    "custIn": 3908,
+    "walkinRevenue": 2011950080,
+    "walkinOrders": 3806,
+    "marketingRevenue": 333576353,
+    "marketingOrdersEst": 604,
+    "custIn": 3911,
     "closeRate": 97,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2608060830,
+    "totalRevenue": 2608895830,
     "salesCount": 1081,
     "byType": {
       "Online": 596945750,
-      "Cửa hàng": 2011115080
+      "Cửa hàng": 2011950080
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2338673629,
+    "Bemori": 2339436619,
     "Teddy": 46529500,
     "Memon": 0
   },
@@ -55494,26 +55495,26 @@
     ]
   },
   "weekStore": {
-    "walkinRevenue": 333424750,
-    "walkinOrders": 589,
-    "marketingRevenue": 63108000,
-    "marketingOrdersEst": 124,
-    "custIn": 605,
+    "walkinRevenue": 334259750,
+    "walkinOrders": 592,
+    "marketingRevenue": 64843000,
+    "marketingOrdersEst": 128,
+    "custIn": 608,
     "closeRate": 97,
     "marketingPct": 16
   },
   "weekSales": {
-    "totalRevenue": 435959250,
+    "totalRevenue": 436794250,
     "salesCount": 202,
     "byType": {
       "Online": 102534500,
-      "Cửa hàng": 333424750
+      "Cửa hàng": 334259750
     },
-    "onlinePct": 24,
-    "storePct": 76
+    "onlinePct": 23,
+    "storePct": 77
   },
   "weekBrands": {
-    "Bemori": 393380326,
+    "Bemori": 394159838,
     "Teddy": 5845000,
     "Memon": 0
   },
