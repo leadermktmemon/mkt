@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T02:23:30.188Z",
+  "generatedAt": "2026-08-10T02:31:45.484Z",
   "source": "lark",
   "period": {
     "days": 472,
@@ -41999,17 +41999,45 @@
     },
     {
       "day": "2026-08-08",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 11587000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 3750000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 5971500,
+          "orders": 0
+        }
+      },
       "onlineRev": 23892500,
-      "onlineRev31": 0,
+      "onlineRev31": 21308500,
       "onlineOrders": 48,
       "onlineProducts": 0,
       "onlineTarget": 31000000,
       "fbAds": 0,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 6296500,
+      "social": 15012000,
+      "brands": {
+        "Bemori": 19034500,
+        "Teddy": 2274000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 8988000,
+          "Instagram": 3750000,
+          "Zalo": 5971500
+        },
+        "Teddy": {
+          "Facebook": 2274000
+        },
+        "GBO/NNGB": {
+          "Facebook": 325000
+        }
+      },
       "store": {
         "Bạch Mai": 16770000,
         "Cầu Giấy": 9705000,
@@ -42053,17 +42081,49 @@
     },
     {
       "day": "2026-08-09",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 7475500,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 8919000,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 299000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 2612500,
+          "orders": 0
+        }
+      },
       "onlineRev": 18235500,
-      "onlineRev31": 0,
+      "onlineRev31": 19306000,
       "onlineOrders": 43,
       "onlineProducts": 0,
       "onlineTarget": 29000000,
       "fbAds": 0,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 9788000,
+      "social": 9518000,
+      "brands": {
+        "Bemori": 15076000,
+        "Teddy": 1617500
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 5288000,
+          "Zalo": 8919000,
+          "Website": 299000
+        },
+        "Teddy": {
+          "Facebook": 1617500
+        },
+        "GBO/NNGB": {
+          "Facebook": 570000
+        }
+      },
       "store": {
         "Láng": 14532750,
         "Nguyễn Văn Cừ": 8733000,
@@ -55069,40 +55129,40 @@
       {
         "name": "Facebook",
         "orders": 511,
-        "revenue": 280804290,
-        "aov": 549519,
+        "revenue": 280808297,
+        "aov": 549527,
         "share": 47,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 360,
-        "revenue": 197607207,
-        "aov": 548909,
+        "orders": 362,
+        "revenue": 199076887,
+        "aov": 549936,
         "share": 33,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 99,
-        "revenue": 54196753,
-        "aov": 547442,
+        "orders": 97,
+        "revenue": 53137367,
+        "aov": 547808,
         "share": 9,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 82,
-        "revenue": 44930196,
-        "aov": 547929,
+        "orders": 83,
+        "revenue": 45626466,
+        "aov": 549716,
         "share": 8,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 38,
-        "revenue": 20868803,
-        "aov": 549179,
+        "orders": 36,
+        "revenue": 19758233,
+        "aov": 548840,
         "share": 3,
         "est": true
       }
@@ -55128,8 +55188,8 @@
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2316708596,
-    "Teddy": 42248500,
+    "Bemori": 2348275628,
+    "Teddy": 46140000,
     "Memon": 0
   },
   "weekMarketing": {
