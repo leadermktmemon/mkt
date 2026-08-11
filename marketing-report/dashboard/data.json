@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:02:04.980Z",
+  "generatedAt": "2026-08-11T15:31:52.280Z",
   "source": "lark",
   "period": {
     "days": 473,
@@ -42242,13 +42242,16 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Outlet": 2626000
+        "Outlet": 2626000,
+        "Nguyễn Trãi": 2460000,
+        "Xuân Thủy": 5439000,
+        "Bạch Mai": 2969000
       },
-      "storeRev": 2626000,
-      "storeOnline": 0,
-      "storeTarget": 3024000,
-      "custIn": 11,
-      "custBuy": 11,
+      "storeRev": 13494000,
+      "storeOnline": 1530000,
+      "storeTarget": 20365200,
+      "custIn": 39,
+      "custBuy": 37,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55250,26 +55253,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2030555080,
-    "walkinOrders": 3835,
-    "marketingRevenue": 337006754,
-    "marketingOrdersEst": 616,
-    "custIn": 3941,
+    "walkinRevenue": 2041423080,
+    "walkinOrders": 3861,
+    "marketingRevenue": 338536754,
+    "marketingOrdersEst": 618,
+    "custIn": 3969,
     "closeRate": 97,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2639254830,
+    "totalRevenue": 2650122830,
     "salesCount": 1112,
     "byType": {
       "Online": 608699750,
-      "Cửa hàng": 2030555080
+      "Cửa hàng": 2041423080
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2350978797,
+    "Bemori": 2360984278,
     "Teddy": 40760000,
     "Memon": 0
   },
@@ -55280,23 +55283,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 71481750,
-    "walkinOrders": 139,
-    "marketingRevenue": 14432000,
-    "marketingOrdersEst": 25,
-    "custIn": 145,
-    "closeRate": 96,
-    "marketingPct": 17
+    "walkinRevenue": 82349750,
+    "walkinOrders": 165,
+    "marketingRevenue": 15962000,
+    "marketingOrdersEst": 28,
+    "custIn": 173,
+    "closeRate": 95,
+    "marketingPct": 16
   },
   "weekSales": {
-    "totalRevenue": 108761750,
+    "totalRevenue": 119629750,
     "salesCount": 65,
     "byType": {
       "Online": 37280000,
-      "Cửa hàng": 71481750
+      "Cửa hàng": 82349750
     },
-    "onlinePct": 34,
-    "storePct": 66
+    "onlinePct": 31,
+    "storePct": 69
   },
   "weekBrands": {
     "Bemori": 0,
