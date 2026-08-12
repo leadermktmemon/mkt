@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T04:02:44.875Z",
+  "generatedAt": "2026-08-12T04:29:13.224Z",
   "source": "lark",
   "period": {
     "days": 474,
@@ -42176,17 +42176,51 @@
     },
     {
       "day": "2026-08-10",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 12479000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 2150000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 5319000,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 295000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 4385000,
+          "orders": 0
+        }
+      },
       "onlineRev": 24628000,
-      "onlineRev31": 0,
+      "onlineRev31": 24628000,
       "onlineOrders": 45,
       "onlineProducts": 0,
       "onlineTarget": 23000000,
       "fbAds": 5346000,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 5614000,
+      "social": 13668000,
+      "brands": {
+        "Bemori": 17338000,
+        "Teddy": 2905000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 9574000,
+          "Instagram": 2150000,
+          "Zalo": 5319000,
+          "Website": 295000
+        },
+        "Teddy": {
+          "Facebook": 2905000
+        }
+      },
       "store": {
         "Xã Đàn": 4420500,
         "Outlet": 4541000,
@@ -42205,22 +42239,22 @@
       "custIn": 133,
       "custBuy": 127,
       "memonRev": 0,
-      "leadRaw": 0,
-      "leadQual": 0,
-      "leadL4": 0,
-      "leadFB": 0,
-      "leadL4FB": 0,
+      "leadRaw": 156,
+      "leadQual": 56,
+      "leadL4": 14,
+      "leadFB": 108,
+      "leadL4FB": 9,
       "leadFBAds": 0,
       "leadL4FBAds": 0,
-      "leadL5FB": 0,
-      "leadIG": 0,
-      "leadL4IG": 0,
-      "leadL5IG": 0,
-      "leadZalo": 0,
-      "leadL4Zalo": 0,
-      "leadL5Zalo": 0,
-      "leadWeb": 0,
-      "leadL5Web": 0,
+      "leadL5FB": 24,
+      "leadIG": 10,
+      "leadL4IG": 2,
+      "leadL5IG": 3,
+      "leadZalo": 35,
+      "leadL4Zalo": 3,
+      "leadL5Zalo": 12,
+      "leadWeb": 3,
+      "leadL5Web": 1,
       "leadL5FBAds": 0,
       "metaFb": 2813219,
       "metaIg": 186209,
@@ -42296,22 +42330,22 @@
       "custIn": 137,
       "custBuy": 132,
       "memonRev": 0,
-      "leadRaw": 0,
-      "leadQual": 0,
-      "leadL4": 0,
-      "leadFB": 0,
-      "leadL4FB": 0,
+      "leadRaw": 160,
+      "leadQual": 61,
+      "leadL4": 22,
+      "leadFB": 104,
+      "leadL4FB": 12,
       "leadFBAds": 0,
       "leadL4FBAds": 0,
-      "leadL5FB": 0,
-      "leadIG": 0,
-      "leadL4IG": 0,
-      "leadL5IG": 0,
-      "leadZalo": 0,
-      "leadL4Zalo": 0,
-      "leadL5Zalo": 0,
-      "leadWeb": 0,
-      "leadL5Web": 0,
+      "leadL5FB": 19,
+      "leadIG": 10,
+      "leadL4IG": 4,
+      "leadL5IG": 1,
+      "leadZalo": 42,
+      "leadL4Zalo": 6,
+      "leadL5Zalo": 15,
+      "leadWeb": 4,
+      "leadL5Web": 1,
       "leadL5FBAds": 0,
       "metaFb": 3672617,
       "metaIg": 180395,
@@ -55204,42 +55238,42 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 507,
-        "revenue": 275268619,
-        "aov": 542936,
-        "share": 46,
+        "orders": 509,
+        "revenue": 276326304,
+        "aov": 542881,
+        "share": 47,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 368,
-        "revenue": 199929621,
-        "aov": 543287,
-        "share": 34,
+        "orders": 363,
+        "revenue": 196982733,
+        "aov": 542652,
+        "share": 33,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 102,
-        "revenue": 55424913,
-        "aov": 543381,
-        "share": 9,
+        "orders": 106,
+        "revenue": 57495499,
+        "aov": 542410,
+        "share": 10,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 77,
-        "revenue": 42043346,
-        "aov": 546017,
+        "orders": 78,
+        "revenue": 42446981,
+        "aov": 544192,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 39,
-        "revenue": 21337251,
-        "aov": 547109,
-        "share": 4,
+        "orders": 38,
+        "revenue": 20752232,
+        "aov": 546111,
+        "share": 3,
         "est": true
       }
     ]
@@ -55264,8 +55298,8 @@
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2333147126,
-    "Teddy": 40335000,
+    "Bemori": 2345620611,
+    "Teddy": 43240000,
     "Memon": 0
   },
   "weekMarketing": {
@@ -55275,41 +55309,41 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 48,
-        "revenue": 24783915,
-        "aov": 516332,
-        "share": 55,
+        "orders": 46,
+        "revenue": 23711000,
+        "aov": 515457,
+        "share": 53,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 27,
-        "revenue": 14055693,
-        "aov": 520581,
-        "share": 31,
+        "orders": 23,
+        "revenue": 11689000,
+        "aov": 508217,
+        "share": 26,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 10,
-        "revenue": 5295708,
-        "aov": 529571,
-        "share": 12,
+        "orders": 13,
+        "revenue": 6785000,
+        "aov": 521923,
+        "share": 15,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 1,
-        "revenue": 518538,
-        "aov": 518538,
-        "share": 1,
+        "orders": 5,
+        "revenue": 2385000,
+        "aov": 477000,
+        "share": 5,
         "est": true
       },
       {
         "name": "Website",
         "orders": 1,
-        "revenue": 386145,
-        "aov": 386145,
+        "revenue": 470000,
+        "aov": 470000,
         "share": 1,
         "est": true
       }
@@ -55335,8 +55369,8 @@
     "storePct": 75
   },
   "weekBrands": {
-    "Bemori": 147084210,
-    "Teddy": 590000,
+    "Bemori": 156566064,
+    "Teddy": 3495000,
     "Memon": 0
   },
   "weekPeriod": {
