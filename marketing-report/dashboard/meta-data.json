@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T09:31:21.260Z",
+  "generatedAt": "2026-08-14T10:31:43.789Z",
   "since": "2025-01-01",
   "until": "2026-08-14",
   "accounts": [
@@ -4668,19 +4668,19 @@
       "igPurchaseValue": 0
     },
     "2026-08-13": {
-      "facebook": 4155041,
+      "facebook": 4156144,
       "instagram": 130466,
       "messenger": 0,
       "audience_network": 0,
-      "total": 4285507,
+      "total": 4286610,
       "igPurchaseValue": 410000
     },
     "2026-08-14": {
-      "facebook": 2030878,
-      "instagram": 63969,
+      "facebook": 2170250,
+      "instagram": 71817,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2094847,
+      "total": 2242067,
       "igPurchaseValue": 0
     }
   },
@@ -20073,16 +20073,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 338369,
-      "impressions": 4450,
-      "reach": 3840,
-      "clicks": 259,
-      "engagement": 162,
-      "messages": 15,
+      "spend": 354271,
+      "impressions": 4592,
+      "reach": 3948,
+      "clicks": 266,
+      "engagement": 165,
+      "messages": 16,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 980000,
-      "roas": 2.9
+      "roas": 2.77
     },
     {
       "day": "2026-08-14",
@@ -20131,16 +20131,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 181065,
-      "impressions": 2381,
-      "reach": 2165,
-      "clicks": 137,
-      "engagement": 70,
+      "spend": 183749,
+      "impressions": 2432,
+      "reach": 2201,
+      "clicks": 139,
+      "engagement": 71,
       "messages": 8,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 525000,
-      "roas": 2.9
+      "roas": 2.86
     },
     {
       "day": "2026-08-14",
@@ -20289,6 +20289,35 @@
     },
     {
       "day": "2026-08-14",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120258521751990112",
+      "name": "6/8/2026-BSTBSL-M-CR",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120258521751990112.jpg",
+      "creative": {
+        "title": "",
+        "body": "🔥 TOP 10 BẠN BÔNG BEST SELLER – ĐƯỢC CÁC MẸ YÊU THÍCH TẠI BEMORI KIDS!\n\n🧸Tuổi thơ của bé làm sao thiếu được một bạn bông êm ái để ôm ấp và sẻ chia. Muốn chọn cho con người bạn nhỏ vừa cưng xỉu vừa thân thiện, mom cứ tham khảo ngay \"danh sách được săn đón\" tại Bemori Kids nha:\n\n- Top 1: Gối Ôm Kem Lạnh Trái Cây\n- Top 2: BST Rau Củ Quả Nhí \n- Top 3: Thú Bông \n\n(Cùng muôn vàn bạn bông xinh iu khác đang đợi bé tại shop!)\n\n💌 Các mom bấm inbox cho Bemori Kids để được tư vấn nhé!!!\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 130446,
+      "impressions": 797,
+      "reach": 604,
+      "clicks": 50,
+      "engagement": 36,
+      "messages": 1,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-08-14",
       "account": "Pa15",
       "bm": "BM1",
       "id": "120247423113940340",
@@ -20320,35 +20349,6 @@
       "day": "2026-08-14",
       "account": "Bemori 3",
       "bm": "BM2",
-      "id": "120258521751990112",
-      "name": "6/8/2026-BSTBSL-M-CR",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120258521751990112.jpg",
-      "creative": {
-        "title": "",
-        "body": "🔥 TOP 10 BẠN BÔNG BEST SELLER – ĐƯỢC CÁC MẸ YÊU THÍCH TẠI BEMORI KIDS!\n\n🧸Tuổi thơ của bé làm sao thiếu được một bạn bông êm ái để ôm ấp và sẻ chia. Muốn chọn cho con người bạn nhỏ vừa cưng xỉu vừa thân thiện, mom cứ tham khảo ngay \"danh sách được săn đón\" tại Bemori Kids nha:\n\n- Top 1: Gối Ôm Kem Lạnh Trái Cây\n- Top 2: BST Rau Củ Quả Nhí \n- Top 3: Thú Bông \n\n(Cùng muôn vàn bạn bông xinh iu khác đang đợi bé tại shop!)\n\n💌 Các mom bấm inbox cho Bemori Kids để được tư vấn nhé!!!\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 124877,
-      "impressions": 747,
-      "reach": 577,
-      "clicks": 42,
-      "engagement": 31,
-      "messages": 1,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-08-14",
-      "account": "Bemori 3",
-      "bm": "BM2",
       "id": "120258060541290112",
       "name": "21/07/2026- GOL - CR - M - W4 - GKLTC",
       "status": "ACTIVE",
@@ -20363,16 +20363,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 109449,
-      "impressions": 1429,
-      "reach": 1384,
-      "clicks": 77,
-      "engagement": 44,
-      "messages": 2,
+      "spend": 114792,
+      "impressions": 1516,
+      "reach": 1493,
+      "clicks": 81,
+      "engagement": 46,
+      "messages": 4,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 1220000,
-      "roas": 11.15
+      "roas": 10.63
     },
     {
       "day": "2026-08-14",
@@ -20392,12 +20392,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 103999,
-      "impressions": 872,
-      "reach": 730,
+      "spend": 112186,
+      "impressions": 930,
+      "reach": 770,
       "clicks": 60,
       "engagement": 32,
-      "messages": 4,
+      "messages": 5,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
