@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T07:31:13.955Z",
+  "generatedAt": "2026-08-15T08:31:34.718Z",
   "since": "2025-01-01",
   "until": "2026-08-15",
   "accounts": [
@@ -4668,28 +4668,28 @@
       "igPurchaseValue": 0
     },
     "2026-08-13": {
-      "facebook": 4156612,
+      "facebook": 4156642,
       "instagram": 130466,
       "messenger": 0,
       "audience_network": 0,
-      "total": 4287078,
+      "total": 4287108,
       "igPurchaseValue": 410000
     },
     "2026-08-14": {
-      "facebook": 3100723,
+      "facebook": 3100732,
       "instagram": 116371,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3217094,
+      "total": 3217103,
       "igPurchaseValue": 0
     },
     "2026-08-15": {
-      "facebook": 2713829,
-      "instagram": 84017,
+      "facebook": 2959607,
+      "instagram": 104256,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2797884,
-      "igPurchaseValue": 0
+      "total": 3063901,
+      "igPurchaseValue": 229000
     }
   },
   "campaignDays": [
@@ -20052,16 +20052,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 293692,
-      "impressions": 4364,
-      "reach": 3925,
-      "clicks": 208,
-      "engagement": 151,
-      "messages": 15,
+      "spend": 323001,
+      "impressions": 4734,
+      "reach": 4228,
+      "clicks": 223,
+      "engagement": 163,
+      "messages": 16,
       "leads": 6,
       "purchases": 4,
       "purchaseValue": 1713000,
-      "roas": 5.83
+      "roas": 5.3
     },
     {
       "day": "2026-08-15",
@@ -20110,16 +20110,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 226388,
-      "impressions": 3697,
-      "reach": 3176,
-      "clicks": 167,
-      "engagement": 99,
+      "spend": 242640,
+      "impressions": 3980,
+      "reach": 3461,
+      "clicks": 181,
+      "engagement": 108,
       "messages": 14,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 350000,
-      "roas": 1.55
+      "roas": 1.44
     },
     {
       "day": "2026-08-15",
@@ -20270,35 +20270,6 @@
       "day": "2026-08-15",
       "account": "Bemori 3",
       "bm": "BM2",
-      "id": "120258707479860112",
-      "name": "13/8/2026-BST-GOL-M-CR-01",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120258707479860112.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌷 Ngắm bé con ôm chặt bạn gối trái cây mát rượi ngủ ngon lành, bao mệt mỏi trong mẹ bỗng chốc tan biến...\n\n☁️ Thiết kế \"vừa mát, vừa bắt mắt\" với đường may tỉ mỉ, chất bông mềm mại, vừa vặn để con ôm ấp, chìm vào giấc mơ. Đặc biệt vải kem lạnh chạm xua tan cái oi bức, mát lạnh suốt đêm dài.\n\n💕 Bé nhà mẹ bao nhiêu tuổi? Inbox Bemori Kids để được tư vấn kẻo hết nhaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 159207,
-      "impressions": 1491,
-      "reach": 1299,
-      "clicks": 71,
-      "engagement": 38,
-      "messages": 1,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-08-15",
-      "account": "Bemori 3",
-      "bm": "BM2",
       "id": "120258521751990112",
       "name": "6/8/2026-BSTBSL-M-CR",
       "status": "ACTIVE",
@@ -20313,13 +20284,42 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 158850,
-      "impressions": 1308,
-      "reach": 1071,
-      "clicks": 65,
-      "engagement": 47,
+      "spend": 170719,
+      "impressions": 1416,
+      "reach": 1159,
+      "clicks": 70,
+      "engagement": 53,
       "messages": 2,
       "leads": 2,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-08-15",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120258707479860112",
+      "name": "13/8/2026-BST-GOL-M-CR-01",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120258707479860112.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌷 Ngắm bé con ôm chặt bạn gối trái cây mát rượi ngủ ngon lành, bao mệt mỏi trong mẹ bỗng chốc tan biến...\n\n☁️ Thiết kế \"vừa mát, vừa bắt mắt\" với đường may tỉ mỉ, chất bông mềm mại, vừa vặn để con ôm ấp, chìm vào giấc mơ. Đặc biệt vải kem lạnh chạm xua tan cái oi bức, mát lạnh suốt đêm dài.\n\n💕 Bé nhà mẹ bao nhiêu tuổi? Inbox Bemori Kids để được tư vấn kẻo hết nhaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 170363,
+      "impressions": 1571,
+      "reach": 1370,
+      "clicks": 74,
+      "engagement": 39,
+      "messages": 1,
+      "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
@@ -20429,11 +20429,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 101856,
-      "impressions": 992,
-      "reach": 923,
-      "clicks": 37,
-      "engagement": 26,
+      "spend": 111713,
+      "impressions": 1068,
+      "reach": 996,
+      "clicks": 41,
+      "engagement": 29,
       "messages": 2,
       "leads": 2,
       "purchases": 0,
