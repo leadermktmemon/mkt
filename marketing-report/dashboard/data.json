@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T11:01:52.842Z",
+  "generatedAt": "2026-08-15T11:31:26.510Z",
   "source": "lark",
   "period": {
     "days": 476,
@@ -42638,13 +42638,14 @@
       "bc": {},
       "store": {
         "Xã Đàn": 2250000,
+        "Lê Văn Sỹ": 2265000,
         "Outlet": 2166000
       },
-      "storeRev": 4416000,
+      "storeRev": 6681000,
       "storeOnline": 0,
-      "storeTarget": 5961600,
-      "custIn": 10,
-      "custBuy": 9,
+      "storeTarget": 18246600,
+      "custIn": 14,
+      "custBuy": 13,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55544,26 +55545,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2092887580,
-    "walkinOrders": 3994,
+    "walkinRevenue": 2095152580,
+    "walkinOrders": 3998,
     "marketingRevenue": 347319254,
     "marketingOrdersEst": 655,
-    "custIn": 4105,
+    "custIn": 4109,
     "closeRate": 97,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2710997829,
+    "totalRevenue": 2713262829,
     "salesCount": 1166,
     "byType": {
       "Online": 618110249,
-      "Cửa hàng": 2092887580
+      "Cửa hàng": 2095152580
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2412349181,
+    "Bemori": 2414413643,
     "Teddy": 48277500,
     "Memon": 0
   },
@@ -55615,26 +55616,26 @@
     ]
   },
   "weekStore": {
-    "walkinRevenue": 359827500,
-    "walkinOrders": 692,
+    "walkinRevenue": 362092500,
+    "walkinOrders": 696,
     "marketingRevenue": 60525001,
     "marketingOrdersEst": 119,
-    "custIn": 720,
+    "custIn": 724,
     "closeRate": 96,
     "marketingPct": 14
   },
   "weekSales": {
-    "totalRevenue": 474638999,
+    "totalRevenue": 476903999,
     "salesCount": 225,
     "byType": {
       "Online": 114811499,
-      "Cửa hàng": 359827500
+      "Cửa hàng": 362092500
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "weekBrands": {
-    "Bemori": 396905291,
+    "Bemori": 398886877,
     "Teddy": 11742500,
     "Memon": 0
   },
