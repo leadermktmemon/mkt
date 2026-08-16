@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T16:31:35.529Z",
+  "generatedAt": "2026-08-16T17:32:02.710Z",
   "since": "2025-01-01",
   "until": "2026-08-16",
   "accounts": [
@@ -4692,11 +4692,11 @@
       "igPurchaseValue": 229000
     },
     "2026-08-16": {
-      "facebook": 4439491,
-      "instagram": 147926,
+      "facebook": 4478033,
+      "instagram": 150447,
       "messenger": 0,
       "audience_network": 0,
-      "total": 4587417,
+      "total": 4628480,
       "igPurchaseValue": 550000
     }
   },
@@ -18917,7 +18917,7 @@
       "bm": "BM2",
       "id": "120258707308950112",
       "name": "6/8/2026-BSTBSL-M-CR",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258707308950112.jpg",
@@ -19642,7 +19642,7 @@
       "bm": "BM2",
       "id": "120255768361810112",
       "name": "12/06/2026- CĐ -SBT - CR - M - W2 - DHL",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120255768361810112.jpg",
@@ -20089,16 +20089,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 393013,
-      "impressions": 4565,
-      "reach": 3669,
-      "clicks": 259,
-      "engagement": 168,
-      "messages": 21,
+      "spend": 395401,
+      "impressions": 4601,
+      "reach": 3699,
+      "clicks": 261,
+      "engagement": 172,
+      "messages": 22,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 539000,
-      "roas": 1.37
+      "roas": 1.36
     },
     {
       "day": "2026-08-16",
@@ -20292,9 +20292,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 290721,
-      "impressions": 4609,
-      "reach": 4032,
+      "spend": 291376,
+      "impressions": 4616,
+      "reach": 4033,
       "clicks": 142,
       "engagement": 94,
       "messages": 9,
@@ -20338,7 +20338,7 @@
       "bm": "BM2",
       "id": "120255768361810112",
       "name": "12/06/2026- CĐ -SBT - CR - M - W2 - DHL",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120255768361810112.jpg",
@@ -20350,16 +20350,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 221128,
-      "impressions": 4492,
-      "reach": 3729,
+      "spend": 223495,
+      "impressions": 4533,
+      "reach": 3756,
       "clicks": 199,
       "engagement": 117,
       "messages": 14,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 458000,
-      "roas": 2.07
+      "roas": 2.05
     },
     {
       "day": "2026-08-16",
@@ -20367,7 +20367,7 @@
       "bm": "BM2",
       "id": "120258811742640112",
       "name": "16/08/2026-BSTBSL-T8-M-CR",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258811742640112.jpg",
@@ -20379,8 +20379,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 166348,
-      "impressions": 1438,
+      "spend": 166397,
+      "impressions": 1440,
       "reach": 1124,
       "clicks": 65,
       "engagement": 43,
@@ -20396,7 +20396,7 @@
       "bm": "BM2",
       "id": "120258811814020112",
       "name": "16/08/2026-BST-Thobong-M-CR",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258811814020112.jpg",
@@ -20408,16 +20408,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 145602,
-      "impressions": 920,
-      "reach": 692,
+      "spend": 145798,
+      "impressions": 922,
+      "reach": 693,
       "clicks": 31,
       "engagement": 19,
       "messages": 1,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 690000,
-      "roas": 4.74
+      "roas": 4.73
     },
     {
       "day": "2026-08-16",
