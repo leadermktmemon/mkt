@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T07:31:47.880Z",
+  "generatedAt": "2026-08-16T07:47:32.121Z",
   "source": "lark",
   "period": {
     "days": 477,
@@ -42696,7 +42696,7 @@
       "storeRev": 1755000,
       "storeOnline": 0,
       "storeTarget": 4222800,
-      "custIn": 4,
+      "custIn": 3,
       "custBuy": 3,
       "memonRev": 0,
       "leadRaw": 0,
@@ -55628,7 +55628,7 @@
     "walkinOrders": 4015,
     "marketingRevenue": 343773504,
     "marketingOrdersEst": 657,
-    "custIn": 4132,
+    "custIn": 4131,
     "closeRate": 97,
     "marketingPct": 14
   },
@@ -55699,7 +55699,7 @@
     "walkinOrders": 863,
     "marketingRevenue": 69255001,
     "marketingOrdersEst": 138,
-    "custIn": 900,
+    "custIn": 899,
     "closeRate": 96,
     "marketingPct": 13
   },
