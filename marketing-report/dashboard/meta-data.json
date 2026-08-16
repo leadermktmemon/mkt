@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T10:01:13.326Z",
+  "generatedAt": "2026-08-16T11:01:13.328Z",
   "since": "2025-01-01",
   "until": "2026-08-16",
   "accounts": [
@@ -4692,11 +4692,11 @@
       "igPurchaseValue": 229000
     },
     "2026-08-16": {
-      "facebook": 3323454,
-      "instagram": 99074,
+      "facebook": 3497796,
+      "instagram": 103453,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3422528,
+      "total": 3601249,
       "igPurchaseValue": 550000
     }
   },
@@ -19684,7 +19684,7 @@
         "images": []
       },
       "spend": 302016,
-      "impressions": 4436,
+      "impressions": 4437,
       "reach": 3013,
       "clicks": 91,
       "engagement": 52,
@@ -20031,16 +20031,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 350332,
-      "impressions": 3459,
-      "reach": 2598,
-      "clicks": 139,
-      "engagement": 70,
+      "spend": 361214,
+      "impressions": 3542,
+      "reach": 2633,
+      "clicks": 147,
+      "engagement": 75,
       "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 835000,
-      "roas": 2.38
+      "roas": 2.31
     },
     {
       "day": "2026-08-16",
@@ -20060,16 +20060,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 288079,
-      "impressions": 4208,
-      "reach": 3707,
-      "clicks": 125,
-      "engagement": 1134,
-      "messages": 14,
+      "spend": 305323,
+      "impressions": 4399,
+      "reach": 3797,
+      "clicks": 132,
+      "engagement": 1176,
+      "messages": 15,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 534000,
-      "roas": 1.85
+      "roas": 1.75
     },
     {
       "day": "2026-08-16",
@@ -20089,11 +20089,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 275576,
-      "impressions": 3902,
-      "reach": 3303,
-      "clicks": 116,
-      "engagement": 959,
+      "spend": 286456,
+      "impressions": 4069,
+      "reach": 3411,
+      "clicks": 122,
+      "engagement": 994,
       "messages": 15,
       "leads": 0,
       "purchases": 0,
@@ -20118,10 +20118,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 263285,
-      "impressions": 4312,
-      "reach": 3783,
-      "clicks": 134,
+      "spend": 273157,
+      "impressions": 4425,
+      "reach": 3869,
+      "clicks": 135,
       "engagement": 88,
       "messages": 9,
       "leads": 2,
@@ -20147,16 +20147,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 243195,
-      "impressions": 2264,
-      "reach": 1880,
-      "clicks": 149,
-      "engagement": 99,
+      "spend": 264877,
+      "impressions": 2567,
+      "reach": 2090,
+      "clicks": 162,
+      "engagement": 104,
       "messages": 17,
       "leads": 4,
-      "purchases": 1,
-      "purchaseValue": 310000,
-      "roas": 1.27
+      "purchases": 2,
+      "purchaseValue": 539000,
+      "roas": 2.03
     },
     {
       "day": "2026-08-16",
@@ -20176,16 +20176,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 242688,
-      "impressions": 2054,
-      "reach": 1578,
-      "clicks": 48,
-      "engagement": 26,
-      "messages": 2,
+      "spend": 258306,
+      "impressions": 2145,
+      "reach": 1637,
+      "clicks": 51,
+      "engagement": 27,
+      "messages": 3,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 725000,
-      "roas": 2.99
+      "roas": 2.81
     },
     {
       "day": "2026-08-16",
@@ -20205,9 +20205,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 229833,
-      "impressions": 6951,
-      "reach": 6275,
+      "spend": 247487,
+      "impressions": 7145,
+      "reach": 6396,
       "clicks": 56,
       "engagement": 41,
       "messages": 3,
@@ -20215,35 +20215,6 @@
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
-    },
-    {
-      "day": "2026-08-16",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120246480671320340",
-      "name": "06/07/2026 - SBT - CR - M - TK",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120246480671320340.jpg",
-      "creative": {
-        "title": "",
-        "body": "🧸 Top những món quà dỗ nàng mềm lòng ngay từ cái ôm đầu tiên 💗\n\nLỡ làm nàng dỗi mà nhắn mãi chưa được rep? Thử gửi một bé Gấu Lông Tiểu Kim mềm xỉu kèm lời xin lỗi đảm bảo nàng hết dỗi luôn =)))\n\nForm tròn cưng, lông mềm mịn, ôm siêu thích - tặng sinh nhật, kỷ niệm hay dỗ người yêu đều hợp.\n\n🎁 Không cần nói quá nhiều, để bé gấu này thay bạn gửi một cái ôm thật mềm tới nàng.\n\n📩 Inbox fanpage hoặc đến cửa hàng Bemori gần nhất để chọn bé xinh nhất cho người thương nha!\n\n#Bemori #gaubong #quatang #gaucouple \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 225886,
-      "impressions": 1931,
-      "reach": 1569,
-      "clicks": 94,
-      "engagement": 67,
-      "messages": 5,
-      "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 1220000,
-      "roas": 5.4
     },
     {
       "day": "2026-08-16",
@@ -20263,16 +20234,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 225282,
-      "impressions": 2269,
-      "reach": 1875,
-      "clicks": 166,
-      "engagement": 119,
-      "messages": 7,
+      "spend": 245372,
+      "impressions": 2436,
+      "reach": 1990,
+      "clicks": 174,
+      "engagement": 125,
+      "messages": 8,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 580000,
-      "roas": 2.57
+      "roas": 2.36
+    },
+    {
+      "day": "2026-08-16",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120246480671320340",
+      "name": "06/07/2026 - SBT - CR - M - TK",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120246480671320340.jpg",
+      "creative": {
+        "title": "",
+        "body": "🧸 Top những món quà dỗ nàng mềm lòng ngay từ cái ôm đầu tiên 💗\n\nLỡ làm nàng dỗi mà nhắn mãi chưa được rep? Thử gửi một bé Gấu Lông Tiểu Kim mềm xỉu kèm lời xin lỗi đảm bảo nàng hết dỗi luôn =)))\n\nForm tròn cưng, lông mềm mịn, ôm siêu thích - tặng sinh nhật, kỷ niệm hay dỗ người yêu đều hợp.\n\n🎁 Không cần nói quá nhiều, để bé gấu này thay bạn gửi một cái ôm thật mềm tới nàng.\n\n📩 Inbox fanpage hoặc đến cửa hàng Bemori gần nhất để chọn bé xinh nhất cho người thương nha!\n\n#Bemori #gaubong #quatang #gaucouple \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 244497,
+      "impressions": 2065,
+      "reach": 1646,
+      "clicks": 102,
+      "engagement": 73,
+      "messages": 5,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 1220000,
+      "roas": 4.99
     },
     {
       "day": "2026-08-16",
@@ -20292,16 +20292,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 189687,
-      "impressions": 2596,
-      "reach": 1746,
-      "clicks": 56,
-      "engagement": 27,
+      "spend": 207117,
+      "impressions": 2828,
+      "reach": 1860,
+      "clicks": 62,
+      "engagement": 29,
       "messages": 6,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 749000,
-      "roas": 3.95
+      "roas": 3.62
     },
     {
       "day": "2026-08-16",
@@ -20321,45 +20321,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 177238,
-      "impressions": 2968,
-      "reach": 2323,
-      "clicks": 47,
-      "engagement": 26,
+      "spend": 194972,
+      "impressions": 3394,
+      "reach": 2627,
+      "clicks": 54,
+      "engagement": 27,
       "messages": 4,
       "leads": 4,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-08-16",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120258811742640112",
-      "name": "16/08/2026-BSTBSL-T8-M-CR",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120258811742640112.jpg",
-      "creative": {
-        "title": "",
-        "body": "🎁 TÌM QUÀ XINH CHO BÉ – MẸ ĐÃ BIẾT BST \"BẠN BÔNG\" BEST SELLER NÀY CHƯA?\n\nDịp Lễ hay Sinh nhật sắp tới, mẹ muốn quà xinh iu, ý nghĩa, bé thích thú? Tham khảo ngay BST Best Seller được vô vàn mẹ bé yêu thích và đặt mua liên tục của nhà Kids ạ.\n\n- Bông siêu mềm mịn, vải cao cấp, khum lo rụng lông, thân thiện cho bé iu.\n- Kiểu dáng xinh xắn, bé ôm ngủ hay vui chơi cả ngày đều mê.\n\n🎈 Combo miễn phí gửi đến mẹ!\n- Miễn phí gói quà bóng kính thắt nơ chỉn chu.\n- Tặng kèm thiệp xinh viết lời yêu thương gửi bé.\n\n👉 Nhắn ngay cho tụi mình để chốt \"bạn bông\" chuẩn gu bé yêu thôi nàooo!\n#Bemorikids #gaubong #Sinhnhat #trungthu #mong2thang9",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 158839,
-      "impressions": 1403,
-      "reach": 1096,
-      "clicks": 65,
-      "engagement": 43,
-      "messages": 1,
-      "leads": 2,
       "purchases": 1,
-      "purchaseValue": 564000,
-      "roas": 3.55
+      "purchaseValue": 425000,
+      "roas": 2.18
     },
     {
       "day": "2026-08-16",
@@ -20379,16 +20350,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 149610,
-      "impressions": 2657,
-      "reach": 2228,
-      "clicks": 130,
-      "engagement": 73,
-      "messages": 8,
+      "spend": 162305,
+      "impressions": 2941,
+      "reach": 2430,
+      "clicks": 148,
+      "engagement": 84,
+      "messages": 10,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 229000,
-      "roas": 1.53
+      "roas": 1.41
+    },
+    {
+      "day": "2026-08-16",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120258811742640112",
+      "name": "16/08/2026-BSTBSL-T8-M-CR",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120258811742640112.jpg",
+      "creative": {
+        "title": "",
+        "body": "🎁 TÌM QUÀ XINH CHO BÉ – MẸ ĐÃ BIẾT BST \"BẠN BÔNG\" BEST SELLER NÀY CHƯA?\n\nDịp Lễ hay Sinh nhật sắp tới, mẹ muốn quà xinh iu, ý nghĩa, bé thích thú? Tham khảo ngay BST Best Seller được vô vàn mẹ bé yêu thích và đặt mua liên tục của nhà Kids ạ.\n\n- Bông siêu mềm mịn, vải cao cấp, khum lo rụng lông, thân thiện cho bé iu.\n- Kiểu dáng xinh xắn, bé ôm ngủ hay vui chơi cả ngày đều mê.\n\n🎈 Combo miễn phí gửi đến mẹ!\n- Miễn phí gói quà bóng kính thắt nơ chỉn chu.\n- Tặng kèm thiệp xinh viết lời yêu thương gửi bé.\n\n👉 Nhắn ngay cho tụi mình để chốt \"bạn bông\" chuẩn gu bé yêu thôi nàooo!\n#Bemorikids #gaubong #Sinhnhat #trungthu #mong2thang9",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 159413,
+      "impressions": 1412,
+      "reach": 1105,
+      "clicks": 65,
+      "engagement": 43,
+      "messages": 1,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 564000,
+      "roas": 3.54
     },
     {
       "day": "2026-08-16",
@@ -20408,16 +20408,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 141211,
-      "impressions": 889,
-      "reach": 669,
+      "spend": 142535,
+      "impressions": 896,
+      "reach": 674,
       "clicks": 31,
       "engagement": 19,
       "messages": 1,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 690000,
-      "roas": 4.89
+      "roas": 4.84
     },
     {
       "day": "2026-08-16",
@@ -20437,16 +20437,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 124940,
-      "impressions": 874,
-      "reach": 615,
+      "spend": 128339,
+      "impressions": 884,
+      "reach": 623,
       "clicks": 20,
       "engagement": 9,
       "messages": 0,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 229000,
-      "roas": 1.83
+      "roas": 1.78
     },
     {
       "day": "2026-08-16",
@@ -20466,16 +20466,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 120295,
-      "impressions": 1808,
-      "reach": 1378,
-      "clicks": 68,
+      "spend": 121957,
+      "impressions": 1820,
+      "reach": 1384,
+      "clicks": 70,
       "engagement": 42,
       "messages": 4,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 255000,
-      "roas": 2.12
+      "roas": 2.09
     }
   ]
 }
