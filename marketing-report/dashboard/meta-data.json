@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T15:31:42.588Z",
+  "generatedAt": "2026-08-16T16:31:35.529Z",
   "since": "2025-01-01",
   "until": "2026-08-16",
   "accounts": [
@@ -4692,11 +4692,11 @@
       "igPurchaseValue": 229000
     },
     "2026-08-16": {
-      "facebook": 4354575,
-      "instagram": 142119,
+      "facebook": 4439491,
+      "instagram": 147926,
       "messenger": 0,
       "audience_network": 0,
-      "total": 4496694,
+      "total": 4587417,
       "igPurchaseValue": 550000
     }
   },
@@ -20031,16 +20031,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 425701,
-      "impressions": 4204,
-      "reach": 3014,
-      "clicks": 188,
-      "engagement": 91,
+      "spend": 427504,
+      "impressions": 4224,
+      "reach": 3030,
+      "clicks": 191,
+      "engagement": 93,
       "messages": 7,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 835000,
-      "roas": 1.96
+      "roas": 1.95
     },
     {
       "day": "2026-08-16",
@@ -20060,16 +20060,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 386328,
-      "impressions": 5618,
-      "reach": 4664,
-      "clicks": 169,
-      "engagement": 1483,
-      "messages": 19,
+      "spend": 402815,
+      "impressions": 5955,
+      "reach": 4933,
+      "clicks": 174,
+      "engagement": 1570,
+      "messages": 20,
       "leads": 6,
       "purchases": 3,
       "purchaseValue": 1192000,
-      "roas": 3.09
+      "roas": 2.96
     },
     {
       "day": "2026-08-16",
@@ -20089,16 +20089,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 381673,
-      "impressions": 4419,
-      "reach": 3569,
-      "clicks": 251,
-      "engagement": 160,
-      "messages": 20,
-      "leads": 4,
+      "spend": 393013,
+      "impressions": 4565,
+      "reach": 3669,
+      "clicks": 259,
+      "engagement": 168,
+      "messages": 21,
+      "leads": 6,
       "purchases": 2,
       "purchaseValue": 539000,
-      "roas": 1.41
+      "roas": 1.37
     },
     {
       "day": "2026-08-16",
@@ -20118,16 +20118,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 347829,
-      "impressions": 2619,
-      "reach": 1958,
+      "spend": 356456,
+      "impressions": 2688,
+      "reach": 2000,
       "clicks": 65,
       "engagement": 37,
       "messages": 5,
       "leads": 6,
       "purchases": 3,
       "purchaseValue": 1515000,
-      "roas": 4.36
+      "roas": 4.25
     },
     {
       "day": "2026-08-16",
@@ -20147,45 +20147,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 338324,
-      "impressions": 2790,
-      "reach": 2073,
-      "clicks": 151,
-      "engagement": 107,
+      "spend": 346017,
+      "impressions": 2908,
+      "reach": 2165,
+      "clicks": 152,
+      "engagement": 109,
       "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 1220000,
-      "roas": 3.61
-    },
-    {
-      "day": "2026-08-16",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120247515170730340",
-      "name": "16/08/2026-Mochi-CR-M-Sosanh",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120247515170730340.jpg",
-      "creative": {
-        "title": "",
-        "body": "Mochi Kem Lạnh hay Mochi Da Lộn - khách iu chọn em nào? 💙🤎\n\n✨ Mỗi dòng Mochi đều có điểm xịn riêng, nên Bemori làm video này để khách iu dễ chọn đúng bé gối hợp gu của mình hơn. Xem video để chọn đúng “bé gối chân ái” của mình nha \n\n#Bemori #goiom #mochidalon #mochikemlanh",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 330458,
-      "impressions": 4903,
-      "reach": 4075,
-      "clicks": 153,
-      "engagement": 1200,
-      "messages": 18,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "roas": 3.53
     },
     {
       "day": "2026-08-16",
@@ -20205,16 +20176,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 325390,
-      "impressions": 3398,
-      "reach": 2686,
-      "clicks": 242,
-      "engagement": 174,
+      "spend": 335514,
+      "impressions": 3552,
+      "reach": 2817,
+      "clicks": 252,
+      "engagement": 180,
       "messages": 11,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 580000,
-      "roas": 1.78
+      "roas": 1.73
+    },
+    {
+      "day": "2026-08-16",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120247515170730340",
+      "name": "16/08/2026-Mochi-CR-M-Sosanh",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120247515170730340.jpg",
+      "creative": {
+        "title": "",
+        "body": "Mochi Kem Lạnh hay Mochi Da Lộn - khách iu chọn em nào? 💙🤎\n\n✨ Mỗi dòng Mochi đều có điểm xịn riêng, nên Bemori làm video này để khách iu dễ chọn đúng bé gối hợp gu của mình hơn. Xem video để chọn đúng “bé gối chân ái” của mình nha \n\n#Bemori #goiom #mochidalon #mochikemlanh",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 331221,
+      "impressions": 4914,
+      "reach": 4077,
+      "clicks": 153,
+      "engagement": 1203,
+      "messages": 18,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-08-16",
@@ -20234,16 +20234,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 297077,
-      "impressions": 5715,
-      "reach": 4226,
-      "clicks": 89,
-      "engagement": 50,
-      "messages": 8,
+      "spend": 313484,
+      "impressions": 6183,
+      "reach": 4530,
+      "clicks": 100,
+      "engagement": 59,
+      "messages": 9,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 425000,
-      "roas": 1.43
+      "roas": 1.36
     },
     {
       "day": "2026-08-16",
@@ -20263,16 +20263,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 295899,
-      "impressions": 4425,
-      "reach": 2876,
-      "clicks": 89,
-      "engagement": 42,
+      "spend": 309659,
+      "impressions": 4669,
+      "reach": 3007,
+      "clicks": 91,
+      "engagement": 44,
       "messages": 7,
       "leads": 4,
       "purchases": 3,
       "purchaseValue": 1494000,
-      "roas": 5.05
+      "roas": 4.82
     },
     {
       "day": "2026-08-16",
@@ -20292,9 +20292,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 290488,
-      "impressions": 4604,
-      "reach": 4024,
+      "spend": 290721,
+      "impressions": 4609,
+      "reach": 4032,
       "clicks": 142,
       "engagement": 94,
       "messages": 9,
@@ -20321,11 +20321,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 288717,
-      "impressions": 7525,
-      "reach": 6640,
-      "clicks": 64,
-      "engagement": 46,
+      "spend": 290499,
+      "impressions": 7536,
+      "reach": 6642,
+      "clicks": 67,
+      "engagement": 47,
       "messages": 4,
       "leads": 2,
       "purchases": 0,
@@ -20350,16 +20350,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 217051,
-      "impressions": 4396,
-      "reach": 3612,
-      "clicks": 195,
-      "engagement": 115,
+      "spend": 221128,
+      "impressions": 4492,
+      "reach": 3729,
+      "clicks": 199,
+      "engagement": 117,
       "messages": 14,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 458000,
-      "roas": 2.11
+      "roas": 2.07
     },
     {
       "day": "2026-08-16",
@@ -20379,16 +20379,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 165374,
-      "impressions": 1434,
-      "reach": 1121,
+      "spend": 166348,
+      "impressions": 1438,
+      "reach": 1124,
       "clicks": 65,
       "engagement": 43,
       "messages": 1,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 564000,
-      "roas": 3.41
+      "roas": 3.39
     },
     {
       "day": "2026-08-16",
@@ -20408,16 +20408,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 144729,
-      "impressions": 915,
-      "reach": 686,
+      "spend": 145602,
+      "impressions": 920,
+      "reach": 692,
       "clicks": 31,
       "engagement": 19,
       "messages": 1,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 690000,
-      "roas": 4.77
+      "roas": 4.74
     },
     {
       "day": "2026-08-16",
@@ -20437,9 +20437,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 132783,
-      "impressions": 903,
-      "reach": 632,
+      "spend": 133484,
+      "impressions": 907,
+      "reach": 636,
       "clicks": 21,
       "engagement": 9,
       "messages": 0,
@@ -20466,8 +20466,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 123771,
-      "impressions": 1848,
+      "spend": 123952,
+      "impressions": 1852,
       "reach": 1404,
       "clicks": 70,
       "engagement": 42,
