@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:31:37.146Z",
+  "generatedAt": "2026-08-17T19:31:50.509Z",
   "since": "2025-01-01",
   "until": "2026-08-17",
   "accounts": [
@@ -4700,11 +4700,11 @@
       "igPurchaseValue": 550000
     },
     "2026-08-17": {
-      "facebook": 3633500,
-      "instagram": 164552,
+      "facebook": 3641844,
+      "instagram": 164756,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3798052,
+      "total": 3806600,
       "igPurchaseValue": 0
     }
   },
@@ -19923,8 +19923,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 360850,
-      "impressions": 5584,
+      "spend": 361245,
+      "impressions": 5591,
       "reach": 3611,
       "clicks": 98,
       "engagement": 49,
@@ -19952,8 +19952,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 348689,
-      "impressions": 3875,
+      "spend": 351463,
+      "impressions": 3878,
       "reach": 3164,
       "clicks": 213,
       "engagement": 155,
@@ -19961,7 +19961,7 @@
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 460000,
-      "roas": 1.32
+      "roas": 1.31
     },
     {
       "day": "2026-08-17",
@@ -19981,8 +19981,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 331680,
-      "impressions": 2416,
+      "spend": 331967,
+      "impressions": 2419,
       "reach": 1751,
       "clicks": 81,
       "engagement": 38,
@@ -20010,16 +20010,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 311007,
-      "impressions": 3897,
-      "reach": 3469,
-      "clicks": 204,
-      "engagement": 133,
+      "spend": 311432,
+      "impressions": 3899,
+      "reach": 3474,
+      "clicks": 207,
+      "engagement": 135,
       "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 780000,
-      "roas": 2.51
+      "roas": 2.5
     },
     {
       "day": "2026-08-17",
@@ -20083,35 +20083,6 @@
       "day": "2026-08-17",
       "account": "Pa15",
       "bm": "BM1",
-      "id": "120247515170730340",
-      "name": "16/08/2026-Mochi-CR-M-Sosanh",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120247515170730340.jpg",
-      "creative": {
-        "title": "",
-        "body": "Mochi Kem Lạnh hay Mochi Da Lộn - khách iu chọn em nào? 💙🤎\n\n✨ Mỗi dòng Mochi đều có điểm xịn riêng, nên Bemori làm video này để khách iu dễ chọn đúng bé gối hợp gu của mình hơn. Xem video để chọn đúng “bé gối chân ái” của mình nha \n\n#Bemori #goiom #mochidalon #mochikemlanh",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 279861,
-      "impressions": 5107,
-      "reach": 3991,
-      "clicks": 165,
-      "engagement": 1137,
-      "messages": 13,
-      "leads": 6,
-      "purchases": 2,
-      "purchaseValue": 663000,
-      "roas": 2.37
-    },
-    {
-      "day": "2026-08-17",
-      "account": "Pa15",
-      "bm": "BM1",
       "id": "120246480671320340",
       "name": "06/07/2026 - SBT - CR - M - TK",
       "status": "PAUSED",
@@ -20126,9 +20097,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 277948,
-      "impressions": 2237,
-      "reach": 1628,
+      "spend": 282507,
+      "impressions": 2243,
+      "reach": 1630,
       "clicks": 80,
       "engagement": 51,
       "messages": 3,
@@ -20136,6 +20107,35 @@
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
+    },
+    {
+      "day": "2026-08-17",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120247515170730340",
+      "name": "16/08/2026-Mochi-CR-M-Sosanh",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120247515170730340.jpg",
+      "creative": {
+        "title": "",
+        "body": "Mochi Kem Lạnh hay Mochi Da Lộn - khách iu chọn em nào? 💙🤎\n\n✨ Mỗi dòng Mochi đều có điểm xịn riêng, nên Bemori làm video này để khách iu dễ chọn đúng bé gối hợp gu của mình hơn. Xem video để chọn đúng “bé gối chân ái” của mình nha \n\n#Bemori #goiom #mochidalon #mochikemlanh",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 279898,
+      "impressions": 5110,
+      "reach": 3993,
+      "clicks": 165,
+      "engagement": 1137,
+      "messages": 13,
+      "leads": 6,
+      "purchases": 2,
+      "purchaseValue": 663000,
+      "roas": 2.37
     },
     {
       "day": "2026-08-17",
@@ -20184,8 +20184,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 255119,
-      "impressions": 4165,
+      "spend": 255325,
+      "impressions": 4167,
       "reach": 3786,
       "clicks": 156,
       "engagement": 94,
@@ -20213,8 +20213,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 240174,
-      "impressions": 4535,
+      "spend": 240198,
+      "impressions": 4538,
       "reach": 3514,
       "clicks": 73,
       "engagement": 41,
