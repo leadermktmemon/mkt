@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T15:01:50.866Z",
+  "generatedAt": "2026-08-18T15:17:27.210Z",
   "source": "lark",
   "period": {
     "days": 479,
@@ -42876,13 +42876,13 @@
         "Nguyễn Trãi": 2924000,
         "Outlet": 1000000,
         "Xã Đàn": 3077000,
-        "Nguyễn Gia Trí": 3145000
+        "Nguyễn Gia Trí": 4245000
       },
-      "storeRev": 10146000,
+      "storeRev": 11246000,
       "storeOnline": 2400000,
-      "storeTarget": 13027800,
-      "custIn": 19,
-      "custBuy": 19,
+      "storeTarget": 17347800,
+      "custIn": 20,
+      "custBuy": 20,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55722,26 +55722,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2104535330,
-    "walkinOrders": 3996,
+    "walkinRevenue": 2105635330,
+    "walkinOrders": 3997,
     "marketingRevenue": 334098003,
     "marketingOrdersEst": 648,
-    "custIn": 4118,
+    "custIn": 4119,
     "closeRate": 97,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2713966579,
+    "totalRevenue": 2715066579,
     "salesCount": 1182,
     "byType": {
       "Online": 609431249,
-      "Cửa hàng": 2104535330
+      "Cửa hàng": 2105635330
     },
     "onlinePct": 22,
     "storePct": 78
   },
   "brands": {
-    "Bemori": 2378878095,
+    "Bemori": 2379871655,
     "Teddy": 50453000,
     "Memon": 0
   },
@@ -55752,23 +55752,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 73667000,
-    "walkinOrders": 122,
+    "walkinRevenue": 74767000,
+    "walkinOrders": 123,
     "marketingRevenue": 11409750,
     "marketingOrdersEst": 25,
-    "custIn": 125,
+    "custIn": 126,
     "closeRate": 98,
     "marketingPct": 13
   },
   "weekSales": {
-    "totalRevenue": 95283750,
+    "totalRevenue": 96383750,
     "salesCount": 48,
     "byType": {
       "Online": 21616750,
-      "Cửa hàng": 73667000
+      "Cửa hàng": 74767000
     },
-    "onlinePct": 23,
-    "storePct": 77
+    "onlinePct": 22,
+    "storePct": 78
   },
   "weekBrands": {
     "Bemori": 0,
