@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:01:50.541Z",
+  "generatedAt": "2026-08-20T07:25:09.191Z",
   "source": "lark",
   "period": {
     "days": 481,
@@ -43087,13 +43087,14 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Xã Đàn": 5755250,
         "Nguyễn Trãi": 1160000
       },
-      "storeRev": 1160000,
+      "storeRev": 6915250,
       "storeOnline": 0,
-      "storeTarget": 3284400,
-      "custIn": 3,
-      "custBuy": 2,
+      "storeTarget": 5602800,
+      "custIn": 10,
+      "custBuy": 9,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55470,26 +55471,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2096503830,
-    "walkinOrders": 3998,
+    "walkinRevenue": 2102259080,
+    "walkinOrders": 4005,
     "marketingRevenue": 327980503,
     "marketingOrdersEst": 634,
-    "custIn": 4130,
+    "custIn": 4137,
     "closeRate": 97,
-    "marketingPct": 14
+    "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 2684225079,
+    "totalRevenue": 2689980329,
     "salesCount": 1136,
     "byType": {
       "Online": 587721249,
-      "Cửa hàng": 2096503830
+      "Cửa hàng": 2102259080
     },
     "onlinePct": 22,
     "storePct": 78
   },
   "brands": {
-    "Bemori": 2378526929,
+    "Bemori": 2383721363,
     "Teddy": 51751000,
     "Memon": 0
   },
@@ -55541,26 +55542,26 @@
     ]
   },
   "weekStore": {
-    "walkinRevenue": 165134750,
-    "walkinOrders": 327,
+    "walkinRevenue": 170890000,
+    "walkinOrders": 334,
     "marketingRevenue": 29227250,
     "marketingOrdersEst": 50,
-    "custIn": 342,
+    "custIn": 349,
     "closeRate": 96,
     "marketingPct": 15
   },
   "weekSales": {
-    "totalRevenue": 214778750,
+    "totalRevenue": 220534000,
     "salesCount": 85,
     "byType": {
       "Online": 49644000,
-      "Cửa hàng": 165134750
+      "Cửa hàng": 170890000
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "weekBrands": {
-    "Bemori": 203584578,
+    "Bemori": 208958647,
     "Teddy": 3503000,
     "Memon": 0
   },
