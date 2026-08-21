@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T19:01:32.777Z",
+  "generatedAt": "2026-08-21T20:01:20.676Z",
   "since": "2025-01-01",
   "until": "2026-08-21",
   "accounts": [
@@ -4724,19 +4724,19 @@
       "igPurchaseValue": 0
     },
     "2026-08-20": {
-      "facebook": 3435430,
+      "facebook": 3435924,
       "instagram": 77712,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3513142,
+      "total": 3513636,
       "igPurchaseValue": 425500
     },
     "2026-08-21": {
-      "facebook": 3187318,
-      "instagram": 86422,
+      "facebook": 3189647,
+      "instagram": 86424,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3273740,
+      "total": 3276071,
       "igPurchaseValue": 954000
     }
   },
@@ -19114,8 +19114,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 230511,
-      "impressions": 3092,
+      "spend": 231005,
+      "impressions": 3093,
       "reach": 2563,
       "clicks": 88,
       "engagement": 844,
@@ -19123,7 +19123,7 @@
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 1397000,
-      "roas": 6.06
+      "roas": 6.05
     },
     {
       "day": "2026-08-20",
@@ -19404,9 +19404,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 317217,
-      "impressions": 4468,
-      "reach": 3738,
+      "spend": 317267,
+      "impressions": 4470,
+      "reach": 3742,
       "clicks": 283,
       "engagement": 185,
       "messages": 30,
@@ -19433,8 +19433,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 277954,
-      "impressions": 1872,
+      "spend": 278261,
+      "impressions": 1874,
       "reach": 1196,
       "clicks": 111,
       "engagement": 62,
@@ -19442,36 +19442,7 @@
       "leads": 10,
       "purchases": 4,
       "purchaseValue": 1812000,
-      "roas": 6.52
-    },
-    {
-      "day": "2026-08-21",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120246782404280340",
-      "name": "2710.hoahong.Bemori.Memon - Bản sao 3",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "CONVERSATIONS",
-      "thumb": "thumbs/120246782404280340.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌹❤️Mong rằng mọi cô gái “em ko thích hoa đâu, nhanh tàn lắm anh đừng mua” sẽ gặp được chàng trai “bó hoa này không bao giờ tàn, anh sẽ mua cho em\"! 💐\n\n#bemori #gaubong #quatang \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây, TP.HCM\n🐻388 Xã Đàn, Phường Văn Miếu, Hà Nội\n🐻228 Lê Văn Sỹ, P.Tân Sơn Hòa, TP.HCM\n🐻275 Bạch Mai, P.Bạch Mai, Hà Nội\n🐻368 Nguyễn Trãi, P.Đại Mỗ, Hà Nội\n🐻411 Nguyễn Văn Cừ, P.Bồ Đề, Hà Nội\n🐻161 Xuân Thủy, P.Cầu Giấy, Hà Nội\n🐻104 -106 Cầu Giấy, P.Cầu Giấy, Hà Nội\n🐻1028 Đường Láng, P.Láng, Hà Nội\n🐻17 ngõ 23 Nguyễn Khuyến, P.Hà Đông, Hà Nội (Kho gấu online)",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 271597,
-      "impressions": 4311,
-      "reach": 2458,
-      "clicks": 63,
-      "engagement": 33,
-      "messages": 8,
-      "leads": 2,
-      "purchases": 4,
-      "purchaseValue": 2219000,
-      "roas": 8.17
+      "roas": 6.51
     },
     {
       "day": "2026-08-21",
@@ -19491,8 +19462,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 270913,
-      "impressions": 2694,
+      "spend": 272655,
+      "impressions": 2696,
       "reach": 1749,
       "clicks": 85,
       "engagement": 42,
@@ -19500,7 +19471,36 @@
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 230000,
-      "roas": 0.85
+      "roas": 0.84
+    },
+    {
+      "day": "2026-08-21",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120246782404280340",
+      "name": "2710.hoahong.Bemori.Memon - Bản sao 3",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "CONVERSATIONS",
+      "thumb": "thumbs/120246782404280340.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌹❤️Mong rằng mọi cô gái “em ko thích hoa đâu, nhanh tàn lắm anh đừng mua” sẽ gặp được chàng trai “bó hoa này không bao giờ tàn, anh sẽ mua cho em\"! 💐\n\n#bemori #gaubong #quatang \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây, TP.HCM\n🐻388 Xã Đàn, Phường Văn Miếu, Hà Nội\n🐻228 Lê Văn Sỹ, P.Tân Sơn Hòa, TP.HCM\n🐻275 Bạch Mai, P.Bạch Mai, Hà Nội\n🐻368 Nguyễn Trãi, P.Đại Mỗ, Hà Nội\n🐻411 Nguyễn Văn Cừ, P.Bồ Đề, Hà Nội\n🐻161 Xuân Thủy, P.Cầu Giấy, Hà Nội\n🐻104 -106 Cầu Giấy, P.Cầu Giấy, Hà Nội\n🐻1028 Đường Láng, P.Láng, Hà Nội\n🐻17 ngõ 23 Nguyễn Khuyến, P.Hà Đông, Hà Nội (Kho gấu online)",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 271621,
+      "impressions": 4312,
+      "reach": 2458,
+      "clicks": 63,
+      "engagement": 33,
+      "messages": 8,
+      "leads": 2,
+      "purchases": 4,
+      "purchaseValue": 2219000,
+      "roas": 8.17
     },
     {
       "day": "2026-08-21",
@@ -19549,9 +19549,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 258022,
-      "impressions": 2489,
-      "reach": 1528,
+      "spend": 258078,
+      "impressions": 2490,
+      "reach": 1531,
       "clicks": 92,
       "engagement": 53,
       "messages": 2,
@@ -19607,8 +19607,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 213293,
-      "impressions": 2539,
+      "spend": 213396,
+      "impressions": 2541,
       "reach": 2087,
       "clicks": 126,
       "engagement": 738,
@@ -19694,8 +19694,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 107710,
-      "impressions": 919,
+      "spend": 107759,
+      "impressions": 920,
       "reach": 625,
       "clicks": 16,
       "engagement": 8,
