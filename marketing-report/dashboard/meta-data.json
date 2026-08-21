@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T16:01:17.709Z",
+  "generatedAt": "2026-08-21T17:01:19.379Z",
   "since": "2025-01-01",
   "until": "2026-08-21",
   "accounts": [
@@ -4732,12 +4732,12 @@
       "igPurchaseValue": 425500
     },
     "2026-08-21": {
-      "facebook": 3119177,
-      "instagram": 82160,
+      "facebook": 3174382,
+      "instagram": 86033,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3201337,
-      "igPurchaseValue": 239000
+      "total": 3260415,
+      "igPurchaseValue": 954000
     }
   },
   "campaignDays": [
@@ -19375,16 +19375,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 334792,
-      "impressions": 2415,
-      "reach": 1483,
-      "clicks": 63,
-      "engagement": 52,
+      "spend": 344752,
+      "impressions": 2519,
+      "reach": 1541,
+      "clicks": 64,
+      "engagement": 54,
       "messages": 13,
       "leads": 8,
       "purchases": 5,
       "purchaseValue": 2348000,
-      "roas": 7.01
+      "roas": 6.81
     },
     {
       "day": "2026-08-21",
@@ -19404,16 +19404,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 309672,
-      "impressions": 4365,
-      "reach": 3632,
-      "clicks": 275,
-      "engagement": 176,
-      "messages": 28,
+      "spend": 315325,
+      "impressions": 4457,
+      "reach": 3726,
+      "clicks": 282,
+      "engagement": 185,
+      "messages": 30,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 539000,
-      "roas": 1.74
+      "roas": 1.71
+    },
+    {
+      "day": "2026-08-21",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120247561300740340",
+      "name": "18/08/2026-BST-Mochi-M-CR",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120247561300740340.jpg",
+      "creative": {
+        "title": "",
+        "body": "TRỜI NÓNG VẪN MUỐN ÔM GỐI? 🥹\nĐã có Gối ôm lạnh Mochi - sinh ra cho những ngày hè chỉ muốn nằm dài ở nhà.\n\n❄️ Cảm giác mát dễ chịu\n☁️ Êm mềm, ôm cực thích\n🛋️ Vừa ôm ngủ, vừa đọc sách, chill cả ngày\n\nDành cho những cô nàng thích ôm gối, thích nằm điều hòa và mê một góc phòng thật xinh 💗",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 276271,
+      "impressions": 1852,
+      "reach": 1178,
+      "clicks": 110,
+      "engagement": 60,
+      "messages": 11,
+      "leads": 10,
+      "purchases": 4,
+      "purchaseValue": 1812000,
+      "roas": 6.56
     },
     {
       "day": "2026-08-21",
@@ -19433,10 +19462,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 269658,
-      "impressions": 2682,
-      "reach": 1735,
-      "clicks": 84,
+      "spend": 270573,
+      "impressions": 2688,
+      "reach": 1744,
+      "clicks": 85,
       "engagement": 42,
       "messages": 4,
       "leads": 4,
@@ -19462,16 +19491,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 259506,
-      "impressions": 4083,
-      "reach": 2304,
-      "clicks": 61,
-      "engagement": 32,
+      "spend": 269062,
+      "impressions": 4273,
+      "reach": 2435,
+      "clicks": 63,
+      "engagement": 33,
       "messages": 8,
       "leads": 2,
-      "purchases": 3,
-      "purchaseValue": 1504000,
-      "roas": 5.8
+      "purchases": 4,
+      "purchaseValue": 2219000,
+      "roas": 8.25
     },
     {
       "day": "2026-08-21",
@@ -19491,16 +19520,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 259163,
-      "impressions": 3106,
-      "reach": 2471,
-      "clicks": 104,
-      "engagement": 761,
+      "spend": 264716,
+      "impressions": 3246,
+      "reach": 2625,
+      "clicks": 106,
+      "engagement": 812,
       "messages": 14,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1696000,
-      "roas": 6.54
+      "roas": 6.41
     },
     {
       "day": "2026-08-21",
@@ -19520,45 +19549,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 256407,
-      "impressions": 2474,
-      "reach": 1522,
+      "spend": 257214,
+      "impressions": 2484,
+      "reach": 1526,
       "clicks": 92,
       "engagement": 53,
       "messages": 2,
-      "leads": 0,
+      "leads": 2,
       "purchases": 1,
       "purchaseValue": 370000,
       "roas": 1.44
-    },
-    {
-      "day": "2026-08-21",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120247561300740340",
-      "name": "18/08/2026-BST-Mochi-M-CR",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120247561300740340.jpg",
-      "creative": {
-        "title": "",
-        "body": "TRỜI NÓNG VẪN MUỐN ÔM GỐI? 🥹\nĐã có Gối ôm lạnh Mochi - sinh ra cho những ngày hè chỉ muốn nằm dài ở nhà.\n\n❄️ Cảm giác mát dễ chịu\n☁️ Êm mềm, ôm cực thích\n🛋️ Vừa ôm ngủ, vừa đọc sách, chill cả ngày\n\nDành cho những cô nàng thích ôm gối, thích nằm điều hòa và mê một góc phòng thật xinh 💗",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 256374,
-      "impressions": 1746,
-      "reach": 1114,
-      "clicks": 105,
-      "engagement": 57,
-      "messages": 10,
-      "leads": 10,
-      "purchases": 4,
-      "purchaseValue": 1812000,
-      "roas": 7.07
     },
     {
       "day": "2026-08-21",
@@ -19607,16 +19607,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 205872,
-      "impressions": 2382,
-      "reach": 1899,
-      "clicks": 121,
-      "engagement": 681,
-      "messages": 19,
+      "spend": 212463,
+      "impressions": 2524,
+      "reach": 2066,
+      "clicks": 124,
+      "engagement": 729,
+      "messages": 21,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 534000,
-      "roas": 2.59
+      "roas": 2.51
     },
     {
       "day": "2026-08-21",
@@ -19636,9 +19636,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 159458,
-      "impressions": 2586,
-      "reach": 2279,
+      "spend": 159549,
+      "impressions": 2589,
+      "reach": 2283,
       "clicks": 134,
       "engagement": 94,
       "messages": 14,
@@ -19694,8 +19694,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 107655,
-      "impressions": 918,
+      "spend": 107710,
+      "impressions": 919,
       "reach": 625,
       "clicks": 16,
       "engagement": 8,
