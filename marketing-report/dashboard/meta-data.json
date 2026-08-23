@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T21:01:10.135Z",
+  "generatedAt": "2026-08-23T22:01:08.537Z",
   "since": "2025-01-01",
   "until": "2026-08-23",
   "accounts": [
@@ -4748,11 +4748,11 @@
       "igPurchaseValue": 430000
     },
     "2026-08-23": {
-      "facebook": 3318500,
-      "instagram": 240419,
+      "facebook": 3319981,
+      "instagram": 240439,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3558919,
+      "total": 3560420,
       "igPurchaseValue": 339000
     }
   },
@@ -19623,8 +19623,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 562434,
-      "impressions": 10812,
+      "spend": 562526,
+      "impressions": 10813,
       "reach": 9159,
       "clicks": 310,
       "engagement": 2835,
@@ -19652,11 +19652,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 418588,
-      "impressions": 7031,
+      "spend": 418622,
+      "impressions": 7032,
       "reach": 5683,
       "clicks": 203,
-      "engagement": 1734,
+      "engagement": 1735,
       "messages": 27,
       "leads": 8,
       "purchases": 3,
@@ -19681,8 +19681,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 387980,
-      "impressions": 9102,
+      "spend": 388217,
+      "impressions": 9108,
       "reach": 6344,
       "clicks": 147,
       "engagement": 69,
@@ -19710,16 +19710,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 349428,
-      "impressions": 5804,
-      "reach": 4959,
+      "spend": 350255,
+      "impressions": 5809,
+      "reach": 4966,
       "clicks": 329,
       "engagement": 207,
       "messages": 23,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 229000,
-      "roas": 0.66
+      "roas": 0.65
     },
     {
       "day": "2026-08-23",
@@ -19826,8 +19826,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 256356,
-      "impressions": 4452,
+      "spend": 256667,
+      "impressions": 4454,
       "reach": 3150,
       "clicks": 66,
       "engagement": 44,
