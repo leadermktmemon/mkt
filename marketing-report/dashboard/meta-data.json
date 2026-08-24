@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T20:31:21.601Z",
+  "generatedAt": "2026-08-24T21:31:13.244Z",
   "since": "2025-01-01",
   "until": "2026-08-24",
   "accounts": [
@@ -4756,11 +4756,11 @@
       "igPurchaseValue": 339000
     },
     "2026-08-24": {
-      "facebook": 1963671,
+      "facebook": 1963919,
       "instagram": 147039,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2110710,
+      "total": 2110958,
       "igPurchaseValue": 0
     }
   },
@@ -19515,8 +19515,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 349490,
-      "impressions": 12359,
+      "spend": 349501,
+      "impressions": 12360,
       "reach": 10247,
       "clicks": 192,
       "engagement": 100,
@@ -19544,8 +19544,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 337050,
-      "impressions": 5333,
+      "spend": 337155,
+      "impressions": 5336,
       "reach": 2939,
       "clicks": 89,
       "engagement": 40,
@@ -19689,8 +19689,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 163685,
-      "impressions": 1649,
+      "spend": 163696,
+      "impressions": 1650,
       "reach": 1232,
       "clicks": 50,
       "engagement": 33,
@@ -19747,9 +19747,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 100718,
-      "impressions": 1337,
-      "reach": 1148,
+      "spend": 100839,
+      "impressions": 1339,
+      "reach": 1152,
       "clicks": 51,
       "engagement": 32,
       "messages": 7,
