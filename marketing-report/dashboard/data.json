@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:02:04.604Z",
+  "generatedAt": "2026-08-24T02:25:14.427Z",
   "source": "lark",
   "period": {
     "days": 485,
@@ -43228,7 +43228,7 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Xã Đàn": 50325000,
+        "Xã Đàn": 6325000,
         "Xuân Thủy": 2784250,
         "Lê Văn Sỹ": 8257000,
         "Nguyễn Gia Trí": 4354250,
@@ -43239,7 +43239,7 @@
         "Láng": 13545500,
         "Outlet": 1416500
       },
-      "storeRev": 108683500,
+      "storeRev": 64683500,
       "storeOnline": 12329000,
       "storeTarget": 105039168,
       "custIn": 120,
@@ -55591,7 +55591,7 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2102040550,
+    "walkinRevenue": 2058040550,
     "walkinOrders": 3907,
     "marketingRevenue": 343087556,
     "marketingOrdersEst": 659,
@@ -55600,17 +55600,17 @@
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2696012549,
+    "totalRevenue": 2652012549,
     "salesCount": 1141,
     "byType": {
       "Online": 593971999,
-      "Cửa hàng": 2102040550
+      "Cửa hàng": 2058040550
     },
     "onlinePct": 22,
     "storePct": 78
   },
   "brands": {
-    "Bemori": 2304037372,
+    "Bemori": 2264740937,
     "Teddy": 50320000,
     "Memon": 0
   },
