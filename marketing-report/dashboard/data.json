@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T06:01:38.556Z",
+  "generatedAt": "2026-08-27T06:31:08.394Z",
   "source": "lark",
   "period": {
     "days": 488,
@@ -43602,12 +43602,14 @@
       "social": 0,
       "brands": {},
       "bc": {},
-      "store": {},
-      "storeRev": 0,
+      "store": {
+        "Nguyễn Trãi": 1300000
+      },
+      "storeRev": 1300000,
       "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "storeTarget": 3284400,
+      "custIn": 4,
+      "custBuy": 4,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55965,26 +55967,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2085857750,
-    "walkinOrders": 3930,
+    "walkinRevenue": 2087157750,
+    "walkinOrders": 3934,
     "marketingRevenue": 348454192,
     "marketingOrdersEst": 661,
-    "custIn": 4081,
+    "custIn": 4085,
     "closeRate": 96,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2701682999,
+    "totalRevenue": 2702982999,
     "salesCount": 1169,
     "byType": {
       "Online": 615825249,
-      "Cửa hàng": 2085857750
+      "Cửa hàng": 2087157750
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2327458646,
+    "Bemori": 2328626027,
     "Teddy": 51620000,
     "Memon": 0
   },
@@ -55995,20 +55997,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 218888000,
-    "walkinOrders": 405,
+    "walkinRevenue": 220188000,
+    "walkinOrders": 409,
     "marketingRevenue": 30144386,
     "marketingOrdersEst": 55,
-    "custIn": 426,
+    "custIn": 430,
     "closeRate": 95,
     "marketingPct": 12
   },
   "weekSales": {
-    "totalRevenue": 281985500,
+    "totalRevenue": 283285500,
     "salesCount": 116,
     "byType": {
       "Online": 63097500,
-      "Cửa hàng": 218888000
+      "Cửa hàng": 220188000
     },
     "onlinePct": 22,
     "storePct": 78
