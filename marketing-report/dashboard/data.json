@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T16:01:43.170Z",
+  "generatedAt": "2026-08-27T16:31:11.971Z",
   "source": "lark",
   "period": {
     "days": 488,
@@ -43611,13 +43611,14 @@
         "Nguyễn Gia Trí": 13692000,
         "Bạch Mai": 7329000,
         "Xã Đàn": 1457000,
-        "Xuân Thủy": 4948000
+        "Xuân Thủy": 4948000,
+        "Cầu Giấy": 4437750
       },
-      "storeRev": 46463750,
-      "storeOnline": 9724500,
+      "storeRev": 50901500,
+      "storeOnline": 10318500,
       "storeTarget": 71978488,
-      "custIn": 265091,
-      "custBuy": 86,
+      "custIn": 265099,
+      "custBuy": 93,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55975,26 +55976,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2132321500,
-    "walkinOrders": 4016,
-    "marketingRevenue": 358178692,
-    "marketingOrdersEst": 686,
-    "custIn": 269172,
+    "walkinRevenue": 2136759250,
+    "walkinOrders": 4023,
+    "marketingRevenue": 358772692,
+    "marketingOrdersEst": 687,
+    "custIn": 269180,
     "closeRate": 1,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2769700249,
+    "totalRevenue": 2774137999,
     "salesCount": 1220,
     "byType": {
       "Online": 637378749,
-      "Cửa hàng": 2132321500
+      "Cửa hàng": 2136759250
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2369182434,
+    "Bemori": 2373167470,
     "Teddy": 51620000,
     "Memon": 0
   },
@@ -56005,20 +56006,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 265351750,
-    "walkinOrders": 491,
-    "marketingRevenue": 39868886,
-    "marketingOrdersEst": 79,
-    "custIn": 265517,
+    "walkinRevenue": 269789500,
+    "walkinOrders": 498,
+    "marketingRevenue": 40462886,
+    "marketingOrdersEst": 80,
+    "custIn": 265525,
     "closeRate": 0,
     "marketingPct": 13
   },
   "weekSales": {
-    "totalRevenue": 350002750,
+    "totalRevenue": 354440500,
     "salesCount": 167,
     "byType": {
       "Online": 84651000,
-      "Cửa hàng": 265351750
+      "Cửa hàng": 269789500
     },
     "onlinePct": 24,
     "storePct": 76
