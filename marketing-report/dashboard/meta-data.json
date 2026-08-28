@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T21:01:05.688Z",
+  "generatedAt": "2026-08-28T22:01:22.418Z",
   "since": "2025-01-01",
   "until": "2026-08-28",
   "accounts": [
@@ -4788,11 +4788,11 @@
       "igPurchaseValue": 1069000
     },
     "2026-08-28": {
-      "facebook": 3001319,
+      "facebook": 3001576,
       "instagram": 109595,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3110914,
+      "total": 3111171,
       "igPurchaseValue": 800000
     }
   },
@@ -17795,7 +17795,7 @@
       "bm": "BM2",
       "id": "120251373453150441",
       "name": "GOB.24.8.26-M-CR-Cá hề",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120251373453150441.jpg",
@@ -18172,7 +18172,7 @@
       "bm": "BM2",
       "id": "120251373453150441",
       "name": "GOB.24.8.26-M-CR-Cá hề",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120251373453150441.jpg",
@@ -19402,8 +19402,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 348128,
-      "impressions": 4630,
+      "spend": 348246,
+      "impressions": 4633,
       "reach": 3610,
       "clicks": 216,
       "engagement": 145,
@@ -19547,8 +19547,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 198705,
-      "impressions": 3478,
+      "spend": 198723,
+      "impressions": 3479,
       "reach": 3107,
       "clicks": 129,
       "engagement": 61,
@@ -19634,9 +19634,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 184748,
-      "impressions": 1654,
-      "reach": 947,
+      "spend": 184776,
+      "impressions": 1656,
+      "reach": 948,
       "clicks": 48,
       "engagement": 33,
       "messages": 2,
@@ -19663,9 +19663,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 184294,
-      "impressions": 1081,
-      "reach": 811,
+      "spend": 184371,
+      "impressions": 1083,
+      "reach": 813,
       "clicks": 64,
       "engagement": 48,
       "messages": 6,
@@ -19750,8 +19750,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 148471,
-      "impressions": 1733,
+      "spend": 148487,
+      "impressions": 1734,
       "reach": 1460,
       "clicks": 54,
       "engagement": 32,
