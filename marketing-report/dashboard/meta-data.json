@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T18:01:05.755Z",
+  "generatedAt": "2026-08-28T19:01:11.604Z",
   "since": "2025-01-01",
   "until": "2026-08-28",
   "accounts": [
@@ -4788,11 +4788,11 @@
       "igPurchaseValue": 1069000
     },
     "2026-08-28": {
-      "facebook": 2997475,
-      "instagram": 109596,
+      "facebook": 2999485,
+      "instagram": 109598,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3107071,
+      "total": 3109083,
       "igPurchaseValue": 800000
     }
   },
@@ -18317,7 +18317,7 @@
       "bm": "BM2",
       "id": "120258991090310112",
       "name": "BK - 25/08/2026-M-CR-BST gối ôm kem lạnh",
-      "status": "PAUSED",
+      "status": "ACTIVE",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120258991090310112.jpg",
@@ -19402,16 +19402,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 347367,
-      "impressions": 4624,
-      "reach": 3607,
+      "spend": 348110,
+      "impressions": 4628,
+      "reach": 3610,
       "clicks": 216,
       "engagement": 145,
       "messages": 15,
       "leads": 0,
       "purchases": 2,
       "purchaseValue": 823000,
-      "roas": 2.37
+      "roas": 2.36
     },
     {
       "day": "2026-08-28",
@@ -19431,9 +19431,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 295006,
-      "impressions": 9779,
-      "reach": 7386,
+      "spend": 295026,
+      "impressions": 9781,
+      "reach": 7394,
       "clicks": 127,
       "engagement": 110,
       "messages": 9,
@@ -19460,8 +19460,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 280476,
-      "impressions": 5551,
+      "spend": 280550,
+      "impressions": 5553,
       "reach": 4687,
       "clicks": 82,
       "engagement": 1133,
@@ -19469,7 +19469,7 @@
       "leads": 8,
       "purchases": 2,
       "purchaseValue": 1275000,
-      "roas": 4.55
+      "roas": 4.54
     },
     {
       "day": "2026-08-28",
@@ -19547,9 +19547,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 198688,
-      "impressions": 3475,
-      "reach": 3105,
+      "spend": 198699,
+      "impressions": 3477,
+      "reach": 3106,
       "clicks": 129,
       "engagement": 61,
       "messages": 4,
@@ -19618,35 +19618,6 @@
     },
     {
       "day": "2026-08-28",
-      "account": "Bemori 1",
-      "bm": "BM2",
-      "id": "120251410899140441",
-      "name": "GOB.27.08.26-M-CR-Gối các loại",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120251410899140441.jpg",
-      "creative": {
-        "title": "",
-        "body": "Điểm danh \"HỘI NGỘ NGHĨNH\" nhà Bemori nào 🐧🦕🌙\nBạn \"team mát\" thì chọn ai đây?\n🥑 Bộ gối trái cây thun lạnh 1m \n🦭 Hải cẩu kem lạnh 90cm \n🌙 Bé trăng đội mũ 65cm đang ưu đãi chỉ 199k\n🍡 Mochi kem lạnh 55cm, 12 màu chỉ từ 299k (combo)\n--\nBé nào cũng mát tay, ôm êm, xinh hết phần thiên hạ.\n👉 Cmt tên bé bạn thích – Bemori tư vấn liền!\n---------------------\nGối ôm Bemori - Chạm là mát, ôm là thích\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 183984,
-      "impressions": 1079,
-      "reach": 811,
-      "clicks": 64,
-      "engagement": 48,
-      "messages": 6,
-      "leads": 2,
-      "purchases": 2,
-      "purchaseValue": 745000,
-      "roas": 4.05
-    },
-    {
-      "day": "2026-08-28",
       "account": "Bemori 3",
       "bm": "BM2",
       "id": "120259047121700112",
@@ -19663,16 +19634,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 183596,
-      "impressions": 1646,
+      "spend": 184383,
+      "impressions": 1651,
       "reach": 945,
-      "clicks": 47,
-      "engagement": 32,
+      "clicks": 48,
+      "engagement": 33,
       "messages": 2,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 390000,
       "roas": 2.12
+    },
+    {
+      "day": "2026-08-28",
+      "account": "Bemori 1",
+      "bm": "BM2",
+      "id": "120251410899140441",
+      "name": "GOB.27.08.26-M-CR-Gối các loại",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120251410899140441.jpg",
+      "creative": {
+        "title": "",
+        "body": "Điểm danh \"HỘI NGỘ NGHĨNH\" nhà Bemori nào 🐧🦕🌙\nBạn \"team mát\" thì chọn ai đây?\n🥑 Bộ gối trái cây thun lạnh 1m \n🦭 Hải cẩu kem lạnh 90cm \n🌙 Bé trăng đội mũ 65cm đang ưu đãi chỉ 199k\n🍡 Mochi kem lạnh 55cm, 12 màu chỉ từ 299k (combo)\n--\nBé nào cũng mát tay, ôm êm, xinh hết phần thiên hạ.\n👉 Cmt tên bé bạn thích – Bemori tư vấn liền!\n---------------------\nGối ôm Bemori - Chạm là mát, ôm là thích\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 184271,
+      "impressions": 1080,
+      "reach": 811,
+      "clicks": 64,
+      "engagement": 48,
+      "messages": 6,
+      "leads": 2,
+      "purchases": 2,
+      "purchaseValue": 745000,
+      "roas": 4.04
     },
     {
       "day": "2026-08-28",
@@ -19692,8 +19692,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 173097,
-      "impressions": 1602,
+      "spend": 173120,
+      "impressions": 1603,
       "reach": 1141,
       "clicks": 55,
       "engagement": 35,
@@ -19837,9 +19837,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 60854,
-      "impressions": 951,
-      "reach": 645,
+      "spend": 60870,
+      "impressions": 952,
+      "reach": 646,
       "clicks": 9,
       "engagement": 5,
       "messages": 2,
