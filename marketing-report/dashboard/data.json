@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T10:03:01.082Z",
+  "generatedAt": "2026-08-28T10:31:13.984Z",
   "source": "lark",
   "period": {
     "days": 489,
@@ -43621,18 +43621,18 @@
       "custBuy": 92,
       "memonRev": 0,
       "leadRaw": 0,
-      "leadQual": 0,
-      "leadL4": 0,
+      "leadQual": 16,
+      "leadL4": 16,
       "leadFB": 0,
-      "leadL4FB": 0,
+      "leadL4FB": 5,
       "leadFBAds": 0,
-      "leadL4FBAds": 0,
+      "leadL4FBAds": 3,
       "leadL5FB": 0,
       "leadIG": 0,
-      "leadL4IG": 0,
+      "leadL4IG": 3,
       "leadL5IG": 0,
       "leadZalo": 0,
-      "leadL4Zalo": 0,
+      "leadL4Zalo": 8,
       "leadL5Zalo": 0,
       "leadWeb": 0,
       "leadL5Web": 0,
@@ -43657,14 +43657,15 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Nguyễn Trãi": 2913000,
+        "Xã Đàn": 1938750,
+        "Nguyễn Trãi": 5473000,
         "Lê Văn Sỹ": 750000
       },
-      "storeRev": 3663000,
-      "storeOnline": 0,
-      "storeTarget": 13470800,
-      "custIn": 9,
-      "custBuy": 9,
+      "storeRev": 8161750,
+      "storeOnline": 245000,
+      "storeTarget": 22422400,
+      "custIn": 20,
+      "custBuy": 20,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -56159,26 +56160,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2074632750,
-    "walkinOrders": 3912,
-    "marketingRevenue": 348294192,
+    "walkinRevenue": 2079131500,
+    "walkinOrders": 3923,
+    "marketingRevenue": 348539192,
     "marketingOrdersEst": 670,
-    "custIn": 4066,
+    "custIn": 4077,
     "closeRate": 96,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2705767999,
+    "totalRevenue": 2710266749,
     "salesCount": 1214,
     "byType": {
       "Online": 631135249,
-      "Cửa hàng": 2074632750
+      "Cửa hàng": 2079131500
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2307276141,
+    "Bemori": 2311324050,
     "Teddy": 49067000,
     "Memon": 0
   },
@@ -56189,20 +56190,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 273353500,
-    "walkinOrders": 506,
-    "marketingRevenue": 40462886,
-    "marketingOrdersEst": 82,
-    "custIn": 536,
-    "closeRate": 94,
+    "walkinRevenue": 277852250,
+    "walkinOrders": 517,
+    "marketingRevenue": 40707886,
+    "marketingOrdersEst": 83,
+    "custIn": 547,
+    "closeRate": 95,
     "marketingPct": 13
   },
   "weekSales": {
-    "totalRevenue": 368525000,
+    "totalRevenue": 373023750,
     "salesCount": 193,
     "byType": {
       "Online": 95171500,
-      "Cửa hàng": 273353500
+      "Cửa hàng": 277852250
     },
     "onlinePct": 26,
     "storePct": 74
