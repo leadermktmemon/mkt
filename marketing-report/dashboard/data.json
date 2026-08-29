@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T03:21:56.766Z",
+  "generatedAt": "2026-08-29T03:31:05.423Z",
   "source": "lark",
   "period": {
     "days": 490,
@@ -43675,10 +43675,10 @@
       "custBuy": 177,
       "memonRev": 0,
       "leadRaw": 0,
-      "leadQual": 0,
-      "leadL4": 0,
+      "leadQual": 9,
+      "leadL4": 9,
       "leadFB": 0,
-      "leadL4FB": 0,
+      "leadL4FB": 9,
       "leadFBAds": 0,
       "leadL4FBAds": 0,
       "leadL5FB": 0,
