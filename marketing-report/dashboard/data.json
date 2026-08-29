@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T10:01:41.636Z",
+  "generatedAt": "2026-08-29T10:23:13.406Z",
   "source": "lark",
   "period": {
     "days": 490,
@@ -43582,13 +43582,14 @@
       "bc": {},
       "store": {
         "Xã Đàn": 3400000,
+        "Nguyễn Trãi": 3211000,
         "Nguyễn Văn Cừ": 100000
       },
-      "storeRev": 3500000,
+      "storeRev": 6711000,
       "storeOnline": 1045000,
-      "storeTarget": 9550800,
-      "custIn": 1,
-      "custBuy": 1,
+      "storeTarget": 16340400,
+      "custIn": 9,
+      "custBuy": 9,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -56033,26 +56034,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2083130250,
-    "walkinOrders": 3922,
+    "walkinRevenue": 2086341250,
+    "walkinOrders": 3930,
     "marketingRevenue": 354779191,
     "marketingOrdersEst": 685,
-    "custIn": 4073,
+    "custIn": 4081,
     "closeRate": 96,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2721428499,
+    "totalRevenue": 2724639499,
     "salesCount": 1233,
     "byType": {
       "Online": 638298249,
-      "Cửa hàng": 2083130250
+      "Cửa hàng": 2086341250
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2599311250,
+    "Bemori": 2602522250,
     "Teddy": 0,
     "Memon": 0
   },
@@ -56104,26 +56105,26 @@
     ]
   },
   "weekStore": {
-    "walkinRevenue": 363257250,
-    "walkinOrders": 675,
+    "walkinRevenue": 366468250,
+    "walkinOrders": 683,
     "marketingRevenue": 57622386,
     "marketingOrdersEst": 119,
-    "custIn": 708,
+    "custIn": 716,
     "closeRate": 95,
     "marketingPct": 14
   },
   "weekSales": {
-    "totalRevenue": 481866250,
+    "totalRevenue": 485077250,
     "salesCount": 245,
     "byType": {
       "Online": 118609000,
-      "Cửa hàng": 363257250
+      "Cửa hàng": 366468250
     },
-    "onlinePct": 25,
-    "storePct": 75
+    "onlinePct": 24,
+    "storePct": 76
   },
   "weekBrands": {
-    "Bemori": 451131750,
+    "Bemori": 454342750,
     "Teddy": 0,
     "Memon": 0
   },
