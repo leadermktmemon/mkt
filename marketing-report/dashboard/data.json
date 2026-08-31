@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T10:01:56.786Z",
+  "generatedAt": "2026-08-31T10:31:13.074Z",
   "source": "lark",
   "period": {
     "days": 492,
@@ -43690,13 +43690,14 @@
       "bc": {},
       "store": {
         "Xã Đàn": 1609000,
-        "Lê Văn Sỹ": 3535000
+        "Lê Văn Sỹ": 5130000,
+        "Nguyễn Trãi": 1340000
       },
-      "storeRev": 5144000,
+      "storeRev": 8079000,
       "storeOnline": 485000,
-      "storeTarget": 4765140,
-      "custIn": 8,
-      "custBuy": 8,
+      "storeTarget": 16235140,
+      "custIn": 15,
+      "custBuy": 15,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -56126,26 +56127,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2061750000,
-    "walkinOrders": 3856,
+    "walkinRevenue": 2064685000,
+    "walkinOrders": 3863,
     "marketingRevenue": 344999691,
     "marketingOrdersEst": 677,
-    "custIn": 4006,
+    "custIn": 4013,
     "closeRate": 96,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2688190749,
+    "totalRevenue": 2691125749,
     "salesCount": 1230,
     "byType": {
       "Online": 626440749,
-      "Cửa hàng": 2061750000
+      "Cửa hàng": 2064685000
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2537560000,
+    "Bemori": 2540495000,
     "Teddy": 0,
     "Memon": 0
   },
@@ -56156,23 +56157,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 5144000,
-    "walkinOrders": 8,
+    "walkinRevenue": 8079000,
+    "walkinOrders": 15,
     "marketingRevenue": 485000,
     "marketingOrdersEst": 1,
-    "custIn": 8,
+    "custIn": 15,
     "closeRate": 100,
-    "marketingPct": 9
+    "marketingPct": 6
   },
   "weekSales": {
-    "totalRevenue": 14298000,
+    "totalRevenue": 17233000,
     "salesCount": 16,
     "byType": {
       "Online": 9154000,
-      "Cửa hàng": 5144000
+      "Cửa hàng": 8079000
     },
-    "onlinePct": 64,
-    "storePct": 36
+    "onlinePct": 53,
+    "storePct": 47
   },
   "weekBrands": {
     "Bemori": 0,
