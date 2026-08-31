@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T14:01:40.801Z",
+  "generatedAt": "2026-08-31T14:31:06.802Z",
   "source": "lark",
   "period": {
     "days": 492,
@@ -43691,13 +43691,14 @@
       "store": {
         "Xã Đàn": 1609000,
         "Lê Văn Sỹ": 5130000,
-        "Nguyễn Trãi": 1340000
+        "Nguyễn Trãi": 1340000,
+        "Nguyễn Gia Trí": 1579500
       },
-      "storeRev": 8079000,
+      "storeRev": 9658500,
       "storeOnline": 485000,
       "storeTarget": 16235140,
-      "custIn": 15,
-      "custBuy": 15,
+      "custIn": 18,
+      "custBuy": 18,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -56127,26 +56128,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2064685000,
-    "walkinOrders": 3863,
+    "walkinRevenue": 2066264500,
+    "walkinOrders": 3866,
     "marketingRevenue": 344999691,
     "marketingOrdersEst": 677,
-    "custIn": 4013,
+    "custIn": 4016,
     "closeRate": 96,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2691125749,
+    "totalRevenue": 2692705249,
     "salesCount": 1230,
     "byType": {
       "Online": 626440749,
-      "Cửa hàng": 2064685000
+      "Cửa hàng": 2066264500
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2540495000,
+    "Bemori": 2542074500,
     "Teddy": 0,
     "Memon": 0
   },
@@ -56157,23 +56158,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 8079000,
-    "walkinOrders": 15,
+    "walkinRevenue": 9658500,
+    "walkinOrders": 18,
     "marketingRevenue": 485000,
     "marketingOrdersEst": 1,
-    "custIn": 15,
+    "custIn": 18,
     "closeRate": 100,
-    "marketingPct": 6
+    "marketingPct": 5
   },
   "weekSales": {
-    "totalRevenue": 17233000,
+    "totalRevenue": 18812500,
     "salesCount": 16,
     "byType": {
       "Online": 9154000,
-      "Cửa hàng": 8079000
+      "Cửa hàng": 9658500
     },
-    "onlinePct": 53,
-    "storePct": 47
+    "onlinePct": 49,
+    "storePct": 51
   },
   "weekBrands": {
     "Bemori": 0,
