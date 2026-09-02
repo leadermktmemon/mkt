@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T10:03:55.981Z",
+  "generatedAt": "2026-09-02T10:31:55.028Z",
   "source": "lark",
   "period": {
     "days": 494,
@@ -43797,13 +43797,15 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Xã Đàn": 1880000
+        "Nguyễn Trãi": 4778000,
+        "Xã Đàn": 1880000,
+        "Lê Văn Sỹ": 1520000
       },
-      "storeRev": 1880000,
+      "storeRev": 8178000,
       "storeOnline": 0,
       "storeTarget": 0,
-      "custIn": 3,
-      "custBuy": 3,
+      "custIn": 12,
+      "custBuy": 12,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -43822,9 +43824,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 978571,
-      "metaIg": 51568,
-      "metaTotal": 1030139,
+      "metaFb": 1098234,
+      "metaIg": 62445,
+      "metaTotal": 1160679,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -55549,27 +55551,6 @@
     },
     {
       "day": "2026-09-02",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120258586154530112",
-      "name": "9/8/2026-BST-GOL-M-CR-raucuqua",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120258586154530112.jpg",
-      "spend": 262087,
-      "impressions": 4911,
-      "reach": 3990,
-      "clicks": 285,
-      "engagement": 172,
-      "messages": 22,
-      "leads": 6,
-      "purchases": 4,
-      "purchaseValue": 1107000,
-      "roas": 4.22
-    },
-    {
-      "day": "2026-09-02",
       "account": "Pa15",
       "bm": "BM1",
       "id": "120247235934360340",
@@ -55578,16 +55559,37 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120247235934360340.jpg",
-      "spend": 243311,
-      "impressions": 7360,
-      "reach": 5291,
-      "clicks": 134,
-      "engagement": 94,
-      "messages": 5,
+      "spend": 303666,
+      "impressions": 11218,
+      "reach": 8164,
+      "clicks": 190,
+      "engagement": 119,
+      "messages": 8,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 425000,
-      "roas": 1.75
+      "roas": 1.4
+    },
+    {
+      "day": "2026-09-02",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120258586154530112",
+      "name": "9/8/2026-BST-GOL-M-CR-raucuqua",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120258586154530112.jpg",
+      "spend": 279766,
+      "impressions": 5235,
+      "reach": 4276,
+      "clicks": 296,
+      "engagement": 179,
+      "messages": 23,
+      "leads": 6,
+      "purchases": 4,
+      "purchaseValue": 1107000,
+      "roas": 3.96
     },
     {
       "day": "2026-09-02",
@@ -55599,16 +55601,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120247776211140340.jpg",
-      "spend": 227862,
-      "impressions": 3000,
-      "reach": 1974,
-      "clicks": 106,
-      "engagement": 70,
+      "spend": 249714,
+      "impressions": 3328,
+      "reach": 2125,
+      "clicks": 117,
+      "engagement": 75,
       "messages": 7,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 815000,
-      "roas": 3.58
+      "roas": 3.26
     },
     {
       "day": "2026-09-02",
@@ -55620,11 +55622,11 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120251410884180441.jpg",
-      "spend": 172591,
-      "impressions": 1368,
-      "reach": 1090,
-      "clicks": 60,
-      "engagement": 475,
+      "spend": 182909,
+      "impressions": 1472,
+      "reach": 1162,
+      "clicks": 64,
+      "engagement": 524,
       "messages": 7,
       "leads": 0,
       "purchases": 0,
@@ -55641,9 +55643,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120247776219000340.jpg",
-      "spend": 124943,
-      "impressions": 1750,
-      "reach": 1406,
+      "spend": 125796,
+      "impressions": 1766,
+      "reach": 1434,
       "clicks": 73,
       "engagement": 46,
       "messages": 3,
@@ -55702,26 +55704,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2037532000,
-    "walkinOrders": 3796,
+    "walkinRevenue": 2043830000,
+    "walkinOrders": 3805,
     "marketingRevenue": 341619191,
     "marketingOrdersEst": 674,
-    "custIn": 3946,
+    "custIn": 3955,
     "closeRate": 96,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2656588749,
+    "totalRevenue": 2662886749,
     "salesCount": 1222,
     "byType": {
       "Online": 619056749,
-      "Cửa hàng": 2037532000
+      "Cửa hàng": 2043830000
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2482176000,
+    "Bemori": 2488474000,
     "Teddy": 0,
     "Memon": 0
   },
@@ -55732,23 +55734,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 119919250,
-    "walkinOrders": 223,
+    "walkinRevenue": 126217250,
+    "walkinOrders": 232,
     "marketingRevenue": 19174000,
     "marketingOrdersEst": 33,
-    "custIn": 218,
+    "custIn": 227,
     "closeRate": 102,
-    "marketingPct": 14
+    "marketingPct": 13
   },
   "weekSales": {
-    "totalRevenue": 162655250,
+    "totalRevenue": 168953250,
     "salesCount": 73,
     "byType": {
       "Online": 42736000,
-      "Cửa hàng": 119919250
+      "Cửa hàng": 126217250
     },
-    "onlinePct": 26,
-    "storePct": 74
+    "onlinePct": 25,
+    "storePct": 75
   },
   "weekBrands": {
     "Bemori": 0,
