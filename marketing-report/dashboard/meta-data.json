@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T12:31:08.039Z",
+  "generatedAt": "2026-09-02T13:31:05.264Z",
   "since": "2025-01-01",
   "until": "2026-09-02",
   "accounts": [
@@ -4828,12 +4828,12 @@
       "igPurchaseValue": 0
     },
     "2026-09-02": {
-      "facebook": 1228624,
-      "instagram": 85210,
+      "facebook": 1297258,
+      "instagram": 93083,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1313834,
-      "igPurchaseValue": 0
+      "total": 1390341,
+      "igPurchaseValue": 320000
     }
   },
   "campaignDays": [
@@ -18978,16 +18978,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 399789,
-      "impressions": 16035,
-      "reach": 12548,
-      "clicks": 273,
-      "engagement": 177,
+      "spend": 427238,
+      "impressions": 16854,
+      "reach": 12990,
+      "clicks": 291,
+      "engagement": 191,
       "messages": 11,
       "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 425000,
-      "roas": 1.06
+      "purchases": 2,
+      "purchaseValue": 745000,
+      "roas": 1.74
     },
     {
       "day": "2026-09-02",
@@ -19007,16 +19007,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 306413,
-      "impressions": 5835,
-      "reach": 4663,
-      "clicks": 332,
-      "engagement": 203,
-      "messages": 23,
+      "spend": 322082,
+      "impressions": 6250,
+      "reach": 4880,
+      "clicks": 348,
+      "engagement": 213,
+      "messages": 24,
       "leads": 6,
       "purchases": 4,
       "purchaseValue": 1107000,
-      "roas": 3.61
+      "roas": 3.44
     },
     {
       "day": "2026-09-02",
@@ -19036,16 +19036,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 285460,
-      "impressions": 3787,
-      "reach": 2371,
-      "clicks": 146,
-      "engagement": 93,
+      "spend": 303731,
+      "impressions": 4014,
+      "reach": 2488,
+      "clicks": 154,
+      "engagement": 96,
       "messages": 7,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 815000,
-      "roas": 2.86
+      "roas": 2.68
     },
     {
       "day": "2026-09-02",
@@ -19065,12 +19065,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 194048,
-      "impressions": 1603,
-      "reach": 1243,
-      "clicks": 66,
-      "engagement": 565,
-      "messages": 7,
+      "spend": 204665,
+      "impressions": 1724,
+      "reach": 1303,
+      "clicks": 69,
+      "engagement": 597,
+      "messages": 8,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -19094,9 +19094,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 128124,
-      "impressions": 1798,
-      "reach": 1452,
+      "spend": 128537,
+      "impressions": 1807,
+      "reach": 1462,
       "clicks": 75,
       "engagement": 46,
       "messages": 3,
