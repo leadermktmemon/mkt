@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T03:31:03.655Z",
+  "generatedAt": "2026-09-04T04:31:01.246Z",
   "since": "2025-01-01",
   "until": "2026-09-04",
   "accounts": [
@@ -4836,19 +4836,19 @@
       "igPurchaseValue": 320000
     },
     "2026-09-03": {
-      "facebook": 2948892,
-      "instagram": 153515,
+      "facebook": 2949281,
+      "instagram": 153512,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3102407,
+      "total": 3102793,
       "igPurchaseValue": 0
     },
     "2026-09-04": {
-      "facebook": 444314,
-      "instagram": 41267,
+      "facebook": 550932,
+      "instagram": 52117,
       "messenger": 0,
       "audience_network": 0,
-      "total": 485581,
+      "total": 603049,
       "igPurchaseValue": 0
     }
   },
@@ -18704,8 +18704,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 340832,
-      "impressions": 6295,
+      "spend": 340844,
+      "impressions": 6297,
       "reach": 5142,
       "clicks": 335,
       "engagement": 210,
@@ -19110,45 +19110,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 62300,
-      "impressions": 443,
-      "reach": 356,
+      "spend": 76684,
+      "impressions": 555,
+      "reach": 439,
       "clicks": 14,
-      "engagement": 158,
+      "engagement": 185,
       "messages": 2,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
-    },
-    {
-      "day": "2026-09-04",
-      "account": "Bemori 1",
-      "bm": "BM2",
-      "id": "120251474264520441",
-      "name": "01.09.26-M-V-Mochi-nong40 -HCM",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120251474264520441.jpg",
-      "creative": {
-        "title": "",
-        "body": "Nắng nóng như này mà có em gối Mochi ôm mát rượi thì còn gì bằng\n#goimochi #mochikemlanh #bemori",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 53179,
-      "impressions": 567,
-      "reach": 504,
-      "clicks": 12,
-      "engagement": 178,
-      "messages": 2,
-      "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 704000,
-      "roas": 13.24
     },
     {
       "day": "2026-09-04",
@@ -19168,16 +19139,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 50965,
-      "impressions": 986,
-      "reach": 819,
-      "clicks": 46,
-      "engagement": 30,
+      "spend": 75434,
+      "impressions": 1462,
+      "reach": 1253,
+      "clicks": 65,
+      "engagement": 42,
       "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 355000,
-      "roas": 6.97
+      "roas": 4.71
+    },
+    {
+      "day": "2026-09-04",
+      "account": "Bemori 1",
+      "bm": "BM2",
+      "id": "120251474264520441",
+      "name": "01.09.26-M-V-Mochi-nong40 -HCM",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120251474264520441.jpg",
+      "creative": {
+        "title": "",
+        "body": "Nắng nóng như này mà có em gối Mochi ôm mát rượi thì còn gì bằng\n#goimochi #mochikemlanh #bemori",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 66506,
+      "impressions": 674,
+      "reach": 592,
+      "clicks": 14,
+      "engagement": 207,
+      "messages": 3,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 704000,
+      "roas": 10.59
     },
     {
       "day": "2026-09-04",
@@ -19197,16 +19197,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 35304,
-      "impressions": 186,
-      "reach": 152,
-      "clicks": 4,
-      "engagement": 56,
+      "spend": 42025,
+      "impressions": 220,
+      "reach": 183,
+      "clicks": 5,
+      "engagement": 67,
       "messages": 0,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 529000,
-      "roas": 14.98
+      "roas": 12.59
     }
   ]
 }
