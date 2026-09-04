@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T14:31:08.220Z",
+  "generatedAt": "2026-09-04T15:31:07.632Z",
   "since": "2025-01-01",
   "until": "2026-09-04",
   "accounts": [
@@ -4836,19 +4836,19 @@
       "igPurchaseValue": 320000
     },
     "2026-09-03": {
-      "facebook": 2950870,
+      "facebook": 2950880,
       "instagram": 153544,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3104414,
+      "total": 3104424,
       "igPurchaseValue": 0
     },
     "2026-09-04": {
-      "facebook": 1545654,
-      "instagram": 140051,
+      "facebook": 1595685,
+      "instagram": 144585,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1685705,
+      "total": 1740270,
       "igPurchaseValue": 197500
     }
   },
@@ -18675,11 +18675,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 433584,
-      "impressions": 18538,
+      "spend": 433594,
+      "impressions": 18539,
       "reach": 13957,
-      "clicks": 261,
-      "engagement": 104,
+      "clicks": 262,
+      "engagement": 105,
       "messages": 9,
       "leads": 2,
       "purchases": 1,
@@ -19023,16 +19023,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 423165,
-      "impressions": 7845,
-      "reach": 5352,
-      "clicks": 108,
-      "engagement": 106,
-      "messages": 10,
+      "spend": 440078,
+      "impressions": 8183,
+      "reach": 5439,
+      "clicks": 113,
+      "engagement": 112,
+      "messages": 11,
       "leads": 4,
       "purchases": 5,
       "purchaseValue": 1902500,
-      "roas": 4.5
+      "roas": 4.32
     },
     {
       "day": "2026-09-04",
@@ -19052,45 +19052,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 275789,
-      "impressions": 5546,
-      "reach": 4429,
-      "clicks": 258,
-      "engagement": 174,
-      "messages": 19,
+      "spend": 292956,
+      "impressions": 5979,
+      "reach": 4823,
+      "clicks": 286,
+      "engagement": 188,
+      "messages": 21,
       "leads": 6,
       "purchases": 4,
       "purchaseValue": 1580000,
-      "roas": 5.73
-    },
-    {
-      "day": "2026-09-04",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120247654344670340",
-      "name": "2710.hoahong.Bemori.Memon - Bản sao 4",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "CONVERSATIONS",
-      "thumb": "thumbs/120247654344670340.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌹❤️Mong rằng mọi cô gái “em ko thích hoa đâu, nhanh tàn lắm anh đừng mua” sẽ gặp được chàng trai “bó hoa này không bao giờ tàn, anh sẽ mua cho em\"! 💐\n\n#bemori #gaubong #quatang \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây, TP.HCM\n🐻388 Xã Đàn, Phường Văn Miếu, Hà Nội\n🐻228 Lê Văn Sỹ, P.Tân Sơn Hòa, TP.HCM\n🐻275 Bạch Mai, P.Bạch Mai, Hà Nội\n🐻368 Nguyễn Trãi, P.Đại Mỗ, Hà Nội\n🐻411 Nguyễn Văn Cừ, P.Bồ Đề, Hà Nội\n🐻161 Xuân Thủy, P.Cầu Giấy, Hà Nội\n🐻104 -106 Cầu Giấy, P.Cầu Giấy, Hà Nội\n🐻1028 Đường Láng, P.Láng, Hà Nội\n🐻17 ngõ 23 Nguyễn Khuyến, P.Hà Đông, Hà Nội (Kho gấu online)",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 247766,
-      "impressions": 6449,
-      "reach": 5155,
-      "clicks": 97,
-      "engagement": 36,
-      "messages": 7,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "roas": 5.39
     },
     {
       "day": "2026-09-04",
@@ -19110,16 +19081,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 247456,
-      "impressions": 2096,
-      "reach": 1194,
-      "clicks": 104,
-      "engagement": 65,
-      "messages": 7,
+      "spend": 254627,
+      "impressions": 2194,
+      "reach": 1247,
+      "clicks": 107,
+      "engagement": 67,
+      "messages": 9,
       "leads": 8,
       "purchases": 3,
       "purchaseValue": 3690000,
-      "roas": 14.91
+      "roas": 14.49
+    },
+    {
+      "day": "2026-09-04",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120247654344670340",
+      "name": "2710.hoahong.Bemori.Memon - Bản sao 4",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "CONVERSATIONS",
+      "thumb": "thumbs/120247654344670340.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌹❤️Mong rằng mọi cô gái “em ko thích hoa đâu, nhanh tàn lắm anh đừng mua” sẽ gặp được chàng trai “bó hoa này không bao giờ tàn, anh sẽ mua cho em\"! 💐\n\n#bemori #gaubong #quatang \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây, TP.HCM\n🐻388 Xã Đàn, Phường Văn Miếu, Hà Nội\n🐻228 Lê Văn Sỹ, P.Tân Sơn Hòa, TP.HCM\n🐻275 Bạch Mai, P.Bạch Mai, Hà Nội\n🐻368 Nguyễn Trãi, P.Đại Mỗ, Hà Nội\n🐻411 Nguyễn Văn Cừ, P.Bồ Đề, Hà Nội\n🐻161 Xuân Thủy, P.Cầu Giấy, Hà Nội\n🐻104 -106 Cầu Giấy, P.Cầu Giấy, Hà Nội\n🐻1028 Đường Láng, P.Láng, Hà Nội\n🐻17 ngõ 23 Nguyễn Khuyến, P.Hà Đông, Hà Nội (Kho gấu online)",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 248123,
+      "impressions": 6468,
+      "reach": 5162,
+      "clicks": 99,
+      "engagement": 36,
+      "messages": 7,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-09-04",
@@ -19139,16 +19139,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 193722,
-      "impressions": 2074,
-      "reach": 1682,
-      "clicks": 33,
-      "engagement": 600,
+      "spend": 206333,
+      "impressions": 2217,
+      "reach": 1806,
+      "clicks": 37,
+      "engagement": 653,
       "messages": 7,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1028000,
-      "roas": 5.31
+      "roas": 4.98
     },
     {
       "day": "2026-09-04",
@@ -19168,16 +19168,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 186302,
-      "impressions": 1194,
+      "spend": 187451,
+      "impressions": 1200,
       "reach": 995,
       "clicks": 25,
-      "engagement": 415,
+      "engagement": 418,
       "messages": 3,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 529000,
-      "roas": 2.84
+      "roas": 2.82
     },
     {
       "day": "2026-09-04",
