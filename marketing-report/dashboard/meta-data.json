@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T08:31:14.922Z",
+  "generatedAt": "2026-09-04T09:31:09.725Z",
   "since": "2025-01-01",
   "until": "2026-09-04",
   "accounts": [
@@ -4836,19 +4836,19 @@
       "igPurchaseValue": 320000
     },
     "2026-09-03": {
-      "facebook": 2950461,
+      "facebook": 2950502,
       "instagram": 153512,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3103973,
+      "total": 3104014,
       "igPurchaseValue": 0
     },
     "2026-09-04": {
-      "facebook": 1035892,
-      "instagram": 96189,
+      "facebook": 1143489,
+      "instagram": 103824,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1132081,
+      "total": 1247313,
       "igPurchaseValue": 0
     }
   },
@@ -17387,7 +17387,7 @@
       "bm": "BM2",
       "id": "120251456145620441",
       "name": "30.08.2026-GOL-V-M-so sánh kẹo",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120251456145620441.jpg",
@@ -17967,7 +17967,7 @@
       "bm": "BM2",
       "id": "120251456145620441",
       "name": "30.08.2026-GOL-V-M-so sánh kẹo",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120251456145620441.jpg",
@@ -18675,8 +18675,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 433309,
-      "impressions": 18530,
+      "spend": 433314,
+      "impressions": 18531,
       "reach": 13951,
       "clicks": 261,
       "engagement": 104,
@@ -18733,8 +18733,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 310292,
-      "impressions": 6261,
+      "spend": 310328,
+      "impressions": 6262,
       "reach": 4218,
       "clicks": 115,
       "engagement": 86,
@@ -19023,16 +19023,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 239252,
-      "impressions": 5033,
-      "reach": 3799,
-      "clicks": 69,
-      "engagement": 71,
-      "messages": 7,
+      "spend": 273152,
+      "impressions": 5628,
+      "reach": 4276,
+      "clicks": 76,
+      "engagement": 77,
+      "messages": 8,
       "leads": 2,
       "purchases": 3,
       "purchaseValue": 1570000,
-      "roas": 6.56
+      "roas": 5.75
     },
     {
       "day": "2026-09-04",
@@ -19052,10 +19052,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 220508,
-      "impressions": 6261,
-      "reach": 5041,
-      "clicks": 92,
+      "spend": 224298,
+      "impressions": 6314,
+      "reach": 5073,
+      "clicks": 93,
       "engagement": 34,
       "messages": 7,
       "leads": 0,
@@ -19081,16 +19081,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 160916,
-      "impressions": 1385,
-      "reach": 849,
-      "clicks": 65,
-      "engagement": 46,
-      "messages": 3,
+      "spend": 182420,
+      "impressions": 1516,
+      "reach": 940,
+      "clicks": 77,
+      "engagement": 53,
+      "messages": 5,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 1590000,
-      "roas": 9.88
+      "roas": 8.72
     },
     {
       "day": "2026-09-04",
@@ -19110,16 +19110,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 156274,
-      "impressions": 2548,
-      "reach": 1992,
-      "clicks": 128,
-      "engagement": 90,
+      "spend": 175560,
+      "impressions": 2810,
+      "reach": 2206,
+      "clicks": 136,
+      "engagement": 98,
       "messages": 10,
-      "leads": 4,
-      "purchases": 3,
-      "purchaseValue": 1230000,
-      "roas": 7.87
+      "leads": 6,
+      "purchases": 4,
+      "purchaseValue": 1580000,
+      "roas": 9
     },
     {
       "day": "2026-09-04",
@@ -19139,45 +19139,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 137577,
-      "impressions": 806,
-      "reach": 711,
-      "clicks": 16,
-      "engagement": 289,
+      "spend": 145866,
+      "impressions": 864,
+      "reach": 756,
+      "clicks": 17,
+      "engagement": 309,
       "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 529000,
-      "roas": 3.85
-    },
-    {
-      "day": "2026-09-04",
-      "account": "Bemori 1",
-      "bm": "BM2",
-      "id": "120251465535410441",
-      "name": "31.08.2026-GOL-V-M-so sánh kẹo - HCM",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120251465535410441.jpg",
-      "creative": {
-        "title": "",
-        "body": "So sánh gối ôm lạnh Bemori với dòng gối ôm thường - khác biệt đến từ loại vải và chất liệu bông.\n#goiombemori #goiomkeo #goiomlanh",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 110537,
-      "impressions": 813,
-      "reach": 647,
-      "clicks": 24,
-      "engagement": 285,
-      "messages": 3,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "roas": 3.63
     },
     {
       "day": "2026-09-04",
@@ -19197,16 +19168,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 106972,
-      "impressions": 993,
-      "reach": 860,
-      "clicks": 21,
-      "engagement": 298,
-      "messages": 4,
+      "spend": 123986,
+      "impressions": 1138,
+      "reach": 983,
+      "clicks": 23,
+      "engagement": 340,
+      "messages": 5,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1028000,
-      "roas": 9.61
+      "roas": 8.29
+    },
+    {
+      "day": "2026-09-04",
+      "account": "Bemori 1",
+      "bm": "BM2",
+      "id": "120251465535410441",
+      "name": "31.08.2026-GOL-V-M-so sánh kẹo - HCM",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120251465535410441.jpg",
+      "creative": {
+        "title": "",
+        "body": "So sánh gối ôm lạnh Bemori với dòng gối ôm thường - khác biệt đến từ loại vải và chất liệu bông.\n#goiombemori #goiomkeo #goiomlanh",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 110712,
+      "impressions": 815,
+      "reach": 647,
+      "clicks": 24,
+      "engagement": 286,
+      "messages": 3,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     }
   ]
 }
