@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T13:31:34.783Z",
+  "generatedAt": "2026-09-05T14:01:02.565Z",
   "source": "lark",
   "period": {
     "days": 497,
@@ -43888,8 +43888,8 @@
       "storeRev": 55426750,
       "storeOnline": 8491000,
       "storeTarget": 71372300,
-      "custIn": 108,
-      "custBuy": 106,
+      "custIn": 107,
+      "custBuy": 105,
       "memonRev": 0,
       "leadRaw": 148,
       "leadQual": 7,
@@ -43978,8 +43978,8 @@
       "storeRev": 79897249,
       "storeOnline": 16115501,
       "storeTarget": 77765600,
-      "custIn": 148,
-      "custBuy": 146,
+      "custIn": 147,
+      "custBuy": 145,
       "memonRev": 0,
       "leadRaw": 136,
       "leadQual": 21,
@@ -56236,10 +56236,10 @@
   },
   "store": {
     "walkinRevenue": 2084396499,
-    "walkinOrders": 3913,
+    "walkinOrders": 3911,
     "marketingRevenue": 343976942,
     "marketingOrdersEst": 680,
-    "custIn": 4062,
+    "custIn": 4060,
     "closeRate": 96,
     "marketingPct": 14
   },
@@ -56307,10 +56307,10 @@
   },
   "weekStore": {
     "walkinRevenue": 343882999,
-    "walkinOrders": 643,
+    "walkinOrders": 641,
     "marketingRevenue": 61096251,
     "marketingOrdersEst": 115,
-    "custIn": 646,
+    "custIn": 644,
     "closeRate": 100,
     "marketingPct": 15
   },
