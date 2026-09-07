@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T17:31:09.490Z",
+  "generatedAt": "2026-09-07T18:31:06.007Z",
   "since": "2025-01-01",
   "until": "2026-09-07",
   "accounts": [
@@ -4868,11 +4868,11 @@
       "igPurchaseValue": 565000
     },
     "2026-09-07": {
-      "facebook": 1246864,
-      "instagram": 128167,
+      "facebook": 1248173,
+      "instagram": 128244,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1375031,
+      "total": 1376417,
       "igPurchaseValue": 1475000
     }
   },
@@ -18902,9 +18902,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 402330,
-      "impressions": 5722,
-      "reach": 3027,
+      "spend": 402824,
+      "impressions": 5729,
+      "reach": 3031,
       "clicks": 84,
       "engagement": 130,
       "messages": 10,
@@ -18931,16 +18931,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 205052,
-      "impressions": 3554,
-      "reach": 2819,
+      "spend": 205701,
+      "impressions": 3557,
+      "reach": 2823,
       "clicks": 163,
       "engagement": 92,
       "messages": 7,
       "leads": 6,
       "purchases": 1,
       "purchaseValue": 229000,
-      "roas": 1.12
+      "roas": 1.11
     },
     {
       "day": "2026-09-07",
@@ -18960,8 +18960,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 199316,
-      "impressions": 2696,
+      "spend": 199342,
+      "impressions": 2697,
       "reach": 1884,
       "clicks": 71,
       "engagement": 33,
@@ -18989,9 +18989,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 169556,
-      "impressions": 1799,
-      "reach": 1339,
+      "spend": 169942,
+      "impressions": 1804,
+      "reach": 1341,
       "clicks": 30,
       "engagement": 20,
       "messages": 3,
@@ -19047,8 +19047,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 112418,
-      "impressions": 826,
+      "spend": 112519,
+      "impressions": 827,
       "reach": 632,
       "clicks": 5,
       "engagement": 215,
