@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T12:30:59.580Z",
+  "generatedAt": "2026-09-07T13:32:18.236Z",
   "since": "2025-01-01",
   "until": "2026-09-07",
   "accounts": [
@@ -4860,19 +4860,19 @@
       "igPurchaseValue": 315000
     },
     "2026-09-06": {
-      "facebook": 1540072,
-      "instagram": 177604,
+      "facebook": 1540082,
+      "instagram": 177594,
       "messenger": 0,
       "audience_network": 0,
       "total": 1717676,
       "igPurchaseValue": 565000
     },
     "2026-09-07": {
-      "facebook": 1139432,
-      "instagram": 97604,
+      "facebook": 1172519,
+      "instagram": 105591,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1237036,
+      "total": 1278110,
       "igPurchaseValue": 1475000
     }
   },
@@ -18703,7 +18703,7 @@
       "impressions": 7398,
       "reach": 5690,
       "clicks": 166,
-      "engagement": 1030,
+      "engagement": 1031,
       "messages": 40,
       "leads": 6,
       "purchases": 3,
@@ -18902,16 +18902,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 295955,
-      "impressions": 3936,
-      "reach": 2218,
-      "clicks": 60,
-      "engagement": 88,
-      "messages": 7,
+      "spend": 324324,
+      "impressions": 4471,
+      "reach": 2438,
+      "clicks": 65,
+      "engagement": 99,
+      "messages": 8,
       "leads": 10,
       "purchases": 4,
       "purchaseValue": 1900000,
-      "roas": 6.42
+      "roas": 5.86
     },
     {
       "day": "2026-09-07",
@@ -18931,16 +18931,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 202431,
-      "impressions": 3516,
-      "reach": 2793,
+      "spend": 204029,
+      "impressions": 3534,
+      "reach": 2810,
       "clicks": 163,
       "engagement": 92,
       "messages": 7,
       "leads": 6,
       "purchases": 1,
       "purchaseValue": 229000,
-      "roas": 1.13
+      "roas": 1.12
     },
     {
       "day": "2026-09-07",
@@ -18948,7 +18948,7 @@
       "bm": "BM1",
       "id": "120247896893780340",
       "name": "8/9/26-BST-Bestseller-Trung Thu",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120247896893780340.jpg",
@@ -18960,16 +18960,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 183636,
-      "impressions": 2452,
-      "reach": 1723,
-      "clicks": 61,
-      "engagement": 27,
+      "spend": 191444,
+      "impressions": 2611,
+      "reach": 1837,
+      "clicks": 68,
+      "engagement": 31,
       "messages": 5,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 260000,
-      "roas": 1.42
+      "roas": 1.36
     },
     {
       "day": "2026-09-07",
@@ -18989,9 +18989,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 161981,
-      "impressions": 1744,
-      "reach": 1311,
+      "spend": 164202,
+      "impressions": 1760,
+      "reach": 1322,
       "clicks": 29,
       "engagement": 20,
       "messages": 3,
@@ -19018,9 +19018,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 143010,
-      "impressions": 4464,
-      "reach": 4010,
+      "spend": 143492,
+      "impressions": 4480,
+      "reach": 4020,
       "clicks": 93,
       "engagement": 601,
       "messages": 20,
@@ -19047,11 +19047,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 109554,
-      "impressions": 815,
-      "reach": 627,
+      "spend": 110952,
+      "impressions": 819,
+      "reach": 628,
       "clicks": 5,
-      "engagement": 209,
+      "engagement": 211,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -19076,9 +19076,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 69847,
-      "impressions": 1214,
-      "reach": 1074,
+      "spend": 69988,
+      "impressions": 1218,
+      "reach": 1079,
       "clicks": 22,
       "engagement": 152,
       "messages": 1,
@@ -19105,11 +19105,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 69589,
-      "impressions": 878,
-      "reach": 792,
+      "spend": 69981,
+      "impressions": 883,
+      "reach": 797,
       "clicks": 19,
-      "engagement": 194,
+      "engagement": 195,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
