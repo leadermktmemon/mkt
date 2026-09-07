@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T10:01:09.141Z",
+  "generatedAt": "2026-09-07T10:23:59.502Z",
   "source": "lark",
   "period": {
     "days": 499,
@@ -43907,7 +43907,7 @@
       "leadL5Zalo": 6,
       "leadWeb": 0,
       "leadL5Web": 2,
-      "leadL5FBAds": 0,
+      "leadL5FBAds": 9,
       "metaFb": 1179417,
       "metaIg": 13698,
       "metaTotal": 1193115,
@@ -43997,7 +43997,7 @@
       "leadL5Zalo": 10,
       "leadWeb": 0,
       "leadL5Web": 3,
-      "leadL5FBAds": 0,
+      "leadL5FBAds": 8,
       "metaFb": 1511331,
       "metaIg": 105618,
       "metaTotal": 1616949,
@@ -44177,7 +44177,7 @@
       "leadL5Zalo": 6,
       "leadWeb": 0,
       "leadL5Web": 3,
-      "leadL5FBAds": 0,
+      "leadL5FBAds": 19,
       "metaFb": 1658245,
       "metaIg": 149355,
       "metaTotal": 1807600,
@@ -44248,7 +44248,7 @@
       "custIn": 183,
       "custBuy": 180,
       "memonRev": 0,
-      "leadRaw": 103,
+      "leadRaw": 149,
       "leadQual": 51,
       "leadL4": 22,
       "leadFB": 95,
@@ -44259,12 +44259,12 @@
       "leadIG": 8,
       "leadL4IG": 1,
       "leadL5IG": 7,
-      "leadZalo": 0,
+      "leadZalo": 46,
       "leadL4Zalo": 5,
       "leadL5Zalo": 6,
       "leadWeb": 0,
       "leadL5Web": 3,
-      "leadL5FBAds": 0,
+      "leadL5FBAds": 12,
       "metaFb": 1353152,
       "metaIg": 84245,
       "metaTotal": 1437397,
@@ -44338,7 +44338,7 @@
       "custIn": 160,
       "custBuy": 154,
       "memonRev": 0,
-      "leadRaw": 122,
+      "leadRaw": 150,
       "leadQual": 40,
       "leadL4": 10,
       "leadFB": 107,
@@ -44349,12 +44349,12 @@
       "leadIG": 15,
       "leadL4IG": 0,
       "leadL5IG": 7,
-      "leadZalo": 0,
+      "leadZalo": 28,
       "leadL4Zalo": 4,
       "leadL5Zalo": 7,
       "leadWeb": 0,
       "leadL5Web": 3,
-      "leadL5FBAds": 0,
+      "leadL5FBAds": 8,
       "metaFb": 1539902,
       "metaIg": 177594,
       "metaTotal": 1717496,
@@ -44375,13 +44375,15 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Cầu Giấy": 1205000
+        "Nguyễn Trãi": 1035000,
+        "Cầu Giấy": 1205000,
+        "Lê Văn Sỹ": 2040500
       },
-      "storeRev": 1205000,
+      "storeRev": 4280500,
       "storeOnline": 0,
-      "storeTarget": 2160000,
-      "custIn": 3,
-      "custBuy": 3,
+      "storeTarget": 9120000,
+      "custIn": 10,
+      "custBuy": 10,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -56267,26 +56269,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2055064249,
-    "walkinOrders": 3862,
+    "walkinRevenue": 2058139749,
+    "walkinOrders": 3869,
     "marketingRevenue": 335996942,
     "marketingOrdersEst": 659,
-    "custIn": 4004,
+    "custIn": 4011,
     "closeRate": 96,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2663644998,
+    "totalRevenue": 2666720498,
     "salesCount": 1194,
     "byType": {
       "Online": 608580749,
-      "Cửa hàng": 2055064249
+      "Cửa hàng": 2058139749
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2549578999,
+    "Bemori": 2552654499,
     "Teddy": 0,
     "Memon": 0
   },
@@ -56297,23 +56299,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 1205000,
-    "walkinOrders": 3,
+    "walkinRevenue": 4280500,
+    "walkinOrders": 10,
     "marketingRevenue": 0,
     "marketingOrdersEst": 0,
-    "custIn": 3,
+    "custIn": 10,
     "closeRate": 100,
     "marketingPct": 0
   },
   "weekSales": {
-    "totalRevenue": 7507000,
+    "totalRevenue": 10582500,
     "salesCount": 10,
     "byType": {
       "Online": 6302000,
-      "Cửa hàng": 1205000
+      "Cửa hàng": 4280500
     },
-    "onlinePct": 84,
-    "storePct": 16
+    "onlinePct": 60,
+    "storePct": 40
   },
   "weekBrands": {
     "Bemori": 0,
