@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T08:31:14.244Z",
+  "generatedAt": "2026-09-08T09:30:53.157Z",
   "since": "2025-01-01",
   "until": "2026-09-08",
   "accounts": [
@@ -4876,11 +4876,11 @@
       "igPurchaseValue": 1475000
     },
     "2026-09-08": {
-      "facebook": 1614284,
-      "instagram": 73519,
+      "facebook": 1685557,
+      "instagram": 76961,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1687803,
+      "total": 1762518,
       "igPurchaseValue": 599000
     }
   },
@@ -18475,16 +18475,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 183961,
-      "impressions": 3223,
-      "reach": 2923,
-      "clicks": 125,
-      "engagement": 79,
+      "spend": 190200,
+      "impressions": 3291,
+      "reach": 2963,
+      "clicks": 126,
+      "engagement": 80,
       "messages": 9,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 453000,
-      "roas": 2.46
+      "roas": 2.38
     },
     {
       "day": "2026-09-08",
@@ -18504,9 +18504,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 181352,
-      "impressions": 1710,
-      "reach": 1376,
+      "spend": 183205,
+      "impressions": 1722,
+      "reach": 1386,
       "clicks": 81,
       "engagement": 48,
       "messages": 5,
@@ -18514,6 +18514,35 @@
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
+    },
+    {
+      "day": "2026-09-08",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259193031850112",
+      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259193031850112.jpg",
+      "creative": {
+        "title": "",
+        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 154569,
+      "impressions": 2197,
+      "reach": 1892,
+      "clicks": 96,
+      "engagement": 74,
+      "messages": 11,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 655000,
+      "roas": 4.24
     },
     {
       "day": "2026-09-08",
@@ -18543,35 +18572,6 @@
       "purchases": 1,
       "purchaseValue": 660000,
       "roas": 4.31
-    },
-    {
-      "day": "2026-09-08",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259193031850112",
-      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259193031850112.jpg",
-      "creative": {
-        "title": "",
-        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 140978,
-      "impressions": 1893,
-      "reach": 1675,
-      "clicks": 84,
-      "engagement": 66,
-      "messages": 10,
-      "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 655000,
-      "roas": 4.65
     },
     {
       "day": "2026-09-08",
@@ -18620,11 +18620,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 128110,
-      "impressions": 649,
-      "reach": 474,
+      "spend": 131240,
+      "impressions": 657,
+      "reach": 478,
       "clicks": 9,
-      "engagement": 174,
+      "engagement": 176,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
@@ -18678,11 +18678,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 104494,
-      "impressions": 577,
+      "spend": 104570,
+      "impressions": 579,
       "reach": 502,
       "clicks": 9,
-      "engagement": 171,
+      "engagement": 172,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -18736,11 +18736,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 62323,
-      "impressions": 662,
-      "reach": 581,
-      "clicks": 15,
-      "engagement": 4,
+      "spend": 62574,
+      "impressions": 667,
+      "reach": 587,
+      "clicks": 17,
+      "engagement": 5,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
