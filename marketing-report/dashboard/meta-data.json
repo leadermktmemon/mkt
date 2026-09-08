@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T06:31:04.868Z",
+  "generatedAt": "2026-09-08T07:30:50.303Z",
   "since": "2025-01-01",
   "until": "2026-09-08",
   "accounts": [
@@ -4876,11 +4876,11 @@
       "igPurchaseValue": 1475000
     },
     "2026-09-08": {
-      "facebook": 1370412,
-      "instagram": 59451,
+      "facebook": 1477497,
+      "instagram": 62676,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1429863,
+      "total": 1540173,
       "igPurchaseValue": 475000
     }
   },
@@ -18475,9 +18475,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 178805,
-      "impressions": 1676,
-      "reach": 1355,
+      "spend": 180620,
+      "impressions": 1698,
+      "reach": 1370,
       "clicks": 80,
       "engagement": 48,
       "messages": 5,
@@ -18504,16 +18504,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 162050,
-      "impressions": 3013,
-      "reach": 2777,
-      "clicks": 118,
-      "engagement": 73,
-      "messages": 8,
+      "spend": 170403,
+      "impressions": 3114,
+      "reach": 2861,
+      "clicks": 123,
+      "engagement": 76,
+      "messages": 9,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 453000,
-      "roas": 2.8
+      "roas": 2.66
     },
     {
       "day": "2026-09-08",
@@ -18620,16 +18620,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 103195,
-      "impressions": 1346,
-      "reach": 1166,
-      "clicks": 64,
-      "engagement": 45,
+      "spend": 119510,
+      "impressions": 1562,
+      "reach": 1364,
+      "clicks": 67,
+      "engagement": 50,
       "messages": 9,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 655000,
-      "roas": 6.35
+      "roas": 5.48
     },
     {
       "day": "2026-09-08",
@@ -18649,11 +18649,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 101626,
-      "impressions": 516,
-      "reach": 375,
-      "clicks": 8,
-      "engagement": 130,
+      "spend": 112706,
+      "impressions": 585,
+      "reach": 430,
+      "clicks": 9,
+      "engagement": 151,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
@@ -18678,9 +18678,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 101430,
-      "impressions": 572,
-      "reach": 497,
+      "spend": 101733,
+      "impressions": 575,
+      "reach": 499,
       "clicks": 9,
       "engagement": 170,
       "messages": 0,
@@ -18736,10 +18736,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 61065,
-      "impressions": 645,
-      "reach": 564,
-      "clicks": 14,
+      "spend": 62013,
+      "impressions": 657,
+      "reach": 577,
+      "clicks": 15,
       "engagement": 4,
       "messages": 0,
       "leads": 0,
