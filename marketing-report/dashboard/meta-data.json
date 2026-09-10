@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T09:31:33.947Z",
+  "generatedAt": "2026-09-10T10:31:50.591Z",
   "since": "2025-01-01",
   "until": "2026-09-10",
   "accounts": [
@@ -4884,20 +4884,20 @@
       "igPurchaseValue": 599000
     },
     "2026-09-09": {
-      "facebook": 1848815,
+      "facebook": 1848837,
       "instagram": 215616,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2064431,
+      "total": 2064453,
       "igPurchaseValue": 0
     },
     "2026-09-10": {
-      "facebook": 2170816,
-      "instagram": 157094,
+      "facebook": 2285347,
+      "instagram": 171309,
       "messenger": 0,
-      "audience_network": 3094,
-      "total": 2331004,
-      "igPurchaseValue": 715000
+      "audience_network": 3070,
+      "total": 2459726,
+      "igPurchaseValue": 1670000
     }
   },
   "campaignDays": [
@@ -17563,8 +17563,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 454212,
-      "impressions": 9818,
+      "spend": 454234,
+      "impressions": 9819,
       "reach": 7847,
       "clicks": 111,
       "engagement": 51,
@@ -17572,7 +17572,7 @@
       "leads": 6,
       "purchases": 4,
       "purchaseValue": 2550500,
-      "roas": 5.62
+      "roas": 5.61
     },
     {
       "day": "2026-09-09",
@@ -17744,7 +17744,7 @@
       "engagement": 602,
       "messages": 15,
       "leads": 0,
-      "purchases": 0,
+      "purchases": 2,
       "purchaseValue": 0,
       "roas": 0
     },
@@ -17824,16 +17824,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 348905,
-      "impressions": 7839,
-      "reach": 6399,
-      "clicks": 131,
-      "engagement": 110,
+      "spend": 379250,
+      "impressions": 8573,
+      "reach": 6869,
+      "clicks": 142,
+      "engagement": 116,
       "messages": 8,
-      "leads": 6,
+      "leads": 8,
       "purchases": 3,
       "purchaseValue": 1424000,
-      "roas": 4.08
+      "roas": 3.75
     },
     {
       "day": "2026-09-10",
@@ -17853,16 +17853,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 330927,
-      "impressions": 2796,
-      "reach": 1985,
-      "clicks": 89,
-      "engagement": 51,
+      "spend": 352634,
+      "impressions": 3000,
+      "reach": 2093,
+      "clicks": 103,
+      "engagement": 60,
       "messages": 5,
       "leads": 6,
       "purchases": 3,
       "purchaseValue": 1715000,
-      "roas": 5.18
+      "roas": 4.86
     },
     {
       "day": "2026-09-10",
@@ -17882,16 +17882,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 240386,
-      "impressions": 3745,
-      "reach": 3223,
-      "clicks": 163,
-      "engagement": 106,
+      "spend": 247269,
+      "impressions": 3864,
+      "reach": 3302,
+      "clicks": 174,
+      "engagement": 111,
       "messages": 13,
       "leads": 8,
       "purchases": 2,
       "purchaseValue": 647000,
-      "roas": 2.69
+      "roas": 2.62
     },
     {
       "day": "2026-09-10",
@@ -17911,16 +17911,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 224541,
-      "impressions": 2998,
-      "reach": 2626,
-      "clicks": 110,
-      "engagement": 82,
-      "messages": 7,
+      "spend": 230884,
+      "impressions": 3126,
+      "reach": 2734,
+      "clicks": 115,
+      "engagement": 84,
+      "messages": 8,
       "leads": 8,
       "purchases": 5,
       "purchaseValue": 1996000,
-      "roas": 8.89
+      "roas": 8.65
     },
     {
       "day": "2026-09-10",
@@ -17940,11 +17940,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 170692,
-      "impressions": 695,
-      "reach": 645,
+      "spend": 171085,
+      "impressions": 697,
+      "reach": 647,
       "clicks": 12,
-      "engagement": 231,
+      "engagement": 232,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -17969,11 +17969,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 167063,
-      "impressions": 3421,
-      "reach": 3063,
+      "spend": 167639,
+      "impressions": 3439,
+      "reach": 3085,
       "clicks": 64,
-      "engagement": 523,
+      "engagement": 526,
       "messages": 8,
       "leads": 0,
       "purchases": 0,
@@ -17998,41 +17998,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 165461,
-      "impressions": 3474,
-      "reach": 3181,
-      "clicks": 83,
-      "engagement": 428,
+      "spend": 167116,
+      "impressions": 3509,
+      "reach": 3206,
+      "clicks": 84,
+      "engagement": 430,
       "messages": 11,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-09-10",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120247867268560340",
-      "name": "5/9/26-BST-M-CR- Cánh cụt",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "CONVERSATIONS",
-      "thumb": "thumbs/120247867268560340.jpg",
-      "creative": {
-        "title": "",
-        "body": "💗 Tặng quà nàng đúng gu là auto ghi điểm nha mấy ông!\n\nMột món quà đủ nổi bật để nàng nhớ, đủ đáng yêu để nàng mê, lại còn lên ảnh siêu xinh nữa thì quá hợp cho sinh nhật, kỷ niệm hay một buổi hẹn đặc biệt\n\n🎁 Muốn tạo bất ngờ cho người ấy thì nghía em này thử nha, đảm bảo nàng mê\n\n📩 Inbox Bemori hoặc ghé cửa hàng để xem mẫu và chọn màu phù hợp nha \n#Bemori #gaubong #quatang",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 137924,
-      "impressions": 4470,
-      "reach": 3937,
-      "clicks": 125,
-      "engagement": 723,
-      "messages": 27,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -18056,16 +18027,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 124873,
-      "impressions": 1506,
-      "reach": 1064,
-      "clicks": 38,
-      "engagement": 15,
-      "messages": 4,
+      "spend": 147876,
+      "impressions": 1851,
+      "reach": 1295,
+      "clicks": 46,
+      "engagement": 18,
+      "messages": 5,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 715000,
-      "roas": 5.73
+      "roas": 4.84
+    },
+    {
+      "day": "2026-09-10",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120247867268560340",
+      "name": "5/9/26-BST-M-CR- Cánh cụt",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "CONVERSATIONS",
+      "thumb": "thumbs/120247867268560340.jpg",
+      "creative": {
+        "title": "",
+        "body": "💗 Tặng quà nàng đúng gu là auto ghi điểm nha mấy ông!\n\nMột món quà đủ nổi bật để nàng nhớ, đủ đáng yêu để nàng mê, lại còn lên ảnh siêu xinh nữa thì quá hợp cho sinh nhật, kỷ niệm hay một buổi hẹn đặc biệt\n\n🎁 Muốn tạo bất ngờ cho người ấy thì nghía em này thử nha, đảm bảo nàng mê\n\n📩 Inbox Bemori hoặc ghé cửa hàng để xem mẫu và chọn màu phù hợp nha \n#Bemori #gaubong #quatang",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 138300,
+      "impressions": 4488,
+      "reach": 3946,
+      "clicks": 126,
+      "engagement": 727,
+      "messages": 27,
+      "leads": 2,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-09-10",
@@ -18085,16 +18085,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 117980,
-      "impressions": 1303,
-      "reach": 1014,
-      "clicks": 17,
-      "engagement": 26,
+      "spend": 137747,
+      "impressions": 1651,
+      "reach": 1231,
+      "clicks": 23,
+      "engagement": 32,
       "messages": 3,
       "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 529000,
-      "roas": 4.48
+      "purchases": 2,
+      "purchaseValue": 1484000,
+      "roas": 10.77
     },
     {
       "day": "2026-09-10",
@@ -18114,9 +18114,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 117804,
-      "impressions": 810,
-      "reach": 607,
+      "spend": 118083,
+      "impressions": 816,
+      "reach": 611,
       "clicks": 37,
       "engagement": 31,
       "messages": 2,
@@ -18143,9 +18143,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 86033,
-      "impressions": 856,
-      "reach": 716,
+      "spend": 87793,
+      "impressions": 870,
+      "reach": 723,
       "clicks": 40,
       "engagement": 26,
       "messages": 1,
@@ -18172,9 +18172,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 85459,
-      "impressions": 512,
-      "reach": 406,
+      "spend": 85498,
+      "impressions": 513,
+      "reach": 407,
       "clicks": 26,
       "engagement": 14,
       "messages": 1,
@@ -18201,16 +18201,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 14249,
-      "impressions": 363,
-      "reach": 215,
-      "clicks": 9,
-      "engagement": 25,
+      "spend": 40830,
+      "impressions": 1016,
+      "reach": 900,
+      "clicks": 22,
+      "engagement": 115,
       "messages": 0,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 420000,
-      "roas": 29.48
+      "roas": 10.29
     }
   ]
 }
