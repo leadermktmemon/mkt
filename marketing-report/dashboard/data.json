@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T22:01:37.976Z",
+  "generatedAt": "2026-09-14T22:31:33.561Z",
   "source": "lark",
   "period": {
     "days": 507,
@@ -45029,9 +45029,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 2330135,
-      "metaIg": 67784,
-      "metaTotal": 2400951,
+      "metaFb": 2333174,
+      "metaIg": 67786,
+      "metaTotal": 2403994,
       "metaIgPixelRev": 0,
       "googleAds": 0
     },
@@ -55284,8 +55284,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120247654344670340.jpg",
-      "spend": 401570,
-      "impressions": 6225,
+      "spend": 402048,
+      "impressions": 6233,
       "reach": 3558,
       "clicks": 104,
       "engagement": 42,
@@ -55293,7 +55293,7 @@
       "leads": 10,
       "purchases": 4,
       "purchaseValue": 2630000,
-      "roas": 6.55
+      "roas": 6.54
     },
     {
       "day": "2026-09-14",
@@ -55305,8 +55305,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120247952685900340.jpg",
-      "spend": 326297,
-      "impressions": 5512,
+      "spend": 326882,
+      "impressions": 5521,
       "reach": 4563,
       "clicks": 195,
       "engagement": 99,
@@ -55314,7 +55314,7 @@
       "leads": 8,
       "purchases": 5,
       "purchaseValue": 1975000,
-      "roas": 6.05
+      "roas": 6.04
     },
     {
       "day": "2026-09-14",
@@ -55326,9 +55326,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248003620480340.jpg",
-      "spend": 317471,
-      "impressions": 3222,
-      "reach": 2071,
+      "spend": 318261,
+      "impressions": 3225,
+      "reach": 2073,
       "clicks": 163,
       "engagement": 110,
       "messages": 12,
@@ -55347,8 +55347,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 291277,
-      "impressions": 7775,
+      "spend": 291506,
+      "impressions": 7781,
       "reach": 6970,
       "clicks": 271,
       "engagement": 179,
@@ -55356,7 +55356,7 @@
       "leads": 8,
       "purchases": 4,
       "purchaseValue": 2292000,
-      "roas": 7.87
+      "roas": 7.86
     },
     {
       "day": "2026-09-14",
@@ -55368,8 +55368,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248003633650340.jpg",
-      "spend": 279866,
-      "impressions": 7606,
+      "spend": 280628,
+      "impressions": 7612,
       "reach": 6158,
       "clicks": 230,
       "engagement": 107,
@@ -55377,7 +55377,7 @@
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 380000,
-      "roas": 1.36
+      "roas": 1.35
     },
     {
       "day": "2026-09-14",
@@ -55389,8 +55389,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259237308260112.jpg",
-      "spend": 224843,
-      "impressions": 8540,
+      "spend": 224945,
+      "impressions": 8544,
       "reach": 7690,
       "clicks": 275,
       "engagement": 183,
@@ -55398,7 +55398,7 @@
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 1139000,
-      "roas": 5.07
+      "roas": 5.06
     },
     {
       "day": "2026-09-14",
@@ -55410,16 +55410,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259349525990112.jpg",
-      "spend": 205046,
-      "impressions": 6988,
+      "spend": 205105,
+      "impressions": 6992,
       "reach": 5871,
       "clicks": 258,
-      "engagement": 2151,
+      "engagement": 2152,
       "messages": 9,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 567000,
-      "roas": 2.77
+      "roas": 2.76
     },
     {
       "day": "2026-09-14",
@@ -55431,9 +55431,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248003653420340.jpg",
-      "spend": 179968,
-      "impressions": 2474,
-      "reach": 2216,
+      "spend": 179974,
+      "impressions": 2475,
+      "reach": 2219,
       "clicks": 98,
       "engagement": 51,
       "messages": 1,
@@ -55452,8 +55452,8 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259349547080112.jpg",
-      "spend": 164352,
-      "impressions": 2727,
+      "spend": 164376,
+      "impressions": 2728,
       "reach": 2180,
       "clicks": 130,
       "engagement": 92,
@@ -55473,11 +55473,11 @@
       "objective": "OUTCOME_AWARENESS",
       "optGoal": "THRUPLAY",
       "thumb": "thumbs/120250851261400441.jpg",
-      "spend": 10261,
-      "impressions": 830,
+      "spend": 10269,
+      "impressions": 831,
       "reach": 789,
       "clicks": 2,
-      "engagement": 612,
+      "engagement": 613,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
