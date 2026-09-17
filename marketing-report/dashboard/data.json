@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T14:32:02.579Z",
+  "generatedAt": "2026-09-17T15:01:46.555Z",
   "source": "lark",
   "period": {
     "days": 509,
@@ -45158,15 +45158,15 @@
       "bc": {},
       "store": {
         "Bạch Mai": 110000,
-        "Outlet": 430000,
+        "Outlet": 1700000,
         "Lê Văn Sỹ": 700000,
         "Nguyễn Gia Trí": 11840750
       },
-      "storeRev": 13080750,
+      "storeRev": 14350750,
       "storeOnline": 0,
-      "storeTarget": 9604000,
-      "custIn": 6,
-      "custBuy": 6,
+      "storeTarget": 10528000,
+      "custIn": 9,
+      "custBuy": 9,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55432,26 +55432,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 1948695499,
-    "walkinOrders": 3651,
+    "walkinRevenue": 1949965499,
+    "walkinOrders": 3654,
     "marketingRevenue": 368118440,
     "marketingOrdersEst": 697,
-    "custIn": 3770,
+    "custIn": 3773,
     "closeRate": 97,
     "marketingPct": 16
   },
   "sales": {
-    "totalRevenue": 2612350499,
+    "totalRevenue": 2613620499,
     "salesCount": 1257,
     "byType": {
       "Online": 663655000,
-      "Cửa hàng": 1948695499
+      "Cửa hàng": 1949965499
     },
     "onlinePct": 25,
     "storePct": 75
   },
   "brands": {
-    "Bemori": 2404964999,
+    "Bemori": 2406234999,
     "Teddy": 0,
     "Memon": 0
   },
@@ -55462,23 +55462,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 153685000,
-    "walkinOrders": 254,
+    "walkinRevenue": 154955000,
+    "walkinOrders": 257,
     "marketingRevenue": 59064250,
     "marketingOrdersEst": 97,
-    "custIn": 256,
+    "custIn": 259,
     "closeRate": 99,
     "marketingPct": 28
   },
   "weekSales": {
-    "totalRevenue": 263520750,
+    "totalRevenue": 264790750,
     "salesCount": 180,
     "byType": {
       "Online": 109835750,
-      "Cửa hàng": 153685000
+      "Cửa hàng": 154955000
     },
-    "onlinePct": 42,
-    "storePct": 58
+    "onlinePct": 41,
+    "storePct": 59
   },
   "weekBrands": {
     "Bemori": 0,
