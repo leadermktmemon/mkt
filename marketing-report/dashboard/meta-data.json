@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T15:01:14.862Z",
+  "generatedAt": "2026-09-19T16:01:25.119Z",
   "since": "2025-01-01",
   "until": "2026-09-19",
   "accounts": [
@@ -4964,11 +4964,11 @@
       "igPurchaseValue": 435000
     },
     "2026-09-19": {
-      "facebook": 2138957,
-      "instagram": 85725,
+      "facebook": 2156281,
+      "instagram": 86109,
       "messenger": 0,
-      "audience_network": 1477,
-      "total": 2226159,
+      "audience_network": 1478,
+      "total": 2243868,
       "igPurchaseValue": 611000
     }
   },
@@ -16736,11 +16736,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 189428,
-      "impressions": 3509,
-      "reach": 3167,
-      "clicks": 116,
-      "engagement": 70,
+      "spend": 190478,
+      "impressions": 3530,
+      "reach": 3208,
+      "clicks": 118,
+      "engagement": 71,
       "messages": 8,
       "leads": 0,
       "purchases": 0,
@@ -16794,16 +16794,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 166223,
-      "impressions": 3771,
-      "reach": 3359,
-      "clicks": 118,
-      "engagement": 77,
+      "spend": 168339,
+      "impressions": 3835,
+      "reach": 3419,
+      "clicks": 120,
+      "engagement": 80,
       "messages": 7,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 743000,
-      "roas": 4.47
+      "roas": 4.41
     },
     {
       "day": "2026-09-19",
@@ -16823,16 +16823,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 156967,
-      "impressions": 2197,
-      "reach": 1772,
+      "spend": 159352,
+      "impressions": 2222,
+      "reach": 1784,
       "clicks": 104,
       "engagement": 71,
       "messages": 4,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 904500,
-      "roas": 5.76
+      "roas": 5.68
+    },
+    {
+      "day": "2026-09-19",
+      "account": "Bemori 1",
+      "bm": "BM2",
+      "id": "120251711667570441",
+      "name": "16.9.26-CR-Gối ôm hoa-Nữ 23-47",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120251711667570441.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌷 Về nhà thả mình ôm em gối hoa xinh... mọi mệt mỏi đều tan biến \n\n✨ Đôi khi, chỉ cần ngắm nhìn những điều xinh xắn thôi cũng đủ là một dạng yêu chiều bản thân đúng khum các nàng.\n\n💕 Nhắn Bemori để rinh em gối hoa về xỗ nhaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 126533,
+      "impressions": 951,
+      "reach": 760,
+      "clicks": 39,
+      "engagement": 34,
+      "messages": 4,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-09-19",
@@ -16862,35 +16891,6 @@
       "purchases": 4,
       "purchaseValue": 2495000,
       "roas": 19.8
-    },
-    {
-      "day": "2026-09-19",
-      "account": "Bemori 1",
-      "bm": "BM2",
-      "id": "120251711667570441",
-      "name": "16.9.26-CR-Gối ôm hoa-Nữ 23-47",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120251711667570441.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌷 Về nhà thả mình ôm em gối hoa xinh... mọi mệt mỏi đều tan biến \n\n✨ Đôi khi, chỉ cần ngắm nhìn những điều xinh xắn thôi cũng đủ là một dạng yêu chiều bản thân đúng khum các nàng.\n\n💕 Nhắn Bemori để rinh em gối hoa về xỗ nhaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 125405,
-      "impressions": 949,
-      "reach": 760,
-      "clicks": 39,
-      "engagement": 34,
-      "messages": 4,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
     },
     {
       "day": "2026-09-19",
@@ -16968,16 +16968,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 89875,
-      "impressions": 914,
-      "reach": 776,
+      "spend": 90166,
+      "impressions": 915,
+      "reach": 778,
       "clicks": 50,
       "engagement": 31,
       "messages": 1,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 520000,
-      "roas": 5.79
+      "roas": 5.77
     },
     {
       "day": "2026-09-19",
