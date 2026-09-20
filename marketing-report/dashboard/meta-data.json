@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T18:01:14.093Z",
+  "generatedAt": "2026-09-20T19:01:21.554Z",
   "since": "2025-01-01",
   "until": "2026-09-20",
   "accounts": [
@@ -4972,11 +4972,11 @@
       "igPurchaseValue": 611000
     },
     "2026-09-20": {
-      "facebook": 2187791,
-      "instagram": 70925,
+      "facebook": 2188685,
+      "instagram": 70921,
       "messenger": 0,
       "audience_network": 3289,
-      "total": 2262005,
+      "total": 2262895,
       "igPurchaseValue": 0
     }
   },
@@ -16628,10 +16628,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 294695,
-      "impressions": 2876,
+      "spend": 294727,
+      "impressions": 2877,
       "reach": 2060,
-      "clicks": 96,
+      "clicks": 97,
       "engagement": 60,
       "messages": 2,
       "leads": 2,
@@ -16657,16 +16657,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 291304,
-      "impressions": 4314,
-      "reach": 2838,
-      "clicks": 165,
+      "spend": 291786,
+      "impressions": 4320,
+      "reach": 2842,
+      "clicks": 166,
       "engagement": 96,
       "messages": 12,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 879000,
-      "roas": 3.02
+      "roas": 3.01
     },
     {
       "day": "2026-09-20",
@@ -16686,8 +16686,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 282674,
-      "impressions": 1973,
+      "spend": 282741,
+      "impressions": 1975,
       "reach": 1290,
       "clicks": 95,
       "engagement": 60,
@@ -16744,8 +16744,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 241022,
-      "impressions": 2323,
+      "spend": 241154,
+      "impressions": 2327,
       "reach": 1489,
       "clicks": 68,
       "engagement": 32,
@@ -16773,8 +16773,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 218380,
-      "impressions": 3050,
+      "spend": 218557,
+      "impressions": 3054,
       "reach": 1704,
       "clicks": 47,
       "engagement": 62,
