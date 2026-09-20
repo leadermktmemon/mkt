@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T15:01:29.807Z",
+  "generatedAt": "2026-09-20T16:01:25.072Z",
   "since": "2025-01-01",
   "until": "2026-09-20",
   "accounts": [
@@ -4972,11 +4972,11 @@
       "igPurchaseValue": 611000
     },
     "2026-09-20": {
-      "facebook": 2109958,
-      "instagram": 70009,
+      "facebook": 2156649,
+      "instagram": 70875,
       "messenger": 0,
-      "audience_network": 3278,
-      "total": 2183245,
+      "audience_network": 3296,
+      "total": 2230820,
       "igPurchaseValue": 0
     }
   },
@@ -16628,45 +16628,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 290456,
-      "impressions": 2857,
-      "reach": 2052,
+      "spend": 293028,
+      "impressions": 2866,
+      "reach": 2055,
       "clicks": 95,
       "engagement": 59,
       "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 380000,
-      "roas": 1.31
-    },
-    {
-      "day": "2026-09-20",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248003620480340",
-      "name": "14.9.26-Bestseller-Trungthu",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120248003620480340.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌕 𝐁𝐞𝐬𝐭-𝐬𝐞𝐥𝐥𝐞𝐫 mùa Trung Thu: Những bé gấu đang được săn đón nhất mùa trăng này! \n\nTrung Thu không chỉ có bánh và đèn, mà còn là dịp để chọn một món quà thật xinh gửi đến người mình thương hoặc đơn giản là tìm một bé gấu hợp gu để những ngày rằm thêm đáng yêu 🧸\n\n💕 Từ những bé nhỏ xinh, mềm mềm để ôm đến những em size lớn nổi bật, BST gấu bông best-seller đã sẵn sàng để nàng dễ dàng chọn một “bé” thật hợp cho mùa Trung Thu năm nay\n\n👉 Lướt xem BST và chọn ngay bé gấu hợp gu để đón mùa Trăng này nha! \n\n#Bemori #gaubong #trungthunganlove #quatang #quatrungthu\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 267126,
-      "impressions": 1923,
-      "reach": 1245,
-      "clicks": 91,
-      "engagement": 55,
-      "messages": 7,
-      "leads": 6,
-      "purchases": 2,
-      "purchaseValue": 589000,
-      "roas": 2.2
+      "roas": 1.3
     },
     {
       "day": "2026-09-20",
@@ -16686,16 +16657,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 256272,
-      "impressions": 3678,
-      "reach": 2465,
-      "clicks": 149,
-      "engagement": 88,
+      "spend": 278640,
+      "impressions": 4061,
+      "reach": 2698,
+      "clicks": 158,
+      "engagement": 93,
       "messages": 12,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 879000,
-      "roas": 3.43
+      "roas": 3.15
+    },
+    {
+      "day": "2026-09-20",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248003620480340",
+      "name": "14.9.26-Bestseller-Trungthu",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120248003620480340.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌕 𝐁𝐞𝐬𝐭-𝐬𝐞𝐥𝐥𝐞𝐫 mùa Trung Thu: Những bé gấu đang được săn đón nhất mùa trăng này! \n\nTrung Thu không chỉ có bánh và đèn, mà còn là dịp để chọn một món quà thật xinh gửi đến người mình thương hoặc đơn giản là tìm một bé gấu hợp gu để những ngày rằm thêm đáng yêu 🧸\n\n💕 Từ những bé nhỏ xinh, mềm mềm để ôm đến những em size lớn nổi bật, BST gấu bông best-seller đã sẵn sàng để nàng dễ dàng chọn một “bé” thật hợp cho mùa Trung Thu năm nay\n\n👉 Lướt xem BST và chọn ngay bé gấu hợp gu để đón mùa Trăng này nha! \n\n#Bemori #gaubong #trungthunganlove #quatang #quatrungthu\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 274922,
+      "impressions": 1953,
+      "reach": 1279,
+      "clicks": 93,
+      "engagement": 59,
+      "messages": 7,
+      "leads": 6,
+      "purchases": 2,
+      "purchaseValue": 589000,
+      "roas": 2.14
     },
     {
       "day": "2026-09-20",
@@ -16715,16 +16715,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 255455,
-      "impressions": 4608,
-      "reach": 3774,
-      "clicks": 200,
-      "engagement": 122,
-      "messages": 15,
+      "spend": 266035,
+      "impressions": 4806,
+      "reach": 3934,
+      "clicks": 211,
+      "engagement": 132,
+      "messages": 17,
       "leads": 6,
       "purchases": 3,
       "purchaseValue": 1143000,
-      "roas": 4.47
+      "roas": 4.3
     },
     {
       "day": "2026-09-20",
@@ -16744,16 +16744,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 237637,
-      "impressions": 2268,
-      "reach": 1458,
-      "clicks": 67,
-      "engagement": 30,
+      "spend": 239152,
+      "impressions": 2299,
+      "reach": 1478,
+      "clicks": 68,
+      "engagement": 32,
       "messages": 4,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 770000,
-      "roas": 3.24
+      "roas": 3.22
     },
     {
       "day": "2026-09-20",
@@ -16802,13 +16802,13 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 189097,
-      "impressions": 3079,
-      "reach": 2635,
+      "spend": 190404,
+      "impressions": 3092,
+      "reach": 2644,
       "clicks": 102,
       "engagement": 55,
       "messages": 5,
-      "leads": 0,
+      "leads": 2,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
@@ -16831,16 +16831,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 183801,
-      "impressions": 1956,
-      "reach": 1623,
+      "spend": 184453,
+      "impressions": 1962,
+      "reach": 1628,
       "clicks": 94,
       "engagement": 77,
       "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 525000,
-      "roas": 2.86
+      "roas": 2.85
     },
     {
       "day": "2026-09-20",
@@ -16860,8 +16860,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 159482,
-      "impressions": 1655,
+      "spend": 159685,
+      "impressions": 1658,
       "reach": 1251,
       "clicks": 57,
       "engagement": 30,
@@ -16889,9 +16889,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 126368,
-      "impressions": 1312,
-      "reach": 1175,
+      "spend": 126443,
+      "impressions": 1314,
+      "reach": 1177,
       "clicks": 35,
       "engagement": 323,
       "messages": 2,
@@ -16920,7 +16920,7 @@
       },
       "spend": 109,
       "impressions": 3,
-      "reach": 2,
+      "reach": 3,
       "clicks": 0,
       "engagement": 0,
       "messages": 1,
