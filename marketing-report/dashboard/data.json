@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T10:31:56.254Z",
+  "generatedAt": "2026-09-21T11:01:54.989Z",
   "source": "lark",
   "period": {
     "days": 513,
@@ -44983,17 +44983,53 @@
     },
     {
       "day": "2026-09-14",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 13951500,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 1150000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 13637500,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 445000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 1264000,
+          "orders": 0
+        }
+      },
       "onlineRev": 30448500,
-      "onlineRev31": 0,
+      "onlineRev31": 30448000,
       "onlineOrders": 48,
       "onlineProducts": 0,
       "onlineTarget": 26000000,
-      "fbAds": 0,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "fbAds": 8298000,
+      "ggAds": 16341500,
+      "social": 5808500,
+      "brands": {
+        "Bemori": 25026500
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 7535000,
+          "Instagram": 1150000,
+          "Zalo": 13637500,
+          "Website": 445000
+        },
+        "Teddy": {
+          "Facebook": 4157500
+        },
+        "GBO/NNGB": {
+          "Facebook": 2259000
+        }
+      },
       "store": {
         "Nguyễn Gia Trí": 8351000,
         "Nguyễn Văn Cừ": 2584000,
@@ -45013,21 +45049,21 @@
       "custBuy": 67,
       "memonRev": 0,
       "leadRaw": 0,
-      "leadQual": 0,
+      "leadQual": 48,
       "leadL4": 0,
       "leadFB": 0,
       "leadL4FB": 0,
       "leadFBAds": 0,
       "leadL4FBAds": 0,
-      "leadL5FB": 0,
+      "leadL5FB": 30,
       "leadIG": 0,
       "leadL4IG": 0,
-      "leadL5IG": 0,
+      "leadL5IG": 1,
       "leadZalo": 0,
       "leadL4Zalo": 0,
-      "leadL5Zalo": 0,
+      "leadL5Zalo": 17,
       "leadWeb": 0,
-      "leadL5Web": 0,
+      "leadL5Web": 1,
       "leadL5FBAds": 0,
       "metaFb": 2347686,
       "metaIg": 67824,
@@ -45053,16 +45089,20 @@
         "Website": {
           "rev": 840000,
           "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 1158000,
+          "orders": 0
         }
       },
       "onlineRev": 37470250,
-      "onlineRev31": 36312250,
+      "onlineRev31": 37470250,
       "onlineOrders": 52,
       "onlineProducts": 0,
       "onlineTarget": 23000000,
-      "fbAds": 0,
+      "fbAds": 11872250,
       "ggAds": 21986000,
-      "social": 14326250,
+      "social": 3612000,
       "brands": {
         "Bemori": 35463250
       },
@@ -45099,21 +45139,21 @@
       "custBuy": 68,
       "memonRev": 0,
       "leadRaw": 0,
-      "leadQual": 0,
+      "leadQual": 47,
       "leadL4": 0,
       "leadFB": 0,
       "leadL4FB": 0,
       "leadFBAds": 0,
       "leadL4FBAds": 0,
-      "leadL5FB": 0,
+      "leadL5FB": 30,
       "leadIG": 0,
       "leadL4IG": 0,
-      "leadL5IG": 0,
+      "leadL5IG": 2,
       "leadZalo": 0,
       "leadL4Zalo": 0,
-      "leadL5Zalo": 0,
+      "leadL5Zalo": 15,
       "leadWeb": 0,
-      "leadL5Web": 0,
+      "leadL5Web": 2,
       "leadL5FBAds": 0,
       "metaFb": 2568450,
       "metaIg": 126610,
@@ -45137,7 +45177,7 @@
           "orders": 0
         },
         "Website": {
-          "rev": 854000,
+          "rev": 1664000,
           "orders": 0
         },
         "Bán lẻ NK": {
@@ -45146,22 +45186,22 @@
         }
       },
       "onlineRev": 27726000,
-      "onlineRev31": 28516000,
+      "onlineRev31": 29326000,
       "onlineOrders": 57,
       "onlineProducts": 0,
       "onlineTarget": 23000000,
-      "fbAds": 0,
-      "ggAds": 11398000,
-      "social": 17118000,
+      "fbAds": 1265000,
+      "ggAds": 12208000,
+      "social": 15853000,
       "brands": {
-        "Bemori": 22257000
+        "Bemori": 23067000
       },
       "bc": {
         "Bemori": {
           "Facebook": 8844000,
           "Instagram": 423000,
           "Zalo": 8384000,
-          "Website": 854000
+          "Website": 1664000
         },
         "Teddy": {
           "Facebook": 4544000
@@ -45223,7 +45263,7 @@
           "orders": 0
         },
         "Zalo": {
-          "rev": 8922000,
+          "rev": 9019000,
           "orders": 0
         },
         "Website": {
@@ -45236,21 +45276,21 @@
         }
       },
       "onlineRev": 28946000,
-      "onlineRev31": 28849000,
+      "onlineRev31": 28946000,
       "onlineOrders": 51,
       "onlineProducts": 0,
       "onlineTarget": 28000000,
-      "fbAds": 0,
-      "ggAds": 12350000,
-      "social": 16499000,
+      "fbAds": 8413000,
+      "ggAds": 12447000,
+      "social": 8086000,
       "brands": {
-        "Bemori": 23608000
+        "Bemori": 23705000
       },
       "bc": {
         "Bemori": {
           "Facebook": 8613000,
           "Instagram": 2645000,
-          "Zalo": 8922000,
+          "Zalo": 9019000,
           "Website": 2933000
         },
         "Teddy": {
@@ -45313,7 +45353,7 @@
           "orders": 0
         },
         "Zalo": {
-          "rev": 11718000,
+          "rev": 11623000,
           "orders": 0
         },
         "Website": {
@@ -45326,21 +45366,21 @@
         }
       },
       "onlineRev": 25503000,
-      "onlineRev31": 25408000,
+      "onlineRev31": 25313000,
       "onlineOrders": 54,
       "onlineProducts": 0,
       "onlineTarget": 20000000,
-      "fbAds": 0,
-      "ggAds": 12231000,
-      "social": 13177000,
+      "fbAds": 6272000,
+      "ggAds": 12136000,
+      "social": 6905000,
       "brands": {
-        "Bemori": 19330000
+        "Bemori": 19235000
       },
       "bc": {
         "Bemori": {
           "Facebook": 4274000,
           "Instagram": 1930000,
-          "Zalo": 11718000,
+          "Zalo": 11623000,
           "Website": 199000
         },
         "Teddy": {
@@ -45395,7 +45435,7 @@
       "day": "2026-09-19",
       "online": {
         "Facebook": {
-          "rev": 20786500,
+          "rev": 19055000,
           "orders": 0
         },
         "Instagram": {
@@ -45416,19 +45456,19 @@
         }
       },
       "onlineRev": 33763250,
-      "onlineRev31": 35494750,
+      "onlineRev31": 33763250,
       "onlineOrders": 62,
       "onlineProducts": 0,
       "onlineTarget": 19000000,
-      "fbAds": 0,
+      "fbAds": 10222000,
       "ggAds": 9814750,
-      "social": 25680000,
+      "social": 13726500,
       "brands": {
-        "Bemori": 28879250
+        "Bemori": 27147750
       },
       "bc": {
         "Bemori": {
-          "Facebook": 17520000,
+          "Facebook": 15788500,
           "Instagram": 1544500,
           "Zalo": 8159750,
           "Website": 650000
@@ -45485,7 +45525,7 @@
       "day": "2026-09-20",
       "online": {
         "Facebook": {
-          "rev": 12907000,
+          "rev": 10726500,
           "orders": 0
         },
         "Instagram": {
@@ -45493,7 +45533,7 @@
           "orders": 0
         },
         "Zalo": {
-          "rev": 9917000,
+          "rev": 7917000,
           "orders": 0
         },
         "Website": {
@@ -45501,33 +45541,33 @@
           "orders": 0
         },
         "Bán lẻ NK": {
-          "rev": 1578500,
+          "rev": 1078500,
           "orders": 0
         }
       },
       "onlineRev": 20827000,
-      "onlineRev31": 25507500,
+      "onlineRev31": 20827000,
       "onlineOrders": 34,
       "onlineProducts": 0,
       "onlineTarget": 23000000,
-      "fbAds": 0,
-      "ggAds": 13161000,
-      "social": 12346500,
+      "fbAds": 8391000,
+      "ggAds": 10980500,
+      "social": 1455500,
       "brands": {
-        "Bemori": 22881000
+        "Bemori": 18700500
       },
       "bc": {
         "Bemori": {
-          "Facebook": 8730000,
+          "Facebook": 6730000,
           "Instagram": 495000,
-          "Zalo": 9917000,
+          "Zalo": 7917000,
           "Website": 610000
         },
         "Teddy": {
           "Facebook": 1048000
         },
         "GBO/NNGB": {
-          "Facebook": 2634000
+          "Facebook": 2453500
         }
       },
       "store": {
@@ -45585,14 +45625,15 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Xã Đàn": 2037000,
         "Nguyễn Văn Cừ": 70000,
         "Nguyễn Trãi": 4660000
       },
-      "storeRev": 4730000,
-      "storeOnline": 0,
-      "storeTarget": 15414000,
-      "custIn": 6,
-      "custBuy": 5,
+      "storeRev": 6767000,
+      "storeOnline": 460000,
+      "storeTarget": 21462000,
+      "custIn": 12,
+      "custBuy": 11,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55620,67 +55661,67 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 624,
-        "revenue": 326703538,
-        "aov": 523563,
+        "orders": 619,
+        "revenue": 323875227,
+        "aov": 523223,
         "share": 49,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 393,
-        "revenue": 205819758,
-        "aov": 523714,
-        "share": 31,
+        "orders": 400,
+        "revenue": 209469801,
+        "aov": 523675,
+        "share": 32,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
         "orders": 111,
-        "revenue": 58331932,
-        "aov": 525513,
+        "revenue": 57959277,
+        "aov": 522156,
         "share": 9,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 79,
-        "revenue": 41346866,
-        "aov": 523378,
+        "orders": 78,
+        "revenue": 40865687,
+        "aov": 523919,
         "share": 6,
         "est": true
       },
       {
         "name": "Website",
         "orders": 60,
-        "revenue": 31213905,
-        "aov": 520232,
+        "revenue": 31246008,
+        "aov": 520767,
         "share": 5,
         "est": true
       }
     ]
   },
   "store": {
-    "walkinRevenue": 2043709749,
-    "walkinOrders": 3809,
-    "marketingRevenue": 365775171,
+    "walkinRevenue": 2045746749,
+    "walkinOrders": 3815,
+    "marketingRevenue": 366235171,
     "marketingOrdersEst": 699,
-    "custIn": 3921,
+    "custIn": 3927,
     "closeRate": 97,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2707125749,
+    "totalRevenue": 2709162749,
     "salesCount": 1267,
     "byType": {
       "Online": 663416000,
-      "Cửa hàng": 2043709749
+      "Cửa hàng": 2045746749
     },
-    "onlinePct": 25,
-    "storePct": 75
+    "onlinePct": 24,
+    "storePct": 76
   },
   "brands": {
-    "Bemori": 2559553499,
+    "Bemori": 2581516999,
     "Teddy": 0,
     "Memon": 0
   },
@@ -55691,23 +55732,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 4730000,
-    "walkinOrders": 5,
-    "marketingRevenue": 0,
-    "marketingOrdersEst": 0,
-    "custIn": 6,
-    "closeRate": 83,
-    "marketingPct": 0
+    "walkinRevenue": 6767000,
+    "walkinOrders": 11,
+    "marketingRevenue": 460000,
+    "marketingOrdersEst": 1,
+    "custIn": 12,
+    "closeRate": 92,
+    "marketingPct": 6
   },
   "weekSales": {
-    "totalRevenue": 13720000,
+    "totalRevenue": 15757000,
     "salesCount": 20,
     "byType": {
       "Online": 8990000,
-      "Cửa hàng": 4730000
+      "Cửa hàng": 6767000
     },
-    "onlinePct": 66,
-    "storePct": 34
+    "onlinePct": 57,
+    "storePct": 43
   },
   "weekBrands": {
     "Bemori": 0,
