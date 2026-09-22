@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T16:31:26.199Z",
+  "generatedAt": "2026-09-22T17:31:39.809Z",
   "since": "2025-01-01",
   "until": "2026-09-22",
   "accounts": [
@@ -4988,11 +4988,11 @@
       "igPurchaseValue": 0
     },
     "2026-09-22": {
-      "facebook": 4165898,
-      "instagram": 176652,
+      "facebook": 4219560,
+      "instagram": 184984,
       "messenger": 0,
-      "audience_network": 1233,
-      "total": 4343783,
+      "audience_network": 1227,
+      "total": 4405771,
       "igPurchaseValue": 2364000
     }
   },
@@ -16702,16 +16702,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 290492,
-      "impressions": 4854,
-      "reach": 4397,
-      "clicks": 208,
-      "engagement": 135,
-      "messages": 19,
+      "spend": 294494,
+      "impressions": 4923,
+      "reach": 4481,
+      "clicks": 210,
+      "engagement": 137,
+      "messages": 20,
       "leads": 8,
       "purchases": 4,
       "purchaseValue": 2609000,
-      "roas": 8.98
+      "roas": 8.86
     },
     {
       "day": "2026-09-22",
@@ -16731,16 +16731,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 284456,
-      "impressions": 3044,
-      "reach": 2483,
-      "clicks": 164,
-      "engagement": 116,
+      "spend": 285644,
+      "impressions": 3074,
+      "reach": 2513,
+      "clicks": 168,
+      "engagement": 120,
       "messages": 9,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 315000,
-      "roas": 1.11
+      "roas": 1.1
     },
     {
       "day": "2026-09-22",
@@ -16789,9 +16789,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 265822,
-      "impressions": 2649,
-      "reach": 1794,
+      "spend": 271696,
+      "impressions": 2679,
+      "reach": 1818,
       "clicks": 93,
       "engagement": 64,
       "messages": 9,
@@ -16860,6 +16860,35 @@
     },
     {
       "day": "2026-09-22",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259237308260112",
+      "name": "8.9.26-Kids-BST-GOL-M-CR-Full",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259237308260112.jpg",
+      "creative": {
+        "title": "",
+        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 226720,
+      "impressions": 3978,
+      "reach": 3631,
+      "clicks": 129,
+      "engagement": 87,
+      "messages": 8,
+      "leads": 4,
+      "purchases": 1,
+      "purchaseValue": 660000,
+      "roas": 2.91
+    },
+    {
+      "day": "2026-09-22",
       "account": "Pa15",
       "bm": "BM1",
       "id": "120248117573890340",
@@ -16886,35 +16915,6 @@
       "purchases": 1,
       "purchaseValue": 380000,
       "roas": 1.69
-    },
-    {
-      "day": "2026-09-22",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259237308260112",
-      "name": "8.9.26-Kids-BST-GOL-M-CR-Full",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259237308260112.jpg",
-      "creative": {
-        "title": "",
-        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 223851,
-      "impressions": 3937,
-      "reach": 3578,
-      "clicks": 126,
-      "engagement": 86,
-      "messages": 7,
-      "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 660000,
-      "roas": 2.95
     },
     {
       "day": "2026-09-22",
@@ -16963,9 +16963,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 216378,
-      "impressions": 1769,
-      "reach": 1382,
+      "spend": 216637,
+      "impressions": 1774,
+      "reach": 1384,
       "clicks": 71,
       "engagement": 39,
       "messages": 5,
@@ -17137,11 +17137,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 20651,
-      "impressions": 206,
-      "reach": 191,
-      "clicks": 5,
-      "engagement": 2,
+      "spend": 21652,
+      "impressions": 222,
+      "reach": 206,
+      "clicks": 6,
+      "engagement": 3,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
