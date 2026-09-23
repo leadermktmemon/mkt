@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-23T15:04:02.373Z",
+  "generatedAt": "2026-09-23T19:05:56.498Z",
   "source": "lark",
   "period": {
-    "days": 515,
+    "days": 516,
     "fromDate": "2025-01-01",
-    "toDate": "2026-09-23"
+    "toDate": "2026-09-24"
   },
   "channels": [
     "Facebook",
@@ -45722,27 +45722,33 @@
     {
       "day": "2026-09-23",
       "online": {},
-      "onlineRev": 19543500,
+      "onlineRev": 34581500,
       "onlineRev31": 0,
-      "onlineOrders": 47,
+      "onlineOrders": 79,
       "onlineProducts": 0,
-      "onlineTarget": 49000000,
+      "onlineTarget": 79000000,
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
       "brands": {},
       "bc": {},
       "store": {
-        "Cầu Giấy": 2975000,
-        "Xã Đàn": 4795000,
-        "Outlet": 567000,
-        "Nguyễn Văn Cừ": 40000
+        "Cầu Giấy": 9938000,
+        "Xã Đàn": 10870000,
+        "Nguyễn Trãi": 16698000,
+        "Outlet": 2441500,
+        "Nguyễn Văn Cừ": 13031250,
+        "Xuân Thủy": 13764750,
+        "Nguyễn Gia Trí": 6946250,
+        "Láng": 9266000,
+        "Bạch Mai": 15025750,
+        "Lê Văn Sỹ": 5757000
       },
-      "storeRev": 8377000,
-      "storeOnline": 2913000,
-      "storeTarget": 20633500,
-      "custIn": 14,
-      "custBuy": 14,
+      "storeRev": 103738500,
+      "storeOnline": 18230500,
+      "storeTarget": 128761500,
+      "custIn": 193,
+      "custBuy": 192,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -45765,6 +45771,49 @@
       "metaIg": 69674,
       "metaTotal": 2015086,
       "metaIgPixelRev": 495000,
+      "googleAds": 0
+    },
+    {
+      "day": "2026-09-24",
+      "online": {},
+      "onlineRev": 0,
+      "onlineRev31": 0,
+      "onlineOrders": 0,
+      "onlineProducts": 0,
+      "onlineTarget": 0,
+      "fbAds": 0,
+      "ggAds": 0,
+      "social": 0,
+      "brands": {},
+      "bc": {},
+      "store": {},
+      "storeRev": 0,
+      "storeOnline": 0,
+      "storeTarget": 0,
+      "custIn": 0,
+      "custBuy": 0,
+      "memonRev": 0,
+      "leadRaw": 0,
+      "leadQual": 0,
+      "leadL4": 0,
+      "leadFB": 0,
+      "leadL4FB": 0,
+      "leadFBAds": 0,
+      "leadL4FBAds": 0,
+      "leadL5FB": 0,
+      "leadIG": 0,
+      "leadL4IG": 0,
+      "leadL5IG": 0,
+      "leadZalo": 0,
+      "leadL4Zalo": 0,
+      "leadL5Zalo": 0,
+      "leadWeb": 0,
+      "leadL5Web": 0,
+      "leadL5FBAds": 0,
+      "metaFb": 0,
+      "metaIg": 0,
+      "metaTotal": 0,
+      "metaIgPixelRev": 0,
       "googleAds": 0
     }
   ],
@@ -55752,100 +55801,100 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 700294500,
-    "onlineOrders": 1335,
-    "onlineAov": 524565,
+    "onlineRevenue": 693101500,
+    "onlineOrders": 1328,
+    "onlineAov": 521914,
     "channels": [
       {
         "name": "Facebook",
-        "orders": 646,
-        "revenue": 338912007,
-        "aov": 524632,
+        "orders": 643,
+        "revenue": 335377812,
+        "aov": 521583,
         "share": 48,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 435,
-        "revenue": 228259337,
-        "aov": 524734,
+        "orders": 440,
+        "revenue": 229667837,
+        "aov": 521972,
         "share": 33,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 110,
-        "revenue": 57636777,
-        "aov": 523971,
+        "orders": 106,
+        "revenue": 55177859,
+        "aov": 520546,
         "share": 8,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 81,
-        "revenue": 42339823,
-        "aov": 522714,
+        "orders": 80,
+        "revenue": 41690161,
+        "aov": 521127,
         "share": 6,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 63,
-        "revenue": 33146556,
-        "aov": 526136,
-        "share": 5,
+        "orders": 60,
+        "revenue": 31187832,
+        "aov": 519797,
+        "share": 4,
         "est": true
       }
     ]
   },
   "store": {
-    "walkinRevenue": 2082683499,
-    "walkinOrders": 3841,
-    "marketingRevenue": 387131637,
-    "marketingOrdersEst": 738,
-    "custIn": 3942,
-    "closeRate": 97,
+    "walkinRevenue": 2104171499,
+    "walkinOrders": 3879,
+    "marketingRevenue": 390443137,
+    "marketingOrdersEst": 748,
+    "custIn": 3975,
+    "closeRate": 98,
     "marketingPct": 16
   },
   "sales": {
-    "totalRevenue": 2782977999,
-    "salesCount": 1335,
+    "totalRevenue": 2797272999,
+    "salesCount": 1328,
     "byType": {
-      "Online": 700294500,
-      "Cửa hàng": 2082683499
+      "Online": 693101500,
+      "Cửa hàng": 2104171499
     },
     "onlinePct": 25,
     "storePct": 75
   },
   "brands": {
-    "Bemori": 2586304249,
+    "Bemori": 2591439749,
     "Teddy": 0,
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 85416000,
-    "onlineOrders": 162,
-    "onlineAov": 527259,
+    "onlineRevenue": 100454000,
+    "onlineOrders": 194,
+    "onlineAov": 517804,
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 168079500,
-    "walkinOrders": 283,
-    "marketingRevenue": 40071000,
-    "marketingOrdersEst": 76,
-    "custIn": 291,
-    "closeRate": 97,
-    "marketingPct": 19
+    "walkinRevenue": 263441000,
+    "walkinOrders": 461,
+    "marketingRevenue": 55388500,
+    "marketingOrdersEst": 107,
+    "custIn": 470,
+    "closeRate": 98,
+    "marketingPct": 17
   },
   "weekSales": {
-    "totalRevenue": 253495500,
-    "salesCount": 162,
+    "totalRevenue": 363895000,
+    "salesCount": 194,
     "byType": {
-      "Online": 85416000,
-      "Cửa hàng": 168079500
+      "Online": 100454000,
+      "Cửa hàng": 263441000
     },
-    "onlinePct": 34,
-    "storePct": 66
+    "onlinePct": 28,
+    "storePct": 72
   },
   "weekBrands": {
     "Bemori": 0,
@@ -55854,8 +55903,8 @@
   },
   "weekPeriod": {
     "from": "2026-09-21",
-    "to": "2026-09-23",
-    "days": 3
+    "to": "2026-09-24",
+    "days": 4
   },
   "monthlyTargets": {
     "2025-01": 860000000,
