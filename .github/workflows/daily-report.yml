@@ -5,7 +5,17 @@ on:
     - cron: "*/15 * * * *"   # tu dong moi 15 phut (repo public -> Actions mien phi khong gioi han)
     - cron: "0 1 * * *"      # 08h VN (01:00 UTC): kéo Meta Ads mỗi ngày
     - cron: "0 2 * * *"      # 09h VN (02:00 UTC): gửi báo cáo Lark
-  workflow_dispatch:         # chạy tay hoặc trigger từ Cloudflare Worker (cf-worker/)
+  workflow_dispatch:         # chạy tay hoặc trigger từ Cloudflare Worker (mỗi 30 phút)
+    inputs:
+      ads:
+        description: "Kéo lại Meta + Google Ads"
+        type: boolean
+        default: false
+
+# Không cho 2 lần chạy chồng nhau (tránh git push bị reject)
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
 
 permissions:
   contents: write           # để commit dashboard/data.js
@@ -50,7 +60,7 @@ jobs:
           if [ -f meta.config.json ]; then
             SCHEDULE="${{ github.event.schedule }}"
             # Chỉ chạy khi đúng cron 01:00 UTC hoặc bấm tay — KHÔNG chạy mỗi 30 phút
-            if [ "$SCHEDULE" = "0 1 * * *" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "$SCHEDULE" = "0 1 * * *" ] || [ "${{ inputs.ads }}" = "true" ]; then
               echo "Kéo Meta Ads (trigger: ${SCHEDULE:-workflow_dispatch})..."
               node meta-fetch.mjs
             else
@@ -61,10 +71,11 @@ jobs:
           fi
 
       - name: Kéo chi phí Google Ads (08h VN = cron 01:00 UTC, hoặc chạy tay)
+        continue-on-error: true
         run: |
           if [ -f google.config.json ]; then
             SCHEDULE="${{ github.event.schedule }}"
-            if [ "$SCHEDULE" = "0 1 * * *" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "$SCHEDULE" = "0 1 * * *" ] || [ "${{ inputs.ads }}" = "true" ]; then
               echo "Kéo Google Ads (trigger: ${SCHEDULE:-workflow_dispatch})..."
               node google-ads-fetch.mjs
             else
@@ -117,8 +128,8 @@ jobs:
         run: |
           if [ -n "$CLOUDFLARE_API_TOKEN" ]; then
             echo "Deploy Cloudflare Worker..."
-            cd cf-worker
-            npx wrangler deploy
+            # Dùng wrangler.toml ở gốc: có đủ script (cron 30 phút) + assets (dashboard)
+            npx wrangler deploy --config wrangler.toml
           else
             echo "Bỏ qua deploy Cloudflare (chưa có secret CLOUDFLARE_API_TOKEN)"
           fi
