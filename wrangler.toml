@@ -1,7 +1,7 @@
 name = "mkt"
 main = "cf-worker/src/index.js"
 compatibility_date = "2024-01-01"
-workers_dev = false
+workers_dev = true
 
 # Serve dashboard static files (data.js, index.html, thumbs/, ...)
 [assets]
