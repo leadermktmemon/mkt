@@ -58,14 +58,10 @@ jobs:
         continue-on-error: true
         run: |
           if [ -f meta.config.json ]; then
-            SCHEDULE="${{ github.event.schedule }}"
-            # Chỉ chạy khi đúng cron 01:00 UTC hoặc bấm tay — KHÔNG chạy mỗi 30 phút
-            if [ "$SCHEDULE" = "0 1 * * *" ] || [ "${{ inputs.ads }}" = "true" ]; then
-              echo "Kéo Meta Ads (trigger: ${SCHEDULE:-workflow_dispatch})..."
-              node meta-fetch.mjs
-            else
-              echo "Bỏ qua Meta fetch (trigger: ${SCHEDULE:-unknown})"
-            fi
+            # Chạy mọi lượt: meta-fetch.mjs tự bỏ qua nếu dữ liệu < 55 phút (tránh rate limit).
+            # Tick "ads" khi chạy tay để ép kéo mới ngay (FORCE_META=1).
+            if [ "${{ inputs.ads }}" = "true" ]; then export FORCE_META=1; fi
+            node meta-fetch.mjs
           else
             echo "Bỏ qua Meta fetch (chưa có meta.config.json)"
           fi
