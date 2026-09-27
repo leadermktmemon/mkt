@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T08:32:13.268Z",
+  "generatedAt": "2026-09-27T09:02:23.490Z",
   "source": "lark",
   "period": {
     "days": 519,
@@ -45898,7 +45898,7 @@
         "Lê Văn Sỹ": 11258000,
         "Nguyễn Trãi": 12984250,
         "Xuân Thủy": 15875000,
-        "Bạch Mai": 18818000,
+        "Bạch Mai": 19313000,
         "Nguyễn Văn Cừ": 16305000,
         "Cầu Giấy": 19282000,
         "Láng": 9312000,
@@ -45906,11 +45906,11 @@
         "Nguyễn Gia Trí": 10941500,
         "Outlet": 3150000
       },
-      "storeRev": 136720000,
+      "storeRev": 137215000,
       "storeOnline": 11899000,
-      "storeTarget": 148738500,
-      "custIn": 274,
-      "custBuy": 270,
+      "storeTarget": 152334750,
+      "custIn": 275,
+      "custBuy": 271,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55608,26 +55608,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2382822999,
-    "walkinOrders": 4457,
+    "walkinRevenue": 2383317999,
+    "walkinOrders": 4458,
     "marketingRevenue": 419466701,
     "marketingOrdersEst": 819,
-    "custIn": 4568,
+    "custIn": 4569,
     "closeRate": 98,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3112938704,
+    "totalRevenue": 3113433704,
     "salesCount": 1426,
     "byType": {
       "Online": 730115705,
-      "Cửa hàng": 2382822999
+      "Cửa hàng": 2383317999
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2814084749,
+    "Bemori": 2814579749,
     "Teddy": 0,
     "Memon": 0
   },
@@ -55638,20 +55638,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 759967500,
-    "walkinOrders": 1437,
+    "walkinRevenue": 760462500,
+    "walkinOrders": 1438,
     "marketingRevenue": 121364950,
     "marketingOrdersEst": 261,
-    "custIn": 1480,
+    "custIn": 1481,
     "closeRate": 97,
     "marketingPct": 14
   },
   "weekSales": {
-    "totalRevenue": 964519205,
+    "totalRevenue": 965014205,
     "salesCount": 440,
     "byType": {
       "Online": 204551705,
-      "Cửa hàng": 759967500
+      "Cửa hàng": 760462500
     },
     "onlinePct": 21,
     "storePct": 79
