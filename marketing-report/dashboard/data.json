@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T06:31:38.506Z",
+  "generatedAt": "2026-09-27T07:01:54.125Z",
   "source": "lark",
   "period": {
     "days": 519,
@@ -45949,13 +45949,14 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Nguyễn Trãi": 1820000
+        "Nguyễn Trãi": 1820000,
+        "Xã Đàn": 6650000
       },
-      "storeRev": 1820000,
-      "storeOnline": 0,
-      "storeTarget": 5355000,
-      "custIn": 6,
-      "custBuy": 6,
+      "storeRev": 8470000,
+      "storeOnline": 745000,
+      "storeTarget": 10132500,
+      "custIn": 18,
+      "custBuy": 18,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55607,26 +55608,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2376172999,
-    "walkinOrders": 4445,
-    "marketingRevenue": 418721701,
-    "marketingOrdersEst": 818,
-    "custIn": 4556,
+    "walkinRevenue": 2382822999,
+    "walkinOrders": 4457,
+    "marketingRevenue": 419466701,
+    "marketingOrdersEst": 819,
+    "custIn": 4568,
     "closeRate": 98,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3106288704,
+    "totalRevenue": 3112938704,
     "salesCount": 1426,
     "byType": {
       "Online": 730115705,
-      "Cửa hàng": 2376172999
+      "Cửa hàng": 2382822999
     },
-    "onlinePct": 24,
-    "storePct": 76
+    "onlinePct": 23,
+    "storePct": 77
   },
   "brands": {
-    "Bemori": 2807434749,
+    "Bemori": 2814084749,
     "Teddy": 0,
     "Memon": 0
   },
@@ -55637,20 +55638,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 753317500,
-    "walkinOrders": 1425,
-    "marketingRevenue": 120619950,
-    "marketingOrdersEst": 259,
-    "custIn": 1468,
+    "walkinRevenue": 759967500,
+    "walkinOrders": 1437,
+    "marketingRevenue": 121364950,
+    "marketingOrdersEst": 261,
+    "custIn": 1480,
     "closeRate": 97,
     "marketingPct": 14
   },
   "weekSales": {
-    "totalRevenue": 957869205,
+    "totalRevenue": 964519205,
     "salesCount": 440,
     "byType": {
       "Online": 204551705,
-      "Cửa hàng": 753317500
+      "Cửa hàng": 759967500
     },
     "onlinePct": 21,
     "storePct": 79
