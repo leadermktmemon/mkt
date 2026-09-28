@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T04:02:03.723Z",
+  "generatedAt": "2026-09-28T04:32:26.730Z",
   "source": "lark",
   "period": {
     "days": 520,
@@ -45613,17 +45613,53 @@
     },
     {
       "day": "2026-09-21",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 13865000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 3113000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 12435000,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 2920000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 1344000,
+          "orders": 0
+        }
+      },
       "onlineRev": 33677000,
-      "onlineRev31": 0,
+      "onlineRev31": 33677000,
       "onlineOrders": 54,
       "onlineProducts": 0,
       "onlineTarget": 33000000,
       "fbAds": 0,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 15630000,
+      "social": 18047000,
+      "brands": {
+        "Bemori": 28310000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 9072000,
+          "Instagram": 3113000,
+          "Zalo": 12435000,
+          "Website": 2920000
+        },
+        "Teddy": {
+          "Facebook": 4023000
+        },
+        "GBO/NNGB": {
+          "Facebook": 275000
+        }
+      },
       "store": {
         "Cầu Giấy": 9737500,
         "Xã Đàn": 5012750,
@@ -45667,17 +45703,52 @@
     },
     {
       "day": "2026-09-22",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 18881000,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 4068000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 7126500,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 1120000,
+          "orders": 0
+        }
+      },
       "onlineRev": 32195500,
-      "onlineRev31": 0,
+      "onlineRev31": 31195500,
       "onlineOrders": 61,
       "onlineProducts": 0,
       "onlineTarget": 34000000,
       "fbAds": 0,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 9295500,
+      "social": 21900000,
+      "brands": {
+        "Bemori": 25577500,
+        "Khác": 350000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 12214000,
+          "Instagram": 4068000,
+          "Zalo": 7126500
+        },
+        "Teddy": {
+          "Facebook": 4148000
+        },
+        "GBO/NNGB": {
+          "Facebook": 2169000
+        },
+        "Memon": {
+          "Facebook": 350000
+        }
+      },
       "store": {
         "Lê Văn Sỹ": 1939000,
         "Nguyễn Trãi": 11753500,
@@ -45721,17 +45792,53 @@
     },
     {
       "day": "2026-09-23",
-      "online": {},
+      "online": {
+        "Facebook": {
+          "rev": 16391500,
+          "orders": 0
+        },
+        "Instagram": {
+          "rev": 1365000,
+          "orders": 0
+        },
+        "Zalo": {
+          "rev": 16489500,
+          "orders": 0
+        },
+        "Website": {
+          "rev": 819000,
+          "orders": 0
+        },
+        "Bán lẻ NK": {
+          "rev": 1525000,
+          "orders": 0
+        }
+      },
       "onlineRev": 34581500,
-      "onlineRev31": 0,
+      "onlineRev31": 36590000,
       "onlineOrders": 79,
       "onlineProducts": 0,
       "onlineTarget": 79000000,
       "fbAds": 0,
-      "ggAds": 0,
-      "social": 0,
-      "brands": {},
-      "bc": {},
+      "ggAds": 18941500,
+      "social": 17648500,
+      "brands": {
+        "Bemori": 33008000
+      },
+      "bc": {
+        "Bemori": {
+          "Facebook": 12701500,
+          "Instagram": 1365000,
+          "Zalo": 16489500,
+          "Website": 819000
+        },
+        "Teddy": {
+          "Facebook": 2057000
+        },
+        "GBO/NNGB": {
+          "Facebook": 1633000
+        }
+      },
       "store": {
         "Cầu Giấy": 9938000,
         "Xã Đàn": 10870000,
@@ -46127,9 +46234,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 1983177,
-      "metaIg": 138484,
-      "metaTotal": 2121712,
+      "metaFb": 1983605,
+      "metaIg": 138487,
+      "metaTotal": 2122143,
       "metaIgPixelRev": 115000,
       "googleAds": 0
     },
@@ -46170,9 +46277,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 370561,
-      "metaIg": 36246,
-      "metaTotal": 406807,
+      "metaFb": 511542,
+      "metaIg": 48404,
+      "metaTotal": 559946,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -52926,7 +53033,7 @@
       "bm": "BM1",
       "id": "120248061716780340",
       "name": "17.9.26-CR-iphone 18-new-2",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061716780340.jpg",
@@ -53157,7 +53264,7 @@
       "bm": "BM1",
       "id": "120248061716780340",
       "name": "17.9.26-CR-iphone 18-new-2",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061716780340.jpg",
@@ -53913,7 +54020,7 @@
       "bm": "BM1",
       "id": "120248061716780340",
       "name": "17.9.26-CR-iphone 18-new-2",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061716780340.jpg",
@@ -54060,7 +54167,7 @@
       "bm": "BM1",
       "id": "120248061716780340",
       "name": "17.9.26-CR-iphone 18-new-2",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061716780340.jpg",
@@ -54081,7 +54188,7 @@
       "bm": "BM1",
       "id": "120248173593470340",
       "name": "23.9.26-best sale mùa trung thu",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248173593470340.jpg",
@@ -54417,7 +54524,7 @@
       "bm": "BM1",
       "id": "120248061716780340",
       "name": "17.9.26-CR-iphone 18-new-2",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061716780340.jpg",
@@ -54459,7 +54566,7 @@
       "bm": "BM1",
       "id": "120248173593470340",
       "name": "23.9.26-best sale mùa trung thu",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248173593470340.jpg",
@@ -54732,7 +54839,7 @@
       "bm": "BM1",
       "id": "120248061716780340",
       "name": "17.9.26-CR-iphone 18-new-2",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061716780340.jpg",
@@ -54795,7 +54902,7 @@
       "bm": "BM1",
       "id": "120248173593470340",
       "name": "23.9.26-best sale mùa trung thu",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248173593470340.jpg",
@@ -55131,7 +55238,7 @@
       "bm": "BM1",
       "id": "120248061716780340",
       "name": "17.9.26-CR-iphone 18-new-2",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061716780340.jpg",
@@ -55173,7 +55280,7 @@
       "bm": "BM1",
       "id": "120248173593470340",
       "name": "23.9.26-best sale mùa trung thu",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248173593470340.jpg",
@@ -55261,9 +55368,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 329283,
-      "impressions": 7908,
-      "reach": 6988,
+      "spend": 329387,
+      "impressions": 7915,
+      "reach": 7005,
       "clicks": 292,
       "engagement": 182,
       "messages": 15,
@@ -55282,9 +55389,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061690960340.jpg",
-      "spend": 282498,
-      "impressions": 3309,
-      "reach": 2034,
+      "spend": 282545,
+      "impressions": 3311,
+      "reach": 2035,
       "clicks": 122,
       "engagement": 89,
       "messages": 3,
@@ -55303,16 +55410,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120247654344670340.jpg",
-      "spend": 280530,
-      "impressions": 4584,
+      "spend": 280595,
+      "impressions": 4587,
       "reach": 2653,
-      "clicks": 102,
+      "clicks": 103,
       "engagement": 51,
       "messages": 8,
       "leads": 0,
       "purchases": 2,
       "purchaseValue": 310000,
-      "roas": 1.11
+      "roas": 1.1
     },
     {
       "day": "2026-09-27",
@@ -55324,9 +55431,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259237308260112.jpg",
-      "spend": 263869,
-      "impressions": 6059,
-      "reach": 5377,
+      "spend": 263925,
+      "impressions": 6065,
+      "reach": 5379,
       "clicks": 233,
       "engagement": 143,
       "messages": 18,
@@ -55345,9 +55452,9 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259403381500112.jpg",
-      "spend": 263720,
-      "impressions": 3593,
-      "reach": 2645,
+      "spend": 263727,
+      "impressions": 3594,
+      "reach": 2647,
       "clicks": 136,
       "engagement": 99,
       "messages": 3,
@@ -55362,7 +55469,7 @@
       "bm": "BM1",
       "id": "120248173593470340",
       "name": "23.9.26-best sale mùa trung thu",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248173593470340.jpg",
@@ -55387,16 +55494,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120247235934360340.jpg",
-      "spend": 260491,
-      "impressions": 4745,
-      "reach": 3013,
+      "spend": 260590,
+      "impressions": 4748,
+      "reach": 3016,
       "clicks": 69,
       "engagement": 121,
       "messages": 3,
       "leads": 2,
       "purchases": 4,
       "purchaseValue": 1815000,
-      "roas": 6.97
+      "roas": 6.96
     },
     {
       "day": "2026-09-27",
@@ -55404,15 +55511,15 @@
       "bm": "BM1",
       "id": "120248061716780340",
       "name": "17.9.26-CR-iphone 18-new-2",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061716780340.jpg",
-      "spend": 178638,
-      "impressions": 4730,
+      "spend": 178678,
+      "impressions": 4732,
       "reach": 4115,
-      "clicks": 129,
-      "engagement": 84,
+      "clicks": 130,
+      "engagement": 85,
       "messages": 3,
       "leads": 0,
       "purchases": 0,
@@ -55429,16 +55536,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120247235934360340.jpg",
-      "spend": 96619,
-      "impressions": 1952,
-      "reach": 1410,
-      "clicks": 31,
-      "engagement": 40,
+      "spend": 133840,
+      "impressions": 2697,
+      "reach": 1934,
+      "clicks": 45,
+      "engagement": 50,
       "messages": 1,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 470000,
-      "roas": 4.86
+      "roas": 3.51
     },
     {
       "day": "2026-09-28",
@@ -55450,13 +55557,13 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "CONVERSATIONS",
       "thumb": "thumbs/120247654344670340.jpg",
-      "spend": 87506,
-      "impressions": 1476,
-      "reach": 1010,
-      "clicks": 34,
-      "engagement": 13,
-      "messages": 1,
-      "leads": 4,
+      "spend": 115539,
+      "impressions": 1998,
+      "reach": 1460,
+      "clicks": 49,
+      "engagement": 24,
+      "messages": 2,
+      "leads": 8,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
@@ -55471,37 +55578,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 54819,
-      "impressions": 823,
-      "reach": 720,
-      "clicks": 48,
-      "engagement": 34,
-      "messages": 5,
-      "leads": 4,
+      "spend": 79728,
+      "impressions": 1124,
+      "reach": 996,
+      "clicks": 67,
+      "engagement": 44,
+      "messages": 7,
+      "leads": 6,
       "purchases": 1,
       "purchaseValue": 290000,
-      "roas": 5.29
-    },
-    {
-      "day": "2026-09-28",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248173593470340",
-      "name": "23.9.26-best sale mùa trung thu",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120248173593470340.jpg",
-      "spend": 51028,
-      "impressions": 559,
-      "reach": 371,
-      "clicks": 22,
-      "engagement": 24,
-      "messages": 1,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "roas": 3.64
     },
     {
       "day": "2026-09-28",
@@ -55513,12 +55599,12 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061690960340.jpg",
-      "spend": 44016,
-      "impressions": 535,
-      "reach": 397,
-      "clicks": 10,
-      "engagement": 12,
-      "messages": 1,
+      "spend": 56543,
+      "impressions": 669,
+      "reach": 486,
+      "clicks": 13,
+      "engagement": 16,
+      "messages": 2,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -55526,24 +55612,24 @@
     },
     {
       "day": "2026-09-28",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259403381500112",
-      "name": "17.9.26-BST-Gối ôm-Nữ",
-      "status": "ACTIVE",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248173593470340",
+      "name": "23.9.26-best sale mùa trung thu",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259403381500112.jpg",
-      "spend": 39224,
-      "impressions": 455,
-      "reach": 377,
+      "thumb": "thumbs/120248173593470340.jpg",
+      "spend": 55934,
+      "impressions": 592,
+      "reach": 386,
       "clicks": 24,
-      "engagement": 14,
-      "messages": 0,
-      "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 360000,
-      "roas": 9.18
+      "engagement": 25,
+      "messages": 1,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-09-28",
@@ -55555,16 +55641,37 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259237308260112.jpg",
-      "spend": 36781,
-      "impressions": 496,
-      "reach": 451,
-      "clicks": 33,
-      "engagement": 22,
-      "messages": 2,
+      "spend": 52086,
+      "impressions": 672,
+      "reach": 600,
+      "clicks": 40,
+      "engagement": 26,
+      "messages": 4,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 360000,
-      "roas": 9.79
+      "roas": 6.91
+    },
+    {
+      "day": "2026-09-28",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259403381500112",
+      "name": "17.9.26-BST-Gối ôm-Nữ",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259403381500112.jpg",
+      "spend": 49064,
+      "impressions": 533,
+      "reach": 433,
+      "clicks": 29,
+      "engagement": 18,
+      "messages": 0,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 360000,
+      "roas": 7.34
     },
     {
       "day": "2026-09-28",
@@ -55572,15 +55679,15 @@
       "bm": "BM1",
       "id": "120248061716780340",
       "name": "17.9.26-CR-iphone 18-new-2",
-      "status": "ACTIVE",
+      "status": "PAUSED",
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248061716780340.jpg",
-      "spend": 13647,
-      "impressions": 263,
-      "reach": 237,
-      "clicks": 3,
-      "engagement": 4,
+      "spend": 17212,
+      "impressions": 354,
+      "reach": 320,
+      "clicks": 6,
+      "engagement": 7,
       "messages": 0,
       "leads": 0,
       "purchases": 0,
@@ -55596,41 +55703,41 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 626,
-        "revenue": 326983156,
-        "aov": 522337,
+        "orders": 633,
+        "revenue": 330920106,
+        "aov": 522781,
         "share": 45,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 490,
-        "revenue": 256127978,
-        "aov": 522710,
+        "orders": 491,
+        "revenue": 256750361,
+        "aov": 522913,
         "share": 35,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 129,
-        "revenue": 67281745,
-        "aov": 521564,
-        "share": 9,
+        "orders": 118,
+        "revenue": 61912964,
+        "aov": 524686,
+        "share": 8,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 93,
-        "revenue": 48537951,
-        "aov": 521913,
+        "orders": 96,
+        "revenue": 50385976,
+        "aov": 524854,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 66,
-        "revenue": 34464121,
-        "aov": 522184,
+        "orders": 64,
+        "revenue": 33425542,
+        "aov": 522274,
         "share": 5,
         "est": true
       }
@@ -55656,7 +55763,7 @@
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2929607449,
+    "Bemori": 3015108082,
     "Teddy": 0,
     "Memon": 0
   },
