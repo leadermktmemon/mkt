@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T04:32:26.730Z",
+  "generatedAt": "2026-09-28T05:02:21.964Z",
   "source": "lark",
   "period": {
     "days": 520,
@@ -45640,9 +45640,9 @@
       "onlineOrders": 54,
       "onlineProducts": 0,
       "onlineTarget": 33000000,
-      "fbAds": 0,
+      "fbAds": 10930000,
       "ggAds": 15630000,
-      "social": 18047000,
+      "social": 7117000,
       "brands": {
         "Bemori": 28310000
       },
@@ -45679,21 +45679,21 @@
       "custBuy": 125,
       "memonRev": 0,
       "leadRaw": 0,
-      "leadQual": 0,
+      "leadQual": 46,
       "leadL4": 0,
       "leadFB": 0,
       "leadL4FB": 0,
       "leadFBAds": 0,
       "leadL4FBAds": 0,
-      "leadL5FB": 0,
+      "leadL5FB": 32,
       "leadIG": 0,
       "leadL4IG": 0,
-      "leadL5IG": 0,
+      "leadL5IG": 2,
       "leadZalo": 0,
       "leadL4Zalo": 0,
-      "leadL5Zalo": 0,
+      "leadL5Zalo": 12,
       "leadWeb": 0,
-      "leadL5Web": 0,
+      "leadL5Web": 5,
       "leadL5FBAds": 0,
       "metaFb": 4330089,
       "metaIg": 198362,
@@ -45705,7 +45705,7 @@
       "day": "2026-09-22",
       "online": {
         "Facebook": {
-          "rev": 18881000,
+          "rev": 19881000,
           "orders": 0
         },
         "Instagram": {
@@ -45722,20 +45722,20 @@
         }
       },
       "onlineRev": 32195500,
-      "onlineRev31": 31195500,
+      "onlineRev31": 32195500,
       "onlineOrders": 61,
       "onlineProducts": 0,
       "onlineTarget": 34000000,
-      "fbAds": 0,
+      "fbAds": 10608000,
       "ggAds": 9295500,
-      "social": 21900000,
+      "social": 12292000,
       "brands": {
-        "Bemori": 25577500,
+        "Bemori": 26577500,
         "Khác": 350000
       },
       "bc": {
         "Bemori": {
-          "Facebook": 12214000,
+          "Facebook": 13214000,
           "Instagram": 4068000,
           "Zalo": 7126500
         },
@@ -45768,19 +45768,19 @@
       "custBuy": 143,
       "memonRev": 0,
       "leadRaw": 0,
-      "leadQual": 0,
+      "leadQual": 59,
       "leadL4": 0,
       "leadFB": 0,
       "leadL4FB": 0,
       "leadFBAds": 0,
       "leadL4FBAds": 0,
-      "leadL5FB": 0,
+      "leadL5FB": 34,
       "leadIG": 0,
       "leadL4IG": 0,
-      "leadL5IG": 0,
+      "leadL5IG": 6,
       "leadZalo": 0,
       "leadL4Zalo": 0,
-      "leadL5Zalo": 0,
+      "leadL5Zalo": 19,
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
@@ -45819,9 +45819,9 @@
       "onlineOrders": 79,
       "onlineProducts": 0,
       "onlineTarget": 79000000,
-      "fbAds": 0,
+      "fbAds": 9724500,
       "ggAds": 18941500,
-      "social": 17648500,
+      "social": 7924000,
       "brands": {
         "Bemori": 33008000
       },
@@ -45884,7 +45884,7 @@
       "day": "2026-09-24",
       "online": {
         "Facebook": {
-          "rev": 16306000,
+          "rev": 16612450,
           "orders": 0
         },
         "Instagram": {
@@ -45892,7 +45892,7 @@
           "orders": 0
         },
         "Zalo": {
-          "rev": 13296950,
+          "rev": 12798000,
           "orders": 0
         },
         "Website": {
@@ -45905,21 +45905,21 @@
         }
       },
       "onlineRev": 34887950,
-      "onlineRev31": 35080450,
+      "onlineRev31": 34887950,
       "onlineOrders": 86,
       "onlineProducts": 0,
       "onlineTarget": 75000000,
-      "fbAds": 0,
-      "ggAds": 14694950,
-      "social": 20385500,
+      "fbAds": 12614000,
+      "ggAds": 14196000,
+      "social": 8077950,
       "brands": {
-        "Bemori": 28733950
+        "Bemori": 28541450
       },
       "bc": {
         "Bemori": {
-          "Facebook": 12849000,
+          "Facebook": 13155450,
           "Instagram": 1190000,
-          "Zalo": 13296950,
+          "Zalo": 12798000,
           "Website": 955000
         },
         "Teddy": {
@@ -45974,7 +45974,7 @@
       "day": "2026-09-25",
       "online": {
         "Facebook": {
-          "rev": 16517000,
+          "rev": 15763500,
           "orders": 0
         },
         "Instagram": {
@@ -45995,19 +45995,19 @@
         }
       },
       "onlineRev": 44416000,
-      "onlineRev31": 45169500,
+      "onlineRev31": 44416000,
       "onlineOrders": 94,
       "onlineProducts": 0,
       "onlineTarget": 85000000,
-      "fbAds": 0,
+      "fbAds": 10792000,
       "ggAds": 19482500,
-      "social": 25687000,
+      "social": 14141500,
       "brands": {
-        "Bemori": 39701500
+        "Bemori": 38948000
       },
       "bc": {
         "Bemori": {
-          "Facebook": 12809000,
+          "Facebook": 12055500,
           "Instagram": 7410000,
           "Zalo": 13964000,
           "Website": 2606500
@@ -46064,7 +46064,7 @@
       "day": "2026-09-26",
       "online": {
         "Facebook": {
-          "rev": 8641000,
+          "rev": 9231000,
           "orders": 0
         },
         "Instagram": {
@@ -46085,19 +46085,19 @@
         }
       },
       "onlineRev": 24793750,
-      "onlineRev31": 24203750,
+      "onlineRev31": 24793750,
       "onlineOrders": 55,
       "onlineProducts": 0,
       "onlineTarget": 28000000,
-      "fbAds": 0,
+      "fbAds": 5817000,
       "ggAds": 12242750,
-      "social": 11961000,
+      "social": 6734000,
       "brands": {
-        "Bemori": 18392750
+        "Bemori": 18982750
       },
       "bc": {
         "Bemori": {
-          "Facebook": 5155000,
+          "Facebook": 5745000,
           "Instagram": 285000,
           "Zalo": 10068750,
           "Website": 1265000
@@ -46154,7 +46154,7 @@
       "day": "2026-09-27",
       "online": {
         "Facebook": {
-          "rev": 7045000,
+          "rev": 8090000,
           "orders": 0
         },
         "Instagram": {
@@ -46175,19 +46175,19 @@
         }
       },
       "onlineRev": 19735250,
-      "onlineRev31": 18690250,
+      "onlineRev31": 19735250,
       "onlineOrders": 29,
       "onlineProducts": 0,
       "onlineTarget": 21000000,
-      "fbAds": 0,
+      "fbAds": 3295000,
       "ggAds": 11150250,
-      "social": 7540000,
+      "social": 5290000,
       "brands": {
-        "Bemori": 13840250
+        "Bemori": 14885250
       },
       "bc": {
         "Bemori": {
-          "Facebook": 2575000,
+          "Facebook": 3620000,
           "Instagram": 115000,
           "Zalo": 7110250,
           "Website": 1135000
@@ -55703,41 +55703,41 @@
     "channels": [
       {
         "name": "Facebook",
-        "orders": 633,
-        "revenue": 330920106,
-        "aov": 522781,
+        "orders": 636,
+        "revenue": 332355909,
+        "aov": 522572,
         "share": 45,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 491,
-        "revenue": 256750361,
-        "aov": 522913,
+        "orders": 489,
+        "revenue": 255652505,
+        "aov": 522807,
         "share": 35,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
         "orders": 118,
-        "revenue": 61912964,
-        "aov": 524686,
+        "revenue": 61769384,
+        "aov": 523469,
         "share": 8,
         "est": true
       },
       {
         "name": "Instagram",
         "orders": 96,
-        "revenue": 50385976,
-        "aov": 524854,
+        "revenue": 50269127,
+        "aov": 523637,
         "share": 7,
         "est": true
       },
       {
         "name": "Website",
         "orders": 64,
-        "revenue": 33425542,
-        "aov": 522274,
+        "revenue": 33348026,
+        "aov": 521063,
         "share": 5,
         "est": true
       }
@@ -55763,7 +55763,7 @@
     "storePct": 77
   },
   "brands": {
-    "Bemori": 3015108082,
+    "Bemori": 3016800965,
     "Teddy": 0,
     "Memon": 0
   },
