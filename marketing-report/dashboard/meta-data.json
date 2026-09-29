@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:31:04.321Z",
+  "generatedAt": "2026-09-29T11:33:15.011Z",
   "since": "2025-01-01",
   "until": "2026-09-29",
   "accounts": [
@@ -5044,11 +5044,11 @@
       "igPurchaseValue": 340000
     },
     "2026-09-29": {
-      "facebook": 1062902,
-      "instagram": 95760,
+      "facebook": 1065321,
+      "instagram": 96348,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1158662,
+      "total": 1161669,
       "igPurchaseValue": 1681750
     }
   },
@@ -16354,7 +16354,7 @@
       },
       "spend": 230925,
       "impressions": 5086,
-      "reach": 3539,
+      "reach": 3567,
       "clicks": 54,
       "engagement": 85,
       "messages": 5,
@@ -16410,8 +16410,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 159338,
-      "impressions": 2507,
+      "spend": 159957,
+      "impressions": 2526,
       "reach": 2357,
       "clicks": 101,
       "engagement": 58,
@@ -16439,16 +16439,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 139060,
-      "impressions": 1814,
+      "spend": 139462,
+      "impressions": 1825,
       "reach": 1704,
-      "clicks": 71,
+      "clicks": 72,
       "engagement": 43,
       "messages": 7,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 465000,
-      "roas": 3.34
+      "roas": 3.33
     },
     {
       "day": "2026-09-29",
@@ -16468,10 +16468,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 112195,
-      "impressions": 1249,
-      "reach": 998,
-      "clicks": 59,
+      "spend": 112591,
+      "impressions": 1263,
+      "reach": 1024,
+      "clicks": 60,
       "engagement": 42,
       "messages": 5,
       "leads": 0,
@@ -16503,8 +16503,8 @@
           "https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/828417671_122217545984381985_8272244757349214915_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHAA45RymcI_9tS_r0ttpXWx7OBbFD_66THs4FsUP_rpDQHdV-TG737l856lVhflGkKHysuYvHXAeSJUl1WPHce&_nc_ohc=uNmBgJwXnzIQ7kNvwE33Hb1&_nc_oc=Adqnyr-C3EDkWW2itG4hTpkolkSOfoUKe5q_xZu85JZxGUrVMcR7r28sSXIhaxdvgxU&_nc_zt=23&_nc_ht=scontent.fhan2-4.fna&_nc_gid=xuaV0bQb5qrZvAow808jqw&_nc_ss=7b2a8&oh=00_AQNtaIsaUFsJw_CeCFrFJ6xPVHqDlFa_QfY8ya1wJymNqg&oe=6AC16471"
         ]
       },
-      "spend": 26055,
-      "impressions": 401,
+      "spend": 26421,
+      "impressions": 412,
       "reach": 315,
       "clicks": 7,
       "engagement": 4,
