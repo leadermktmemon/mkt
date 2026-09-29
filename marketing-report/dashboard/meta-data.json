@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T20:31:25.401Z",
+  "generatedAt": "2026-09-29T21:31:53.719Z",
   "since": "2025-01-01",
   "until": "2026-09-29",
   "accounts": [
@@ -5044,11 +5044,11 @@
       "igPurchaseValue": 340000
     },
     "2026-09-29": {
-      "facebook": 1562191,
-      "instagram": 146613,
+      "facebook": 1562980,
+      "instagram": 146614,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1708804,
+      "total": 1709594,
       "igPurchaseValue": 1681750
     }
   },
@@ -16323,8 +16323,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 335125,
-      "impressions": 5876,
+      "spend": 335227,
+      "impressions": 5878,
       "reach": 4844,
       "clicks": 202,
       "engagement": 107,
@@ -16381,9 +16381,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 321504,
-      "impressions": 7264,
-      "reach": 4924,
+      "spend": 321765,
+      "impressions": 7269,
+      "reach": 4932,
       "clicks": 79,
       "engagement": 118,
       "messages": 6,
@@ -16410,10 +16410,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 252168,
-      "impressions": 4710,
-      "reach": 4343,
-      "clicks": 196,
+      "spend": 252475,
+      "impressions": 4714,
+      "reach": 4344,
+      "clicks": 197,
       "engagement": 122,
       "messages": 22,
       "leads": 0,
@@ -16439,8 +16439,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 206015,
-      "impressions": 3198,
+      "spend": 206018,
+      "impressions": 3199,
       "reach": 3011,
       "clicks": 109,
       "engagement": 75,
@@ -16468,11 +16468,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 187530,
-      "impressions": 2811,
-      "reach": 2304,
-      "clicks": 123,
-      "engagement": 88,
+      "spend": 187647,
+      "impressions": 2813,
+      "reach": 2306,
+      "clicks": 124,
+      "engagement": 89,
       "messages": 6,
       "leads": 0,
       "purchases": 0,
