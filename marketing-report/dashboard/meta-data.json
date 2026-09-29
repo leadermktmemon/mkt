@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:31:17.675Z",
+  "generatedAt": "2026-09-29T16:31:20.162Z",
   "since": "2025-01-01",
   "until": "2026-09-29",
   "accounts": [
@@ -5044,11 +5044,11 @@
       "igPurchaseValue": 340000
     },
     "2026-09-29": {
-      "facebook": 1473391,
-      "instagram": 133496,
+      "facebook": 1529834,
+      "instagram": 142727,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1606887,
+      "total": 1672561,
       "igPurchaseValue": 1681750
     }
   },
@@ -16323,45 +16323,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 326090,
-      "impressions": 5716,
-      "reach": 4663,
-      "clicks": 193,
-      "engagement": 101,
+      "spend": 331739,
+      "impressions": 5835,
+      "reach": 4773,
+      "clicks": 202,
+      "engagement": 107,
       "messages": 12,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 925000,
-      "roas": 2.84
-    },
-    {
-      "day": "2026-09-29",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120247235934360340",
-      "name": "2710.hoahong.Bemori.Memon - Bản sao 3",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "CONVERSATIONS",
-      "thumb": "thumbs/120247235934360340.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌹❤️Mong rằng mọi cô gái “em ko thích hoa đâu, nhanh tàn lắm anh đừng mua” sẽ gặp được chàng trai “bó hoa này không bao giờ tàn, anh sẽ mua cho em\"! 💐\n\n#bemori #gaubong #quatang \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây, TP.HCM\n🐻388 Xã Đàn, Phường Văn Miếu, Hà Nội\n🐻228 Lê Văn Sỹ, P.Tân Sơn Hòa, TP.HCM\n🐻275 Bạch Mai, P.Bạch Mai, Hà Nội\n🐻368 Nguyễn Trãi, P.Đại Mỗ, Hà Nội\n🐻411 Nguyễn Văn Cừ, P.Bồ Đề, Hà Nội\n🐻161 Xuân Thủy, P.Cầu Giấy, Hà Nội\n🐻104 -106 Cầu Giấy, P.Cầu Giấy, Hà Nội\n🐻1028 Đường Láng, P.Láng, Hà Nội\n🐻17 ngõ 23 Nguyễn Khuyến, P.Hà Đông, Hà Nội (Kho gấu online)",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 302928,
-      "impressions": 6842,
-      "reach": 4677,
-      "clicks": 77,
-      "engagement": 109,
-      "messages": 6,
-      "leads": 4,
-      "purchases": 2,
-      "purchaseValue": 815000,
-      "roas": 2.69
+      "roas": 2.79
     },
     {
       "day": "2026-09-29",
@@ -16381,16 +16352,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 294571,
-      "impressions": 5112,
-      "reach": 3124,
-      "clicks": 87,
+      "spend": 315488,
+      "impressions": 5456,
+      "reach": 3324,
+      "clicks": 88,
       "engagement": 35,
       "messages": 5,
       "leads": 2,
       "purchases": 5,
       "purchaseValue": 2611750,
-      "roas": 8.87
+      "roas": 8.28
+    },
+    {
+      "day": "2026-09-29",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120247235934360340",
+      "name": "2710.hoahong.Bemori.Memon - Bản sao 3",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "CONVERSATIONS",
+      "thumb": "thumbs/120247235934360340.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌹❤️Mong rằng mọi cô gái “em ko thích hoa đâu, nhanh tàn lắm anh đừng mua” sẽ gặp được chàng trai “bó hoa này không bao giờ tàn, anh sẽ mua cho em\"! 💐\n\n#bemori #gaubong #quatang \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây, TP.HCM\n🐻388 Xã Đàn, Phường Văn Miếu, Hà Nội\n🐻228 Lê Văn Sỹ, P.Tân Sơn Hòa, TP.HCM\n🐻275 Bạch Mai, P.Bạch Mai, Hà Nội\n🐻368 Nguyễn Trãi, P.Đại Mỗ, Hà Nội\n🐻411 Nguyễn Văn Cừ, P.Bồ Đề, Hà Nội\n🐻161 Xuân Thủy, P.Cầu Giấy, Hà Nội\n🐻104 -106 Cầu Giấy, P.Cầu Giấy, Hà Nội\n🐻1028 Đường Láng, P.Láng, Hà Nội\n🐻17 ngõ 23 Nguyễn Khuyến, P.Hà Đông, Hà Nội (Kho gấu online)",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 312170,
+      "impressions": 7085,
+      "reach": 4790,
+      "clicks": 78,
+      "engagement": 114,
+      "messages": 6,
+      "leads": 4,
+      "purchases": 2,
+      "purchaseValue": 815000,
+      "roas": 2.61
     },
     {
       "day": "2026-09-29",
@@ -16410,16 +16410,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 238780,
-      "impressions": 4365,
-      "reach": 3997,
-      "clicks": 177,
-      "engagement": 107,
-      "messages": 18,
+      "spend": 247250,
+      "impressions": 4601,
+      "reach": 4260,
+      "clicks": 194,
+      "engagement": 119,
+      "messages": 20,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 280000,
-      "roas": 1.17
+      "roas": 1.13
     },
     {
       "day": "2026-09-29",
@@ -16439,16 +16439,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 196910,
-      "impressions": 3029,
-      "reach": 2835,
-      "clicks": 103,
-      "engagement": 72,
+      "spend": 203958,
+      "impressions": 3157,
+      "reach": 2973,
+      "clicks": 108,
+      "engagement": 74,
       "messages": 8,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 465000,
-      "roas": 2.36
+      "roas": 2.28
     },
     {
       "day": "2026-09-29",
@@ -16468,11 +16468,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 176136,
-      "impressions": 2569,
-      "reach": 2068,
-      "clicks": 109,
-      "engagement": 76,
+      "spend": 185190,
+      "impressions": 2752,
+      "reach": 2240,
+      "clicks": 120,
+      "engagement": 83,
       "messages": 6,
       "leads": 0,
       "purchases": 0,
@@ -16503,11 +16503,11 @@
           "https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/828417671_122217545984381985_8272244757349214915_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHAA45RymcI_9tS_r0ttpXWx7OBbFD_66THs4FsUP_rpDQHdV-TG737l856lVhflGkKHysuYvHXAeSJUl1WPHce&_nc_ohc=uNmBgJwXnzIQ7kNvwE33Hb1&_nc_oc=Adqnyr-C3EDkWW2itG4hTpkolkSOfoUKe5q_xZu85JZxGUrVMcR7r28sSXIhaxdvgxU&_nc_zt=23&_nc_ht=scontent.fhan2-4.fna&_nc_gid=xuaV0bQb5qrZvAow808jqw&_nc_ss=7b2a8&oh=00_AQNtaIsaUFsJw_CeCFrFJ6xPVHqDlFa_QfY8ya1wJymNqg&oe=6AC16471"
         ]
       },
-      "spend": 69849,
-      "impressions": 1142,
-      "reach": 737,
-      "clicks": 15,
-      "engagement": 8,
+      "spend": 76766,
+      "impressions": 1258,
+      "reach": 804,
+      "clicks": 16,
+      "engagement": 9,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
