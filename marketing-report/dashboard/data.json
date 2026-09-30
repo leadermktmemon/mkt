@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T16:31:40.041Z",
+  "generatedAt": "2026-09-30T17:01:42.231Z",
   "source": "lark",
   "period": {
     "days": 522,
@@ -45765,7 +45765,7 @@
       "storeOnline": 23116000,
       "storeTarget": 126159000,
       "custIn": 146,
-      "custBuy": 143,
+      "custBuy": 142,
       "memonRev": 0,
       "leadRaw": 278,
       "leadQual": 91,
@@ -45855,7 +45855,7 @@
       "storeOnline": 18230500,
       "storeTarget": 128761500,
       "custIn": 195,
-      "custBuy": 191,
+      "custBuy": 190,
       "memonRev": 0,
       "leadRaw": 272,
       "leadQual": 91,
@@ -45945,7 +45945,7 @@
       "storeOnline": 24834450,
       "storeTarget": 145165750,
       "custIn": 274,
-      "custBuy": 254,
+      "custBuy": 253,
       "memonRev": 0,
       "leadRaw": 306,
       "leadQual": 98,
@@ -46034,8 +46034,8 @@
       "storeRev": 229661000,
       "storeOnline": 28498000,
       "storeTarget": 177214500,
-      "custIn": 448,
-      "custBuy": 436,
+      "custIn": 450,
+      "custBuy": 432,
       "memonRev": 0,
       "leadRaw": 318,
       "leadQual": 95,
@@ -46124,7 +46124,7 @@
       "storeRev": 137335000,
       "storeOnline": 11899000,
       "storeTarget": 156272250,
-      "custIn": 278,
+      "custIn": 281,
       "custBuy": 272,
       "memonRev": 0,
       "leadRaw": 178,
@@ -46214,8 +46214,8 @@
       "storeRev": 104712500,
       "storeOnline": 12430250,
       "storeTarget": 133766750,
-      "custIn": 207,
-      "custBuy": 198,
+      "custIn": 211,
+      "custBuy": 196,
       "memonRev": 0,
       "leadRaw": 147,
       "leadQual": 45,
@@ -46269,7 +46269,7 @@
       "storeOnline": 8551000,
       "storeTarget": 73800600,
       "custIn": 97,
-      "custBuy": 95,
+      "custBuy": 94,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -46323,7 +46323,7 @@
       "storeOnline": 12501750,
       "storeTarget": 97751750,
       "custIn": 102,
-      "custBuy": 100,
+      "custBuy": 98,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -46362,7 +46362,7 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Nguyễn Văn Cừ": 1630000,
+        "Nguyễn Văn Cừ": 2267500,
         "Lê Văn Sỹ": 5300000,
         "Nguyễn Gia Trí": 1975000,
         "Cầu Giấy": 4918500,
@@ -46373,11 +46373,11 @@
         "Nguyễn Trãi": 4147750,
         "Láng": 8510750
       },
-      "storeRev": 44572500,
-      "storeOnline": 18235000,
+      "storeRev": 45210000,
+      "storeOnline": 15915000,
       "storeTarget": 70973500,
-      "custIn": 85,
-      "custBuy": 81,
+      "custIn": 86,
+      "custBuy": 82,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55519,26 +55519,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2427969999,
-    "walkinOrders": 4575,
-    "marketingRevenue": 441851701,
-    "marketingOrdersEst": 847,
-    "custIn": 4711,
+    "walkinRevenue": 2428607499,
+    "walkinOrders": 4564,
+    "marketingRevenue": 439531701,
+    "marketingOrdersEst": 842,
+    "custIn": 4721,
     "closeRate": 97,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3167758949,
+    "totalRevenue": 3168396449,
     "salesCount": 1418,
     "byType": {
       "Online": 739788950,
-      "Cửa hàng": 2427969999
+      "Cửa hàng": 2428607499
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 3002269689,
+    "Bemori": 3002906802,
     "Teddy": 0,
     "Memon": 0
   },
@@ -55549,20 +55549,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 136808000,
-    "walkinOrders": 276,
-    "marketingRevenue": 39287750,
-    "marketingOrdersEst": 76,
-    "custIn": 284,
-    "closeRate": 97,
-    "marketingPct": 22
+    "walkinRevenue": 137445500,
+    "walkinOrders": 274,
+    "marketingRevenue": 36967750,
+    "marketingOrdersEst": 72,
+    "custIn": 285,
+    "closeRate": 96,
+    "marketingPct": 21
   },
   "weekSales": {
-    "totalRevenue": 179694000,
+    "totalRevenue": 180331500,
     "salesCount": 83,
     "byType": {
       "Online": 42886000,
-      "Cửa hàng": 136808000
+      "Cửa hàng": 137445500
     },
     "onlinePct": 24,
     "storePct": 76
@@ -55574,7 +55574,7 @@
   },
   "weekPeriod": {
     "from": "2026-09-28",
-    "to": "2026-09-30",
+    "to": "2026-10-01",
     "days": 3
   },
   "monthlyTargets": {
