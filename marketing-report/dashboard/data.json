@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T17:31:33.473Z",
+  "generatedAt": "2026-09-30T18:01:05.406Z",
   "source": "lark",
   "period": {
     "days": 523,
@@ -43883,9 +43883,9 @@
         "Outlet": 2037000,
         "Nguyễn Trãi": 3313000,
         "Lê Văn Sỹ": 7906000,
-        "Bạch Mai": 6342000
+        "Bạch Mai": 7342000
       },
-      "storeRev": 55426750,
+      "storeRev": 56426750,
       "storeOnline": 8491000,
       "storeTarget": 72932300,
       "custIn": 107,
@@ -43968,14 +43968,14 @@
         "Nguyễn Trãi": 12946499,
         "Láng": 9499000,
         "Xã Đàn": 5235000,
-        "Bạch Mai": 10570000,
+        "Bạch Mai": 11570000,
         "Nguyễn Văn Cừ": 9665000,
         "Lê Văn Sỹ": 7358250,
         "Outlet": 2265000,
         "Xuân Thủy": 6835500,
         "Cầu Giấy": 7324000
       },
-      "storeRev": 79897249,
+      "storeRev": 80897249,
       "storeOnline": 16115501,
       "storeTarget": 79445600,
       "custIn": 147,
@@ -44238,11 +44238,11 @@
         "Cầu Giấy": 6319500,
         "Xã Đàn": 6148000,
         "Lê Văn Sỹ": 8829250,
-        "Bạch Mai": 14138000,
+        "Bạch Mai": 13138000,
         "Xuân Thủy": 13260250,
         "Láng": 14571000
       },
-      "storeRev": 95383250,
+      "storeRev": 94383250,
       "storeOnline": 9425500,
       "storeTarget": 113204000,
       "custIn": 183,
@@ -44321,7 +44321,7 @@
         }
       },
       "store": {
-        "Bạch Mai": 9872000,
+        "Bạch Mai": 8872000,
         "Nguyễn Trãi": 10293500,
         "Nguyễn Gia Trí": 9681750,
         "Xã Đàn": 8425000,
@@ -44332,7 +44332,7 @@
         "Xuân Thủy": 9725250,
         "Outlet": 2664000
       },
-      "storeRev": 84878750,
+      "storeRev": 83878750,
       "storeOnline": 13033000,
       "storeTarget": 111960000,
       "custIn": 160,
@@ -55562,7 +55562,7 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2373180749,
+    "walkinRevenue": 2372180749,
     "walkinOrders": 4459,
     "marketingRevenue": 431040701,
     "marketingOrdersEst": 828,
@@ -55571,17 +55571,17 @@
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3098444699,
+    "totalRevenue": 3097444699,
     "salesCount": 1394,
     "byType": {
       "Online": 725263950,
-      "Cửa hàng": 2373180749
+      "Cửa hàng": 2372180749
     },
     "onlinePct": 23,
     "storePct": 77
   },
   "brands": {
-    "Bemori": 2934976737,
+    "Bemori": 2933977358,
     "Teddy": 0,
     "Memon": 0
   },
