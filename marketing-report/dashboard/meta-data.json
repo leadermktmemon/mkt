@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T07:29:57.522Z",
+  "generatedAt": "2026-10-04T07:31:45.064Z",
   "since": "2025-01-01",
   "until": "2026-10-04",
   "accounts": [
@@ -5084,11 +5084,11 @@
       "igPurchaseValue": 965000
     },
     "2026-10-04": {
-      "facebook": 1982819,
-      "instagram": 94158,
+      "facebook": 1979399,
+      "instagram": 93656,
       "messenger": 0,
-      "audience_network": 333,
-      "total": 2077310,
+      "audience_network": 331,
+      "total": 2073386,
       "igPurchaseValue": 0
     }
   },
@@ -15899,7 +15899,7 @@
       },
       "spend": 262013,
       "impressions": 3573,
-      "reach": 3090,
+      "reach": 3125,
       "clicks": 96,
       "engagement": 62,
       "messages": 7,
@@ -15955,8 +15955,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 159866,
-      "impressions": 1875,
+      "spend": 160661,
+      "impressions": 1887,
       "reach": 1728,
       "clicks": 82,
       "engagement": 53,
@@ -15964,7 +15964,7 @@
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 360000,
-      "roas": 2.25
+      "roas": 2.24
     },
     {
       "day": "2026-10-04",
@@ -16013,11 +16013,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 133444,
-      "impressions": 913,
+      "spend": 133471,
+      "impressions": 915,
       "reach": 753,
       "clicks": 38,
-      "engagement": 39,
+      "engagement": 40,
       "messages": 4,
       "leads": 2,
       "purchases": 1,
@@ -16048,6 +16048,35 @@
       "clicks": 74,
       "engagement": 49,
       "messages": 2,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-10-04",
+      "account": "Bemori 1",
+      "bm": "BM2",
+      "id": "120252008539220441",
+      "name": "3.10.26.Gối Kẹo",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120252008539220441.jpg",
+      "creative": {
+        "title": "",
+        "body": "☁️ Nàng ơi! Gối kẹo mát mịn đa năng – ôm tới đâu, thư thái tới đó...\n\n✨ 3 nấc cảm xúc khiến nàng mê mẩn em Gối Kẹo Bemori ngay lần chạm đầu tiên:\n\n• Vải Kem Lạnh tản nhiệt siêu nhanh, áp mặt hay ôm đều thấy mát mịn, thoáng rượi.\n• Lõi bông Micro siêu dẻo dai, thoải mái uốn cong, gấp đôi hay cuộn tròn kê chân/kê tay/tựa lưng/ôm ngủ...\n• Vừa vặn: Nút thắt cao su 2 đầu cho phép nàng tự do tăng/giảm độ căng phồng chuẩn gu.\n\n💖 Gối \"ngoan\" đáp ứng mọi dáng nằm, nhắn Bemori chốt ngay một em thôi nàng! \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 131980,
+      "impressions": 1069,
+      "reach": 806,
+      "clicks": 30,
+      "engagement": 226,
+      "messages": 5,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -16110,35 +16139,6 @@
       "purchases": 1,
       "purchaseValue": 560000,
       "roas": 4.27
-    },
-    {
-      "day": "2026-10-04",
-      "account": "Bemori 1",
-      "bm": "BM2",
-      "id": "120252008539220441",
-      "name": "3.10.26.Gối Kẹo",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120252008539220441.jpg",
-      "creative": {
-        "title": "",
-        "body": "☁️ Nàng ơi! Gối kẹo mát mịn đa năng – ôm tới đâu, thư thái tới đó...\n\n✨ 3 nấc cảm xúc khiến nàng mê mẩn em Gối Kẹo Bemori ngay lần chạm đầu tiên:\n\n• Vải Kem Lạnh tản nhiệt siêu nhanh, áp mặt hay ôm đều thấy mát mịn, thoáng rượi.\n• Lõi bông Micro siêu dẻo dai, thoải mái uốn cong, gấp đôi hay cuộn tròn kê chân/kê tay/tựa lưng/ôm ngủ...\n• Vừa vặn: Nút thắt cao su 2 đầu cho phép nàng tự do tăng/giảm độ căng phồng chuẩn gu.\n\n💖 Gối \"ngoan\" đáp ứng mọi dáng nằm, nhắn Bemori chốt ngay một em thôi nàng! \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 130919,
-      "impressions": 1062,
-      "reach": 806,
-      "clicks": 29,
-      "engagement": 226,
-      "messages": 5,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
     },
     {
       "day": "2026-10-04",
@@ -16279,7 +16279,7 @@
       "reach": 1847,
       "clicks": 105,
       "engagement": 44,
-      "messages": 3,
+      "messages": 4,
       "leads": 2,
       "purchases": 0,
       "purchaseValue": 0,
