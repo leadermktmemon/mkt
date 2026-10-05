@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T16:01:41.013Z",
+  "generatedAt": "2026-10-05T16:31:25.323Z",
   "source": "lark",
   "period": {
     "days": 527,
@@ -46634,7 +46634,7 @@
       "store": {
         "Bạch Mai": 11354000,
         "Nguyễn Gia Trí": 7086250,
-        "Láng": 5710001,
+        "Láng": 6105001,
         "Xuân Thủy": 3509000,
         "Cầu Giấy": 9774000,
         "Nguyễn Văn Cừ": 6852000,
@@ -46643,11 +46643,11 @@
         "Outlet": 1012500,
         "Lê Văn Sỹ": 3837750
       },
-      "storeRev": 57267001,
+      "storeRev": 57662001,
       "storeOnline": 12378000,
-      "storeTarget": 69570000,
-      "custIn": 112,
-      "custBuy": 107,
+      "storeTarget": 72720000,
+      "custIn": 113,
+      "custBuy": 108,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55871,26 +55871,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2438930106,
-    "walkinOrders": 4569,
+    "walkinRevenue": 2439325106,
+    "walkinOrders": 4570,
     "marketingRevenue": 440808209,
     "marketingOrdersEst": 818,
-    "custIn": 4752,
+    "custIn": 4753,
     "closeRate": 96,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3215747406,
+    "totalRevenue": 3216142406,
     "salesCount": 1442,
     "byType": {
       "Online": 776817300,
-      "Cửa hàng": 2438930106
+      "Cửa hàng": 2439325106
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 2942241130,
+    "Bemori": 2942635856,
     "Teddy": 0,
     "Memon": 0
   },
@@ -55901,20 +55901,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 57267001,
-    "walkinOrders": 107,
+    "walkinRevenue": 57662001,
+    "walkinOrders": 108,
     "marketingRevenue": 12378000,
     "marketingOrdersEst": 24,
-    "custIn": 112,
+    "custIn": 113,
     "closeRate": 96,
     "marketingPct": 18
   },
   "weekSales": {
-    "totalRevenue": 77457001,
+    "totalRevenue": 77852001,
     "salesCount": 39,
     "byType": {
       "Online": 20190000,
-      "Cửa hàng": 57267001
+      "Cửa hàng": 57662001
     },
     "onlinePct": 26,
     "storePct": 74
