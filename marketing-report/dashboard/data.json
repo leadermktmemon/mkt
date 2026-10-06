@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T10:32:38.337Z",
+  "generatedAt": "2026-10-06T11:02:19.023Z",
   "source": "lark",
   "period": {
     "days": 528,
@@ -46686,15 +46686,17 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Xã Đàn": 1113000,
         "Lê Văn Sỹ": 1948000,
         "Cầu Giấy": 1595000,
-        "Nguyễn Trãi": 1750000
+        "Nguyễn Trãi": 1750000,
+        "Outlet": 412500
       },
-      "storeRev": 5293000,
+      "storeRev": 6818500,
       "storeOnline": 695000,
-      "storeTarget": 14562000,
-      "custIn": 13,
-      "custBuy": 13,
+      "storeTarget": 19638000,
+      "custIn": 20,
+      "custBuy": 19,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -56033,26 +56035,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2360739356,
-    "walkinOrders": 4429,
+    "walkinRevenue": 2362264856,
+    "walkinOrders": 4435,
     "marketingRevenue": 428470209,
     "marketingOrdersEst": 794,
-    "custIn": 4606,
+    "custIn": 4613,
     "closeRate": 96,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3116369656,
+    "totalRevenue": 3117895156,
     "salesCount": 1401,
     "byType": {
       "Online": 755630300,
-      "Cửa hàng": 2360739356
+      "Cửa hàng": 2362264856
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 2847941698,
+    "Bemori": 2849466107,
     "Teddy": 0,
     "Memon": 0
   },
@@ -56063,20 +56065,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 62955001,
-    "walkinOrders": 121,
+    "walkinRevenue": 64480501,
+    "walkinOrders": 127,
     "marketingRevenue": 13073000,
     "marketingOrdersEst": 25,
-    "custIn": 126,
-    "closeRate": 96,
+    "custIn": 133,
+    "closeRate": 95,
     "marketingPct": 17
   },
   "weekSales": {
-    "totalRevenue": 83145001,
+    "totalRevenue": 84670501,
     "salesCount": 39,
     "byType": {
       "Online": 20190000,
-      "Cửa hàng": 62955001
+      "Cửa hàng": 64480501
     },
     "onlinePct": 24,
     "storePct": 76
