@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:01:53.179Z",
+  "generatedAt": "2026-10-07T20:01:36.698Z",
   "since": "2025-01-01",
   "until": "2026-10-07",
   "accounts": [
@@ -5108,11 +5108,11 @@
       "igPurchaseValue": 244000
     },
     "2026-10-07": {
-      "facebook": 3136653,
-      "instagram": 180096,
+      "facebook": 3136278,
+      "instagram": 179932,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3316749,
+      "total": 3316210,
       "igPurchaseValue": 540000
     }
   },
@@ -16762,8 +16762,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 307992,
-      "impressions": 3283,
+      "spend": 308015,
+      "impressions": 3284,
       "reach": 2116,
       "clicks": 101,
       "engagement": 86,
@@ -16791,8 +16791,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 286887,
-      "impressions": 5343,
+      "spend": 286926,
+      "impressions": 5345,
       "reach": 4487,
       "clicks": 186,
       "engagement": 93,
@@ -16820,9 +16820,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 265606,
-      "impressions": 3089,
-      "reach": 2626,
+      "spend": 265742,
+      "impressions": 3094,
+      "reach": 2629,
       "clicks": 152,
       "engagement": 101,
       "messages": 11,
@@ -16849,9 +16849,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 236505,
-      "impressions": 3862,
-      "reach": 2600,
+      "spend": 236537,
+      "impressions": 3865,
+      "reach": 2602,
       "clicks": 90,
       "engagement": 99,
       "messages": 11,
@@ -16859,6 +16859,35 @@
       "purchases": 1,
       "purchaseValue": 1130000,
       "roas": 4.78
+    },
+    {
+      "day": "2026-10-07",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248380870010340",
+      "name": "3.10.HOA CARO",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "CONVERSATIONS",
+      "thumb": "thumbs/120248380870010340.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌷 BST HOA CARO BE BLOOM – GIỎ CHẬU HOA CHỈ 169K! 🌸\n20/10 này, hoa không chỉ để ngắm mà còn để ôm, để thương và giữ lại thật lâu. 💗\n\nBemori gửi nàng những mẫu hoa bông caro Be Bloom xinh xắn, mang chút ngọt ngào của mùa yêu thương.\n🌷 Giỏ chậu hoa caro chỉ 169K\n🌸 Combo giỏ hoa caro + tựa hoa chỉ 299K\n💐 Nhiều mẫu hoa hoa bông khổng lồ khác giá yêu thương chỉ từ 199K\n\nMột bó hoa thật đặc biệt, một món quà thật đáng yêu – để 20/10 này, nàng có thêm một điều nhỏ xíu để mỉm cười. 🥰\n\n📅 Diễn ra duy nhất từ 03/10 – 21/10/2026\n🎀 Ghé Bemori rinh giỏ hoa caro hot hit về tặng nàng nha! 💕\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI\n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 220727,
+      "impressions": 3799,
+      "reach": 2860,
+      "clicks": 171,
+      "engagement": 82,
+      "messages": 9,
+      "leads": 2,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-10-07",
@@ -16888,35 +16917,6 @@
       "purchases": 1,
       "purchaseValue": 525000,
       "roas": 2.38
-    },
-    {
-      "day": "2026-10-07",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248380870010340",
-      "name": "3.10.HOA CARO",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "CONVERSATIONS",
-      "thumb": "thumbs/120248380870010340.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌷 BST HOA CARO BE BLOOM – GIỎ CHẬU HOA CHỈ 169K! 🌸\n20/10 này, hoa không chỉ để ngắm mà còn để ôm, để thương và giữ lại thật lâu. 💗\n\nBemori gửi nàng những mẫu hoa bông caro Be Bloom xinh xắn, mang chút ngọt ngào của mùa yêu thương.\n🌷 Giỏ chậu hoa caro chỉ 169K\n🌸 Combo giỏ hoa caro + tựa hoa chỉ 299K\n💐 Nhiều mẫu hoa hoa bông khổng lồ khác giá yêu thương chỉ từ 199K\n\nMột bó hoa thật đặc biệt, một món quà thật đáng yêu – để 20/10 này, nàng có thêm một điều nhỏ xíu để mỉm cười. 🥰\n\n📅 Diễn ra duy nhất từ 03/10 – 21/10/2026\n🎀 Ghé Bemori rinh giỏ hoa caro hot hit về tặng nàng nha! 💕\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI\n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 220674,
-      "impressions": 3797,
-      "reach": 2856,
-      "clicks": 171,
-      "engagement": 82,
-      "messages": 9,
-      "leads": 2,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
     },
     {
       "day": "2026-10-07",
@@ -16965,9 +16965,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 211478,
-      "impressions": 2075,
-      "reach": 1164,
+      "spend": 211501,
+      "impressions": 2076,
+      "reach": 1166,
       "clicks": 69,
       "engagement": 59,
       "messages": 3,
@@ -16994,9 +16994,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 211215,
-      "impressions": 2295,
-      "reach": 1571,
+      "spend": 211268,
+      "impressions": 2297,
+      "reach": 1573,
       "clicks": 75,
       "engagement": 65,
       "messages": 12,
@@ -17052,8 +17052,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 199535,
-      "impressions": 2578,
+      "spend": 199568,
+      "impressions": 2579,
       "reach": 2230,
       "clicks": 107,
       "engagement": 80,
