@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:00:52.723Z",
+  "generatedAt": "2026-10-09T21:00:59.561Z",
   "since": "2025-01-01",
   "until": "2026-10-09",
   "accounts": [
@@ -5124,11 +5124,11 @@
       "igPurchaseValue": 0
     },
     "2026-10-09": {
-      "facebook": 3736643,
-      "instagram": 129210,
+      "facebook": 3739817,
+      "instagram": 129166,
       "messenger": 0,
       "audience_network": 0,
-      "total": 3865853,
+      "total": 3868983,
       "igPurchaseValue": 0
     }
   },
@@ -17431,35 +17431,6 @@
       "day": "2026-10-09",
       "account": "Pa15",
       "bm": "BM1",
-      "id": "120248302235800340",
-      "name": "30.9.26-tuổi:24-34-SP:heo váy bí - cầu vồng-định dạng",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "CONVERSATIONS",
-      "thumb": "thumbs/120248302235800340.jpg",
-      "creative": {
-        "title": "",
-        "body": "🎀 HOT TREND THÁNG ĐẶC BIỆT – HEO BÔNG TIỂU THƯ DÀNH RIÊNG CHO NÀNG 🎀 \nDịp cuối năm luôn là mùa tràn ngập tình yêu: mùa cầu hôn, mùa tỏ tình, mùa cưới, mùa kỷ niệm và những ngày đặc biệt dành riêng cho phái đẹp… 💗\n\nVà một em Heo Bông Tiểu Thư điệu đà chính là \"sứ giả ngọt ngào\" giúp bạn gói trọn chân tình gửi tới người ấy.\n\n🐷 Mũm mĩm đáng yêu: khiến nàng nhìn là chỉ muốn ôm ngay vào lòng\n🎀 Phong cách tiểu thư: đốn gục trái tim mọi cô gái\n💗 Tặng nàng dịp đặc biệt: giúp bạn tạo dấu ấn đậm sâu trong mắt nàng\n\n👉 Mùa yêu thương đã gõ cửa, ghé Bemori chọn ngay một \"em heo\" xinh xắn để làm xiêu lòng người ấy nhé!\n\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI\n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 204737,
-      "impressions": 2483,
-      "reach": 1646,
-      "clicks": 52,
-      "engagement": 60,
-      "messages": 11,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-10-09",
-      "account": "Pa15",
-      "bm": "BM1",
       "id": "120248380500270340",
       "name": "3.10.26-mua sỉ quà 20/10",
       "status": "ACTIVE",
@@ -17474,12 +17445,41 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 204681,
-      "impressions": 2270,
+      "spend": 204852,
+      "impressions": 2272,
       "reach": 1418,
       "clicks": 55,
       "engagement": 92,
       "messages": 8,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-10-09",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248302235800340",
+      "name": "30.9.26-tuổi:24-34-SP:heo váy bí - cầu vồng-định dạng",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "CONVERSATIONS",
+      "thumb": "thumbs/120248302235800340.jpg",
+      "creative": {
+        "title": "",
+        "body": "🎀 HOT TREND THÁNG ĐẶC BIỆT – HEO BÔNG TIỂU THƯ DÀNH RIÊNG CHO NÀNG 🎀 \nDịp cuối năm luôn là mùa tràn ngập tình yêu: mùa cầu hôn, mùa tỏ tình, mùa cưới, mùa kỷ niệm và những ngày đặc biệt dành riêng cho phái đẹp… 💗\n\nVà một em Heo Bông Tiểu Thư điệu đà chính là \"sứ giả ngọt ngào\" giúp bạn gói trọn chân tình gửi tới người ấy.\n\n🐷 Mũm mĩm đáng yêu: khiến nàng nhìn là chỉ muốn ôm ngay vào lòng\n🎀 Phong cách tiểu thư: đốn gục trái tim mọi cô gái\n💗 Tặng nàng dịp đặc biệt: giúp bạn tạo dấu ấn đậm sâu trong mắt nàng\n\n👉 Mùa yêu thương đã gõ cửa, ghé Bemori chọn ngay một \"em heo\" xinh xắn để làm xiêu lòng người ấy nhé!\n\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI\n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 204775,
+      "impressions": 2487,
+      "reach": 1648,
+      "clicks": 52,
+      "engagement": 60,
+      "messages": 11,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -17532,9 +17532,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 193633,
-      "impressions": 2616,
-      "reach": 1966,
+      "spend": 194157,
+      "impressions": 2617,
+      "reach": 1968,
       "clicks": 80,
       "engagement": 67,
       "messages": 8,
@@ -17561,8 +17561,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 189375,
-      "impressions": 1490,
+      "spend": 189506,
+      "impressions": 1491,
       "reach": 1031,
       "clicks": 28,
       "engagement": 25,
@@ -17590,8 +17590,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 185341,
-      "impressions": 1342,
+      "spend": 185749,
+      "impressions": 1343,
       "reach": 985,
       "clicks": 46,
       "engagement": 27,
@@ -17599,7 +17599,7 @@
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1890000,
-      "roas": 10.2
+      "roas": 10.18
     },
     {
       "day": "2026-10-09",
@@ -17619,8 +17619,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 185258,
-      "impressions": 2071,
+      "spend": 185361,
+      "impressions": 2072,
       "reach": 1580,
       "clicks": 100,
       "engagement": 60,
@@ -17648,8 +17648,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 179987,
-      "impressions": 1078,
+      "spend": 180336,
+      "impressions": 1079,
       "reach": 835,
       "clicks": 22,
       "engagement": 189,
@@ -17677,8 +17677,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 175029,
-      "impressions": 2630,
+      "spend": 175507,
+      "impressions": 2631,
       "reach": 2205,
       "clicks": 61,
       "engagement": 36,
@@ -17686,7 +17686,7 @@
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1035000,
-      "roas": 5.91
+      "roas": 5.9
     },
     {
       "day": "2026-10-09",
@@ -17735,9 +17735,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 158655,
-      "impressions": 1223,
-      "reach": 1003,
+      "spend": 159201,
+      "impressions": 1225,
+      "reach": 1005,
       "clicks": 33,
       "engagement": 20,
       "messages": 2,
@@ -17795,7 +17795,7 @@
       },
       "spend": 151965,
       "impressions": 1992,
-      "reach": 1243,
+      "reach": 1245,
       "clicks": 37,
       "engagement": 26,
       "messages": 2,
@@ -17822,8 +17822,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 146317,
-      "impressions": 1274,
+      "spend": 146626,
+      "impressions": 1275,
       "reach": 1066,
       "clicks": 38,
       "engagement": 30,
@@ -18112,9 +18112,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 57530,
-      "impressions": 692,
-      "reach": 603,
+      "spend": 57603,
+      "impressions": 693,
+      "reach": 604,
       "clicks": 14,
       "engagement": 236,
       "messages": 0,
