@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T21:03:18.947Z",
+  "generatedAt": "2026-10-10T22:01:06.653Z",
   "since": "2025-01-01",
   "until": "2026-10-10",
   "accounts": [
@@ -5132,11 +5132,11 @@
       "igPurchaseValue": 0
     },
     "2026-10-10": {
-      "facebook": 3841054,
-      "instagram": 161915,
+      "facebook": 3841082,
+      "instagram": 161917,
       "messenger": 0,
       "audience_network": 0,
-      "total": 4002969,
+      "total": 4002999,
       "igPurchaseValue": 0
     }
   },
@@ -18121,7 +18121,7 @@
         "images": []
       },
       "spend": 192004,
-      "impressions": 1667,
+      "impressions": 1668,
       "reach": 1468,
       "clicks": 67,
       "engagement": 43,
@@ -18236,8 +18236,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 177665,
-      "impressions": 3057,
+      "spend": 177682,
+      "impressions": 3058,
       "reach": 2562,
       "clicks": 54,
       "engagement": 28,
@@ -18266,7 +18266,7 @@
         "images": []
       },
       "spend": 173381,
-      "impressions": 1143,
+      "impressions": 1144,
       "reach": 886,
       "clicks": 33,
       "engagement": 23,
@@ -18324,8 +18324,8 @@
         "images": []
       },
       "spend": 167586,
-      "impressions": 1403,
-      "reach": 1090,
+      "impressions": 1404,
+      "reach": 1091,
       "clicks": 41,
       "engagement": 32,
       "messages": 5,
@@ -18353,7 +18353,7 @@
         "images": []
       },
       "spend": 166877,
-      "impressions": 2096,
+      "impressions": 2097,
       "reach": 1388,
       "clicks": 29,
       "engagement": 25,
@@ -18411,7 +18411,7 @@
         "images": []
       },
       "spend": 162603,
-      "impressions": 1274,
+      "impressions": 1275,
       "reach": 939,
       "clicks": 44,
       "engagement": 23,
@@ -18671,9 +18671,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 111720,
-      "impressions": 2339,
-      "reach": 2024,
+      "spend": 111733,
+      "impressions": 2340,
+      "reach": 2026,
       "clicks": 71,
       "engagement": 36,
       "messages": 3,
