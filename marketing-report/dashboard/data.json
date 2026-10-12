@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:02:38.236Z",
+  "generatedAt": "2026-10-12T11:32:12.552Z",
   "source": "lark",
   "period": {
     "days": 534,
@@ -46780,7 +46780,7 @@
       "onlineRev31": 19243000,
       "onlineOrders": 39,
       "onlineProducts": 0,
-      "onlineTarget": 24000000,
+      "onlineTarget": 20000000,
       "fbAds": 5234000,
       "ggAds": 8554000,
       "social": 5455000,
@@ -46870,7 +46870,7 @@
       "onlineRev31": 52916000,
       "onlineOrders": 43,
       "onlineProducts": 0,
-      "onlineTarget": 12000000,
+      "onlineTarget": 20000000,
       "fbAds": 8961000,
       "ggAds": 42831000,
       "social": 1124000,
@@ -46960,7 +46960,7 @@
       "onlineRev31": 28121000,
       "onlineOrders": 41,
       "onlineProducts": 0,
-      "onlineTarget": 12000000,
+      "onlineTarget": 20000000,
       "fbAds": 9315000,
       "ggAds": 16404000,
       "social": 2402000,
@@ -47050,7 +47050,7 @@
       "onlineRev31": 19489000,
       "onlineOrders": 20,
       "onlineProducts": 0,
-      "onlineTarget": 12000000,
+      "onlineTarget": 20000000,
       "fbAds": 6839000,
       "ggAds": 9395000,
       "social": 3255000,
@@ -47136,7 +47136,7 @@
       "onlineRev31": 25113000,
       "onlineOrders": 47,
       "onlineProducts": 0,
-      "onlineTarget": 12000000,
+      "onlineTarget": 20000000,
       "fbAds": 8208000,
       "ggAds": 13744000,
       "social": 3161000,
@@ -47225,7 +47225,7 @@
       "onlineRev31": 26570000,
       "onlineOrders": 39,
       "onlineProducts": 0,
-      "onlineTarget": 12000000,
+      "onlineTarget": 20000000,
       "fbAds": 7595000,
       "ggAds": 11389000,
       "social": 7586000,
@@ -47315,7 +47315,7 @@
       "onlineRev31": 29903000,
       "onlineOrders": 42,
       "onlineProducts": 0,
-      "onlineTarget": 12000000,
+      "onlineTarget": 20000000,
       "fbAds": 11580500,
       "ggAds": 11708500,
       "social": 6614000,
@@ -47381,7 +47381,7 @@
       "onlineRev31": 0,
       "onlineOrders": 19,
       "onlineProducts": 0,
-      "onlineTarget": 12000000,
+      "onlineTarget": 15000000,
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
@@ -47392,13 +47392,14 @@
         "Nguyễn Trãi": 2379000,
         "Outlet": 495000,
         "Cầu Giấy": 345000,
-        "Láng": 2715000
+        "Láng": 2715000,
+        "Xã Đàn": 2292250
       },
-      "storeRev": 9329000,
-      "storeOnline": 2225000,
-      "storeTarget": 32160000,
-      "custIn": 17,
-      "custBuy": 17,
+      "storeRev": 11621250,
+      "storeOnline": 2873000,
+      "storeTarget": 38670000,
+      "custIn": 22,
+      "custBuy": 22,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -58787,26 +58788,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2458121251,
-    "walkinOrders": 4524,
-    "marketingRevenue": 434128959,
-    "marketingOrdersEst": 763,
-    "custIn": 4722,
+    "walkinRevenue": 2460413501,
+    "walkinOrders": 4529,
+    "marketingRevenue": 434776959,
+    "marketingOrdersEst": 764,
+    "custIn": 4727,
     "closeRate": 96,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3259428301,
+    "totalRevenue": 3261720551,
     "salesCount": 1408,
     "byType": {
       "Online": 801307050,
-      "Cửa hàng": 2458121251
+      "Cửa hàng": 2460413501
     },
     "onlinePct": 25,
     "storePct": 75
   },
   "brands": {
-    "Bemori": 3068432065,
+    "Bemori": 3070723005,
     "Teddy": 0,
     "Memon": 0
   },
@@ -58817,23 +58818,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 9329000,
-    "walkinOrders": 17,
-    "marketingRevenue": 2225000,
-    "marketingOrdersEst": 4,
-    "custIn": 17,
+    "walkinRevenue": 11621250,
+    "walkinOrders": 22,
+    "marketingRevenue": 2873000,
+    "marketingOrdersEst": 5,
+    "custIn": 22,
     "closeRate": 100,
-    "marketingPct": 19
+    "marketingPct": 20
   },
   "weekSales": {
-    "totalRevenue": 19656000,
+    "totalRevenue": 21948250,
     "salesCount": 19,
     "byType": {
       "Online": 10327000,
-      "Cửa hàng": 9329000
+      "Cửa hàng": 11621250
     },
-    "onlinePct": 53,
-    "storePct": 47
+    "onlinePct": 47,
+    "storePct": 53
   },
   "weekBrands": {
     "Bemori": 0,
