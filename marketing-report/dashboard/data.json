@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T09:01:42.960Z",
+  "generatedAt": "2026-10-14T09:21:37.503Z",
   "source": "lark",
   "period": {
     "days": 536,
@@ -47485,11 +47485,11 @@
     {
       "day": "2026-10-14",
       "online": {},
-      "onlineRev": 0,
+      "onlineRev": 10972500,
       "onlineRev31": 0,
-      "onlineOrders": 0,
+      "onlineOrders": 20,
       "onlineProducts": 0,
-      "onlineTarget": 0,
+      "onlineTarget": 15000000,
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
@@ -59082,47 +59082,47 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 761707800,
-    "onlineOrders": 1345,
-    "onlineAov": 566326,
+    "onlineRevenue": 772680300,
+    "onlineOrders": 1365,
+    "onlineAov": 566066,
     "channels": [
       {
         "name": "Facebook",
-        "orders": 570,
-        "revenue": 323018102,
-        "aov": 566698,
+        "orders": 579,
+        "revenue": 327671220,
+        "aov": 565926,
         "share": 42,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 536,
-        "revenue": 303740874,
-        "aov": 566681,
+        "orders": 544,
+        "revenue": 308116301,
+        "aov": 566390,
         "share": 40,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 102,
-        "revenue": 57996339,
-        "aov": 568592,
+        "orders": 104,
+        "revenue": 58831784,
+        "aov": 565690,
         "share": 8,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 68,
-        "revenue": 38781156,
-        "aov": 570311,
+        "orders": 69,
+        "revenue": 39339804,
+        "aov": 570142,
         "share": 5,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 67,
-        "revenue": 38171328,
-        "aov": 569721,
+        "orders": 68,
+        "revenue": 38721191,
+        "aov": 569429,
         "share": 5,
         "est": true
       }
@@ -59138,10 +59138,10 @@
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 3208573051,
-    "salesCount": 1345,
+    "totalRevenue": 3219545551,
+    "salesCount": 1365,
     "byType": {
-      "Online": 761707800,
+      "Online": 772680300,
       "Cửa hàng": 2446865251
     },
     "onlinePct": 24,
@@ -59153,29 +59153,29 @@
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 27008500,
-    "onlineOrders": 67,
-    "onlineAov": 403112,
+    "onlineRevenue": 37981000,
+    "onlineOrders": 87,
+    "onlineAov": 436563,
     "channels": []
   },
   "weekStore": {
     "walkinRevenue": 138749000,
     "walkinOrders": 254,
     "marketingRevenue": 19660000,
-    "marketingOrdersEst": 49,
+    "marketingOrdersEst": 45,
     "custIn": 267,
     "closeRate": 95,
     "marketingPct": 12
   },
   "weekSales": {
-    "totalRevenue": 165757500,
-    "salesCount": 67,
+    "totalRevenue": 176730000,
+    "salesCount": 87,
     "byType": {
-      "Online": 27008500,
+      "Online": 37981000,
       "Cửa hàng": 138749000
     },
-    "onlinePct": 16,
-    "storePct": 84
+    "onlinePct": 21,
+    "storePct": 79
   },
   "weekBrands": {
     "Bemori": 0,
