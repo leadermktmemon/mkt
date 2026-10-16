@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T22:31:48.040Z",
+  "generatedAt": "2026-10-16T23:31:34.657Z",
   "since": "2025-01-01",
   "until": "2026-10-16",
   "accounts": [
@@ -5180,11 +5180,11 @@
       "igPurchaseValue": 0
     },
     "2026-10-16": {
-      "facebook": 6035516,
-      "instagram": 222801,
+      "facebook": 6046928,
+      "instagram": 222806,
       "messenger": 0,
       "audience_network": 0,
-      "total": 6258317,
+      "total": 6269734,
       "igPurchaseValue": 1029000
     }
   },
@@ -20662,8 +20662,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 500412,
-      "impressions": 7267,
+      "spend": 501982,
+      "impressions": 7273,
       "reach": 5231,
       "clicks": 209,
       "engagement": 137,
@@ -20671,7 +20671,7 @@
       "leads": 8,
       "purchases": 4,
       "purchaseValue": 1719000,
-      "roas": 3.44
+      "roas": 3.42
     },
     {
       "day": "2026-10-16",
@@ -20691,8 +20691,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 348799,
-      "impressions": 4916,
+      "spend": 349380,
+      "impressions": 4918,
       "reach": 4042,
       "clicks": 51,
       "engagement": 794,
@@ -20700,7 +20700,7 @@
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 595000,
-      "roas": 1.71
+      "roas": 1.7
     },
     {
       "day": "2026-10-16",
@@ -20720,9 +20720,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 344615,
-      "impressions": 2703,
-      "reach": 1892,
+      "spend": 345269,
+      "impressions": 2707,
+      "reach": 1894,
       "clicks": 84,
       "engagement": 54,
       "messages": 9,
@@ -20749,8 +20749,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 339011,
-      "impressions": 4511,
+      "spend": 339157,
+      "impressions": 4514,
       "reach": 3908,
       "clicks": 107,
       "engagement": 51,
@@ -20778,8 +20778,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 320001,
-      "impressions": 1788,
+      "spend": 320011,
+      "impressions": 1789,
       "reach": 1364,
       "clicks": 27,
       "engagement": 325,
@@ -20807,8 +20807,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 310738,
-      "impressions": 2322,
+      "spend": 311527,
+      "impressions": 2327,
       "reach": 1424,
       "clicks": 61,
       "engagement": 38,
@@ -20836,10 +20836,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 309713,
-      "impressions": 4590,
-      "reach": 3593,
-      "clicks": 114,
+      "spend": 311138,
+      "impressions": 4603,
+      "reach": 3601,
+      "clicks": 115,
       "engagement": 64,
       "messages": 6,
       "leads": 2,
@@ -20865,11 +20865,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 296903,
-      "impressions": 4564,
+      "spend": 297027,
+      "impressions": 4566,
       "reach": 3965,
       "clicks": 103,
-      "engagement": 847,
+      "engagement": 848,
       "messages": 7,
       "leads": 0,
       "purchases": 0,
@@ -20894,11 +20894,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 295847,
-      "impressions": 7165,
+      "spend": 295927,
+      "impressions": 7170,
       "reach": 5912,
       "clicks": 153,
-      "engagement": 1274,
+      "engagement": 1277,
       "messages": 19,
       "leads": 0,
       "purchases": 0,
@@ -20923,9 +20923,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 245003,
-      "impressions": 6328,
-      "reach": 5309,
+      "spend": 245252,
+      "impressions": 6340,
+      "reach": 5312,
       "clicks": 367,
       "engagement": 251,
       "messages": 32,
@@ -20952,8 +20952,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 236357,
-      "impressions": 2253,
+      "spend": 236401,
+      "impressions": 2254,
       "reach": 1673,
       "clicks": 68,
       "engagement": 37,
@@ -20981,8 +20981,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 230473,
-      "impressions": 3803,
+      "spend": 230873,
+      "impressions": 3805,
       "reach": 3399,
       "clicks": 67,
       "engagement": 766,
@@ -21010,11 +21010,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 228292,
-      "impressions": 3839,
-      "reach": 3285,
+      "spend": 228707,
+      "impressions": 3847,
+      "reach": 3291,
       "clicks": 64,
-      "engagement": 486,
+      "engagement": 489,
       "messages": 7,
       "leads": 4,
       "purchases": 0,
@@ -21039,9 +21039,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 227212,
-      "impressions": 2524,
-      "reach": 2041,
+      "spend": 227236,
+      "impressions": 2525,
+      "reach": 2042,
       "clicks": 85,
       "engagement": 60,
       "messages": 7,
@@ -21049,6 +21049,35 @@
       "purchases": 2,
       "purchaseValue": 650000,
       "roas": 2.86
+    },
+    {
+      "day": "2026-10-16",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248541685230340",
+      "name": "14.10.BST HEO 2",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120248541685230340.jpg",
+      "creative": {
+        "title": "",
+        "body": "Anh mua vì nó là \"phiên bản\" quá sức đáng yêu của em đó, bae\n\nNgười thương em là người trong mắt lúc nào cũng có em, nhìn thấy điều gì xinh đẹp là lại nhớ đến em🌻\n\nMột món quà nhỏ của anh đủ khiến 1 ngày của em tràn ngập màu hồng và sự đáng yêu rồi: \n\n💕Heo bông ôm Trái cây: nhắc em yêu nhớ ăn đủ rau, trái cây mỗi ngày \n🌼Heo bông mặc váy bí: nhắc em rằng em xinh đẹp đến nhường nào \n🍒 Heo bông mặc váy tag cầu vồng: nhắc em rằng sau cơ mưa sẽ luôn là ngày năng đẹp \n\n👉 Tín hiệu \"zũ trụ\" kêu gọi, chàng lướt thấy Bemori chính là thông điệp tình yêu từ cô ấy chăng? Hãy cùng Bemori tạo nên những khoảnh khắc tuyệt vời cho \"công chúa yêu\" nhà mình nha ~ \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI\n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 214705,
+      "impressions": 1678,
+      "reach": 1105,
+      "clicks": 57,
+      "engagement": 34,
+      "messages": 5,
+      "leads": 4,
+      "purchases": 4,
+      "purchaseValue": 2295000,
+      "roas": 10.69
     },
     {
       "day": "2026-10-16",
@@ -21081,35 +21110,6 @@
     },
     {
       "day": "2026-10-16",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248541685230340",
-      "name": "14.10.BST HEO 2",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120248541685230340.jpg",
-      "creative": {
-        "title": "",
-        "body": "Anh mua vì nó là \"phiên bản\" quá sức đáng yêu của em đó, bae\n\nNgười thương em là người trong mắt lúc nào cũng có em, nhìn thấy điều gì xinh đẹp là lại nhớ đến em🌻\n\nMột món quà nhỏ của anh đủ khiến 1 ngày của em tràn ngập màu hồng và sự đáng yêu rồi: \n\n💕Heo bông ôm Trái cây: nhắc em yêu nhớ ăn đủ rau, trái cây mỗi ngày \n🌼Heo bông mặc váy bí: nhắc em rằng em xinh đẹp đến nhường nào \n🍒 Heo bông mặc váy tag cầu vồng: nhắc em rằng sau cơ mưa sẽ luôn là ngày năng đẹp \n\n👉 Tín hiệu \"zũ trụ\" kêu gọi, chàng lướt thấy Bemori chính là thông điệp tình yêu từ cô ấy chăng? Hãy cùng Bemori tạo nên những khoảnh khắc tuyệt vời cho \"công chúa yêu\" nhà mình nha ~ \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI\n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 209737,
-      "impressions": 1677,
-      "reach": 1103,
-      "clicks": 57,
-      "engagement": 34,
-      "messages": 5,
-      "leads": 4,
-      "purchases": 4,
-      "purchaseValue": 2295000,
-      "roas": 10.94
-    },
-    {
-      "day": "2026-10-16",
       "account": "Bemori 3",
       "bm": "BM2",
       "id": "120259903480140112",
@@ -21126,9 +21126,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 204773,
-      "impressions": 1835,
-      "reach": 1524,
+      "spend": 204811,
+      "impressions": 1837,
+      "reach": 1526,
       "clicks": 68,
       "engagement": 45,
       "messages": 9,
@@ -21184,8 +21184,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 197005,
-      "impressions": 1626,
+      "spend": 197220,
+      "impressions": 1628,
       "reach": 925,
       "clicks": 72,
       "engagement": 93,
@@ -21193,7 +21193,7 @@
       "leads": 6,
       "purchases": 3,
       "purchaseValue": 1241000,
-      "roas": 6.3
+      "roas": 6.29
     },
     {
       "day": "2026-10-16",
@@ -21213,8 +21213,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 190682,
-      "impressions": 1159,
+      "spend": 190736,
+      "impressions": 1160,
       "reach": 879,
       "clicks": 17,
       "engagement": 217,
@@ -21271,16 +21271,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 126284,
-      "impressions": 1538,
+      "spend": 126415,
+      "impressions": 1541,
       "reach": 1297,
       "clicks": 69,
-      "engagement": 396,
+      "engagement": 397,
       "messages": 8,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 405000,
-      "roas": 3.21
+      "roas": 3.2
     },
     {
       "day": "2026-10-16",
