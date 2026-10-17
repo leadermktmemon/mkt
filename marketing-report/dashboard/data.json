@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T15:01:44.832Z",
+  "generatedAt": "2026-10-17T15:15:21.061Z",
   "source": "lark",
   "period": {
     "days": 539,
@@ -47660,16 +47660,17 @@
       "store": {
         "Láng": 3405000,
         "Cầu Giấy": 22788250,
+        "Bạch Mai": 12201750,
         "Outlet": 3567500,
         "Nguyễn Văn Cừ": 7500000,
         "Xã Đàn": 5499000,
         "Nguyễn Trãi": 13780500
       },
-      "storeRev": 56540250,
-      "storeOnline": 4460000,
-      "storeTarget": 58500000,
-      "custIn": 91,
-      "custBuy": 89,
+      "storeRev": 68742000,
+      "storeOnline": 6320000,
+      "storeTarget": 73800000,
+      "custIn": 109,
+      "custBuy": 106,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -60678,26 +60679,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2593276501,
-    "walkinOrders": 4767,
-    "marketingRevenue": 417504709,
-    "marketingOrdersEst": 723,
-    "custIn": 4998,
+    "walkinRevenue": 2605478251,
+    "walkinOrders": 4784,
+    "marketingRevenue": 419364709,
+    "marketingOrdersEst": 727,
+    "custIn": 5016,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 3397919051,
+    "totalRevenue": 3410120801,
     "salesCount": 1394,
     "byType": {
       "Online": 804642550,
-      "Cửa hàng": 2593276501
+      "Cửa hàng": 2605478251
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 3080671844,
+    "Bemori": 3092864872,
     "Teddy": 0,
     "Memon": 0
   },
@@ -60708,20 +60709,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 461658250,
-    "walkinOrders": 810,
-    "marketingRevenue": 73188000,
-    "marketingOrdersEst": 123,
-    "custIn": 850,
+    "walkinRevenue": 473860000,
+    "walkinOrders": 827,
+    "marketingRevenue": 75048000,
+    "marketingOrdersEst": 126,
+    "custIn": 868,
     "closeRate": 95,
     "marketingPct": 14
   },
   "weekSales": {
-    "totalRevenue": 625743750,
+    "totalRevenue": 637945500,
     "salesCount": 276,
     "byType": {
       "Online": 164085500,
-      "Cửa hàng": 461658250
+      "Cửa hàng": 473860000
     },
     "onlinePct": 26,
     "storePct": 74
