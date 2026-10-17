@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T13:01:42.655Z",
+  "generatedAt": "2026-10-17T13:15:07.979Z",
   "source": "lark",
   "period": {
     "days": 539,
@@ -47659,13 +47659,14 @@
       "bc": {},
       "store": {
         "Láng": 3405000,
+        "Xã Đàn": 5499000,
         "Nguyễn Trãi": 13780500
       },
-      "storeRev": 17185500,
-      "storeOnline": 0,
-      "storeTarget": 18450000,
-      "custIn": 21,
-      "custBuy": 21,
+      "storeRev": 22684500,
+      "storeOnline": 1915000,
+      "storeTarget": 28215000,
+      "custIn": 32,
+      "custBuy": 32,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -60674,26 +60675,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2553921751,
-    "walkinOrders": 4699,
-    "marketingRevenue": 413044709,
-    "marketingOrdersEst": 716,
-    "custIn": 4928,
+    "walkinRevenue": 2559420751,
+    "walkinOrders": 4710,
+    "marketingRevenue": 414959709,
+    "marketingOrdersEst": 719,
+    "custIn": 4939,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 3358564301,
+    "totalRevenue": 3364063301,
     "salesCount": 1394,
     "byType": {
       "Online": 804642550,
-      "Cửa hàng": 2553921751
+      "Cửa hàng": 2559420751
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 3041345228,
+    "Bemori": 3046840297,
     "Teddy": 0,
     "Memon": 0
   },
@@ -60704,20 +60705,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 422303500,
-    "walkinOrders": 742,
-    "marketingRevenue": 68728000,
-    "marketingOrdersEst": 116,
-    "custIn": 780,
+    "walkinRevenue": 427802500,
+    "walkinOrders": 753,
+    "marketingRevenue": 70643000,
+    "marketingOrdersEst": 119,
+    "custIn": 791,
     "closeRate": 95,
     "marketingPct": 14
   },
   "weekSales": {
-    "totalRevenue": 586389000,
+    "totalRevenue": 591888000,
     "salesCount": 276,
     "byType": {
       "Online": 164085500,
-      "Cửa hàng": 422303500
+      "Cửa hàng": 427802500
     },
     "onlinePct": 28,
     "storePct": 72
