@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T13:40:27.635Z",
+  "generatedAt": "2026-10-18T13:50:44.618Z",
   "source": "lark",
   "period": {
     "days": 540,
@@ -47662,18 +47662,18 @@
         "Cầu Giấy": 26742000,
         "Bạch Mai": 21009750,
         "Xuân Thủy": 20927000,
-        "Outlet": 3567500,
+        "Outlet": 3767500,
         "Nguyễn Văn Cừ": 14239000,
         "Lê Văn Sỹ": 11772950,
         "Nguyễn Gia Trí": 6901000,
         "Xã Đàn": 8539000,
         "Nguyễn Trãi": 21389750
       },
-      "storeRev": 150626950,
+      "storeRev": 150826950,
       "storeOnline": 28871266,
-      "storeTarget": 204525000,
-      "custIn": 267,
-      "custBuy": 262,
+      "storeTarget": 206100000,
+      "custIn": 268,
+      "custBuy": 263,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61050,26 +61050,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2619610451,
-    "walkinOrders": 4817,
+    "walkinRevenue": 2619810451,
+    "walkinOrders": 4818,
     "marketingRevenue": 430410975,
     "marketingOrdersEst": 738,
-    "custIn": 5047,
+    "custIn": 5048,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 3435097751,
+    "totalRevenue": 3435297751,
     "salesCount": 1399,
     "byType": {
       "Online": 815487300,
-      "Cửa hàng": 2619610451
+      "Cửa hàng": 2619810451
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 3087675388,
+    "Bemori": 3087875239,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61080,20 +61080,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 570077950,
-    "walkinOrders": 1008,
+    "walkinRevenue": 570277950,
+    "walkinOrders": 1009,
     "marketingRevenue": 98634266,
     "marketingOrdersEst": 165,
-    "custIn": 1052,
+    "custIn": 1053,
     "closeRate": 96,
     "marketingPct": 15
   },
   "weekSales": {
-    "totalRevenue": 770511200,
+    "totalRevenue": 770711200,
     "salesCount": 335,
     "byType": {
       "Online": 200433250,
-      "Cửa hàng": 570077950
+      "Cửa hàng": 570277950
     },
     "onlinePct": 26,
     "storePct": 74
