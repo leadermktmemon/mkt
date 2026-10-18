@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T14:50:40.912Z",
+  "generatedAt": "2026-10-18T15:01:43.971Z",
   "source": "lark",
   "period": {
     "days": 540,
@@ -47712,16 +47712,17 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Nguyễn Văn Cừ": 5500000,
         "Nguyễn Trãi": 5096000,
         "Xã Đàn": 7574000,
-        "Outlet": 645000,
+        "Outlet": 1440000,
         "Láng": 1018000
       },
-      "storeRev": 14333000,
+      "storeRev": 20628000,
       "storeOnline": 1035000,
-      "storeTarget": 31140000,
-      "custIn": 26,
-      "custBuy": 25,
+      "storeTarget": 42615000,
+      "custIn": 41,
+      "custBuy": 38,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61050,26 +61051,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2619810451,
-    "walkinOrders": 4818,
+    "walkinRevenue": 2626105451,
+    "walkinOrders": 4831,
     "marketingRevenue": 430410975,
     "marketingOrdersEst": 738,
-    "custIn": 5048,
+    "custIn": 5063,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 3435297751,
+    "totalRevenue": 3441592751,
     "salesCount": 1399,
     "byType": {
       "Online": 815487300,
-      "Cửa hàng": 2619810451
+      "Cửa hàng": 2626105451
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 3087875239,
+    "Bemori": 3094165555,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61080,20 +61081,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 570277950,
-    "walkinOrders": 1009,
+    "walkinRevenue": 576572950,
+    "walkinOrders": 1022,
     "marketingRevenue": 98634266,
     "marketingOrdersEst": 165,
-    "custIn": 1053,
+    "custIn": 1068,
     "closeRate": 96,
     "marketingPct": 15
   },
   "weekSales": {
-    "totalRevenue": 770711200,
+    "totalRevenue": 777006200,
     "salesCount": 335,
     "byType": {
       "Online": 200433250,
-      "Cửa hàng": 570277950
+      "Cửa hàng": 576572950
     },
     "onlinePct": 26,
     "storePct": 74
