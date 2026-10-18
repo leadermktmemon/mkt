@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T10:50:54.550Z",
+  "generatedAt": "2026-10-18T11:01:42.582Z",
   "source": "lark",
   "period": {
     "days": 540,
@@ -47713,13 +47713,15 @@
       "bc": {},
       "store": {
         "Nguyễn Trãi": 5096000,
+        "Xã Đàn": 7574000,
+        "Outlet": 645000,
         "Láng": 1018000
       },
-      "storeRev": 6114000,
-      "storeOnline": 410000,
-      "storeTarget": 18450000,
-      "custIn": 10,
-      "custBuy": 10,
+      "storeRev": 14333000,
+      "storeOnline": 1035000,
+      "storeTarget": 31140000,
+      "custIn": 26,
+      "custBuy": 25,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61048,26 +61050,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2611391451,
-    "walkinOrders": 4802,
-    "marketingRevenue": 429785975,
-    "marketingOrdersEst": 737,
-    "custIn": 5031,
+    "walkinRevenue": 2619610451,
+    "walkinOrders": 4817,
+    "marketingRevenue": 430410975,
+    "marketingOrdersEst": 738,
+    "custIn": 5047,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 3426878751,
+    "totalRevenue": 3435097751,
     "salesCount": 1399,
     "byType": {
       "Online": 815487300,
-      "Cửa hàng": 2611391451
+      "Cửa hàng": 2619610451
     },
     "onlinePct": 24,
     "storePct": 76
   },
   "brands": {
-    "Bemori": 3079462504,
+    "Bemori": 3087675388,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61078,20 +61080,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 561858950,
-    "walkinOrders": 993,
-    "marketingRevenue": 98009266,
-    "marketingOrdersEst": 164,
-    "custIn": 1036,
+    "walkinRevenue": 570077950,
+    "walkinOrders": 1008,
+    "marketingRevenue": 98634266,
+    "marketingOrdersEst": 165,
+    "custIn": 1052,
     "closeRate": 96,
     "marketingPct": 15
   },
   "weekSales": {
-    "totalRevenue": 762292200,
+    "totalRevenue": 770511200,
     "salesCount": 335,
     "byType": {
       "Online": 200433250,
-      "Cửa hàng": 561858950
+      "Cửa hàng": 570077950
     },
     "onlinePct": 26,
     "storePct": 74
