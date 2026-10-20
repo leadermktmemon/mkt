@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T16:02:07.976Z",
+  "generatedAt": "2026-10-20T16:22:08.965Z",
   "source": "lark",
   "period": {
     "days": 542,
@@ -47820,13 +47820,14 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Lê Văn Sỹ": 19040000,
         "Nguyễn Văn Cừ": 51305250
       },
-      "storeRev": 51305250,
+      "storeRev": 70345250,
       "storeOnline": 9437500,
-      "storeTarget": 50400000,
-      "custIn": 85,
-      "custBuy": 85,
+      "storeTarget": 95550000,
+      "custIn": 120,
+      "custBuy": 120,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61603,26 +61604,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 2939978615,
-    "walkinOrders": 5376,
+    "walkinRevenue": 2959018615,
+    "walkinOrders": 5411,
     "marketingRevenue": 493399025,
     "marketingOrdersEst": 5482211,
-    "custIn": 5651,
+    "custIn": 5686,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 3924624188,
+    "totalRevenue": 3943664188,
     "salesCount": 10969655,
     "byType": {
       "Online": 984645573,
-      "Cửa hàng": 2939978615
+      "Cửa hàng": 2959018615
     },
     "onlinePct": 25,
     "storePct": 75
   },
   "brands": {
-    "Bemori": 3361720645,
+    "Bemori": 3380744948,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61633,23 +61634,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 368785500,
-    "walkinOrders": 684,
+    "walkinRevenue": 387825500,
+    "walkinOrders": 719,
     "marketingRevenue": 57592500,
     "marketingOrdersEst": 3199583,
-    "custIn": 711,
+    "custIn": 746,
     "closeRate": 96,
-    "marketingPct": 14
+    "marketingPct": 13
   },
   "weekSales": {
-    "totalRevenue": 569365523,
+    "totalRevenue": 588405523,
     "salesCount": 10968309,
     "byType": {
       "Online": 200580023,
-      "Cửa hàng": 368785500
+      "Cửa hàng": 387825500
     },
-    "onlinePct": 35,
-    "storePct": 65
+    "onlinePct": 34,
+    "storePct": 66
   },
   "weekBrands": {
     "Bemori": 0,
