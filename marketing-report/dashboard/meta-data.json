@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:31:40.853Z",
+  "generatedAt": "2026-10-20T21:31:40.662Z",
   "since": "2025-01-01",
   "until": "2026-10-20",
   "accounts": [
@@ -5212,11 +5212,11 @@
       "igPurchaseValue": 1295000
     },
     "2026-10-20": {
-      "facebook": 5558598,
-      "instagram": 312325,
+      "facebook": 5563341,
+      "instagram": 312224,
       "messenger": 0,
       "audience_network": 0,
-      "total": 5870923,
+      "total": 5875565,
       "igPurchaseValue": 2492000
     }
   },
@@ -22550,16 +22550,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 367255,
-      "impressions": 3478,
-      "reach": 2003,
+      "spend": 367458,
+      "impressions": 3479,
+      "reach": 2004,
       "clicks": 117,
       "engagement": 83,
       "messages": 11,
       "leads": 14,
       "purchases": 6,
       "purchaseValue": 2474000,
-      "roas": 6.74
+      "roas": 6.73
     },
     {
       "day": "2026-10-20",
@@ -22579,8 +22579,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 362508,
-      "impressions": 4189,
+      "spend": 362543,
+      "impressions": 4191,
       "reach": 2944,
       "clicks": 136,
       "engagement": 88,
@@ -22608,16 +22608,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 343662,
-      "impressions": 2632,
-      "reach": 1770,
+      "spend": 344275,
+      "impressions": 2634,
+      "reach": 1772,
       "clicks": 45,
-      "engagement": 402,
+      "engagement": 403,
       "messages": 7,
       "leads": 10,
       "purchases": 4,
       "purchaseValue": 3885000,
-      "roas": 11.3
+      "roas": 11.28
+    },
+    {
+      "day": "2026-10-20",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248572102280340",
+      "name": "15.10.Voi - video",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120248572102280340.jpg",
+      "creative": {
+        "title": "",
+        "body": "Quà 20/10 của anh người yêu tinh tế #bemori #gaubong #quatang #couple",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 343794,
+      "impressions": 5326,
+      "reach": 3968,
+      "clicks": 137,
+      "engagement": 1065,
+      "messages": 12,
+      "leads": 6,
+      "purchases": 1,
+      "purchaseValue": 530000,
+      "roas": 1.54
     },
     {
       "day": "2026-10-20",
@@ -22639,7 +22668,7 @@
       },
       "spend": 342689,
       "impressions": 2175,
-      "reach": 1556,
+      "reach": 1558,
       "clicks": 89,
       "engagement": 57,
       "messages": 11,
@@ -22647,35 +22676,6 @@
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
-    },
-    {
-      "day": "2026-10-20",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248572102280340",
-      "name": "15.10.Voi - video",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120248572102280340.jpg",
-      "creative": {
-        "title": "",
-        "body": "Quà 20/10 của anh người yêu tinh tế #bemori #gaubong #quatang #couple",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 341859,
-      "impressions": 5323,
-      "reach": 3968,
-      "clicks": 137,
-      "engagement": 1064,
-      "messages": 12,
-      "leads": 6,
-      "purchases": 1,
-      "purchaseValue": 530000,
-      "roas": 1.55
     },
     {
       "day": "2026-10-20",
@@ -22695,8 +22695,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 333699,
-      "impressions": 10318,
+      "spend": 333798,
+      "impressions": 10322,
       "reach": 9311,
       "clicks": 162,
       "engagement": 1359,
@@ -22753,9 +22753,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 321425,
-      "impressions": 2580,
-      "reach": 1876,
+      "spend": 321461,
+      "impressions": 2581,
+      "reach": 1877,
       "clicks": 113,
       "engagement": 62,
       "messages": 15,
@@ -22782,9 +22782,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 265475,
-      "impressions": 7293,
-      "reach": 6091,
+      "spend": 265599,
+      "impressions": 7299,
+      "reach": 6093,
       "clicks": 290,
       "engagement": 189,
       "messages": 13,
@@ -22811,8 +22811,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 242298,
-      "impressions": 2215,
+      "spend": 242703,
+      "impressions": 2216,
       "reach": 1485,
       "clicks": 57,
       "engagement": 350,
@@ -22820,7 +22820,7 @@
       "leads": 8,
       "purchases": 4,
       "purchaseValue": 2644000,
-      "roas": 10.91
+      "roas": 10.89
     },
     {
       "day": "2026-10-20",
@@ -22840,8 +22840,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 237563,
-      "impressions": 1357,
+      "spend": 238237,
+      "impressions": 1358,
       "reach": 910,
       "clicks": 44,
       "engagement": 26,
@@ -22849,7 +22849,7 @@
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 1055000,
-      "roas": 4.44
+      "roas": 4.43
     },
     {
       "day": "2026-10-20",
@@ -22869,8 +22869,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 236685,
-      "impressions": 1687,
+      "spend": 236952,
+      "impressions": 1688,
       "reach": 1121,
       "clicks": 54,
       "engagement": 37,
@@ -22927,9 +22927,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 232818,
-      "impressions": 2544,
-      "reach": 1474,
+      "spend": 232911,
+      "impressions": 2545,
+      "reach": 1476,
       "clicks": 89,
       "engagement": 106,
       "messages": 15,
@@ -22985,8 +22985,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 222182,
-      "impressions": 4086,
+      "spend": 222240,
+      "impressions": 4088,
       "reach": 3234,
       "clicks": 79,
       "engagement": 630,
@@ -23014,8 +23014,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 220238,
-      "impressions": 4955,
+      "spend": 220254,
+      "impressions": 4957,
       "reach": 4110,
       "clicks": 181,
       "engagement": 129,
@@ -23043,9 +23043,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 211932,
-      "impressions": 6222,
-      "reach": 5104,
+      "spend": 211968,
+      "impressions": 6225,
+      "reach": 5107,
       "clicks": 197,
       "engagement": 123,
       "messages": 23,
@@ -23130,8 +23130,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 105513,
-      "impressions": 747,
+      "spend": 105552,
+      "impressions": 748,
       "reach": 446,
       "clicks": 10,
       "engagement": 106,
