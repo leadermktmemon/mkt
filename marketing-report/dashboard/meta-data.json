@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:31:40.662Z",
+  "generatedAt": "2026-10-20T22:31:43.381Z",
   "since": "2025-01-01",
   "until": "2026-10-20",
   "accounts": [
@@ -5212,11 +5212,11 @@
       "igPurchaseValue": 1295000
     },
     "2026-10-20": {
-      "facebook": 5563341,
-      "instagram": 312224,
+      "facebook": 5565416,
+      "instagram": 312227,
       "messenger": 0,
       "audience_network": 0,
-      "total": 5875565,
+      "total": 5877643,
       "igPurchaseValue": 2492000
     }
   },
@@ -22550,16 +22550,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 367458,
-      "impressions": 3479,
-      "reach": 2004,
+      "spend": 367993,
+      "impressions": 3481,
+      "reach": 2005,
       "clicks": 117,
       "engagement": 83,
       "messages": 11,
       "leads": 14,
       "purchases": 6,
       "purchaseValue": 2474000,
-      "roas": 6.73
+      "roas": 6.72
     },
     {
       "day": "2026-10-20",
@@ -22579,8 +22579,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 362543,
-      "impressions": 4191,
+      "spend": 362559,
+      "impressions": 4192,
       "reach": 2944,
       "clicks": 136,
       "engagement": 88,
@@ -22608,8 +22608,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 344275,
-      "impressions": 2634,
+      "spend": 344372,
+      "impressions": 2637,
       "reach": 1772,
       "clicks": 45,
       "engagement": 403,
@@ -22637,8 +22637,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 343794,
-      "impressions": 5326,
+      "spend": 343805,
+      "impressions": 5327,
       "reach": 3968,
       "clicks": 137,
       "engagement": 1065,
@@ -22666,9 +22666,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 342689,
-      "impressions": 2175,
-      "reach": 1558,
+      "spend": 342856,
+      "impressions": 2179,
+      "reach": 1560,
       "clicks": 89,
       "engagement": 57,
       "messages": 11,
@@ -22695,11 +22695,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 333798,
-      "impressions": 10322,
+      "spend": 333818,
+      "impressions": 10324,
       "reach": 9311,
       "clicks": 162,
-      "engagement": 1359,
+      "engagement": 1360,
       "messages": 18,
       "leads": 6,
       "purchases": 2,
@@ -22724,8 +22724,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 329832,
-      "impressions": 4120,
+      "spend": 329959,
+      "impressions": 4122,
       "reach": 3191,
       "clicks": 146,
       "engagement": 768,
@@ -22753,9 +22753,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 321461,
-      "impressions": 2581,
-      "reach": 1877,
+      "spend": 321582,
+      "impressions": 2587,
+      "reach": 1881,
       "clicks": 113,
       "engagement": 62,
       "messages": 15,
@@ -22782,9 +22782,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 265599,
-      "impressions": 7299,
-      "reach": 6093,
+      "spend": 266026,
+      "impressions": 7308,
+      "reach": 6097,
       "clicks": 290,
       "engagement": 189,
       "messages": 13,
@@ -22898,8 +22898,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 234541,
-      "impressions": 2365,
+      "spend": 234583,
+      "impressions": 2366,
       "reach": 1522,
       "clicks": 85,
       "engagement": 49,
@@ -22907,7 +22907,7 @@
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 414000,
-      "roas": 1.77
+      "roas": 1.76
     },
     {
       "day": "2026-10-20",
@@ -22927,8 +22927,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 232911,
-      "impressions": 2545,
+      "spend": 233180,
+      "impressions": 2547,
       "reach": 1476,
       "clicks": 89,
       "engagement": 106,
@@ -22936,7 +22936,7 @@
       "leads": 6,
       "purchases": 1,
       "purchaseValue": 565000,
-      "roas": 2.43
+      "roas": 2.42
     },
     {
       "day": "2026-10-20",
@@ -22985,8 +22985,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 222240,
-      "impressions": 4088,
+      "spend": 222319,
+      "impressions": 4089,
       "reach": 3234,
       "clicks": 79,
       "engagement": 630,
@@ -23014,8 +23014,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 220254,
-      "impressions": 4957,
+      "spend": 220364,
+      "impressions": 4961,
       "reach": 4110,
       "clicks": 181,
       "engagement": 129,
@@ -23043,8 +23043,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 211968,
-      "impressions": 6225,
+      "spend": 212120,
+      "impressions": 6228,
       "reach": 5107,
       "clicks": 197,
       "engagement": 123,
@@ -23072,8 +23072,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 208816,
-      "impressions": 2209,
+      "spend": 209044,
+      "impressions": 2210,
       "reach": 1799,
       "clicks": 66,
       "engagement": 42,
@@ -23188,8 +23188,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 94212,
-      "impressions": 1010,
+      "spend": 94223,
+      "impressions": 1011,
       "reach": 650,
       "clicks": 19,
       "engagement": 12,
@@ -23218,7 +23218,7 @@
         "images": []
       },
       "spend": 54382,
-      "impressions": 528,
+      "impressions": 529,
       "reach": 380,
       "clicks": 18,
       "engagement": 9,
