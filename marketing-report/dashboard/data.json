@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T10:43:21.306Z",
+  "generatedAt": "2026-10-21T10:54:33.167Z",
   "source": "lark",
   "period": {
     "days": 543,
@@ -47874,14 +47874,14 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Cầu Giấy": 3980000,
+        "Cầu Giấy": 7059000,
         "Nguyễn Trãi": 5894000
       },
-      "storeRev": 9874000,
-      "storeOnline": 335000,
-      "storeTarget": 14665000,
-      "custIn": 17,
-      "custBuy": 15,
+      "storeRev": 12953000,
+      "storeOnline": 800000,
+      "storeTarget": 21980000,
+      "custIn": 26,
+      "custBuy": 23,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -59696,26 +59696,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3543511865,
-    "walkinOrders": 6513,
-    "marketingRevenue": 550370275,
-    "marketingOrdersEst": 6183936,
-    "custIn": 6817,
+    "walkinRevenue": 3546590865,
+    "walkinOrders": 6521,
+    "marketingRevenue": 550835275,
+    "marketingOrdersEst": 6189160,
+    "custIn": 6826,
     "closeRate": 96,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4517340438,
+    "totalRevenue": 4520419438,
     "salesCount": 10969646,
     "byType": {
       "Online": 973828573,
-      "Cửa hàng": 3543511865
+      "Cửa hàng": 3546590865
     },
     "onlinePct": 22,
     "storePct": 78
   },
   "brands": {
-    "Bemori": 3936237551,
+    "Bemori": 3939313831,
     "Teddy": 0,
     "Memon": 0
   },
@@ -59726,20 +59726,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 1043932250,
-    "walkinOrders": 1946,
-    "marketingRevenue": 128605750,
-    "marketingOrdersEst": 6430288,
-    "custIn": 2008,
+    "walkinRevenue": 1047011250,
+    "walkinOrders": 1954,
+    "marketingRevenue": 129070750,
+    "marketingOrdersEst": 6453538,
+    "custIn": 2017,
     "closeRate": 97,
     "marketingPct": 11
   },
   "weekSales": {
-    "totalRevenue": 1267372273,
+    "totalRevenue": 1270451273,
     "salesCount": 10968354,
     "byType": {
       "Online": 223440023,
-      "Cửa hàng": 1043932250
+      "Cửa hàng": 1047011250
     },
     "onlinePct": 18,
     "storePct": 82
