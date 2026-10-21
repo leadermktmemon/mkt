@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T21:31:39.740Z",
+  "generatedAt": "2026-10-21T22:31:36.814Z",
   "since": "2025-01-01",
   "until": "2026-10-21",
   "accounts": [
@@ -5220,11 +5220,11 @@
       "igPurchaseValue": 2492000
     },
     "2026-10-21": {
-      "facebook": 2370978,
-      "instagram": 97276,
+      "facebook": 2372274,
+      "instagram": 97191,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2468254,
+      "total": 2469465,
       "igPurchaseValue": 0
     }
   },
@@ -22935,11 +22935,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 264241,
-      "impressions": 2838,
+      "spend": 264618,
+      "impressions": 2844,
       "reach": 1522,
       "clicks": 58,
-      "engagement": 408,
+      "engagement": 409,
       "messages": 4,
       "leads": 0,
       "purchases": 1,
@@ -22964,9 +22964,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 236740,
-      "impressions": 8740,
-      "reach": 7758,
+      "spend": 236756,
+      "impressions": 8741,
+      "reach": 7763,
       "clicks": 87,
       "engagement": 878,
       "messages": 5,
@@ -22993,8 +22993,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 211639,
-      "impressions": 2378,
+      "spend": 211664,
+      "impressions": 2379,
       "reach": 1565,
       "clicks": 75,
       "engagement": 49,
@@ -23022,9 +23022,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 203874,
-      "impressions": 3983,
-      "reach": 3223,
+      "spend": 204253,
+      "impressions": 3990,
+      "reach": 3224,
       "clicks": 183,
       "engagement": 124,
       "messages": 17,
@@ -23032,6 +23032,35 @@
       "purchases": 1,
       "purchaseValue": 290000,
       "roas": 1.42
+    },
+    {
+      "day": "2026-10-21",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248572049220340",
+      "name": "15.10.Hoa hồng xanh đỏ",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120248572049220340.jpg",
+      "creative": {
+        "title": "",
+        "body": "💐 Những bông hoa cần dịp đặc biệt, và cô ấy chính là điều đặc biệt\n🌹Nếu hồng đỏ là lời hứa về một tình yêu dài lâu, thì hồng xanh lại mang nét riêng của một tình yêu độc nhất. ❤️💙\n\nMột sắc hoa dành cho người bạn muốn cùng đi qua năm tháng. Một sắc hoa dành cho người khiến trái tim bạn rung động theo cách chẳng ai thay thế được.\n\nDù chọn đỏ nồng nàn hay xanh khác biệt, điều quan trọng nhất vẫn là người nhận hoa. Bởi đôi khi, chẳng cần chờ một ngày đặc biệt để trao đi yêu thương, chỉ cần người ấy luôn đặc biệt trong lòng bạn.\n\n🌹 Một đỏ nồng nàn, một xanh đặc biệt – đều dành cho nàng\n\n20/10 này, để hoa bông Bemori thay bạn gửi trao những lời yêu thương chưa kịp nói. Ghé shop ngay để chọn sắc hoa dành riêng cho nàng nhé! 💌\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 185237,
+      "impressions": 4708,
+      "reach": 3145,
+      "clicks": 82,
+      "engagement": 44,
+      "messages": 3,
+      "leads": 0,
+      "purchases": 1,
+      "purchaseValue": 480000,
+      "roas": 2.59
     },
     {
       "day": "2026-10-21",
@@ -23061,35 +23090,6 @@
       "purchases": 2,
       "purchaseValue": 620000,
       "roas": 3.35
-    },
-    {
-      "day": "2026-10-21",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248572049220340",
-      "name": "15.10.Hoa hồng xanh đỏ",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120248572049220340.jpg",
-      "creative": {
-        "title": "",
-        "body": "💐 Những bông hoa cần dịp đặc biệt, và cô ấy chính là điều đặc biệt\n🌹Nếu hồng đỏ là lời hứa về một tình yêu dài lâu, thì hồng xanh lại mang nét riêng của một tình yêu độc nhất. ❤️💙\n\nMột sắc hoa dành cho người bạn muốn cùng đi qua năm tháng. Một sắc hoa dành cho người khiến trái tim bạn rung động theo cách chẳng ai thay thế được.\n\nDù chọn đỏ nồng nàn hay xanh khác biệt, điều quan trọng nhất vẫn là người nhận hoa. Bởi đôi khi, chẳng cần chờ một ngày đặc biệt để trao đi yêu thương, chỉ cần người ấy luôn đặc biệt trong lòng bạn.\n\n🌹 Một đỏ nồng nàn, một xanh đặc biệt – đều dành cho nàng\n\n20/10 này, để hoa bông Bemori thay bạn gửi trao những lời yêu thương chưa kịp nói. Ghé shop ngay để chọn sắc hoa dành riêng cho nàng nhé! 💌\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 185115,
-      "impressions": 4703,
-      "reach": 3141,
-      "clicks": 82,
-      "engagement": 44,
-      "messages": 3,
-      "leads": 0,
-      "purchases": 1,
-      "purchaseValue": 480000,
-      "roas": 2.59
     },
     {
       "day": "2026-10-21",
@@ -23138,8 +23138,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 180925,
-      "impressions": 3617,
+      "spend": 181088,
+      "impressions": 3620,
       "reach": 2999,
       "clicks": 108,
       "engagement": 72,
@@ -23147,7 +23147,7 @@
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 600000,
-      "roas": 3.32
+      "roas": 3.31
     },
     {
       "day": "2026-10-21",
@@ -23167,8 +23167,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 165026,
-      "impressions": 1844,
+      "spend": 165111,
+      "impressions": 1845,
       "reach": 1090,
       "clicks": 76,
       "engagement": 40,
@@ -23196,8 +23196,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 150176,
-      "impressions": 1637,
+      "spend": 150220,
+      "impressions": 1638,
       "reach": 980,
       "clicks": 43,
       "engagement": 30,
