@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T14:54:26.417Z",
+  "generatedAt": "2026-10-21T15:01:56.836Z",
   "source": "lark",
   "period": {
     "days": 543,
@@ -47875,16 +47875,16 @@
       "bc": {},
       "store": {
         "Cầu Giấy": 7059000,
-        "Outlet": 2098000,
+        "Outlet": 4780500,
         "Láng": 3104000,
         "Xã Đàn": 3852500,
         "Nguyễn Trãi": 5894000
       },
-      "storeRev": 22007500,
+      "storeRev": 24690000,
       "storeOnline": 4852000,
-      "storeTarget": 35521500,
-      "custIn": 46,
-      "custBuy": 41,
+      "storeTarget": 36746500,
+      "custIn": 56,
+      "custBuy": 51,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -59699,26 +59699,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3555645365,
-    "walkinOrders": 6539,
+    "walkinRevenue": 3558327865,
+    "walkinOrders": 6549,
     "marketingRevenue": 554887275,
     "marketingOrdersEst": 6234688,
-    "custIn": 6846,
+    "custIn": 6856,
     "closeRate": 96,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4529473938,
+    "totalRevenue": 4532156438,
     "salesCount": 10969646,
     "byType": {
       "Online": 973828573,
-      "Cửa hàng": 3555645365
+      "Cửa hàng": 3558327865
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3948360333,
+    "Bemori": 3951040463,
     "Teddy": 0,
     "Memon": 0
   },
@@ -59729,20 +59729,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 1056065750,
-    "walkinOrders": 1972,
+    "walkinRevenue": 1058748250,
+    "walkinOrders": 1982,
     "marketingRevenue": 133122750,
     "marketingOrdersEst": 6656138,
-    "custIn": 2037,
+    "custIn": 2047,
     "closeRate": 97,
     "marketingPct": 11
   },
   "weekSales": {
-    "totalRevenue": 1279505773,
+    "totalRevenue": 1282188273,
     "salesCount": 10968354,
     "byType": {
       "Online": 223440023,
-      "Cửa hàng": 1056065750
+      "Cửa hàng": 1058748250
     },
     "onlinePct": 17,
     "storePct": 83
