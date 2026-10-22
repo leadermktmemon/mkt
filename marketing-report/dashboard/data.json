@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T15:01:57.439Z",
+  "generatedAt": "2026-10-22T15:19:39.527Z",
   "source": "lark",
   "period": {
     "days": 544,
@@ -47932,13 +47932,14 @@
         "Nguyễn Trãi": 5997000,
         "Láng": 1365000,
         "Outlet": 1873000,
+        "Bạch Mai": 1790000,
         "Cầu Giấy": 4220500
       },
-      "storeRev": 15930500,
-      "storeOnline": 880000,
-      "storeTarget": 18651500,
-      "custIn": 29,
-      "custBuy": 29,
+      "storeRev": 17720500,
+      "storeOnline": 3510000,
+      "storeTarget": 24601500,
+      "custIn": 32,
+      "custBuy": 32,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61838,26 +61839,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3614968315,
-    "walkinOrders": 6652,
-    "marketingRevenue": 552716775,
-    "marketingOrdersEst": 6280872,
-    "custIn": 6957,
+    "walkinRevenue": 3616758315,
+    "walkinOrders": 6655,
+    "marketingRevenue": 555346775,
+    "marketingOrdersEst": 6310759,
+    "custIn": 6960,
     "closeRate": 96,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4584931388,
+    "totalRevenue": 4586721388,
     "salesCount": 10969631,
     "byType": {
       "Online": 969963073,
-      "Cửa hàng": 3614968315
+      "Cửa hàng": 3616758315
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3984246765,
+    "Bemori": 3986036765,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61868,20 +61869,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 1203477700,
-    "walkinOrders": 2227,
-    "marketingRevenue": 154068250,
-    "marketingOrdersEst": 6698620,
-    "custIn": 2294,
+    "walkinRevenue": 1205267700,
+    "walkinOrders": 2230,
+    "marketingRevenue": 156698250,
+    "marketingOrdersEst": 6812967,
+    "custIn": 2297,
     "closeRate": 97,
-    "marketingPct": 11
+    "marketingPct": 12
   },
   "weekSales": {
-    "totalRevenue": 1455247723,
+    "totalRevenue": 1457037723,
     "salesCount": 10968400,
     "byType": {
       "Online": 251770023,
-      "Cửa hàng": 1203477700
+      "Cửa hàng": 1205267700
     },
     "onlinePct": 17,
     "storePct": 83
