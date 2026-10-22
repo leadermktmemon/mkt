@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T17:31:54.830Z",
+  "generatedAt": "2026-10-22T18:31:37.598Z",
   "since": "2025-01-01",
   "until": "2026-10-22",
   "accounts": [
@@ -5228,11 +5228,11 @@
       "igPurchaseValue": 0
     },
     "2026-10-22": {
-      "facebook": 1708987,
-      "instagram": 65377,
+      "facebook": 1715781,
+      "instagram": 65279,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1774364,
+      "total": 1781060,
       "igPurchaseValue": 470000
     }
   },
@@ -23204,16 +23204,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 250687,
-      "impressions": 5090,
-      "reach": 4226,
+      "spend": 251004,
+      "impressions": 5096,
+      "reach": 4228,
       "clicks": 297,
       "engagement": 196,
       "messages": 25,
       "leads": 8,
       "purchases": 3,
       "purchaseValue": 1950000,
-      "roas": 7.78
+      "roas": 7.77
     },
     {
       "day": "2026-10-22",
@@ -23233,9 +23233,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 208183,
-      "impressions": 2456,
-      "reach": 1779,
+      "spend": 208211,
+      "impressions": 2457,
+      "reach": 1782,
       "clicks": 73,
       "engagement": 48,
       "messages": 5,
@@ -23262,11 +23262,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 206792,
-      "impressions": 2282,
+      "spend": 207208,
+      "impressions": 2289,
       "reach": 1279,
       "clicks": 45,
-      "engagement": 304,
+      "engagement": 306,
       "messages": 5,
       "leads": 0,
       "purchases": 0,
@@ -23291,45 +23291,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 203362,
-      "impressions": 2505,
-      "reach": 1664,
+      "spend": 204476,
+      "impressions": 2514,
+      "reach": 1666,
       "clicks": 66,
       "engagement": 48,
       "messages": 6,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 315000,
-      "roas": 1.55
-    },
-    {
-      "day": "2026-10-22",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259903480140112",
-      "name": "15.10. Gối ôm mặt trăng - ảnh",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259903480140112.jpg",
-      "creative": {
-        "title": "",
-        "body": "✨ Mẹ ôm con, con ôm \"bạn trăng\" – thế là cả hai mẹ con mình cùng có một giấc ngủ thật tròn giấc! \n\n🌙 Gối Ôm Mặt Trăng Bemori Kids sở hữu thiết kế dáng bán nguyệt độc đáo, ôm khít hoàn hảo theo tư thế nằm tự nhiên của bé. \n\n- Con gác chân hay ôm mang lại cảm giác bao bọc an toàn\n- Với phom cong giúp bé khum bị giật mình con ngủ một mạch đến sáng. \n- Mẹ còn khéo léo tận dụng kê bụng hỗ trợ con tập Tummy Time siêu tiện lợi.\n\n👉 Số lượng có sẵn chỉ còn 100 chiếc. Mẹ inbox Bemori Kids để chọn màu kẻo hết nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 178440,
-      "impressions": 4126,
-      "reach": 3382,
-      "clicks": 131,
-      "engagement": 85,
-      "messages": 9,
-      "leads": 2,
-      "purchases": 2,
-      "purchaseValue": 905000,
-      "roas": 5.07
+      "roas": 1.54
     },
     {
       "day": "2026-10-22",
@@ -23349,9 +23320,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 177988,
-      "impressions": 3386,
-      "reach": 2136,
+      "spend": 179138,
+      "impressions": 3397,
+      "reach": 2138,
       "clicks": 40,
       "engagement": 17,
       "messages": 1,
@@ -23359,6 +23330,35 @@
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
+    },
+    {
+      "day": "2026-10-22",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259903480140112",
+      "name": "15.10. Gối ôm mặt trăng - ảnh",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259903480140112.jpg",
+      "creative": {
+        "title": "",
+        "body": "✨ Mẹ ôm con, con ôm \"bạn trăng\" – thế là cả hai mẹ con mình cùng có một giấc ngủ thật tròn giấc! \n\n🌙 Gối Ôm Mặt Trăng Bemori Kids sở hữu thiết kế dáng bán nguyệt độc đáo, ôm khít hoàn hảo theo tư thế nằm tự nhiên của bé. \n\n- Con gác chân hay ôm mang lại cảm giác bao bọc an toàn\n- Với phom cong giúp bé khum bị giật mình con ngủ một mạch đến sáng. \n- Mẹ còn khéo léo tận dụng kê bụng hỗ trợ con tập Tummy Time siêu tiện lợi.\n\n👉 Số lượng có sẵn chỉ còn 100 chiếc. Mẹ inbox Bemori Kids để chọn màu kẻo hết nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 178607,
+      "impressions": 4134,
+      "reach": 3390,
+      "clicks": 131,
+      "engagement": 85,
+      "messages": 9,
+      "leads": 2,
+      "purchases": 2,
+      "purchaseValue": 905000,
+      "roas": 5.07
     },
     {
       "day": "2026-10-22",
@@ -23378,8 +23378,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 168482,
-      "impressions": 4989,
+      "spend": 168712,
+      "impressions": 4998,
       "reach": 4221,
       "clicks": 65,
       "engagement": 555,
@@ -23407,16 +23407,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 134221,
-      "impressions": 1576,
-      "reach": 1029,
+      "spend": 136176,
+      "impressions": 1583,
+      "reach": 1033,
       "clicks": 28,
       "engagement": 27,
       "messages": 4,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 445000,
-      "roas": 3.32
+      "roas": 3.27
     },
     {
       "day": "2026-10-22",
@@ -23465,9 +23465,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 118322,
-      "impressions": 1507,
-      "reach": 875,
+      "spend": 119364,
+      "impressions": 1519,
+      "reach": 881,
       "clicks": 22,
       "engagement": 199,
       "messages": 0,
