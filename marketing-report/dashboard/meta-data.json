@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T14:31:43.926Z",
+  "generatedAt": "2026-10-23T15:32:20.077Z",
   "since": "2025-01-01",
   "until": "2026-10-23",
   "accounts": [
@@ -5228,19 +5228,19 @@
       "igPurchaseValue": 0
     },
     "2026-10-22": {
-      "facebook": 1733928,
+      "facebook": 1733947,
       "instagram": 65252,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1799180,
+      "total": 1799199,
       "igPurchaseValue": 470000
     },
     "2026-10-23": {
-      "facebook": 1604646,
-      "instagram": 62085,
+      "facebook": 1706495,
+      "instagram": 69337,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1666731,
+      "total": 1775832,
       "igPurchaseValue": 0
     }
   },
@@ -22922,9 +22922,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 209131,
-      "impressions": 2479,
-      "reach": 1794,
+      "spend": 209150,
+      "impressions": 2480,
+      "reach": 1796,
       "clicks": 76,
       "engagement": 50,
       "messages": 5,
@@ -23154,16 +23154,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 227585,
-      "impressions": 7706,
-      "reach": 6683,
-      "clicks": 89,
-      "engagement": 784,
+      "spend": 243605,
+      "impressions": 8327,
+      "reach": 7094,
+      "clicks": 96,
+      "engagement": 853,
       "messages": 4,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 480000,
-      "roas": 2.11
+      "roas": 1.97
     },
     {
       "day": "2026-10-23",
@@ -23183,11 +23183,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 204723,
-      "impressions": 4311,
-      "reach": 2702,
-      "clicks": 58,
-      "engagement": 34,
+      "spend": 221161,
+      "impressions": 4641,
+      "reach": 2880,
+      "clicks": 65,
+      "engagement": 38,
       "messages": 3,
       "leads": 2,
       "purchases": 0,
@@ -23212,16 +23212,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 198171,
-      "impressions": 2819,
-      "reach": 1927,
-      "clicks": 47,
-      "engagement": 371,
-      "messages": 2,
+      "spend": 215010,
+      "impressions": 3101,
+      "reach": 2093,
+      "clicks": 52,
+      "engagement": 402,
+      "messages": 3,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1180000,
-      "roas": 5.95
+      "roas": 5.49
     },
     {
       "day": "2026-10-23",
@@ -23241,16 +23241,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 186251,
-      "impressions": 2360,
-      "reach": 1597,
-      "clicks": 58,
-      "engagement": 43,
-      "messages": 7,
+      "spend": 201793,
+      "impressions": 2584,
+      "reach": 1758,
+      "clicks": 64,
+      "engagement": 46,
+      "messages": 8,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 1325000,
-      "roas": 7.11
+      "roas": 6.57
     },
     {
       "day": "2026-10-23",
@@ -23270,16 +23270,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 175135,
-      "impressions": 1652,
-      "reach": 1166,
-      "clicks": 72,
-      "engagement": 52,
-      "messages": 5,
+      "spend": 181117,
+      "impressions": 1704,
+      "reach": 1202,
+      "clicks": 73,
+      "engagement": 54,
+      "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 330000,
-      "roas": 1.88
+      "roas": 1.82
     },
     {
       "day": "2026-10-23",
@@ -23299,16 +23299,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 149273,
-      "impressions": 2474,
-      "reach": 1881,
-      "clicks": 94,
-      "engagement": 60,
+      "spend": 152814,
+      "impressions": 2579,
+      "reach": 1970,
+      "clicks": 99,
+      "engagement": 62,
       "messages": 4,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 585000,
-      "roas": 3.92
+      "roas": 3.83
     },
     {
       "day": "2026-10-23",
@@ -23328,45 +23328,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 143250,
-      "impressions": 1764,
-      "reach": 1078,
-      "clicks": 24,
-      "engagement": 223,
+      "spend": 152668,
+      "impressions": 1918,
+      "reach": 1193,
+      "clicks": 25,
+      "engagement": 244,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
-    },
-    {
-      "day": "2026-10-23",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248460290740340",
-      "name": "8.10.BST HEO",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120248460290740340.jpg",
-      "creative": {
-        "title": "",
-        "body": "🌻THÁNG 10 tới chàng lại đau đầu chọn quà cho người thương? \n\nTháng 10 chẳng còn của riêng các nàng sinh tháng 10 mà là tháng của \"một nửa thế giới\" - những người phụ nữ quan trọng trong cuộc đời. \n\nNào hoa, nào bánh, nào quà... chi bằng chàng tặng \"công chúa xinh\" một món quà yêu đến từ nhà Bemori thì sao nhỉ? \n\nBST Heo bông cưng xỉu: \n💕 Heo Cà tím mập mạp lông dài cùng nàng đi chơi \n💕Heo Bông ôm hoa - tuyệt đỉnh của sự lãng mạn \n💕Heo Bông mũ yếm cầm cheese - \"no\" bụng tình yêu \n💕 Heo Bông đeo yếm caro - lãng tử thay chàng bên nàng \n\nChàng đã tìm ra chân ái làm \"quà yêu\" cho nàng dịp tháng 10 này chưa? Ghé nhà Be \"mách nhỏ\" cho nha ~ \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 130906,
-      "impressions": 1615,
-      "reach": 1066,
-      "clicks": 42,
-      "engagement": 22,
-      "messages": 1,
-      "leads": 0,
-      "purchases": 1,
-      "purchaseValue": 515000,
-      "roas": 3.93
     },
     {
       "day": "2026-10-23",
@@ -23386,16 +23357,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 129897,
-      "impressions": 1329,
-      "reach": 977,
-      "clicks": 64,
-      "engagement": 48,
-      "messages": 9,
+      "spend": 143149,
+      "impressions": 1550,
+      "reach": 1136,
+      "clicks": 74,
+      "engagement": 56,
+      "messages": 11,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 422500,
-      "roas": 3.25
+      "roas": 2.95
+    },
+    {
+      "day": "2026-10-23",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248460290740340",
+      "name": "8.10.BST HEO",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120248460290740340.jpg",
+      "creative": {
+        "title": "",
+        "body": "🌻THÁNG 10 tới chàng lại đau đầu chọn quà cho người thương? \n\nTháng 10 chẳng còn của riêng các nàng sinh tháng 10 mà là tháng của \"một nửa thế giới\" - những người phụ nữ quan trọng trong cuộc đời. \n\nNào hoa, nào bánh, nào quà... chi bằng chàng tặng \"công chúa xinh\" một món quà yêu đến từ nhà Bemori thì sao nhỉ? \n\nBST Heo bông cưng xỉu: \n💕 Heo Cà tím mập mạp lông dài cùng nàng đi chơi \n💕Heo Bông ôm hoa - tuyệt đỉnh của sự lãng mạn \n💕Heo Bông mũ yếm cầm cheese - \"no\" bụng tình yêu \n💕 Heo Bông đeo yếm caro - lãng tử thay chàng bên nàng \n\nChàng đã tìm ra chân ái làm \"quà yêu\" cho nàng dịp tháng 10 này chưa? Ghé nhà Be \"mách nhỏ\" cho nha ~ \n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 138303,
+      "impressions": 1717,
+      "reach": 1122,
+      "clicks": 43,
+      "engagement": 24,
+      "messages": 1,
+      "leads": 0,
+      "purchases": 1,
+      "purchaseValue": 515000,
+      "roas": 3.72
     },
     {
       "day": "2026-10-23",
@@ -23415,16 +23415,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 126429,
-      "impressions": 1546,
-      "reach": 1054,
-      "clicks": 44,
-      "engagement": 41,
+      "spend": 130306,
+      "impressions": 1644,
+      "reach": 1105,
+      "clicks": 46,
+      "engagement": 42,
       "messages": 2,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 234000,
-      "roas": 1.85
+      "roas": 1.8
     }
   ]
 }
