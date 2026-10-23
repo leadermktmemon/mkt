@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T10:32:27.418Z",
+  "generatedAt": "2026-10-23T10:41:16.666Z",
   "source": "lark",
   "period": {
     "days": 545,
@@ -47981,12 +47981,14 @@
       "social": 0,
       "brands": {},
       "bc": {},
-      "store": {},
-      "storeRev": 0,
-      "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "store": {
+        "Láng": 5184000
+      },
+      "storeRev": 5184000,
+      "storeOnline": 1382000,
+      "storeTarget": 2975000,
+      "custIn": 5,
+      "custBuy": 5,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61828,26 +61830,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3586384315,
-    "walkinOrders": 6575,
-    "marketingRevenue": 545739275,
-    "marketingOrdersEst": 6345806,
-    "custIn": 6879,
+    "walkinRevenue": 3591568315,
+    "walkinOrders": 6580,
+    "marketingRevenue": 547121275,
+    "marketingOrdersEst": 6361875,
+    "custIn": 6884,
     "closeRate": 96,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4527604888,
+    "totalRevenue": 4532788888,
     "salesCount": 10969564,
     "byType": {
       "Online": 941220573,
-      "Cửa hàng": 3586384315
+      "Cửa hàng": 3591568315
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3922654765,
+    "Bemori": 3927838765,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61858,20 +61860,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 1278741200,
-    "walkinOrders": 2340,
-    "marketingRevenue": 165321250,
-    "marketingOrdersEst": 7187880,
-    "custIn": 2411,
+    "walkinRevenue": 1283925200,
+    "walkinOrders": 2345,
+    "marketingRevenue": 166703250,
+    "marketingOrdersEst": 7247967,
+    "custIn": 2416,
     "closeRate": 97,
     "marketingPct": 11
   },
   "weekSales": {
-    "totalRevenue": 1536350223,
+    "totalRevenue": 1541534223,
     "salesCount": 10968412,
     "byType": {
       "Online": 257609023,
-      "Cửa hàng": 1278741200
+      "Cửa hàng": 1283925200
     },
     "onlinePct": 17,
     "storePct": 83
