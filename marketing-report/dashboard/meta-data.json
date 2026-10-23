@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T06:31:40.927Z",
+  "generatedAt": "2026-10-23T06:33:28.844Z",
   "since": "2025-01-01",
   "until": "2026-10-23",
   "accounts": [
@@ -5236,11 +5236,11 @@
       "igPurchaseValue": 470000
     },
     "2026-10-23": {
-      "facebook": 830420,
-      "instagram": 28108,
+      "facebook": 839355,
+      "instagram": 28649,
       "messenger": 0,
       "audience_network": 0,
-      "total": 858528,
+      "total": 868004,
       "igPurchaseValue": 0
     }
   },
@@ -23154,8 +23154,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 127057,
-      "impressions": 1107,
+      "spend": 127072,
+      "impressions": 1108,
       "reach": 843,
       "clicks": 58,
       "engagement": 40,
@@ -23185,9 +23185,9 @@
       },
       "spend": 104010,
       "impressions": 3533,
-      "reach": 3161,
+      "reach": 3218,
       "clicks": 39,
-      "engagement": 363,
+      "engagement": 367,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
@@ -23214,7 +23214,7 @@
       },
       "spend": 93613,
       "impressions": 1885,
-      "reach": 1357,
+      "reach": 1378,
       "clicks": 28,
       "engagement": 14,
       "messages": 0,
@@ -23241,8 +23241,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 92396,
-      "impressions": 1444,
+      "spend": 92792,
+      "impressions": 1451,
       "reach": 1211,
       "clicks": 63,
       "engagement": 39,
@@ -23250,7 +23250,7 @@
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 585000,
-      "roas": 6.33
+      "roas": 6.3
     },
     {
       "day": "2026-10-23",
@@ -23306,6 +23306,35 @@
       "engagement": 25,
       "messages": 3,
       "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 625000,
+      "roas": 7.13
+    },
+    {
+      "day": "2026-10-23",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248477805350340",
+      "name": "9.10.BST Hoa Video",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120248477805350340.jpg",
+      "creative": {
+        "title": "",
+        "body": "Mỗi ngày một bó hoa, mỗi bó hoa mang theo lời nhắn riêng #bemori #gaubong #hoa #quatang #couple",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 72279,
+      "impressions": 803,
+      "reach": 544,
+      "clicks": 9,
+      "engagement": 91,
+      "messages": 0,
+      "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
@@ -23328,8 +23357,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 71718,
-      "impressions": 596,
+      "spend": 71733,
+      "impressions": 597,
       "reach": 486,
       "clicks": 30,
       "engagement": 26,
@@ -23338,35 +23367,6 @@
       "purchases": 1,
       "purchaseValue": 422500,
       "roas": 5.89
-    },
-    {
-      "day": "2026-10-23",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248477805350340",
-      "name": "9.10.BST Hoa Video",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120248477805350340.jpg",
-      "creative": {
-        "title": "",
-        "body": "Mỗi ngày một bó hoa, mỗi bó hoa mang theo lời nhắn riêng #bemori #gaubong #hoa #quatang #couple",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 71403,
-      "impressions": 796,
-      "reach": 544,
-      "clicks": 9,
-      "engagement": 91,
-      "messages": 0,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
     },
     {
       "day": "2026-10-23",
@@ -23417,7 +23417,7 @@
       },
       "spend": 55532,
       "impressions": 681,
-      "reach": 483,
+      "reach": 494,
       "clicks": 17,
       "engagement": 19,
       "messages": 2,
