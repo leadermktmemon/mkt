@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T15:29:52.708Z",
+  "generatedAt": "2026-10-24T15:32:08.172Z",
   "source": "lark",
   "period": {
     "days": 546,
@@ -48025,11 +48025,11 @@
     {
       "day": "2026-10-24",
       "online": {},
-      "onlineRev": 11591000,
+      "onlineRev": 12126000,
       "onlineRev31": 0,
-      "onlineOrders": 25,
+      "onlineOrders": 26,
       "onlineProducts": 0,
-      "onlineTarget": 27000000,
+      "onlineTarget": 32000000,
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
@@ -48044,13 +48044,13 @@
         "Láng": 5415000,
         "Nguyễn Trãi": 3045000,
         "Cầu Giấy": 10265000,
-        "Bạch Mai": 1645000
+        "Bạch Mai": 6865000
       },
-      "storeRev": 32186000,
-      "storeOnline": 2558000,
-      "storeTarget": 45496500,
-      "custIn": 59,
-      "custBuy": 56,
+      "storeRev": 37406000,
+      "storeOnline": 3398000,
+      "storeTarget": 47421500,
+      "custIn": 70,
+      "custBuy": 67,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61711,22 +61711,22 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 931344623,
-    "onlineOrders": 10969528,
+    "onlineRevenue": 931879623,
+    "onlineOrders": 10969529,
     "onlineAov": 85,
     "channels": [
       {
         "name": "Zalo",
-        "orders": 4707244,
-        "revenue": 399658654,
+        "orders": 4707245,
+        "revenue": 399888233,
         "aov": 85,
         "share": 43,
         "est": true
       },
       {
         "name": "Facebook",
-        "orders": 4168907,
-        "revenue": 353952264,
+        "orders": 4168908,
+        "revenue": 354155588,
         "aov": 85,
         "share": 38,
         "est": true
@@ -61734,7 +61734,7 @@
       {
         "name": "Bán lẻ NK",
         "orders": 903513,
-        "revenue": 76710857,
+        "revenue": 76754923,
         "aov": 85,
         "share": 8,
         "est": true
@@ -61742,7 +61742,7 @@
       {
         "name": "Website",
         "orders": 671870,
-        "revenue": 57043712,
+        "revenue": 57076480,
         "aov": 85,
         "share": 6,
         "est": true
@@ -61750,7 +61750,7 @@
       {
         "name": "Instagram",
         "orders": 517993,
-        "revenue": 43979136,
+        "revenue": 44004399,
         "aov": 85,
         "share": 5,
         "est": true
@@ -61758,50 +61758,50 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3562290638,
-    "walkinOrders": 6511,
-    "marketingRevenue": 542707825,
-    "marketingOrdersEst": 6384798,
-    "custIn": 6801,
+    "walkinRevenue": 3567510638,
+    "walkinOrders": 6522,
+    "marketingRevenue": 543547825,
+    "marketingOrdersEst": 6394680,
+    "custIn": 6812,
     "closeRate": 96,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4493635261,
-    "salesCount": 10969528,
+    "totalRevenue": 4499390261,
+    "salesCount": 10969529,
     "byType": {
-      "Online": 931344623,
-      "Cửa hàng": 3562290638
+      "Online": 931879623,
+      "Cửa hàng": 3567510638
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3870019638,
+    "Bemori": 3875239638,
     "Teddy": 0,
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 282621023,
-    "onlineOrders": 10968462,
+    "onlineRevenue": 283156023,
+    "onlineOrders": 10968463,
     "onlineAov": 26,
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 1376214023,
-    "walkinOrders": 2529,
-    "marketingRevenue": 187124250,
-    "marketingOrdersEst": 7197087,
-    "custIn": 2607,
+    "walkinRevenue": 1381434023,
+    "walkinOrders": 2540,
+    "marketingRevenue": 187964250,
+    "marketingOrdersEst": 7229394,
+    "custIn": 2618,
     "closeRate": 97,
     "marketingPct": 12
   },
   "weekSales": {
-    "totalRevenue": 1658835046,
-    "salesCount": 10968462,
+    "totalRevenue": 1664590046,
+    "salesCount": 10968463,
     "byType": {
-      "Online": 282621023,
-      "Cửa hàng": 1376214023
+      "Online": 283156023,
+      "Cửa hàng": 1381434023
     },
     "onlinePct": 17,
     "storePct": 83
