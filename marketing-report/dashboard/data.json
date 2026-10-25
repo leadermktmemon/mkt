@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:39:18.759Z",
+  "generatedAt": "2026-10-25T15:50:30.887Z",
   "source": "lark",
   "period": {
     "days": 547,
@@ -48094,15 +48094,16 @@
         "Nguyễn Văn Cừ": 130000,
         "Nguyễn Trãi": 3017500,
         "Xuân Thủy": 3490000,
+        "Láng": 7319000,
         "Nguyễn Gia Trí": 6265000,
         "Outlet": 2767500,
-        "Bạch Mai": 2175000
+        "Bạch Mai": 5750000
       },
-      "storeRev": 21444000,
+      "storeRev": 32338000,
       "storeOnline": 550000,
-      "storeTarget": 41930000,
-      "custIn": 48,
-      "custBuy": 43,
+      "storeTarget": 51380000,
+      "custIn": 68,
+      "custBuy": 62,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61568,26 +61569,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3417823538,
-    "walkinOrders": 6230,
+    "walkinRevenue": 3428717538,
+    "walkinOrders": 6249,
     "marketingRevenue": 522137825,
     "marketingOrdersEst": 6290817,
-    "custIn": 6513,
+    "custIn": 6533,
     "closeRate": 96,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4324243661,
+    "totalRevenue": 4335137661,
     "salesCount": 10969464,
     "byType": {
       "Online": 906420123,
-      "Cửa hàng": 3417823538
+      "Cửa hàng": 3428717538
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3686604538,
+    "Bemori": 3697498538,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61598,20 +61599,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 1461407923,
-    "walkinOrders": 2680,
+    "walkinRevenue": 1472301923,
+    "walkinOrders": 2699,
     "marketingRevenue": 195052250,
     "marketingOrdersEst": 6966152,
-    "custIn": 2769,
+    "custIn": 2789,
     "closeRate": 97,
     "marketingPct": 12
   },
   "weekSales": {
-    "totalRevenue": 1763520446,
+    "totalRevenue": 1774414446,
     "salesCount": 10968492,
     "byType": {
       "Online": 302112523,
-      "Cửa hàng": 1461407923
+      "Cửa hàng": 1472301923
     },
     "onlinePct": 17,
     "storePct": 83
