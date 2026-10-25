@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T20:33:10.392Z",
+  "generatedAt": "2026-10-25T21:31:41.335Z",
   "since": "2025-01-01",
   "until": "2026-10-25",
   "accounts": [
@@ -5252,11 +5252,11 @@
       "igPurchaseValue": 0
     },
     "2026-10-25": {
-      "facebook": 2602045,
-      "instagram": 82181,
+      "facebook": 2603369,
+      "instagram": 82184,
       "messenger": 0,
       "audience_network": 0,
-      "total": 2684226,
+      "total": 2685553,
       "igPurchaseValue": 0
     }
   },
@@ -22706,8 +22706,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 327936,
-      "impressions": 7151,
+      "spend": 328325,
+      "impressions": 7159,
       "reach": 5488,
       "clicks": 126,
       "engagement": 73,
@@ -22735,8 +22735,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 326457,
-      "impressions": 5323,
+      "spend": 326583,
+      "impressions": 5325,
       "reach": 4242,
       "clicks": 76,
       "engagement": 812,
@@ -22764,8 +22764,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 324884,
-      "impressions": 11418,
+      "spend": 324966,
+      "impressions": 11422,
       "reach": 10027,
       "clicks": 116,
       "engagement": 1336,
@@ -22822,9 +22822,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 272846,
-      "impressions": 4068,
-      "reach": 2782,
+      "spend": 272874,
+      "impressions": 4070,
+      "reach": 2789,
       "clicks": 181,
       "engagement": 114,
       "messages": 17,
@@ -22832,6 +22832,35 @@
       "purchases": 1,
       "purchaseValue": 290000,
       "roas": 1.06
+    },
+    {
+      "day": "2026-10-25",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259903480140112",
+      "name": "15.10. Gối ôm mặt trăng - ảnh",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259903480140112.jpg",
+      "creative": {
+        "title": "",
+        "body": "✨ Mẹ ôm con, con ôm \"bạn trăng\" – thế là cả hai mẹ con mình cùng có một giấc ngủ thật tròn giấc! \n\n🌙 Gối Ôm Mặt Trăng Bemori Kids sở hữu thiết kế dáng bán nguyệt độc đáo, ôm khít hoàn hảo theo tư thế nằm tự nhiên của bé. \n\n- Con gác chân hay ôm mang lại cảm giác bao bọc an toàn\n- Với phom cong giúp bé khum bị giật mình con ngủ một mạch đến sáng. \n- Mẹ còn khéo léo tận dụng kê bụng hỗ trợ con tập Tummy Time siêu tiện lợi.\n\n👉 Số lượng có sẵn chỉ còn 100 chiếc. Mẹ inbox Bemori Kids để chọn màu kẻo hết nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 238964,
+      "impressions": 5981,
+      "reach": 5012,
+      "clicks": 186,
+      "engagement": 106,
+      "messages": 11,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-10-25",
@@ -22864,35 +22893,6 @@
     },
     {
       "day": "2026-10-25",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259903480140112",
-      "name": "15.10. Gối ôm mặt trăng - ảnh",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259903480140112.jpg",
-      "creative": {
-        "title": "",
-        "body": "✨ Mẹ ôm con, con ôm \"bạn trăng\" – thế là cả hai mẹ con mình cùng có một giấc ngủ thật tròn giấc! \n\n🌙 Gối Ôm Mặt Trăng Bemori Kids sở hữu thiết kế dáng bán nguyệt độc đáo, ôm khít hoàn hảo theo tư thế nằm tự nhiên của bé. \n\n- Con gác chân hay ôm mang lại cảm giác bao bọc an toàn\n- Với phom cong giúp bé khum bị giật mình con ngủ một mạch đến sáng. \n- Mẹ còn khéo léo tận dụng kê bụng hỗ trợ con tập Tummy Time siêu tiện lợi.\n\n👉 Số lượng có sẵn chỉ còn 100 chiếc. Mẹ inbox Bemori Kids để chọn màu kẻo hết nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 238388,
-      "impressions": 5978,
-      "reach": 5012,
-      "clicks": 186,
-      "engagement": 106,
-      "messages": 11,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-10-25",
       "account": "Pa15",
       "bm": "BM1",
       "id": "120248541685230340",
@@ -22909,8 +22909,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 226890,
-      "impressions": 3149,
+      "spend": 226931,
+      "impressions": 3150,
       "reach": 2287,
       "clicks": 82,
       "engagement": 92,
@@ -22967,8 +22967,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 205327,
-      "impressions": 3058,
+      "spend": 205412,
+      "impressions": 3059,
       "reach": 2020,
       "clicks": 85,
       "engagement": 54,
