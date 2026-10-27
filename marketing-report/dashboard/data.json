@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T15:02:26.623Z",
+  "generatedAt": "2026-10-27T15:20:21.818Z",
   "source": "lark",
   "period": {
     "days": 549,
@@ -48187,11 +48187,11 @@
     {
       "day": "2026-10-27",
       "online": {},
-      "onlineRev": 7150000,
+      "onlineRev": 12940000,
       "onlineRev31": 0,
-      "onlineOrders": 13,
+      "onlineOrders": 23,
       "onlineProducts": 0,
-      "onlineTarget": 12000000,
+      "onlineTarget": 27000000,
       "fbAds": 0,
       "ggAds": 0,
       "social": 0,
@@ -48201,15 +48201,16 @@
         "Nguyễn Văn Cừ": 500000,
         "Outlet": 1437500,
         "Cầu Giấy": 329000,
+        "Nguyễn Gia Trí": 1155000,
         "Láng": 1550000,
         "Bạch Mai": 4560250,
         "Nguyễn Trãi": 2199250
       },
-      "storeRev": 10576000,
+      "storeRev": 11731000,
       "storeOnline": 2210000,
-      "storeTarget": 30037500,
-      "custIn": 23,
-      "custBuy": 22,
+      "storeTarget": 34368750,
+      "custIn": 26,
+      "custBuy": 25,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61310,30 +61311,30 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 884254123,
-    "onlineOrders": 10969420,
+    "onlineRevenue": 890044123,
+    "onlineOrders": 10969430,
     "onlineAov": 81,
     "channels": [
       {
         "name": "Zalo",
-        "orders": 4983608,
-        "revenue": 401732792,
+        "orders": 4983612,
+        "revenue": 404363295,
         "aov": 81,
         "share": 45,
         "est": true
       },
       {
         "name": "Facebook",
-        "orders": 4197138,
-        "revenue": 338334811,
+        "orders": 4197142,
+        "revenue": 340550190,
         "aov": 81,
         "share": 38,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 723496,
-        "revenue": 58321639,
+        "orders": 723497,
+        "revenue": 58703523,
         "aov": 81,
         "share": 7,
         "est": true
@@ -61341,7 +61342,7 @@
       {
         "name": "Website",
         "orders": 689226,
-        "revenue": 55559069,
+        "revenue": 55922864,
         "aov": 81,
         "share": 6,
         "est": true
@@ -61349,7 +61350,7 @@
       {
         "name": "Instagram",
         "orders": 375952,
-        "revenue": 30305812,
+        "revenue": 30504251,
         "aov": 81,
         "share": 3,
         "est": true
@@ -61357,53 +61358,53 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3288726438,
-    "walkinOrders": 5963,
+    "walkinRevenue": 3289881438,
+    "walkinOrders": 5966,
     "marketingRevenue": 516621075,
     "marketingOrdersEst": 6378038,
-    "custIn": 6270,
+    "custIn": 6273,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 4172980561,
-    "salesCount": 10969420,
+    "totalRevenue": 4179925561,
+    "salesCount": 10969430,
     "byType": {
-      "Online": 884254123,
-      "Cửa hàng": 3288726438
+      "Online": 890044123,
+      "Cửa hàng": 3289881438
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3523639438,
+    "Bemori": 3524794438,
     "Teddy": 0,
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 22363000,
-    "onlineOrders": 40,
-    "onlineAov": 559075,
+    "onlineRevenue": 28153000,
+    "onlineOrders": 50,
+    "onlineAov": 563060,
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 54614650,
-    "walkinOrders": 107,
+    "walkinRevenue": 55769650,
+    "walkinOrders": 110,
     "marketingRevenue": 13159000,
-    "marketingOrdersEst": 24,
-    "custIn": 110,
+    "marketingOrdersEst": 23,
+    "custIn": 113,
     "closeRate": 97,
     "marketingPct": 19
   },
   "weekSales": {
-    "totalRevenue": 76977650,
-    "salesCount": 40,
+    "totalRevenue": 83922650,
+    "salesCount": 50,
     "byType": {
-      "Online": 22363000,
-      "Cửa hàng": 54614650
+      "Online": 28153000,
+      "Cửa hàng": 55769650
     },
-    "onlinePct": 29,
-    "storePct": 71
+    "onlinePct": 34,
+    "storePct": 66
   },
   "weekBrands": {
     "Bemori": 0,
