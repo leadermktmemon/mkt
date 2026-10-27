@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T10:02:39.691Z",
+  "generatedAt": "2026-10-27T10:19:39.006Z",
   "source": "lark",
   "period": {
     "days": 549,
@@ -48199,13 +48199,14 @@
       "bc": {},
       "store": {
         "Nguyễn Văn Cừ": 460000,
-        "Láng": 1550000
+        "Láng": 1550000,
+        "Nguyễn Trãi": 2199250
       },
-      "storeRev": 2010000,
+      "storeRev": 4209250,
       "storeOnline": 535000,
-      "storeTarget": 7605000,
-      "custIn": 2,
-      "custBuy": 2,
+      "storeTarget": 13005000,
+      "custIn": 5,
+      "custBuy": 5,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61353,26 +61354,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3280160438,
-    "walkinOrders": 5943,
+    "walkinRevenue": 3282359688,
+    "walkinOrders": 5946,
     "marketingRevenue": 514946075,
     "marketingOrdersEst": 6357359,
-    "custIn": 6249,
+    "custIn": 6252,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 4164414561,
+    "totalRevenue": 4166613811,
     "salesCount": 10969420,
     "byType": {
       "Online": 884254123,
-      "Cửa hàng": 3280160438
+      "Cửa hàng": 3282359688
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3515073438,
+    "Bemori": 3517272688,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61383,23 +61384,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 46048650,
-    "walkinOrders": 87,
+    "walkinRevenue": 48247900,
+    "walkinOrders": 90,
     "marketingRevenue": 11484000,
     "marketingOrdersEst": 21,
-    "custIn": 89,
+    "custIn": 92,
     "closeRate": 98,
-    "marketingPct": 20
+    "marketingPct": 19
   },
   "weekSales": {
-    "totalRevenue": 68411650,
+    "totalRevenue": 70610900,
     "salesCount": 40,
     "byType": {
       "Online": 22363000,
-      "Cửa hàng": 46048650
+      "Cửa hàng": 48247900
     },
-    "onlinePct": 33,
-    "storePct": 67
+    "onlinePct": 32,
+    "storePct": 68
   },
   "weekBrands": {
     "Bemori": 0,
