@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T10:50:14.466Z",
+  "generatedAt": "2026-10-28T11:02:30.076Z",
   "source": "lark",
   "period": {
     "days": 550,
@@ -48253,13 +48253,14 @@
       "bc": {},
       "store": {
         "Láng": 2745000,
-        "Nguyễn Văn Cừ": 210000
+        "Nguyễn Văn Cừ": 210000,
+        "Outlet": 915000
       },
-      "storeRev": 2955000,
+      "storeRev": 3870000,
       "storeOnline": 561000,
-      "storeTarget": 7605000,
-      "custIn": 3,
-      "custBuy": 3,
+      "storeTarget": 9067500,
+      "custIn": 7,
+      "custBuy": 6,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48278,9 +48279,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 827289,
-      "metaIg": 22097,
-      "metaTotal": 849386,
+      "metaFb": 876451,
+      "metaIg": 23562,
+      "metaTotal": 900013,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -61020,37 +61021,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248541413530340.jpg",
-      "spend": 226491,
-      "impressions": 2711,
-      "reach": 1840,
-      "clicks": 80,
-      "engagement": 59,
-      "messages": 9,
+      "spend": 237461,
+      "impressions": 2899,
+      "reach": 1985,
+      "clicks": 90,
+      "engagement": 64,
+      "messages": 11,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 790000,
-      "roas": 3.49
-    },
-    {
-      "day": "2026-10-28",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259193031850112",
-      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 169733,
-      "impressions": 2179,
-      "reach": 1725,
-      "clicks": 100,
-      "engagement": 63,
-      "messages": 8,
-      "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 360000,
-      "roas": 2.12
+      "roas": 3.33
     },
     {
       "day": "2026-10-28",
@@ -61062,16 +61042,37 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248592197310340.jpg",
-      "spend": 165277,
-      "impressions": 3617,
-      "reach": 3204,
-      "clicks": 54,
-      "engagement": 441,
+      "spend": 183182,
+      "impressions": 4021,
+      "reach": 3468,
+      "clicks": 60,
+      "engagement": 479,
       "messages": 5,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
+    },
+    {
+      "day": "2026-10-28",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259193031850112",
+      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259193031850112.jpg",
+      "spend": 175531,
+      "impressions": 2308,
+      "reach": 1806,
+      "clicks": 108,
+      "engagement": 67,
+      "messages": 8,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 360000,
+      "roas": 2.05
     },
     {
       "day": "2026-10-28",
@@ -61083,11 +61084,11 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248477805350340.jpg",
-      "spend": 155439,
-      "impressions": 1604,
-      "reach": 1131,
-      "clicks": 32,
-      "engagement": 238,
+      "spend": 165264,
+      "impressions": 1703,
+      "reach": 1191,
+      "clicks": 35,
+      "engagement": 248,
       "messages": 4,
       "leads": 2,
       "purchases": 0,
@@ -61104,10 +61105,10 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259903480140112.jpg",
-      "spend": 132446,
-      "impressions": 2512,
-      "reach": 2090,
-      "clicks": 72,
+      "spend": 138575,
+      "impressions": 2669,
+      "reach": 2210,
+      "clicks": 73,
       "engagement": 43,
       "messages": 8,
       "leads": 0,
@@ -61165,26 +61166,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3294431188,
-    "walkinOrders": 5954,
+    "walkinRevenue": 3295346188,
+    "walkinOrders": 5957,
     "marketingRevenue": 516803575,
     "marketingOrdersEst": 6380291,
-    "custIn": 6260,
+    "custIn": 6264,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 4179793811,
+    "totalRevenue": 4180708811,
     "salesCount": 10969423,
     "byType": {
       "Online": 885362623,
-      "Cửa hàng": 3294431188
+      "Cửa hàng": 3295346188
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3529344188,
+    "Bemori": 3530259188,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61195,20 +61196,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 101325900,
-    "walkinOrders": 192,
+    "walkinRevenue": 102240900,
+    "walkinOrders": 195,
     "marketingRevenue": 21892500,
     "marketingOrdersEst": 44,
-    "custIn": 197,
+    "custIn": 201,
     "closeRate": 97,
     "marketingPct": 18
   },
   "weekSales": {
-    "totalRevenue": 138516400,
+    "totalRevenue": 139431400,
     "salesCount": 75,
     "byType": {
       "Online": 37190500,
-      "Cửa hàng": 101325900
+      "Cửa hàng": 102240900
     },
     "onlinePct": 27,
     "storePct": 73
