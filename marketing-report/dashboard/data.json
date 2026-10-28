@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T15:50:41.096Z",
+  "generatedAt": "2026-10-28T16:02:25.218Z",
   "source": "lark",
   "period": {
     "days": 550,
@@ -48252,20 +48252,22 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Lê Văn Sỹ": 974500,
+        "Lê Văn Sỹ": 2499000,
         "Bạch Mai": 6906750,
-        "Láng": 4939250,
-        "Xuân Thủy": 2843000,
-        "Nguyễn Gia Trí": 405000,
+        "Láng": 9421250,
+        "Xuân Thủy": 8162000,
+        "Nguyễn Trãi": 8036500,
+        "Nguyễn Gia Trí": 4759000,
         "Nguyễn Văn Cừ": 3844000,
         "Xã Đàn": 3209500,
-        "Outlet": 1212500
+        "Outlet": 1212500,
+        "Cầu Giấy": 8225000
       },
-      "storeRev": 24334500,
-      "storeOnline": 1821000,
-      "storeTarget": 54828750,
-      "custIn": 50,
-      "custBuy": 46,
+      "storeRev": 56275500,
+      "storeOnline": 6325750,
+      "storeTarget": 82807500,
+      "custIn": 112,
+      "custBuy": 106,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48284,9 +48286,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 1104090,
-      "metaIg": 29586,
-      "metaTotal": 1133676,
+      "metaFb": 1157939,
+      "metaIg": 30554,
+      "metaTotal": 1188493,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -61026,16 +61028,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248541413530340.jpg",
-      "spend": 289965,
-      "impressions": 3695,
-      "reach": 2457,
-      "clicks": 115,
-      "engagement": 79,
+      "spend": 300687,
+      "impressions": 3875,
+      "reach": 2543,
+      "clicks": 118,
+      "engagement": 81,
       "messages": 14,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 790000,
-      "roas": 2.72
+      "roas": 2.63
     },
     {
       "day": "2026-10-28",
@@ -61047,16 +61049,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248592197310340.jpg",
-      "spend": 240695,
-      "impressions": 5559,
-      "reach": 4676,
-      "clicks": 80,
-      "engagement": 661,
+      "spend": 256522,
+      "impressions": 5986,
+      "reach": 4997,
+      "clicks": 86,
+      "engagement": 718,
       "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 320000,
-      "roas": 1.33
+      "roas": 1.25
     },
     {
       "day": "2026-10-28",
@@ -61068,16 +61070,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 227776,
-      "impressions": 3544,
-      "reach": 2666,
-      "clicks": 142,
-      "engagement": 89,
+      "spend": 240176,
+      "impressions": 3842,
+      "reach": 2915,
+      "clicks": 152,
+      "engagement": 98,
       "messages": 10,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 360000,
-      "roas": 1.58
+      "roas": 1.5
     },
     {
       "day": "2026-10-28",
@@ -61089,11 +61091,11 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248477805350340.jpg",
-      "spend": 196392,
-      "impressions": 2098,
-      "reach": 1428,
-      "clicks": 49,
-      "engagement": 316,
+      "spend": 204610,
+      "impressions": 2212,
+      "reach": 1485,
+      "clicks": 51,
+      "engagement": 333,
       "messages": 6,
       "leads": 2,
       "purchases": 0,
@@ -61110,13 +61112,13 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259903480140112.jpg",
-      "spend": 175965,
-      "impressions": 3717,
-      "reach": 2948,
-      "clicks": 103,
-      "engagement": 64,
-      "messages": 10,
-      "leads": 0,
+      "spend": 186498,
+      "impressions": 4037,
+      "reach": 3253,
+      "clicks": 110,
+      "engagement": 67,
+      "messages": 12,
+      "leads": 2,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
@@ -61171,26 +61173,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3315910688,
-    "walkinOrders": 5997,
-    "marketingRevenue": 518063575,
-    "marketingOrdersEst": 6395847,
-    "custIn": 6307,
+    "walkinRevenue": 3347851688,
+    "walkinOrders": 6057,
+    "marketingRevenue": 522568325,
+    "marketingOrdersEst": 6451461,
+    "custIn": 6369,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 4201273311,
+    "totalRevenue": 4233214311,
     "salesCount": 10969423,
     "byType": {
       "Online": 885362623,
-      "Cửa hàng": 3315910688
+      "Cửa hàng": 3347851688
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3550823688,
+    "Bemori": 3582764688,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61201,23 +61203,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 122805400,
-    "walkinOrders": 235,
-    "marketingRevenue": 23152500,
-    "marketingOrdersEst": 47,
-    "custIn": 244,
+    "walkinRevenue": 154746400,
+    "walkinOrders": 295,
+    "marketingRevenue": 27657250,
+    "marketingOrdersEst": 56,
+    "custIn": 306,
     "closeRate": 96,
-    "marketingPct": 16
+    "marketingPct": 15
   },
   "weekSales": {
-    "totalRevenue": 159995900,
+    "totalRevenue": 191936900,
     "salesCount": 75,
     "byType": {
       "Online": 37190500,
-      "Cửa hàng": 122805400
+      "Cửa hàng": 154746400
     },
-    "onlinePct": 23,
-    "storePct": 77
+    "onlinePct": 19,
+    "storePct": 81
   },
   "weekBrands": {
     "Bemori": 0,
