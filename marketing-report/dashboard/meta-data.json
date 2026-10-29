@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T16:01:35.907Z",
+  "generatedAt": "2026-10-29T17:01:42.801Z",
   "since": "2025-01-01",
   "until": "2026-10-29",
   "accounts": [
@@ -5284,11 +5284,11 @@
       "igPurchaseValue": 0
     },
     "2026-10-29": {
-      "facebook": 1085300,
-      "instagram": 50990,
+      "facebook": 1097619,
+      "instagram": 53576,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1136290,
+      "total": 1151195,
       "igPurchaseValue": 0
     }
   },
@@ -22013,45 +22013,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 280419,
-      "impressions": 4521,
-      "reach": 3140,
-      "clicks": 134,
-      "engagement": 103,
+      "spend": 286086,
+      "impressions": 4645,
+      "reach": 3200,
+      "clicks": 140,
+      "engagement": 108,
       "messages": 6,
       "leads": 6,
       "purchases": 1,
       "purchaseValue": 630000,
-      "roas": 2.25
-    },
-    {
-      "day": "2026-10-29",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248592197310340",
-      "name": "16.10. Hoa hồng xanh đỏ -video",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120248592197310340.jpg",
-      "creative": {
-        "title": "",
-        "body": "Mỗi món quà là 1 lời nhắn yêu thương #bemori #quatang #hoa #gaubong",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 241933,
-      "impressions": 5695,
-      "reach": 4845,
-      "clicks": 78,
-      "engagement": 669,
-      "messages": 5,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "roas": 2.2
     },
     {
       "day": "2026-10-29",
@@ -22071,16 +22042,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 240874,
-      "impressions": 3252,
-      "reach": 2446,
-      "clicks": 159,
+      "spend": 242812,
+      "impressions": 3288,
+      "reach": 2474,
+      "clicks": 161,
       "engagement": 108,
       "messages": 17,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 970000,
-      "roas": 4.03
+      "roas": 3.99
+    },
+    {
+      "day": "2026-10-29",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248592197310340",
+      "name": "16.10. Hoa hồng xanh đỏ -video",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120248592197310340.jpg",
+      "creative": {
+        "title": "",
+        "body": "Mỗi món quà là 1 lời nhắn yêu thương #bemori #quatang #hoa #gaubong",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 242571,
+      "impressions": 5703,
+      "reach": 4845,
+      "clicks": 78,
+      "engagement": 669,
+      "messages": 5,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-10-29",
@@ -22100,16 +22100,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 199281,
-      "impressions": 2771,
-      "reach": 1840,
-      "clicks": 57,
-      "engagement": 444,
+      "spend": 205824,
+      "impressions": 2894,
+      "reach": 1931,
+      "clicks": 58,
+      "engagement": 460,
       "messages": 7,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 400000,
-      "roas": 2.01
+      "roas": 1.94
     },
     {
       "day": "2026-10-29",
@@ -22129,9 +22129,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 173783,
-      "impressions": 4139,
-      "reach": 3388,
+      "spend": 173902,
+      "impressions": 4141,
+      "reach": 3393,
       "clicks": 146,
       "engagement": 86,
       "messages": 12,
