@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T15:02:18.607Z",
+  "generatedAt": "2026-10-29T15:14:16.488Z",
   "source": "lark",
   "period": {
     "days": 551,
@@ -48306,16 +48306,17 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Bạch Mai": 5335000,
         "Nguyễn Văn Cừ": 3900000,
         "Nguyễn Trãi": 1045000,
         "Outlet": 1380000,
         "Xã Đàn": 3827250
       },
-      "storeRev": 10152250,
-      "storeOnline": 0,
-      "storeTarget": 18309000,
-      "custIn": 20,
-      "custBuy": 18,
+      "storeRev": 15487250,
+      "storeOnline": 575000,
+      "storeTarget": 28434000,
+      "custIn": 27,
+      "custBuy": 25,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -61071,26 +61072,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3307684938,
-    "walkinOrders": 5978,
-    "marketingRevenue": 510066575,
-    "marketingOrdersEst": 6456539,
-    "custIn": 6288,
+    "walkinRevenue": 3313019938,
+    "walkinOrders": 5985,
+    "marketingRevenue": 510641575,
+    "marketingOrdersEst": 6463817,
+    "custIn": 6295,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4174965561,
+    "totalRevenue": 4180300561,
     "salesCount": 10969390,
     "byType": {
       "Online": 867280623,
-      "Cửa hàng": 3307684938
+      "Cửa hàng": 3313019938
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3542597938,
+    "Bemori": 3547932938,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61101,20 +61102,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 165808650,
-    "walkinOrders": 314,
-    "marketingRevenue": 27657250,
-    "marketingOrdersEst": 56,
-    "custIn": 327,
+    "walkinRevenue": 171143650,
+    "walkinOrders": 321,
+    "marketingRevenue": 28232250,
+    "marketingOrdersEst": 57,
+    "custIn": 334,
     "closeRate": 96,
     "marketingPct": 14
   },
   "weekSales": {
-    "totalRevenue": 202999150,
+    "totalRevenue": 208334150,
     "salesCount": 75,
     "byType": {
       "Online": 37190500,
-      "Cửa hàng": 165808650
+      "Cửa hàng": 171143650
     },
     "onlinePct": 18,
     "storePct": 82
