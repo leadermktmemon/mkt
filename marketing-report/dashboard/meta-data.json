@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T10:01:33.551Z",
+  "generatedAt": "2026-10-30T11:01:39.984Z",
   "since": "2025-01-01",
   "until": "2026-10-30",
   "accounts": [
@@ -5292,11 +5292,11 @@
       "igPurchaseValue": 0
     },
     "2026-10-30": {
-      "facebook": 495713,
-      "instagram": 20579,
+      "facebook": 523111,
+      "instagram": 20951,
       "messenger": 0,
       "audience_network": 0,
-      "total": 516292,
+      "total": 544062,
       "igPurchaseValue": 0
     }
   },
@@ -21825,7 +21825,7 @@
       "engagement": 109,
       "messages": 17,
       "leads": 6,
-      "purchases": 2,
+      "purchases": 3,
       "purchaseValue": 970000,
       "roas": 3.97
     },
@@ -21934,16 +21934,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 214037,
-      "impressions": 3004,
-      "reach": 2225,
-      "clicks": 90,
-      "engagement": 58,
+      "spend": 224511,
+      "impressions": 3158,
+      "reach": 2298,
+      "clicks": 96,
+      "engagement": 62,
       "messages": 8,
-      "leads": 4,
-      "purchases": 1,
-      "purchaseValue": 320000,
-      "roas": 1.5
+      "leads": 6,
+      "purchases": 2,
+      "purchaseValue": 1745000,
+      "roas": 7.77
     },
     {
       "day": "2026-10-30",
@@ -21963,16 +21963,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 163347,
-      "impressions": 2101,
-      "reach": 1545,
-      "clicks": 105,
-      "engagement": 69,
+      "spend": 172691,
+      "impressions": 2212,
+      "reach": 1610,
+      "clicks": 111,
+      "engagement": 71,
       "messages": 10,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 355000,
-      "roas": 2.17
+      "roas": 2.06
     },
     {
       "day": "2026-10-30",
@@ -21992,11 +21992,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 138908,
-      "impressions": 1794,
-      "reach": 1290,
-      "clicks": 32,
-      "engagement": 313,
+      "spend": 146860,
+      "impressions": 1883,
+      "reach": 1335,
+      "clicks": 36,
+      "engagement": 331,
       "messages": 1,
       "leads": 0,
       "purchases": 0,

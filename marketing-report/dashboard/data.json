@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T10:50:27.511Z",
+  "generatedAt": "2026-10-30T11:02:25.796Z",
   "source": "lark",
   "period": {
     "days": 552,
@@ -48359,12 +48359,14 @@
       "social": 0,
       "brands": {},
       "bc": {},
-      "store": {},
-      "storeRev": 0,
+      "store": {
+        "Outlet": 235000
+      },
+      "storeRev": 235000,
       "storeOnline": 0,
-      "storeTarget": 0,
-      "custIn": 0,
-      "custBuy": 0,
+      "storeTarget": 1755000,
+      "custIn": 3,
+      "custBuy": 1,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48383,9 +48385,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 495713,
-      "metaIg": 20579,
-      "metaTotal": 516292,
+      "metaFb": 523111,
+      "metaIg": 20951,
+      "metaTotal": 544062,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -60835,7 +60837,7 @@
       "engagement": 109,
       "messages": 17,
       "leads": 6,
-      "purchases": 2,
+      "purchases": 3,
       "purchaseValue": 970000,
       "roas": 3.97
     },
@@ -60912,16 +60914,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248541413530340.jpg",
-      "spend": 214037,
-      "impressions": 3004,
-      "reach": 2225,
-      "clicks": 90,
-      "engagement": 58,
+      "spend": 224511,
+      "impressions": 3158,
+      "reach": 2298,
+      "clicks": 96,
+      "engagement": 62,
       "messages": 8,
-      "leads": 4,
-      "purchases": 1,
-      "purchaseValue": 320000,
-      "roas": 1.5
+      "leads": 6,
+      "purchases": 2,
+      "purchaseValue": 1745000,
+      "roas": 7.77
     },
     {
       "day": "2026-10-30",
@@ -60933,16 +60935,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 163347,
-      "impressions": 2101,
-      "reach": 1545,
-      "clicks": 105,
-      "engagement": 69,
+      "spend": 172691,
+      "impressions": 2212,
+      "reach": 1610,
+      "clicks": 111,
+      "engagement": 71,
       "messages": 10,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 355000,
-      "roas": 2.17
+      "roas": 2.06
     },
     {
       "day": "2026-10-30",
@@ -60954,11 +60956,11 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248477805350340.jpg",
-      "spend": 138908,
-      "impressions": 1794,
-      "reach": 1290,
-      "clicks": 32,
-      "engagement": 313,
+      "spend": 146860,
+      "impressions": 1883,
+      "reach": 1335,
+      "clicks": 36,
+      "engagement": 331,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
@@ -61015,26 +61017,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3295404188,
-    "walkinOrders": 5956,
+    "walkinRevenue": 3295639188,
+    "walkinOrders": 5957,
     "marketingRevenue": 502950575,
     "marketingOrdersEst": 6286882,
-    "custIn": 6268,
+    "custIn": 6271,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4174793811,
+    "totalRevenue": 4175028811,
     "salesCount": 10969414,
     "byType": {
       "Online": 879389623,
-      "Cửa hàng": 3295404188
+      "Cửa hàng": 3295639188
     },
     "onlinePct": 21,
     "storePct": 79
   },
   "brands": {
-    "Bemori": 3530317188,
+    "Bemori": 3530552188,
     "Teddy": 0,
     "Memon": 0
   },
@@ -61045,20 +61047,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 198737900,
-    "walkinOrders": 374,
+    "walkinRevenue": 198972900,
+    "walkinOrders": 375,
     "marketingRevenue": 36456250,
     "marketingOrdersEst": 71,
-    "custIn": 393,
+    "custIn": 396,
     "closeRate": 95,
-    "marketingPct": 16
+    "marketingPct": 15
   },
   "weekSales": {
-    "totalRevenue": 259122400,
+    "totalRevenue": 259357400,
     "salesCount": 117,
     "byType": {
       "Online": 60384500,
-      "Cửa hàng": 198737900
+      "Cửa hàng": 198972900
     },
     "onlinePct": 23,
     "storePct": 77
