@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T08:01:31.848Z",
+  "generatedAt": "2026-10-31T09:01:37.742Z",
   "since": "2025-01-01",
   "until": "2026-10-31",
   "accounts": [
@@ -5292,19 +5292,19 @@
       "igPurchaseValue": 0
     },
     "2026-10-30": {
-      "facebook": 681469,
-      "instagram": 26452,
+      "facebook": 681470,
+      "instagram": 26451,
       "messenger": 0,
       "audience_network": 0,
       "total": 707921,
       "igPurchaseValue": 0
     },
     "2026-10-31": {
-      "facebook": 290136,
-      "instagram": 7052,
+      "facebook": 314708,
+      "instagram": 7422,
       "messenger": 0,
       "audience_network": 0,
-      "total": 297188,
+      "total": 322130,
       "igPurchaseValue": 0
     }
   },
@@ -21797,16 +21797,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 132272,
-      "impressions": 1894,
-      "reach": 1582,
-      "clicks": 94,
-      "engagement": 73,
-      "messages": 11,
+      "spend": 140765,
+      "impressions": 1992,
+      "reach": 1648,
+      "clicks": 102,
+      "engagement": 77,
+      "messages": 12,
       "leads": 4,
       "purchases": 3,
       "purchaseValue": 1190000,
-      "roas": 9
+      "roas": 8.45
     },
     {
       "day": "2026-10-31",
@@ -21826,12 +21826,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 96692,
-      "impressions": 1228,
-      "reach": 892,
-      "clicks": 52,
-      "engagement": 42,
-      "messages": 3,
+      "spend": 107032,
+      "impressions": 1349,
+      "reach": 953,
+      "clicks": 55,
+      "engagement": 45,
+      "messages": 4,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -21855,12 +21855,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 66308,
-      "impressions": 765,
-      "reach": 560,
-      "clicks": 29,
-      "engagement": 141,
-      "messages": 1,
+      "spend": 74333,
+      "impressions": 856,
+      "reach": 616,
+      "clicks": 33,
+      "engagement": 156,
+      "messages": 2,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
