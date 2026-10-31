@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T06:50:10.417Z",
+  "generatedAt": "2026-10-31T07:02:15.365Z",
   "source": "lark",
   "period": {
     "days": 553,
@@ -48394,9 +48394,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 681397,
+      "metaFb": 681451,
       "metaIg": 26451,
-      "metaTotal": 707848,
+      "metaTotal": 707902,
       "metaIgPixelRev": 0,
       "googleAds": 0
     },
@@ -48437,9 +48437,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 234593,
-      "metaIg": 4780,
-      "metaTotal": 239373,
+      "metaFb": 263264,
+      "metaIg": 5813,
+      "metaTotal": 269077,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -60837,16 +60837,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 105646,
-      "impressions": 1550,
-      "reach": 1316,
-      "clicks": 72,
-      "engagement": 53,
+      "spend": 120590,
+      "impressions": 1755,
+      "reach": 1472,
+      "clicks": 83,
+      "engagement": 60,
       "messages": 8,
       "leads": 4,
       "purchases": 3,
       "purchaseValue": 1190000,
-      "roas": 11.26
+      "roas": 9.87
     },
     {
       "day": "2026-10-31",
