@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T10:01:47.806Z",
+  "generatedAt": "2026-10-31T11:01:36.431Z",
   "since": "2025-01-01",
   "until": "2026-10-31",
   "accounts": [
@@ -5292,19 +5292,19 @@
       "igPurchaseValue": 0
     },
     "2026-10-30": {
-      "facebook": 681470,
+      "facebook": 681484,
       "instagram": 26451,
       "messenger": 0,
       "audience_network": 0,
-      "total": 707921,
+      "total": 707935,
       "igPurchaseValue": 0
     },
     "2026-10-31": {
-      "facebook": 338129,
-      "instagram": 7882,
+      "facebook": 358529,
+      "instagram": 8446,
       "messenger": 0,
       "audience_network": 0,
-      "total": 346011,
+      "total": 366975,
       "igPurchaseValue": 0
     }
   },
@@ -21768,11 +21768,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 190395,
-      "impressions": 2557,
+      "spend": 190409,
+      "impressions": 2558,
       "reach": 1668,
       "clicks": 47,
-      "engagement": 434,
+      "engagement": 435,
       "messages": 3,
       "leads": 2,
       "purchases": 0,
@@ -21797,16 +21797,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 148843,
-      "impressions": 2093,
-      "reach": 1707,
-      "clicks": 104,
-      "engagement": 78,
+      "spend": 153839,
+      "impressions": 2200,
+      "reach": 1782,
+      "clicks": 112,
+      "engagement": 82,
       "messages": 13,
       "leads": 4,
       "purchases": 3,
       "purchaseValue": 1190000,
-      "roas": 8
+      "roas": 7.74
     },
     {
       "day": "2026-10-31",
@@ -21826,11 +21826,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 117580,
-      "impressions": 1527,
-      "reach": 1048,
-      "clicks": 57,
-      "engagement": 46,
+      "spend": 126878,
+      "impressions": 1692,
+      "reach": 1168,
+      "clicks": 63,
+      "engagement": 49,
       "messages": 4,
       "leads": 0,
       "purchases": 0,
@@ -21855,12 +21855,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 79882,
-      "impressions": 943,
-      "reach": 667,
-      "clicks": 38,
-      "engagement": 172,
-      "messages": 2,
+      "spend": 84555,
+      "impressions": 1022,
+      "reach": 731,
+      "clicks": 40,
+      "engagement": 188,
+      "messages": 3,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
