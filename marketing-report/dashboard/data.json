@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T15:32:02.276Z",
+  "generatedAt": "2026-11-01T16:02:28.321Z",
   "source": "lark",
   "period": {
     "days": 554,
@@ -47457,7 +47457,7 @@
       "storeOnline": 7883000,
       "storeTarget": 115455000,
       "custIn": 142,
-      "custBuy": 137,
+      "custBuy": 136,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -47511,7 +47511,7 @@
       "storeOnline": 15850500,
       "storeTarget": 103830000,
       "custIn": 141,
-      "custBuy": 131,
+      "custBuy": 130,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -47673,7 +47673,7 @@
       "storeOnline": 28871266,
       "storeTarget": 206100000,
       "custIn": 271,
-      "custBuy": 263,
+      "custBuy": 262,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -47727,7 +47727,7 @@
       "storeOnline": 30373800,
       "storeTarget": 202500000,
       "custIn": 288,
-      "custBuy": 270,
+      "custBuy": 268,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48213,7 +48213,7 @@
       "storeOnline": 10382500,
       "storeTarget": 90176250,
       "custIn": 107,
-      "custBuy": 102,
+      "custBuy": 101,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48375,7 +48375,7 @@
       "storeOnline": 12216000,
       "storeTarget": 95842500,
       "custIn": 108,
-      "custBuy": 102,
+      "custBuy": 101,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48429,7 +48429,7 @@
       "storeOnline": 11791000,
       "storeTarget": 142852500,
       "custIn": 193,
-      "custBuy": 187,
+      "custBuy": 185,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48468,21 +48468,22 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Bạch Mai": 9115000,
-        "Lê Văn Sỹ": 4475000,
-        "Xã Đàn": 7020000,
-        "Nguyễn Trãi": 6550000,
-        "Nguyễn Gia Trí": 2970000,
+        "Bạch Mai": 9510000,
+        "Láng": 5575000,
+        "Lê Văn Sỹ": 7980000,
+        "Xã Đàn": 9679000,
+        "Nguyễn Trãi": 13853250,
+        "Nguyễn Gia Trí": 7500650,
         "Outlet": 3528500,
-        "Cầu Giấy": 1490000,
-        "Nguyễn Văn Cừ": 5815000,
-        "Xuân Thủy": 2565000
+        "Cầu Giấy": 9800000,
+        "Nguyễn Văn Cừ": 8910000,
+        "Xuân Thủy": 12148000
       },
-      "storeRev": 43528500,
-      "storeOnline": 215000,
+      "storeRev": 88484400,
+      "storeOnline": 9534000,
       "storeTarget": 0,
-      "custIn": 95,
-      "custBuy": 91,
+      "custIn": 170,
+      "custBuy": 161,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48501,9 +48502,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 831442,
-      "metaIg": 24374,
-      "metaTotal": 855816,
+      "metaFb": 862776,
+      "metaIg": 25067,
+      "metaTotal": 887843,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -60761,9 +60762,9 @@
       "engagement": 114,
       "messages": 16,
       "leads": 6,
-      "purchases": 4,
-      "purchaseValue": 1550000,
-      "roas": 8.22
+      "purchases": 5,
+      "purchaseValue": 2675000,
+      "roas": 14.19
     },
     {
       "day": "2026-10-31",
@@ -60830,6 +60831,27 @@
     },
     {
       "day": "2026-11-01",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259193031850112",
+      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259193031850112.jpg",
+      "spend": 260746,
+      "impressions": 3368,
+      "reach": 2467,
+      "clicks": 183,
+      "engagement": 125,
+      "messages": 9,
+      "leads": 4,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-11-01",
       "account": "Pa15",
       "bm": "BM1",
       "id": "120248477805350340",
@@ -60844,27 +60866,6 @@
       "clicks": 79,
       "engagement": 712,
       "messages": 4,
-      "leads": 2,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-11-01",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259193031850112",
-      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 252633,
-      "impressions": 3190,
-      "reach": 2324,
-      "clicks": 178,
-      "engagement": 120,
-      "messages": 8,
       "leads": 2,
       "purchases": 0,
       "purchaseValue": 0,
@@ -60920,26 +60921,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3374150774,
-    "walkinOrders": 6100,
-    "marketingRevenue": 503602316,
-    "marketingOrdersEst": 6626346,
-    "custIn": 6412,
+    "walkinRevenue": 3419106674,
+    "walkinOrders": 6161,
+    "marketingRevenue": 512921316,
+    "marketingOrdersEst": 6748965,
+    "custIn": 6487,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4207699396,
+    "totalRevenue": 4252655296,
     "salesCount": 10969375,
     "byType": {
       "Online": 833548622,
-      "Cửa hàng": 3374150774
+      "Cửa hàng": 3419106674
     },
     "onlinePct": 20,
     "storePct": 80
   },
   "brands": {
-    "Bemori": 3575975774,
+    "Bemori": 3620931674,
     "Teddy": 0,
     "Memon": 0
   },
@@ -60950,23 +60951,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 404584100,
-    "walkinOrders": 754,
-    "marketingRevenue": 62088250,
-    "marketingOrdersEst": 121,
-    "custIn": 794,
-    "closeRate": 95,
-    "marketingPct": 13
+    "walkinRevenue": 449540000,
+    "walkinOrders": 820,
+    "marketingRevenue": 71407250,
+    "marketingOrdersEst": 139,
+    "custIn": 869,
+    "closeRate": 94,
+    "marketingPct": 14
   },
   "weekSales": {
-    "totalRevenue": 482585599,
+    "totalRevenue": 527541499,
     "salesCount": 152,
     "byType": {
       "Online": 78001499,
-      "Cửa hàng": 404584100
+      "Cửa hàng": 449540000
     },
-    "onlinePct": 16,
-    "storePct": 84
+    "onlinePct": 15,
+    "storePct": 85
   },
   "weekBrands": {
     "Bemori": 0,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T15:01:38.352Z",
+  "generatedAt": "2026-11-01T16:01:51.664Z",
   "since": "2025-01-01",
   "until": "2026-11-01",
   "accounts": [
@@ -5308,11 +5308,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-01": {
-      "facebook": 831442,
-      "instagram": 24374,
+      "facebook": 862776,
+      "instagram": 25067,
       "messenger": 0,
       "audience_network": 0,
-      "total": 855816,
+      "total": 887843,
       "igPurchaseValue": 0
     }
   },
@@ -21603,9 +21603,9 @@
       "engagement": 114,
       "messages": 16,
       "leads": 6,
-      "purchases": 4,
-      "purchaseValue": 1550000,
-      "roas": 8.22
+      "purchases": 5,
+      "purchaseValue": 2675000,
+      "roas": 14.19
     },
     {
       "day": "2026-10-31",
@@ -21696,6 +21696,35 @@
     },
     {
       "day": "2026-11-01",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259193031850112",
+      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259193031850112.jpg",
+      "creative": {
+        "title": "",
+        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 260746,
+      "impressions": 3368,
+      "reach": 2467,
+      "clicks": 183,
+      "engagement": 125,
+      "messages": 9,
+      "leads": 4,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-11-01",
       "account": "Pa15",
       "bm": "BM1",
       "id": "120248477805350340",
@@ -21718,35 +21747,6 @@
       "clicks": 79,
       "engagement": 712,
       "messages": 4,
-      "leads": 2,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-11-01",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259193031850112",
-      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259193031850112.jpg",
-      "creative": {
-        "title": "",
-        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 252633,
-      "impressions": 3190,
-      "reach": 2324,
-      "clicks": 178,
-      "engagement": 120,
-      "messages": 8,
       "leads": 2,
       "purchases": 0,
       "purchaseValue": 0,
