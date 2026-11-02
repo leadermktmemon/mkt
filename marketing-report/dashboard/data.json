@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T14:32:02.394Z",
+  "generatedAt": "2026-11-02T15:02:34.940Z",
   "source": "lark",
   "period": {
     "days": 555,
@@ -48502,9 +48502,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 896429,
+      "metaFb": 896458,
       "metaIg": 25881,
-      "metaTotal": 922310,
+      "metaTotal": 922339,
       "metaIgPixelRev": 0,
       "googleAds": 0
     },
@@ -48524,14 +48524,14 @@
       "store": {
         "Cầu Giấy": 1995000,
         "Lê Văn Sỹ": 1000000,
-        "Outlet": 770000,
+        "Outlet": 927000,
         "Nguyễn Trãi": 1680000
       },
-      "storeRev": 5445000,
+      "storeRev": 5602000,
       "storeOnline": 0,
       "storeTarget": 0,
-      "custIn": 13,
-      "custBuy": 12,
+      "custIn": 15,
+      "custBuy": 13,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48550,9 +48550,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 604229,
-      "metaIg": 21708,
-      "metaTotal": 625937,
+      "metaFb": 658941,
+      "metaIg": 22778,
+      "metaTotal": 681719,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -60690,27 +60690,6 @@
     },
     {
       "day": "2026-11-02",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259193031850112",
-      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 228046,
-      "impressions": 3007,
-      "reach": 2239,
-      "clicks": 152,
-      "engagement": 108,
-      "messages": 13,
-      "leads": 8,
-      "purchases": 3,
-      "purchaseValue": 1455000,
-      "roas": 6.38
-    },
-    {
-      "day": "2026-11-02",
       "account": "Pa15",
       "bm": "BM1",
       "id": "120248541413530340",
@@ -60719,16 +60698,37 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248541413530340.jpg",
-      "spend": 220300,
-      "impressions": 2726,
-      "reach": 1725,
-      "clicks": 116,
-      "engagement": 79,
-      "messages": 12,
+      "spend": 247972,
+      "impressions": 3305,
+      "reach": 2179,
+      "clicks": 132,
+      "engagement": 93,
+      "messages": 13,
       "leads": 2,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
+    },
+    {
+      "day": "2026-11-02",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259193031850112",
+      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259193031850112.jpg",
+      "spend": 243082,
+      "impressions": 3252,
+      "reach": 2463,
+      "clicks": 166,
+      "engagement": 119,
+      "messages": 14,
+      "leads": 8,
+      "purchases": 3,
+      "purchaseValue": 1455000,
+      "roas": 5.99
     },
     {
       "day": "2026-11-02",
@@ -60740,16 +60740,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248477805350340.jpg",
-      "spend": 172085,
-      "impressions": 3505,
-      "reach": 2688,
-      "clicks": 44,
-      "engagement": 311,
-      "messages": 3,
+      "spend": 190665,
+      "impressions": 4052,
+      "reach": 3317,
+      "clicks": 55,
+      "engagement": 384,
+      "messages": 4,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 315000,
-      "roas": 1.83
+      "roas": 1.65
     }
   ],
   "memonBills": [],
@@ -60801,26 +60801,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3314279924,
-    "walkinOrders": 5971,
+    "walkinRevenue": 3314436924,
+    "walkinOrders": 5972,
     "marketingRevenue": 502472316,
     "marketingOrdersEst": 6699631,
-    "custIn": 6293,
+    "custIn": 6295,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4141444696,
+    "totalRevenue": 4141601696,
     "salesCount": 10969348,
     "byType": {
       "Online": 827164772,
-      "Cửa hàng": 3314279924
+      "Cửa hàng": 3314436924
     },
     "onlinePct": 20,
     "storePct": 80
   },
   "brands": {
-    "Bemori": 3501479924,
+    "Bemori": 3501636924,
     "Teddy": 0,
     "Memon": 0
   },
@@ -60831,23 +60831,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 5445000,
-    "walkinOrders": 12,
+    "walkinRevenue": 5602000,
+    "walkinOrders": 13,
     "marketingRevenue": 0,
     "marketingOrdersEst": 0,
-    "custIn": 13,
-    "closeRate": 92,
+    "custIn": 15,
+    "closeRate": 87,
     "marketingPct": 0
   },
   "weekSales": {
-    "totalRevenue": 22555500,
+    "totalRevenue": 22712500,
     "salesCount": 19,
     "byType": {
       "Online": 17110500,
-      "Cửa hàng": 5445000
+      "Cửa hàng": 5602000
     },
-    "onlinePct": 76,
-    "storePct": 24
+    "onlinePct": 75,
+    "storePct": 25
   },
   "weekBrands": {
     "Bemori": 0,
