@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T15:31:54.392Z",
+  "generatedAt": "2026-11-02T16:02:15.312Z",
   "source": "lark",
   "period": {
     "days": 555,
@@ -48522,19 +48522,22 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Nguyễn Gia Trí": 2804000,
-        "Cầu Giấy": 1995000,
-        "Xuân Thủy": 1565000,
+        "Nguyễn Gia Trí": 6124000,
+        "Cầu Giấy": 2900000,
+        "Xuân Thủy": 8960000,
         "Bạch Mai": 6391500,
-        "Lê Văn Sỹ": 1000000,
+        "Lê Văn Sỹ": 3395000,
+        "Láng": 6454000,
         "Outlet": 927000,
-        "Nguyễn Trãi": 1680000
+        "Nguyễn Văn Cừ": 4495000,
+        "Xã Đàn": 2635000,
+        "Nguyễn Trãi": 8495250
       },
-      "storeRev": 16362500,
-      "storeOnline": 1650000,
+      "storeRev": 50776750,
+      "storeOnline": 6795001,
       "storeTarget": 0,
-      "custIn": 35,
-      "custBuy": 32,
+      "custIn": 88,
+      "custBuy": 84,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48553,9 +48556,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 658941,
-      "metaIg": 22778,
-      "metaTotal": 681719,
+      "metaFb": 699222,
+      "metaIg": 26116,
+      "metaTotal": 725338,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -60701,12 +60704,12 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248541413530340.jpg",
-      "spend": 247972,
-      "impressions": 3305,
-      "reach": 2179,
-      "clicks": 132,
-      "engagement": 93,
-      "messages": 13,
+      "spend": 269293,
+      "impressions": 3743,
+      "reach": 2436,
+      "clicks": 145,
+      "engagement": 108,
+      "messages": 15,
       "leads": 2,
       "purchases": 0,
       "purchaseValue": 0,
@@ -60722,16 +60725,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 243082,
-      "impressions": 3252,
-      "reach": 2463,
-      "clicks": 166,
-      "engagement": 119,
-      "messages": 14,
-      "leads": 8,
-      "purchases": 3,
-      "purchaseValue": 1455000,
-      "roas": 5.99
+      "spend": 251798,
+      "impressions": 3406,
+      "reach": 2566,
+      "clicks": 175,
+      "engagement": 125,
+      "messages": 15,
+      "leads": 10,
+      "purchases": 4,
+      "purchaseValue": 2355000,
+      "roas": 9.35
     },
     {
       "day": "2026-11-02",
@@ -60743,16 +60746,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248477805350340.jpg",
-      "spend": 190665,
-      "impressions": 4052,
-      "reach": 3317,
-      "clicks": 55,
-      "engagement": 384,
+      "spend": 204247,
+      "impressions": 4282,
+      "reach": 3499,
+      "clicks": 58,
+      "engagement": 427,
       "messages": 4,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 315000,
-      "roas": 1.65
+      "roas": 1.54
     }
   ],
   "memonBills": [],
@@ -60804,26 +60807,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3325197424,
-    "walkinOrders": 5991,
-    "marketingRevenue": 504122316,
-    "marketingOrdersEst": 6633188,
-    "custIn": 6315,
+    "walkinRevenue": 3359611674,
+    "walkinOrders": 6043,
+    "marketingRevenue": 509267317,
+    "marketingOrdersEst": 6700886,
+    "custIn": 6368,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4158642196,
+    "totalRevenue": 4193056446,
     "salesCount": 10969360,
     "byType": {
       "Online": 833444772,
-      "Cửa hàng": 3325197424
+      "Cửa hàng": 3359611674
     },
     "onlinePct": 20,
     "storePct": 80
   },
   "brands": {
-    "Bemori": 3512397424,
+    "Bemori": 3546811674,
     "Teddy": 0,
     "Memon": 0
   },
@@ -60834,23 +60837,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 16362500,
-    "walkinOrders": 32,
-    "marketingRevenue": 1650000,
-    "marketingOrdersEst": 2,
-    "custIn": 35,
-    "closeRate": 91,
-    "marketingPct": 9
+    "walkinRevenue": 50776750,
+    "walkinOrders": 84,
+    "marketingRevenue": 6795001,
+    "marketingOrdersEst": 9,
+    "custIn": 88,
+    "closeRate": 95,
+    "marketingPct": 12
   },
   "weekSales": {
-    "totalRevenue": 39753000,
+    "totalRevenue": 74167250,
     "salesCount": 31,
     "byType": {
       "Online": 23390500,
-      "Cửa hàng": 16362500
+      "Cửa hàng": 50776750
     },
-    "onlinePct": 59,
-    "storePct": 41
+    "onlinePct": 32,
+    "storePct": 68
   },
   "weekBrands": {
     "Bemori": 0,
