@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T09:01:54.778Z",
+  "generatedAt": "2026-11-03T10:01:39.689Z",
   "since": "2025-01-01",
   "until": "2026-11-03",
   "accounts": [
@@ -5316,19 +5316,19 @@
       "igPurchaseValue": 0
     },
     "2026-11-02": {
-      "facebook": 746120,
-      "instagram": 29207,
+      "facebook": 746132,
+      "instagram": 29206,
       "messenger": 0,
       "audience_network": 0,
-      "total": 775327,
+      "total": 775338,
       "igPurchaseValue": 0
     },
     "2026-11-03": {
-      "facebook": 359858,
-      "instagram": 9432,
+      "facebook": 403636,
+      "instagram": 10010,
       "messenger": 0,
       "audience_network": 0,
-      "total": 369290,
+      "total": 413646,
       "igPurchaseValue": 0
     }
   },
@@ -21178,8 +21178,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 217979,
-      "impressions": 4441,
+      "spend": 217990,
+      "impressions": 4442,
       "reach": 3636,
       "clicks": 67,
       "engagement": 473,
@@ -21188,35 +21188,6 @@
       "purchases": 1,
       "purchaseValue": 315000,
       "roas": 1.45
-    },
-    {
-      "day": "2026-11-03",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259193031850112",
-      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259193031850112.jpg",
-      "creative": {
-        "title": "",
-        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 145735,
-      "impressions": 2020,
-      "reach": 1510,
-      "clicks": 99,
-      "engagement": 68,
-      "messages": 7,
-      "leads": 4,
-      "purchases": 1,
-      "purchaseValue": 350000,
-      "roas": 2.4
     },
     {
       "day": "2026-11-03",
@@ -21236,16 +21207,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 133787,
-      "impressions": 1669,
-      "reach": 1191,
-      "clicks": 62,
-      "engagement": 43,
-      "messages": 5,
+      "spend": 157942,
+      "impressions": 1847,
+      "reach": 1339,
+      "clicks": 70,
+      "engagement": 50,
+      "messages": 6,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
+    },
+    {
+      "day": "2026-11-03",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259193031850112",
+      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259193031850112.jpg",
+      "creative": {
+        "title": "",
+        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 155304,
+      "impressions": 2205,
+      "reach": 1634,
+      "clicks": 101,
+      "engagement": 69,
+      "messages": 7,
+      "leads": 4,
+      "purchases": 1,
+      "purchaseValue": 350000,
+      "roas": 2.25
     },
     {
       "day": "2026-11-03",
@@ -21265,16 +21265,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 90712,
-      "impressions": 1339,
-      "reach": 996,
-      "clicks": 29,
-      "engagement": 206,
+      "spend": 97230,
+      "impressions": 1434,
+      "reach": 1068,
+      "clicks": 30,
+      "engagement": 215,
       "messages": 2,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 724000,
-      "roas": 7.98
+      "roas": 7.45
     }
   ]
 }
