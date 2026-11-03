@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T13:01:45.561Z",
+  "generatedAt": "2026-11-03T14:01:41.293Z",
   "since": "2025-01-01",
   "until": "2026-11-03",
   "accounts": [
@@ -5324,11 +5324,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-03": {
-      "facebook": 509296,
-      "instagram": 13479,
+      "facebook": 586133,
+      "instagram": 14441,
       "messenger": 0,
       "audience_network": 0,
-      "total": 522775,
+      "total": 600574,
       "igPurchaseValue": 0
     }
   },
@@ -21207,13 +21207,13 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 211361,
-      "impressions": 2488,
-      "reach": 1789,
-      "clicks": 84,
-      "engagement": 67,
+      "spend": 231552,
+      "impressions": 2829,
+      "reach": 1968,
+      "clicks": 96,
+      "engagement": 74,
       "messages": 7,
-      "leads": 0,
+      "leads": 2,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
@@ -21236,16 +21236,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 182073,
-      "impressions": 2837,
-      "reach": 2007,
-      "clicks": 124,
-      "engagement": 86,
+      "spend": 199323,
+      "impressions": 3243,
+      "reach": 2325,
+      "clicks": 148,
+      "engagement": 102,
       "messages": 9,
-      "leads": 4,
+      "leads": 6,
       "purchases": 1,
       "purchaseValue": 350000,
-      "roas": 1.92
+      "roas": 1.76
     },
     {
       "day": "2026-11-03",
@@ -21265,16 +21265,74 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 126894,
-      "impressions": 2090,
-      "reach": 1472,
-      "clicks": 34,
-      "engagement": 295,
+      "spend": 144502,
+      "impressions": 2424,
+      "reach": 1728,
+      "clicks": 41,
+      "engagement": 353,
       "messages": 2,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 724000,
-      "roas": 5.71
+      "roas": 5.01
+    },
+    {
+      "day": "2026-11-03",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259903480140112",
+      "name": "15.10. Gối ôm mặt trăng - ảnh",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259903480140112.jpg",
+      "creative": {
+        "title": "",
+        "body": "✨ Mẹ ôm con, con ôm \"bạn trăng\" – thế là cả hai mẹ con mình cùng có một giấc ngủ thật tròn giấc! \n\n🌙 Gối Ôm Mặt Trăng Bemori Kids sở hữu thiết kế dáng bán nguyệt độc đáo, ôm khít hoàn hảo theo tư thế nằm tự nhiên của bé. \n\n- Con gác chân hay ôm mang lại cảm giác bao bọc an toàn\n- Với phom cong giúp bé khum bị giật mình con ngủ một mạch đến sáng. \n- Mẹ còn khéo léo tận dụng kê bụng hỗ trợ con tập Tummy Time siêu tiện lợi.\n\n👉 Số lượng có sẵn chỉ còn 100 chiếc. Mẹ inbox Bemori Kids để chọn màu kẻo hết nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 14406,
+      "impressions": 285,
+      "reach": 204,
+      "clicks": 11,
+      "engagement": 5,
+      "messages": 0,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-11-03",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259701695130112",
+      "name": "3.10.26.Gối Ôm Vải Đũi",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259701695130112.jpg",
+      "creative": {
+        "title": "",
+        "body": "✨ BST GỐI ÔM VẢI ĐŨI BEMORI: MẸ SẮM 1 LẦN – BÉ ÔM NGỦ NGOAN 4 MÙA! \n\n😴 Mỗi lần nhìn con ngủ, áp trọn đôi má phúng phính vào chiếc gối ôm cả đêm, mẹ chỉ mong từng sợi vải chạm vào da con phải thật dịu nhẹ, êm mượt và an lành.\n\n💗 Hiểu được nỗi lòng ấy của mẹ, Bemori đã \"hóa phép\" chất đũi mộc tự nhiên thành BST gối ôm hình thú siêu ngộ nghĩnh:\n\n☁️ Thân gối dệt từ vải đũi mộc thoáng nhẹ, kết hợp các chi tiết hình thú bằng vải Velboa êm mềm, không lo rụng lông.\n\n☁️  Chất đũi thấm hút mồ hôi vượt trội, lại thoáng khí dịu nhẹ. Con ôm đi ngủ ở nhà hay mang tới lớp quanh 4 mùa đều dễ chịu.\n\n☁️  Vừa vặn cho đôi chân nhỏ gác lên, tạo cảm giác ấm áp như luôn có vòng tay mẹ vỗ về.\n\n 🌿 Mẹ chọn vì chuẩn lành – Con mê vì ngộ nghĩnh!\n\n📩  Inbox Bemori ngay để rinh một \"bạn đũi\" siêu cưng vỗ về giấc ngủ cho con mẹ nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 4003,
+      "impressions": 57,
+      "reach": 26,
+      "clicks": 1,
+      "engagement": 0,
+      "messages": 0,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     }
   ]
 }
