@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T07:46:42.489Z",
+  "generatedAt": "2026-11-03T08:02:39.462Z",
   "source": "lark",
   "period": {
     "days": 556,
@@ -48523,7 +48523,7 @@
       "bc": {},
       "store": {
         "Nguyễn Gia Trí": 6124000,
-        "Cầu Giấy": 2900000,
+        "Cầu Giấy": 3715000,
         "Xuân Thủy": 8960000,
         "Bạch Mai": 6391500,
         "Lê Văn Sỹ": 3395000,
@@ -48533,11 +48533,11 @@
         "Xã Đàn": 2635000,
         "Nguyễn Trãi": 8495250
       },
-      "storeRev": 51586750,
+      "storeRev": 52401750,
       "storeOnline": 6795001,
       "storeTarget": 0,
-      "custIn": 89,
-      "custBuy": 85,
+      "custIn": 91,
+      "custBuy": 87,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -48601,9 +48601,9 @@
       "leadWeb": 0,
       "leadL5Web": 0,
       "leadL5FBAds": 0,
-      "metaFb": 285573,
-      "metaIg": 8523,
-      "metaTotal": 294096,
+      "metaFb": 321947,
+      "metaIg": 8824,
+      "metaTotal": 330771,
       "metaIgPixelRev": 0,
       "googleAds": 0
     }
@@ -60581,16 +60581,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120259193031850112.jpg",
-      "spend": 121782,
-      "impressions": 1674,
-      "reach": 1292,
-      "clicks": 80,
-      "engagement": 55,
-      "messages": 6,
+      "spend": 134909,
+      "impressions": 1828,
+      "reach": 1410,
+      "clicks": 90,
+      "engagement": 61,
+      "messages": 7,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 350000,
-      "roas": 2.87
+      "roas": 2.59
     },
     {
       "day": "2026-11-03",
@@ -60602,12 +60602,12 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248541413530340.jpg",
-      "spend": 102237,
-      "impressions": 1355,
-      "reach": 993,
-      "clicks": 51,
-      "engagement": 38,
-      "messages": 4,
+      "spend": 115030,
+      "impressions": 1494,
+      "reach": 1085,
+      "clicks": 59,
+      "engagement": 42,
+      "messages": 5,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -60623,16 +60623,16 @@
       "objective": "OUTCOME_ENGAGEMENT",
       "optGoal": "MESSAGING_PURCHASE_CONVERSION",
       "thumb": "thumbs/120248477805350340.jpg",
-      "spend": 70766,
-      "impressions": 1065,
-      "reach": 801,
-      "clicks": 21,
-      "engagement": 163,
-      "messages": 1,
+      "spend": 80832,
+      "impressions": 1203,
+      "reach": 903,
+      "clicks": 27,
+      "engagement": 190,
+      "messages": 2,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 324000,
-      "roas": 4.58
+      "roas": 4.01
     }
   ],
   "memonBills": [],
@@ -60684,26 +60684,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3278616424,
-    "walkinOrders": 5893,
+    "walkinRevenue": 3279431424,
+    "walkinOrders": 5895,
     "marketingRevenue": 497564317,
     "marketingOrdersEst": 6634191,
-    "custIn": 6211,
+    "custIn": 6213,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4096272196,
+    "totalRevenue": 4097087196,
     "salesCount": 10969324,
     "byType": {
       "Online": 817655772,
-      "Cửa hàng": 3278616424
+      "Cửa hàng": 3279431424
     },
     "onlinePct": 20,
     "storePct": 80
   },
   "brands": {
-    "Bemori": 3453200424,
+    "Bemori": 3454015424,
     "Teddy": 0,
     "Memon": 0
   },
@@ -60714,23 +60714,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 52666750,
-    "walkinOrders": 87,
+    "walkinRevenue": 53481750,
+    "walkinOrders": 89,
     "marketingRevenue": 7795001,
     "marketingOrdersEst": 10,
-    "custIn": 91,
+    "custIn": 93,
     "closeRate": 96,
     "marketingPct": 13
   },
   "weekSales": {
-    "totalRevenue": 76057250,
+    "totalRevenue": 76872250,
     "salesCount": 31,
     "byType": {
       "Online": 23390500,
-      "Cửa hàng": 52666750
+      "Cửa hàng": 53481750
     },
-    "onlinePct": 31,
-    "storePct": 69
+    "onlinePct": 30,
+    "storePct": 70
   },
   "weekBrands": {
     "Bemori": 0,
