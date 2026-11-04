@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T20:31:36.208Z",
+  "generatedAt": "2026-11-04T21:31:39.087Z",
   "since": "2025-01-01",
   "until": "2026-11-04",
   "accounts": [
@@ -5332,11 +5332,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-04": {
-      "facebook": 1824180,
+      "facebook": 1825520,
       "instagram": 30364,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1854544,
+      "total": 1855884,
       "igPurchaseValue": 0
     }
   },
@@ -21056,8 +21056,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 344996,
-      "impressions": 6887,
+      "spend": 345024,
+      "impressions": 6889,
       "reach": 5962,
       "clicks": 321,
       "engagement": 216,
@@ -21085,9 +21085,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 332392,
-      "impressions": 6858,
-      "reach": 5328,
+      "spend": 332433,
+      "impressions": 6860,
+      "reach": 5329,
       "clicks": 233,
       "engagement": 134,
       "messages": 26,
@@ -21114,8 +21114,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 264126,
-      "impressions": 4707,
+      "spend": 264137,
+      "impressions": 4708,
       "reach": 3545,
       "clicks": 197,
       "engagement": 139,
@@ -21143,16 +21143,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 257227,
-      "impressions": 4180,
-      "reach": 3010,
+      "spend": 257286,
+      "impressions": 4182,
+      "reach": 3012,
       "clicks": 100,
       "engagement": 90,
       "messages": 2,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1815000,
-      "roas": 7.06
+      "roas": 7.05
     },
     {
       "day": "2026-11-04",
@@ -21172,9 +21172,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 247259,
-      "impressions": 3954,
-      "reach": 2774,
+      "spend": 248494,
+      "impressions": 3955,
+      "reach": 2776,
       "clicks": 145,
       "engagement": 88,
       "messages": 5,
