@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T20:31:42.895Z",
+  "generatedAt": "2026-11-05T21:31:37.783Z",
   "since": "2025-01-01",
   "until": "2026-11-05",
   "accounts": [
@@ -5340,11 +5340,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-05": {
-      "facebook": 1654106,
+      "facebook": 1654744,
       "instagram": 21667,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1675773,
+      "total": 1676411,
       "igPurchaseValue": 0
     }
   },
@@ -20708,8 +20708,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 285089,
-      "impressions": 3419,
+      "spend": 285095,
+      "impressions": 3420,
       "reach": 2630,
       "clicks": 159,
       "engagement": 111,
@@ -20737,9 +20737,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 282867,
-      "impressions": 4581,
-      "reach": 3516,
+      "spend": 282900,
+      "impressions": 4582,
+      "reach": 3519,
       "clicks": 129,
       "engagement": 93,
       "messages": 12,
@@ -20766,8 +20766,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 242591,
-      "impressions": 2376,
+      "spend": 242606,
+      "impressions": 2377,
       "reach": 1520,
       "clicks": 90,
       "engagement": 78,
@@ -20797,7 +20797,7 @@
       },
       "spend": 239263,
       "impressions": 4141,
-      "reach": 3242,
+      "reach": 3245,
       "clicks": 177,
       "engagement": 123,
       "messages": 10,
@@ -20884,7 +20884,7 @@
       },
       "spend": 133436,
       "impressions": 1186,
-      "reach": 776,
+      "reach": 778,
       "clicks": 18,
       "engagement": 162,
       "messages": 0,
@@ -20911,16 +20911,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 108850,
-      "impressions": 1348,
+      "spend": 109434,
+      "impressions": 1349,
       "reach": 860,
       "clicks": 36,
-      "engagement": 334,
+      "engagement": 335,
       "messages": 6,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 5725500,
-      "roas": 52.6
+      "roas": 52.32
     }
   ]
 }
