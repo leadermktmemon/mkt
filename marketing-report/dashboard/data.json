@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T14:32:43.323Z",
+  "generatedAt": "2026-11-05T15:02:02.250Z",
   "source": "lark",
   "period": {
     "days": 558,
@@ -48684,17 +48684,17 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Outlet": 940000,
+        "Outlet": 1591000,
         "Cầu Giấy": 735000,
         "Nguyễn Gia Trí": 1696500,
         "Nguyễn Trãi": 2760000,
         "Xã Đàn": 1225000
       },
-      "storeRev": 7356500,
+      "storeRev": 8007500,
       "storeOnline": 0,
-      "storeTarget": 3456000,
-      "custIn": 17,
-      "custBuy": 16,
+      "storeTarget": 4176000,
+      "custIn": 22,
+      "custBuy": 20,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -60530,26 +60530,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3270900173,
-    "walkinOrders": 5886,
+    "walkinRevenue": 3271551173,
+    "walkinOrders": 5890,
     "marketingRevenue": 495135817,
     "marketingOrdersEst": 6973744,
-    "custIn": 6204,
+    "custIn": 6209,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4052831445,
+    "totalRevenue": 4053482445,
     "salesCount": 10969302,
     "byType": {
       "Online": 781931272,
-      "Cửa hàng": 3270900173
+      "Cửa hàng": 3271551173
     },
     "onlinePct": 19,
     "storePct": 81
   },
   "brands": {
-    "Bemori": 3378662173,
+    "Bemori": 3379313173,
     "Teddy": 0,
     "Memon": 0
   },
@@ -60560,20 +60560,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 166065250,
-    "walkinOrders": 296,
+    "walkinRevenue": 166716250,
+    "walkinOrders": 300,
     "marketingRevenue": 31864501,
     "marketingOrdersEst": 48,
-    "custIn": 311,
+    "custIn": 316,
     "closeRate": 95,
     "marketingPct": 16
   },
   "weekSales": {
-    "totalRevenue": 226992250,
+    "totalRevenue": 227643250,
     "salesCount": 91,
     "byType": {
       "Online": 60927000,
-      "Cửa hàng": 166065250
+      "Cửa hàng": 166716250
     },
     "onlinePct": 27,
     "storePct": 73
