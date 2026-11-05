@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T09:33:56.743Z",
+  "generatedAt": "2026-11-05T10:02:21.774Z",
   "source": "lark",
   "period": {
     "days": 558,
@@ -48673,9 +48673,9 @@
     {
       "day": "2026-11-05",
       "online": {},
-      "onlineRev": 0,
+      "onlineRev": 9421000,
       "onlineRev31": 0,
-      "onlineOrders": 0,
+      "onlineOrders": 14,
       "onlineProducts": 0,
       "onlineTarget": 0,
       "fbAds": 0,
@@ -48684,15 +48684,16 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Cầu Giấy": 735000,
         "Nguyễn Gia Trí": 1696500,
         "Nguyễn Trãi": 2760000,
         "Xã Đàn": 1225000
       },
-      "storeRev": 5681500,
+      "storeRev": 6416500,
       "storeOnline": 0,
       "storeTarget": 1536000,
-      "custIn": 10,
-      "custBuy": 10,
+      "custIn": 12,
+      "custBuy": 12,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -60481,100 +60482,100 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 772510272,
-    "onlineOrders": 10969288,
-    "onlineAov": 70,
+    "onlineRevenue": 781931272,
+    "onlineOrders": 10969302,
+    "onlineAov": 71,
     "channels": [
       {
         "name": "Facebook",
-        "orders": 4878555,
-        "revenue": 343571426,
-        "aov": 70,
+        "orders": 4878561,
+        "revenue": 347761385,
+        "aov": 71,
         "share": 44,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 3866327,
-        "revenue": 272285415,
-        "aov": 70,
+        "orders": 3866332,
+        "revenue": 275606020,
+        "aov": 71,
         "share": 35,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 969012,
-        "revenue": 68242513,
-        "aov": 70,
+        "orders": 969013,
+        "revenue": 69074752,
+        "aov": 71,
         "share": 9,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 883344,
-        "revenue": 62209332,
-        "aov": 70,
+        "orders": 883345,
+        "revenue": 62967994,
+        "aov": 71,
         "share": 8,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 372050,
-        "revenue": 26201585,
-        "aov": 70,
+        "orders": 372051,
+        "revenue": 26521122,
+        "aov": 71,
         "share": 3,
         "est": true
       }
     ]
   },
   "store": {
-    "walkinRevenue": 3269225173,
-    "walkinOrders": 5880,
+    "walkinRevenue": 3269960173,
+    "walkinOrders": 5882,
     "marketingRevenue": 495135817,
-    "marketingOrdersEst": 7073369,
-    "custIn": 6197,
+    "marketingOrdersEst": 6973744,
+    "custIn": 6199,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4041735445,
-    "salesCount": 10969288,
+    "totalRevenue": 4051891445,
+    "salesCount": 10969302,
     "byType": {
-      "Online": 772510272,
-      "Cửa hàng": 3269225173
+      "Online": 781931272,
+      "Cửa hàng": 3269960173
     },
     "onlinePct": 19,
     "storePct": 81
   },
   "brands": {
-    "Bemori": 3376987173,
+    "Bemori": 3377722173,
     "Teddy": 0,
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 51506000,
-    "onlineOrders": 77,
-    "onlineAov": 668909,
+    "onlineRevenue": 60927000,
+    "onlineOrders": 91,
+    "onlineAov": 669527,
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 164390250,
-    "walkinOrders": 290,
+    "walkinRevenue": 165125250,
+    "walkinOrders": 292,
     "marketingRevenue": 31864501,
     "marketingOrdersEst": 48,
-    "custIn": 304,
+    "custIn": 306,
     "closeRate": 95,
     "marketingPct": 16
   },
   "weekSales": {
-    "totalRevenue": 215896250,
-    "salesCount": 77,
+    "totalRevenue": 226052250,
+    "salesCount": 91,
     "byType": {
-      "Online": 51506000,
-      "Cửa hàng": 164390250
+      "Online": 60927000,
+      "Cửa hàng": 165125250
     },
-    "onlinePct": 24,
-    "storePct": 76
+    "onlinePct": 27,
+    "storePct": 73
   },
   "weekBrands": {
     "Bemori": 0,
