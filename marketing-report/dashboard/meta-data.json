@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T11:31:33.887Z",
+  "generatedAt": "2026-11-06T12:31:42.607Z",
   "since": "2025-01-01",
   "until": "2026-11-06",
   "accounts": [
@@ -5348,11 +5348,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-06": {
-      "facebook": 1358241,
-      "instagram": 21445,
+      "facebook": 1445504,
+      "instagram": 22157,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1379686,
+      "total": 1467661,
       "igPurchaseValue": 0
     }
   },
@@ -20455,16 +20455,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 259754,
-      "impressions": 2975,
-      "reach": 2496,
-      "clicks": 103,
-      "engagement": 75,
+      "spend": 274629,
+      "impressions": 3209,
+      "reach": 2656,
+      "clicks": 112,
+      "engagement": 79,
       "messages": 11,
       "leads": 6,
       "purchases": 3,
       "purchaseValue": 1565000,
-      "roas": 6.02
+      "roas": 5.7
     },
     {
       "day": "2026-11-06",
@@ -20484,16 +20484,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 238367,
-      "impressions": 1905,
-      "reach": 1247,
-      "clicks": 57,
-      "engagement": 56,
-      "messages": 9,
+      "spend": 254300,
+      "impressions": 2093,
+      "reach": 1351,
+      "clicks": 59,
+      "engagement": 61,
+      "messages": 10,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1795000,
-      "roas": 7.53
+      "roas": 7.06
     },
     {
       "day": "2026-11-06",
@@ -20513,16 +20513,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 169894,
-      "impressions": 2853,
-      "reach": 2348,
-      "clicks": 129,
-      "engagement": 81,
+      "spend": 190887,
+      "impressions": 3200,
+      "reach": 2598,
+      "clicks": 138,
+      "engagement": 88,
       "messages": 16,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 565000,
-      "roas": 3.33
+      "roas": 2.96
     },
     {
       "day": "2026-11-06",
@@ -20542,45 +20542,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 163905,
-      "impressions": 2533,
-      "reach": 2068,
-      "clicks": 115,
-      "engagement": 81,
+      "spend": 172477,
+      "impressions": 2755,
+      "reach": 2231,
+      "clicks": 119,
+      "engagement": 87,
       "messages": 9,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 325000,
-      "roas": 1.98
-    },
-    {
-      "day": "2026-11-06",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259903480140112",
-      "name": "15.10. Gối ôm mặt trăng - ảnh",
-      "status": "PAUSED",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259903480140112.jpg",
-      "creative": {
-        "title": "",
-        "body": "✨ Mẹ ôm con, con ôm \"bạn trăng\" – thế là cả hai mẹ con mình cùng có một giấc ngủ thật tròn giấc! \n\n🌙 Gối Ôm Mặt Trăng Bemori Kids sở hữu thiết kế dáng bán nguyệt độc đáo, ôm khít hoàn hảo theo tư thế nằm tự nhiên của bé. \n\n- Con gác chân hay ôm mang lại cảm giác bao bọc an toàn\n- Với phom cong giúp bé khum bị giật mình con ngủ một mạch đến sáng. \n- Mẹ còn khéo léo tận dụng kê bụng hỗ trợ con tập Tummy Time siêu tiện lợi.\n\n👉 Số lượng có sẵn chỉ còn 100 chiếc. Mẹ inbox Bemori Kids để chọn màu kẻo hết nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 146981,
-      "impressions": 2423,
-      "reach": 2104,
-      "clicks": 77,
-      "engagement": 51,
-      "messages": 7,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "roas": 1.88
     },
     {
       "day": "2026-11-06",
@@ -20600,11 +20571,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 146315,
-      "impressions": 1394,
-      "reach": 869,
-      "clicks": 25,
-      "engagement": 187,
+      "spend": 165681,
+      "impressions": 1540,
+      "reach": 929,
+      "clicks": 33,
+      "engagement": 203,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
@@ -20629,11 +20600,40 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 143272,
-      "impressions": 1699,
-      "reach": 1290,
-      "clicks": 64,
-      "engagement": 148,
+      "spend": 150694,
+      "impressions": 1817,
+      "reach": 1364,
+      "clicks": 67,
+      "engagement": 182,
+      "messages": 7,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
+    },
+    {
+      "day": "2026-11-06",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259903480140112",
+      "name": "15.10. Gối ôm mặt trăng - ảnh",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259903480140112.jpg",
+      "creative": {
+        "title": "",
+        "body": "✨ Mẹ ôm con, con ôm \"bạn trăng\" – thế là cả hai mẹ con mình cùng có một giấc ngủ thật tròn giấc! \n\n🌙 Gối Ôm Mặt Trăng Bemori Kids sở hữu thiết kế dáng bán nguyệt độc đáo, ôm khít hoàn hảo theo tư thế nằm tự nhiên của bé. \n\n- Con gác chân hay ôm mang lại cảm giác bao bọc an toàn\n- Với phom cong giúp bé khum bị giật mình con ngủ một mạch đến sáng. \n- Mẹ còn khéo léo tận dụng kê bụng hỗ trợ con tập Tummy Time siêu tiện lợi.\n\n👉 Số lượng có sẵn chỉ còn 100 chiếc. Mẹ inbox Bemori Kids để chọn màu kẻo hết nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 147286,
+      "impressions": 2428,
+      "reach": 2106,
+      "clicks": 79,
+      "engagement": 52,
       "messages": 7,
       "leads": 0,
       "purchases": 0,
@@ -20658,11 +20658,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 83182,
-      "impressions": 1014,
-      "reach": 762,
-      "clicks": 28,
-      "engagement": 229,
+      "spend": 86845,
+      "impressions": 1069,
+      "reach": 797,
+      "clicks": 29,
+      "engagement": 242,
       "messages": 3,
       "leads": 0,
       "purchases": 0,
@@ -20687,16 +20687,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 28016,
-      "impressions": 366,
-      "reach": 320,
+      "spend": 33176,
+      "impressions": 419,
+      "reach": 362,
       "clicks": 7,
-      "engagement": 47,
+      "engagement": 52,
       "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 580000,
-      "roas": 20.7
+      "roas": 17.48
     }
   ]
 }
