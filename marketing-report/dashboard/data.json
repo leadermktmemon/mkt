@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T09:32:39.557Z",
+  "generatedAt": "2026-11-06T10:02:42.724Z",
   "source": "lark",
   "period": {
     "days": 559,
@@ -48727,9 +48727,9 @@
     {
       "day": "2026-11-06",
       "online": {},
-      "onlineRev": 0,
+      "onlineRev": 14207500,
       "onlineRev31": 0,
-      "onlineOrders": 0,
+      "onlineOrders": 19,
       "onlineProducts": 0,
       "onlineTarget": 0,
       "fbAds": 0,
@@ -48738,14 +48738,15 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Lê Văn Sỹ": 3115500,
         "Xã Đàn": 1779000,
         "Nguyễn Trãi": 890000
       },
-      "storeRev": 2669000,
+      "storeRev": 5784500,
       "storeOnline": 0,
       "storeTarget": 1664000,
-      "custIn": 5,
-      "custBuy": 5,
+      "custIn": 11,
+      "custBuy": 11,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -60374,100 +60375,100 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 760518772,
-    "onlineOrders": 10969267,
-    "onlineAov": 69,
+    "onlineRevenue": 774726272,
+    "onlineOrders": 10969286,
+    "onlineAov": 71,
     "channels": [
       {
         "name": "Facebook",
-        "orders": 4849648,
-        "revenue": 336234698,
-        "aov": 69,
+        "orders": 4849656,
+        "revenue": 342516008,
+        "aov": 71,
         "share": 44,
         "est": true
       },
       {
         "name": "Zalo",
-        "orders": 3536157,
-        "revenue": 245168077,
-        "aov": 69,
+        "orders": 3536164,
+        "revenue": 249748142,
+        "aov": 71,
         "share": 32,
         "est": true
       },
       {
         "name": "Website",
-        "orders": 1119771,
-        "revenue": 77635743,
-        "aov": 69,
+        "orders": 1119773,
+        "revenue": 79086081,
+        "aov": 71,
         "share": 10,
         "est": true
       },
       {
         "name": "Bán lẻ NK",
-        "orders": 1086780,
-        "revenue": 75348355,
-        "aov": 69,
+        "orders": 1086781,
+        "revenue": 76755962,
+        "aov": 71,
         "share": 10,
         "est": true
       },
       {
         "name": "Instagram",
-        "orders": 376911,
-        "revenue": 26131899,
-        "aov": 69,
+        "orders": 376912,
+        "revenue": 26620078,
+        "aov": 71,
         "share": 3,
         "est": true
       }
     ]
   },
   "store": {
-    "walkinRevenue": 3254016673,
-    "walkinOrders": 5862,
+    "walkinRevenue": 3257132173,
+    "walkinOrders": 5868,
     "marketingRevenue": 492084817,
-    "marketingOrdersEst": 7131664,
-    "custIn": 6184,
+    "marketingOrdersEst": 6930772,
+    "custIn": 6190,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4014535445,
-    "salesCount": 10969267,
+    "totalRevenue": 4031858445,
+    "salesCount": 10969286,
     "byType": {
-      "Online": 760518772,
-      "Cửa hàng": 3254016673
+      "Online": 774726272,
+      "Cửa hàng": 3257132173
     },
     "onlinePct": 19,
     "storePct": 81
   },
   "brands": {
-    "Bemori": 3338007673,
+    "Bemori": 3341123173,
     "Teddy": 0,
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 65431500,
-    "onlineOrders": 97,
-    "onlineAov": 674552,
+    "onlineRevenue": 79639000,
+    "onlineOrders": 116,
+    "onlineAov": 686543,
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 216530000,
-    "walkinOrders": 388,
+    "walkinRevenue": 219645500,
+    "walkinOrders": 394,
     "marketingRevenue": 43964501,
-    "marketingOrdersEst": 65,
-    "custIn": 411,
+    "marketingOrdersEst": 64,
+    "custIn": 417,
     "closeRate": 94,
     "marketingPct": 17
   },
   "weekSales": {
-    "totalRevenue": 281961500,
-    "salesCount": 97,
+    "totalRevenue": 299284500,
+    "salesCount": 116,
     "byType": {
-      "Online": 65431500,
-      "Cửa hàng": 216530000
+      "Online": 79639000,
+      "Cửa hàng": 219645500
     },
-    "onlinePct": 23,
-    "storePct": 77
+    "onlinePct": 27,
+    "storePct": 73
   },
   "weekBrands": {
     "Bemori": 0,
