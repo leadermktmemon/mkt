@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T10:02:16.262Z",
+  "generatedAt": "2026-11-07T10:18:54.477Z",
   "source": "lark",
   "period": {
     "days": 560,
@@ -48794,14 +48794,14 @@
       "store": {
         "Cầu Giấy": 5030000,
         "Láng": 4275000,
-        "Nguyễn Trãi": 1326500,
+        "Nguyễn Trãi": 4976500,
         "Xã Đàn": 1658000
       },
-      "storeRev": 12289500,
+      "storeRev": 15939500,
       "storeOnline": 685000,
-      "storeTarget": 14875200,
-      "custIn": 26,
-      "custBuy": 26,
+      "storeTarget": 18235200,
+      "custIn": 34,
+      "custBuy": 34,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -60288,26 +60288,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3269424923,
-    "walkinOrders": 5882,
+    "walkinRevenue": 3273074923,
+    "walkinOrders": 5890,
     "marketingRevenue": 493806317,
     "marketingOrdersEst": 7054376,
-    "custIn": 6205,
+    "custIn": 6213,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4034237195,
+    "totalRevenue": 4037887195,
     "salesCount": 10969281,
     "byType": {
       "Online": 764812272,
-      "Cửa hàng": 3269424923
+      "Cửa hàng": 3273074923
     },
     "onlinePct": 19,
     "storePct": 81
   },
   "brands": {
-    "Bemori": 3336206923,
+    "Bemori": 3339856923,
     "Teddy": 0,
     "Memon": 0
   },
@@ -60318,23 +60318,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 294391000,
-    "walkinOrders": 527,
+    "walkinRevenue": 298041000,
+    "walkinOrders": 535,
     "marketingRevenue": 57860001,
     "marketingOrdersEst": 88,
-    "custIn": 558,
-    "closeRate": 94,
+    "custIn": 566,
+    "closeRate": 95,
     "marketingPct": 16
   },
   "weekSales": {
-    "totalRevenue": 380540000,
+    "totalRevenue": 384190000,
     "salesCount": 131,
     "byType": {
       "Online": 86149000,
-      "Cửa hàng": 294391000
+      "Cửa hàng": 298041000
     },
-    "onlinePct": 23,
-    "storePct": 77
+    "onlinePct": 22,
+    "storePct": 78
   },
   "weekBrands": {
     "Bemori": 0,
