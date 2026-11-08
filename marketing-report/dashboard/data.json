@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:33:12.328Z",
+  "generatedAt": "2026-11-08T11:01:54.129Z",
   "source": "lark",
   "period": {
     "days": 561,
@@ -48846,17 +48846,18 @@
       "brands": {},
       "bc": {},
       "store": {
+        "Outlet": 1731000,
         "Láng": 2820500,
         "Lê Văn Sỹ": 3660500,
         "Nguyễn Trãi": 7092500,
         "Xã Đàn": 2681500,
         "Cầu Giấy": 5291000
       },
-      "storeRev": 21546000,
+      "storeRev": 23277000,
       "storeOnline": 979000,
-      "storeTarget": 23326080,
-      "custIn": 45,
-      "custBuy": 44,
+      "storeTarget": 24526080,
+      "custIn": 53,
+      "custBuy": 51,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -60064,26 +60065,26 @@
     ]
   },
   "store": {
-    "walkinRevenue": 3298866173,
-    "walkinOrders": 5961,
+    "walkinRevenue": 3300597173,
+    "walkinOrders": 5968,
     "marketingRevenue": 492522067,
     "marketingOrdersEst": 7036030,
-    "custIn": 6275,
+    "custIn": 6283,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 4067584445,
+    "totalRevenue": 4069315445,
     "salesCount": 10969278,
     "byType": {
       "Online": 768718272,
-      "Cửa hàng": 3298866173
+      "Cửa hàng": 3300597173
     },
     "onlinePct": 19,
     "storePct": 81
   },
   "brands": {
-    "Bemori": 3344293173,
+    "Bemori": 3346024173,
     "Teddy": 0,
     "Memon": 0
   },
@@ -60094,20 +60095,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 399638750,
-    "walkinOrders": 739,
+    "walkinRevenue": 401369750,
+    "walkinOrders": 746,
     "marketingRevenue": 69675501,
     "marketingOrdersEst": 108,
-    "custIn": 774,
+    "custIn": 782,
     "closeRate": 95,
     "marketingPct": 15
   },
   "weekSales": {
-    "totalRevenue": 513061250,
+    "totalRevenue": 514792250,
     "salesCount": 175,
     "byType": {
       "Online": 113422500,
-      "Cửa hàng": 399638750
+      "Cửa hàng": 401369750
     },
     "onlinePct": 22,
     "storePct": 78
