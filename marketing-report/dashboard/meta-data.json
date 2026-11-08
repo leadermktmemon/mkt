@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T09:31:45.835Z",
+  "generatedAt": "2026-11-08T10:32:38.958Z",
   "since": "2025-01-01",
   "until": "2026-11-08",
   "accounts": [
@@ -5364,11 +5364,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-08": {
-      "facebook": 1138170,
-      "instagram": 23273,
+      "facebook": 1217165,
+      "instagram": 23868,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1161443,
+      "total": 1241033,
       "igPurchaseValue": 0
     }
   },
@@ -19904,35 +19904,6 @@
     },
     {
       "day": "2026-11-08",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259193031850112",
-      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259193031850112.jpg",
-      "creative": {
-        "title": "",
-        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 212725,
-      "impressions": 2420,
-      "reach": 2037,
-      "clicks": 92,
-      "engagement": 59,
-      "messages": 3,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-11-08",
       "account": "Pa15",
       "bm": "BM1",
       "id": "120248541413530340",
@@ -19949,16 +19920,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 211547,
-      "impressions": 1300,
-      "reach": 876,
-      "clicks": 61,
-      "engagement": 53,
-      "messages": 8,
+      "spend": 229330,
+      "impressions": 1412,
+      "reach": 937,
+      "clicks": 71,
+      "engagement": 60,
+      "messages": 9,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 199000,
-      "roas": 0.94
+      "roas": 0.87
+    },
+    {
+      "day": "2026-11-08",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259193031850112",
+      "name": "5/9/2026-GOL-M-CR-Kids-Nữ",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259193031850112.jpg",
+      "creative": {
+        "title": "",
+        "body": "❄️ CON HẾT GẮT NGỦ... VÌ CÓ GỐI ÔM VỪA MỀM VỪA MÁT RƯỢI NHÀ BEMORI KIDS!\n\n🥲 Mẹ mệt mỏi khi mỗi đêm con cứ trằn trọc, mồ hôi rồi gắt ngủ quấy khóc?\n\n💨 Đừng lo, BST Gối Ôm Lạnh Bemori Kids sẽ vỗ về giấc ngủ trọn vẹn cho con:\n\n- Vải Kem Lạnh: Bề mặt mướt mịn như lụa, hạ nhiệt cực nhanh, chạm vào mát lịm tựa dải kem tươi, ôm mát rượi cả tay.\n\n- Vải Cool Fabric: Tản nhiệt thoáng khí, hỗ trợ thấm hút mồ hôi, giúp lưng con khô thoáng suốt đêm.\n\n🧸 Tạo hình xinh xắn, cosplay trái cây, thú bông bắt mắt khiến các bé thích mê!\n\n⚡ Số lượng mỗi mẫu đợt này có hạn. Mẹ đặt nhanh kẻo hết mất mẫu mẹ và bé thích nhaaaa!\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 222044,
+      "impressions": 2579,
+      "reach": 2148,
+      "clicks": 99,
+      "engagement": 62,
+      "messages": 3,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-11-08",
@@ -19978,16 +19978,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 153446,
-      "impressions": 1051,
-      "reach": 840,
-      "clicks": 61,
-      "engagement": 45,
+      "spend": 161526,
+      "impressions": 1116,
+      "reach": 875,
+      "clicks": 62,
+      "engagement": 46,
       "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 390000,
-      "roas": 2.54
+      "roas": 2.41
     },
     {
       "day": "2026-11-08",
@@ -20007,16 +20007,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 145277,
-      "impressions": 1194,
-      "reach": 653,
-      "clicks": 32,
-      "engagement": 181,
+      "spend": 153661,
+      "impressions": 1285,
+      "reach": 697,
+      "clicks": 33,
+      "engagement": 187,
       "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 259000,
-      "roas": 1.78
+      "roas": 1.69
     },
     {
       "day": "2026-11-08",
@@ -20036,16 +20036,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 141194,
-      "impressions": 1642,
-      "reach": 1262,
-      "clicks": 58,
-      "engagement": 461,
-      "messages": 8,
+      "spend": 151378,
+      "impressions": 1791,
+      "reach": 1380,
+      "clicks": 62,
+      "engagement": 497,
+      "messages": 9,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 1175000,
-      "roas": 8.32
+      "roas": 7.76
     },
     {
       "day": "2026-11-08",
@@ -20065,16 +20065,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 137491,
-      "impressions": 2163,
-      "reach": 1850,
-      "clicks": 68,
-      "engagement": 42,
-      "messages": 6,
+      "spend": 144925,
+      "impressions": 2316,
+      "reach": 1999,
+      "clicks": 74,
+      "engagement": 45,
+      "messages": 7,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 630000,
-      "roas": 4.58
+      "roas": 4.35
     },
     {
       "day": "2026-11-08",
@@ -20094,16 +20094,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 81935,
-      "impressions": 1057,
-      "reach": 879,
-      "clicks": 44,
-      "engagement": 195,
+      "spend": 92963,
+      "impressions": 1189,
+      "reach": 979,
+      "clicks": 45,
+      "engagement": 221,
       "messages": 8,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 2175000,
-      "roas": 26.55
+      "roas": 23.4
     },
     {
       "day": "2026-11-08",
@@ -20123,11 +20123,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 77828,
-      "impressions": 1249,
-      "reach": 1010,
-      "clicks": 28,
-      "engagement": 278,
+      "spend": 85206,
+      "impressions": 1377,
+      "reach": 1117,
+      "clicks": 29,
+      "engagement": 309,
       "messages": 4,
       "leads": 0,
       "purchases": 0,
