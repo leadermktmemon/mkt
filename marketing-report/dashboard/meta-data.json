@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T06:31:30.312Z",
+  "generatedAt": "2026-11-08T07:31:35.595Z",
   "since": "2025-01-01",
   "until": "2026-11-08",
   "accounts": [
@@ -5364,11 +5364,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-08": {
-      "facebook": 824034,
-      "instagram": 18873,
+      "facebook": 922159,
+      "instagram": 19518,
       "messenger": 0,
       "audience_network": 0,
-      "total": 842907,
+      "total": 941677,
       "igPurchaseValue": 0
     }
   },
@@ -19920,11 +19920,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 161873,
-      "impressions": 1949,
-      "reach": 1655,
-      "clicks": 72,
-      "engagement": 47,
+      "spend": 177319,
+      "impressions": 2100,
+      "reach": 1794,
+      "clicks": 75,
+      "engagement": 48,
       "messages": 1,
       "leads": 0,
       "purchases": 0,
@@ -19949,16 +19949,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 138997,
-      "impressions": 888,
-      "reach": 605,
-      "clicks": 49,
-      "engagement": 40,
-      "messages": 5,
+      "spend": 163741,
+      "impressions": 1025,
+      "reach": 707,
+      "clicks": 55,
+      "engagement": 47,
+      "messages": 7,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 199000,
-      "roas": 1.43
+      "roas": 1.22
     },
     {
       "day": "2026-11-08",
@@ -19978,16 +19978,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 116386,
-      "impressions": 833,
-      "reach": 679,
-      "clicks": 54,
-      "engagement": 39,
+      "spend": 130657,
+      "impressions": 906,
+      "reach": 736,
+      "clicks": 56,
+      "engagement": 41,
       "messages": 5,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 390000,
-      "roas": 3.35
+      "roas": 2.98
     },
     {
       "day": "2026-11-08",
@@ -20007,16 +20007,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 110217,
-      "impressions": 1688,
-      "reach": 1483,
-      "clicks": 46,
-      "engagement": 29,
+      "spend": 119138,
+      "impressions": 1831,
+      "reach": 1608,
+      "clicks": 52,
+      "engagement": 33,
       "messages": 4,
-      "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 280000,
-      "roas": 2.54
+      "leads": 4,
+      "purchases": 2,
+      "purchaseValue": 630000,
+      "roas": 5.29
     },
     {
       "day": "2026-11-08",
@@ -20036,12 +20036,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 103588,
-      "impressions": 843,
-      "reach": 499,
-      "clicks": 22,
-      "engagement": 128,
-      "messages": 1,
+      "spend": 115471,
+      "impressions": 953,
+      "reach": 539,
+      "clicks": 29,
+      "engagement": 152,
+      "messages": 2,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -20065,45 +20065,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 97740,
-      "impressions": 1170,
-      "reach": 934,
-      "clicks": 37,
-      "engagement": 332,
+      "spend": 105805,
+      "impressions": 1293,
+      "reach": 1023,
+      "clicks": 43,
+      "engagement": 371,
       "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 1175000,
-      "roas": 12.02
-    },
-    {
-      "day": "2026-11-08",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120249065224150340",
-      "name": "6.11. Heo váy bí",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120249065224150340.jpg",
-      "creative": {
-        "title": "",
-        "body": "Lãng mạn không hề đắt #bemori #gaubong #quatang #couple",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 57312,
-      "impressions": 710,
-      "reach": 620,
-      "clicks": 21,
-      "engagement": 126,
-      "messages": 3,
-      "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 1400000,
-      "roas": 24.43
+      "roas": 11.11
     },
     {
       "day": "2026-11-08",
@@ -20123,16 +20094,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 56794,
-      "impressions": 883,
-      "reach": 731,
-      "clicks": 23,
-      "engagement": 191,
+      "spend": 65479,
+      "impressions": 1046,
+      "reach": 854,
+      "clicks": 24,
+      "engagement": 226,
       "messages": 3,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
+    },
+    {
+      "day": "2026-11-08",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120249065224150340",
+      "name": "6.11. Heo váy bí",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120249065224150340.jpg",
+      "creative": {
+        "title": "",
+        "body": "Lãng mạn không hề đắt #bemori #gaubong #quatang #couple",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 64067,
+      "impressions": 813,
+      "reach": 697,
+      "clicks": 26,
+      "engagement": 147,
+      "messages": 4,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 1400000,
+      "roas": 21.85
     }
   ]
 }
