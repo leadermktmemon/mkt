@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:31:39.489Z",
+  "generatedAt": "2026-11-09T14:31:41.197Z",
   "since": "2025-01-01",
   "until": "2026-11-09",
   "accounts": [
@@ -5364,19 +5364,19 @@
       "igPurchaseValue": 0
     },
     "2026-11-08": {
-      "facebook": 1750661,
-      "instagram": 35603,
+      "facebook": 1750666,
+      "instagram": 35598,
       "messenger": 0,
       "audience_network": 0,
       "total": 1786264,
       "igPurchaseValue": 0
     },
     "2026-11-09": {
-      "facebook": 1425740,
-      "instagram": 23910,
+      "facebook": 1528273,
+      "instagram": 24534,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1449650,
+      "total": 1552807,
       "igPurchaseValue": 0
     }
   },
@@ -19667,45 +19667,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 322069,
-      "impressions": 2143,
-      "reach": 1406,
-      "clicks": 74,
-      "engagement": 49,
-      "messages": 7,
+      "spend": 338932,
+      "impressions": 2281,
+      "reach": 1483,
+      "clicks": 82,
+      "engagement": 53,
+      "messages": 8,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 610000,
-      "roas": 1.89
-    },
-    {
-      "day": "2026-11-09",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120259701695130112",
-      "name": "3.10.26.Gối Ôm Vải Đũi",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120259701695130112.jpg",
-      "creative": {
-        "title": "",
-        "body": "✨ BST GỐI ÔM VẢI ĐŨI BEMORI: MẸ SẮM 1 LẦN – BÉ ÔM NGỦ NGOAN 4 MÙA! \n\n😴 Mỗi lần nhìn con ngủ, áp trọn đôi má phúng phính vào chiếc gối ôm cả đêm, mẹ chỉ mong từng sợi vải chạm vào da con phải thật dịu nhẹ, êm mượt và an lành.\n\n💗 Hiểu được nỗi lòng ấy của mẹ, Bemori đã \"hóa phép\" chất đũi mộc tự nhiên thành BST gối ôm hình thú siêu ngộ nghĩnh:\n\n☁️ Thân gối dệt từ vải đũi mộc thoáng nhẹ, kết hợp các chi tiết hình thú bằng vải Velboa êm mềm, không lo rụng lông.\n\n☁️  Chất đũi thấm hút mồ hôi vượt trội, lại thoáng khí dịu nhẹ. Con ôm đi ngủ ở nhà hay mang tới lớp quanh 4 mùa đều dễ chịu.\n\n☁️  Vừa vặn cho đôi chân nhỏ gác lên, tạo cảm giác ấm áp như luôn có vòng tay mẹ vỗ về.\n\n 🌿 Mẹ chọn vì chuẩn lành – Con mê vì ngộ nghĩnh!\n\n📩  Inbox Bemori ngay để rinh một \"bạn đũi\" siêu cưng vỗ về giấc ngủ cho con mẹ nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 205007,
-      "impressions": 1836,
-      "reach": 1430,
-      "clicks": 89,
-      "engagement": 63,
-      "messages": 8,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "roas": 1.8
     },
     {
       "day": "2026-11-09",
@@ -19725,16 +19696,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 203909,
-      "impressions": 2997,
-      "reach": 2308,
-      "clicks": 132,
-      "engagement": 97,
-      "messages": 7,
+      "spend": 226223,
+      "impressions": 3545,
+      "reach": 2683,
+      "clicks": 150,
+      "engagement": 103,
+      "messages": 8,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 280000,
-      "roas": 1.37
+      "roas": 1.24
+    },
+    {
+      "day": "2026-11-09",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120259701695130112",
+      "name": "3.10.26.Gối Ôm Vải Đũi",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120259701695130112.jpg",
+      "creative": {
+        "title": "",
+        "body": "✨ BST GỐI ÔM VẢI ĐŨI BEMORI: MẸ SẮM 1 LẦN – BÉ ÔM NGỦ NGOAN 4 MÙA! \n\n😴 Mỗi lần nhìn con ngủ, áp trọn đôi má phúng phính vào chiếc gối ôm cả đêm, mẹ chỉ mong từng sợi vải chạm vào da con phải thật dịu nhẹ, êm mượt và an lành.\n\n💗 Hiểu được nỗi lòng ấy của mẹ, Bemori đã \"hóa phép\" chất đũi mộc tự nhiên thành BST gối ôm hình thú siêu ngộ nghĩnh:\n\n☁️ Thân gối dệt từ vải đũi mộc thoáng nhẹ, kết hợp các chi tiết hình thú bằng vải Velboa êm mềm, không lo rụng lông.\n\n☁️  Chất đũi thấm hút mồ hôi vượt trội, lại thoáng khí dịu nhẹ. Con ôm đi ngủ ở nhà hay mang tới lớp quanh 4 mùa đều dễ chịu.\n\n☁️  Vừa vặn cho đôi chân nhỏ gác lên, tạo cảm giác ấm áp như luôn có vòng tay mẹ vỗ về.\n\n 🌿 Mẹ chọn vì chuẩn lành – Con mê vì ngộ nghĩnh!\n\n📩  Inbox Bemori ngay để rinh một \"bạn đũi\" siêu cưng vỗ về giấc ngủ cho con mẹ nhé! \n--------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 216739,
+      "impressions": 1999,
+      "reach": 1541,
+      "clicks": 96,
+      "engagement": 69,
+      "messages": 9,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-11-09",
@@ -19754,16 +19754,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 191269,
-      "impressions": 2902,
-      "reach": 2398,
-      "clicks": 118,
-      "engagement": 72,
-      "messages": 12,
+      "spend": 205988,
+      "impressions": 3192,
+      "reach": 2620,
+      "clicks": 126,
+      "engagement": 76,
+      "messages": 14,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 610000,
-      "roas": 3.19
+      "roas": 2.96
     },
     {
       "day": "2026-11-09",
@@ -19783,12 +19783,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 181667,
-      "impressions": 1444,
-      "reach": 832,
-      "clicks": 43,
-      "engagement": 193,
-      "messages": 6,
+      "spend": 197861,
+      "impressions": 1531,
+      "reach": 867,
+      "clicks": 51,
+      "engagement": 203,
+      "messages": 8,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -19812,16 +19812,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 158193,
-      "impressions": 2324,
-      "reach": 1842,
-      "clicks": 51,
-      "engagement": 605,
-      "messages": 9,
+      "spend": 168350,
+      "impressions": 2448,
+      "reach": 1904,
+      "clicks": 56,
+      "engagement": 632,
+      "messages": 10,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 280000,
-      "roas": 1.77
+      "roas": 1.66
     },
     {
       "day": "2026-11-09",
@@ -19841,11 +19841,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 100687,
-      "impressions": 1291,
-      "reach": 1044,
-      "clicks": 33,
-      "engagement": 246,
+      "spend": 108120,
+      "impressions": 1397,
+      "reach": 1110,
+      "clicks": 34,
+      "engagement": 264,
       "messages": 6,
       "leads": 0,
       "purchases": 0,
@@ -19870,16 +19870,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 87004,
-      "impressions": 1525,
-      "reach": 1185,
-      "clicks": 34,
-      "engagement": 344,
+      "spend": 95084,
+      "impressions": 1622,
+      "reach": 1245,
+      "clicks": 36,
+      "engagement": 368,
       "messages": 7,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 1100000,
-      "roas": 12.64
+      "roas": 11.57
     }
   ]
 }
