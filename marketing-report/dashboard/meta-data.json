@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T14:31:41.197Z",
+  "generatedAt": "2026-11-09T15:31:41.077Z",
   "since": "2025-01-01",
   "until": "2026-11-09",
   "accounts": [
@@ -5372,11 +5372,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-09": {
-      "facebook": 1528273,
-      "instagram": 24534,
+      "facebook": 1620015,
+      "instagram": 25445,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1552807,
+      "total": 1645460,
       "igPurchaseValue": 0
     }
   },
@@ -19667,16 +19667,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 338932,
-      "impressions": 2281,
-      "reach": 1483,
-      "clicks": 82,
-      "engagement": 53,
-      "messages": 8,
+      "spend": 353681,
+      "impressions": 2419,
+      "reach": 1558,
+      "clicks": 93,
+      "engagement": 60,
+      "messages": 9,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 610000,
-      "roas": 1.8
+      "roas": 1.72
     },
     {
       "day": "2026-11-09",
@@ -19696,16 +19696,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 226223,
-      "impressions": 3545,
-      "reach": 2683,
-      "clicks": 150,
-      "engagement": 103,
+      "spend": 245046,
+      "impressions": 3889,
+      "reach": 3008,
+      "clicks": 177,
+      "engagement": 127,
       "messages": 8,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 280000,
-      "roas": 1.24
+      "roas": 1.14
     },
     {
       "day": "2026-11-09",
@@ -19725,45 +19725,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 216739,
-      "impressions": 1999,
-      "reach": 1541,
-      "clicks": 96,
-      "engagement": 69,
+      "spend": 227584,
+      "impressions": 2128,
+      "reach": 1623,
+      "clicks": 101,
+      "engagement": 72,
       "messages": 9,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
       "roas": 0
-    },
-    {
-      "day": "2026-11-09",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120260249523330112",
-      "name": "4.11.Gối ôm lạnh nhiều mẫu",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120260249523330112.jpg",
-      "creative": {
-        "title": "",
-        "body": "🤔 Hôm oi nóng, hôm trở lạnh - Mẹ chọn gối nào cho giấc ngủ con ngoan?\" \n\n🥲 Hôm nay 33 độ oi bức, mai sụt xuống 22 độ trở gió. Nhìn con trằn trọc, mẹ phân vân mãi: bật điều hòa thì sợ con lạnh, tắt đi thì con râm rấm mồ hôi lưng...\n\n✨ Gửi mẹ Bộ sưu tập Gối Kem Lạnh – \"bảo bối\" tự điều chỉnh theo nhiệt độ phòng vô cùng kỳ diệu! \n\n-  Bật điều hòa: Vải kem Lạnh lập tức mát rượi, xua tan oi nóng.\n\n- Tắt điều hòa: Gối giữ độ mềm mướt, thoáng mịn tự nhiên, ôm dịu êm không sợ bé giật mình.\n\n- Chất vải lành tính cho bé ôm ngủ mỗi ngày...\n\n👉 Mẹ lướt ảnh chọn mẫu rồi chốt liền tay cho bé nhe, BST đợt này xinh lắm, chậm chân là tiếc hụi đó ạ! 💕\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 205988,
-      "impressions": 3192,
-      "reach": 2620,
-      "clicks": 126,
-      "engagement": 76,
-      "messages": 14,
-      "leads": 2,
-      "purchases": 1,
-      "purchaseValue": 610000,
-      "roas": 2.96
     },
     {
       "day": "2026-11-09",
@@ -19783,16 +19754,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 197861,
-      "impressions": 1531,
-      "reach": 867,
-      "clicks": 51,
-      "engagement": 203,
-      "messages": 8,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "spend": 217963,
+      "impressions": 1655,
+      "reach": 931,
+      "clicks": 58,
+      "engagement": 226,
+      "messages": 9,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 360000,
+      "roas": 1.65
+    },
+    {
+      "day": "2026-11-09",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120260249523330112",
+      "name": "4.11.Gối ôm lạnh nhiều mẫu",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120260249523330112.jpg",
+      "creative": {
+        "title": "",
+        "body": "🤔 Hôm oi nóng, hôm trở lạnh - Mẹ chọn gối nào cho giấc ngủ con ngoan?\" \n\n🥲 Hôm nay 33 độ oi bức, mai sụt xuống 22 độ trở gió. Nhìn con trằn trọc, mẹ phân vân mãi: bật điều hòa thì sợ con lạnh, tắt đi thì con râm rấm mồ hôi lưng...\n\n✨ Gửi mẹ Bộ sưu tập Gối Kem Lạnh – \"bảo bối\" tự điều chỉnh theo nhiệt độ phòng vô cùng kỳ diệu! \n\n-  Bật điều hòa: Vải kem Lạnh lập tức mát rượi, xua tan oi nóng.\n\n- Tắt điều hòa: Gối giữ độ mềm mướt, thoáng mịn tự nhiên, ôm dịu êm không sợ bé giật mình.\n\n- Chất vải lành tính cho bé ôm ngủ mỗi ngày...\n\n👉 Mẹ lướt ảnh chọn mẫu rồi chốt liền tay cho bé nhe, BST đợt này xinh lắm, chậm chân là tiếc hụi đó ạ! 💕\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 213994,
+      "impressions": 3416,
+      "reach": 2807,
+      "clicks": 135,
+      "engagement": 85,
+      "messages": 16,
+      "leads": 2,
+      "purchases": 1,
+      "purchaseValue": 610000,
+      "roas": 2.85
     },
     {
       "day": "2026-11-09",
@@ -19812,16 +19812,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 168350,
-      "impressions": 2448,
-      "reach": 1904,
-      "clicks": 56,
-      "engagement": 632,
+      "spend": 173453,
+      "impressions": 2538,
+      "reach": 1979,
+      "clicks": 58,
+      "engagement": 651,
       "messages": 10,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 280000,
-      "roas": 1.66
+      "roas": 1.61
     },
     {
       "day": "2026-11-09",
@@ -19841,11 +19841,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 108120,
-      "impressions": 1397,
-      "reach": 1110,
-      "clicks": 34,
-      "engagement": 264,
+      "spend": 112902,
+      "impressions": 1485,
+      "reach": 1184,
+      "clicks": 35,
+      "engagement": 280,
       "messages": 6,
       "leads": 0,
       "purchases": 0,
@@ -19870,16 +19870,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 95084,
-      "impressions": 1622,
-      "reach": 1245,
-      "clicks": 36,
-      "engagement": 368,
+      "spend": 104005,
+      "impressions": 1739,
+      "reach": 1333,
+      "clicks": 38,
+      "engagement": 397,
       "messages": 7,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 1100000,
-      "roas": 11.57
+      "roas": 10.58
     }
   ]
 }
