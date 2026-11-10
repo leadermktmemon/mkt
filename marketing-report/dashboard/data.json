@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T03:32:56.161Z",
+  "generatedAt": "2026-11-10T04:03:48.984Z",
   "source": "lark",
   "period": {
     "days": 563,
@@ -48797,13 +48797,13 @@
         "Nguyễn Trãi": 12596500,
         "Xã Đàn": 5693500,
         "Lê Văn Sỹ": 11744750,
-        "Xuân Thủy": 4890750,
+        "Xuân Thủy": 7341000,
         "Bạch Mai": 11320000,
         "Outlet": 2208000,
         "Nguyễn Gia Trí": 6992250,
         "Nguyễn Văn Cừ": 14860500
       },
-      "storeRev": 95991250,
+      "storeRev": 98441500,
       "storeOnline": 11521500,
       "storeTarget": 108937560,
       "custIn": 200,
@@ -59600,7 +59600,7 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 3200281673,
+    "walkinRevenue": 3202731923,
     "walkinOrders": 5828,
     "marketingRevenue": 487396567,
     "marketingOrdersEst": 7274576,
@@ -59609,11 +59609,11 @@
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 3931973945,
+    "totalRevenue": 3934424195,
     "salesCount": 10969217,
     "byType": {
       "Online": 731692272,
-      "Cửa hàng": 3200281673
+      "Cửa hàng": 3202731923
     },
     "onlinePct": 19,
     "storePct": 81
