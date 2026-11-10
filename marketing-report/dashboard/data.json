@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T09:32:53.567Z",
+  "generatedAt": "2026-11-10T10:03:09.840Z",
   "source": "lark",
   "period": {
     "days": 563,
@@ -48954,13 +48954,16 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Nguyễn Gia Trí": 2735000
+        "Nguyễn Gia Trí": 2735000,
+        "Cầu Giấy": 2040000,
+        "Nguyễn Trãi": 1158000,
+        "Lê Văn Sỹ": 4215000
       },
-      "storeRev": 2735000,
+      "storeRev": 10148000,
       "storeOnline": 964000,
-      "storeTarget": 0,
-      "custIn": 2,
-      "custBuy": 2,
+      "storeTarget": 11016000,
+      "custIn": 16,
+      "custBuy": 16,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -59602,20 +59605,20 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 3202379423,
-    "walkinOrders": 5830,
+    "walkinRevenue": 3209792423,
+    "walkinOrders": 5844,
     "marketingRevenue": 488360567,
     "marketingOrdersEst": 7288964,
-    "custIn": 6144,
+    "custIn": 6158,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 3934071695,
+    "totalRevenue": 3941484695,
     "salesCount": 10969217,
     "byType": {
       "Online": 731692272,
-      "Cửa hàng": 3202379423
+      "Cửa hàng": 3209792423
     },
     "onlinePct": 19,
     "storePct": 81
@@ -59632,23 +59635,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 35845250,
-    "walkinOrders": 73,
+    "walkinRevenue": 43258250,
+    "walkinOrders": 87,
     "marketingRevenue": 13880500,
     "marketingOrdersEst": 19,
-    "custIn": 82,
-    "closeRate": 89,
-    "marketingPct": 28
+    "custIn": 96,
+    "closeRate": 91,
+    "marketingPct": 24
   },
   "weekSales": {
-    "totalRevenue": 50399250,
+    "totalRevenue": 57812250,
     "salesCount": 20,
     "byType": {
       "Online": 14554000,
-      "Cửa hàng": 35845250
+      "Cửa hàng": 43258250
     },
-    "onlinePct": 29,
-    "storePct": 71
+    "onlinePct": 25,
+    "storePct": 75
   },
   "weekBrands": {
     "Bemori": 0,
