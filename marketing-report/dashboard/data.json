@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:32:48.572Z",
+  "generatedAt": "2026-11-11T10:02:31.680Z",
   "source": "lark",
   "period": {
     "days": 564,
@@ -49008,13 +49008,14 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Nguyễn Trãi": 395000
+        "Nguyễn Trãi": 1430000,
+        "Nguyễn Gia Trí": 1580500
       },
-      "storeRev": 395000,
-      "storeOnline": 0,
-      "storeTarget": 2073600,
-      "custIn": 1,
-      "custBuy": 1,
+      "storeRev": 3010500,
+      "storeOnline": 1635000,
+      "storeTarget": 5702400,
+      "custIn": 5,
+      "custBuy": 5,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -59207,20 +59208,20 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 3193110423,
-    "walkinOrders": 5818,
-    "marketingRevenue": 481079567,
-    "marketingOrdersEst": 7289084,
-    "custIn": 6127,
+    "walkinRevenue": 3195725923,
+    "walkinOrders": 5822,
+    "marketingRevenue": 482714567,
+    "marketingOrdersEst": 7313857,
+    "custIn": 6131,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 3916596695,
+    "totalRevenue": 3919212195,
     "salesCount": 10969198,
     "byType": {
       "Online": 723486272,
-      "Cửa hàng": 3193110423
+      "Cửa hàng": 3195725923
     },
     "onlinePct": 18,
     "storePct": 82
@@ -59237,20 +59238,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 87413000,
-    "walkinOrders": 174,
-    "marketingRevenue": 17991500,
-    "marketingOrdersEst": 29,
-    "custIn": 187,
+    "walkinRevenue": 90028500,
+    "walkinOrders": 178,
+    "marketingRevenue": 19626500,
+    "marketingOrdersEst": 31,
+    "custIn": 191,
     "closeRate": 93,
-    "marketingPct": 17
+    "marketingPct": 18
   },
   "weekSales": {
-    "totalRevenue": 111326000,
+    "totalRevenue": 113941500,
     "salesCount": 38,
     "byType": {
       "Online": 23913000,
-      "Cửa hàng": 87413000
+      "Cửa hàng": 90028500
     },
     "onlinePct": 21,
     "storePct": 79
