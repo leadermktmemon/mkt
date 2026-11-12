@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T13:01:44.700Z",
+  "generatedAt": "2026-11-12T14:02:04.325Z",
   "since": "2025-01-01",
   "until": "2026-11-12",
   "accounts": [
@@ -5396,11 +5396,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-12": {
-      "facebook": 1660020,
-      "instagram": 27989,
+      "facebook": 1732546,
+      "instagram": 29382,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1688009,
+      "total": 1761928,
       "igPurchaseValue": 0
     }
   },
@@ -18096,16 +18096,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 212385,
-      "impressions": 3684,
-      "reach": 2916,
-      "clicks": 144,
-      "engagement": 90,
+      "spend": 231223,
+      "impressions": 4029,
+      "reach": 3214,
+      "clicks": 156,
+      "engagement": 100,
       "messages": 10,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 280000,
-      "roas": 1.32
+      "roas": 1.21
     },
     {
       "day": "2026-11-12",
@@ -18138,6 +18138,35 @@
     },
     {
       "day": "2026-11-12",
+      "account": "Bemori 3",
+      "bm": "BM2",
+      "id": "120260249523330112",
+      "name": "4.11.Gối ôm lạnh nhiều mẫu",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120260249523330112.jpg",
+      "creative": {
+        "title": "",
+        "body": "🤔 Hôm oi nóng, hôm trở lạnh - Mẹ chọn gối nào cho giấc ngủ con ngoan?\" \n\n🥲 Hôm nay 33 độ oi bức, mai sụt xuống 22 độ trở gió. Nhìn con trằn trọc, mẹ phân vân mãi: bật điều hòa thì sợ con lạnh, tắt đi thì con râm rấm mồ hôi lưng...\n\n✨ Gửi mẹ Bộ sưu tập Gối Kem Lạnh – \"bảo bối\" tự điều chỉnh theo nhiệt độ phòng vô cùng kỳ diệu! \n\n-  Bật điều hòa: Vải kem Lạnh lập tức mát rượi, xua tan oi nóng.\n\n- Tắt điều hòa: Gối giữ độ mềm mướt, thoáng mịn tự nhiên, ôm dịu êm không sợ bé giật mình.\n\n- Chất vải lành tính cho bé ôm ngủ mỗi ngày...\n\n👉 Mẹ lướt ảnh chọn mẫu rồi chốt liền tay cho bé nhe, BST đợt này xinh lắm, chậm chân là tiếc hụi đó ạ! 💕\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 191327,
+      "impressions": 3521,
+      "reach": 2843,
+      "clicks": 111,
+      "engagement": 77,
+      "messages": 8,
+      "leads": 4,
+      "purchases": 2,
+      "purchaseValue": 605000,
+      "roas": 3.16
+    },
+    {
+      "day": "2026-11-12",
       "account": "Pa15",
       "bm": "BM1",
       "id": "120248541413530340",
@@ -18164,35 +18193,6 @@
       "purchases": 1,
       "purchaseValue": 850000,
       "roas": 4.65
-    },
-    {
-      "day": "2026-11-12",
-      "account": "Bemori 3",
-      "bm": "BM2",
-      "id": "120260249523330112",
-      "name": "4.11.Gối ôm lạnh nhiều mẫu",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120260249523330112.jpg",
-      "creative": {
-        "title": "",
-        "body": "🤔 Hôm oi nóng, hôm trở lạnh - Mẹ chọn gối nào cho giấc ngủ con ngoan?\" \n\n🥲 Hôm nay 33 độ oi bức, mai sụt xuống 22 độ trở gió. Nhìn con trằn trọc, mẹ phân vân mãi: bật điều hòa thì sợ con lạnh, tắt đi thì con râm rấm mồ hôi lưng...\n\n✨ Gửi mẹ Bộ sưu tập Gối Kem Lạnh – \"bảo bối\" tự điều chỉnh theo nhiệt độ phòng vô cùng kỳ diệu! \n\n-  Bật điều hòa: Vải kem Lạnh lập tức mát rượi, xua tan oi nóng.\n\n- Tắt điều hòa: Gối giữ độ mềm mướt, thoáng mịn tự nhiên, ôm dịu êm không sợ bé giật mình.\n\n- Chất vải lành tính cho bé ôm ngủ mỗi ngày...\n\n👉 Mẹ lướt ảnh chọn mẫu rồi chốt liền tay cho bé nhe, BST đợt này xinh lắm, chậm chân là tiếc hụi đó ạ! 💕\n---------------------\n𝗕𝗘𝗠𝗢𝗥𝗜 | 𝗛𝗨𝗚 𝗧𝗘𝗗𝗗𝗬, 𝗨𝗡𝗕𝗢𝗫 𝗟𝗢𝗩𝗘\n☎️Hotline: 097.989.6616\n⏰Open Daily: 08:30 - 23:00\n-----------------\n🏩 Hệ thống cửa hàng BEMORI \n🐻TP.Hồ Chí Minh\n▪️ 162B Nguyễn Gia Trí, P. Thạnh Mỹ Tây\n▪️228 Lê Văn Sỹ, P.Tân Sơn Hòa\n🐻TP.Hà Nội\n▪️ 388 Xã Đàn, P.Văn Miếu\n▪️275 Bạch Mai, P.Bạch Mai\n▪️368 Nguyễn Trãi, P.Đại Mỗ\n▪️411 Nguyễn Văn Cừ, P.Bồ Đề\n▪️161 Xuân Thủy, P.Cầu Giấy\n▪️104 -106 Cầu Giấy, P.Nghĩa Đô\n▪️1028 Đường Láng, P.Láng",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 180025,
-      "impressions": 3286,
-      "reach": 2688,
-      "clicks": 101,
-      "engagement": 70,
-      "messages": 7,
-      "leads": 4,
-      "purchases": 2,
-      "purchaseValue": 605000,
-      "roas": 3.36
     },
     {
       "day": "2026-11-12",
@@ -18241,16 +18241,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 159925,
-      "impressions": 1777,
-      "reach": 1390,
+      "spend": 161590,
+      "impressions": 1789,
+      "reach": 1408,
       "clicks": 60,
       "engagement": 42,
       "messages": 2,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 610000,
-      "roas": 3.81
+      "roas": 3.77
     },
     {
       "day": "2026-11-12",
