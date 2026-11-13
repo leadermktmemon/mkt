@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T16:01:36.715Z",
+  "generatedAt": "2026-11-13T17:01:38.393Z",
   "since": "2025-01-01",
   "until": "2026-11-13",
   "accounts": [
@@ -5404,11 +5404,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-13": {
-      "facebook": 1784342,
-      "instagram": 47848,
+      "facebook": 1828131,
+      "instagram": 48272,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1832190,
+      "total": 1876403,
       "igPurchaseValue": 0
     }
   },
@@ -17582,16 +17582,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 265791,
-      "impressions": 1282,
-      "reach": 915,
-      "clicks": 50,
-      "engagement": 41,
+      "spend": 269694,
+      "impressions": 1313,
+      "reach": 932,
+      "clicks": 52,
+      "engagement": 45,
       "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 375000,
-      "roas": 1.41
+      "roas": 1.39
     },
     {
       "day": "2026-11-13",
@@ -17611,16 +17611,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 258679,
-      "impressions": 2894,
-      "reach": 1920,
-      "clicks": 86,
-      "engagement": 85,
+      "spend": 264816,
+      "impressions": 2988,
+      "reach": 1990,
+      "clicks": 89,
+      "engagement": 88,
       "messages": 6,
       "leads": 4,
       "purchases": 1,
       "purchaseValue": 182500,
-      "roas": 0.71
+      "roas": 0.69
     },
     {
       "day": "2026-11-13",
@@ -17640,16 +17640,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 245764,
-      "impressions": 3550,
-      "reach": 2804,
-      "clicks": 165,
-      "engagement": 112,
+      "spend": 250379,
+      "impressions": 3605,
+      "reach": 2846,
+      "clicks": 167,
+      "engagement": 114,
       "messages": 12,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 1214000,
-      "roas": 4.94
+      "roas": 4.85
     },
     {
       "day": "2026-11-13",
@@ -17669,16 +17669,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 203131,
-      "impressions": 1438,
-      "reach": 1184,
-      "clicks": 56,
-      "engagement": 37,
+      "spend": 205711,
+      "impressions": 1509,
+      "reach": 1247,
+      "clicks": 61,
+      "engagement": 42,
       "messages": 7,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 395000,
-      "roas": 1.94
+      "roas": 1.92
     },
     {
       "day": "2026-11-13",
@@ -17698,41 +17698,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 188958,
-      "impressions": 2135,
-      "reach": 1588,
-      "clicks": 52,
-      "engagement": 497,
+      "spend": 194243,
+      "impressions": 2215,
+      "reach": 1650,
+      "clicks": 54,
+      "engagement": 519,
       "messages": 4,
-      "leads": 0,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
-    },
-    {
-      "day": "2026-11-13",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120248477805350340",
-      "name": "9.10.BST Hoa Video",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120248477805350340.jpg",
-      "creative": {
-        "title": "",
-        "body": "Mỗi ngày một bó hoa, mỗi bó hoa mang theo lời nhắn riêng #bemori #gaubong #hoa #quatang #couple",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 184914,
-      "impressions": 1272,
-      "reach": 781,
-      "clicks": 29,
-      "engagement": 190,
-      "messages": 1,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -17756,16 +17727,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 182911,
-      "impressions": 2093,
-      "reach": 1541,
-      "clicks": 65,
-      "engagement": 40,
+      "spend": 192695,
+      "impressions": 2166,
+      "reach": 1595,
+      "clicks": 71,
+      "engagement": 44,
       "messages": 9,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 2670000,
-      "roas": 14.6
+      "roas": 13.86
+    },
+    {
+      "day": "2026-11-13",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120248477805350340",
+      "name": "9.10.BST Hoa Video",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120248477805350340.jpg",
+      "creative": {
+        "title": "",
+        "body": "Mỗi ngày một bó hoa, mỗi bó hoa mang theo lời nhắn riêng #bemori #gaubong #hoa #quatang #couple",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 188929,
+      "impressions": 1315,
+      "reach": 809,
+      "clicks": 30,
+      "engagement": 197,
+      "messages": 1,
+      "leads": 0,
+      "purchases": 0,
+      "purchaseValue": 0,
+      "roas": 0
     },
     {
       "day": "2026-11-13",
@@ -17785,9 +17785,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 127621,
-      "impressions": 551,
-      "reach": 443,
+      "spend": 128448,
+      "impressions": 559,
+      "reach": 453,
       "clicks": 40,
       "engagement": 31,
       "messages": 4,
@@ -17814,11 +17814,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 89545,
-      "impressions": 1322,
-      "reach": 1103,
-      "clicks": 27,
-      "engagement": 292,
+      "spend": 90667,
+      "impressions": 1343,
+      "reach": 1117,
+      "clicks": 29,
+      "engagement": 302,
       "messages": 3,
       "leads": 0,
       "purchases": 0,
@@ -17843,16 +17843,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 85137,
-      "impressions": 1100,
-      "reach": 878,
+      "spend": 89165,
+      "impressions": 1134,
+      "reach": 912,
       "clicks": 25,
-      "engagement": 208,
+      "engagement": 212,
       "messages": 3,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 515000,
-      "roas": 6.05
+      "roas": 5.78
     }
   ]
 }
