@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T18:32:19.164Z",
+  "generatedAt": "2026-11-15T19:02:08.141Z",
   "source": "lark",
   "period": {
     "days": 569,
@@ -49022,7 +49022,7 @@
       "storeRev": 77076500,
       "storeOnline": 12790000,
       "storeTarget": 77194800,
-      "custIn": 148,
+      "custIn": 149,
       "custBuy": 142,
       "memonRev": 0,
       "leadRaw": 0,
@@ -49076,7 +49076,7 @@
       "storeRev": 67248000,
       "storeOnline": 15597250,
       "storeTarget": 71008800,
-      "custIn": 147,
+      "custIn": 148,
       "custBuy": 139,
       "memonRev": 0,
       "leadRaw": 0,
@@ -49130,7 +49130,7 @@
       "storeRev": 70049250,
       "storeOnline": 13669500,
       "storeTarget": 103617600,
-      "custIn": 161,
+      "custIn": 162,
       "custBuy": 148,
       "memonRev": 0,
       "leadRaw": 0,
@@ -49173,7 +49173,7 @@
         "Nguyễn Văn Cừ": 8589000,
         "Xã Đàn": 8328000,
         "Cầu Giấy": 11529000,
-        "Nguyễn Trãi": 9334500,
+        "Nguyễn Trãi": 11309500,
         "Xuân Thủy": 9934000,
         "Nguyễn Gia Trí": 5663250,
         "Lê Văn Sỹ": 12096500,
@@ -49181,7 +49181,7 @@
         "Láng": 8162000,
         "Bạch Mai": 6998500
       },
-      "storeRev": 84344250,
+      "storeRev": 86319250,
       "storeOnline": 12762000,
       "storeTarget": 105278400,
       "custIn": 184,
@@ -49238,7 +49238,7 @@
       "storeRev": 108134286,
       "storeOnline": 20510214,
       "storeTarget": 125368200,
-      "custIn": 187,
+      "custIn": 190,
       "custBuy": 181,
       "memonRev": 0,
       "leadRaw": 0,
@@ -58122,20 +58122,20 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 3104814509,
+    "walkinRevenue": 3106789509,
     "walkinOrders": 5739,
     "marketingRevenue": 470201265,
     "marketingOrdersEst": 8396451,
-    "custIn": 6038,
+    "custIn": 6044,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 3723194281,
+    "totalRevenue": 3725169281,
     "salesCount": 10969025,
     "byType": {
       "Online": 618379772,
-      "Cửa hàng": 3104814509
+      "Cửa hàng": 3106789509
     },
     "onlinePct": 17,
     "storePct": 83
