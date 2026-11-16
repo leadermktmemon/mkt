@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T12:32:32.156Z",
+  "generatedAt": "2026-11-16T13:02:14.601Z",
   "source": "lark",
   "period": {
     "days": 569,
@@ -49280,15 +49280,16 @@
       "store": {
         "Cầu Giấy": 4769000,
         "Nguyễn Gia Trí": 1790000,
+        "Nguyễn Văn Cừ": 1115000,
         "Lê Văn Sỹ": 7444250,
         "Xã Đàn": 1065000,
         "Nguyễn Trãi": 1057500
       },
-      "storeRev": 16125750,
+      "storeRev": 17240750,
       "storeOnline": 2520000,
-      "storeTarget": 17910000,
-      "custIn": 23,
-      "custBuy": 23,
+      "storeTarget": 21360000,
+      "custIn": 25,
+      "custBuy": 25,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -57860,20 +57861,20 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 3122915259,
-    "walkinOrders": 5762,
+    "walkinRevenue": 3124030259,
+    "walkinOrders": 5764,
     "marketingRevenue": 472721265,
     "marketingOrdersEst": 8441451,
-    "custIn": 6067,
+    "custIn": 6069,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 3741295031,
+    "totalRevenue": 3742410031,
     "salesCount": 10969025,
     "byType": {
       "Online": 618379772,
-      "Cửa hàng": 3122915259
+      "Cửa hàng": 3124030259
     },
     "onlinePct": 17,
     "storePct": 83
@@ -57890,20 +57891,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 16125750,
-    "walkinOrders": 23,
+    "walkinRevenue": 17240750,
+    "walkinOrders": 25,
     "marketingRevenue": 2520000,
     "marketingOrdersEst": 0,
-    "custIn": 23,
+    "custIn": 25,
     "closeRate": 100,
-    "marketingPct": 14
+    "marketingPct": 13
   },
   "weekSales": {
-    "totalRevenue": 16125750,
+    "totalRevenue": 17240750,
     "salesCount": 0,
     "byType": {
       "Online": 0,
-      "Cửa hàng": 16125750
+      "Cửa hàng": 17240750
     },
     "onlinePct": 0,
     "storePct": 100
