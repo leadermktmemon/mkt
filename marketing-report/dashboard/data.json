@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T13:32:24.458Z",
+  "generatedAt": "2026-11-17T14:01:59.002Z",
   "source": "lark",
   "period": {
     "days": 570,
@@ -49333,14 +49333,15 @@
       "bc": {},
       "store": {
         "Lê Văn Sỹ": 3432500,
+        "Nguyễn Gia Trí": 485000,
         "Xã Đàn": 480000,
         "Outlet": 975000
       },
-      "storeRev": 4887500,
-      "storeOnline": 0,
-      "storeTarget": 5400000,
-      "custIn": 12,
-      "custBuy": 10,
+      "storeRev": 5372500,
+      "storeOnline": 1980000,
+      "storeTarget": 8856000,
+      "custIn": 13,
+      "custBuy": 11,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -57431,20 +57432,20 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 3032310959,
-    "walkinOrders": 5625,
-    "marketingRevenue": 453964465,
-    "marketingOrdersEst": 8253899,
-    "custIn": 5917,
+    "walkinRevenue": 3032795959,
+    "walkinOrders": 5626,
+    "marketingRevenue": 455944465,
+    "marketingOrdersEst": 8289899,
+    "custIn": 5918,
     "closeRate": 95,
     "marketingPct": 13
   },
   "sales": {
-    "totalRevenue": 3632326981,
+    "totalRevenue": 3632811981,
     "salesCount": 10968988,
     "byType": {
       "Online": 600016022,
-      "Cửa hàng": 3032310959
+      "Cửa hàng": 3032795959
     },
     "onlinePct": 17,
     "storePct": 83
@@ -57461,20 +57462,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 80062750,
-    "walkinOrders": 154,
-    "marketingRevenue": 14137000,
-    "marketingOrdersEst": 19,
-    "custIn": 161,
+    "walkinRevenue": 80547750,
+    "walkinOrders": 155,
+    "marketingRevenue": 16117000,
+    "marketingOrdersEst": 22,
+    "custIn": 162,
     "closeRate": 96,
-    "marketingPct": 15
+    "marketingPct": 17
   },
   "weekSales": {
-    "totalRevenue": 106404250,
+    "totalRevenue": 106889250,
     "salesCount": 36,
     "byType": {
       "Online": 26341500,
-      "Cửa hàng": 80062750
+      "Cửa hàng": 80547750
     },
     "onlinePct": 25,
     "storePct": 75
