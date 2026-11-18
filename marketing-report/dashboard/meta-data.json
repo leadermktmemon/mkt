@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T20:31:37.339Z",
+  "generatedAt": "2026-11-18T21:31:32.895Z",
   "since": "2025-01-01",
   "until": "2026-11-18",
   "accounts": [
@@ -5444,11 +5444,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-18": {
-      "facebook": 1507505,
-      "instagram": 34387,
+      "facebook": 1509737,
+      "instagram": 34399,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1541892,
+      "total": 1544136,
       "igPurchaseValue": 0
     }
   },
@@ -15389,8 +15389,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 222457,
-      "impressions": 2999,
+      "spend": 222778,
+      "impressions": 3000,
       "reach": 2293,
       "clicks": 137,
       "engagement": 88,
@@ -15418,8 +15418,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 206000,
-      "impressions": 3054,
+      "spend": 206406,
+      "impressions": 3057,
       "reach": 2146,
       "clicks": 136,
       "engagement": 132,
@@ -15427,7 +15427,7 @@
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 1190000,
-      "roas": 5.78
+      "roas": 5.77
     },
     {
       "day": "2026-11-18",
@@ -15476,8 +15476,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 183446,
-      "impressions": 1891,
+      "spend": 183480,
+      "impressions": 1892,
       "reach": 1364,
       "clicks": 49,
       "engagement": 18,
@@ -15505,8 +15505,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 183191,
-      "impressions": 3557,
+      "spend": 183287,
+      "impressions": 3558,
       "reach": 2940,
       "clicks": 139,
       "engagement": 97,
@@ -15534,8 +15534,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 92615,
-      "impressions": 1290,
+      "spend": 92678,
+      "impressions": 1291,
       "reach": 1014,
       "clicks": 17,
       "engagement": 190,
@@ -15563,8 +15563,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 90216,
-      "impressions": 1585,
+      "spend": 90229,
+      "impressions": 1586,
       "reach": 1288,
       "clicks": 20,
       "engagement": 304,
@@ -15592,8 +15592,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 87670,
-      "impressions": 858,
+      "spend": 88973,
+      "impressions": 860,
       "reach": 702,
       "clicks": 83,
       "engagement": 62,
