@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:31:37.551Z",
+  "generatedAt": "2026-11-19T22:31:29.317Z",
   "since": "2025-01-01",
   "until": "2026-11-19",
   "accounts": [
@@ -5452,11 +5452,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-19": {
-      "facebook": 1618227,
-      "instagram": 55300,
+      "facebook": 1619974,
+      "instagram": 55292,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1673527,
+      "total": 1675266,
       "igPurchaseValue": 239000
     }
   },
@@ -14759,8 +14759,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 254498,
-      "impressions": 4266,
+      "spend": 254517,
+      "impressions": 4267,
       "reach": 3422,
       "clicks": 179,
       "engagement": 115,
@@ -14788,16 +14788,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 219869,
-      "impressions": 2851,
-      "reach": 2012,
+      "spend": 220053,
+      "impressions": 2853,
+      "reach": 2014,
       "clicks": 113,
       "engagement": 105,
       "messages": 9,
       "leads": 6,
       "purchases": 3,
       "purchaseValue": 929000,
-      "roas": 4.23
+      "roas": 4.22
     },
     {
       "day": "2026-11-19",
@@ -14817,9 +14817,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 197508,
-      "impressions": 3583,
-      "reach": 3107,
+      "spend": 197562,
+      "impressions": 3587,
+      "reach": 3109,
       "clicks": 140,
       "engagement": 98,
       "messages": 13,
@@ -14875,9 +14875,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 184564,
-      "impressions": 1853,
-      "reach": 1253,
+      "spend": 186034,
+      "impressions": 1855,
+      "reach": 1258,
       "clicks": 69,
       "engagement": 32,
       "messages": 10,
@@ -14904,11 +14904,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 114010,
-      "impressions": 1600,
+      "spend": 114022,
+      "impressions": 1601,
       "reach": 1280,
       "clicks": 34,
-      "engagement": 363,
+      "engagement": 364,
       "messages": 4,
       "leads": 0,
       "purchases": 0,
