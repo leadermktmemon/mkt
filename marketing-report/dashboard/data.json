@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T10:32:46.559Z",
+  "generatedAt": "2026-11-19T11:02:12.198Z",
   "source": "lark",
   "period": {
     "days": 572,
@@ -49429,9 +49429,9 @@
     {
       "day": "2026-11-19",
       "online": {},
-      "onlineRev": 0,
+      "onlineRev": 22626000,
       "onlineRev31": 0,
-      "onlineOrders": 0,
+      "onlineOrders": 37,
       "onlineProducts": 0,
       "onlineTarget": 0,
       "fbAds": 0,
@@ -56643,9 +56643,9 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 437947749,
-    "onlineOrders": 719,
-    "onlineAov": 609107,
+    "onlineRevenue": 460573749,
+    "onlineOrders": 756,
+    "onlineAov": 609225,
     "channels": []
   },
   "store": {
@@ -56658,14 +56658,14 @@
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2586349208,
-    "salesCount": 719,
+    "totalRevenue": 2608975208,
+    "salesCount": 756,
     "byType": {
-      "Online": 437947749,
+      "Online": 460573749,
       "Cửa hàng": 2148401459
     },
-    "onlinePct": 17,
-    "storePct": 83
+    "onlinePct": 18,
+    "storePct": 82
   },
   "brands": {
     "Bemori": 0,
@@ -56673,29 +56673,29 @@
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 64853250,
-    "onlineOrders": 76,
-    "onlineAov": 853332,
+    "onlineRevenue": 87479250,
+    "onlineOrders": 113,
+    "onlineAov": 774153,
     "channels": []
   },
   "weekStore": {
     "walkinRevenue": 240444500,
     "walkinOrders": 465,
     "marketingRevenue": 48320000,
-    "marketingOrdersEst": 57,
+    "marketingOrdersEst": 62,
     "custIn": 487,
     "closeRate": 95,
     "marketingPct": 17
   },
   "weekSales": {
-    "totalRevenue": 305297750,
-    "salesCount": 76,
+    "totalRevenue": 327923750,
+    "salesCount": 113,
     "byType": {
-      "Online": 64853250,
+      "Online": 87479250,
       "Cửa hàng": 240444500
     },
-    "onlinePct": 21,
-    "storePct": 79
+    "onlinePct": 27,
+    "storePct": 73
   },
   "weekBrands": {
     "Bemori": 0,
