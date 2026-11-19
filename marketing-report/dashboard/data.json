@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T09:35:05.575Z",
+  "generatedAt": "2026-11-19T10:02:14.594Z",
   "source": "lark",
   "period": {
     "days": 572,
@@ -49441,13 +49441,15 @@
       "bc": {},
       "store": {
         "Nguyễn Trãi": 1320000,
-        "Xã Đàn": 6189000
+        "Xã Đàn": 6189000,
+        "Lê Văn Sỹ": 5520500,
+        "Nguyễn Gia Trí": 4272500
       },
-      "storeRev": 7509000,
-      "storeOnline": 0,
-      "storeTarget": 4989600,
-      "custIn": 11,
-      "custBuy": 11,
+      "storeRev": 17302000,
+      "storeOnline": 2489000,
+      "storeTarget": 13125600,
+      "custIn": 29,
+      "custBuy": 28,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -56645,20 +56647,20 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 2130435959,
-    "walkinOrders": 3973,
-    "marketingRevenue": 357125215,
-    "marketingOrdersEst": 586,
-    "custIn": 4185,
+    "walkinRevenue": 2140228959,
+    "walkinOrders": 3990,
+    "marketingRevenue": 359614215,
+    "marketingOrdersEst": 590,
+    "custIn": 4203,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2568383708,
+    "totalRevenue": 2578176708,
     "salesCount": 719,
     "byType": {
       "Online": 437947749,
-      "Cửa hàng": 2130435959
+      "Cửa hàng": 2140228959
     },
     "onlinePct": 17,
     "storePct": 83
@@ -56675,23 +56677,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 222479000,
-    "walkinOrders": 433,
-    "marketingRevenue": 45568500,
-    "marketingOrdersEst": 53,
-    "custIn": 453,
+    "walkinRevenue": 232272000,
+    "walkinOrders": 450,
+    "marketingRevenue": 48057500,
+    "marketingOrdersEst": 56,
+    "custIn": 471,
     "closeRate": 96,
     "marketingPct": 17
   },
   "weekSales": {
-    "totalRevenue": 287332250,
+    "totalRevenue": 297125250,
     "salesCount": 76,
     "byType": {
       "Online": 64853250,
-      "Cửa hàng": 222479000
+      "Cửa hàng": 232272000
     },
-    "onlinePct": 23,
-    "storePct": 77
+    "onlinePct": 22,
+    "storePct": 78
   },
   "weekBrands": {
     "Bemori": 0,
