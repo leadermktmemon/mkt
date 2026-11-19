@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T16:31:33.813Z",
+  "generatedAt": "2026-11-19T17:31:39.293Z",
   "since": "2025-01-01",
   "until": "2026-11-19",
   "accounts": [
@@ -5452,11 +5452,11 @@
       "igPurchaseValue": 0
     },
     "2026-11-19": {
-      "facebook": 1591413,
-      "instagram": 55176,
+      "facebook": 1613755,
+      "instagram": 55320,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1646589,
+      "total": 1669075,
       "igPurchaseValue": 239000
     }
   },
@@ -14730,16 +14730,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 288158,
-      "impressions": 1958,
-      "reach": 1277,
-      "clicks": 72,
-      "engagement": 47,
+      "spend": 292723,
+      "impressions": 2019,
+      "reach": 1303,
+      "clicks": 74,
+      "engagement": 48,
       "messages": 7,
       "leads": 10,
       "purchases": 5,
       "purchaseValue": 3528000,
-      "roas": 12.24
+      "roas": 12.05
     },
     {
       "day": "2026-11-19",
@@ -14759,11 +14759,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 250137,
-      "impressions": 4209,
-      "reach": 3384,
-      "clicks": 175,
-      "engagement": 114,
+      "spend": 253598,
+      "impressions": 4260,
+      "reach": 3421,
+      "clicks": 179,
+      "engagement": 115,
       "messages": 13,
       "leads": 2,
       "purchases": 0,
@@ -14788,16 +14788,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 215430,
-      "impressions": 2788,
-      "reach": 1977,
-      "clicks": 112,
+      "spend": 219194,
+      "impressions": 2836,
+      "reach": 2005,
+      "clicks": 113,
       "engagement": 105,
       "messages": 9,
       "leads": 6,
       "purchases": 3,
       "purchaseValue": 929000,
-      "roas": 4.31
+      "roas": 4.24
     },
     {
       "day": "2026-11-19",
@@ -14817,16 +14817,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 195147,
-      "impressions": 3533,
-      "reach": 3040,
-      "clicks": 138,
-      "engagement": 96,
-      "messages": 12,
+      "spend": 197421,
+      "impressions": 3575,
+      "reach": 3099,
+      "clicks": 140,
+      "engagement": 98,
+      "messages": 13,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 350000,
-      "roas": 1.79
+      "roas": 1.77
     },
     {
       "day": "2026-11-19",
@@ -14846,16 +14846,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 190937,
-      "impressions": 1694,
-      "reach": 1059,
-      "clicks": 46,
-      "engagement": 252,
+      "spend": 194548,
+      "impressions": 1740,
+      "reach": 1086,
+      "clicks": 48,
+      "engagement": 264,
       "messages": 9,
       "leads": 2,
       "purchases": 2,
       "purchaseValue": 564000,
-      "roas": 2.95
+      "roas": 2.9
     },
     {
       "day": "2026-11-19",
@@ -14875,12 +14875,12 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 182613,
-      "impressions": 1810,
-      "reach": 1229,
-      "clicks": 67,
-      "engagement": 31,
-      "messages": 9,
+      "spend": 183833,
+      "impressions": 1841,
+      "reach": 1249,
+      "clicks": 69,
+      "engagement": 32,
+      "messages": 10,
       "leads": 0,
       "purchases": 0,
       "purchaseValue": 0,
@@ -14904,11 +14904,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 112539,
-      "impressions": 1578,
-      "reach": 1277,
+      "spend": 113678,
+      "impressions": 1596,
+      "reach": 1280,
       "clicks": 34,
-      "engagement": 356,
+      "engagement": 362,
       "messages": 4,
       "leads": 0,
       "purchases": 0,
@@ -14933,11 +14933,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 109025,
-      "impressions": 1517,
-      "reach": 1171,
+      "spend": 110904,
+      "impressions": 1535,
+      "reach": 1184,
       "clicks": 27,
-      "engagement": 202,
+      "engagement": 206,
       "messages": 2,
       "leads": 0,
       "purchases": 0,
