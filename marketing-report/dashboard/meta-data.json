@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T19:31:35.866Z",
+  "generatedAt": "2026-11-20T20:31:38.283Z",
   "since": "2025-01-01",
   "until": "2026-11-20",
   "accounts": [
@@ -5460,11 +5460,11 @@
       "igPurchaseValue": 239000
     },
     "2026-11-20": {
-      "facebook": 1425050,
-      "instagram": 33282,
+      "facebook": 1425273,
+      "instagram": 33285,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1458332,
+      "total": 1458558,
       "igPurchaseValue": 530000
     }
   },
@@ -14274,16 +14274,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 189508,
-      "impressions": 3321,
-      "reach": 2722,
+      "spend": 189542,
+      "impressions": 3322,
+      "reach": 2723,
       "clicks": 137,
       "engagement": 91,
       "messages": 9,
       "leads": 6,
       "purchases": 2,
       "purchaseValue": 670000,
-      "roas": 3.54
+      "roas": 3.53
     },
     {
       "day": "2026-11-20",
@@ -14303,8 +14303,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 185339,
-      "impressions": 2298,
+      "spend": 185453,
+      "impressions": 2300,
       "reach": 1615,
       "clicks": 86,
       "engagement": 94,
@@ -14332,10 +14332,10 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 182014,
-      "impressions": 1674,
+      "spend": 182051,
+      "impressions": 1675,
       "reach": 1162,
-      "clicks": 47,
+      "clicks": 48,
       "engagement": 29,
       "messages": 9,
       "leads": 4,
@@ -14361,8 +14361,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 163548,
-      "impressions": 1380,
+      "spend": 163570,
+      "impressions": 1381,
       "reach": 798,
       "clicks": 16,
       "engagement": 194,
@@ -14390,8 +14390,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 96798,
-      "impressions": 1190,
+      "spend": 96909,
+      "impressions": 1192,
       "reach": 887,
       "clicks": 22,
       "engagement": 271,
