@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T02:32:26.889Z",
+  "generatedAt": "2026-11-21T03:02:07.284Z",
   "source": "lark",
   "period": {
     "days": 574,
@@ -49503,9 +49503,9 @@
         "Nguyễn Gia Trí": 8310500,
         "Xuân Thủy": 9784500,
         "Outlet": 5177500,
-        "Bạch Mai": 10053000
+        "Bạch Mai": 10393000
       },
-      "storeRev": 98678250,
+      "storeRev": 99018250,
       "storeOnline": 20380500,
       "storeTarget": 109822400,
       "custIn": 204,
@@ -55978,7 +55978,7 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 2096792819,
+    "walkinRevenue": 2097132819,
     "walkinOrders": 3952,
     "marketingRevenue": 359329155,
     "marketingOrdersEst": 586,
@@ -55987,11 +55987,11 @@
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2536359568,
+    "totalRevenue": 2536699568,
     "salesCount": 717,
     "byType": {
       "Online": 439566749,
-      "Cửa hàng": 2096792819
+      "Cửa hàng": 2097132819
     },
     "onlinePct": 17,
     "storePct": 83
@@ -56008,7 +56008,7 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 423125810,
+    "walkinRevenue": 423465810,
     "walkinOrders": 817,
     "marketingRevenue": 84822940,
     "marketingOrdersEst": 122,
@@ -56017,11 +56017,11 @@
     "marketingPct": 17
   },
   "weekSales": {
-    "totalRevenue": 546627060,
+    "totalRevenue": 546967060,
     "salesCount": 177,
     "byType": {
       "Online": 123501250,
-      "Cửa hàng": 423125810
+      "Cửa hàng": 423465810
     },
     "onlinePct": 23,
     "storePct": 77
