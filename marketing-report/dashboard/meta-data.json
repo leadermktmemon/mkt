@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T12:31:34.731Z",
+  "generatedAt": "2026-11-22T13:31:33.959Z",
   "since": "2025-01-01",
   "until": "2026-11-22",
   "accounts": [
@@ -5468,19 +5468,19 @@
       "igPurchaseValue": 530000
     },
     "2026-11-21": {
-      "facebook": 1063530,
+      "facebook": 1063540,
       "instagram": 25288,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1088818,
+      "total": 1088828,
       "igPurchaseValue": 0
     },
     "2026-11-22": {
-      "facebook": 1125543,
-      "instagram": 24421,
+      "facebook": 1220892,
+      "instagram": 25554,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1149964,
+      "total": 1246446,
       "igPurchaseValue": 250000
     }
   },
@@ -13188,9 +13188,9 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 138576,
-      "impressions": 1430,
-      "reach": 959,
+      "spend": 138586,
+      "impressions": 1431,
+      "reach": 961,
       "clicks": 24,
       "engagement": 188,
       "messages": 2,
@@ -13246,16 +13246,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 240532,
-      "impressions": 1665,
-      "reach": 1058,
-      "clicks": 64,
-      "engagement": 39,
-      "messages": 6,
+      "spend": 260754,
+      "impressions": 1842,
+      "reach": 1155,
+      "clicks": 70,
+      "engagement": 42,
+      "messages": 7,
       "leads": 0,
       "purchases": 1,
       "purchaseValue": 250000,
-      "roas": 1.04
+      "roas": 0.96
     },
     {
       "day": "2026-11-22",
@@ -13275,16 +13275,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 195610,
-      "impressions": 3051,
-      "reach": 2577,
-      "clicks": 119,
-      "engagement": 71,
+      "spend": 219685,
+      "impressions": 3479,
+      "reach": 2884,
+      "clicks": 128,
+      "engagement": 77,
       "messages": 9,
       "leads": 2,
-      "purchases": 0,
-      "purchaseValue": 0,
-      "roas": 0
+      "purchases": 1,
+      "purchaseValue": 325000,
+      "roas": 1.48
     },
     {
       "day": "2026-11-22",
@@ -13304,45 +13304,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 178598,
-      "impressions": 1368,
-      "reach": 840,
+      "spend": 188102,
+      "impressions": 1483,
+      "reach": 889,
       "clicks": 26,
-      "engagement": 197,
+      "engagement": 218,
       "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 605000,
-      "roas": 3.39
-    },
-    {
-      "day": "2026-11-22",
-      "account": "Pa15",
-      "bm": "BM1",
-      "id": "120249014735660340",
-      "name": "4.11. hải cẩu mochi-voi-vịt",
-      "status": "ACTIVE",
-      "objective": "OUTCOME_ENGAGEMENT",
-      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
-      "thumb": "thumbs/120249014735660340.jpg",
-      "creative": {
-        "title": "",
-        "body": "Chính là cảm giác này #bemori #gaubong #quatang #couple",
-        "cta": "MESSAGE_PAGE",
-        "linkUrl": "",
-        "imageUrl": "",
-        "images": []
-      },
-      "spend": 155184,
-      "impressions": 1894,
-      "reach": 1297,
-      "clicks": 70,
-      "engagement": 158,
-      "messages": 7,
-      "leads": 8,
-      "purchases": 2,
-      "purchaseValue": 810000,
-      "roas": 5.22
+      "roas": 3.22
     },
     {
       "day": "2026-11-22",
@@ -13362,16 +13333,45 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 152814,
-      "impressions": 2384,
-      "reach": 1860,
-      "clicks": 107,
-      "engagement": 78,
-      "messages": 9,
+      "spend": 171851,
+      "impressions": 2707,
+      "reach": 2082,
+      "clicks": 125,
+      "engagement": 87,
+      "messages": 10,
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 605000,
-      "roas": 3.96
+      "roas": 3.52
+    },
+    {
+      "day": "2026-11-22",
+      "account": "Pa15",
+      "bm": "BM1",
+      "id": "120249014735660340",
+      "name": "4.11. hải cẩu mochi-voi-vịt",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "optGoal": "MESSAGING_PURCHASE_CONVERSION",
+      "thumb": "thumbs/120249014735660340.jpg",
+      "creative": {
+        "title": "",
+        "body": "Chính là cảm giác này #bemori #gaubong #quatang #couple",
+        "cta": "MESSAGE_PAGE",
+        "linkUrl": "",
+        "imageUrl": "",
+        "images": []
+      },
+      "spend": 162098,
+      "impressions": 2003,
+      "reach": 1366,
+      "clicks": 71,
+      "engagement": 164,
+      "messages": 7,
+      "leads": 8,
+      "purchases": 2,
+      "purchaseValue": 810000,
+      "roas": 5
     },
     {
       "day": "2026-11-22",
@@ -13391,16 +13391,16 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 147310,
-      "impressions": 1452,
-      "reach": 1034,
-      "clicks": 48,
-      "engagement": 25,
+      "spend": 158612,
+      "impressions": 1563,
+      "reach": 1098,
+      "clicks": 52,
+      "engagement": 27,
       "messages": 6,
       "leads": 2,
       "purchases": 1,
       "purchaseValue": 690000,
-      "roas": 4.68
+      "roas": 4.35
     },
     {
       "day": "2026-11-22",
@@ -13420,11 +13420,11 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 79916,
-      "impressions": 963,
-      "reach": 709,
+      "spend": 85344,
+      "impressions": 1018,
+      "reach": 746,
       "clicks": 24,
-      "engagement": 223,
+      "engagement": 238,
       "messages": 4,
       "leads": 0,
       "purchases": 0,
