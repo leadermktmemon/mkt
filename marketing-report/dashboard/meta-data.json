@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T20:31:30.956Z",
+  "generatedAt": "2026-11-23T21:31:31.426Z",
   "since": "2025-01-01",
   "until": "2026-11-23",
   "accounts": [
@@ -5484,11 +5484,11 @@
       "igPurchaseValue": 250000
     },
     "2026-11-23": {
-      "facebook": 1477845,
-      "instagram": 24390,
+      "facebook": 1478675,
+      "instagram": 24392,
       "messenger": 0,
       "audience_network": 0,
-      "total": 1502235,
+      "total": 1503067,
       "igPurchaseValue": 0
     }
   },
@@ -12819,8 +12819,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 311956,
-      "impressions": 2726,
+      "spend": 312061,
+      "impressions": 2729,
       "reach": 1711,
       "clicks": 71,
       "engagement": 42,
@@ -12848,8 +12848,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 261625,
-      "impressions": 3916,
+      "spend": 262196,
+      "impressions": 3919,
       "reach": 3252,
       "clicks": 154,
       "engagement": 93,
@@ -12857,7 +12857,7 @@
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 890000,
-      "roas": 3.4
+      "roas": 3.39
     },
     {
       "day": "2026-11-23",
@@ -12906,8 +12906,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 208438,
-      "impressions": 4185,
+      "spend": 208467,
+      "impressions": 4187,
       "reach": 3480,
       "clicks": 140,
       "engagement": 100,
@@ -12935,8 +12935,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 194554,
-      "impressions": 2860,
+      "spend": 194638,
+      "impressions": 2861,
       "reach": 1975,
       "clicks": 122,
       "engagement": 132,
@@ -12944,7 +12944,7 @@
       "leads": 4,
       "purchases": 2,
       "purchaseValue": 1850000,
-      "roas": 9.51
+      "roas": 9.5
     },
     {
       "day": "2026-11-23",
@@ -12993,8 +12993,8 @@
         "imageUrl": "",
         "images": []
       },
-      "spend": 112024,
-      "impressions": 1384,
+      "spend": 112067,
+      "impressions": 1385,
       "reach": 948,
       "clicks": 28,
       "engagement": 291,
