@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T10:36:20.544Z",
+  "generatedAt": "2026-11-23T11:01:54.556Z",
   "source": "lark",
   "period": {
     "days": 576,
@@ -49645,9 +49645,9 @@
     {
       "day": "2026-11-23",
       "online": {},
-      "onlineRev": 0,
+      "onlineRev": 15589000,
       "onlineRev31": 0,
-      "onlineOrders": 0,
+      "onlineOrders": 24,
       "onlineProducts": 0,
       "onlineTarget": 0,
       "fbAds": 0,
@@ -49658,14 +49658,15 @@
       "store": {
         "Xã Đàn": 287500,
         "Láng": 2139000,
+        "Lê Văn Sỹ": 436500,
         "Nguyễn Trãi": 1915000,
         "Cầu Giấy": 925000
       },
-      "storeRev": 5266500,
+      "storeRev": 5703000,
       "storeOnline": 600000,
-      "storeTarget": 12825200,
-      "custIn": 10,
-      "custBuy": 10,
+      "storeTarget": 15106160,
+      "custIn": 12,
+      "custBuy": 12,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55272,29 +55273,29 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 444392999,
-    "onlineOrders": 727,
-    "onlineAov": 611270,
+    "onlineRevenue": 459981999,
+    "onlineOrders": 751,
+    "onlineAov": 612493,
     "channels": []
   },
   "store": {
-    "walkinRevenue": 2131682096,
-    "walkinOrders": 4036,
+    "walkinRevenue": 2132118596,
+    "walkinOrders": 4038,
     "marketingRevenue": 353997906,
-    "marketingOrdersEst": 579,
-    "custIn": 4265,
+    "marketingOrdersEst": 578,
+    "custIn": 4267,
     "closeRate": 95,
     "marketingPct": 14
   },
   "sales": {
-    "totalRevenue": 2576075095,
-    "salesCount": 727,
+    "totalRevenue": 2592100595,
+    "salesCount": 751,
     "byType": {
-      "Online": 444392999,
-      "Cửa hàng": 2131682096
+      "Online": 459981999,
+      "Cửa hàng": 2132118596
     },
-    "onlinePct": 17,
-    "storePct": 83
+    "onlinePct": 18,
+    "storePct": 82
   },
   "brands": {
     "Bemori": 0,
@@ -55302,29 +55303,29 @@
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 0,
-    "onlineOrders": 0,
-    "onlineAov": 0,
+    "onlineRevenue": 15589000,
+    "onlineOrders": 24,
+    "onlineAov": 649542,
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 5266500,
-    "walkinOrders": 10,
+    "walkinRevenue": 5703000,
+    "walkinOrders": 12,
     "marketingRevenue": 600000,
-    "marketingOrdersEst": 0,
-    "custIn": 10,
+    "marketingOrdersEst": 1,
+    "custIn": 12,
     "closeRate": 100,
     "marketingPct": 10
   },
   "weekSales": {
-    "totalRevenue": 5266500,
-    "salesCount": 0,
+    "totalRevenue": 21292000,
+    "salesCount": 24,
     "byType": {
-      "Online": 0,
-      "Cửa hàng": 5266500
+      "Online": 15589000,
+      "Cửa hàng": 5703000
     },
-    "onlinePct": 0,
-    "storePct": 100
+    "onlinePct": 73,
+    "storePct": 27
   },
   "weekBrands": {
     "Bemori": 0,
