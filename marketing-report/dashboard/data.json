@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T05:32:37.799Z",
+  "generatedAt": "2026-11-26T06:02:00.540Z",
   "source": "lark",
   "period": {
     "days": 579,
@@ -49807,9 +49807,9 @@
     {
       "day": "2026-11-26",
       "online": {},
-      "onlineRev": 0,
+      "onlineRev": 1719000,
       "onlineRev31": 0,
-      "onlineOrders": 0,
+      "onlineOrders": 4,
       "onlineProducts": 0,
       "onlineTarget": 0,
       "fbAds": 0,
@@ -55719,25 +55719,25 @@
   ],
   "memonBills": [],
   "marketing": {
-    "onlineRevenue": 445383999,
-    "onlineOrders": 722,
-    "onlineAov": 616875,
+    "onlineRevenue": 447102999,
+    "onlineOrders": 726,
+    "onlineAov": 615844,
     "channels": []
   },
   "store": {
     "walkinRevenue": 2131908697,
     "walkinOrders": 4061,
     "marketingRevenue": 364513608,
-    "marketingOrdersEst": 591,
+    "marketingOrdersEst": 592,
     "custIn": 4295,
     "closeRate": 95,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2577292696,
-    "salesCount": 722,
+    "totalRevenue": 2579011696,
+    "salesCount": 726,
     "byType": {
-      "Online": 445383999,
+      "Online": 447102999,
       "Cửa hàng": 2131908697
     },
     "onlinePct": 17,
@@ -55749,25 +55749,25 @@
     "Memon": 0
   },
   "weekMarketing": {
-    "onlineRevenue": 50959500,
-    "onlineOrders": 81,
-    "onlineAov": 629130,
+    "onlineRevenue": 52678500,
+    "onlineOrders": 85,
+    "onlineAov": 619747,
     "channels": []
   },
   "weekStore": {
     "walkinRevenue": 183743751,
     "walkinOrders": 361,
     "marketingRevenue": 38650702,
-    "marketingOrdersEst": 61,
+    "marketingOrdersEst": 62,
     "custIn": 384,
     "closeRate": 94,
     "marketingPct": 17
   },
   "weekSales": {
-    "totalRevenue": 234703251,
-    "salesCount": 81,
+    "totalRevenue": 236422251,
+    "salesCount": 85,
     "byType": {
-      "Online": 50959500,
+      "Online": 52678500,
       "Cửa hàng": 183743751
     },
     "onlinePct": 22,
