@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T09:32:49.096Z",
+  "generatedAt": "2026-11-26T10:02:22.802Z",
   "source": "lark",
   "period": {
     "days": 579,
@@ -49818,13 +49818,16 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Nguyễn Trãi": 2655000
+        "Lê Văn Sỹ": 779000,
+        "Nguyễn Gia Trí": 1285000,
+        "Nguyễn Trãi": 2655000,
+        "Xã Đàn": 1030000
       },
-      "storeRev": 2655000,
-      "storeOnline": 0,
-      "storeTarget": 1996800,
-      "custIn": 4,
-      "custBuy": 4,
+      "storeRev": 5749000,
+      "storeOnline": 445000,
+      "storeTarget": 9304320,
+      "custIn": 15,
+      "custBuy": 13,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55727,20 +55730,20 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 2134563697,
-    "walkinOrders": 4065,
-    "marketingRevenue": 364513608,
-    "marketingOrdersEst": 592,
-    "custIn": 4299,
+    "walkinRevenue": 2137657697,
+    "walkinOrders": 4074,
+    "marketingRevenue": 364958608,
+    "marketingOrdersEst": 593,
+    "custIn": 4310,
     "closeRate": 95,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2581666696,
+    "totalRevenue": 2584760696,
     "salesCount": 726,
     "byType": {
       "Online": 447102999,
-      "Cửa hàng": 2134563697
+      "Cửa hàng": 2137657697
     },
     "onlinePct": 17,
     "storePct": 83
@@ -55757,20 +55760,20 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 186398751,
-    "walkinOrders": 365,
-    "marketingRevenue": 38650702,
-    "marketingOrdersEst": 62,
-    "custIn": 388,
+    "walkinRevenue": 189492751,
+    "walkinOrders": 374,
+    "marketingRevenue": 39095702,
+    "marketingOrdersEst": 63,
+    "custIn": 399,
     "closeRate": 94,
     "marketingPct": 17
   },
   "weekSales": {
-    "totalRevenue": 239077251,
+    "totalRevenue": 242171251,
     "salesCount": 85,
     "byType": {
       "Online": 52678500,
-      "Cửa hàng": 186398751
+      "Cửa hàng": 189492751
     },
     "onlinePct": 22,
     "storePct": 78
