@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T15:32:12.680Z",
+  "generatedAt": "2026-11-27T16:02:04.531Z",
   "source": "lark",
   "period": {
     "days": 580,
@@ -49872,18 +49872,22 @@
       "brands": {},
       "bc": {},
       "store": {
-        "Xuân Thủy": 150000,
-        "Nguyễn Gia Trí": 4708000,
+        "Láng": 5554000,
+        "Nguyễn Văn Cừ": 7634500,
+        "Cầu Giấy": 5246500,
+        "Xuân Thủy": 3410000,
+        "Nguyễn Trãi": 7695500,
+        "Nguyễn Gia Trí": 7252000,
         "Outlet": 870000,
-        "Lê Văn Sỹ": 4728500,
-        "Xã Đàn": 800000,
-        "Bạch Mai": 4971500
+        "Lê Văn Sỹ": 7943000,
+        "Xã Đàn": 3122500,
+        "Bạch Mai": 5196500
       },
-      "storeRev": 16228000,
-      "storeOnline": 5109000,
-      "storeTarget": 33015840,
-      "custIn": 35,
-      "custBuy": 36,
+      "storeRev": 53924500,
+      "storeOnline": 18264500,
+      "storeTarget": 75153200,
+      "custIn": 115,
+      "custBuy": 114,
       "memonRev": 0,
       "leadRaw": 0,
       "leadQual": 0,
@@ -55912,23 +55916,23 @@
     "channels": []
   },
   "store": {
-    "walkinRevenue": 2142653702,
-    "walkinOrders": 4091,
-    "marketingRevenue": 371134358,
-    "marketingOrdersEst": 601,
-    "custIn": 4323,
+    "walkinRevenue": 2180350202,
+    "walkinOrders": 4169,
+    "marketingRevenue": 384289858,
+    "marketingOrdersEst": 622,
+    "custIn": 4403,
     "closeRate": 95,
     "marketingPct": 15
   },
   "sales": {
-    "totalRevenue": 2597830201,
+    "totalRevenue": 2635526701,
     "salesCount": 737,
     "byType": {
       "Online": 455176499,
-      "Cửa hàng": 2142653702
+      "Cửa hàng": 2180350202
     },
-    "onlinePct": 18,
-    "storePct": 82
+    "onlinePct": 17,
+    "storePct": 83
   },
   "brands": {
     "Bemori": 0,
@@ -55942,23 +55946,23 @@
     "channels": []
   },
   "weekStore": {
-    "walkinRevenue": 251674256,
-    "walkinOrders": 497,
-    "marketingRevenue": 51597202,
-    "marketingOrdersEst": 88,
-    "custIn": 525,
+    "walkinRevenue": 289370756,
+    "walkinOrders": 575,
+    "marketingRevenue": 64752702,
+    "marketingOrdersEst": 110,
+    "custIn": 605,
     "closeRate": 95,
-    "marketingPct": 17
+    "marketingPct": 18
   },
   "weekSales": {
-    "totalRevenue": 318604756,
+    "totalRevenue": 356301256,
     "salesCount": 114,
     "byType": {
       "Online": 66930500,
-      "Cửa hàng": 251674256
+      "Cửa hàng": 289370756
     },
-    "onlinePct": 21,
-    "storePct": 79
+    "onlinePct": 19,
+    "storePct": 81
   },
   "weekBrands": {
     "Bemori": 0,
